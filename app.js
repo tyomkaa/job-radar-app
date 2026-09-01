@@ -58,8 +58,9 @@ function renderStats() {
   const replies = records.filter(r => responseStatuses().has(r.status)).length;
   const interviews = records.filter(r => r.status === 'INTERVIEW' || r.status === 'OFFER').length;
   const offers = records.filter(r => r.status === 'OFFER').length;
-  statsEl.innerHTML = stat('FOUND', jobs.length) + stat('NEW', unseen) + stat('APPLIED', records.length) +
-    stat('REPLIES', replies) + stat('INTERVIEWS', interviews) + stat('OFFERS', offers);
+  const emails = jobs.filter(j => j.contact_email).length;
+  statsEl.innerHTML = stat('FOUND', jobs.length) + stat('NEW', unseen) + stat('EMAILS', emails) +
+    stat('APPLIED', records.length) + stat('REPLIES', replies) + stat('INTERVIEWS', interviews) + stat('OFFERS', offers);
 }
 
 function renderTrackerSummary() {
@@ -112,6 +113,7 @@ function getVisibleJobs() {
     const rec = tracker[jobKey(j)];
     if (activeFilter === 'ALL') return true;
     if (activeFilter === 'STRONG' || activeFilter === 'MEDIUM') return j.match_level === activeFilter;
+    if (activeFilter === 'EMAIL') return !!j.contact_email;
     if (activeFilter === 'NEW') return !seen.has(j.id) && !rec;
     if (activeFilter === 'SAVED') return saved.has(j.id);
     if (activeFilter === 'APPLIED') return !!rec;
@@ -132,7 +134,7 @@ function recordSnapshot(job, status='APPLIED') {
       salary: job.salary, seniority: job.seniority, required_skills: job.required_skills,
       summary: job.summary, summary_tasks: job.summary_tasks, summary_expectations: job.summary_expectations,
       summary_offers: job.summary_offers, contact_email: job.contact_email,
-      published_at: job.published_at,
+      contact_email_kind: job.contact_email_kind, published_at: job.published_at,
     }
   };
 }
@@ -185,7 +187,9 @@ function renderQuickSummary(node, job) {
 
 function emailSubject(job) { return `Application – ${job.title}`; }
 function emailBody(job) {
-  return `Dear Hiring Team,\n\nI am reaching out regarding the ${job.title} position at ${job.company}. I saw the vacancy and would like to apply.\n\nPlease find my CV attached for your consideration. I would be happy to discuss my background and the role in more detail.\n\nBest regards`;
+  const generic = job.contact_email_kind === 'company_contact';
+  const forwarding = generic ? '\n\nIf this is not the correct recruitment inbox, I would appreciate it if you could forward my application to the appropriate person.' : '';
+  return `Dear Hiring Team,\n\nI am reaching out regarding the ${job.title} position at ${job.company}. I saw the vacancy and would like to apply.${forwarding}\n\nPlease find my CV attached for your consideration. I would be happy to discuss my background and the role in more detail.\n\nBest regards`;
 }
 function prepareEmail(job) {
   if (!job.contact_email) return;
@@ -235,7 +239,12 @@ function render() {
     const emailAction = node.querySelector('.email-action');
     if (job.contact_email) {
       emailAction.hidden = false;
+      const generic = job.contact_email_kind === 'company_contact';
+      node.querySelector('.email-found').textContent = generic ? '✓ Official company email found' : '✓ Recruitment email found';
       node.querySelector('.email-address').textContent = job.contact_email;
+      node.querySelector('.email-hint').textContent = generic
+        ? 'General official company inbox, not necessarily recruitment-specific. Review the email before sending and attach your CV.'
+        : 'Opens your mail app with To, Subject and Body filled in. Attach your CV before sending.';
       node.querySelector('.prepare-email').addEventListener('click', () => prepareEmail(job));
     }
 
@@ -318,5 +327,9 @@ document.querySelector('#importHistory').addEventListener('change', e => {
   if (e.target.files?.[0]) importHistory(e.target.files[0]);
   e.target.value = '';
 });
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(() => {});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js?v=5', {updateViaCache:'none'})
+    .then(registration => registration.update())
+    .catch(() => {});
+}
 loadJobs();
