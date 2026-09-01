@@ -9,8 +9,11 @@ let jobs = [];
 let meta = {};
 let activeFilter = 'ALL';
 let sortMode = 'BEST';
+let lastAutoRefresh = 0;
 
 const TRACKER_KEY = 'jobRadarApplicationTrackerV1';
+const AUTO_REFRESH_MS = 5 * 60 * 1000;
+const FOCUS_REFRESH_MIN_MS = 30 * 1000;
 
 function readSet(key) {
   try { return new Set(JSON.parse(localStorage.getItem(key) || '[]')); }
@@ -194,8 +197,9 @@ function emailBody(job) {
 function prepareEmail(job) {
   if (!job.contact_email) return;
   markSeen(job.id);
+  render();
   const href = `mailto:${job.contact_email}?subject=${encodeURIComponent(emailSubject(job))}&body=${encodeURIComponent(emailBody(job))}`;
-  window.location.href = href;
+  setTimeout(() => { window.location.href = href; }, 0);
 }
 
 function render() {
@@ -217,7 +221,10 @@ function render() {
 
     const openJob = node.querySelector('.open-job');
     openJob.href = job.apply_url || job.url;
-    openJob.addEventListener('click', () => markSeen(job.id));
+    openJob.addEventListener('click', () => {
+      markSeen(job.id);
+      setTimeout(render, 0);
+    });
 
     node.querySelector('.chips').innerHTML = [
       job.location || 'Location unknown', job.work_mode || 'Mode unknown',
@@ -237,8 +244,10 @@ function render() {
     node.querySelector('.meta-extra').innerHTML = extra.join('');
 
     const emailAction = node.querySelector('.email-action');
-    if (job.contact_email) {
-      emailAction.hidden = false;
+    const hasEmail = Boolean(job.contact_email);
+    emailAction.hidden = !hasEmail;
+    emailAction.style.display = hasEmail ? 'grid' : 'none';
+    if (hasEmail) {
       const generic = job.contact_email_kind === 'company_contact';
       node.querySelector('.email-found').textContent = generic ? '✓ Official company email found' : '✓ Recruitment email found';
       node.querySelector('.email-address').textContent = job.contact_email;
@@ -289,17 +298,26 @@ function render() {
   }
 }
 
-async function loadJobs() {
-  jobsEl.innerHTML = '<div class="loading">Refreshing Job Radar…</div>';
+async function loadJobs(silent=false) {
+  if (!silent) jobsEl.innerHTML = '<div class="loading">Refreshing Job Radar…</div>';
   try {
     const response = await fetch(`data/jobs.json?ts=${Date.now()}`, {cache:'no-store'});
     const payload = await response.json();
     meta = payload.meta || {};
     jobs = payload.jobs || [];
+    lastAutoRefresh = Date.now();
     render();
   } catch {
-    jobsEl.innerHTML = '<div class="empty">Could not load jobs yet.</div>';
+    if (!silent && !jobs.length) jobsEl.innerHTML = '<div class="empty">Could not load jobs yet.</div>';
   }
+}
+
+async function refreshWhenActive(force=false) {
+  if (document.hidden) return;
+  render();
+  const now = Date.now();
+  if (!force && now - lastAutoRefresh < FOCUS_REFRESH_MIN_MS) return;
+  await loadJobs(true);
 }
 
 function exportHistory() {
@@ -321,15 +339,23 @@ document.querySelectorAll('.filter').forEach(button => button.addEventListener('
   button.classList.add('active'); activeFilter = button.dataset.filter; render();
 }));
 document.querySelector('#sortSelect').addEventListener('change', e => { sortMode = e.target.value; render(); });
-document.querySelector('#refreshBtn').addEventListener('click', loadJobs);
+document.querySelector('#refreshBtn').addEventListener('click', () => loadJobs(false));
 document.querySelector('#exportHistory').addEventListener('click', exportHistory);
 document.querySelector('#importHistory').addEventListener('change', e => {
   if (e.target.files?.[0]) importHistory(e.target.files[0]);
   e.target.value = '';
 });
+
+window.addEventListener('pageshow', () => refreshWhenActive(false));
+window.addEventListener('focus', () => refreshWhenActive(false));
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) refreshWhenActive(false);
+});
+setInterval(() => refreshWhenActive(true), AUTO_REFRESH_MS);
+
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js?v=5', {updateViaCache:'none'})
+  navigator.serviceWorker.register('service-worker.js?v=6', {updateViaCache:'none'})
     .then(registration => registration.update())
     .catch(() => {});
 }
-loadJobs();
+loadJobs(false);
