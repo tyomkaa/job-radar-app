@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed_version": "1",
-    "generated_at": "2026-09-01T19:31:07.901232+00:00",
-    "found": 3005,
+    "generated_at": "2026-09-01T20:10:34.119693+00:00",
+    "found": 3007,
     "accepted": 41,
     "sources": {
       "justjoin.it": {
@@ -15,7 +15,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 641
+        "fetched": 643
       }
     }
   },
