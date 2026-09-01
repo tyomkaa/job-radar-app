@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v5';
-const SHELL=['./','./index.html','./app.js?v=5','./styles.css?v=5','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v6';
+const SHELL=['./','./index.html','./app.js?v=6','./styles.css?v=6','./manifest.webmanifest','./icons/icon-192.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(
