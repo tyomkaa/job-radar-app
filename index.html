@@ -10,7 +10,7 @@
 <title>Job Radar</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
 <header class="topbar"><div><div class="eyebrow">PERSONAL JOB RADAR</div><h1>Job Radar</h1></div><button id="refreshBtn" class="icon-btn" aria-label="Refresh">↻</button></header>
@@ -18,11 +18,59 @@
 <section id="stats" class="stats"></section>
 <section id="trackerSummary" class="tracker-summary"></section>
 <section id="sourceHealth" class="source-health"></section>
-<section class="utility-row"><div id="lastUpdated" class="last-updated">Updated —</div><label class="sort-control">Sort<select id="sortSelect"><option value="BEST">Best match</option><option value="NEWEST">Newest</option></select></label></section>
-<nav class="filters" aria-label="Job filters"><button class="filter active" data-filter="ALL">All</button><button class="filter" data-filter="STRONG">Strong</button><button class="filter" data-filter="MEDIUM">Medium</button><button class="filter" data-filter="NEW">New</button><button class="filter" data-filter="SAVED">Saved</button><button class="filter" data-filter="APPLIED">Applied</button><button class="filter" data-filter="REPLIED">Replies</button></nav>
-<details class="data-tools"><summary>Application history & backup</summary><p>Your application history is stored only in this browser on this device. It is not uploaded to GitHub.</p><div class="data-actions"><button id="exportHistory" class="secondary">Export history</button><label class="secondary file-label">Import history<input id="importHistory" type="file" accept="application/json,.json"></label></div></details>
+<section class="utility-row">
+  <div id="lastUpdated" class="last-updated">Updated —</div>
+  <label class="sort-control">Sort
+    <select id="sortSelect"><option value="BEST">Best match</option><option value="NEWEST">Newest</option></select>
+  </label>
+</section>
+<nav class="filters" aria-label="Job filters">
+<button class="filter active" data-filter="ALL">All</button>
+<button class="filter" data-filter="STRONG">Strong</button>
+<button class="filter" data-filter="MEDIUM">Medium</button>
+<button class="filter" data-filter="EMAIL">Email</button>
+<button class="filter" data-filter="NEW">New</button>
+<button class="filter" data-filter="SAVED">Saved</button>
+<button class="filter" data-filter="APPLIED">Applied</button>
+<button class="filter" data-filter="REPLIED">Replies</button>
+</nav>
+<details class="data-tools">
+<summary>Application history & backup</summary>
+<p>Your application history is stored only in this browser on this device. It is not uploaded to GitHub.</p>
+<div class="data-actions"><button id="exportHistory" class="secondary">Export history</button><label class="secondary file-label">Import history<input id="importHistory" type="file" accept="application/json,.json"></label></div>
+</details>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
 </main>
-<template id="jobTemplate"><article class="job-card"><div class="card-head"><div><div class="score-row"><span class="score"></span><span class="level"></span><span class="application-badge"></span></div><h2 class="title"></h2><div class="company"></div></div><button class="save-btn" aria-label="Save job">☆</button></div><div class="chips"></div><div class="meta-extra"></div><details class="summary-wrap"><summary>Quick summary</summary><div class="quick-summary structured-summary"><section class="summary-block"><h3>What you'll do</h3><ul class="summary-tasks"></ul></section><section class="summary-block"><h3>What they expect</h3><ul class="summary-expectations"></ul></section><section class="summary-block"><h3>What they offer</h3><ul class="summary-offers"></ul></section></div><p class="summary summary-fallback"></p></details><div class="email-action" hidden><div class="email-copy"><div class="email-found">✓ Recruitment email found</div><div class="email-address"></div><div class="email-hint">Opens your mail app with To, Subject and Body filled in. Attach your CV before sending.</div></div><button class="prepare-email primary">Prepare email</button></div><details class="tracking-wrap"><summary>Application tracking</summary><div class="tracking-grid"><label>Status<select class="track-status"><option value="">Not applied</option><option value="APPLIED">Applied</option><option value="REPLIED">Reply received</option><option value="INTERVIEW">Interview</option><option value="REJECTED">Rejected</option><option value="OFFER">Offer</option><option value="WITHDRAWN">Withdrawn</option><option value="NO_RESPONSE">No response</option></select></label><label>Applied on<input class="track-applied-date" type="date"></label><label>Application channel<select class="track-channel"><option value="">Not set</option><option>Email</option><option>Company site</option><option>Job board</option><option>LinkedIn</option><option>Recruiter</option><option>Other</option></select></label><label>Response date<input class="track-response-date" type="date"></label><label class="track-notes-label">Response / notes<textarea class="track-notes" rows="3" placeholder="Interview, salary, recruiter reply..."></textarea></label></div><div class="track-actions"><button class="primary save-tracking">Save tracking</button><button class="secondary clear-tracking">Clear</button></div></details><div class="actions"><a class="primary open-job" target="_blank" rel="noopener">Open job</a><button class="secondary quick-applied">Mark applied</button></div></article></template>
-<script src="app.js"></script>
+<template id="jobTemplate">
+<article class="job-card">
+<div class="card-head"><div><div class="score-row"><span class="score"></span><span class="level"></span><span class="application-badge"></span></div><h2 class="title"></h2><div class="company"></div></div><button class="save-btn" aria-label="Save job">☆</button></div>
+<div class="chips"></div><div class="meta-extra"></div>
+<details class="summary-wrap">
+<summary>Quick summary</summary>
+<div class="quick-summary structured-summary">
+  <section class="summary-block"><h3>What you'll do</h3><ul class="summary-tasks"></ul></section>
+  <section class="summary-block"><h3>What they expect</h3><ul class="summary-expectations"></ul></section>
+  <section class="summary-block"><h3>What they offer</h3><ul class="summary-offers"></ul></section>
+</div>
+<p class="summary summary-fallback"></p>
+</details>
+<div class="email-action" hidden>
+  <div class="email-copy"><div class="email-found">✓ Recruitment email found</div><div class="email-address"></div><div class="email-hint">Opens your mail app with To, Subject and Body filled in. Attach your CV before sending.</div></div>
+  <button class="prepare-email primary">Prepare email</button>
+</div>
+<details class="tracking-wrap">
+<summary>Application tracking</summary>
+<div class="tracking-grid">
+<label>Status<select class="track-status"><option value="">Not applied</option><option value="APPLIED">Applied</option><option value="REPLIED">Reply received</option><option value="INTERVIEW">Interview</option><option value="REJECTED">Rejected</option><option value="OFFER">Offer</option><option value="WITHDRAWN">Withdrawn</option><option value="NO_RESPONSE">No response</option></select></label>
+<label>Applied on<input class="track-applied-date" type="date"></label>
+<label>Application channel<select class="track-channel"><option value="">Not set</option><option>Email</option><option>Company site</option><option>Job board</option><option>LinkedIn</option><option>Recruiter</option><option>Other</option></select></label>
+<label>Response date<input class="track-response-date" type="date"></label>
+<label class="track-notes-label">Response / notes<textarea class="track-notes" rows="3" placeholder="Interview, salary, recruiter reply..."></textarea></label>
+</div>
+<div class="track-actions"><button class="primary save-tracking">Save tracking</button><button class="secondary clear-tracking">Clear</button></div>
+</details>
+<div class="actions"><a class="primary open-job" target="_blank" rel="noopener">Open job</a><button class="secondary quick-applied">Mark applied</button></div>
+</article>
+</template>
+<script src="app.js?v=5"></script>
 </body></html>
