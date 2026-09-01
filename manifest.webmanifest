@@ -1,9 +1,11 @@
 {
+  "id": "/job-radar-app/",
   "name": "Job Radar",
   "short_name": "Job Radar",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/job-radar-app/?source=pwa",
+  "scope": "/job-radar-app/",
   "display": "standalone",
+  "display_override": ["standalone"],
   "background_color": "#0c0e12",
   "theme_color": "#111318",
   "icons": [
