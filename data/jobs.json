@@ -1,8 +1,8 @@
 {
   "meta": {
-    "feed_version": "2",
-    "generated_at": "2026-09-01T20:50:35.014596+00:00",
-    "found": 3011,
+    "feed_version": "3",
+    "generated_at": "2026-09-01T21:25:41.159715+00:00",
+    "found": 3016,
     "accepted": 41,
     "sources": {
       "justjoin.it": {
@@ -15,7 +15,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 647
+        "fetched": 654
       }
     }
   },
@@ -149,7 +149,8 @@
         "Grupa Cofidis została utworzona w 1982 r"
       ],
       "required_skills": [],
-      "contact_email": "kariera@cofidis.pl"
+      "contact_email": "kariera@cofidis.pl",
+      "contact_email_kind": "recruitment"
     },
     {
       "id": "2e7132f1816adce5",
@@ -180,7 +181,9 @@
         "Równe szanse: KPH jest pracodawcą oferującym równe szanse i zobowiązuje się do zwalczania wszelkiej dyskryminacji",
         "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna O nas Kampania Przeciw Homofobii jest jedną z wiodących organizacji działających na rzecz społeczności LGBT+ w Polsce"
       ],
-      "required_skills": []
+      "required_skills": [],
+      "contact_email": "info@kph.org.pl",
+      "contact_email_kind": "company_contact"
     },
     {
       "id": "56ebbf2335615d4b",
@@ -214,7 +217,8 @@
         "You can choose your benefits on our Benefit Platform e.g.: cinema/theater tickets and discounts, shopping cards and many more"
       ],
       "required_skills": [],
-      "contact_email": "career@huawei.com"
+      "contact_email": "career@huawei.com",
+      "contact_email_kind": "recruitment"
     },
     {
       "id": "39b8268dcc8a3007",
