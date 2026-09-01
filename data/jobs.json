@@ -1,8 +1,8 @@
 {
   "meta": {
-    "feed_version": "1",
-    "generated_at": "2026-09-01T20:10:34.119693+00:00",
-    "found": 3007,
+    "feed_version": "2",
+    "generated_at": "2026-09-01T20:50:35.014596+00:00",
+    "found": 3011,
     "accepted": 41,
     "sources": {
       "justjoin.it": {
@@ -15,7 +15,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 643
+        "fetched": 647
       }
     }
   },
@@ -35,7 +35,22 @@
       "published_at": "2026-09-01T14:13:24.153Z",
       "fit_score": 88,
       "match_level": "STRONG",
-      "summary": "Zakres: Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp. Zarządzanie profilami firmy w mediach społecznościowych Tworzenie i publikowanie treści na potrzeby stron internetowych, social media, kampanii oraz innych kanałów… Wymagania: Doświadczenie lub praktyczna wiedza z zakresu digital marketingu Dobra orientacja w funkcjonowaniu stron internetowych i narzędzi wykorzystywanych w marketingu internetowym Umiejętność współpracy z firmami IT…",
+      "summary": "What you'll do: Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy; Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp; Zarządzanie profilami firmy w mediach społecznościowych | What they expect: Doświadczenie lub praktyczna wiedza z zakresu digital marketingu; Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy; Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami | What they offer: Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów; Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds; Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych",
+      "summary_tasks": [
+        "Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy",
+        "Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp",
+        "Zarządzanie profilami firmy w mediach społecznościowych"
+      ],
+      "summary_expectations": [
+        "Doświadczenie lub praktyczna wiedza z zakresu digital marketingu",
+        "Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy",
+        "Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami"
+      ],
+      "summary_offers": [
+        "Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów",
+        "Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds",
+        "Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych"
+      ],
       "required_skills": []
     },
     {
@@ -53,7 +68,22 @@
       "published_at": "2026-08-24T08:21:12.613Z",
       "fit_score": 87,
       "match_level": "STRONG",
-      "summary": "Responsibilities: BI Modernization & Dashboard Optimization: Support the migration, refactoring, and performance tuning of existing business dashboards and reporting tools in BI Tools. Data Automation & Pipeline Support: Assist in streamlining daily analytical workflows, automating repetitive data extracts, and transitioning local… Requirements: Currently pursuing a Bachelor's or Master's degree in Economics, Finance, Mathematics, Data Science, or another quantitative/STEM-related field. Strong analytical mindset with a solid foundation in quantitative…",
+      "summary": "What you'll do: BI Modernization & Dashboard Optimization; Support the migration, refactoring, and performance tuning of existing business dashboards and reporting tools in BI Tools; Data Automation & Pipeline | What they expect: Proficient in Microsoft Excel (advanced formulas, pivot tables, and clean spreadsheet design); Fluent English communication skills (written and verbal) are essential; Practical familiarity with AI tools to accelerate data cleaning, research, and drafting presentations | What they offer: Flexible working hours easily adaptable to your university schedule; Hybrid work model (modern office in Warsaw + remote flexibility); Benefits sharing the costs of sports activities private medical care life insurance remote work opportunities flexible working time fruits corporate products",
+      "summary_tasks": [
+        "BI Modernization & Dashboard Optimization",
+        "Support the migration, refactoring, and performance tuning of existing business dashboards and reporting tools in BI Tools",
+        "Data Automation & Pipeline"
+      ],
+      "summary_expectations": [
+        "Proficient in Microsoft Excel (advanced formulas, pivot tables, and clean spreadsheet design)",
+        "Fluent English communication skills (written and verbal) are essential",
+        "Practical familiarity with AI tools to accelerate data cleaning, research, and drafting presentations"
+      ],
+      "summary_offers": [
+        "Flexible working hours easily adaptable to your university schedule",
+        "Hybrid work model (modern office in Warsaw + remote flexibility)",
+        "Benefits sharing the costs of sports activities private medical care life insurance remote work opportunities flexible working time fruits corporate products"
+      ],
       "required_skills": []
     },
     {
@@ -71,7 +101,22 @@
       "published_at": "2026-08-25T12:49:09.207Z",
       "fit_score": 83,
       "match_level": "STRONG",
-      "summary": "Zakres: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity. Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce. Przygotowywać analizy… Wymagania: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym. Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe. Potrafisz redagować teksty i…",
+      "summary": "What you'll do: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity; Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce; Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków | What they expect: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym; Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe; Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO | What they offer: Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami; Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać",
+      "summary_tasks": [
+        "Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity",
+        "Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce",
+        "Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków"
+      ],
+      "summary_expectations": [
+        "Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym",
+        "Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe",
+        "Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO"
+      ],
+      "summary_offers": [
+        "Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami",
+        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
+        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać"
+      ],
       "required_skills": []
     },
     {
@@ -89,8 +134,22 @@
       "published_at": "2026-08-11T13:19:06.01Z",
       "fit_score": 81,
       "match_level": "STRONG",
-      "summary": "Zakres: samodzielna realizacja kampanii e-mail, SMS: dobór grup klientów w zależności od kanału oraz rodzaju komunikacji, tworzenie treści, koordynacja prac nad grafiką (e-mail), ustawianie kampanii monitorowanie i analiza efektywności kampanii redakcja treści marketingowych – tworzenie tekstów do mailingów produktowych… Wymagania: Umiejętność analitycznego myślenia i wyciągania wniosków w celu optymalizacji działań znajomość tematyki e-mail marketingu, e-commerce i CRM strategiczne myślenie i nastawienie na wynik bardzo dobra znajomość języka…",
-      "required_skills": []
+      "summary": "What you'll do: Zarządzanie serwisem www marki pod względem wizualnym i treści; wprowadzanie/ koordynowanie zmian; Obsługa narzędzi firmowych do komunikacji z klientami, testy poprawności funkcjonalności | What they expect: Umiejętność analitycznego myślenia i wyciągania wniosków w celu optymalizacji działań znajomość tematyki e-mail marketingu, e-commerce i CRM strategiczne myślenie i nastawienie na wynik bardzo dobra znajomość języka angielskiego bardzo dobra znajomość pakietu MS-Office (Excel, PowerPoint) podstawowa znajomość języka HTML | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków dofinansowanie szkoleń i kursów ubezpieczenie na życie możliwość pracy zdalnej owoce spotkania integracyjne brak dress code’u kawa / herbata karty przedpłacone dofinansowanie wypoczynku Cofidis S; (Spółka Akcyjna) Oddział w Polsce Przewiń do profilu firmy Cofidis S; Grupa Cofidis została utworzona w 1982 r",
+      "summary_tasks": [
+        "Zarządzanie serwisem www marki pod względem wizualnym i treści",
+        "wprowadzanie/ koordynowanie zmian",
+        "Obsługa narzędzi firmowych do komunikacji z klientami, testy poprawności funkcjonalności"
+      ],
+      "summary_expectations": [
+        "Umiejętność analitycznego myślenia i wyciągania wniosków w celu optymalizacji działań znajomość tematyki e-mail marketingu, e-commerce i CRM strategiczne myślenie i nastawienie na wynik bardzo dobra znajomość języka angielskiego bardzo dobra znajomość pakietu MS-Office (Excel, PowerPoint) podstawowa znajomość języka HTML"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków dofinansowanie szkoleń i kursów ubezpieczenie na życie możliwość pracy zdalnej owoce spotkania integracyjne brak dress code’u kawa / herbata karty przedpłacone dofinansowanie wypoczynku Cofidis S",
+        "(Spółka Akcyjna) Oddział w Polsce Przewiń do profilu firmy Cofidis S",
+        "Grupa Cofidis została utworzona w 1982 r"
+      ],
+      "required_skills": [],
+      "contact_email": "kariera@cofidis.pl"
     },
     {
       "id": "2e7132f1816adce5",
@@ -107,7 +166,20 @@
       "published_at": "2026-08-04T13:57:29.71Z",
       "fit_score": 81,
       "match_level": "STRONG",
-      "summary": "Zakres: współtworzenie komunikacji projektów i działań realizowanych przez organizację, współzarządzanie profilami organizacji w mediach społecznościowych, tworzenie treści (postów, wpisów, e-mail newsletterów) oraz materiałów graficznych, planowanie, prowadzenie i optymalizacja kampanii reklamowych (Meta Ads, Google Ads)… Wymagania: co najmniej kilkuletnie doświadczenie w digital marketingu / komunikacji online, w tym w samodzielnym prowadzeniu projektów, lekkie pióro, umiejętność przygotowywania i redagowania tekstów, doświadczenie w prowadzeniu…",
+      "summary": "What you'll do: współtworzenie komunikacji projektów i działań realizowanych przez organizację, współzarządzanie profilami organizacji w mediach społecznościowych, tworzenie treści (postów, wpisów, e-mail newsletterów) | What they expect: co najmniej kilkuletnie doświadczenie w digital marketingu / komunikacji online, w tym w samodzielnym prowadzeniu projektów, lekkie pióro, umiejętność przygotowywania i redagowania tekstów, doświadczenie w prowadzeniu komunikacji w mediach społecznościowych, umiejętność obsługi systemu CMS (np; WordPress), znajomość narzędzi reklamowych i analitycznych (np; Meta Ads, Google Ads, Google Analytics, PowerBI), umiejętność tworzenia grafik z użyciem narzędzia Canva, umiejętność analizy danych, prezentacji wniosków i sugerowania usprawnień, zainteresowanie nowoczesnymi trendami w komunikacji online, bardzo dobra organizacja pracy i samodzielność w wykonywaniu powierzonych obowiązków, znajomość języka angielskiego na poziomie min | What they offer: wynagrodzenie w wysokości 7896-9475 zł brutto, w zależności od doświadczenia, umowę o pracę na 1 rok w wymiarze pełnego etatu, z możliwością przedłużenia na czas nieokreślony (okres próbny: 3 miesiące), pracę w Warszawie w systemie hybrydowym (praca zdalna lub stacjonarna w biurze zlokalizowanym w zabytkowej kamienicy w centrum Warszawy*), obowiązkowa praca z biura minimum 2 dni w tygodniu, prywatną opiekę zdrowotną, kartę Multisport, uczestnictwo w indywidualnych i zespołowych formach wsparcia w rozwoju zawodowym, 26 dni urlopowych w roku, niezależnie od stażu pracy, 7-godzinny dzień pracy; Równe szanse: KPH jest pracodawcą oferującym równe szanse i zobowiązuje się do zwalczania wszelkiej dyskryminacji; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna O nas Kampania Przeciw Homofobii jest jedną z wiodących organizacji działających na rzecz społeczności LGBT+ w Polsce",
+      "summary_tasks": [
+        "współtworzenie komunikacji projektów i działań realizowanych przez organizację, współzarządzanie profilami organizacji w mediach społecznościowych, tworzenie treści (postów, wpisów, e-mail newsletterów)"
+      ],
+      "summary_expectations": [
+        "co najmniej kilkuletnie doświadczenie w digital marketingu / komunikacji online, w tym w samodzielnym prowadzeniu projektów, lekkie pióro, umiejętność przygotowywania i redagowania tekstów, doświadczenie w prowadzeniu komunikacji w mediach społecznościowych, umiejętność obsługi systemu CMS (np",
+        "WordPress), znajomość narzędzi reklamowych i analitycznych (np",
+        "Meta Ads, Google Ads, Google Analytics, PowerBI), umiejętność tworzenia grafik z użyciem narzędzia Canva, umiejętność analizy danych, prezentacji wniosków i sugerowania usprawnień, zainteresowanie nowoczesnymi trendami w komunikacji online, bardzo dobra organizacja pracy i samodzielność w wykonywaniu powierzonych obowiązków, znajomość języka angielskiego na poziomie min"
+      ],
+      "summary_offers": [
+        "wynagrodzenie w wysokości 7896-9475 zł brutto, w zależności od doświadczenia, umowę o pracę na 1 rok w wymiarze pełnego etatu, z możliwością przedłużenia na czas nieokreślony (okres próbny: 3 miesiące), pracę w Warszawie w systemie hybrydowym (praca zdalna lub stacjonarna w biurze zlokalizowanym w zabytkowej kamienicy w centrum Warszawy*), obowiązkowa praca z biura minimum 2 dni w tygodniu, prywatną opiekę zdrowotną, kartę Multisport, uczestnictwo w indywidualnych i zespołowych formach wsparcia w rozwoju zawodowym, 26 dni urlopowych w roku, niezależnie od stażu pracy, 7-godzinny dzień pracy",
+        "Równe szanse: KPH jest pracodawcą oferującym równe szanse i zobowiązuje się do zwalczania wszelkiej dyskryminacji",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna O nas Kampania Przeciw Homofobii jest jedną z wiodących organizacji działających na rzecz społeczności LGBT+ w Polsce"
+      ],
       "required_skills": []
     },
     {
@@ -125,8 +197,24 @@
       "published_at": "2026-08-20T09:07:47.323Z",
       "fit_score": 79,
       "match_level": "STRONG",
-      "summary": "Responsibilities: Product Issue Handling: Responsible for the troubleshooting, tracking, and final resolution of common software and hardware issues for products in the European market, including smartphones, wearables, PCs, etc. Product Improvement: Identify product enhancement opportunities and requirements based on issue handling and… Requirements: Education background: At least bachelor degree. Candidates with degrees in science, engineering, and technology fields such as computer science, electronics, and communications will be given priority. Work experience: At…",
-      "required_skills": []
+      "summary": "What you'll do: Product Issue Handling: Responsible for the troubleshooting, tracking,; Product Improvement: Identify product enhancement opportunities and requirements based on issue handling and analysis; Collaborate with other departments to develop improvement plans and track their implementation | What they expect: Work experience: At least 1 year of experience in development, maintenance, or technical support in the electronics/communications industry; Language skills: English , fluent in writing and speaking; Professional knowledge: Familiar with the hardware architecture, software features, operational principles, | What they offer: We offer premium private healthcare package for our employees; Benefit Platform; You can choose your benefits on our Benefit Platform e.g.: cinema/theater tickets and discounts, shopping cards and many more",
+      "summary_tasks": [
+        "Product Issue Handling: Responsible for the troubleshooting, tracking,",
+        "Product Improvement: Identify product enhancement opportunities and requirements based on issue handling and analysis",
+        "Collaborate with other departments to develop improvement plans and track their implementation"
+      ],
+      "summary_expectations": [
+        "Work experience: At least 1 year of experience in development, maintenance, or technical support in the electronics/communications industry",
+        "Language skills: English , fluent in writing and speaking",
+        "Professional knowledge: Familiar with the hardware architecture, software features, operational principles,"
+      ],
+      "summary_offers": [
+        "We offer premium private healthcare package for our employees",
+        "Benefit Platform",
+        "You can choose your benefits on our Benefit Platform e.g.: cinema/theater tickets and discounts, shopping cards and many more"
+      ],
+      "required_skills": [],
+      "contact_email": "career@huawei.com"
     },
     {
       "id": "39b8268dcc8a3007",
@@ -143,7 +231,22 @@
       "published_at": "2026-08-09T22:00:00Z",
       "fit_score": 79,
       "match_level": "STRONG",
-      "summary": "Zakres: To rola łącząca głęboką wiedzę techniczną z relacjami biznesowymi. Będziesz istotnym ogniwem między technologią SALTO a naszymi partnerami w Polsce i regionie CEE: Eksperckie wsparcie: Rozwiązywanie zaawansowanych zagadnień technicznych i serwisowych dla partnerów oraz kluczowych klientów w Polsce i Europie wschodniej… Wymagania: Szukamy właśnie Ciebie, jeśli: Masz wykształcenie techniczne (preferowana elektromechanika, elektronika, mechanika lub automatyka). Swobodnie posługujesz się językiem angielskim w codziennej komunikacji (praca w…",
+      "summary": "What you'll do: Prowadzenie prezentacji i praktycznych szkoleń technicznych (w tym wdrażanie autorskich rozwiązań); Wsparcie sprzedaży i wdrażanie: Ścisła współpraca z Sales Managerami – pomożesz dobierać właściwe architektury systemowe i budować sieć partnerów; Międzynarodowa kooperacja: Codzienna współpraca i koordynowanie wsparcia technicznego oraz wymiana doświadczeń z zespołem inżynierów z naszej centrali w Hiszpanii | What they expect: Szukamy właśnie Ciebie, jeśli: Masz wykształcenie techniczne (preferowana elektromechanika, elektronika, mechanika lub automatyka); Masz rozwinięte kompetencje interpersonalne – lubisz pracę z ludźmi, potrafisz jasno tłumaczyć zawiłe zagadnienia; Znajomość języka angielskiego | What they offer: Realny wpływ i samodzielność: Nie jesteś tylko anonimowym trybikiem – współtworzysz sukces marki na kluczowych rynkach Europy Środkowo-Wschodniej; Szkolenia w Hiszpanii: wyjazdy szkoleniowe do naszej głównej siedziby w Oiartzun; W naszym biurze w Warszawie rozwijamy rynek Polski oraz Europy Środkowo-Wschodniej, łącząc inżynieryjną precyzję z baskijską kulturą innowacji, współpracy i ciągłego rozwoju",
+      "summary_tasks": [
+        "Prowadzenie prezentacji i praktycznych szkoleń technicznych (w tym wdrażanie autorskich rozwiązań)",
+        "Wsparcie sprzedaży i wdrażanie: Ścisła współpraca z Sales Managerami – pomożesz dobierać właściwe architektury systemowe i budować sieć partnerów",
+        "Międzynarodowa kooperacja: Codzienna współpraca i koordynowanie wsparcia technicznego oraz wymiana doświadczeń z zespołem inżynierów z naszej centrali w Hiszpanii"
+      ],
+      "summary_expectations": [
+        "Szukamy właśnie Ciebie, jeśli: Masz wykształcenie techniczne (preferowana elektromechanika, elektronika, mechanika lub automatyka)",
+        "Masz rozwinięte kompetencje interpersonalne – lubisz pracę z ludźmi, potrafisz jasno tłumaczyć zawiłe zagadnienia",
+        "Znajomość języka angielskiego"
+      ],
+      "summary_offers": [
+        "Realny wpływ i samodzielność: Nie jesteś tylko anonimowym trybikiem – współtworzysz sukces marki na kluczowych rynkach Europy Środkowo-Wschodniej",
+        "Szkolenia w Hiszpanii: wyjazdy szkoleniowe do naszej głównej siedziby w Oiartzun",
+        "W naszym biurze w Warszawie rozwijamy rynek Polski oraz Europy Środkowo-Wschodniej, łącząc inżynieryjną precyzję z baskijską kulturą innowacji, współpracy i ciągłego rozwoju"
+      ],
       "required_skills": []
     },
     {
@@ -161,7 +264,20 @@
       "published_at": "2026-08-25T12:37:06.807Z",
       "fit_score": 79,
       "match_level": "STRONG",
-      "summary": "Zakres: Bieżąca obsługa i wsparcie użytkowników w zakresie sprzętu komputerowego, oprogramowania oraz podstawowych systemów biznesowych w biurze w Warszawie Diagnozowanie i rozwiązywanie typowych problemów IT, w tym usterek stacji roboczych, drukarek, urządzeń peryferyjnych oraz sieci lokalnej Instalacja, konfiguracja i… Wymagania: Wykształcenie kierunkowe informatyczne (min. szkoła średnia techniczna) lub w trakcie studiów na kierunku IT Praktyczna znajomość systemów operacyjnych Windows oraz podstawowa znajomość środowiska sieciowego (VLAN…",
+      "summary": "What you'll do: Bieżąca obsługa i wsparcie użytkowników w zakresie sprzętu komputerowego, oprogramowania; Współpraca z zewnętrznymi dostawcami usług i rozwiązań informatycznych oraz wsparcie w realizacji drobnych projektów IT | What they expect: szkoła średnia techniczna) lub w trakcie studiów na kierunku IT Praktyczna znajomość systemów operacyjnych Windows; Znajomość: ping, ipconfig, tracert, arp; Umiejętność diagnozowania i rozwiązywania typowych problemów sprzętowych i programowych użytkowników końcowych Podstawowa znajomość zagadnień związanych z bezpieczeństwem IT | What they offer: Stabilne zatrudnienie w oparciu o umowę o pracę na pełny etat Wynagrodzenie adekwatne do umiejętności oraz perspektywa wzrostu wraz ze zdobywanym doświadczeniem; Możliwość rozwoju zawodowego w kierunku specjalisty IT poprzez udział w ciekawych projektach i bieżące wsparcie bardziej doświadczonych ekspertów Przyjazna atmosfera pracy w niewielkim zespole, szybki proces decyzyjny i realny wpływ na stosowane rozwiązania techniczne",
+      "summary_tasks": [
+        "Bieżąca obsługa i wsparcie użytkowników w zakresie sprzętu komputerowego, oprogramowania",
+        "Współpraca z zewnętrznymi dostawcami usług i rozwiązań informatycznych oraz wsparcie w realizacji drobnych projektów IT"
+      ],
+      "summary_expectations": [
+        "szkoła średnia techniczna) lub w trakcie studiów na kierunku IT Praktyczna znajomość systemów operacyjnych Windows",
+        "Znajomość: ping, ipconfig, tracert, arp",
+        "Umiejętność diagnozowania i rozwiązywania typowych problemów sprzętowych i programowych użytkowników końcowych Podstawowa znajomość zagadnień związanych z bezpieczeństwem IT"
+      ],
+      "summary_offers": [
+        "Stabilne zatrudnienie w oparciu o umowę o pracę na pełny etat Wynagrodzenie adekwatne do umiejętności oraz perspektywa wzrostu wraz ze zdobywanym doświadczeniem",
+        "Możliwość rozwoju zawodowego w kierunku specjalisty IT poprzez udział w ciekawych projektach i bieżące wsparcie bardziej doświadczonych ekspertów Przyjazna atmosfera pracy w niewielkim zespole, szybki proces decyzyjny i realny wpływ na stosowane rozwiązania techniczne"
+      ],
       "required_skills": []
     },
     {
@@ -179,7 +295,22 @@
       "published_at": "2026-08-20T06:28:20.227Z",
       "fit_score": 79,
       "match_level": "STRONG",
-      "summary": "Responsibilities: Support the planning and execution of marketing campaigns across digital channels, including social media, email marketing, website content and paid advertising. Manage and develop engaging content for Akademeia’s social media platforms, ensuring consistency with the school’s brand identity and communication strategy… Requirements: We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field. Is passionate about storytelling and creating engaging content for different audiences…",
+      "summary": "What you'll do: Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users; Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives; Assist with email marketing campaigns, including content preparation, scheduling and basic technical support | What they expect: We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field; Has strong organisational skills and the ability to manage multiple projects and deadlines; Has excellent written and verbal communication skills in English and Polish | What they offer: Vibrant international community Competitive salary adequate to your experience; Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical; Working closely with the Director of Marketing",
+      "summary_tasks": [
+        "Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users",
+        "Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives",
+        "Assist with email marketing campaigns, including content preparation, scheduling and basic technical support"
+      ],
+      "summary_expectations": [
+        "We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field",
+        "Has strong organisational skills and the ability to manage multiple projects and deadlines",
+        "Has excellent written and verbal communication skills in English and Polish"
+      ],
+      "summary_offers": [
+        "Vibrant international community Competitive salary adequate to your experience",
+        "Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical",
+        "Working closely with the Director of Marketing"
+      ],
       "required_skills": []
     },
     {
@@ -197,7 +328,22 @@
       "published_at": "2026-08-24T07:22:14.3Z",
       "fit_score": 78,
       "match_level": "STRONG",
-      "summary": "Responsibilities: Develop and implement internal IT strategy aligned with business goals Design and implement IT solutions and system architectures Provide user training and ongoing IT support (Helpdesk) Manage user accounts and access rights (Account Management) Define, implement, and enforce IT security policies Ensure compliance of… Requirements: Proven experience in IT at least 2+ Excellent knowledge of Polish and English language Strong knowledge of IT infrastructure, hardware, software, and networking Experience with cybersecurity, data protection, and backup…",
+      "summary": "What you'll do: Develop and implement internal IT strategy aligned with business goals Design and implement IT solutions and system architectures; Provide user training and ongoing IT support (Helpdesk); Manage user accounts and access rights (Account Management) Define, implement, and enforce IT security policies Ensure compliance of IT strategy with organizational and regulatory requirements Conduct studies to | What they expect: Proven experience in IT at least 2+ Excellent knowledge of Polish and English language; Strong knowledge of IT infrastructure, hardware, software, and networking; Experience with cybersecurity, data protection, and backup solutions | What they offer: Competitive salary and benefits; Opportunities for growth and professional development; Work in an international environment If you are highly skilled",
+      "summary_tasks": [
+        "Develop and implement internal IT strategy aligned with business goals Design and implement IT solutions and system architectures",
+        "Provide user training and ongoing IT support (Helpdesk)",
+        "Manage user accounts and access rights (Account Management) Define, implement, and enforce IT security policies Ensure compliance of IT strategy with organizational and regulatory requirements Conduct studies to"
+      ],
+      "summary_expectations": [
+        "Proven experience in IT at least 2+ Excellent knowledge of Polish and English language",
+        "Strong knowledge of IT infrastructure, hardware, software, and networking",
+        "Experience with cybersecurity, data protection, and backup solutions"
+      ],
+      "summary_offers": [
+        "Competitive salary and benefits",
+        "Opportunities for growth and professional development",
+        "Work in an international environment If you are highly skilled"
+      ],
       "required_skills": []
     },
     {
@@ -215,7 +361,21 @@
       "published_at": "2026-08-13T14:28:09.633Z",
       "fit_score": 77,
       "match_level": "STRONG",
-      "summary": "Zakres: Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google. Obsługa i moderacja kanałów społecznościowych marki. Odpowiadanie na komentarze, wiadomości i reakcje użytkowników. Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta. Tworzenie… Wymagania: Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne. Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu (",
+      "summary": "What you'll do: Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google; Obsługa i moderacja kanałów społecznościowych marki; Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta | What they expect: Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne; Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ( | What they offer: Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie; 🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę; Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej",
+      "summary_tasks": [
+        "Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google",
+        "Obsługa i moderacja kanałów społecznościowych marki",
+        "Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta"
+      ],
+      "summary_expectations": [
+        "Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne",
+        "Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ("
+      ],
+      "summary_offers": [
+        "Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie",
+        "🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę",
+        "Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej"
+      ],
       "required_skills": []
     },
     {
@@ -233,7 +393,22 @@
       "published_at": "2026-08-31T10:15:34.54Z",
       "fit_score": 77,
       "match_level": "STRONG",
-      "summary": "Zakres: Realizacja planu wdrożeń rozwiązań low-code/ no-code Identyfikacja i analiza potencjalnych procesów do robotyzacji/automatyzacji poprzez współpracę z innymi obszarami; Projektowanie rozwiązań w zakresie automatyzacji procesów biznesowych w technologii RPA i Low-Code; Aktywne uczestnictwo we wszystkich fazach projektów… Wymagania: Znajomość platformy WEBCON Umiejętność mapowania zadań i procesów; Zdolność analitycznego myślenia; Komunikatywność, otwartość i umiejętność pracy w zespole",
+      "summary": "What you'll do: Realizacja planu wdrożeń rozwiązań low-code/ no-code Identyfikacja i analiza potencjalnych procesów do robotyzacji/automatyzacji poprzez współpracę z innymi obszarami; Projektowanie rozwiązań w zakresie automatyzacji procesów biznesowych w technologii RPA i Low-Code; Tworzenie dokumentacji procesowej oraz ocena ryzyka (risk assessment) | What they expect: Znajomość platformy WEBCON; Umiejętność mapowania zadań i procesów; Komunikatywność, otwartość i umiejętność pracy w zespole | What they offer: Przewiń do profilu firmy Adamed to rodzinna firma farmaceutyczno-biotechnologiczna, która produkuje około 500 produktów oferowanych pacjentom w kilkudziesięciu krajach na całym świecie; Od ponad 20 lat firma prowadzi własną innowacyjną działalność badawczo-rozwojową; Adamed współpracuje naukowo z wiodącymi uniwersytetami, ekspertami medycznymi oraz instytutami naukowymi, w kraju i za granicą",
+      "summary_tasks": [
+        "Realizacja planu wdrożeń rozwiązań low-code/ no-code Identyfikacja i analiza potencjalnych procesów do robotyzacji/automatyzacji poprzez współpracę z innymi obszarami",
+        "Projektowanie rozwiązań w zakresie automatyzacji procesów biznesowych w technologii RPA i Low-Code",
+        "Tworzenie dokumentacji procesowej oraz ocena ryzyka (risk assessment)"
+      ],
+      "summary_expectations": [
+        "Znajomość platformy WEBCON",
+        "Umiejętność mapowania zadań i procesów",
+        "Komunikatywność, otwartość i umiejętność pracy w zespole"
+      ],
+      "summary_offers": [
+        "Przewiń do profilu firmy Adamed to rodzinna firma farmaceutyczno-biotechnologiczna, która produkuje około 500 produktów oferowanych pacjentom w kilkudziesięciu krajach na całym świecie",
+        "Od ponad 20 lat firma prowadzi własną innowacyjną działalność badawczo-rozwojową",
+        "Adamed współpracuje naukowo z wiodącymi uniwersytetami, ekspertami medycznymi oraz instytutami naukowymi, w kraju i za granicą"
+      ],
       "required_skills": []
     },
     {
@@ -251,7 +426,12 @@
       "published_at": "2026-09-01T13:00:12.5546053Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "00970c28-abd2-418b-afd8-a647db5a565e transition-technologies-ms-operations-analyst-warszawa-analytics Operations Analyst remote full_time mid analytics Warszawa.",
+      "summary": "What you'll do: 00970c28-abd2-418b-afd8-a647db5a565e transition-technologies-ms-operations-analyst-warszawa-analytics Operations Analyst remote full_time mid analytics Warszawa",
+      "summary_tasks": [
+        "00970c28-abd2-418b-afd8-a647db5a565e transition-technologies-ms-operations-analyst-warszawa-analytics Operations Analyst remote full_time mid analytics Warszawa"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": [
         "Jira",
         "Microsoft365"
@@ -272,7 +452,18 @@
       "published_at": "2026-08-27T14:57:37.487Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "Zakres: wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo oraz bezpośrednio w biurze instalacja, konfiguracja i przygotowywanie sprzętu IT zarządzanie i obsługa urządzeń IT w biurze obsługa zgłoszeń w systemie ticketowym: tworzenie, aktualizacja, monitorowanie… Wymagania: bardzo dobre umiejętności komunikacyjne znajomość MS Office oraz Windows OS dobra organizacja pracy i umiejętność analitycznego myślenia znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i…",
+      "summary": "What you'll do: wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo | What they expect: bardzo dobre umiejętności komunikacyjne znajomość MS Office | What they offer: realne możliwości rozwoju zawodowego; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb; W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem",
+      "summary_tasks": [
+        "wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo"
+      ],
+      "summary_expectations": [
+        "bardzo dobre umiejętności komunikacyjne znajomość MS Office"
+      ],
+      "summary_offers": [
+        "realne możliwości rozwoju zawodowego",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb",
+        "W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem"
+      ],
       "required_skills": []
     },
     {
@@ -290,7 +481,16 @@
       "published_at": "2026-08-13T12:23:28.597Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "Zakres: naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo Wymagania: dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office…",
+      "summary": "What you'll do: naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo | What they expect: dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP | What they offer: kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego",
+      "summary_tasks": [
+        "naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo"
+      ],
+      "summary_expectations": [
+        "dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP"
+      ],
+      "summary_offers": [
+        "kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego"
+      ],
       "required_skills": []
     },
     {
@@ -308,7 +508,18 @@
       "published_at": "2026-09-01T07:15:08.037Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "Zakres: bieżące wsparcie użytkowników (instalacje i aktualizacje oprogramowania, usuwanie bieżących usterek związanych z działaniem sprzętu komputerowego, obsługa oprogramowania i aplikacji wewnętrznych, instalacji nowego sprzętu, reinstalacji systemów operacyjnych) tworzenie dokumentacji, procedur uczestnictwo w nowych… Wymagania: znajomość systemów operacyjnych z rodziny Microsoft Windows umiejętność rozwiązywania problemów związanych ze sprzętem komputerowym i oprogramowaniem chęć podnoszenia swoich kwalifikacji i uczenia się nowych rozwiązań…",
+      "summary": "What you'll do: bieżące wsparcie użytkowników (instalacje i aktualizacje oprogramowania, usuwanie bieżących usterek związanych z działaniem sprzętu komputerowego, obsługa oprogramowania i aplikacji wewnętrznych, instalacji nowego sprzętu, reinstalacji systemów operacyjnych) tworzenie dokumentacji, procedur uczestnictwo w nowych rozwojowych projektach wspieranie administratorów IT w bieżących działaniach | What they expect: znajomość systemów operacyjnych z rodziny Microsoft Windows umiejętność rozwiązywania problemów związanych ze sprzętem komputerowym i oprogramowaniem chęć podnoszenia swoich kwalifikacji i uczenia się nowych rozwiązań znajomość języka angielskiego na poziomie swobodnego rozumienia dokumentacji technicznej komunikatywność i umiejętność pracy w zespole | What they offer: elastyczną formę zatrudnienia przyjazną atmosferę w pracy możliwość zdobywania doświadczenia zawodowego w dynamicznie rozwijającym się Domu Maklerskim przyjazne środowisko w pracy z dobrym sprzętem możliwość współpracy z zespołem nastawionym na wzajemne uczenie się od siebie i współpracę atrakcyjne wynagrodzenie przyjazne środowisko w pracy; Dofinansowanie do wypoczynku bez konieczności 14 dni urlopu Świadczenie bezzwrotne w trudnych sytuacjach życiowych Ubezpieczenie na życie (odpłatne przez pracownika) Informujemy, iż skontaktujemy się tylko z wybranymi kandydatami; Przewiń do profilu firmy Dom Maklerski Noble Securities S.A",
+      "summary_tasks": [
+        "bieżące wsparcie użytkowników (instalacje i aktualizacje oprogramowania, usuwanie bieżących usterek związanych z działaniem sprzętu komputerowego, obsługa oprogramowania i aplikacji wewnętrznych, instalacji nowego sprzętu, reinstalacji systemów operacyjnych) tworzenie dokumentacji, procedur uczestnictwo w nowych rozwojowych projektach wspieranie administratorów IT w bieżących działaniach"
+      ],
+      "summary_expectations": [
+        "znajomość systemów operacyjnych z rodziny Microsoft Windows umiejętność rozwiązywania problemów związanych ze sprzętem komputerowym i oprogramowaniem chęć podnoszenia swoich kwalifikacji i uczenia się nowych rozwiązań znajomość języka angielskiego na poziomie swobodnego rozumienia dokumentacji technicznej komunikatywność i umiejętność pracy w zespole"
+      ],
+      "summary_offers": [
+        "elastyczną formę zatrudnienia przyjazną atmosferę w pracy możliwość zdobywania doświadczenia zawodowego w dynamicznie rozwijającym się Domu Maklerskim przyjazne środowisko w pracy z dobrym sprzętem możliwość współpracy z zespołem nastawionym na wzajemne uczenie się od siebie i współpracę atrakcyjne wynagrodzenie przyjazne środowisko w pracy",
+        "Dofinansowanie do wypoczynku bez konieczności 14 dni urlopu Świadczenie bezzwrotne w trudnych sytuacjach życiowych Ubezpieczenie na życie (odpłatne przez pracownika) Informujemy, iż skontaktujemy się tylko z wybranymi kandydatami",
+        "Przewiń do profilu firmy Dom Maklerski Noble Securities S.A"
+      ],
       "required_skills": []
     },
     {
@@ -326,7 +537,22 @@
       "published_at": "2026-08-05T13:01:30.48Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "Zakres: Zapewnianie wsparcia technicznego I i II linii dla użytkowników oraz klientów, obejmującego diagnozowanie i rozwiązywanie problemów związanych ze sprzętem, oprogramowaniem, systemami i siecią. Realizacja wizyt serwisowych w lokalizacjach klientów oraz punktach sprzedaży, obejmujących konfigurację urządzeń, utrzymanie… Wymagania: Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym. Dobra znajomość systemów Windows, macOS, iOS oraz Android. Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager. Praktyczna…",
+      "summary": "What you'll do: Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników; Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi; Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT | What they expect: Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym; Dobra znajomość systemów Windows, macOS, iOS oraz Android; Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager | What they offer: Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT; Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00); Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)",
+      "summary_tasks": [
+        "Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników",
+        "Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi",
+        "Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT"
+      ],
+      "summary_expectations": [
+        "Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym",
+        "Dobra znajomość systemów Windows, macOS, iOS oraz Android",
+        "Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT",
+        "Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00)",
+        "Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)"
+      ],
       "required_skills": []
     },
     {
@@ -344,7 +570,14 @@
       "published_at": "1786053623511",
       "fit_score": 74,
       "match_level": "MEDIUM",
-      "summary": "automation-specialist-kingfisher-Kraków Kingfisher POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False 1786053623511 1788127223511 Automation Specialist SQL automation Mid pl permanent PLN Month AT_FIRST_INTERVIEW it QMG2TAK0 requirement RPA Automation PostgreSQL.",
+      "summary": "What you'll do: automation-specialist-kingfisher-Kraków Kingfisher POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False 1786053623511 1788127223511 Automation Specialist SQL automation Mid pl permanent PLN Month AT_FIRST_INTERVIEW it QMG2TAK0 requirement RPA Automation PostgreSQL | What they expect: automation-specialist-kingfisher-Kraków Kingfisher POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False 1786053623511 1788127223511 Automation Specialist SQL automation Mid pl permanent PLN Month AT_FIRST_INTERVIEW it QMG2TAK0 requirement RPA Automation PostgreSQL",
+      "summary_tasks": [
+        "automation-specialist-kingfisher-Kraków Kingfisher POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False 1786053623511 1788127223511 Automation Specialist SQL automation Mid pl permanent PLN Month AT_FIRST_INTERVIEW it QMG2TAK0 requirement RPA Automation PostgreSQL"
+      ],
+      "summary_expectations": [
+        "automation-specialist-kingfisher-Kraków Kingfisher POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False 1786053623511 1788127223511 Automation Specialist SQL automation Mid pl permanent PLN Month AT_FIRST_INTERVIEW it QMG2TAK0 requirement RPA Automation PostgreSQL"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -362,7 +595,22 @@
       "published_at": "2026-08-05T12:46:17.577Z",
       "fit_score": 73,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Wsparcie klientów poprzez doradztwo produktowe (poprzez telefon, mail oraz chat). Analizowanie zgłoszeń i udzielanie klientom rzetelnych, precyzyjnych informacji, a w razie potrzeby przekazywanie spraw do właściwych zespołów. Stałe pogłębianie wiedzy o produktach i technologiach firmy w obszarze swojej specjalizacji… Wymagania: Biegła znajomość języka angielskiego (B2/C1) oraz polskiego (C1/C2). Zamiłowanie do nowych technologii i techniczne podejście. Doświadczenie w pracy w obszarze obsługi klienta",
+      "summary": "What you'll do: Wsparcie klientów poprzez doradztwo produktowe (poprzez telefon, mail oraz chat); Analizowanie zgłoszeń i udzielanie klientom rzetelnych, precyzyjnych informacji, a w razie potrzeby przekazywanie spraw do właściwych zespołów; Stałe pogłębianie wiedzy o produktach i technologiach firmy w obszarze swojej specjalizacji | What they expect: Biegła znajomość języka angielskiego (B2/C1) oraz polskiego (C1/C2); Zamiłowanie do nowych technologii i techniczne podejście; Doświadczenie w pracy w obszarze obsługi klienta | What they offer: Pakiet benefitów: prywatna opieka medyczna, karta sportowa oraz karta lunchowa; Realne możliwości rozwoju zawodowego i poszerzania kompetencji; Dzięki temu możemy dopasować najlepszą ofertę pracy, która sprosta oczekiwaniom i potrzebom naszych kandydatów",
+      "summary_tasks": [
+        "Wsparcie klientów poprzez doradztwo produktowe (poprzez telefon, mail oraz chat)",
+        "Analizowanie zgłoszeń i udzielanie klientom rzetelnych, precyzyjnych informacji, a w razie potrzeby przekazywanie spraw do właściwych zespołów",
+        "Stałe pogłębianie wiedzy o produktach i technologiach firmy w obszarze swojej specjalizacji"
+      ],
+      "summary_expectations": [
+        "Biegła znajomość języka angielskiego (B2/C1) oraz polskiego (C1/C2)",
+        "Zamiłowanie do nowych technologii i techniczne podejście",
+        "Doświadczenie w pracy w obszarze obsługi klienta"
+      ],
+      "summary_offers": [
+        "Pakiet benefitów: prywatna opieka medyczna, karta sportowa oraz karta lunchowa",
+        "Realne możliwości rozwoju zawodowego i poszerzania kompetencji",
+        "Dzięki temu możemy dopasować najlepszą ofertę pracy, która sprosta oczekiwaniom i potrzebom naszych kandydatów"
+      ],
       "required_skills": []
     },
     {
@@ -380,7 +628,22 @@
       "published_at": "2026-08-25T14:15:50.793Z",
       "fit_score": 73,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Obsługa incydentów w systemie zgłoszeń Klienta. Rozwiązywanie problemów technicznych związanych ze sprzętem i oprogramowaniem. Instalacja oraz inwentaryzacja sprzętu IT. Diagnostyka uszkodzonego sprzętu i jego naprawa lub monitorowanie napraw zewnętrznych. Sprawowanie nadzoru nad infrastrukturą użytkownika końcowego… Wymagania: Minimum rok doświadczenia na podobnym stanowisku. Dobra znajomość infrastruktury IT. Umiejętność samodzielnej pracy, jak również w zespole. Wysoki poziom odpowiedzialności, zaangażowanie w wykonywane obowiązki i…",
+      "summary": "What you'll do: Obsługa incydentów w systemie zgłoszeń Klienta; Diagnostyka uszkodzonego sprzętu i jego naprawa lub monitorowanie napraw zewnętrznych; Sprawowanie nadzoru nad infrastrukturą użytkownika końcowego – stacje robocze monitory oraz peryferia | What they expect: Minimum rok doświadczenia na podobnym stanowisku; Dobra znajomość infrastruktury IT; Umiejętność samodzielnej pracy, jak również w zespole | What they offer: Profesjonalny onboarding i szkolenia wprowadzające; Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover; Dofinansowanie do karty sportowej Multisport",
+      "summary_tasks": [
+        "Obsługa incydentów w systemie zgłoszeń Klienta",
+        "Diagnostyka uszkodzonego sprzętu i jego naprawa lub monitorowanie napraw zewnętrznych",
+        "Sprawowanie nadzoru nad infrastrukturą użytkownika końcowego – stacje robocze monitory oraz peryferia"
+      ],
+      "summary_expectations": [
+        "Minimum rok doświadczenia na podobnym stanowisku",
+        "Dobra znajomość infrastruktury IT",
+        "Umiejętność samodzielnej pracy, jak również w zespole"
+      ],
+      "summary_offers": [
+        "Profesjonalny onboarding i szkolenia wprowadzające",
+        "Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover",
+        "Dofinansowanie do karty sportowej Multisport"
+      ],
       "required_skills": []
     },
     {
@@ -398,7 +661,22 @@
       "published_at": "2026-08-06T08:21:34.28Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Szukamy pasjonata technologii sieciowych, który nie boi się wdrażać najnowszych technologii sieciowych i chce stawić czoła ambitnym projektom. Jeśli znasz sieci IP oraz PON i lubisz pracować na styku biznesu i technologii to dołącz do naszego zespołu! Twoje zadania: • Wdrożenia rozwiązań sieciowych w oparciu o… Wymagania: • Znajomość sieci WAN/LAN/WLAN. • Wiedza z zakresu sieci optycznych PON (GPON/XGS-PON). • Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i czytanie dokumentacji technicznej. • Doświadczenie…",
+      "summary": "What you'll do: Huawei, H3C, Cambium Networks); Tworzenie kompleksowych projektów technicznych w oparciu o potrzeby klienta; Prowadzenie profesjonalnych prezentacji i szkoleń technicznych | What they expect: Znajomość sieci WAN/LAN/WLAN; Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i czytanie dokumentacji technicznej; Doświadczenie w pracy na podobnym stanowisku minimum 2 lata | What they offer: Możliwość rozwoju i zdobycia certyfikatów eksperckich; Elastyczną formę zatrudnienia; W ACNET stawiamy na innowacyjność i ciągły rozwój kompetencji – wierzymy, że zaawansowana technologia wymaga profesjonalnego podejścia i pasji",
+      "summary_tasks": [
+        "Huawei, H3C, Cambium Networks)",
+        "Tworzenie kompleksowych projektów technicznych w oparciu o potrzeby klienta",
+        "Prowadzenie profesjonalnych prezentacji i szkoleń technicznych"
+      ],
+      "summary_expectations": [
+        "Znajomość sieci WAN/LAN/WLAN",
+        "Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i czytanie dokumentacji technicznej",
+        "Doświadczenie w pracy na podobnym stanowisku minimum 2 lata"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju i zdobycia certyfikatów eksperckich",
+        "Elastyczną formę zatrudnienia",
+        "W ACNET stawiamy na innowacyjność i ciągły rozwój kompetencji – wierzymy, że zaawansowana technologia wymaga profesjonalnego podejścia i pasji"
+      ],
       "required_skills": []
     },
     {
@@ -416,7 +694,22 @@
       "published_at": "2026-08-10T13:50:50.793Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Instalacja i konfiguracja nowych komputerów oraz urządzeń peryferyjnych, Przygotowywanie, konfiguracja, wydawanie oraz odbiór sprzętu IT w ramach procesów onboardingu i offboardingu pracowników, Bieżące wsparcie pracowników w zakresie IT, Diagnozowanie i rozwiązywanie problemów sprzętowych oraz programowych, Bieżąca… Wymagania: Praktyczna znajomość obsługi i diagnozowania problemów ze sprzętem komputerowym, urządzeniami peryferyjnymi oraz podstawowym oprogramowaniem biurowym, Dobra znajomość systemów operacyjnych Windows oraz pakietu biurowego…",
+      "summary": "What you'll do: Instalacja i konfiguracja nowych komputerów oraz urządzeń peryferyjnych; Przygotowywanie, konfiguracja, wydawanie; Współpraca z dostawcami usług IT oraz serwisami zewnętrznymi | What they expect: Praktyczna znajomość obsługi i diagnozowania problemów ze sprzętem komputerowym, urządzeniami peryferyjnymi oraz podstawowym oprogramowaniem biurowym; Dobra znajomość systemów operacyjnych Windows oraz pakietu biurowego MS Office i środowiska chmurowego M365; Znajomość podstawowych zagadnień związanych z kontami użytkowników, uprawnieniami, pocztą, VPN | What they offer: Elastyczny czas pracy; Pakiet opieki medycznej w Allianz oraz współfinansowany pakiet Multisport – od pierwszego dnia pracy, Przyjazną atmosferę pracy i wsparcie zespołu, Komfortowe biuro na warszawskim Mokotowie z dogodnym dojazdem; TPF oferuje profesjonalne usługi obejmujące: doradztwo inwestycyjne, ekspertyzy budowlane, opinie, opracowania o charakterze formalno-prawnym, pełną obsługę procesu inwestycyjnego",
+      "summary_tasks": [
+        "Instalacja i konfiguracja nowych komputerów oraz urządzeń peryferyjnych",
+        "Przygotowywanie, konfiguracja, wydawanie",
+        "Współpraca z dostawcami usług IT oraz serwisami zewnętrznymi"
+      ],
+      "summary_expectations": [
+        "Praktyczna znajomość obsługi i diagnozowania problemów ze sprzętem komputerowym, urządzeniami peryferyjnymi oraz podstawowym oprogramowaniem biurowym",
+        "Dobra znajomość systemów operacyjnych Windows oraz pakietu biurowego MS Office i środowiska chmurowego M365",
+        "Znajomość podstawowych zagadnień związanych z kontami użytkowników, uprawnieniami, pocztą, VPN"
+      ],
+      "summary_offers": [
+        "Elastyczny czas pracy",
+        "Pakiet opieki medycznej w Allianz oraz współfinansowany pakiet Multisport – od pierwszego dnia pracy, Przyjazną atmosferę pracy i wsparcie zespołu, Komfortowe biuro na warszawskim Mokotowie z dogodnym dojazdem",
+        "TPF oferuje profesjonalne usługi obejmujące: doradztwo inwestycyjne, ekspertyzy budowlane, opinie, opracowania o charakterze formalno-prawnym, pełną obsługę procesu inwestycyjnego"
+      ],
       "required_skills": []
     },
     {
@@ -434,7 +727,22 @@
       "published_at": "2026-08-17T11:04:08.337Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Zapewnienie wsparcia technicznego i pomocy użytkownikom w zakresie oprogramowania i sprzętu komputerowego. Rozwiązywanie zgłoszeń i problemów związanych z użytkowaniem komputerów, sieci oraz innych urządzeń technologicznych. Monitorowanie systemów informatycznych i diagnostyka awarii. Utrzymywanie dobrego kontaktu z… Wymagania: Wykształcenie średnie techniczne lub wyższe (preferowane kierunki informatyczne). Znajomość systemów operacyjnych, takich jak Windows. Wiedza z zakresu sieci komputerowych. Umiejętność diagnozowania i rozwiązywania…",
+      "summary": "What you'll do: Monitorowanie systemów informatycznych i diagnostyka awarii; Utrzymywanie dobrego kontaktu z użytkownikami i zapewnienie wysokiej jakości obsługi; Współpraca z zewnetrznymi firmami informatycznymi | What they expect: Znajomość systemów operacyjnych, takich jak Windows; Umiejętność diagnozowania i rozwiązywania problemów technicznych; Komunikatywność i umiejętność pracy zespołowej | What they offer: Narzędzia pracy – komputer, telefon; Możliwość podnoszenia kwalifikacji i rozwoju zawodowego; Możliwość skorzystania z pakietów opieki medycznej Benefity prywatna opieka medyczna ubezpieczenie na życie kawa / herbata \"GODAN SERWIS\" sp",
+      "summary_tasks": [
+        "Monitorowanie systemów informatycznych i diagnostyka awarii",
+        "Utrzymywanie dobrego kontaktu z użytkownikami i zapewnienie wysokiej jakości obsługi",
+        "Współpraca z zewnetrznymi firmami informatycznymi"
+      ],
+      "summary_expectations": [
+        "Znajomość systemów operacyjnych, takich jak Windows",
+        "Umiejętność diagnozowania i rozwiązywania problemów technicznych",
+        "Komunikatywność i umiejętność pracy zespołowej"
+      ],
+      "summary_offers": [
+        "Narzędzia pracy – komputer, telefon",
+        "Możliwość podnoszenia kwalifikacji i rozwoju zawodowego",
+        "Możliwość skorzystania z pakietów opieki medycznej Benefity prywatna opieka medyczna ubezpieczenie na życie kawa / herbata \"GODAN SERWIS\" sp"
+      ],
       "required_skills": []
     },
     {
@@ -452,7 +760,18 @@
       "published_at": "2026-08-28T10:19:27.75Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "Zakres: bieżąca obsługa i rozwój systemu CRM oraz bazy klientów tworzenie, wdrażanie i optymalizacja automatyzacji marketingowych oraz customer journeys segmentacja baz i przygotowywanie komunikacji dopasowanej do różnych grup odbiorców realizacja kampanii e-mail marketingowych i analiza ich efektywności dbanie o jakość… Wymagania: 2 lata doświadczenia w obszarze digital marketingu, CRM, marketing automation lub e-commerce praktyczne doświadczenie w pracy z systemami CRM i narzędziami marketing automation znajomość GA4 i samodzielność analizy…",
+      "summary": "What you'll do: bieżąca obsługa i rozwój systemu CRM | What they expect: 2 lata doświadczenia w obszarze digital marketingu, CRM, marketing automation lub e-commerce praktyczne doświadczenie w pracy z systemami CRM i narzędziami marketing automation znajomość GA4 i samodzielność analizy danych | What they offer: pracę przy rozwoju marki Belmonte i jej kolejnych obiektów, w chwili obecnej praca dla dwóch obiektów marki możliwość rozwijania ekosystemu digitalowego dla całej Grupy Belmonte, udział w projektach związanych z otwieraniem nowych hoteli, realny wpływ na wdrażane rozwiązania i rozwój obszaru CRM; O nas Marka Belmonte wchodzi w kolejny etap rozwoju; Wraz z rozbudową portfolio hoteli rozwijamy również nasze działania digitalowe, CRM i ekosystem narzędzi wspierających komunikację oraz sprzedaż",
+      "summary_tasks": [
+        "bieżąca obsługa i rozwój systemu CRM"
+      ],
+      "summary_expectations": [
+        "2 lata doświadczenia w obszarze digital marketingu, CRM, marketing automation lub e-commerce praktyczne doświadczenie w pracy z systemami CRM i narzędziami marketing automation znajomość GA4 i samodzielność analizy danych"
+      ],
+      "summary_offers": [
+        "pracę przy rozwoju marki Belmonte i jej kolejnych obiektów, w chwili obecnej praca dla dwóch obiektów marki możliwość rozwijania ekosystemu digitalowego dla całej Grupy Belmonte, udział w projektach związanych z otwieraniem nowych hoteli, realny wpływ na wdrażane rozwiązania i rozwój obszaru CRM",
+        "O nas Marka Belmonte wchodzi w kolejny etap rozwoju",
+        "Wraz z rozbudową portfolio hoteli rozwijamy również nasze działania digitalowe, CRM i ekosystem narzędzi wspierających komunikację oraz sprzedaż"
+      ],
       "required_skills": []
     },
     {
@@ -470,7 +789,17 @@
       "published_at": "2026-08-04T05:50:51.727Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "Zakres: planowanie i wdrażanie strategii digitalowej marki w oparciu o wytyczne brand managera, koordynacja kampanii influencerskich we współpracy z agencjami i twórcami, tworzenie i koordynacja planów contentowych dla kanałów social media, z uwzględnieniem specyfiki poszczególnych platform, odpowiedzialność za budżet, analiza… Wymagania: doświadczenie w pracy z kreatorami, influencer marketing i contentem",
+      "summary": "What you'll do: planowanie i wdrażanie strategii digitalowej marki w oparciu o wytyczne brand managera, koordynacja kampanii influencerskich we współpracy z agencjami i twórcami, tworzenie i koordynacja planów contentowych dla kanałów social media, z uwzględnieniem specyfiki poszczególnych platform, odpowiedzialność za budżet, analiza raportów i wyników kampanii, przedstawianie wniosków | What they expect: doświadczenie w pracy z kreatorami, influencer marketing i contentem | What they offer: kompleksowe podejście, a strategie realizujemy holistycznie, od sprzedaży, poprzez edukację, aż po marketing; Podejmujemy wyzwania, jakie stawia przed nami branża, pozostawiając wiernymi naszym wartościom",
+      "summary_tasks": [
+        "planowanie i wdrażanie strategii digitalowej marki w oparciu o wytyczne brand managera, koordynacja kampanii influencerskich we współpracy z agencjami i twórcami, tworzenie i koordynacja planów contentowych dla kanałów social media, z uwzględnieniem specyfiki poszczególnych platform, odpowiedzialność za budżet, analiza raportów i wyników kampanii, przedstawianie wniosków"
+      ],
+      "summary_expectations": [
+        "doświadczenie w pracy z kreatorami, influencer marketing i contentem"
+      ],
+      "summary_offers": [
+        "kompleksowe podejście, a strategie realizujemy holistycznie, od sprzedaży, poprzez edukację, aż po marketing",
+        "Podejmujemy wyzwania, jakie stawia przed nami branża, pozostawiając wiernymi naszym wartościom"
+      ],
       "required_skills": []
     },
     {
@@ -488,7 +817,16 @@
       "published_at": "1787833977909",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "it-support-specialist-2nd-line-allegro-Warszawa Allegro sp. POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1). 1787833977909 1788265977909 IT Support Specialist (2nd Line) support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business ZFCKDDCV True category Network requirement L2 SQL.",
+      "summary": "What you'll do: it-support-specialist-2nd-line-allegro-Warszawa Allegro sp; POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1); 1787833977909 1788265977909 IT Support Specialist (2nd Line) support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business ZFCKDDCV True category Network requirement L2 SQL | What they expect: 1787833977909 1788265977909 IT Support Specialist (2nd Line) support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business ZFCKDDCV True category Network requirement L2 SQL",
+      "summary_tasks": [
+        "it-support-specialist-2nd-line-allegro-Warszawa Allegro sp",
+        "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1)",
+        "1787833977909 1788265977909 IT Support Specialist (2nd Line) support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business ZFCKDDCV True category Network requirement L2 SQL"
+      ],
+      "summary_expectations": [
+        "1787833977909 1788265977909 IT Support Specialist (2nd Line) support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business ZFCKDDCV True category Network requirement L2 SQL"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -506,7 +844,21 @@
       "published_at": "2026-08-19T06:13:01.37Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Wsparcie procesu zarządzania smartfonami i sprzętem IT, w tym konfigurację, wymianę oraz ewidencję, Zarządzanie kontami służbowymi pracowników, Bezpośrednie oraz zdalne wsparcie klientów wewnętrznych w zakresie sprzętu oraz oprogramowania, Obsługa zgłoszeń klientów wewnętrznych w systemie ITSM w zakresie zarządzania… Wymagania: Masz wykształcenie kierunkowe (techniczne lub wyższe), Swobodnie poruszasz się w środowisku Microsoft Windows/Linux, Znasz podstawy technologii sieciowych, Komunikujesz się w języku angielskim, Jesteś osobą systematyczną…",
+      "summary": "What you'll do: Wsparcie procesu zarządzania smartfonami i sprzętem IT, w tym konfigurację, wymianę oraz ewidencję; Zarządzanie kontami służbowymi pracowników, Bezpośrednie oraz zdalne wsparcie klientów wewnętrznych w zakresie sprzętu oraz oprogramowania; Obsługa zgłoszeń klientów wewnętrznych w systemie ITSM w zakresie zarządzania incydentami oraz realizacji wniosków, Komunikacja z klientami wewnętrznymi | What they expect: Masz wykształcenie kierunkowe (techniczne lub wyższe), Swobodnie poruszasz się w środowisku Microsoft Windows/Linux, Znasz podstawy technologii sieciowych, Komunikujesz się w języku angielskim, Jesteś osobą systematyczną i dobrze zorganizowaną; Jesteś nastawiony pro-kliencko | What they offer: stabilne zatrudnienie na podstawie umowy o pracę lub B2B, pracę w technicznym zespole realizującym projekty infrastrukturalne dla klientów biznesowych, wpływ na sposób pracy zespołu i rozwój standardów technicznych, wsparcie doświadczonych specjalistów, szkolenia i certyfikacje, pakiet benefitów, przyjazne środowisko pracy; Przewiń do profilu firmy Największą siłą Netology są ludzie a obecnie do naszego zespołu szukamy osoby na stanowisko IT Support Specialist; U nas każda ważna rzecz zaczyna się od rozmowy",
+      "summary_tasks": [
+        "Wsparcie procesu zarządzania smartfonami i sprzętem IT, w tym konfigurację, wymianę oraz ewidencję",
+        "Zarządzanie kontami służbowymi pracowników, Bezpośrednie oraz zdalne wsparcie klientów wewnętrznych w zakresie sprzętu oraz oprogramowania",
+        "Obsługa zgłoszeń klientów wewnętrznych w systemie ITSM w zakresie zarządzania incydentami oraz realizacji wniosków, Komunikacja z klientami wewnętrznymi"
+      ],
+      "summary_expectations": [
+        "Masz wykształcenie kierunkowe (techniczne lub wyższe), Swobodnie poruszasz się w środowisku Microsoft Windows/Linux, Znasz podstawy technologii sieciowych, Komunikujesz się w języku angielskim, Jesteś osobą systematyczną i dobrze zorganizowaną",
+        "Jesteś nastawiony pro-kliencko"
+      ],
+      "summary_offers": [
+        "stabilne zatrudnienie na podstawie umowy o pracę lub B2B, pracę w technicznym zespole realizującym projekty infrastrukturalne dla klientów biznesowych, wpływ na sposób pracy zespołu i rozwój standardów technicznych, wsparcie doświadczonych specjalistów, szkolenia i certyfikacje, pakiet benefitów, przyjazne środowisko pracy",
+        "Przewiń do profilu firmy Największą siłą Netology są ludzie a obecnie do naszego zespołu szukamy osoby na stanowisko IT Support Specialist",
+        "U nas każda ważna rzecz zaczyna się od rozmowy"
+      ],
       "required_skills": []
     },
     {
@@ -524,7 +876,22 @@
       "published_at": "2026-08-07T08:02:07.253Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Bezpośrednie, zdalne i telefoniczne wsparcie użytkowników w obszarze infrastruktury IT (komputery, sieć, peryferia, aplikacje i systemy) Instalacja oraz konfiguracja oprogramowania, samodzielne diagnozowanie i rozwiązywanie problemów Czynny udział we wdrożeniach i nowych projektach informatycznych Zapewnianie i… Wymagania: Ukończone studia lub student zaoczny informatyki lub pokrewnych kierunków Doświadczenie na podobnym stanowisku 1 rok Znajomość języka polskiego na poziomie minimum B2 Znajomość języka angielskiego (także technicznego) na…",
+      "summary": "What you'll do: Bezpośrednie, zdalne i telefoniczne wsparcie użytkowników w obszarze infrastruktury IT (komputery, sieć, peryferia, aplikacje i systemy) Instalacja; Współpraca z wewnętrznymi i zewnętrznymi zespołami specjalistów IT; Współpraca z drugą linią wsparcia i firmami zewnętrznymi w przypadku złożonych problemów Dbałość o wysoki poziom obsługi klienta wewnętrznego w zakresie świadczonych usług | What they expect: Doświadczenie na podobnym stanowisku 1 rok; Znajomość języka polskiego na poziomie minimum B2; Znajomość języka angielskiego (także technicznego) na poziomie B1 | What they offer: Możliwość rozwoju zawodowego Pracę w dobrej atmosferze, wśród pracowników, którzy stawiają na relacje i wzajemną współpracę; Możliwość skorzystania z grupowego ubezpieczenia na życie, opieki medycznej i kart sportowo-rekreacyjnych; Możliwość udziału w szkoleniach, w tym w zajęciach z j",
+      "summary_tasks": [
+        "Bezpośrednie, zdalne i telefoniczne wsparcie użytkowników w obszarze infrastruktury IT (komputery, sieć, peryferia, aplikacje i systemy) Instalacja",
+        "Współpraca z wewnętrznymi i zewnętrznymi zespołami specjalistów IT",
+        "Współpraca z drugą linią wsparcia i firmami zewnętrznymi w przypadku złożonych problemów Dbałość o wysoki poziom obsługi klienta wewnętrznego w zakresie świadczonych usług"
+      ],
+      "summary_expectations": [
+        "Doświadczenie na podobnym stanowisku 1 rok",
+        "Znajomość języka polskiego na poziomie minimum B2",
+        "Znajomość języka angielskiego (także technicznego) na poziomie B1"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju zawodowego Pracę w dobrej atmosferze, wśród pracowników, którzy stawiają na relacje i wzajemną współpracę",
+        "Możliwość skorzystania z grupowego ubezpieczenia na życie, opieki medycznej i kart sportowo-rekreacyjnych",
+        "Możliwość udziału w szkoleniach, w tym w zajęciach z j"
+      ],
       "required_skills": []
     },
     {
@@ -542,7 +909,18 @@
       "published_at": "2026-08-21T08:49:17.863Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych. Bieżąca opieka techniczna nad klientami oraz ich środowiskiem IT. Zdalne oraz onsite wsparcie użytkowników końcowych. Instalacja, konfiguracja i przygotowanie komputerów, urządzeń… Wymagania: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2. Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów…",
+      "summary": "What you'll do: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych; Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników; Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości | What they expect: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2; Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników; Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365",
+      "summary_tasks": [
+        "Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych",
+        "Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników",
+        "Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości"
+      ],
+      "summary_expectations": [
+        "Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2",
+        "Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników",
+        "Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -560,7 +938,22 @@
       "published_at": "2026-08-06T11:42:28.41Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "Zakres: Weryfikacja i przetwarzanie dokumentacji związanej z rachunkami klientów zgodnie z obowiązującymi procedurami oraz standardami jakości. Wprowadzanie nowych danych do systemów oraz aktualizacja istniejących informacji o klientach. Rejestrowanie, weryfikowanie i uzgadnianie transakcji oraz aktywności na rachunkach… Wymagania: Minimum rok doświadczenia zawodowego na podobnym stanowisku lub w obszarze administracji, obsługi klienta, operacji lub analizy danych. Bardzo dobra znajomość języka angielskiego (minimum poziom B2 - prosimy o składanie…",
+      "summary": "What you'll do: Prowadzenie analiz i badań wspierających rozwiązywanie zapytań, reklamacji oraz innych spraw klientów; Przygotowywanie raportów, prowadzenie dokumentacji oraz wsparcie administracyjne i operacyjne zespołu; Współpraca z innymi zespołami w celu zapewnienia sprawnej i skutecznej obsługi klientów | What they expect: Minimum rok doświadczenia zawodowego na podobnym stanowisku lub w obszarze administracji, obsługi klienta, operacji lub analizy danych; Bardzo dobra znajomość języka angielskiego (minimum poziom B2 - prosimy o składanie CV w języku angielskim); Umiejętność pracy z dokumentacją oraz dbałość o szczegóły | What they offer: Możliwość zdobywania doświadczenia i rozwoju zawodowego w strukturach U.S; Kompleksowy pakiet benefitów; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie owoce spotkania integracyjne opieka stomatologiczna dodatkowy urlop U",
+      "summary_tasks": [
+        "Prowadzenie analiz i badań wspierających rozwiązywanie zapytań, reklamacji oraz innych spraw klientów",
+        "Przygotowywanie raportów, prowadzenie dokumentacji oraz wsparcie administracyjne i operacyjne zespołu",
+        "Współpraca z innymi zespołami w celu zapewnienia sprawnej i skutecznej obsługi klientów"
+      ],
+      "summary_expectations": [
+        "Minimum rok doświadczenia zawodowego na podobnym stanowisku lub w obszarze administracji, obsługi klienta, operacji lub analizy danych",
+        "Bardzo dobra znajomość języka angielskiego (minimum poziom B2 - prosimy o składanie CV w języku angielskim)",
+        "Umiejętność pracy z dokumentacją oraz dbałość o szczegóły"
+      ],
+      "summary_offers": [
+        "Możliwość zdobywania doświadczenia i rozwoju zawodowego w strukturach U.S",
+        "Kompleksowy pakiet benefitów",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie owoce spotkania integracyjne opieka stomatologiczna dodatkowy urlop U"
+      ],
       "required_skills": []
     },
     {
@@ -578,7 +971,14 @@
       "published_at": "1788179188806",
       "fit_score": 70,
       "match_level": "MEDIUM",
-      "summary": "digital-marketing-specialist-k-m-hr-wise-Kraków-1 HR WISE Sp. POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False 1788179188806 Digital Marketing Specialist (k/m) marketing Mid pl permanent PLN Month AT_FIRST_INTERVIEW it RJ6IM6YX category CRM requirement Digital marketing HubSpot.",
+      "summary": "What you'll do: POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False 1788179188806 Digital Marketing Specialist (k/m) marketing Mid pl permanent PLN Month AT_FIRST_INTERVIEW it RJ6IM6YX category CRM requirement Digital marketing HubSpot | What they expect: POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False 1788179188806 Digital Marketing Specialist (k/m) marketing Mid pl permanent PLN Month AT_FIRST_INTERVIEW it RJ6IM6YX category CRM requirement Digital marketing HubSpot",
+      "summary_tasks": [
+        "POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False 1788179188806 Digital Marketing Specialist (k/m) marketing Mid pl permanent PLN Month AT_FIRST_INTERVIEW it RJ6IM6YX category CRM requirement Digital marketing HubSpot"
+      ],
+      "summary_expectations": [
+        "POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False 1788179188806 Digital Marketing Specialist (k/m) marketing Mid pl permanent PLN Month AT_FIRST_INTERVIEW it RJ6IM6YX category CRM requirement Digital marketing HubSpot"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -596,7 +996,19 @@
       "published_at": "2026-08-24T13:26:19.633Z",
       "fit_score": 69,
       "match_level": "MEDIUM",
-      "summary": "Zakres: analiza potrzeb biznesowych i przekładanie ich na Wymagania: doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy oraz przekładaniu ich na wymagania…",
+      "summary": "What you'll do: analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników | What they expect: doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy; Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie | What they offer: Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B); Możliwość szerokiego rozwoju kompetencji; Atrakcyjne benefity, m.in",
+      "summary_tasks": [
+        "analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników"
+      ],
+      "summary_expectations": [
+        "doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy",
+        "Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie"
+      ],
+      "summary_offers": [
+        "Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B)",
+        "Możliwość szerokiego rozwoju kompetencji",
+        "Atrakcyjne benefity, m.in"
+      ],
       "required_skills": []
     },
     {
@@ -614,7 +1026,13 @@
       "published_at": "1787842336875",
       "fit_score": 68,
       "match_level": "MEDIUM",
-      "summary": "technical-support-engineer-security-braver-it-Kraków Braver IT S.A. POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788274336875 Technical Support Engineer (Security) support Mid pl 8000.0 13000.0 permanent PLN Month VISIBLE it business UFDTNTLZ True category Network requirement Technical Support Network Security.",
+      "summary": "What you'll do: technical-support-engineer-security-braver-it-Kraków Braver IT S.A; POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788274336875 Technical Support Engineer (Security) support Mid pl 8000",
+      "summary_tasks": [
+        "technical-support-engineer-security-braver-it-Kraków Braver IT S.A",
+        "POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788274336875 Technical Support Engineer (Security) support Mid pl 8000"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -632,7 +1050,15 @@
       "published_at": "1786007121994",
       "fit_score": 66,
       "match_level": "MEDIUM",
-      "summary": "service-desk-developer-3-month-contract-belvedere-recruitment-Warszawa Belvedere Recruitment POL Poland Warszawa service-desk-developer-3-month-contract-belvedere-recruitment-warszawa False 1786007121994 1787907921994 Service Desk Developer. 3-Month Contract support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business Y5VYM7AJ Technical requirement Service desk management Knowledge management systems en jobLanguage.",
+      "summary": "What you'll do: service-desk-developer-3-month-contract-belvedere-recruitment-Warszawa Belvedere Recruitment POL Poland Warszawa service-desk-developer-3-month-contract-belvedere-recruitment-warszawa False 1786007121994 1787907921994 Service Desk Developer; 3-Month Contract support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business Y5VYM7AJ Technical requirement Service desk management Knowledge management systems en jobLanguage | What they expect: 3-Month Contract support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business Y5VYM7AJ Technical requirement Service desk management Knowledge management systems en jobLanguage",
+      "summary_tasks": [
+        "service-desk-developer-3-month-contract-belvedere-recruitment-Warszawa Belvedere Recruitment POL Poland Warszawa service-desk-developer-3-month-contract-belvedere-recruitment-warszawa False 1786007121994 1787907921994 Service Desk Developer",
+        "3-Month Contract support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business Y5VYM7AJ Technical requirement Service desk management Knowledge management systems en jobLanguage"
+      ],
+      "summary_expectations": [
+        "3-Month Contract support Mid pl permanent PLN Month AT_FIRST_INTERVIEW it business Y5VYM7AJ Technical requirement Service desk management Knowledge management systems en jobLanguage"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -650,7 +1076,12 @@
       "published_at": "1787235727155",
       "fit_score": 66,
       "match_level": "MEDIUM",
-      "summary": "mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-Tychy ING BANK ŚLĄSKI SPÓŁKA AKCYJNA POL Poland Tychy Browarowa 21 mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-tychy False 1787235727155 1788272527155 Młodszy Specjalista IT- e-commerce w Paymento support Junior pl 7000.0 permanent PLN Month VISIBLE it business E5CMCEJD True HTML requirement CSS API Postman.",
+      "summary": "What you'll do: mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-Tychy ING BANK ŚLĄSKI SPÓŁKA AKCYJNA POL Poland Tychy Browarowa 21 mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-tychy False 1787235727155 1788272527155 Młodszy Specjalista IT- e-commerce w Paymento support Junior pl 7000",
+      "summary_tasks": [
+        "mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-Tychy ING BANK ŚLĄSKI SPÓŁKA AKCYJNA POL Poland Tychy Browarowa 21 mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-tychy False 1787235727155 1788272527155 Młodszy Specjalista IT- e-commerce w Paymento support Junior pl 7000"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -668,7 +1099,13 @@
       "published_at": "2026-09-01T15:00:19.3790483Z",
       "fit_score": 65,
       "match_level": "MEDIUM",
-      "summary": "ee9bf238-2632-4805-ad13-7d6820eaa374 cgi-business-analyst-crm--warszawa-analytics Business Analyst (CRM) office full_time mid analytics Warszawa.",
+      "summary": "What you'll do: ee9bf238-2632-4805-ad13-7d6820eaa374 cgi-business-analyst-crm--warszawa-analytics Business Analyst (CRM) office full_time mid analytics Warszawa; False CGI https://imgproxy.justjoinit.tech/4Ing8hdxrYwCkGPy-YnwbT4stQE-hLe4GwLmSW6vEi8/h:200/w:200/plain/https://public.justjoin.it/companies/logos/original/893007925c63e6e6ff5e9e48dd92286bbaf2a2ed.png 2026-09-01T15:00:19.3790483Z CHF conversion permanent month True EUR GBP USD PLN original Business Analysis 4 CRM BPMN UML en B2 external https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J1124-2763&BRID=EX1201438&SBDID=1&LANG=11 2026-08-27T14:23:45.731734Z 2026-09-16T21:59:59.999Z",
+      "summary_tasks": [
+        "ee9bf238-2632-4805-ad13-7d6820eaa374 cgi-business-analyst-crm--warszawa-analytics Business Analyst (CRM) office full_time mid analytics Warszawa",
+        "False CGI https://imgproxy.justjoinit.tech/4Ing8hdxrYwCkGPy-YnwbT4stQE-hLe4GwLmSW6vEi8/h:200/w:200/plain/https://public.justjoin.it/companies/logos/original/893007925c63e6e6ff5e9e48dd92286bbaf2a2ed.png 2026-09-01T15:00:19.3790483Z CHF conversion permanent month True EUR GBP USD PLN original Business Analysis 4 CRM BPMN UML en B2 external https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J1124-2763&BRID=EX1201438&SBDID=1&LANG=11 2026-08-27T14:23:45.731734Z 2026-09-16T21:59:59.999Z"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": [
         "Business Analysis",
         "CRM",
@@ -691,7 +1128,10 @@
       "published_at": "2026-09-01T14:00:24.4081836Z",
       "fit_score": 65,
       "match_level": "MEDIUM",
-      "summary": "0e5075c1-2404-401f-a929-fa87fa51c878 astek-polska-analityk-danych-analityk-biznesowy-warszawa-data Analityk Danych/Analityk Biznesowy hybrid full_time mid data Warszawa Al.",
+      "summary": "No concise source summary available.",
+      "summary_tasks": [],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": [
         "SQL",
         "BPMN",
@@ -715,7 +1155,12 @@
       "published_at": "1786714391109",
       "fit_score": 65,
       "match_level": "MEDIUM",
-      "summary": "associate-it-support-specialist-gft-poland-Kraków GFT Poland POL Poland Kraków Wadowicka 7 associate-it-support-specialist-gft-poland-krakow False 1786714391109 1788269591109 Associate IT Support Specialist support Junior pl 6500.0 9000.0 permanent PLN Month VISIBLE it business D2JYNRIV Technical requirement Technical support Windows Microsoft 365.",
+      "summary": "What you'll do: associate-it-support-specialist-gft-poland-Kraków GFT Poland POL Poland Kraków Wadowicka 7 associate-it-support-specialist-gft-poland-krakow False 1786714391109 1788269591109 Associate IT Support Specialist support Junior pl 6500",
+      "summary_tasks": [
+        "associate-it-support-specialist-gft-poland-Kraków GFT Poland POL Poland Kraków Wadowicka 7 associate-it-support-specialist-gft-poland-krakow False 1786714391109 1788269591109 Associate IT Support Specialist support Junior pl 6500"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -733,7 +1178,17 @@
       "published_at": "1787917288077",
       "fit_score": 62,
       "match_level": "MEDIUM",
-      "summary": "technical-support-engineer-l2-onerail-poland-Kraków-2 OneRail Poland Sp. During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding. 1787917288077 1788262888077 Technical Support Engineer (L2) support Mid pl 12000.0 16000.0 permanent PLN Month VISIBLE it business XM5TJPEN True Technical requirement SaaS API SQL.",
+      "summary": "What you'll do: technical-support-engineer-l2-onerail-poland-Kraków-2 OneRail Poland Sp; POL Poland Kraków technical-support-engineer-l2-onerail-poland-krakow-2 False Work Style: Hybrid (3-4 days from the office/week); During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding | What they expect: During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding; 1787917288077 1788262888077 Technical Support Engineer (L2) support Mid pl 12000.0 16000.0 permanent PLN Month VISIBLE it business XM5TJPEN True Technical requirement SaaS API SQL",
+      "summary_tasks": [
+        "technical-support-engineer-l2-onerail-poland-Kraków-2 OneRail Poland Sp",
+        "POL Poland Kraków technical-support-engineer-l2-onerail-poland-krakow-2 False Work Style: Hybrid (3-4 days from the office/week)",
+        "During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding"
+      ],
+      "summary_expectations": [
+        "During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding",
+        "1787917288077 1788262888077 Technical Support Engineer (L2) support Mid pl 12000.0 16000.0 permanent PLN Month VISIBLE it business XM5TJPEN True Technical requirement SaaS API SQL"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -751,7 +1206,20 @@
       "published_at": "2026-08-11T22:00:00Z",
       "fit_score": 62,
       "match_level": "MEDIUM",
-      "summary": "Responsibilities: Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the project lifecycle Conduct analyses, support testing (SIT/UAT) Act as a subject matter expert in… Requirements: Min. bachelor’s degree Min. 1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions Experience working with transaction systems…",
+      "summary": "What you'll do: Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the | What they expect: 1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions; Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments); Knowledge of the Software Development Life Cycle (SDLC) process | What they offer: Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach; A wide training package (soft, technical,; Private medical care and life insurance",
+      "summary_tasks": [
+        "Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the"
+      ],
+      "summary_expectations": [
+        "1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions",
+        "Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments)",
+        "Knowledge of the Software Development Life Cycle (SDLC) process"
+      ],
+      "summary_offers": [
+        "Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach",
+        "A wide training package (soft, technical,",
+        "Private medical care and life insurance"
+      ],
       "required_skills": []
     },
     {
@@ -770,6 +1238,9 @@
       "fit_score": 61,
       "match_level": "MEDIUM",
       "summary": "No concise source summary available.",
+      "summary_tasks": [],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": [
         "SQL",
         "BI",
