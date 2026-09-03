@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "3",
-    "generated_at": "2026-09-02T14:19:54.740065+00:00",
-    "found": 2988,
-    "accepted": 44,
+    "generated_at": "2026-09-03T06:27:56.338800+00:00",
+    "found": 3014,
+    "accepted": 47,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1205
+        "fetched": 1197
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 645
+        "fetched": 661
       }
     }
   },
@@ -186,35 +186,6 @@
       "contact_email_kind": "company_contact"
     },
     {
-      "id": "86cbfbc764b69554",
-      "title": "E-commerce Product Content Specialist (K/M/N)",
-      "company": "RTV EURO AGD",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/e-commerce-product-content-specialist-k-m-n-warszawa-krakowiakow-42,oferta,1004992386",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-07-27T13:54:02.093Z",
-      "fit_score": 80,
-      "match_level": "STRONG",
-      "summary": "What you'll do: dbanie o jakość, kompletność oraz poprawność informacji produktowych prezentowanych w sklepie internetowym, przygotowywanie założeń do opisów produktów poprzez analizę rynku, research oraz identyfikację kluczowych korzyści dla klientów, weryfikacja | What they expect: minimum roczne doświadczenie w tworzeniu, zarządzaniu lub optymalizacji treści produktowych w środowisku e-commerce, bardzo dobra znajomość języka polskiego i umiejętność tworzenia zrozumiałych komunikatów dla klientów, umiejętność wyszukiwania, analizowania i selekcjonowania informacji produktowych, umiejętność przekładania parametrów technicznych na język korzyści dla klienta, analityczne podejście i umiejętność formułowania rekomendacji, wysoka dbałość o szczegóły | What they offer: możliwość realnego wpływu na sposób prezentacji tysięcy produktów jednego z liderów rynku RTV i AGD w Polsce, udział w projektach rozwijających obszar e-commerce i doświadczenia zakupowe klientów, współpracę z ekspertami z zakresu contentu, e-commerce, marketingu i sprzedaży, przestrzeń do wdrażania własnych pomysłów i rekomendacji, stabilne zatrudnienie w firmie o ugruntowanej pozycji rynkowej, prywatną opiekę medyczną, kartę sportową i ubezpieczenie na życie, nowoczesne biuro w kompleksie The Park Warsaw z dogodnym dojazdem i rozbudowaną infrastrukturą; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie firmowa drużyna sportowa firmowa biblioteka kawa / herbata program rekomendacji pracowników inicjatywy dobroczynne RTV EURO AGD Przewiń do profilu firmy Pod jednym z najbardziej charakterystycznych brandów na polskim rynku, od 1990 roku zajmujemy się sprzedażą elektroniki użytkowej i sprzętu AGD w Polsce; Jako RTV EURO AGD działamy w modelu omnichannel, oferując zaawansowane technologicznie produkty za pośrednictwem ponad 300 sklepów stacjonarnych w całej Polsce, dwóch sklepów internetowych, w tym sklepu nr 1 na polskim rynku – euro",
-      "summary_tasks": [
-        "dbanie o jakość, kompletność oraz poprawność informacji produktowych prezentowanych w sklepie internetowym, przygotowywanie założeń do opisów produktów poprzez analizę rynku, research oraz identyfikację kluczowych korzyści dla klientów, weryfikacja"
-      ],
-      "summary_expectations": [
-        "minimum roczne doświadczenie w tworzeniu, zarządzaniu lub optymalizacji treści produktowych w środowisku e-commerce, bardzo dobra znajomość języka polskiego i umiejętność tworzenia zrozumiałych komunikatów dla klientów, umiejętność wyszukiwania, analizowania i selekcjonowania informacji produktowych, umiejętność przekładania parametrów technicznych na język korzyści dla klienta, analityczne podejście i umiejętność formułowania rekomendacji, wysoka dbałość o szczegóły"
-      ],
-      "summary_offers": [
-        "możliwość realnego wpływu na sposób prezentacji tysięcy produktów jednego z liderów rynku RTV i AGD w Polsce, udział w projektach rozwijających obszar e-commerce i doświadczenia zakupowe klientów, współpracę z ekspertami z zakresu contentu, e-commerce, marketingu i sprzedaży, przestrzeń do wdrażania własnych pomysłów i rekomendacji, stabilne zatrudnienie w firmie o ugruntowanej pozycji rynkowej, prywatną opiekę medyczną, kartę sportową i ubezpieczenie na życie, nowoczesne biuro w kompleksie The Park Warsaw z dogodnym dojazdem i rozbudowaną infrastrukturą",
-        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie firmowa drużyna sportowa firmowa biblioteka kawa / herbata program rekomendacji pracowników inicjatywy dobroczynne RTV EURO AGD Przewiń do profilu firmy Pod jednym z najbardziej charakterystycznych brandów na polskim rynku, od 1990 roku zajmujemy się sprzedażą elektroniki użytkowej i sprzętu AGD w Polsce",
-        "Jako RTV EURO AGD działamy w modelu omnichannel, oferując zaawansowane technologicznie produkty za pośrednictwem ponad 300 sklepów stacjonarnych w całej Polsce, dwóch sklepów internetowych, w tym sklepu nr 1 na polskim rynku – euro"
-      ],
-      "required_skills": []
-    },
-    {
       "id": "56ebbf2335615d4b",
       "title": "Technical Support Specialist",
       "company": "Huawei Polska Sp. z o.o.",
@@ -314,39 +285,6 @@
       "required_skills": []
     },
     {
-      "id": "bbcb82e312f05814",
-      "title": "Junior Analyst (M/F/D)",
-      "company": "DSV GBS",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/junior-analyst-m-f-d-warszawa-tasmowa-10,oferta,1005066497",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-02T11:28:09.573Z",
-      "fit_score": 79,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python; Work closely with business analysts and other teams to design reports that truly meet client needs; Co-create and customize reporting tools that support decision-making | What they expect: Strong analytical skills and a problem-solving mindset; Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation; Solid Excel skills and experience working with large datasets (or in a junior analyst role) | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; DSV Global Business Services (DSV GBS) in Warsaw is in a phase of dynamic development",
-      "summary_tasks": [
-        "Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python",
-        "Work closely with business analysts and other teams to design reports that truly meet client needs",
-        "Co-create and customize reporting tools that support decision-making"
-      ],
-      "summary_expectations": [
-        "Strong analytical skills and a problem-solving mindset",
-        "Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation",
-        "Solid Excel skills and experience working with large datasets (or in a junior analyst role)"
-      ],
-      "summary_offers": [
-        "Employment based on an employment contract, along with a comprehensive benefits package",
-        "Training and development programs, as well as access to an e-learning platform",
-        "DSV Global Business Services (DSV GBS) in Warsaw is in a phase of dynamic development"
-      ],
-      "required_skills": []
-    },
-    {
       "id": "2e41a8b4a9a3453b",
       "title": "Digital Marketing Specialist",
       "company": "Akademeia High School",
@@ -413,6 +351,38 @@
       "required_skills": []
     },
     {
+      "id": "171477202e56b108",
+      "title": "Social Media & Digital Marketing Specialist",
+      "company": "AZYMUT",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/social-media-digital-marketing-specialist-warszawa-antonia-corazziego-4,oferta,1005028909",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-13T14:28:09.633Z",
+      "fit_score": 77,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google; Obsługa i moderacja kanałów społecznościowych marki; Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta | What they expect: Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne; Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ( | What they offer: Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie; 🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę; Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej",
+      "summary_tasks": [
+        "Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google",
+        "Obsługa i moderacja kanałów społecznościowych marki",
+        "Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta"
+      ],
+      "summary_expectations": [
+        "Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne",
+        "Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ("
+      ],
+      "summary_offers": [
+        "Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie",
+        "🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę",
+        "Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej"
+      ],
+      "required_skills": []
+    },
+    {
       "id": "727dd8ce2eafd8d5",
       "title": "Specjalista ds. automatyzacji procesów biznesowych (k/m/n)",
       "company": "Adamed Pharma S.A.",
@@ -442,39 +412,6 @@
         "Przewiń do profilu firmy Adamed to rodzinna firma farmaceutyczno-biotechnologiczna, która produkuje około 500 produktów oferowanych pacjentom w kilkudziesięciu krajach na całym świecie",
         "Od ponad 20 lat firma prowadzi własną innowacyjną działalność badawczo-rozwojową",
         "Adamed współpracuje naukowo z wiodącymi uniwersytetami, ekspertami medycznymi oraz instytutami naukowymi, w kraju i za granicą"
-      ],
-      "required_skills": []
-    },
-    {
-      "id": "c3f9996deae5f9d2",
-      "title": "IT Service Desk Specialist",
-      "company": "bolttech Poland Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/it-service-desk-specialist-warszawa-marszalkowska-126,oferta,1005011000",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-05T13:01:30.48Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników; Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi; Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT | What they expect: Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym; Dobra znajomość systemów Windows, macOS, iOS oraz Android; Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager | What they offer: Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT; Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00); Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)",
-      "summary_tasks": [
-        "Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników",
-        "Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi",
-        "Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT"
-      ],
-      "summary_expectations": [
-        "Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym",
-        "Dobra znajomość systemów Windows, macOS, iOS oraz Android",
-        "Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT",
-        "Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00)",
-        "Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)"
       ],
       "required_skills": []
     },
@@ -563,6 +500,39 @@
       ],
       "summary_offers": [
         "kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego"
+      ],
+      "required_skills": []
+    },
+    {
+      "id": "c3f9996deae5f9d2",
+      "title": "IT Service Desk Specialist",
+      "company": "bolttech Poland Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/it-service-desk-specialist-warszawa-marszalkowska-126,oferta,1005011000",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-05T13:01:30.48Z",
+      "fit_score": 75,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników; Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi; Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT | What they expect: Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym; Dobra znajomość systemów Windows, macOS, iOS oraz Android; Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager | What they offer: Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT; Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00); Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)",
+      "summary_tasks": [
+        "Obsługa zgłoszeń serwisowych, monitorowanie ich realizacji oraz zapewnianie wysokiego poziomu komunikacji i satysfakcji użytkowników",
+        "Administrowanie, monitorowanie i utrzymywanie urządzeń infrastruktury sieciowej (przełączników, routerów, punktów dostępowych Wi-Fi",
+        "Tworzenie i aktualizacja dokumentacji technicznej, procedur oraz dokumentacji infrastruktury IT"
+      ],
+      "summary_expectations": [
+        "Doświadczenie na stanowisku Service Desk, Help Desk, IT Support lub podobnym",
+        "Dobra znajomość systemów Windows, macOS, iOS oraz Android",
+        "Doświadczenie w pracy z rozwiązaniami MDM oraz Apple Business Manager"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju kompetencji technicznych i udziału w projektach infrastrukturalnych oraz inicjatywach usprawniających środowisko IT",
+        "Elastyczne godziny rozpoczęcia pracy (8:00 – 10:00)",
+        "Model pracy hybrydowej po zakończeniu procesu wdrożenia (1-2 dni zdalnie)"
       ],
       "required_skills": []
     },
@@ -696,13 +666,13 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-02T13:00:12.6893326Z",
+      "published_at": "2026-09-02T13:00:12.689332Z",
       "fit_score": 72,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: 6ed506eb-6be8-4f98-beb0-097ec19e1b92 capgemini-connectivity-network-engineer-katowice-admin Connectivity & Network Engineer hybrid full_time mid admin Katowice; False Capgemini https://imgproxy.justjoinit.tech/AR13t9EZOgW01bm-xyWNIo3ur7C417GHTXO9UWXZniI/h:200/w:200/plain/https://public.rocketjobs.pl/companies/logos/original/cd057da8a7b6da72737df7cdbd1e2c0359aed777.jpg 2026-09-02T13:00:12.6893326Z EUR conversion permanent month True CHF GBP USD PLN original Networking 4 Citrix TCP/IP fr B2 external https://careers.capgemini.com/job/Katowice-Connectivity-&-Network-Engineer/1416635333/ 2026-07-31T12:26:04.350911Z 2026-11-05T22:59:59.999999Z",
+      "summary": "What you'll do: 6ed506eb-6be8-4f98-beb0-097ec19e1b92 capgemini-connectivity-network-engineer-katowice-admin Connectivity & Network Engineer hybrid full_time mid admin Katowice; False Capgemini https://imgproxy.justjoinit.tech/AR13t9EZOgW01bm-xyWNIo3ur7C417GHTXO9UWXZniI/h:200/w:200/plain/https://public.rocketjobs.pl/companies/logos/original/cd057da8a7b6da72737df7cdbd1e2c0359aed777.jpg 2026-09-02T13:00:12.689332Z PLN original permanent month True CHF conversion EUR GBP USD Networking 4 Citrix TCP/IP fr B2 external https://careers.capgemini.com/job/Katowice-Connectivity-&-Network-Engineer/1416635333/ 2026-07-31T12:26:04.350911Z 2026-11-05T22:59:59.999999Z",
       "summary_tasks": [
         "6ed506eb-6be8-4f98-beb0-097ec19e1b92 capgemini-connectivity-network-engineer-katowice-admin Connectivity & Network Engineer hybrid full_time mid admin Katowice",
-        "False Capgemini https://imgproxy.justjoinit.tech/AR13t9EZOgW01bm-xyWNIo3ur7C417GHTXO9UWXZniI/h:200/w:200/plain/https://public.rocketjobs.pl/companies/logos/original/cd057da8a7b6da72737df7cdbd1e2c0359aed777.jpg 2026-09-02T13:00:12.6893326Z EUR conversion permanent month True CHF GBP USD PLN original Networking 4 Citrix TCP/IP fr B2 external https://careers.capgemini.com/job/Katowice-Connectivity-&-Network-Engineer/1416635333/ 2026-07-31T12:26:04.350911Z 2026-11-05T22:59:59.999999Z"
+        "False Capgemini https://imgproxy.justjoinit.tech/AR13t9EZOgW01bm-xyWNIo3ur7C417GHTXO9UWXZniI/h:200/w:200/plain/https://public.rocketjobs.pl/companies/logos/original/cd057da8a7b6da72737df7cdbd1e2c0359aed777.jpg 2026-09-02T13:00:12.689332Z PLN original permanent month True CHF conversion EUR GBP USD Networking 4 Citrix TCP/IP fr B2 external https://careers.capgemini.com/job/Katowice-Connectivity-&-Network-Engineer/1416635333/ 2026-07-31T12:26:04.350911Z 2026-11-05T22:59:59.999999Z"
       ],
       "summary_expectations": [],
       "summary_offers": [],
@@ -903,6 +873,34 @@
       "required_skills": []
     },
     {
+      "id": "7c18cc4b75d4037a",
+      "title": "Digital Marketing Specialist",
+      "company": "Orbico Sp. z o.o. oddział Salon Professional",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/digital-marketing-specialist-warszawa-salsy-2,oferta,1005006093",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-04T05:50:51.727Z",
+      "fit_score": 72,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: planowanie i wdrażanie strategii digitalowej marki w oparciu o wytyczne brand managera, koordynacja kampanii influencerskich we współpracy z agencjami i twórcami, tworzenie i koordynacja planów contentowych dla kanałów social media, z uwzględnieniem specyfiki poszczególnych platform, odpowiedzialność za budżet, analiza raportów i wyników kampanii, przedstawianie wniosków | What they expect: doświadczenie w pracy z kreatorami, influencer marketing i contentem | What they offer: kompleksowe podejście, a strategie realizujemy holistycznie, od sprzedaży, poprzez edukację, aż po marketing; Podejmujemy wyzwania, jakie stawia przed nami branża, pozostawiając wiernymi naszym wartościom",
+      "summary_tasks": [
+        "planowanie i wdrażanie strategii digitalowej marki w oparciu o wytyczne brand managera, koordynacja kampanii influencerskich we współpracy z agencjami i twórcami, tworzenie i koordynacja planów contentowych dla kanałów social media, z uwzględnieniem specyfiki poszczególnych platform, odpowiedzialność za budżet, analiza raportów i wyników kampanii, przedstawianie wniosków"
+      ],
+      "summary_expectations": [
+        "doświadczenie w pracy z kreatorami, influencer marketing i contentem"
+      ],
+      "summary_offers": [
+        "kompleksowe podejście, a strategie realizujemy holistycznie, od sprzedaży, poprzez edukację, aż po marketing",
+        "Podejmujemy wyzwania, jakie stawia przed nami branża, pozostawiając wiernymi naszym wartościom"
+      ],
+      "required_skills": []
+    },
+    {
       "id": "22e9f7ef4160f260",
       "title": "IT Support Specialist (2nd Line)",
       "company": "Allegro sp. z o.o.",
@@ -992,6 +990,35 @@
         "Możliwość skorzystania z grupowego ubezpieczenia na życie, opieki medycznej i kart sportowo-rekreacyjnych",
         "Możliwość udziału w szkoleniach, w tym w zajęciach z j"
       ],
+      "required_skills": []
+    },
+    {
+      "id": "8c951a952fd48686",
+      "title": "Specjalista IT / Helpdesk L1/L2",
+      "company": "OT2S Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-it-helpdesk-l1-l2-warszawa,oferta,1005042528",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-21T08:49:17.863Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych; Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników; Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości | What they expect: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2; Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników; Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365",
+      "summary_tasks": [
+        "Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych",
+        "Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników",
+        "Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości"
+      ],
+      "summary_expectations": [
+        "Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2",
+        "Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników",
+        "Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365"
+      ],
+      "summary_offers": [],
       "required_skills": []
     },
     {
@@ -1130,10 +1157,10 @@
       "published_at": "1787842336875",
       "fit_score": 68,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: technical-support-engineer-security-braver-it-Kraków Braver IT S.A; POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788274336875 Technical Support Engineer (Security) support Mid pl 8000",
+      "summary": "What you'll do: technical-support-engineer-security-braver-it-Kraków Braver IT S.A; POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788360736875 Technical Support Engineer (Security) support Mid pl 8000",
       "summary_tasks": [
         "technical-support-engineer-security-braver-it-Kraków Braver IT S.A",
-        "POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788274336875 Technical Support Engineer (Security) support Mid pl 8000"
+        "POL Poland Kraków technical-support-engineer-security-braver-it-krakow False 1787842336875 1788360736875 Technical Support Engineer (Security) support Mid pl 8000"
       ],
       "summary_expectations": [],
       "summary_offers": [],
@@ -1151,7 +1178,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-02T14:00:15.0946231Z",
+      "published_at": "2026-09-02T14:00:15.094623Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
       "summary": "What you'll do: e17ecda2-b7d8-4aca-bf26-df4e13bae268 comarch-technical-support-consultant-telco--krakow-support Technical Support Consultant (Telco) hybrid full_time mid support Kraków al",
@@ -1180,7 +1207,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-02T13:00:19.6564434Z",
+      "published_at": "2026-09-02T13:00:19.656443Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
       "summary": "No concise source summary available.",
@@ -1244,6 +1271,31 @@
       "required_skills": []
     },
     {
+      "id": "749d1669abb7427d",
+      "title": "Supply Chain Operations Specialist with English",
+      "company": "Antal",
+      "location": "POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False",
+      "url": "https://nofluffjobs.com/pl/job/supply-chain-operations-specialist-with-english-antal-krakow",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Unspecified",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1786312837847",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: supply-chain-operations-specialist-with-english-antal-Kraków Antal POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False 1786312837847 1788386437847 Supply Chain Operations Specialist with English logistics Mid pl permanent PLN Month AT_FIRST_INTERVIEW it BZDPWFP7 category Operations requirement Order Management Customer Service | What they expect: supply-chain-operations-specialist-with-english-antal-Kraków Antal POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False 1786312837847 1788386437847 Supply Chain Operations Specialist with English logistics Mid pl permanent PLN Month AT_FIRST_INTERVIEW it BZDPWFP7 category Operations requirement Order Management Customer Service",
+      "summary_tasks": [
+        "supply-chain-operations-specialist-with-english-antal-Kraków Antal POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False 1786312837847 1788386437847 Supply Chain Operations Specialist with English logistics Mid pl permanent PLN Month AT_FIRST_INTERVIEW it BZDPWFP7 category Operations requirement Order Management Customer Service"
+      ],
+      "summary_expectations": [
+        "supply-chain-operations-specialist-with-english-antal-Kraków Antal POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False 1786312837847 1788386437847 Supply Chain Operations Specialist with English logistics Mid pl permanent PLN Month AT_FIRST_INTERVIEW it BZDPWFP7 category Operations requirement Order Management Customer Service"
+      ],
+      "summary_offers": [],
+      "required_skills": []
+    },
+    {
       "id": "717a42875dc96fb6",
       "title": "Junior Business Analyst – AI & Operational Transformation",
       "company": "Antal",
@@ -1298,30 +1350,59 @@
       "required_skills": []
     },
     {
-      "id": "8b48b2ffd6ef018b",
-      "title": "Automation Business Analyst",
-      "company": "OFFICE SAMURAI",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/office-samurai-automation-business-analyst-krakow-analytics",
-      "apply_url": "https://form.jotform.com/262433515754357",
+      "id": "190bb6e2bbabe110",
+      "title": "Banking IT Systems Business Analyst - Payments",
+      "company": "Accenture Strategy & Consulting",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/banking-it-systems-business-analyst-payments-warszawa,oferta,1005023456",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-11T22:00:00Z",
+      "fit_score": 62,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the | What they expect: 1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions; Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments); Knowledge of the Software Development Life Cycle (SDLC) process | What they offer: Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach; A wide training package (soft, technical,; Private medical care and life insurance",
+      "summary_tasks": [
+        "Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the"
+      ],
+      "summary_expectations": [
+        "1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions",
+        "Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments)",
+        "Knowledge of the Software Development Life Cycle (SDLC) process"
+      ],
+      "summary_offers": [
+        "Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach",
+        "A wide training package (soft, technical,",
+        "Private medical care and life insurance"
+      ],
+      "required_skills": []
+    },
+    {
+      "id": "c2e1f2510ac2d656",
+      "title": "IT Support Specialist",
+      "company": "Callstack",
+      "location": "Wrocław",
+      "url": "https://justjoin.it/job-offer/callstack-it-support-specialist-wroclaw-support",
+      "apply_url": "https://www.callstack.com/careers#jobform-2712968",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
-      "seniority": "mid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-02T10:55:29.192262Z",
-      "fit_score": 60,
+      "published_at": "2026-09-02T15:00:19.7711236Z",
+      "fit_score": 61,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: 24eb8b79-521e-4da5-b47f-3d3b536b1a46 office-samurai-automation-business-analyst-krakow-analytics Automation Business Analyst hybrid full_time mid analytics Kraków Wojciecha Weissa 7 False OFFICE SAMURAI https://imgproxy",
+      "summary": "What you'll do: c6cf045f-9d16-47ad-8e1a-887c52a66080 callstack-it-support-specialist-wroclaw-support IT Support Specialist hybrid full_time junior support Wrocław Prosta 36 False Callstack https://imgproxy",
       "summary_tasks": [
-        "24eb8b79-521e-4da5-b47f-3d3b536b1a46 office-samurai-automation-business-analyst-krakow-analytics Automation Business Analyst hybrid full_time mid analytics Kraków Wojciecha Weissa 7 False OFFICE SAMURAI https://imgproxy"
+        "c6cf045f-9d16-47ad-8e1a-887c52a66080 callstack-it-support-specialist-wroclaw-support IT Support Specialist hybrid full_time junior support Wrocław Prosta 36 False Callstack https://imgproxy"
       ],
       "summary_expectations": [],
       "summary_offers": [],
       "required_skills": [
-        "Analytical Thinking",
-        "Business Analysis",
-        "Project Management"
+        "IT Support"
       ]
     },
     {
