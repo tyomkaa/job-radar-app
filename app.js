@@ -399,23 +399,43 @@ function render({anchor=null, preserveViewport=false}={}) {
     notes.value = rec?.notes || '';
 
     const trackingDetails = node.querySelector('.tracking-wrap');
+    const trackingSummary = trackingDetails.querySelector('summary');
+    let trackingReturnAnchor = null;
+
+    // Capture the card position before the details element expands. When the user
+    // closes Tracking (or saves/clears it), return to that exact vacancy instead
+    // of leaving the viewport down at the form controls.
+    trackingSummary.addEventListener('click', () => {
+      if (!trackingDetails.open) trackingReturnAnchor = captureCardAnchor(job.id);
+    });
+
     trackingDetails.addEventListener('toggle', () => {
-      if (!trackingDetails.open) return;
-      if (markSeen(job.id)) updateSeenUi(job.id);
-      focusTracking(trackingDetails);
+      if (trackingDetails.open) {
+        if (!trackingReturnAnchor) trackingReturnAnchor = captureCardAnchor(job.id);
+        if (markSeen(job.id)) updateSeenUi(job.id);
+        focusTracking(trackingDetails);
+        return;
+      }
+      if (trackingReturnAnchor) {
+        const anchorToRestore = trackingReturnAnchor;
+        trackingReturnAnchor = null;
+        setTimeout(() => restoreAnchor(anchorToRestore), 40);
+      }
     });
 
     node.querySelector('.save-tracking').addEventListener('click', () => {
-      const anchorNow = captureCardAnchor(job.id);
+      const anchorNow = trackingReturnAnchor || captureCardAnchor(job.id);
       const st = status.value;
       if (st && !appliedDate.value) appliedDate.value = today();
       saveTracking(job, {status: st, applied_at: appliedDate.value, channel: channel.value, response_date: responseDate.value, notes: notes.value});
       markSeen(job.id);
+      trackingReturnAnchor = null;
       render({anchor: anchorNow});
     });
     node.querySelector('.clear-tracking').addEventListener('click', () => {
-      const anchorNow = captureCardAnchor(job.id);
+      const anchorNow = trackingReturnAnchor || captureCardAnchor(job.id);
       saveTracking(job, {status: ''});
+      trackingReturnAnchor = null;
       render({anchor: anchorNow});
     });
 
@@ -429,6 +449,7 @@ function render({anchor=null, preserveViewport=false}={}) {
         render({anchor: anchorNow});
       } else {
         const details = node.querySelector('.tracking-wrap');
+        trackingReturnAnchor = captureCardAnchor(job.id);
         details.open = true;
         focusTracking(details);
       }
@@ -510,7 +531,7 @@ document.addEventListener('visibilitychange', () => {
 setInterval(() => refreshWhenActive(true), AUTO_REFRESH_MS);
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js?v=8', {updateViaCache:'none'})
+  navigator.serviceWorker.register('service-worker.js?v=9', {updateViaCache:'none'})
     .then(registration => registration.update())
     .catch(() => {});
 }
