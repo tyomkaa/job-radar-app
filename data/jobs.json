@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed_version": "4",
-    "generated_at": "2026-09-03T17:22:44.831756+00:00",
-    "found": 3005,
+    "generated_at": "2026-09-03T18:20:56.792817+00:00",
+    "found": 3008,
     "accepted": 45,
     "sources": {
       "justjoin.it": {
@@ -15,7 +15,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 650
+        "fetched": 651
       }
     }
   },
@@ -962,40 +962,6 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "022be25663b472f0",
-      "title": "Helpdesk Operator",
-      "company": "CPI Poland Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/helpdesk-operator-warszawa-emilii-plater-53,oferta,1005038529",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-19T13:39:13.893Z",
-      "fit_score": 71,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon; Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery); Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11 | What they expect: Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365; Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika; Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi) | What they offer: Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie; Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji; Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości",
-      "summary_tasks": [
-        "Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon",
-        "Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery)",
-        "Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11"
-      ],
-      "summary_expectations": [
-        "Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365",
-        "Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika",
-        "Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi)"
-      ],
-      "summary_offers": [
-        "Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie",
-        "Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji",
-        "Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
-    },
-    {
       "id": "42084658fccf3978",
       "title": "Help Desk IT - 1/2 etatu",
       "company": "Xella Polska Sp. z o.o.",
@@ -1028,6 +994,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
+      "id": "022be25663b472f0",
+      "title": "Helpdesk Operator",
+      "company": "CPI Poland Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/helpdesk-operator-warszawa-emilii-plater-53,oferta,1005038529",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-19T13:39:13.893Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon; Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery); Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11 | What they expect: Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365; Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika; Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi) | What they offer: Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie; Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji; Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości",
+      "summary_tasks": [
+        "Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon",
+        "Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery)",
+        "Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11"
+      ],
+      "summary_expectations": [
+        "Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365",
+        "Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika",
+        "Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi)"
+      ],
+      "summary_offers": [
+        "Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie",
+        "Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji",
+        "Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
     },
     {
       "id": "8c951a952fd48686",
