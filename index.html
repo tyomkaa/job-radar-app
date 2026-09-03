@@ -10,7 +10,7 @@
 <title>Job Radar</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 <header class="topbar"><div><div class="eyebrow">PERSONAL JOB RADAR</div><h1>Job Radar</h1></div><button id="refreshBtn" class="icon-btn" aria-label="Refresh">↻</button></header>
@@ -26,10 +26,11 @@
 </section>
 <nav class="filters" aria-label="Job filters">
 <button class="filter active" data-filter="ALL">All</button>
+<button class="filter" data-filter="TODAY">Today</button>
+<button class="filter" data-filter="UNSEEN">Unseen</button>
 <button class="filter" data-filter="STRONG">Strong</button>
 <button class="filter" data-filter="MEDIUM">Medium</button>
 <button class="filter" data-filter="EMAIL">Email</button>
-<button class="filter" data-filter="NEW">New</button>
 <button class="filter" data-filter="SAVED">Saved</button>
 <button class="filter" data-filter="APPLIED">Applied</button>
 <button class="filter" data-filter="REPLIED">Replies</button>
@@ -72,5 +73,5 @@
 <div class="actions"><a class="primary open-job" target="_blank" rel="noopener">Open job</a><button class="secondary quick-applied">Mark applied</button></div>
 </article>
 </template>
-<script src="app.js?v=6"></script>
+<script src="app.js?v=8"></script>
 </body></html>

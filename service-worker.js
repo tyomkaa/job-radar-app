@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v7';
-const SHELL=['./','./index.html','./app.js?v=6','./styles.css?v=6','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v8';
+const SHELL=['./','./index.html','./app.js?v=8','./styles.css?v=8','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
