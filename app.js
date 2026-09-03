@@ -17,7 +17,12 @@ const TRACKER_KEY = 'jobRadarApplicationTrackerV1';
 const AUTO_REFRESH_MS = 5 * 60 * 1000;
 const FOCUS_REFRESH_MIN_MS = 30 * 1000;
 const SEEN_DWELL_MS = 1300;
-const RETURN_ANCHOR_KEY = 'jobRadarReturnAnchorV1';
+const RETURN_ANCHOR_KEY = 'jobRadarReturnAnchorV2';
+
+// iOS may perform its own late scroll restoration after returning from another
+// app. Job Radar owns this restoration so the external-app handoff cannot move
+// the user to a different vacancy.
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
 function readSet(key) {
   try { return new Set(JSON.parse(localStorage.getItem(key) || '[]')); }
@@ -255,18 +260,55 @@ function restoreAnchor(anchor) {
 function saveReturnAnchor(id) {
   const anchor = captureCardAnchor(id);
   if (!anchor) return;
-  try { sessionStorage.setItem(RETURN_ANCHOR_KEY, JSON.stringify({...anchor, savedAt: Date.now()})); }
-  catch (_) {}
+  try {
+    // localStorage intentionally: iOS can terminate a standalone PWA while the
+    // user is inside Pracuj/JustJoin/NoFluff. sessionStorage is not reliable
+    // enough for that app-to-app handoff.
+    localStorage.setItem(RETURN_ANCHOR_KEY, JSON.stringify({
+      ...anchor,
+      scrollY: window.scrollY,
+      savedAt: Date.now()
+    }));
+  } catch (_) {}
 }
 function getReturnAnchor() {
   try {
-    const anchor = JSON.parse(sessionStorage.getItem(RETURN_ANCHOR_KEY) || 'null');
-    if (!anchor || Date.now() - Number(anchor.savedAt || 0) > 15 * 60 * 1000) return null;
+    const anchor = JSON.parse(localStorage.getItem(RETURN_ANCHOR_KEY) || 'null');
+    if (!anchor || Date.now() - Number(anchor.savedAt || 0) > 30 * 60 * 1000) {
+      localStorage.removeItem(RETURN_ANCHOR_KEY);
+      return null;
+    }
     return anchor;
   } catch { return null; }
 }
-function scheduleReturnAnchorClear() {
-  setTimeout(() => { try { sessionStorage.removeItem(RETURN_ANCHOR_KEY); } catch (_) {} }, 1600);
+function clearReturnAnchor() {
+  try { localStorage.removeItem(RETURN_ANCHOR_KEY); } catch (_) {}
+}
+function restoreReturnAnchor(anchor) {
+  if (!anchor?.id) return;
+  const started = Date.now();
+  let cancelled = false;
+  const cancel = () => { cancelled = true; };
+  window.addEventListener('pointerdown', cancel, {once:true, passive:true});
+  window.addEventListener('touchstart', cancel, {once:true, passive:true});
+
+  const apply = () => {
+    if (cancelled) return;
+    const card = cardById(anchor.id);
+    if (!card) return;
+    const desiredTop = Number(anchor.top);
+    const currentTop = card.getBoundingClientRect().top;
+    const targetY = Math.max(0, window.scrollY + currentTop - (Number.isFinite(desiredTop) ? desiredTop : 120));
+    if (Math.abs(window.scrollY - targetY) > 1) window.scrollTo({top: targetY, behavior: 'auto'});
+  };
+
+  // WebKit can apply its native restoration a little after pageshow/focus.
+  // Re-anchor a few times, then stop so normal user scrolling is untouched.
+  [0, 90, 260, 650].forEach(delay => setTimeout(apply, delay));
+  setTimeout(() => {
+    if (!cancelled && Date.now() - started < 1800) apply();
+    clearReturnAnchor();
+  }, 950);
 }
 function updateSeenUi(id) {
   const job = jobs.find(j => String(j.id) === String(id));
@@ -340,8 +382,11 @@ function render({anchor=null, preserveViewport=false}={}) {
 
     const openJob = node.querySelector('.open-job');
     openJob.href = job.apply_url || job.url;
+    const armExternalReturn = () => saveReturnAnchor(job.id);
+    openJob.addEventListener('pointerdown', armExternalReturn, {passive:true});
+    openJob.addEventListener('touchstart', armExternalReturn, {passive:true});
     openJob.addEventListener('click', () => {
-      saveReturnAnchor(job.id);
+      armExternalReturn();
       markSeen(job.id);
       updateSeenUi(job.id);
     });
@@ -484,11 +529,11 @@ async function refreshWhenActive(force=false) {
   render({anchor});
   const now = Date.now();
   if (!force && now - lastAutoRefresh < FOCUS_REFRESH_MIN_MS) {
-    if (returnAnchor) scheduleReturnAnchorClear();
+    if (returnAnchor) restoreReturnAnchor(returnAnchor);
     return;
   }
   await loadJobs(true, anchor);
-  if (returnAnchor) scheduleReturnAnchorClear();
+  if (returnAnchor) restoreReturnAnchor(returnAnchor);
 }
 
 function exportHistory() {
@@ -531,8 +576,11 @@ document.addEventListener('visibilitychange', () => {
 setInterval(() => refreshWhenActive(true), AUTO_REFRESH_MS);
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js?v=9', {updateViaCache:'none'})
+  navigator.serviceWorker.register('service-worker.js?v=10', {updateViaCache:'none'})
     .then(registration => registration.update())
     .catch(() => {});
 }
-loadJobs(false);
+const startupReturnAnchor = getReturnAnchor();
+loadJobs(false, startupReturnAnchor).then(() => {
+  if (startupReturnAnchor) restoreReturnAnchor(startupReturnAnchor);
+});
