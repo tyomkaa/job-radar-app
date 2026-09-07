@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "4",
-    "generated_at": "2026-09-05T11:40:52.193898+00:00",
-    "found": 2990,
-    "accepted": 41,
+    "generated_at": "2026-09-07T06:27:04.785660+00:00",
+    "found": 2968,
+    "accepted": 37,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1196
+        "fetched": 1183
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 654
+        "fetched": 628
       }
     }
   },
@@ -327,6 +327,39 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "171477202e56b108",
+      "title": "Social Media & Digital Marketing Specialist",
+      "company": "AZYMUT",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/social-media-digital-marketing-specialist-warszawa-antonia-corazziego-4,oferta,1005028909",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-13T14:28:09.633Z",
+      "fit_score": 77,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google; Obsługa i moderacja kanałów społecznościowych marki; Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta | What they expect: Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne; Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ( | What they offer: Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie; 🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę; Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej",
+      "summary_tasks": [
+        "Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google",
+        "Obsługa i moderacja kanałów społecznościowych marki",
+        "Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta"
+      ],
+      "summary_expectations": [
+        "Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne",
+        "Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ("
+      ],
+      "summary_offers": [
+        "Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie",
+        "🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę",
+        "Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
+    },
+    {
       "id": "727dd8ce2eafd8d5",
       "title": "Specjalista ds. automatyzacji procesów biznesowych (k/m/n)",
       "company": "Adamed Pharma S.A.",
@@ -452,38 +485,34 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "65b0b2d59efc6026",
-      "title": "Automation Specialist",
-      "company": "Kingfisher",
-      "location": "POL Poland Kraków Wielicka 28 30-552 automation-specialist-kingfisher-krakow False",
-      "url": "https://nofluffjobs.com/pl/job/automation-specialist-kingfisher-krakow",
+      "id": "173a9d29ea141dfe",
+      "title": "Helpdesk IT Junior",
+      "company": "Noble Securities S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/helpdesk-it-junior-warszawa,oferta,1005062413",
       "apply_url": "",
-      "source": "nofluffjobs.com",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1786053623511",
-      "fit_score": 74,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Design and document scalable automation solutions, including the creation of Solution Design Documents; Investigate and resolve technical issues, providing timely and effective support to business stakeholders; Plan, execute, and support Unit Testing and User Acceptance Testing activities | What they expect: nice to have Very good problem solving and analytical skills Strong attention to details Ability to work independently while also contributing effectively within a team environment; Good communication skills Good command of English, both written and spoken; We encourage you to apply for one of our roles, even if you do not feel you meet 100% of the requirements | What they offer: We also offer a competitive benefit package and plenty of opportunities to stretch and grow your career; Private medical healthcare at LUXMED (including dentalcare) for you and your family; Life insurance financed by the employer",
+      "work_mode": "Remote, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-01T07:15:08.037Z",
+      "fit_score": 75,
+      "match_level": "STRONG",
+      "summary": "What you'll do: bieżące wsparcie użytkowników (instalacje i aktualizacje oprogramowania, usuwanie bieżących usterek związanych z działaniem sprzętu komputerowego, obsługa oprogramowania i aplikacji wewnętrznych, instalacji nowego sprzętu, reinstalacji systemów operacyjnych) tworzenie dokumentacji, procedur uczestnictwo w nowych rozwojowych projektach wspieranie administratorów IT w bieżących działaniach | What they expect: znajomość systemów operacyjnych z rodziny Microsoft Windows umiejętność rozwiązywania problemów związanych ze sprzętem komputerowym i oprogramowaniem chęć podnoszenia swoich kwalifikacji i uczenia się nowych rozwiązań znajomość języka angielskiego na poziomie swobodnego rozumienia dokumentacji technicznej komunikatywność i umiejętność pracy w zespole | What they offer: elastyczną formę zatrudnienia przyjazną atmosferę w pracy możliwość zdobywania doświadczenia zawodowego w dynamicznie rozwijającym się Domu Maklerskim przyjazne środowisko w pracy z dobrym sprzętem możliwość współpracy z zespołem nastawionym na wzajemne uczenie się od siebie i współpracę atrakcyjne wynagrodzenie przyjazne środowisko w pracy; Dofinansowanie do wypoczynku bez konieczności 14 dni urlopu Świadczenie bezzwrotne w trudnych sytuacjach życiowych Ubezpieczenie na życie (odpłatne przez pracownika) Informujemy, iż skontaktujemy się tylko z wybranymi kandydatami; Przewiń do profilu firmy Dom Maklerski Noble Securities S.A",
       "summary_tasks": [
-        "Design and document scalable automation solutions, including the creation of Solution Design Documents",
-        "Investigate and resolve technical issues, providing timely and effective support to business stakeholders",
-        "Plan, execute, and support Unit Testing and User Acceptance Testing activities"
+        "bieżące wsparcie użytkowników (instalacje i aktualizacje oprogramowania, usuwanie bieżących usterek związanych z działaniem sprzętu komputerowego, obsługa oprogramowania i aplikacji wewnętrznych, instalacji nowego sprzętu, reinstalacji systemów operacyjnych) tworzenie dokumentacji, procedur uczestnictwo w nowych rozwojowych projektach wspieranie administratorów IT w bieżących działaniach"
       ],
       "summary_expectations": [
-        "nice to have Very good problem solving and analytical skills Strong attention to details Ability to work independently while also contributing effectively within a team environment",
-        "Good communication skills Good command of English, both written and spoken",
-        "We encourage you to apply for one of our roles, even if you do not feel you meet 100% of the requirements"
+        "znajomość systemów operacyjnych z rodziny Microsoft Windows umiejętność rozwiązywania problemów związanych ze sprzętem komputerowym i oprogramowaniem chęć podnoszenia swoich kwalifikacji i uczenia się nowych rozwiązań znajomość języka angielskiego na poziomie swobodnego rozumienia dokumentacji technicznej komunikatywność i umiejętność pracy w zespole"
       ],
       "summary_offers": [
-        "We also offer a competitive benefit package and plenty of opportunities to stretch and grow your career",
-        "Private medical healthcare at LUXMED (including dentalcare) for you and your family",
-        "Life insurance financed by the employer"
+        "elastyczną formę zatrudnienia przyjazną atmosferę w pracy możliwość zdobywania doświadczenia zawodowego w dynamicznie rozwijającym się Domu Maklerskim przyjazne środowisko w pracy z dobrym sprzętem możliwość współpracy z zespołem nastawionym na wzajemne uczenie się od siebie i współpracę atrakcyjne wynagrodzenie przyjazne środowisko w pracy",
+        "Dofinansowanie do wypoczynku bez konieczności 14 dni urlopu Świadczenie bezzwrotne w trudnych sytuacjach życiowych Ubezpieczenie na życie (odpłatne przez pracownika) Informujemy, iż skontaktujemy się tylko z wybranymi kandydatami",
+        "Przewiń do profilu firmy Dom Maklerski Noble Securities S.A"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
       "id": "ecadcb0f7b8bc0d8",
@@ -515,40 +544,6 @@
         "Profesjonalny onboarding i szkolenia wprowadzające",
         "Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover",
         "Dofinansowanie do karty sportowej Multisport"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "2035d4e584dd9dd2",
-      "title": "Inżynier sieciowy",
-      "company": "ACNET sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/inzynier-sieciowy-warszawa-sokolowska-9,oferta,1005012307",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-06T08:21:34.28Z",
-      "fit_score": 72,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Huawei, H3C, Cambium Networks); Tworzenie kompleksowych projektów technicznych w oparciu o potrzeby klienta; Prowadzenie profesjonalnych prezentacji i szkoleń technicznych | What they expect: Znajomość sieci WAN/LAN/WLAN; Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i czytanie dokumentacji technicznej; Doświadczenie w pracy na podobnym stanowisku minimum 2 lata | What they offer: Możliwość rozwoju i zdobycia certyfikatów eksperckich; Elastyczną formę zatrudnienia; W ACNET stawiamy na innowacyjność i ciągły rozwój kompetencji – wierzymy, że zaawansowana technologia wymaga profesjonalnego podejścia i pasji",
-      "summary_tasks": [
-        "Huawei, H3C, Cambium Networks)",
-        "Tworzenie kompleksowych projektów technicznych w oparciu o potrzeby klienta",
-        "Prowadzenie profesjonalnych prezentacji i szkoleń technicznych"
-      ],
-      "summary_expectations": [
-        "Znajomość sieci WAN/LAN/WLAN",
-        "Znajomość języka angielskiego na poziomie umożliwiającym swobodną komunikację i czytanie dokumentacji technicznej",
-        "Doświadczenie w pracy na podobnym stanowisku minimum 2 lata"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju i zdobycia certyfikatów eksperckich",
-        "Elastyczną formę zatrudnienia",
-        "W ACNET stawiamy na innowacyjność i ciągły rozwój kompetencji – wierzymy, że zaawansowana technologia wymaga profesjonalnego podejścia i pasji"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
@@ -682,104 +677,6 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "40980bcb6258f928",
-      "title": "Service Desk Agent / IT Support (M/F/D)",
-      "company": "DSV",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/dsv-service-desk-agent-it-support-m-f-d--warszawa-support",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=1e56a436e1654e5897320a1bdec6434c",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-05T07:00:10.3074984Z",
-      "fit_score": 71,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Accepting users’ requests (mail, phone, www), its classification in global ticketing system, initial troubleshooting; Informing and supporting end users in the event of IT system unavailability; Account administration and password management of many IT systems in use | What they expect: Experience in similar position (e.g; Very good English skills - written and spoken; General IT understanding and a will to expand this knowledge | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; Sharing the costs of professional training & courses",
-      "summary_tasks": [
-        "Accepting users’ requests (mail, phone, www), its classification in global ticketing system, initial troubleshooting",
-        "Informing and supporting end users in the event of IT system unavailability",
-        "Account administration and password management of many IT systems in use"
-      ],
-      "summary_expectations": [
-        "Experience in similar position (e.g",
-        "Very good English skills - written and spoken",
-        "General IT understanding and a will to expand this knowledge"
-      ],
-      "summary_offers": [
-        "Employment based on an employment contract, along with a comprehensive benefits package",
-        "Training and development programs, as well as access to an e-learning platform",
-        "Sharing the costs of professional training & courses"
-      ],
-      "required_skills": [
-        "Customer Support",
-        "Help Desk",
-        "Service Desk"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
-    },
-    {
-      "id": "3ed717ed2ca328f3",
-      "title": "Desktop Support Technician - IT, Level 2",
-      "company": "Frontiers Open Science",
-      "location": "warsaw",
-      "url": "https://justjoin.it/job-offer/frontiers-open-science-desktop-support-technician---it-level-2-warsaw-support",
-      "apply_url": "https://apply.workable.com/j/4C6AB32EA7",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-04T16:00:06.592211Z",
-      "fit_score": 71,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: IT, Level 2 Save Apply All offers warsaw Support Desktop Support Technician; IT, Level 2 Support Desktop Support Technician; You will be responsible for troubleshooting hardware",
-      "summary_tasks": [
-        "IT, Level 2 Save Apply All offers warsaw Support Desktop Support Technician",
-        "IT, Level 2 Support Desktop Support Technician",
-        "You will be responsible for troubleshooting hardware"
-      ],
-      "summary_expectations": [],
-      "summary_offers": [],
-      "required_skills": [
-        "IT",
-        "IT Support",
-        "Troubleshooting"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
-    },
-    {
-      "id": "8c951a952fd48686",
-      "title": "Specjalista IT / Helpdesk L1/L2",
-      "company": "OT2S Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-it-helpdesk-l1-l2-warszawa,oferta,1005042528",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-21T08:49:17.863Z",
-      "fit_score": 71,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych; Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników; Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości | What they expect: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2; Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników; Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365",
-      "summary_tasks": [
-        "Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych",
-        "Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników",
-        "Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2",
-        "Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników",
-        "Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
       "id": "ad68d779c382497f",
       "title": "IT Support Specialist",
       "company": "net-o-logy Sp. z o.o.",
@@ -813,145 +710,104 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "42084658fccf3978",
-      "title": "Help Desk IT - 1/2 etatu",
-      "company": "Xella Polska Sp. z o.o.",
+      "id": "8c951a952fd48686",
+      "title": "Specjalista IT / Helpdesk L1/L2",
+      "company": "OT2S Sp. z o.o.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/help-desk-it-1-2-etatu-warszawa-komitetu-obrony-robotnikow-48,oferta,1005014757",
+      "url": "https://www.pracuj.pl/praca/specjalista-it-helpdesk-l1-l2-warszawa,oferta,1005042528",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Remote, Office",
       "seniority": "junior, mid",
       "salary": "",
-      "published_at": "2026-08-07T08:02:07.253Z",
+      "published_at": "2026-08-21T08:49:17.863Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Bezpośrednie, zdalne i telefoniczne wsparcie użytkowników w obszarze infrastruktury IT (komputery, sieć, peryferia, aplikacje i systemy) Instalacja; Współpraca z wewnętrznymi i zewnętrznymi zespołami specjalistów IT; Współpraca z drugą linią wsparcia i firmami zewnętrznymi w przypadku złożonych problemów Dbałość o wysoki poziom obsługi klienta wewnętrznego w zakresie świadczonych usług | What they expect: Doświadczenie na podobnym stanowisku 1 rok; Znajomość języka polskiego na poziomie minimum B2; Znajomość języka angielskiego (także technicznego) na poziomie B1 | What they offer: Możliwość rozwoju zawodowego Pracę w dobrej atmosferze, wśród pracowników, którzy stawiają na relacje i wzajemną współpracę; Możliwość skorzystania z grupowego ubezpieczenia na życie, opieki medycznej i kart sportowo-rekreacyjnych; Możliwość udziału w szkoleniach, w tym w zajęciach z j",
+      "summary": "What you'll do: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych; Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników; Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości | What they expect: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2; Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników; Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365",
       "summary_tasks": [
-        "Bezpośrednie, zdalne i telefoniczne wsparcie użytkowników w obszarze infrastruktury IT (komputery, sieć, peryferia, aplikacje i systemy) Instalacja",
-        "Współpraca z wewnętrznymi i zewnętrznymi zespołami specjalistów IT",
-        "Współpraca z drugą linią wsparcia i firmami zewnętrznymi w przypadku złożonych problemów Dbałość o wysoki poziom obsługi klienta wewnętrznego w zakresie świadczonych usług"
+        "Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych",
+        "Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników",
+        "Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości"
       ],
       "summary_expectations": [
-        "Doświadczenie na podobnym stanowisku 1 rok",
-        "Znajomość języka polskiego na poziomie minimum B2",
-        "Znajomość języka angielskiego (także technicznego) na poziomie B1"
+        "Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2",
+        "Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników",
+        "Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365"
       ],
-      "summary_offers": [
-        "Możliwość rozwoju zawodowego Pracę w dobrej atmosferze, wśród pracowników, którzy stawiają na relacje i wzajemną współpracę",
-        "Możliwość skorzystania z grupowego ubezpieczenia na życie, opieki medycznej i kart sportowo-rekreacyjnych",
-        "Możliwość udziału w szkoleniach, w tym w zajęciach z j"
-      ],
+      "summary_offers": [],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "31d521bf2f93d8c7",
-      "title": "Operations Specialist",
-      "company": "U.S.Bank | Elavon",
+      "id": "022be25663b472f0",
+      "title": "Helpdesk Operator",
+      "company": "CPI Poland Sp. z o.o.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/operations-specialist-warszawa-pulawska-17,oferta,1005013199",
+      "url": "https://www.pracuj.pl/praca/helpdesk-operator-warszawa-emilii-plater-53,oferta,1005038529",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
+      "work_mode": "Office",
       "seniority": "junior, mid",
       "salary": "",
-      "published_at": "2026-08-06T11:42:28.41Z",
+      "published_at": "2026-08-19T13:39:13.893Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Prowadzenie analiz i badań wspierających rozwiązywanie zapytań, reklamacji oraz innych spraw klientów; Przygotowywanie raportów, prowadzenie dokumentacji oraz wsparcie administracyjne i operacyjne zespołu; Współpraca z innymi zespołami w celu zapewnienia sprawnej i skutecznej obsługi klientów | What they expect: Minimum rok doświadczenia zawodowego na podobnym stanowisku lub w obszarze administracji, obsługi klienta, operacji lub analizy danych; Bardzo dobra znajomość języka angielskiego (minimum poziom B2 - prosimy o składanie CV w języku angielskim); Umiejętność pracy z dokumentacją oraz dbałość o szczegóły | What they offer: Możliwość zdobywania doświadczenia i rozwoju zawodowego w strukturach U.S; Kompleksowy pakiet benefitów; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie owoce spotkania integracyjne opieka stomatologiczna dodatkowy urlop U",
+      "summary": "What you'll do: Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon; Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery); Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11 | What they expect: Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365; Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika; Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi) | What they offer: Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie; Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji; Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości",
       "summary_tasks": [
-        "Prowadzenie analiz i badań wspierających rozwiązywanie zapytań, reklamacji oraz innych spraw klientów",
-        "Przygotowywanie raportów, prowadzenie dokumentacji oraz wsparcie administracyjne i operacyjne zespołu",
-        "Współpraca z innymi zespołami w celu zapewnienia sprawnej i skutecznej obsługi klientów"
+        "Obsługa zgłoszeń: Przyjmowanie, rejestrowanie i wstępna klasyfikacja incydentów oraz próśb poprzez system ticketowy Service-NOW , e-mail oraz telefon",
+        "Wsparcie techniczne (L1): Diagnozowanie i rozwiązywanie podstawowych problemów ze sprzętem komputerowym, oprogramowaniem oraz urządzeniami peryferyjnymi (drukarki, skanery)",
+        "Instalacja i konfiguracja: Instalacja i konfiguracja nowych systemów operacyjnych Windows 11"
       ],
       "summary_expectations": [
-        "Minimum rok doświadczenia zawodowego na podobnym stanowisku lub w obszarze administracji, obsługi klienta, operacji lub analizy danych",
-        "Bardzo dobra znajomość języka angielskiego (minimum poziom B2 - prosimy o składanie CV w języku angielskim)",
-        "Umiejętność pracy z dokumentacją oraz dbałość o szczegóły"
+        "Dobra znajomość obsługi systemów operacyjnych z rodziny Windows (mile widziany iOS) oraz pakietu MS Office/Microsoft 365",
+        "Umiejętności miękkie: Wysoka kultura osobista, cierpliwość, empatia oraz zorientowanie na rozwiązywanie problemów użytkownika",
+        "Znajomość sprzętu: Podstawowa wiedza z zakresu budowy komputera i działania sieci komputerowych (LAN/Wi-Fi)"
       ],
       "summary_offers": [
-        "Możliwość zdobywania doświadczenia i rozwoju zawodowego w strukturach U.S",
-        "Kompleksowy pakiet benefitów",
-        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie owoce spotkania integracyjne opieka stomatologiczna dodatkowy urlop U"
+        "Stabilne zatrudnienie w firmie będącej jednym z liderów rynku nieruchomości komercyjnych w Warszawie",
+        "Wsparcie Onboarding Buddy, który pomoże Ci sprawnie odnaleźć się w nowej roli i organizacji",
+        "Możliwość rozwoju zawodowego i zdobywania wiedzy od doświadczonych ekspertów z branży nieruchomości"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
-      "id": "6f41408829f0f5f4",
-      "title": "Młodszy Administrator systemów IT (K/M)",
-      "company": "Ideo Sp. z o.o.",
-      "location": "Rzeszów",
-      "url": "https://justjoin.it/job-offer/ideo-sp-z-o-o--mlodszy-administrator-systemow-it-k-m--rzeszow-admin",
-      "apply_url": "https://ikariera.traffit.com/public/form/a/190b1268eba9d857ff927f87b30adea533713861",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-05T09:00:14.0526023Z",
-      "fit_score": 70,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Twoje zadania: Administracja systemami Linux; bieżące zarządzanie serwerami oraz dbanie o ich stabilność, bezpieczeństwo i wydajność, Obsługa środowisk wirtualizacji; administracja serwerami WWW, serwerami pocztowymi oraz usługami DNS, Zarządzanie bazami danych | What they expect: Minimum roku doświadczenia na stanowisku związanym z administracją systemami Linux lub wsparciem infrastruktury IT; Dobrej znajomości i umiejętność praktycznego wykorzystania narzędzi AI; Praktycznej znajomości systemu Linux oraz swobodnego poruszania się w konsoli",
-      "summary_tasks": [
-        "Twoje zadania: Administracja systemami Linux",
-        "bieżące zarządzanie serwerami oraz dbanie o ich stabilność, bezpieczeństwo i wydajność, Obsługa środowisk wirtualizacji",
-        "administracja serwerami WWW, serwerami pocztowymi oraz usługami DNS, Zarządzanie bazami danych"
-      ],
-      "summary_expectations": [
-        "Minimum roku doświadczenia na stanowisku związanym z administracją systemami Linux lub wsparciem infrastruktury IT",
-        "Dobrej znajomości i umiejętność praktycznego wykorzystania narzędzi AI",
-        "Praktycznej znajomości systemu Linux oraz swobodnego poruszania się w konsoli"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "Linux"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
-    },
-    {
-      "id": "87b185ca376fa03c",
-      "title": "QA Automation Specialist",
-      "company": "KOMFORT",
-      "location": "Łódź",
-      "url": "https://justjoin.it/job-offer/komfort-qa-automation-specialist-lodz-testing",
-      "apply_url": "https://form.erecruiter.pl/form/bdf82539438e49678f63b2065ccd5be0",
+      "id": "ebcc2bf9772e29fa",
+      "title": "Młodszy inżynier service desk (K/M/X)",
+      "company": "COMARCH",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/comarch-mlodszy-inzynier-service-desk-k-m-x--krakow-support-9c16b8ca",
+      "apply_url": "https://kariera.comarch.pl/praca/mlodszy-inzynier-service-desk-k-m-x-2334/#/form/offer/1767/step/1",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
-      "seniority": "mid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-05T09:00:11.1463938Z",
+      "published_at": "2026-09-06T16:00:01.412832Z",
       "fit_score": 70,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Tworzenie, modyfikacja i utrzymanie testów automatycznych, jednostkowych oraz manualnych; Projektowanie i implementacja smoke testów, testów integracyjnych oraz regresyjnych; Współpraca z zespołami projektowymi i deweloperskimi w celu podnoszenia jakości i pokrycia testami | What they expect: Doświadczenie w tworzeniu i utrzymaniu testów automatycznych, jednostkowych i manualnych; 2 lata doświadczenia w pracy na podobnym stanowisku; Znajomość dodatkowych narzędzi do automatyzacji testów najlepiej Playwright lub inne: Selenium, Cypress | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; W swojej ofercie posiada wszystko, co potrzebne do kompleksowego urządzenia łazienki, wykończenia podłóg, wyboru drzwi oraz zaprojektowania kuchni i innych domowych wnętrz",
+      "summary": "What you'll do: Będziesz mieć do dyspozycji wszelkie niezbędne narzędzia, instrukcje oraz nieograniczony dostęp do naszej bazy wiedzy; W przypadku trudniejszych incydentów, będziesz mieć również wsparcie z innych zespołów (również tych spoza Comarch); ale jeśli będziesz je mieć, będzie ono mile widziane | What they expect: By rozpocząć pracę u nas, nie musisz mieć doświadczenia w pracy na podobnym stanowisku; Z uwagi na to, że obsługujemy międzynarodowe projekty, niezbędna jest znajomość języka angielskiego, na poziomie umożliwiającym konwersację; Jeśli zależy Ci na rozwoju osobistym i pogłębieniu kompetencji",
       "summary_tasks": [
-        "Tworzenie, modyfikacja i utrzymanie testów automatycznych, jednostkowych oraz manualnych",
-        "Projektowanie i implementacja smoke testów, testów integracyjnych oraz regresyjnych",
-        "Współpraca z zespołami projektowymi i deweloperskimi w celu podnoszenia jakości i pokrycia testami"
+        "Będziesz mieć do dyspozycji wszelkie niezbędne narzędzia, instrukcje oraz nieograniczony dostęp do naszej bazy wiedzy",
+        "W przypadku trudniejszych incydentów, będziesz mieć również wsparcie z innych zespołów (również tych spoza Comarch)",
+        "ale jeśli będziesz je mieć, będzie ono mile widziane"
       ],
       "summary_expectations": [
-        "Doświadczenie w tworzeniu i utrzymaniu testów automatycznych, jednostkowych i manualnych",
-        "2 lata doświadczenia w pracy na podobnym stanowisku",
-        "Znajomość dodatkowych narzędzi do automatyzacji testów najlepiej Playwright lub inne: Selenium, Cypress"
+        "By rozpocząć pracę u nas, nie musisz mieć doświadczenia w pracy na podobnym stanowisku",
+        "Z uwagi na to, że obsługujemy międzynarodowe projekty, niezbędna jest znajomość języka angielskiego, na poziomie umożliwiającym konwersację",
+        "Jeśli zależy Ci na rozwoju osobistym i pogłębieniu kompetencji"
       ],
-      "summary_offers": [
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie",
-        "W swojej ofercie posiada wszystko, co potrzebne do kompleksowego urządzenia łazienki, wykończenia podłóg, wyboru drzwi oraz zaprojektowania kuchni i innych domowych wnętrz"
-      ],
+      "summary_offers": [],
       "required_skills": [
-        "Playwright",
-        "Selenium",
-        "Cypress",
-        "QA",
-        "Test Automation",
-        "CI/CD"
+        "Linux",
+        "Network Administration",
+        "SQL"
       ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
     },
     {
       "id": "603c2b99051fc986",
@@ -982,43 +838,6 @@
       "summary_offers": [],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "ebb1b64522652752",
-      "title": "Inżynier Sieci/ Inżynierka Sieci",
-      "company": "Santander Consumer Bank",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/santander-consumer-bank-inzynier-sieci-inzynierka-sieci-wroclaw-admin",
-      "apply_url": "https://santander.wd3.myworkdayjobs.com/pl-PL/SantanderCareers/job/Wrocaw/Inynier-Sieci--Inynierka-Sieci_Req1587446",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-05T09:00:14.7348281Z",
-      "fit_score": 68,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Zarządzanie system Cisco ACI (multipod); Zarządzanie warstwą core sieci i routingiem globalnym w sieci Banku; Projektowanie nowych rozwiązań sieciowych i współpraca przy projektach IT w obszarze infrastruktury sieciowej | What they expect: Jeśli masz doświadczenie w dużych sieciach, pracy na styku sieci firmowej z Internetem i z ochroną przed atakami DDoS; Nasze oczekiwania: Wykształcenie wyższe techniczne Doświadczenie w pracy z technologiami routingu i przełączania w sieciach opartych o urządzenia Cisco, wiedza na poziomie CCNP (mile widziany certyfikat CCNP), Znajomość administrowania firewall-ami sieciowymi Znajomości języka angielskiego na poziomie pozwalającym na swobodną komunikację Znajomość języka polskiego na poziomie native Gotowość do pracy z zaangażowaniem i inicjatywą Mile widziane: znajomość zarządzania innymi systemami bezpieczeństwa znajomość języka hiszpańskiego Oferujemy Dodatkowe składniki wynagrodzenia: m | What they offer: Dostęp do wiedzy no limit- wewnętrzna strefa wymiany wiedzy, platforma szkoleniowa Dojo z dostępem do szkoleń na LinkedIn Learning, IBM; Prywatną opiekę medyczną – Medicover; Elastyczne systemy czasu pracy nastawione na zachowanie równowagi życia zawodowego i prywatnego",
-      "summary_tasks": [
-        "Zarządzanie system Cisco ACI (multipod)",
-        "Zarządzanie warstwą core sieci i routingiem globalnym w sieci Banku",
-        "Projektowanie nowych rozwiązań sieciowych i współpraca przy projektach IT w obszarze infrastruktury sieciowej"
-      ],
-      "summary_expectations": [
-        "Jeśli masz doświadczenie w dużych sieciach, pracy na styku sieci firmowej z Internetem i z ochroną przed atakami DDoS",
-        "Nasze oczekiwania: Wykształcenie wyższe techniczne Doświadczenie w pracy z technologiami routingu i przełączania w sieciach opartych o urządzenia Cisco, wiedza na poziomie CCNP (mile widziany certyfikat CCNP), Znajomość administrowania firewall-ami sieciowymi Znajomości języka angielskiego na poziomie pozwalającym na swobodną komunikację Znajomość języka polskiego na poziomie native Gotowość do pracy z zaangażowaniem i inicjatywą Mile widziane: znajomość zarządzania innymi systemami bezpieczeństwa znajomość języka hiszpańskiego Oferujemy Dodatkowe składniki wynagrodzenia: m"
-      ],
-      "summary_offers": [
-        "Dostęp do wiedzy no limit- wewnętrzna strefa wymiany wiedzy, platforma szkoleniowa Dojo z dostępem do szkoleń na LinkedIn Learning, IBM",
-        "Prywatną opiekę medyczną – Medicover",
-        "Elastyczne systemy czasu pracy nastawione na zachowanie równowagi życia zawodowego i prywatnego"
-      ],
-      "required_skills": [
-        "CCNP",
-        "Firewall",
-        "routing"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
       "id": "fd5069ab8c9f6725",
@@ -1053,84 +872,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "452aa31edda486ca",
-      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. Service Desk",
-      "company": "Medicover",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/medicover-mlodszy-specjalista-mlodsza-specjalistka-ds-service-desk-warszawa-support-37f5914c",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=302e2bab25e84c1796623ed3f167002a",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-05T10:00:16.0805773Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Service Desk Save Apply All offers Warszawa Support Młodszy Specjalista / Młodsza Specjalistka ds; Service Desk Support Młodszy Specjalista / Młodsza Specjalistka ds; Jerozolimskie 96 , Warszawa Medicover Show all offers Full-time Permanent Junior Office Job description Twoje zadania: Utrzymanie ciągłości pracy użytkowników systemu poprzez zapewnienie wsparcia technicznego Zapewnienie ciągłości działania systemów informatycznych w obszarze wsparcia IT w przypadku awarii Zarządzanie kontami użytkowników w systemach informatycznych Wspieranie użytkowników w obsłudze systemów informatycznych poprzez udzielenie informacji na temat systemu, instalację | What they expect: na poziomie co najmniej B1+ * Dodatkowym atutem będzie doświadczenie zawodowe w pracy na analogicznym stanowisku Oferujemy:​ Stabilne zatrudnienie w oparciu o umowę o pracę ​Pracę stacjonarną w systemie zmianowym (7:00–20:00), od poniedziałku do piątku | What they offer: okazjonalnie również w soboty​ (zdalnie); Prywatną opiekę medyczną; bilety do kina, teatru) zniżki na usługi i produkty oferowane przez spółki Medicover, grupowe ubezpieczenie NNW i inne",
-      "summary_tasks": [
-        "Service Desk Save Apply All offers Warszawa Support Młodszy Specjalista / Młodsza Specjalistka ds",
-        "Service Desk Support Młodszy Specjalista / Młodsza Specjalistka ds",
-        "Jerozolimskie 96 , Warszawa Medicover Show all offers Full-time Permanent Junior Office Job description Twoje zadania: Utrzymanie ciągłości pracy użytkowników systemu poprzez zapewnienie wsparcia technicznego Zapewnienie ciągłości działania systemów informatycznych w obszarze wsparcia IT w przypadku awarii Zarządzanie kontami użytkowników w systemach informatycznych Wspieranie użytkowników w obsłudze systemów informatycznych poprzez udzielenie informacji na temat systemu, instalację"
-      ],
-      "summary_expectations": [
-        "na poziomie co najmniej B1+ * Dodatkowym atutem będzie doświadczenie zawodowe w pracy na analogicznym stanowisku Oferujemy:​ Stabilne zatrudnienie w oparciu o umowę o pracę ​Pracę stacjonarną w systemie zmianowym (7:00–20:00), od poniedziałku do piątku"
-      ],
-      "summary_offers": [
-        "okazjonalnie również w soboty​ (zdalnie)",
-        "Prywatną opiekę medyczną",
-        "bilety do kina, teatru) zniżki na usługi i produkty oferowane przez spółki Medicover, grupowe ubezpieczenie NNW i inne"
-      ],
-      "required_skills": [
-        "Windows",
-        "Sieci Komputerowe",
-        "IT Support"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00",
-      "contact_email": "rekrutacja@medicover.pl",
-      "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "00f12a0336ca4f84",
-      "title": "Data Analyst (CRM)",
-      "company": "OBI Smart Technologies Poland",
-      "location": "Katowice",
-      "url": "https://justjoin.it/job-offer/obi-smart-technologies-poland-data-analyst-crm--katowice-data",
-      "apply_url": "https://www.reply.com/en/about/careers/pl/job-application/JOB-11440?country=pl&s=jobboard&k=JJIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-05T08:00:11.0378777Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Loyalty, and Automation, you are the strategic link between complex data structures and our operational business units; analyze customer behavior; automating data processes | What they expect: You work in close coordination with our Data Engineering team to design the required analysis datasets; you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!; Several years of experience in data analytics, preferably within CRM, loyalty, or marketing environments | What they offer: to choose and manage all your benefits in one place; medical care package, meal tickets, sports cards; (we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)",
-      "summary_tasks": [
-        "Loyalty, and Automation, you are the strategic link between complex data structures and our operational business units",
-        "analyze customer behavior",
-        "automating data processes"
-      ],
-      "summary_expectations": [
-        "You work in close coordination with our Data Engineering team to design the required analysis datasets",
-        "you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!",
-        "Several years of experience in data analytics, preferably within CRM, loyalty, or marketing environments"
-      ],
-      "summary_offers": [
-        "to choose and manage all your benefits in one place",
-        "medical care package, meal tickets, sports cards",
-        "(we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)"
-      ],
-      "required_skills": [
-        "SQL",
-        "Python",
-        "R",
-        "Databricks",
-        "Looker"
-      ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
       "id": "22e9f7ef4160f260",
@@ -1201,42 +942,79 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "2148390a8817c6c0",
-      "title": "Data Quality Business Analyst | Branża Bankowa",
-      "company": "Edge One Solutions Sp. z o.o",
+      "id": "bc8eeab3a49690c8",
+      "title": "Business Analyst (CRM)",
+      "company": "CGI",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-data-quality-business-analyst-branza-bankowa-warszawa-data",
-      "apply_url": "https://edge1s.recruitify.ai/job/01c70bef-d56c-4498-8186-6f2c241a3240?sourceId=37",
+      "url": "https://justjoin.it/job-offer/cgi-business-analyst-crm--warszawa-analytics",
+      "apply_url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J1124-2763&BRID=EX1201438&SBDID=1&LANG=11",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-06T15:00:06.795801Z",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Współpraca z zespołami IT i biznesowymi w celu definiowania wymagań projektowych; Tworzenie dokumentacji analitycznej, w tym specyfikacji wymagań i raportów; Monitorowanie postępów projektów i raportowanie wyników | What they expect: Minimum 3 lata doświadczenia na podobnym stanowisku, najlepiej w branży bankowej; Doświadczenie w realizacji projektów CRM; Doświadczenie w analizie i opisie procesów CRM (operacyjne, sprzedażowe), obsługi klienta oraz procesach sprzedażowych | What they offer: Ubezpieczenie na życie, od wypadku i poważnego zachorowania; PPP (Profit Participation Plan) - roczną premię zależną od wypracowanych wyników Business Unitu; Aktywnie i odpowiedzialnie kształtujemy strategię i kierunek rozwoju naszej firmy",
+      "summary_tasks": [
+        "Współpraca z zespołami IT i biznesowymi w celu definiowania wymagań projektowych",
+        "Tworzenie dokumentacji analitycznej, w tym specyfikacji wymagań i raportów",
+        "Monitorowanie postępów projektów i raportowanie wyników"
+      ],
+      "summary_expectations": [
+        "Minimum 3 lata doświadczenia na podobnym stanowisku, najlepiej w branży bankowej",
+        "Doświadczenie w realizacji projektów CRM",
+        "Doświadczenie w analizie i opisie procesów CRM (operacyjne, sprzedażowe), obsługi klienta oraz procesach sprzedażowych"
+      ],
+      "summary_offers": [
+        "Ubezpieczenie na życie, od wypadku i poważnego zachorowania",
+        "PPP (Profit Participation Plan) - roczną premię zależną od wypracowanych wyników Business Unitu",
+        "Aktywnie i odpowiedzialnie kształtujemy strategię i kierunek rozwoju naszej firmy"
+      ],
+      "required_skills": [
+        "Business Analysis",
+        "CRM",
+        "BPMN",
+        "UML"
+      ],
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
+    },
+    {
+      "id": "64307b4bed14f593",
+      "title": "Analityk Danych/Analityk Biznesowy",
+      "company": "ASTEK Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/astek-polska-analityk-danych-analityk-biznesowy-warszawa-data",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-05T09:00:12.024655Z",
+      "published_at": "2026-09-06T14:00:10.7528157Z",
       "fit_score": 65,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Similar offers Capco Poland Kraków , +1 Location Hybrid Hybrid Data Analyst; 5 050,37 USD/month SQL Snowflake Mid Mid B2B B2B Full-time Full-time New Andersen Warszawa , +4 Locations Hybrid Hybrid Data Analyst New 3 478,63; 5 050,37 USD/month SQL Snowflake Mid Mid B2B B2B Full-time Full-time New Andersen Warszawa , +4 Locations Hybrid Hybrid Data Analyst New 3 478,63 | What they expect: Minimum 2 lata doświadczenia w realizacji projektów w sektorze finansowym w roli Analityka/ Inżyniera danych; Doświadczenie w pracy na dużych zbiorach danych; Umiejętność porządkowania, modelowania i przygotowywania danych | What they offer: prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity; sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
+      "summary": "What you'll do: Na tym stanowisku będziesz odpowiadać za kompleksową analizę wymagań oraz przekładanie potrzeb biznesowych na rozwiązania systemowe i techniczne; planowanie, prowadzenie i dokumentowanie; samodzielnej, komunikatywnej i nastawionej na współpracę | What they expect: doświadczenie na stanowisku; doświadczenie w analizie i integracji systemów; umiejętność analizy wymagań i procesów oraz przekładania ich na rozwiązania systemowe",
       "summary_tasks": [
-        "Similar offers Capco Poland Kraków , +1 Location Hybrid Hybrid Data Analyst",
-        "5 050,37 USD/month SQL Snowflake Mid Mid B2B B2B Full-time Full-time New Andersen Warszawa , +4 Locations Hybrid Hybrid Data Analyst New 3 478,63",
-        "5 050,37 USD/month SQL Snowflake Mid Mid B2B B2B Full-time Full-time New Andersen Warszawa , +4 Locations Hybrid Hybrid Data Analyst New 3 478,63"
+        "Na tym stanowisku będziesz odpowiadać za kompleksową analizę wymagań oraz przekładanie potrzeb biznesowych na rozwiązania systemowe i techniczne",
+        "planowanie, prowadzenie i dokumentowanie",
+        "samodzielnej, komunikatywnej i nastawionej na współpracę"
       ],
       "summary_expectations": [
-        "Minimum 2 lata doświadczenia w realizacji projektów w sektorze finansowym w roli Analityka/ Inżyniera danych",
-        "Doświadczenie w pracy na dużych zbiorach danych",
-        "Umiejętność porządkowania, modelowania i przygotowywania danych"
+        "doświadczenie na stanowisku",
+        "doświadczenie w analizie i integracji systemów",
+        "umiejętność analizy wymagań i procesów oraz przekładania ich na rozwiązania systemowe"
       ],
-      "summary_offers": [
-        "prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
-        "Elastyczne benefity",
-        "sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
-      ],
+      "summary_offers": [],
       "required_skills": [
-        "Analityka/ Inżyniera danych",
-        "Python",
-        "SQL"
+        "SQL",
+        "BPMN",
+        "UML",
+        "ETL",
+        "Informatica Powercenter"
       ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
       "id": "cc41607097f3bd08",
@@ -1273,6 +1051,38 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "7b100c3f4d428f23",
+      "title": "Payments Operations Specialist with Hebrew",
+      "company": "HSBC Technology Poland",
+      "location": "POL Poland Kraków ul. Kapelanka 42A 30-347 payments-operations-specialist-with-hebrew-hsbc-technology-poland-krakow False",
+      "url": "https://nofluffjobs.com/pl/job/payments-operations-specialist-with-hebrew-hsbc-technology-poland-krakow",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Unspecified",
+      "seniority": "Mid",
+      "salary": "7634 9541 permanent PLN Month VISIBLE False",
+      "published_at": "1786625900182",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Process, monitor, and validate payment instructions across relevant payment channels; Maintain clear case notes and documentation to support auditability and strong governance; Identify root causes of recurring issues and support process improvements/automation opportunities | What they expect: while continuously improving how we work | What they offer: Additional bonuses for recognition awards; One-time reimbursement of home office set-up (up to 800 PLN); Financial support with trainings and education",
+      "summary_tasks": [
+        "Process, monitor, and validate payment instructions across relevant payment channels",
+        "Maintain clear case notes and documentation to support auditability and strong governance",
+        "Identify root causes of recurring issues and support process improvements/automation opportunities"
+      ],
+      "summary_expectations": [
+        "while continuously improving how we work"
+      ],
+      "summary_offers": [
+        "Additional bonuses for recognition awards",
+        "One-time reimbursement of home office set-up (up to 800 PLN)",
+        "Financial support with trainings and education"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
+    },
+    {
       "id": "53f110f8eacd58d5",
       "title": "Analityk Biznesowy / Analityczka Biznesowa w Biurze Wdrożeń i Efektywności Operacyjnej",
       "company": "Bank Pekao",
@@ -1297,49 +1107,6 @@
       ],
       "summary_offers": [],
       "required_skills": [],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
-    },
-    {
-      "id": "fb62ead603ee5791",
-      "title": "Data Analyst (Digital Commerce)",
-      "company": "OBI Smart Technologies Poland",
-      "location": "Katowice",
-      "url": "https://justjoin.it/job-offer/obi-smart-technologies-poland-data-analyst-digital-commerce--katowice-analytics",
-      "apply_url": "https://www.reply.com/en/about/careers/pl/job-application/JOB-11432?q=data+analyst&country=pl&s=jobboard&k=JJIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-05T08:00:17.1974501Z",
-      "fit_score": 62,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Furthermore you will be implementing modern AI tools directly within our Databricks platform and Looker; Your key responsibilities include; to support business decision-making | What they expect: you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!; Several years of professional experience in digital analytics, preferably within e-commerce or digital business environments; Strong knowledge of web analytics tools such as Adobe Analytics , Google Analytics , or Webtrekk and understanding of tracking methodologies | What they offer: to choose and manage all your benefits in one place; medical care package, meal tickets, sports cards; (we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)",
-      "summary_tasks": [
-        "Furthermore you will be implementing modern AI tools directly within our Databricks platform and Looker",
-        "Your key responsibilities include",
-        "to support business decision-making"
-      ],
-      "summary_expectations": [
-        "you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!",
-        "Several years of professional experience in digital analytics, preferably within e-commerce or digital business environments",
-        "Strong knowledge of web analytics tools such as Adobe Analytics , Google Analytics , or Webtrekk and understanding of tracking methodologies"
-      ],
-      "summary_offers": [
-        "to choose and manage all your benefits in one place",
-        "medical care package, meal tickets, sports cards",
-        "(we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)"
-      ],
-      "required_skills": [
-        "digital analysis",
-        "Adobe Analytics",
-        "Google Analytic",
-        "Webtrekk",
-        "SQL",
-        "Python",
-        "Databricks",
-        "Looker"
-      ],
       "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
@@ -1377,45 +1144,109 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "a2c5552853acd965",
-      "title": "IT Supporter",
-      "company": "Global Wind Service",
-      "location": "Szczecin",
-      "url": "https://justjoin.it/job-offer/global-wind-service-it-supporter-szczecin-support-4a0fefb4",
-      "apply_url": "https://globalwindservice.recruitee.com/o/it-supporter-poland-3",
+      "id": "190bb6e2bbabe110",
+      "title": "Banking IT Systems Business Analyst - Payments",
+      "company": "Accenture Strategy & Consulting",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/banking-it-systems-business-analyst-payments-warszawa,oferta,1005023456",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-11T22:00:00Z",
+      "fit_score": 62,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the | What they expect: 1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions; Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments); Knowledge of the Software Development Life Cycle (SDLC) process | What they offer: Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach; A wide training package (soft, technical,; Private medical care and life insurance",
+      "summary_tasks": [
+        "Preparing business and system specifications Supporting the integration of banking systems Participating in business and system testing activities Cooperating closely with business stakeholders and IT teams throughout the"
+      ],
+      "summary_expectations": [
+        "1 year of experience in the role of Business Analyst, Systems Analyst, or Business‑Systems Analyst in projects delivered for financial institutions",
+        "Experience working with transaction systems or core banking systems Domain knowledge of business areas in financial services (payments)",
+        "Knowledge of the Software Development Life Cycle (SDLC) process"
+      ],
+      "summary_offers": [
+        "Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach",
+        "A wide training package (soft, technical,",
+        "Private medical care and life insurance"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
+    },
+    {
+      "id": "c2e1f2510ac2d656",
+      "title": "IT Support Specialist",
+      "company": "Callstack",
+      "location": "Wrocław",
+      "url": "https://justjoin.it/job-offer/callstack-it-support-specialist-wroclaw-support",
+      "apply_url": "https://www.callstack.com/careers#jobform-2712968",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
-      "seniority": "mid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-05T10:00:17.5503734Z",
+      "published_at": "2026-09-06T15:00:07.3757486Z",
       "fit_score": 61,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: 1st and 2nd level support for IT related issues and requests; Device management in Microsoft Intune; Experience with management of Active Directory / MS Entra, MS Intune | What they expect: Relevant IT background, preferably with education in that field and proven experience in a similar position; Experience with management of Active Directory / MS Entra, MS Intune; Knowledge of Office 365 Administration, Office 365 package and SharePoint | What they offer: Full time employment contract (3 months of trial period, afterwards an unlimited contract); Private healthcare, life insurance and pre-paid cards after 3 trial months; Hybrid work model and flexibility in your daily tasks",
+      "summary": "What you'll do: Permanent Job description Callstack supports and inspires top industry leaders in shipping better digital products and services to their users; We are a team of high-level experts in cross-platform development and consultancy; We truly believe that you can get the best out of people when you give them a chance to participate and develop | What they expect: This position requires working from our Wrocław office 60% of the time; Maintain IT documentation and knowledge base, and identify opportunities for process improvements and automation; You are the right candidate if you have: Previous experience in IT Support, Helpdesk, Service Desk , or a similar role | What they offer: Fully covered life insurance; Multisport Card or monthly allowance for other sports activities; Development Budget",
       "summary_tasks": [
-        "1st and 2nd level support for IT related issues and requests",
-        "Device management in Microsoft Intune",
-        "Experience with management of Active Directory / MS Entra, MS Intune"
+        "Permanent Job description Callstack supports and inspires top industry leaders in shipping better digital products and services to their users",
+        "We are a team of high-level experts in cross-platform development and consultancy",
+        "We truly believe that you can get the best out of people when you give them a chance to participate and develop"
       ],
       "summary_expectations": [
-        "Relevant IT background, preferably with education in that field and proven experience in a similar position",
-        "Experience with management of Active Directory / MS Entra, MS Intune",
-        "Knowledge of Office 365 Administration, Office 365 package and SharePoint"
+        "This position requires working from our Wrocław office 60% of the time",
+        "Maintain IT documentation and knowledge base, and identify opportunities for process improvements and automation",
+        "You are the right candidate if you have: Previous experience in IT Support, Helpdesk, Service Desk , or a similar role"
       ],
       "summary_offers": [
-        "Full time employment contract (3 months of trial period, afterwards an unlimited contract)",
-        "Private healthcare, life insurance and pre-paid cards after 3 trial months",
-        "Hybrid work model and flexibility in your daily tasks"
+        "Fully covered life insurance",
+        "Multisport Card or monthly allowance for other sports activities",
+        "Development Budget"
       ],
       "required_skills": [
-        "Zendesk",
-        "Microsoft Intune",
-        "Active Directory",
-        "MS Entra",
-        "Office 365",
-        "SharePoint"
+        "IT Support"
       ],
-      "first_found_at": "2026-09-05T11:40:52.193898+00:00"
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00",
+      "contact_email": "hello@callstack.com",
+      "contact_email_kind": "company_contact"
+    },
+    {
+      "id": "7b10e9095936233a",
+      "title": "Junior IT Business Analyst (Banking)",
+      "company": "COMARCH",
+      "location": "Katowice",
+      "url": "https://justjoin.it/job-offer/comarch-junior-it-business-analyst-banking--katowice-analytics",
+      "apply_url": "https://kariera.comarch.pl/praca/junior-it-business-analyst-banking/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-07T06:00:08.1548719Z",
+      "fit_score": 58,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Katowice Hybrid Hybrid IT Analyst New 1 340,27 | What they expect: Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Junior IT Business Analyst (Banking) Save Apply All offers Katowice Analytics Junior IT Business Analyst (Banking) Analytics Junior IT Business Analyst (Banking) Analytics Baildona , Katowice COMARCH Show all offers Full-time Permanent Junior Hybrid 3 onsite / 2 remote Job description Do naszego zespołu poszukujemy osoby na stanowisko Junior IT Business Analyst, która odznacza się ścisłym, analitycznym myśleniem i chce rozwijać swoje kompetencje w obszarze systemów bankowych; Jeśli masz pierwsze doświadczenia analityczne, dobrze czujesz się w świecie finansów, sprawnie komunikujesz się po angielsku i chcesz uczyć się od doświadczonych ekspertów; Profil stanowiska Minimum 1 rok doświadczenia zawodowego w sektorze bankowym / IT Rozwinięte zdolności analityczne, logiczne myślenie",
+      "summary_tasks": [
+        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
+        "Wspieramy finanse, handel i MŚP, współpracując z g",
+        "Katowice Hybrid Hybrid IT Analyst New 1 340,27"
+      ],
+      "summary_expectations": [
+        "Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Junior IT Business Analyst (Banking) Save Apply All offers Katowice Analytics Junior IT Business Analyst (Banking) Analytics Junior IT Business Analyst (Banking) Analytics Baildona , Katowice COMARCH Show all offers Full-time Permanent Junior Hybrid 3 onsite / 2 remote Job description Do naszego zespołu poszukujemy osoby na stanowisko Junior IT Business Analyst, która odznacza się ścisłym, analitycznym myśleniem i chce rozwijać swoje kompetencje w obszarze systemów bankowych",
+        "Jeśli masz pierwsze doświadczenia analityczne, dobrze czujesz się w świecie finansów, sprawnie komunikujesz się po angielsku i chcesz uczyć się od doświadczonych ekspertów",
+        "Profil stanowiska Minimum 1 rok doświadczenia zawodowego w sektorze bankowym / IT Rozwinięte zdolności analityczne, logiczne myślenie"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Analiza Biznesowa",
+        "banking"
+      ],
+      "first_found_at": "2026-09-07T06:27:04.785660+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
     }
   ]
 }
