@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "4",
-    "generated_at": "2026-09-08T06:26:54.139959+00:00",
-    "found": 2990,
-    "accepted": 36,
+    "generated_at": "2026-09-09T06:26:11.406251+00:00",
+    "found": 3013,
+    "accepted": 37,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1168
+        "fetched": 1182
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 660
+        "fetched": 672
       }
     }
   },
@@ -227,40 +227,6 @@
       "contact_email_kind": "recruitment"
     },
     {
-      "id": "39b8268dcc8a3007",
-      "title": "Specjalista / Specjalistka ds. Wsparcia Technicznego (Technical Support Engineer)",
-      "company": "Salto Systems",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-wsparcia-technicznego-technical-support-engineer-warszawa,oferta,1005017374",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-09T22:00:00Z",
-      "fit_score": 79,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Prowadzenie prezentacji i praktycznych szkoleń technicznych (w tym wdrażanie autorskich rozwiązań); Wsparcie sprzedaży i wdrażanie: Ścisła współpraca z Sales Managerami – pomożesz dobierać właściwe architektury systemowe i budować sieć partnerów; Międzynarodowa kooperacja: Codzienna współpraca i koordynowanie wsparcia technicznego oraz wymiana doświadczeń z zespołem inżynierów z naszej centrali w Hiszpanii | What they expect: Szukamy właśnie Ciebie, jeśli: Masz wykształcenie techniczne (preferowana elektromechanika, elektronika, mechanika lub automatyka); Masz rozwinięte kompetencje interpersonalne – lubisz pracę z ludźmi, potrafisz jasno tłumaczyć zawiłe zagadnienia; Znajomość języka angielskiego | What they offer: Realny wpływ i samodzielność: Nie jesteś tylko anonimowym trybikiem – współtworzysz sukces marki na kluczowych rynkach Europy Środkowo-Wschodniej; Szkolenia w Hiszpanii: wyjazdy szkoleniowe do naszej głównej siedziby w Oiartzun; W naszym biurze w Warszawie rozwijamy rynek Polski oraz Europy Środkowo-Wschodniej, łącząc inżynieryjną precyzję z baskijską kulturą innowacji, współpracy i ciągłego rozwoju",
-      "summary_tasks": [
-        "Prowadzenie prezentacji i praktycznych szkoleń technicznych (w tym wdrażanie autorskich rozwiązań)",
-        "Wsparcie sprzedaży i wdrażanie: Ścisła współpraca z Sales Managerami – pomożesz dobierać właściwe architektury systemowe i budować sieć partnerów",
-        "Międzynarodowa kooperacja: Codzienna współpraca i koordynowanie wsparcia technicznego oraz wymiana doświadczeń z zespołem inżynierów z naszej centrali w Hiszpanii"
-      ],
-      "summary_expectations": [
-        "Szukamy właśnie Ciebie, jeśli: Masz wykształcenie techniczne (preferowana elektromechanika, elektronika, mechanika lub automatyka)",
-        "Masz rozwinięte kompetencje interpersonalne – lubisz pracę z ludźmi, potrafisz jasno tłumaczyć zawiłe zagadnienia",
-        "Znajomość języka angielskiego"
-      ],
-      "summary_offers": [
-        "Realny wpływ i samodzielność: Nie jesteś tylko anonimowym trybikiem – współtworzysz sukces marki na kluczowych rynkach Europy Środkowo-Wschodniej",
-        "Szkolenia w Hiszpanii: wyjazdy szkoleniowe do naszej głównej siedziby w Oiartzun",
-        "W naszym biurze w Warszawie rozwijamy rynek Polski oraz Europy Środkowo-Wschodniej, łącząc inżynieryjną precyzję z baskijską kulturą innowacji, współpracy i ciągłego rozwoju"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
       "id": "fb70ac1fe564e9ba",
       "title": "Technik Informatyk / Junior IT Support",
       "company": "EMKA MICHAŁ WYRZYKOWSKI-KUĆ",
@@ -325,6 +291,46 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
+      "id": "d87c56d4f0b3e6bf",
+      "title": "Network Engineer",
+      "company": "Motorola Solutions",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/motorola-solutions-network-engineer-krakow-devops",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Senior-Network-Engineer_R65743-1",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T15:00:09.2776971Z",
+      "fit_score": 78,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting; Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments; Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans | What they expect: Practical experience configuring network hardware, specifically Juniper (SRX/EX) and; Familiarity with LAN/WAN concepts and VPN overlays; Basic Linux operating system and virtualization knowledge",
+      "summary_tasks": [
+        "Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting",
+        "Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments",
+        "Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans"
+      ],
+      "summary_expectations": [
+        "Practical experience configuring network hardware, specifically Juniper (SRX/EX) and",
+        "Familiarity with LAN/WAN concepts and VPN overlays",
+        "Basic Linux operating system and virtualization knowledge"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "IP networks",
+        "routing",
+        "TCP/IP",
+        "LAN/WAN",
+        "VPN",
+        "Linux",
+        "Virtualization",
+        "Scripting",
+        "mobile radio architectures"
+      ],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "a2ef8e54e6809df6",
@@ -428,47 +434,6 @@
       "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
-      "id": "3a309892d9e5472a",
-      "title": "AI Process Automation Specialist",
-      "company": "Gamefound Sp. z o.o.",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/gamefound-sp-z-o-o--ai-process-automation-specialist-wroclaw-ai-b98e6e8c",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=1184c32ff07246dd862b69753f8b79a6",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-07T13:45:53.5334494Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: ❓ Na czym będzie polegać Twoja praca: wdrażanie automatyzacji opartych na sztucznej inteligencji dla procesów zidentyfikowanych przez zespół; ⭐ Mile widziane: doświadczenie w korzystaniu z narzędzi do automatyzacji workflow, takich jak Make, Zapier, n8n, Power Automate lub podobnych; It's a place that allows creators to focus on what they do best and helps backers get the projects they support most conveni | What they expect: dobra znajomość nowoczesnych narzędzi sztucznej inteligencji oraz ich praktycznych zastosowań; umiejętności techniczne niezbędne do łączenia narzędzi, pracy z interfejsami API oraz pisania skryptów; doświadczenie w posługiwaniu się co najmniej jednym językiem skryptowym, najlepiej Python lub JavaScript | What they offer: elastyczne godziny pracy – możesz zaczynać między 7:00 a 10:00; hybrydowy model pracy – do 5 dni zdalnie w miesiącu; realny wpływ na rozwój platformy dla pasjonatów gier planszowych",
-      "summary_tasks": [
-        "❓ Na czym będzie polegać Twoja praca: wdrażanie automatyzacji opartych na sztucznej inteligencji dla procesów zidentyfikowanych przez zespół",
-        "⭐ Mile widziane: doświadczenie w korzystaniu z narzędzi do automatyzacji workflow, takich jak Make, Zapier, n8n, Power Automate lub podobnych",
-        "It's a place that allows creators to focus on what they do best and helps backers get the projects they support most conveni"
-      ],
-      "summary_expectations": [
-        "dobra znajomość nowoczesnych narzędzi sztucznej inteligencji oraz ich praktycznych zastosowań",
-        "umiejętności techniczne niezbędne do łączenia narzędzi, pracy z interfejsami API oraz pisania skryptów",
-        "doświadczenie w posługiwaniu się co najmniej jednym językiem skryptowym, najlepiej Python lub JavaScript"
-      ],
-      "summary_offers": [
-        "elastyczne godziny pracy – możesz zaczynać między 7:00 a 10:00",
-        "hybrydowy model pracy – do 5 dni zdalnie w miesiącu",
-        "realny wpływ na rozwój platformy dla pasjonatów gier planszowych"
-      ],
-      "required_skills": [
-        "Python",
-        "JavaScript",
-        "AI",
-        "Automation Tools",
-        "Scripting",
-        "SQL"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
       "id": "9c72fdee737d6eaa",
       "title": "Junior IT Service Desk Specialist (1st / 2nd Line Support)",
       "company": "FRISTA",
@@ -558,6 +523,77 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
+      "id": "9f8576fd6e757987",
+      "title": "Network Administrator",
+      "company": "Axabee",
+      "location": "Opole, Wrocław",
+      "url": "https://justjoin.it/job-offer/axabee-network-administrator-opole-admin-1788b687",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5b235187aac545868b401e8fb8f23eb4",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T13:00:14.547161Z",
+      "fit_score": 74,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Administration of network infrastructure (LAN, WLAN, WAN, VPN); Administration of network services (DHCP, DNS, etc.); Network administration and security assurance in virtual and cloud environments (VMware, vCloud, GCP)",
+      "summary_tasks": [
+        "Administration of network infrastructure (LAN, WLAN, WAN, VPN)",
+        "Administration of network services (DHCP, DNS, etc.)",
+        "Network administration and security assurance in virtual and cloud environments (VMware, vCloud, GCP)"
+      ],
+      "summary_expectations": [],
+      "summary_offers": [],
+      "required_skills": [
+        "Security",
+        "LAN",
+        "Wlan",
+        "VPN",
+        "Palo Alto",
+        "WAN"
+      ],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
+      "id": "2715d44c4760f08b",
+      "title": "Technical Support Specialist (1st line)",
+      "company": "B:RIGHT",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/b-right-technical-support-specialist-1st-line--warszawa-support",
+      "apply_url": "https://b-right.recruitify.ai/job/d23db019-1a6c-4cf8-84d1-fb6fb40026dd",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-08T13:00:13.9413867Z",
+      "fit_score": 73,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: masz realny wpływ na to, jak ta rola będzie wyglądać, zbudujesz standard obsługi zgłoszeń, który zostanie w firmie na dłużej; Aplikacje biznesowe (CRM, billing) dla klientów z grupy kapitałowej - spółki telekomunikacyjne i energetyczne -; Czym będziesz się zajmować? | What they expect: Firma jest w fazie rozwoju, stąd potrzeba rozbudowy zespołu o kolejnych specjalistów i nowe kompetencje; Oczekiwania minimum 1 rok doświadczenia na podobnym stanowisku, umiejętność klasyfikacji i priorytetyzacji zgłoszeń; razem z nami rozwijasz swoje kompetencje | What they offer: karta Multisport i opieka Medicover; 4 dni w biurze (Warszawa), 1 dzień zdalnie; elastyczny czas pracy",
+      "summary_tasks": [
+        "masz realny wpływ na to, jak ta rola będzie wyglądać, zbudujesz standard obsługi zgłoszeń, który zostanie w firmie na dłużej",
+        "Aplikacje biznesowe (CRM, billing) dla klientów z grupy kapitałowej - spółki telekomunikacyjne i energetyczne -",
+        "Czym będziesz się zajmować?"
+      ],
+      "summary_expectations": [
+        "Firma jest w fazie rozwoju, stąd potrzeba rozbudowy zespołu o kolejnych specjalistów i nowe kompetencje",
+        "Oczekiwania minimum 1 rok doświadczenia na podobnym stanowisku, umiejętność klasyfikacji i priorytetyzacji zgłoszeń",
+        "razem z nami rozwijasz swoje kompetencje"
+      ],
+      "summary_offers": [
+        "karta Multisport i opieka Medicover",
+        "4 dni w biurze (Warszawa), 1 dzień zdalnie",
+        "elastyczny czas pracy"
+      ],
+      "required_skills": [
+        "Helpdesk",
+        "IT Support",
+        "Jira"
+      ],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "ecadcb0f7b8bc0d8",
@@ -722,6 +758,78 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "d3485e50cfb65f40",
+      "title": "IT Support Engineer (macOS)",
+      "company": "MOTIFE",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/motife-it-support-engineer-macos--warszawa-support",
+      "apply_url": "https://motife.recruitify.ai/job/23800153-4f86-4ce8-92f5-2ee15ca29b3e?sourceId=37",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T14:00:08.6525378Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Support & Troubleshooting; Deliver expert-level support for; configuration, deployment, and user assistance | What they expect: 4+ years of hands-on IT support experience in a corporate or enterprise environment; Proven skills in PC and Mac repair, deployment, and troubleshooting; Experience with AWS environments or server administration is a plus | What they offer: 100% paid medical care; Multisport",
+      "summary_tasks": [
+        "Support & Troubleshooting",
+        "Deliver expert-level support for",
+        "configuration, deployment, and user assistance"
+      ],
+      "summary_expectations": [
+        "4+ years of hands-on IT support experience in a corporate or enterprise environment",
+        "Proven skills in PC and Mac repair, deployment, and troubleshooting",
+        "Experience with AWS environments or server administration is a plus"
+      ],
+      "summary_offers": [
+        "100% paid medical care",
+        "Multisport"
+      ],
+      "required_skills": [
+        "MacOS",
+        "JAMF",
+        "Windows",
+        "Linux"
+      ],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
+      "id": "22e9f7ef4160f260",
+      "title": "IT Support Specialist (2nd Line)",
+      "company": "Allegro sp. z o.o.",
+      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
+      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1787833977909",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
+      "summary_tasks": [
+        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
+        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
+        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
+      ],
+      "summary_expectations": [
+        "Strong organizational skills",
+        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
+        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
+      ],
+      "summary_offers": [
+        "Pakiet sportowy",
+        "Prywatna opieka medyczna",
+        "Budżet na szkolenia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
       "id": "ad68d779c382497f",
       "title": "IT Support Specialist",
       "company": "net-o-logy Sp. z o.o.",
@@ -785,6 +893,78 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "ac25c14987c2220d",
+      "title": "Analityk danych (m/k/n)",
+      "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-danych-m-k-n-warszawa,oferta,1005078261",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T08:02:47.67Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI; Analiza i integracja danych; Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych | What they expect: Poparta doświadczeniem bardzo dobra znajomość języka SQL; Doświadczenie w zakresie przygotowywania raportów i analiz; Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych | What they offer: Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii; pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów); Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową",
+      "summary_tasks": [
+        "Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI",
+        "Analiza i integracja danych",
+        "Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych"
+      ],
+      "summary_expectations": [
+        "Poparta doświadczeniem bardzo dobra znajomość języka SQL",
+        "Doświadczenie w zakresie przygotowywania raportów i analiz",
+        "Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych"
+      ],
+      "summary_offers": [
+        "Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii",
+        "pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów)",
+        "Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
+      "id": "702fc6ead856add6",
+      "title": "Technical Support Engineer",
+      "company": "SQUAD",
+      "location": "Wrocław",
+      "url": "https://justjoin.it/job-offer/squad-technical-support-engineer-wroclaw-support",
+      "apply_url": "https://grnh.se/u08bnou81us",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-08T16:00:15.945972Z",
+      "fit_score": 70,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Continuously monitor customer-facing dashboards, automated detection systems, and performance indicators for smart device fleets across all shifts; Analyze real-time performance data to identify trends or anomalies before they escalate into customer-impacting events; Initiate and track Post-Incident Corrective Actions (COE) to drive root cause analysis and ensure timely closure of technical issues | What they expect: Qualifications and Skills 1+ years of technical support experience within IT, IoT, or software development environments; Basic SQL skills for data querying and practical experience with monitoring tools (e.g., Grafana, CloudWatch, Datadog, Tableau); Experience using ticketing systems (e.g., Jira, ServiceNow, Zendesk, or similar) | What they offer: multiple benefits that include; Bonus for your individual achievements and a Loyalty; Bonus recognizing your dedication to the company",
+      "summary_tasks": [
+        "Continuously monitor customer-facing dashboards, automated detection systems, and performance indicators for smart device fleets across all shifts",
+        "Analyze real-time performance data to identify trends or anomalies before they escalate into customer-impacting events",
+        "Initiate and track Post-Incident Corrective Actions (COE) to drive root cause analysis and ensure timely closure of technical issues"
+      ],
+      "summary_expectations": [
+        "Qualifications and Skills 1+ years of technical support experience within IT, IoT, or software development environments",
+        "Basic SQL skills for data querying and practical experience with monitoring tools (e.g., Grafana, CloudWatch, Datadog, Tableau)",
+        "Experience using ticketing systems (e.g., Jira, ServiceNow, Zendesk, or similar)"
+      ],
+      "summary_offers": [
+        "multiple benefits that include",
+        "Bonus for your individual achievements and a Loyalty",
+        "Bonus recognizing your dedication to the company"
+      ],
+      "required_skills": [
+        "SQL",
+        "Jira",
+        "Networking"
+      ],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
       "id": "603c2b99051fc986",
       "title": "Digital Marketing Specialist (k/m)",
       "company": "HR WISE Sp. z o.o.",
@@ -846,159 +1026,36 @@
       "first_found_at": "2026-09-08T06:26:54.139959+00:00"
     },
     {
-      "id": "6dad1b7bfcc2b0db",
-      "title": "Specjalista Service Desk (k/m)",
-      "company": "Krajowa Izba Rozliczeniowa S.A.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/krajowa-izba-rozliczeniowa-s-a--specjalista-service-desk-k-m--warszawa-support",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=04cc09ad175c47fe9b5b5a0c6de33c0b",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-07T14:00:02.263738Z",
-      "fit_score": 68,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: prowadzenie serwisu wewnętrznego oprogramowania i sprzętu komputerowego; obsługa serwisu zewnętrznego dla oprogramowania i sprzętu komputerowego; administracja techniczna systemu zarządzania urządzeniami mobilnymi (iOS, Android) | What they expect: Na bazie doświadczenia i najnowszej technologii dostarczamy usługi, które skutecznie pomagają partnerom biznesowym w uwalnianiu potencjału ich projektów i wdrażaniu innowacji; Nasze oczekiwania: kilkuletnie doświadczenie zawodowe w IT, biegła znajomość systemów Windows, Microsoft 365 i przynajmniej podstawowa systemów MacOS | What they offer: umowę o pracę z pakietem benefitów; prywatną opiekę medyczną, ubezpieczenie na życie; możliwość rozwoju zawodowego (dofinansowanie do szkoleń, konferencji, etc.)",
-      "summary_tasks": [
-        "prowadzenie serwisu wewnętrznego oprogramowania i sprzętu komputerowego",
-        "obsługa serwisu zewnętrznego dla oprogramowania i sprzętu komputerowego",
-        "administracja techniczna systemu zarządzania urządzeniami mobilnymi (iOS, Android)"
-      ],
-      "summary_expectations": [
-        "Na bazie doświadczenia i najnowszej technologii dostarczamy usługi, które skutecznie pomagają partnerom biznesowym w uwalnianiu potencjału ich projektów i wdrażaniu innowacji",
-        "Nasze oczekiwania: kilkuletnie doświadczenie zawodowe w IT, biegła znajomość systemów Windows, Microsoft 365 i przynajmniej podstawowa systemów MacOS"
-      ],
-      "summary_offers": [
-        "umowę o pracę z pakietem benefitów",
-        "prywatną opiekę medyczną, ubezpieczenie na życie",
-        "możliwość rozwoju zawodowego (dofinansowanie do szkoleń, konferencji, etc.)"
-      ],
-      "required_skills": [
-        "iOS",
-        "Android",
-        "Windows",
-        "MacOS",
-        "Microsoft 365",
-        "Powershell",
-        "Linux",
-        "MS Windows Server",
-        "SQL"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "1ae11bf5600e4354",
-      "title": "Administrator Systemów Informatycznych (K/M)",
-      "company": "SALTUS Ubezpieczenia",
-      "location": "Sopot",
-      "url": "https://justjoin.it/job-offer/saltus-ubezpieczenia-administrator-systemow-informatycznych-k-m--sopot-admin-9f750c06",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=c235538c9acb4a14ab914f4251aa3c04",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-07T13:00:19.532035Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Sopot SALTUS Ubezpieczenia Show all offers Full-time Permanent Mid Hybrid Job description Opis stanowiska administracja i utrzymanie systemów serwerowych: Linux, Windows Server, administracja serwerami bazodanowymi: MS SQL, ORACLE, PostgreSQL, administracja środowiskami wirtualnymi i konteneryzacji, podstawowa administracja siecią TCP/IP (LAN/WAN), obsługa systemów backupowych i disaster recovery, udział we wdrożeniach systemów i aktualizacjach, przestrzeganie założeń polityki bezpieczeństwa, realizacja zadań w oparciu o wytyczne IT dla Ubezpieczycieli, wsparcie innych zespołów w zakresie powierzonych systemów i infrastruktury; Wymagania minimum 3 letnie doświadczenia na stanowisku Administratora Systemów Informatycznych, praktyczna znajomość i doświadczenie w obszarze środowisk wirtualnych VMware, praktyczna znajomość systemów Windows Server i Linux, praktyczna znajomość​ działania sieci LAN/WAN, podstawowa umiejętność zarządzania kontenerami docker i kubernetes, umiejętność administracji bazami danych Oracle, Postgres, MS SQL, w tym: posługiwanie się narzędziami do backup/restore/recovery (również z linii poleceń) import/export danych zarządzanie uprawnieniami użytkowników podstawowej diagnostyki baz danych pisanie zapytań SQL na potrzeby administracyjne samodzielność i umiejętność ustalania priorytetów,​ umiejętność czytania dokumentacji technicznej i analiza logów, umiejętność komunikacji, rozumianej jako zdolność jasnego formułowania myśli i aktywnego słuchania, asertywność, rozumiana jako odpowiedzialność za podejmowane decyzje, gotowość do aktywnego reagowania w sytuacjach awaryjnych, gotowość do rozwoju i dzielenia się wiedzą, dobrej znajomość języka angielskiego, potrzebna do pracy z dokumentacją techniczną i poszukiwania informacji, prawo jazdy kat; Mile widziane znajomość: Nginx, Docker, Kubernetes, Zabbix, Grafana, języków skryptowych (powershell, bash), automatyzacji (ansible, Jenkins), certyfikacji z zakresu systemów serwerowych, baz danych lub rozwiązań sieciowych | What they expect: minimum 3 letnie doświadczenia na stanowisku Administratora Systemów Informatycznych; praktyczna znajomość i doświadczenie w obszarze środowisk wirtualnych VMware; praktyczna znajomość systemów Windows Server i Linux | What they offer: podział jest związany z charakterystyką działalności ubezpieczeniowej); szkolenia rozwojowe i dokształcające; dostęp do programu Multisport",
-      "summary_tasks": [
-        "Sopot SALTUS Ubezpieczenia Show all offers Full-time Permanent Mid Hybrid Job description Opis stanowiska administracja i utrzymanie systemów serwerowych: Linux, Windows Server, administracja serwerami bazodanowymi: MS SQL, ORACLE, PostgreSQL, administracja środowiskami wirtualnymi i konteneryzacji, podstawowa administracja siecią TCP/IP (LAN/WAN), obsługa systemów backupowych i disaster recovery, udział we wdrożeniach systemów i aktualizacjach, przestrzeganie założeń polityki bezpieczeństwa, realizacja zadań w oparciu o wytyczne IT dla Ubezpieczycieli, wsparcie innych zespołów w zakresie powierzonych systemów i infrastruktury",
-        "Wymagania minimum 3 letnie doświadczenia na stanowisku Administratora Systemów Informatycznych, praktyczna znajomość i doświadczenie w obszarze środowisk wirtualnych VMware, praktyczna znajomość systemów Windows Server i Linux, praktyczna znajomość​ działania sieci LAN/WAN, podstawowa umiejętność zarządzania kontenerami docker i kubernetes, umiejętność administracji bazami danych Oracle, Postgres, MS SQL, w tym: posługiwanie się narzędziami do backup/restore/recovery (również z linii poleceń) import/export danych zarządzanie uprawnieniami użytkowników podstawowej diagnostyki baz danych pisanie zapytań SQL na potrzeby administracyjne samodzielność i umiejętność ustalania priorytetów,​ umiejętność czytania dokumentacji technicznej i analiza logów, umiejętność komunikacji, rozumianej jako zdolność jasnego formułowania myśli i aktywnego słuchania, asertywność, rozumiana jako odpowiedzialność za podejmowane decyzje, gotowość do aktywnego reagowania w sytuacjach awaryjnych, gotowość do rozwoju i dzielenia się wiedzą, dobrej znajomość języka angielskiego, potrzebna do pracy z dokumentacją techniczną i poszukiwania informacji, prawo jazdy kat",
-        "Mile widziane znajomość: Nginx, Docker, Kubernetes, Zabbix, Grafana, języków skryptowych (powershell, bash), automatyzacji (ansible, Jenkins), certyfikacji z zakresu systemów serwerowych, baz danych lub rozwiązań sieciowych"
-      ],
-      "summary_expectations": [
-        "minimum 3 letnie doświadczenia na stanowisku Administratora Systemów Informatycznych",
-        "praktyczna znajomość i doświadczenie w obszarze środowisk wirtualnych VMware",
-        "praktyczna znajomość systemów Windows Server i Linux"
-      ],
-      "summary_offers": [
-        "podział jest związany z charakterystyką działalności ubezpieczeniowej)",
-        "szkolenia rozwojowe i dokształcające",
-        "dostęp do programu Multisport"
-      ],
-      "required_skills": [
-        "Linux",
-        "Windows",
-        "MS SQL",
-        "Oracle",
-        "PostgreSQL",
-        "SQL",
-        "LAN"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "697bb32e42a56768",
-      "title": "Młodszy Specjalista ds. Helpdesk (K/M)",
-      "company": "POLSKIE PORTY LOTNICZE SPÓŁKA AKCYJNA",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/polskie-porty-lotnicze-spolka-akcyjna-mlodszy-specjalista-ds-helpdesk-k-m--warszawa-support",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a259f6099b634adba665e2fed5f825f3",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-07T13:00:11.482992Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Helpdesk (K/M) Save Apply All offers Warszawa Support Młodszy Specjalista ds; Helpdesk (K/M) Support Młodszy Specjalista ds; Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania? | What they expect: RCP) w ramach kompetencji zespołu Helpdesk Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie min; średnie o profilu informatycznym; mile widziani studenci informatyki Minimum półroczne doświadczenie zawodowe na podobnym stanowisku Znajomość budowy PC i konfiguracji SO Win11 Znajomość oprogramowania biurowego i zarządzania sprzętem | What they offer: Ubezpieczenie grupowe na preferencyjnych warunkach; Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina; POLSKIE PORTY LOTNICZE SPÓŁKA AKCYJNA",
-      "summary_tasks": [
-        "Helpdesk (K/M) Save Apply All offers Warszawa Support Młodszy Specjalista ds",
-        "Helpdesk (K/M) Support Młodszy Specjalista ds",
-        "Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania?"
-      ],
-      "summary_expectations": [
-        "RCP) w ramach kompetencji zespołu Helpdesk Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie min",
-        "średnie o profilu informatycznym; mile widziani studenci informatyki Minimum półroczne doświadczenie zawodowe na podobnym stanowisku Znajomość budowy PC i konfiguracji SO Win11 Znajomość oprogramowania biurowego i zarządzania sprzętem"
-      ],
-      "summary_offers": [
-        "Ubezpieczenie grupowe na preferencyjnych warunkach",
-        "Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina",
-        "POLSKIE PORTY LOTNICZE SPÓŁKA AKCYJNA"
-      ],
-      "required_skills": [
-        "IT Support",
-        "Windows",
-        "Komunikatywność"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "6ffca91d4c1e65da",
-      "title": "SQL / Database Technical Support Consultant",
+      "id": "3538d3a963f36095",
+      "title": "Technical Support Consultant (Telco)",
       "company": "COMARCH",
       "location": "Kraków, Wrocław, Rzeszów",
-      "url": "https://justjoin.it/job-offer/comarch-sql-database-technical-support-consultant-krakow-support",
-      "apply_url": "https://kariera.comarch.pl/praca/sql-database-technical-support-consultant/",
+      "url": "https://justjoin.it/job-offer/comarch-technical-support-consultant-telco--krakow-support",
+      "apply_url": "https://kariera.comarch.pl/praca/technical-support-consultant-telco/#/form/offer/1913/step/1",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-07T12:48:06.887181Z",
+      "published_at": "2026-09-08T14:00:10.748688Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Similar offers MOTIFE Kraków Hybrid Hybrid Technical Support Engineer New 2 412,87 | What they expect: Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQLDobra znajomość środowiska Linux",
+      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Company profile Technical Support Consultant (Telco) Save Apply Summary of the offer Save Technical Support Consultant (Telco) al | What they expect: Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQL) Dobra znajomość środowiska Linux",
       "summary_tasks": [
         "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
         "Wspieramy finanse, handel i MŚP, współpracując z g",
-        "Similar offers MOTIFE Kraków Hybrid Hybrid Technical Support Engineer New 2 412,87"
+        "Company profile Technical Support Consultant (Telco) Save Apply Summary of the offer Save Technical Support Consultant (Telco) al"
       ],
       "summary_expectations": [
-        "Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQLDobra znajomość środowiska Linux"
+        "Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQL) Dobra znajomość środowiska Linux"
       ],
       "summary_offers": [],
       "required_skills": [
         "SQL",
         "Linux",
-        "Oracle",
-        "PostreSQL"
+        "ITIL"
       ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00",
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00",
       "contact_email": "praca@comarch.pl",
       "contact_email_kind": "recruitment"
     },
@@ -1037,38 +1094,34 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "22e9f7ef4160f260",
-      "title": "IT Support Specialist (2nd Line)",
-      "company": "Allegro sp. z o.o.",
-      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
-      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
+      "id": "5355825067133b13",
+      "title": "Specjalista IT (k/m)",
+      "company": "N2H Sp. z o.o.",
+      "location": "Błonie-Wieś (pow. warszawski zachodni), mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-it-k-m-blonie-wies-pow-warszawski-zachodni-sochaczewska-96b,oferta,1005077782",
       "apply_url": "",
-      "source": "nofluffjobs.com",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1787833977909",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T07:08:08.547Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
+      "summary": "What you'll do: zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu | What they expect: minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych | What they offer: możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio; Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku; N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce",
       "summary_tasks": [
-        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
-        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
-        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
+        "zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu"
       ],
       "summary_expectations": [
-        "Strong organizational skills",
-        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
-        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
+        "minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych"
       ],
       "summary_offers": [
-        "Pakiet sportowy",
-        "Prywatna opieka medyczna",
-        "Budżet na szkolenia"
+        "możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio",
+        "Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku",
+        "N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "cc41607097f3bd08",
@@ -1164,78 +1217,37 @@
       "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
-      "id": "94dc01641bfcf666",
-      "title": "Młodszy Analityk SQL/BI (k/m)",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/modivo-platform-mlodszy-analityk-sql-bi-k-m--warszawa-data",
-      "apply_url": "https://career.modivoplatform.com/offer/7480/mlodszy-analityk-sql-bi",
+      "id": "e2dafff7cd61315d",
+      "title": "IT Support Specialist",
+      "company": "Axabee",
+      "location": "Opole",
+      "url": "https://justjoin.it/job-offer/axabee-it-support-specialist-opole-support-00263e18",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=72c5cb49c4b24d278f941e286877a929",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Office",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-07T14:00:03.090545Z",
+      "published_at": "2026-09-08T13:00:20.003188Z",
       "fit_score": 61,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej; rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe; wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem | What they expect: umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI; tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query; przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych",
+      "summary": "What you'll do: Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok; Obecnie poszukujemy osoby na stanowisko IT Support Specialist Co będziesz robić?; We specialise in optimising key business processes for medium and large European companies in the | What they expect: Dbać o profesjonalną i terminową obsługę zgłaszających Przyjmować i rejestrować zgłoszenia serwisowe Skutecznie rozwiązywać problemy techniczne Koordynować szybkie i właściwe odpowiedzi na zgłoszenia, w tym przekazywanie zapytań i monitorowanie dalszego procesu Od Ciebie oczekujemy: Wysoko rozwiniętych umiejętności komunikacji i pracy zespołowej Umiejętności analitycznego myślenia, dążenia do trwałego i szybkiego rozwiązywania zgłoszeń, diagnozowania i naprawy przyczyn problemów Dobrej znajomości systemów i oprogramowania Microsoft (Windows, Office, Active Directory) Umiejętności tłumaczenia zagadnień technicznych w sposób przystępny dla użytkowników Znajomości języka angielskiego pozwalającej na swobodną komunikację Dyspozycyjności do pracy stacjonarnej i zmianowej w godzinach pomiędzy 8:00 a 18:00 Mile widziane będzie doświadczenie w obsłudze klienta Możliwości pracy stacjonarnej w biurze w Opolu Od siebie dajemy: Realny wpływ na używane technologie i rozwiązania, możliwość kreowania projektów w zgodzie z własnymi pomysłami; travel Rozwój kompetencji (dzielimy się wiedzą wewnętrznie, jeździmy na konferencje) Dofinansowane wyjazdy na wakacje w atrakcyjnych cenach i miejscach!",
       "summary_tasks": [
-        "tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej",
-        "rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe",
-        "wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem"
+        "Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok",
+        "Obecnie poszukujemy osoby na stanowisko IT Support Specialist Co będziesz robić?",
+        "We specialise in optimising key business processes for medium and large European companies in the"
       ],
       "summary_expectations": [
-        "umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI",
-        "tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query",
-        "przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych"
+        "Dbać o profesjonalną i terminową obsługę zgłaszających Przyjmować i rejestrować zgłoszenia serwisowe Skutecznie rozwiązywać problemy techniczne Koordynować szybkie i właściwe odpowiedzi na zgłoszenia, w tym przekazywanie zapytań i monitorowanie dalszego procesu Od Ciebie oczekujemy: Wysoko rozwiniętych umiejętności komunikacji i pracy zespołowej Umiejętności analitycznego myślenia, dążenia do trwałego i szybkiego rozwiązywania zgłoszeń, diagnozowania i naprawy przyczyn problemów Dobrej znajomości systemów i oprogramowania Microsoft (Windows, Office, Active Directory) Umiejętności tłumaczenia zagadnień technicznych w sposób przystępny dla użytkowników Znajomości języka angielskiego pozwalającej na swobodną komunikację Dyspozycyjności do pracy stacjonarnej i zmianowej w godzinach pomiędzy 8:00 a 18:00 Mile widziane będzie doświadczenie w obsłudze klienta Możliwości pracy stacjonarnej w biurze w Opolu Od siebie dajemy: Realny wpływ na używane technologie i rozwiązania, możliwość kreowania projektów w zgodzie z własnymi pomysłami",
+        "travel Rozwój kompetencji (dzielimy się wiedzą wewnętrznie, jeździmy na konferencje) Dofinansowane wyjazdy na wakacje w atrakcyjnych cenach i miejscach!"
       ],
       "summary_offers": [],
       "required_skills": [
-        "SQL",
-        "BI",
-        "MS Excel"
+        "Windows",
+        "VPN",
+        "Office"
       ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "fff2d8b9cb9ddfd9",
-      "title": "Technical Support Engineer (L2)",
-      "company": "OneRail Poland Sp. z o.o.",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/onerail-poland-sp-z-o-o--technical-support-engineer-l2--krakow-support-fe9ddc3e",
-      "apply_url": "https://onerail.applytojob.com/apply/duhCWgz67Z/Technical-Support-Engineer-L2-OneRails-Technology-Hub-Poland?source=JustJoinIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-07T12:00:09.90534Z",
-      "fit_score": 59,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Serve as a primary technical support contact for customer-reported issues; Investigate problems using logs, monitoring tools, API requests, and SQL queries; Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification | What they expect: Qualifications 2–4 years of experience in technical support, product support, software development, or a customer-facing technical role; Strong troubleshooting skills and comfort working through ambiguous problems independently; Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes) | What they offer: a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you; Attractive salary and benefits package; hybrid, shift work (3-4 days from the office / week)",
-      "summary_tasks": [
-        "Serve as a primary technical support contact for customer-reported issues",
-        "Investigate problems using logs, monitoring tools, API requests, and SQL queries",
-        "Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification"
-      ],
-      "summary_expectations": [
-        "Qualifications 2–4 years of experience in technical support, product support, software development, or a customer-facing technical role",
-        "Strong troubleshooting skills and comfort working through ambiguous problems independently",
-        "Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes)"
-      ],
-      "summary_offers": [
-        "a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you",
-        "Attractive salary and benefits package",
-        "hybrid, shift work (3-4 days from the office / week)"
-      ],
-      "required_skills": [
-        "Technical Support",
-        "TypeScript",
-        "JavaScript",
-        "REST API",
-        "SQL"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     }
   ]
 }
