@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "4",
-    "generated_at": "2026-09-09T06:26:11.406251+00:00",
-    "found": 3013,
-    "accepted": 37,
+    "generated_at": "2026-09-10T06:27:49.287872+00:00",
+    "found": 2997,
+    "accepted": 43,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1182
+        "fetched": 1180
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 672
+        "fetched": 662
       }
     }
   },
@@ -293,46 +293,6 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "d87c56d4f0b3e6bf",
-      "title": "Network Engineer",
-      "company": "Motorola Solutions",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/motorola-solutions-network-engineer-krakow-devops",
-      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Senior-Network-Engineer_R65743-1",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-08T15:00:09.2776971Z",
-      "fit_score": 78,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting; Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments; Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans | What they expect: Practical experience configuring network hardware, specifically Juniper (SRX/EX) and; Familiarity with LAN/WAN concepts and VPN overlays; Basic Linux operating system and virtualization knowledge",
-      "summary_tasks": [
-        "Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting",
-        "Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments",
-        "Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans"
-      ],
-      "summary_expectations": [
-        "Practical experience configuring network hardware, specifically Juniper (SRX/EX) and",
-        "Familiarity with LAN/WAN concepts and VPN overlays",
-        "Basic Linux operating system and virtualization knowledge"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "IP networks",
-        "routing",
-        "TCP/IP",
-        "LAN/WAN",
-        "VPN",
-        "Linux",
-        "Virtualization",
-        "Scripting",
-        "mobile radio architectures"
-      ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
-    },
-    {
       "id": "a2ef8e54e6809df6",
       "title": "IT Support Administrator",
       "company": "Adria DTH B.V.",
@@ -365,39 +325,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "171477202e56b108",
-      "title": "Social Media & Digital Marketing Specialist",
-      "company": "AZYMUT",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-digital-marketing-specialist-warszawa-antonia-corazziego-4,oferta,1005028909",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-13T14:28:09.633Z",
-      "fit_score": 77,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google; Obsługa i moderacja kanałów społecznościowych marki; Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta | What they expect: Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne; Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ( | What they offer: Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie; 🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę; Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej",
-      "summary_tasks": [
-        "Planowanie oraz tworzenie treści i grafik na social media: Faceboook, Instagram, TikTok oraz Google",
-        "Obsługa i moderacja kanałów społecznościowych marki",
-        "Planowanie, konfiguracja i bieżąca optymalizacja kampanii reklamowych w ekosystemie Meta"
-      ],
-      "summary_expectations": [
-        "Portfolio prezentującego dotychczasowe case studies, efekty prowadzonych wcześniej profili oraz realizacje graficzne",
-        "Minimum 3-letniego doświadczenia w marketingu, w obszarze social media i digital marketingu ("
-      ],
-      "summary_offers": [
-        "Doceniamy osoby, które angażują się w rozwój firmy, więc jeśli Twoja praca przynosi efekty, to wynagrodzenie rośnie",
-        "🏅 Oferujemy: Stabilne zatrudnienie na podstawie umowy o pracę",
-        "Możliwość rozwoju, w tym perspektywa objęcia roli liderskiej"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
       "id": "727dd8ce2eafd8d5",
@@ -434,34 +361,85 @@
       "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
-      "id": "9c72fdee737d6eaa",
-      "title": "Junior IT Service Desk Specialist (1st / 2nd Line Support)",
-      "company": "FRISTA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-it-service-desk-specialist-1st-2nd-line-support-warszawa,oferta,1005055677",
-      "apply_url": "",
-      "source": "pracuj.pl",
+      "id": "ae40df32e450e376",
+      "title": "Główny Inżynier / Inżynierka Systemów Informatycznych (Network Engineer)",
+      "company": "Integrated Solutions Sp. z o.o",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/orange-polska-glowny-inzynier-inzynierka-systemow-informatycznych-network-engineer--warszawa-admin",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=939628b2f72a4c6f9ed051fa6cce1c99",
+      "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "junior, mid",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
       "salary": "",
-      "published_at": "2026-08-27T14:57:37.487Z",
+      "published_at": "2026-09-09T15:00:06.279934Z",
       "fit_score": 75,
       "match_level": "STRONG",
-      "summary": "What you'll do: wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo | What they expect: bardzo dobre umiejętności komunikacyjne znajomość MS Office | What they offer: realne możliwości rozwoju zawodowego; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb; W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem",
+      "summary": "What you'll do: Monitorowanie i optymalizacja działania sieci, zapewniając jej skalowalność, stabilność i bezpieczeństwo; Zarządzanie konfiguracją oraz dokumentacją projektów sieciowych; Współpraca z zespołami technicznymi, dostawcami oraz interesariuszami biznesowymi | What they expect: TCP/IP i warstwa 2 — masz dobrą znajomość technologii TCP/IP, warstwy 2 oraz routingu dynamicznego (OSPF, BGP); Wi‑Fi, SDN, wirtualizacja — posiadasz doświadczenie z technologiami Wi‑Fi, SDN, wirtualizacją sieci oraz sieciami kampusowymi i centrami danych; Projekty i migracje — masz doświadczenie w planowaniu, wdrażaniu i migracji rozwiązań sieciowych oraz współpracy z zespołami i dostawcami | What they offer: Prywatną opiekę medyczną w pełni opłacaną przez pracodawcę; Ubezpieczenie grupowe na preferencyjnych warunkach; Platformę benefitową zasilaną środkami z Funduszu Socjalnego (",
       "summary_tasks": [
-        "wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo"
+        "Monitorowanie i optymalizacja działania sieci, zapewniając jej skalowalność, stabilność i bezpieczeństwo",
+        "Zarządzanie konfiguracją oraz dokumentacją projektów sieciowych",
+        "Współpraca z zespołami technicznymi, dostawcami oraz interesariuszami biznesowymi"
       ],
       "summary_expectations": [
-        "bardzo dobre umiejętności komunikacyjne znajomość MS Office"
+        "TCP/IP i warstwa 2 — masz dobrą znajomość technologii TCP/IP, warstwy 2 oraz routingu dynamicznego (OSPF, BGP)",
+        "Wi‑Fi, SDN, wirtualizacja — posiadasz doświadczenie z technologiami Wi‑Fi, SDN, wirtualizacją sieci oraz sieciami kampusowymi i centrami danych",
+        "Projekty i migracje — masz doświadczenie w planowaniu, wdrażaniu i migracji rozwiązań sieciowych oraz współpracy z zespołami i dostawcami"
       ],
       "summary_offers": [
-        "realne możliwości rozwoju zawodowego",
-        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb",
-        "W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem"
+        "Prywatną opiekę medyczną w pełni opłacaną przez pracodawcę",
+        "Ubezpieczenie grupowe na preferencyjnych warunkach",
+        "Platformę benefitową zasilaną środkami z Funduszu Socjalnego ("
       ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+      "required_skills": [
+        "TCP/IP",
+        "Wi-Fi",
+        "SD-WAN"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "d39b7b1abc600f3c",
+      "title": "Application Support Engineer / Windows System Administrator",
+      "company": "Transition Technologies MS",
+      "location": "Warszawa, Gdańsk, Wrocław, Kraków, Poznań",
+      "url": "https://justjoin.it/job-offer/transition-technologies-ms-application-support-engineer-windows-system-administrator-warszawa-support",
+      "apply_url": "https://ttms.traffit.com/public/form/a/2121?uid=3d8749470c2fc23e0f5a274c7b1d2c2650727037694f4374337a746f784433753169656a6553507a45304a4b6a387543",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T14:00:12.215688Z",
+      "fit_score": 75,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Administering and maintaining Windows Server environments; Managing and troubleshooting MS SQL Server databases; Creating and maintaining technical documentation, including Runbooks, DR Plans, and SOPs | What they expect: Database: Good knowledge of MS SQL Server (ability to manage, configure, and troubleshoot DB-related issues); Experience in creating and maintaining technical documentation (Runbooks, Disaster Recovery Plans, SOPs); Familiarity with corporate IT procedures (Change Management, Incident Management | What they offer: Possibility to work remote or hybrid (2 days per week from the office); Opportunities for development and promotion; Attractive package of benefits",
+      "summary_tasks": [
+        "Administering and maintaining Windows Server environments",
+        "Managing and troubleshooting MS SQL Server databases",
+        "Creating and maintaining technical documentation, including Runbooks, DR Plans, and SOPs"
+      ],
+      "summary_expectations": [
+        "Database: Good knowledge of MS SQL Server (ability to manage, configure, and troubleshoot DB-related issues)",
+        "Experience in creating and maintaining technical documentation (Runbooks, Disaster Recovery Plans, SOPs)",
+        "Familiarity with corporate IT procedures (Change Management, Incident Management"
+      ],
+      "summary_offers": [
+        "Possibility to work remote or hybrid (2 days per week from the office)",
+        "Opportunities for development and promotion",
+        "Attractive package of benefits"
+      ],
+      "required_skills": [
+        "MS Windows Server",
+        "MS SQL Server",
+        "troubleshoot DB-related issues",
+        "administration, configuration, and maintenance",
+        "creating and maintaining technical documentation",
+        "Runbooks, Disaster Recovery Plans, SOPs",
+        "understanding of deployment processes",
+        "Familiarity with corporate IT procedures"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
     },
     {
       "id": "d3419adf8bebc158",
@@ -497,6 +475,36 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "9c72fdee737d6eaa",
+      "title": "Junior IT Service Desk Specialist (1st / 2nd Line Support)",
+      "company": "FRISTA",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-it-service-desk-specialist-1st-2nd-line-support-warszawa,oferta,1005055677",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-27T14:57:37.487Z",
+      "fit_score": 75,
+      "match_level": "STRONG",
+      "summary": "What you'll do: wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo | What they expect: bardzo dobre umiejętności komunikacyjne znajomość MS Office | What they offer: realne możliwości rozwoju zawodowego; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb; W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem",
+      "summary_tasks": [
+        "wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo"
+      ],
+      "summary_expectations": [
+        "bardzo dobre umiejętności komunikacyjne znajomość MS Office"
+      ],
+      "summary_offers": [
+        "realne możliwości rozwoju zawodowego",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb",
+        "W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
       "id": "e77296eb234aeff0",
       "title": "Helpdesk / Serwis w Dziale IT",
       "company": "UNITY-T GROUP sp. z o.o. sp.k.",
@@ -523,77 +531,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "9f8576fd6e757987",
-      "title": "Network Administrator",
-      "company": "Axabee",
-      "location": "Opole, Wrocław",
-      "url": "https://justjoin.it/job-offer/axabee-network-administrator-opole-admin-1788b687",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5b235187aac545868b401e8fb8f23eb4",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-08T13:00:14.547161Z",
-      "fit_score": 74,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Administration of network infrastructure (LAN, WLAN, WAN, VPN); Administration of network services (DHCP, DNS, etc.); Network administration and security assurance in virtual and cloud environments (VMware, vCloud, GCP)",
-      "summary_tasks": [
-        "Administration of network infrastructure (LAN, WLAN, WAN, VPN)",
-        "Administration of network services (DHCP, DNS, etc.)",
-        "Network administration and security assurance in virtual and cloud environments (VMware, vCloud, GCP)"
-      ],
-      "summary_expectations": [],
-      "summary_offers": [],
-      "required_skills": [
-        "Security",
-        "LAN",
-        "Wlan",
-        "VPN",
-        "Palo Alto",
-        "WAN"
-      ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
-    },
-    {
-      "id": "2715d44c4760f08b",
-      "title": "Technical Support Specialist (1st line)",
-      "company": "B:RIGHT",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/b-right-technical-support-specialist-1st-line--warszawa-support",
-      "apply_url": "https://b-right.recruitify.ai/job/d23db019-1a6c-4cf8-84d1-fb6fb40026dd",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-08T13:00:13.9413867Z",
-      "fit_score": 73,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: masz realny wpływ na to, jak ta rola będzie wyglądać, zbudujesz standard obsługi zgłoszeń, który zostanie w firmie na dłużej; Aplikacje biznesowe (CRM, billing) dla klientów z grupy kapitałowej - spółki telekomunikacyjne i energetyczne -; Czym będziesz się zajmować? | What they expect: Firma jest w fazie rozwoju, stąd potrzeba rozbudowy zespołu o kolejnych specjalistów i nowe kompetencje; Oczekiwania minimum 1 rok doświadczenia na podobnym stanowisku, umiejętność klasyfikacji i priorytetyzacji zgłoszeń; razem z nami rozwijasz swoje kompetencje | What they offer: karta Multisport i opieka Medicover; 4 dni w biurze (Warszawa), 1 dzień zdalnie; elastyczny czas pracy",
-      "summary_tasks": [
-        "masz realny wpływ na to, jak ta rola będzie wyglądać, zbudujesz standard obsługi zgłoszeń, który zostanie w firmie na dłużej",
-        "Aplikacje biznesowe (CRM, billing) dla klientów z grupy kapitałowej - spółki telekomunikacyjne i energetyczne -",
-        "Czym będziesz się zajmować?"
-      ],
-      "summary_expectations": [
-        "Firma jest w fazie rozwoju, stąd potrzeba rozbudowy zespołu o kolejnych specjalistów i nowe kompetencje",
-        "Oczekiwania minimum 1 rok doświadczenia na podobnym stanowisku, umiejętność klasyfikacji i priorytetyzacji zgłoszeń",
-        "razem z nami rozwijasz swoje kompetencje"
-      ],
-      "summary_offers": [
-        "karta Multisport i opieka Medicover",
-        "4 dni w biurze (Warszawa), 1 dzień zdalnie",
-        "elastyczny czas pracy"
-      ],
-      "required_skills": [
-        "Helpdesk",
-        "IT Support",
-        "Jira"
-      ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "ecadcb0f7b8bc0d8",
@@ -625,40 +562,6 @@
         "Profesjonalny onboarding i szkolenia wprowadzające",
         "Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover",
         "Dofinansowanie do karty sportowej Multisport"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "7c304f4bb2fba8dd",
-      "title": "Specjalista ds. Wsparcia IT (M/K)",
-      "company": "TPF Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-wsparcia-it-m-k-warszawa-postepu-14b,oferta,1005020215",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-10T13:50:50.793Z",
-      "fit_score": 72,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Instalacja i konfiguracja nowych komputerów oraz urządzeń peryferyjnych; Przygotowywanie, konfiguracja, wydawanie; Współpraca z dostawcami usług IT oraz serwisami zewnętrznymi | What they expect: Praktyczna znajomość obsługi i diagnozowania problemów ze sprzętem komputerowym, urządzeniami peryferyjnymi oraz podstawowym oprogramowaniem biurowym; Dobra znajomość systemów operacyjnych Windows oraz pakietu biurowego MS Office i środowiska chmurowego M365; Znajomość podstawowych zagadnień związanych z kontami użytkowników, uprawnieniami, pocztą, VPN | What they offer: Elastyczny czas pracy; Pakiet opieki medycznej w Allianz oraz współfinansowany pakiet Multisport – od pierwszego dnia pracy, Przyjazną atmosferę pracy i wsparcie zespołu, Komfortowe biuro na warszawskim Mokotowie z dogodnym dojazdem; TPF oferuje profesjonalne usługi obejmujące: doradztwo inwestycyjne, ekspertyzy budowlane, opinie, opracowania o charakterze formalno-prawnym, pełną obsługę procesu inwestycyjnego",
-      "summary_tasks": [
-        "Instalacja i konfiguracja nowych komputerów oraz urządzeń peryferyjnych",
-        "Przygotowywanie, konfiguracja, wydawanie",
-        "Współpraca z dostawcami usług IT oraz serwisami zewnętrznymi"
-      ],
-      "summary_expectations": [
-        "Praktyczna znajomość obsługi i diagnozowania problemów ze sprzętem komputerowym, urządzeniami peryferyjnymi oraz podstawowym oprogramowaniem biurowym",
-        "Dobra znajomość systemów operacyjnych Windows oraz pakietu biurowego MS Office i środowiska chmurowego M365",
-        "Znajomość podstawowych zagadnień związanych z kontami użytkowników, uprawnieniami, pocztą, VPN"
-      ],
-      "summary_offers": [
-        "Elastyczny czas pracy",
-        "Pakiet opieki medycznej w Allianz oraz współfinansowany pakiet Multisport – od pierwszego dnia pracy, Przyjazną atmosferę pracy i wsparcie zespołu, Komfortowe biuro na warszawskim Mokotowie z dogodnym dojazdem",
-        "TPF oferuje profesjonalne usługi obejmujące: doradztwo inwestycyjne, ekspertyzy budowlane, opinie, opracowania o charakterze formalno-prawnym, pełną obsługę procesu inwestycyjnego"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
@@ -758,76 +661,110 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
-      "id": "d3485e50cfb65f40",
-      "title": "IT Support Engineer (macOS)",
-      "company": "MOTIFE",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/motife-it-support-engineer-macos--warszawa-support",
-      "apply_url": "https://motife.recruitify.ai/job/23800153-4f86-4ce8-92f5-2ee15ca29b3e?sourceId=37",
+      "id": "bcea512aeec61511",
+      "title": "Junior Marketing & Content Specialist",
+      "company": "Betterworkplace Sp. z o.o.",
+      "location": "Raszyn (pow. pruszkowski), mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-marketing-content-specialist-raszyn-pow-pruszkowski-modulowa-3,oferta,1005038301",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-19T12:53:13.4Z",
+      "fit_score": 72,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Planowanie i prowadzenie komunikacji w social mediach: LinkedIn, Facebook i Instagram, przede wszystkim w środowisku B2B; Tworzenie i publikowanie contentu: postów, krótkich materiałów wideo, stories, reelsów oraz innych formatów wspierających komunikację marek; HR, Office Management i Procurement | What they expect: Masz 1–2 lata doświadczenia w marketingu, social mediach, content marketingu lub podobnym obszarze; Bardzo dobrze czujesz się w social mediach i rozumiesz różnice pomiędzy komunikacją na LinkedIn, Facebooku i Instagramie; Potrafisz napisać dobry post, ale również ocenić, czy grafika, zdjęcie albo wideo pasują do marki i celu komunikacji | What they offer: Dofinansowanie do karty sportowej i pakietu medycznego; Codziennie świeże owoce i przekąski; Dobrą atmosferę – na serio – dobrą atmosferę wskazuje jako atut 73% naszych pracowników",
+      "summary_tasks": [
+        "Planowanie i prowadzenie komunikacji w social mediach: LinkedIn, Facebook i Instagram, przede wszystkim w środowisku B2B",
+        "Tworzenie i publikowanie contentu: postów, krótkich materiałów wideo, stories, reelsów oraz innych formatów wspierających komunikację marek",
+        "HR, Office Management i Procurement"
+      ],
+      "summary_expectations": [
+        "Masz 1–2 lata doświadczenia w marketingu, social mediach, content marketingu lub podobnym obszarze",
+        "Bardzo dobrze czujesz się w social mediach i rozumiesz różnice pomiędzy komunikacją na LinkedIn, Facebooku i Instagramie",
+        "Potrafisz napisać dobry post, ale również ocenić, czy grafika, zdjęcie albo wideo pasują do marki i celu komunikacji"
+      ],
+      "summary_offers": [
+        "Dofinansowanie do karty sportowej i pakietu medycznego",
+        "Codziennie świeże owoce i przekąski",
+        "Dobrą atmosferę – na serio – dobrą atmosferę wskazuje jako atut 73% naszych pracowników"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "3ed717ed2ca328f3",
+      "title": "Desktop Support Technician - IT, Level 2",
+      "company": "Frontiers Open Science",
+      "location": "warsaw",
+      "url": "https://justjoin.it/job-offer/frontiers-open-science-desktop-support-technician---it-level-2-warsaw-support",
+      "apply_url": "https://apply.workable.com/j/4C6AB32EA7",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-08T14:00:08.6525378Z",
+      "published_at": "2026-09-09T16:00:06.121178Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Support & Troubleshooting; Deliver expert-level support for; configuration, deployment, and user assistance | What they expect: 4+ years of hands-on IT support experience in a corporate or enterprise environment; Proven skills in PC and Mac repair, deployment, and troubleshooting; Experience with AWS environments or server administration is a plus | What they offer: 100% paid medical care; Multisport",
+      "summary": "What you'll do: IT, Level 2 Save Apply All offers warsaw Support Desktop Support Technician; IT, Level 2 Support Desktop Support Technician; You will be responsible for troubleshooting hardware",
       "summary_tasks": [
-        "Support & Troubleshooting",
-        "Deliver expert-level support for",
-        "configuration, deployment, and user assistance"
+        "IT, Level 2 Save Apply All offers warsaw Support Desktop Support Technician",
+        "IT, Level 2 Support Desktop Support Technician",
+        "You will be responsible for troubleshooting hardware"
       ],
-      "summary_expectations": [
-        "4+ years of hands-on IT support experience in a corporate or enterprise environment",
-        "Proven skills in PC and Mac repair, deployment, and troubleshooting",
-        "Experience with AWS environments or server administration is a plus"
-      ],
-      "summary_offers": [
-        "100% paid medical care",
-        "Multisport"
-      ],
+      "summary_expectations": [],
+      "summary_offers": [],
       "required_skills": [
-        "MacOS",
-        "JAMF",
-        "Windows",
-        "Linux"
+        "IT",
+        "IT Support",
+        "Troubleshooting"
       ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
     },
     {
-      "id": "22e9f7ef4160f260",
-      "title": "IT Support Specialist (2nd Line)",
-      "company": "Allegro sp. z o.o.",
-      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
-      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1787833977909",
+      "id": "16be8acd9e7a218c",
+      "title": "Application Support Specialist (L1 / Utrzymanie Aplikacji)",
+      "company": "Fabrity S.A.",
+      "location": "Łódź, Warszawa, Kraków, Wrocław",
+      "url": "https://justjoin.it/job-offer/fabrity-s-a--application-support-specialist-l1-utrzymanie-aplikacji--lodz-support",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=8c5aadab5d7a440986f0470db3f4be48",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T12:00:22.487089Z",
       "fit_score": 71,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
+      "summary": "What you'll do: Bieżący nadzór nad prawidłową realizacją wskaźników SLA oraz dbanie o terminowość obsługi kolejek zgłoszeń; Wstępna diagnoza i triaż techniczny błędów aplikacyjnych oraz współpraca z zespołami deweloperskimi i projektowymi w procesie ich rozwiązywania; Aktywny udział w procesach Incident Management, Change Management oraz Problem Management | What they expect: Praktyczne doświadczenie w obsłudze zgłoszeń w ramach procesów ITIL (Incident, Change, Problem Management) oraz pracy z określonymi parametrami SLA; Doświadczenie w bezpośredniej współpracy i komunikacji z klientem biznesowym oraz użytkownikami końcowymi; Doświadczenie w pracy w środowiskach wieloprojektowych / z różnymi zespołami technicznymi i domenami biznesowymi | What they offer: Długofalową współpracę w oparciu o umowę B2B lub UoP w zespole Software; Development; Elastyczny model pracy: 100% zdalnie (z opcją hybrydy w biurze w zależności od Twoich preferencji) oraz niezbędny sprzęt komputerowy do pracy",
       "summary_tasks": [
-        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
-        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
-        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
+        "Bieżący nadzór nad prawidłową realizacją wskaźników SLA oraz dbanie o terminowość obsługi kolejek zgłoszeń",
+        "Wstępna diagnoza i triaż techniczny błędów aplikacyjnych oraz współpraca z zespołami deweloperskimi i projektowymi w procesie ich rozwiązywania",
+        "Aktywny udział w procesach Incident Management, Change Management oraz Problem Management"
       ],
       "summary_expectations": [
-        "Strong organizational skills",
-        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
-        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
+        "Praktyczne doświadczenie w obsłudze zgłoszeń w ramach procesów ITIL (Incident, Change, Problem Management) oraz pracy z określonymi parametrami SLA",
+        "Doświadczenie w bezpośredniej współpracy i komunikacji z klientem biznesowym oraz użytkownikami końcowymi",
+        "Doświadczenie w pracy w środowiskach wieloprojektowych / z różnymi zespołami technicznymi i domenami biznesowymi"
       ],
       "summary_offers": [
-        "Pakiet sportowy",
-        "Prywatna opieka medyczna",
-        "Budżet na szkolenia"
+        "Długofalową współpracę w oparciu o umowę B2B lub UoP w zespole Software",
+        "Development",
+        "Elastyczny model pracy: 100% zdalnie (z opcją hybrydy w biurze w zależności od Twoich preferencji) oraz niezbędny sprzęt komputerowy do pracy"
       ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+      "required_skills": [
+        "ITIL",
+        "Manual Testing",
+        "SQL",
+        "Postman",
+        "CMS Wordpress",
+        "Jira",
+        "SLA"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
     },
     {
       "id": "ad68d779c382497f",
@@ -927,42 +864,77 @@
       "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
-      "id": "702fc6ead856add6",
-      "title": "Technical Support Engineer",
-      "company": "SQUAD",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/squad-technical-support-engineer-wroclaw-support",
-      "apply_url": "https://grnh.se/u08bnou81us",
+      "id": "ebcc2bf9772e29fa",
+      "title": "Młodszy inżynier service desk (K/M/X)",
+      "company": "COMARCH",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/comarch-mlodszy-inzynier-service-desk-k-m-x--krakow-support-9c16b8ca",
+      "apply_url": "https://kariera.comarch.pl/praca/mlodszy-inzynier-service-desk-k-m-x-2334/#/form/offer/1767/step/1",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-08T16:00:15.945972Z",
+      "published_at": "2026-09-09T16:00:07.631979Z",
       "fit_score": 70,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Continuously monitor customer-facing dashboards, automated detection systems, and performance indicators for smart device fleets across all shifts; Analyze real-time performance data to identify trends or anomalies before they escalate into customer-impacting events; Initiate and track Post-Incident Corrective Actions (COE) to drive root cause analysis and ensure timely closure of technical issues | What they expect: Qualifications and Skills 1+ years of technical support experience within IT, IoT, or software development environments; Basic SQL skills for data querying and practical experience with monitoring tools (e.g., Grafana, CloudWatch, Datadog, Tableau); Experience using ticketing systems (e.g., Jira, ServiceNow, Zendesk, or similar) | What they offer: multiple benefits that include; Bonus for your individual achievements and a Loyalty; Bonus recognizing your dedication to the company",
+      "summary": "What you'll do: Będziesz mieć do dyspozycji wszelkie niezbędne narzędzia, instrukcje oraz nieograniczony dostęp do naszej bazy wiedzy; W przypadku trudniejszych incydentów, będziesz mieć również wsparcie z innych zespołów (również tych spoza Comarch); ale jeśli będziesz je mieć, będzie ono mile widziane | What they expect: By rozpocząć pracę u nas, nie musisz mieć doświadczenia w pracy na podobnym stanowisku; Z uwagi na to, że obsługujemy międzynarodowe projekty, niezbędna jest znajomość języka angielskiego, na poziomie umożliwiającym konwersację; Jeśli zależy Ci na rozwoju osobistym i pogłębieniu kompetencji",
       "summary_tasks": [
-        "Continuously monitor customer-facing dashboards, automated detection systems, and performance indicators for smart device fleets across all shifts",
-        "Analyze real-time performance data to identify trends or anomalies before they escalate into customer-impacting events",
-        "Initiate and track Post-Incident Corrective Actions (COE) to drive root cause analysis and ensure timely closure of technical issues"
+        "Będziesz mieć do dyspozycji wszelkie niezbędne narzędzia, instrukcje oraz nieograniczony dostęp do naszej bazy wiedzy",
+        "W przypadku trudniejszych incydentów, będziesz mieć również wsparcie z innych zespołów (również tych spoza Comarch)",
+        "ale jeśli będziesz je mieć, będzie ono mile widziane"
       ],
       "summary_expectations": [
-        "Qualifications and Skills 1+ years of technical support experience within IT, IoT, or software development environments",
-        "Basic SQL skills for data querying and practical experience with monitoring tools (e.g., Grafana, CloudWatch, Datadog, Tableau)",
-        "Experience using ticketing systems (e.g., Jira, ServiceNow, Zendesk, or similar)"
+        "By rozpocząć pracę u nas, nie musisz mieć doświadczenia w pracy na podobnym stanowisku",
+        "Z uwagi na to, że obsługujemy międzynarodowe projekty, niezbędna jest znajomość języka angielskiego, na poziomie umożliwiającym konwersację",
+        "Jeśli zależy Ci na rozwoju osobistym i pogłębieniu kompetencji"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Linux",
+        "Network Administration",
+        "SQL"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
+    },
+    {
+      "id": "17e8dbabbd7a1c13",
+      "title": "Junior Service Engineer / Młodszy specjalista wsparcia IT",
+      "company": "Sperasoft",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/sperasoft-junior-service-engineer-mlodszy-specjalista-wsparcia-it-krakow-support",
+      "apply_url": "https://apply.workable.com/sperasoft/j/3100EF9A23/apply/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-09T12:07:42.394361Z",
+      "fit_score": 70,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Ściśle współpracujemy z naszymi partnerami, aby dostarczać wysokiej jakości tytuły dla światowej klasy wydawców; Tworzenie gier to nasza główna kompetencja; Blisko współpracujemy z naszymi partnerami, wspierając ich na każdym etapie procesu powstawania wysokiej jakości tytułów AAA | What they expect: Knowledge in hardware, network, and software troubleshooting; Knowledge of Windows 7/8/8.1/10/11 troubleshooting; Knowledge and understanding of PC, network, and other technology procurement processes | What they offer: Możliwości nauki i rozwoju: mentoring, wykłady, udział w konferencjach i wydarzeniach branżowych; Elastyczne godziny pracy (w ramach potrzeb zespołu); Benefity dodatkowe – Care",
+      "summary_tasks": [
+        "Ściśle współpracujemy z naszymi partnerami, aby dostarczać wysokiej jakości tytuły dla światowej klasy wydawców",
+        "Tworzenie gier to nasza główna kompetencja",
+        "Blisko współpracujemy z naszymi partnerami, wspierając ich na każdym etapie procesu powstawania wysokiej jakości tytułów AAA"
+      ],
+      "summary_expectations": [
+        "Knowledge in hardware, network, and software troubleshooting",
+        "Knowledge of Windows 7/8/8.1/10/11 troubleshooting",
+        "Knowledge and understanding of PC, network, and other technology procurement processes"
       ],
       "summary_offers": [
-        "multiple benefits that include",
-        "Bonus for your individual achievements and a Loyalty",
-        "Bonus recognizing your dedication to the company"
+        "Możliwości nauki i rozwoju: mentoring, wykłady, udział w konferencjach i wydarzeniach branżowych",
+        "Elastyczne godziny pracy (w ramach potrzeb zespołu)",
+        "Benefity dodatkowe – Care"
       ],
       "required_skills": [
-        "SQL",
-        "Jira",
-        "Networking"
+        "Active Directory",
+        "Troubleshooting"
       ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
     },
     {
       "id": "603c2b99051fc986",
@@ -1026,38 +998,150 @@
       "first_found_at": "2026-09-08T06:26:54.139959+00:00"
     },
     {
-      "id": "3538d3a963f36095",
-      "title": "Technical Support Consultant (Telco)",
-      "company": "COMARCH",
-      "location": "Kraków, Wrocław, Rzeszów",
-      "url": "https://justjoin.it/job-offer/comarch-technical-support-consultant-telco--krakow-support",
-      "apply_url": "https://kariera.comarch.pl/praca/technical-support-consultant-telco/#/form/offer/1913/step/1",
+      "id": "7ea4b04772040e3f",
+      "title": "Technical Support Engineer",
+      "company": "Walter Kidde Portable Equipment, LLC",
+      "location": "Gdańsk",
+      "url": "https://justjoin.it/job-offer/walter-kidde-portable-equipment-llc-technical-support-engineer-gdansk-support",
+      "apply_url": "https://jobs.dayforcehcm.com/en-US/kiddeglobal/CANDIDATEPORTAL/jobs/2328",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-08T14:00:10.748688Z",
-      "fit_score": 66,
+      "published_at": "2026-09-09T13:00:17.5376322Z",
+      "fit_score": 68,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Company profile Technical Support Consultant (Telco) Save Apply Summary of the offer Save Technical Support Consultant (Telco) al | What they expect: Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQL) Dobra znajomość środowiska Linux",
+      "summary": "What you'll do: Telephone, dial-in and email support of electronic security products; Manage and prioritize requests; Cross-functional responsibility to resolve technical issues (software and hardware) with our Solution Lab departments and product management teams | What they expect: Relevant experience in the Electronic Security sector – focused on security systems solutions; Professional experience of IP network; Good knowledge of Microsoft Office and Microsoft Windows environment | What they offer: Opportunities for career growth and professional development; Competitive salary and benefits package; Medical Insurance",
       "summary_tasks": [
-        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
-        "Wspieramy finanse, handel i MŚP, współpracując z g",
-        "Company profile Technical Support Consultant (Telco) Save Apply Summary of the offer Save Technical Support Consultant (Telco) al"
+        "Telephone, dial-in and email support of electronic security products",
+        "Manage and prioritize requests",
+        "Cross-functional responsibility to resolve technical issues (software and hardware) with our Solution Lab departments and product management teams"
       ],
       "summary_expectations": [
-        "Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQL) Dobra znajomość środowiska Linux"
+        "Relevant experience in the Electronic Security sector – focused on security systems solutions",
+        "Professional experience of IP network",
+        "Good knowledge of Microsoft Office and Microsoft Windows environment"
+      ],
+      "summary_offers": [
+        "Opportunities for career growth and professional development",
+        "Competitive salary and benefits package",
+        "Medical Insurance"
+      ],
+      "required_skills": [
+        "IP networks",
+        "Microsoft Office",
+        "Security"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "2bf6487e1672444b",
+      "title": "Młodszy specjalista / Specjalista wsparcia technicznego IT",
+      "company": "VITEC NMG S.A.",
+      "location": "Bydgoszcz",
+      "url": "https://justjoin.it/job-offer/vitec-nmg-s-a--mlodszy-specjalista-specjalista-wsparcia-technicznego-it-bydgoszcz-support",
+      "apply_url": "https://nmg.elevato.net/pl/mlodszy-specjalista-specjalista-wsparcia-technicznego-it,j,67",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T12:00:18.533978Z",
+      "fit_score": 68,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Przyjmowanie, rejestrowanie i zgłoszeń od klientów firmy NMG S.A; Monitorowanie procesu realizacji zgłoszeń od klientów; Prowadzenie dokumentacji dotyczącej przyjmowanych zgłoszeń serwisowych w Redmine lub w Rejestrze w pliku Excel | What they expect: Znajomość systemu Windows / Linux; Znajomość pakietu Office (Word, Excel); Znajomość podstaw z zakresu usług sieciowych",
+      "summary_tasks": [
+        "Przyjmowanie, rejestrowanie i zgłoszeń od klientów firmy NMG S.A",
+        "Monitorowanie procesu realizacji zgłoszeń od klientów",
+        "Prowadzenie dokumentacji dotyczącej przyjmowanych zgłoszeń serwisowych w Redmine lub w Rejestrze w pliku Excel"
+      ],
+      "summary_expectations": [
+        "Znajomość systemu Windows / Linux",
+        "Znajomość pakietu Office (Word, Excel)",
+        "Znajomość podstaw z zakresu usług sieciowych"
       ],
       "summary_offers": [],
       "required_skills": [
-        "SQL",
+        "Windows",
         "Linux",
-        "ITIL"
+        "IT Support",
+        "Helpdesk"
       ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00",
-      "contact_email": "praca@comarch.pl",
-      "contact_email_kind": "recruitment"
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "b1bbc161539bd3d3",
+      "title": "Administrator Sieci LAN/WAN (k/m)",
+      "company": "Polkomtel",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/polkomtel-administrator-sieci-lan-wan-k-m--warszawa-admin-db96c5ef",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=d115d30b86fe4c54bf437e7b3b8ae659",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T12:00:20.967651Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Gitlab, Terraform, Ansible, Znajomość języków skryptowych (bash, python, powershell, itp; Warszawa Hybrid Hybrid LAN/WAN Network Engineer New Undisclosed Salary LAN LAN/WAN Network TCP/IP Senior Senior Permanent Permanent Full-time Full-time New Upvanta sp; Warszawa Hybrid Hybrid LAN/WAN Network Engineer New Undisclosed Salary LAN LAN/WAN Network TCP/IP Senior Senior Permanent Permanent Full-time Full-time New Upvanta sp | What they expect: 3 letnie doświadczenie na podobnym stanowisku; Bardzo dobra znajomość zagadnień z zakresu sieci LAN/WAN, WLAN; Doświadczenie w administrowaniu złożoną infrastrukturą sieciową w środowisku on-premis oraz w środowisku chmurowym (GCP, Azure) | What they offer: Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju; Dostęp do platformy szkoleniowej, gdzie z pewnością znajdziesz coś dla siebie; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy)",
+      "summary_tasks": [
+        "Gitlab, Terraform, Ansible, Znajomość języków skryptowych (bash, python, powershell, itp",
+        "Warszawa Hybrid Hybrid LAN/WAN Network Engineer New Undisclosed Salary LAN LAN/WAN Network TCP/IP Senior Senior Permanent Permanent Full-time Full-time New Upvanta sp",
+        "Warszawa Hybrid Hybrid LAN/WAN Network Engineer New Undisclosed Salary LAN LAN/WAN Network TCP/IP Senior Senior Permanent Permanent Full-time Full-time New Upvanta sp"
+      ],
+      "summary_expectations": [
+        "3 letnie doświadczenie na podobnym stanowisku",
+        "Bardzo dobra znajomość zagadnień z zakresu sieci LAN/WAN, WLAN",
+        "Doświadczenie w administrowaniu złożoną infrastrukturą sieciową w środowisku on-premis oraz w środowisku chmurowym (GCP, Azure)"
+      ],
+      "summary_offers": [
+        "Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju",
+        "Dostęp do platformy szkoleniowej, gdzie z pewnością znajdziesz coś dla siebie",
+        "Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy)"
+      ],
+      "required_skills": [
+        "LAN/WAN",
+        "Wlan",
+        "CI/CD",
+        "IaC"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "22e9f7ef4160f260",
+      "title": "IT Support Specialist (2nd Line)",
+      "company": "Allegro sp. z o.o.",
+      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
+      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1787833977909",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
+      "summary_tasks": [
+        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
+        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
+        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
+      ],
+      "summary_expectations": [
+        "Strong organizational skills",
+        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
+        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
+      ],
+      "summary_offers": [
+        "Pakiet sportowy",
+        "Prywatna opieka medyczna",
+        "Budżet na szkolenia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
       "id": "a73a59fc9b9757f1",
@@ -1158,6 +1242,40 @@
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
     },
     {
+      "id": "749d1669abb7427d",
+      "title": "Supply Chain Operations Specialist with English",
+      "company": "Antal",
+      "location": "POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False",
+      "url": "https://nofluffjobs.com/pl/job/supply-chain-operations-specialist-with-english-antal-krakow",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Unspecified",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1788991285628",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Working with SAP to manage and update order-related information; Monitoring order status and resolving operational issues on a daily basis; The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies | What they expect: Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role; Practical experience with SAP; English language skills at a minimum B2 level | What they offer: Comprehensive onboarding and training to prepare you for the role; Opportunities for professional development in an international environment; Hybrid working model and flexible working hours",
+      "summary_tasks": [
+        "Working with SAP to manage and update order-related information",
+        "Monitoring order status and resolving operational issues on a daily basis",
+        "The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies"
+      ],
+      "summary_expectations": [
+        "Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role",
+        "Practical experience with SAP",
+        "English language skills at a minimum B2 level"
+      ],
+      "summary_offers": [
+        "Comprehensive onboarding and training to prepare you for the role",
+        "Opportunities for professional development in an international environment",
+        "Hybrid working model and flexible working hours"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
       "id": "53f110f8eacd58d5",
       "title": "Analityk Biznesowy / Analityczka Biznesowa w Biurze Wdrożeń i Efektywności Operacyjnej",
       "company": "Bank Pekao",
@@ -1183,6 +1301,82 @@
       "summary_offers": [],
       "required_skills": [],
       "first_found_at": "2026-09-05T11:40:52.193898+00:00"
+    },
+    {
+      "id": "a166fc30f7a8d2bd",
+      "title": "Systems Administrator",
+      "company": "Allegro",
+      "location": "Poznań",
+      "url": "https://justjoin.it/job-offer/allegro-systems-administrator-poznan-admin",
+      "apply_url": "https://careers.allegro.eu/job/Pozna%C5%84-Systems-Administrator-61-569/1361624155/?utm_source=JustJoinIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T14:00:23.803527Z",
+      "fit_score": 63,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: We oversee the management, security, and health of all endpoint devices such as macOS/Windows workstations, iOS/Android mobile devices; Configuring, managing, and maintaining localized physical workplace services, including e.g; Monitoring system availability, analyzing logs and assisting with capacity planning | What they expect: Strong practical knowledge administrating, configuring and troubleshooting standard operating systems, including Windows, macOS, Android and iOS; Proven experience using Active Directory alongside endpoint management tools like SCCM and WSUS; Excellent problem-solving skills, attention to detail, and the ability to work independently while remaining strictly aligned with SLA/KPI targets | What they offer: in a cafeteria plan - you choose what you like (e.g., medical, sports or lunch packages, insurance, purchase vouchers); A training budget, inter-team tourism (; ), hackathons, and an internal learning platform where you will find multiple trainings",
+      "summary_tasks": [
+        "We oversee the management, security, and health of all endpoint devices such as macOS/Windows workstations, iOS/Android mobile devices",
+        "Configuring, managing, and maintaining localized physical workplace services, including e.g",
+        "Monitoring system availability, analyzing logs and assisting with capacity planning"
+      ],
+      "summary_expectations": [
+        "Strong practical knowledge administrating, configuring and troubleshooting standard operating systems, including Windows, macOS, Android and iOS",
+        "Proven experience using Active Directory alongside endpoint management tools like SCCM and WSUS",
+        "Excellent problem-solving skills, attention to detail, and the ability to work independently while remaining strictly aligned with SLA/KPI targets"
+      ],
+      "summary_offers": [
+        "in a cafeteria plan - you choose what you like (e.g., medical, sports or lunch packages, insurance, purchase vouchers)",
+        "A training budget, inter-team tourism (",
+        "), hackathons, and an internal learning platform where you will find multiple trainings"
+      ],
+      "required_skills": [
+        "System Administration",
+        "ITIL",
+        "Active Directory",
+        "Powershell",
+        "Bash",
+        "Python",
+        "SQL"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+    },
+    {
+      "id": "fd934b8a602d9572",
+      "title": "Technical Support Engineer (L2)",
+      "company": "OneRail Poland Sp. z o.o.",
+      "location": "POL Poland Kraków technical-support-engineer-l2-onerail-poland-krakow-2 False Work Style: Hybrid (3-4 days from the office/week). During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding.",
+      "url": "https://nofluffjobs.com/pl/job/technical-support-engineer-l2-onerail-poland-krakow-2",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "Mid",
+      "salary": "12000.0 16000.0 permanent PLN Month VISIBLE False",
+      "published_at": "1787917288077",
+      "fit_score": 62,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Serve as a primary technical support contact for customer-reported issues; Investigate problems using logs, monitoring tools, API requests, and SQL queries; Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification | What they expect: Strong troubleshooting skills and comfort working through ambiguous problems independently; Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes); Working knowledge of SQL for investigation and validation | What they offer: a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you; Attractive salary and benefits package; Pracodawca oferuje następujący model pracy hybrydowej",
+      "summary_tasks": [
+        "Serve as a primary technical support contact for customer-reported issues",
+        "Investigate problems using logs, monitoring tools, API requests, and SQL queries",
+        "Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification"
+      ],
+      "summary_expectations": [
+        "Strong troubleshooting skills and comfort working through ambiguous problems independently",
+        "Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes)",
+        "Working knowledge of SQL for investigation and validation"
+      ],
+      "summary_offers": [
+        "a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you",
+        "Attractive salary and benefits package",
+        "Pracodawca oferuje następujący model pracy hybrydowej"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
     },
     {
       "id": "190bb6e2bbabe110",
@@ -1217,37 +1411,76 @@
       "first_found_at": "2026-09-07T06:27:04.785660+00:00"
     },
     {
-      "id": "e2dafff7cd61315d",
-      "title": "IT Support Specialist",
-      "company": "Axabee",
-      "location": "Opole",
-      "url": "https://justjoin.it/job-offer/axabee-it-support-specialist-opole-support-00263e18",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=72c5cb49c4b24d278f941e286877a929",
+      "id": "47e5e5f3e0e7401b",
+      "title": "Analityk Biznesowy / Analityczka Biznesowa",
+      "company": "CGI",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/cgi-analityk-biznesowy-analityczka-biznesowa-warszawa-analytics",
+      "apply_url": "",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-08T13:00:20.003188Z",
-      "fit_score": 61,
+      "published_at": "2026-09-09T15:00:06.795642Z",
+      "fit_score": 59,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok; Obecnie poszukujemy osoby na stanowisko IT Support Specialist Co będziesz robić?; We specialise in optimising key business processes for medium and large European companies in the | What they expect: Dbać o profesjonalną i terminową obsługę zgłaszających Przyjmować i rejestrować zgłoszenia serwisowe Skutecznie rozwiązywać problemy techniczne Koordynować szybkie i właściwe odpowiedzi na zgłoszenia, w tym przekazywanie zapytań i monitorowanie dalszego procesu Od Ciebie oczekujemy: Wysoko rozwiniętych umiejętności komunikacji i pracy zespołowej Umiejętności analitycznego myślenia, dążenia do trwałego i szybkiego rozwiązywania zgłoszeń, diagnozowania i naprawy przyczyn problemów Dobrej znajomości systemów i oprogramowania Microsoft (Windows, Office, Active Directory) Umiejętności tłumaczenia zagadnień technicznych w sposób przystępny dla użytkowników Znajomości języka angielskiego pozwalającej na swobodną komunikację Dyspozycyjności do pracy stacjonarnej i zmianowej w godzinach pomiędzy 8:00 a 18:00 Mile widziane będzie doświadczenie w obsłudze klienta Możliwości pracy stacjonarnej w biurze w Opolu Od siebie dajemy: Realny wpływ na używane technologie i rozwiązania, możliwość kreowania projektów w zgodzie z własnymi pomysłami; travel Rozwój kompetencji (dzielimy się wiedzą wewnętrznie, jeździmy na konferencje) Dofinansowane wyjazdy na wakacje w atrakcyjnych cenach i miejscach!",
+      "summary": "What you'll do: Praca w zespole analitycznym oraz współpraca z Architektami Systemowymi i Korporacyjnymi; Będziesz tworzyć innowacyjne rozwiązania i budować relacje z ze współpracownikami oraz klientami; Będziesz wspierany przez liderów CGI, którzy zadbają o twój balans pomiędzy życiem zawodowym i prywatnym | What they expect: Wymagane kwalifikacje, aby odnieść sukces w tej roli; Znajomość notacji UML i BPMN oraz doświadczenie w ich stosowaniu w narzędziu Sparx Enterprise Architect; Doświadczenie w modelowaniu procesów biznesowych w BPMN i UML w co najmniej 2 projektach",
       "summary_tasks": [
-        "Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok",
-        "Obecnie poszukujemy osoby na stanowisko IT Support Specialist Co będziesz robić?",
-        "We specialise in optimising key business processes for medium and large European companies in the"
+        "Praca w zespole analitycznym oraz współpraca z Architektami Systemowymi i Korporacyjnymi",
+        "Będziesz tworzyć innowacyjne rozwiązania i budować relacje z ze współpracownikami oraz klientami",
+        "Będziesz wspierany przez liderów CGI, którzy zadbają o twój balans pomiędzy życiem zawodowym i prywatnym"
       ],
       "summary_expectations": [
-        "Dbać o profesjonalną i terminową obsługę zgłaszających Przyjmować i rejestrować zgłoszenia serwisowe Skutecznie rozwiązywać problemy techniczne Koordynować szybkie i właściwe odpowiedzi na zgłoszenia, w tym przekazywanie zapytań i monitorowanie dalszego procesu Od Ciebie oczekujemy: Wysoko rozwiniętych umiejętności komunikacji i pracy zespołowej Umiejętności analitycznego myślenia, dążenia do trwałego i szybkiego rozwiązywania zgłoszeń, diagnozowania i naprawy przyczyn problemów Dobrej znajomości systemów i oprogramowania Microsoft (Windows, Office, Active Directory) Umiejętności tłumaczenia zagadnień technicznych w sposób przystępny dla użytkowników Znajomości języka angielskiego pozwalającej na swobodną komunikację Dyspozycyjności do pracy stacjonarnej i zmianowej w godzinach pomiędzy 8:00 a 18:00 Mile widziane będzie doświadczenie w obsłudze klienta Możliwości pracy stacjonarnej w biurze w Opolu Od siebie dajemy: Realny wpływ na używane technologie i rozwiązania, możliwość kreowania projektów w zgodzie z własnymi pomysłami",
-        "travel Rozwój kompetencji (dzielimy się wiedzą wewnętrznie, jeździmy na konferencje) Dofinansowane wyjazdy na wakacje w atrakcyjnych cenach i miejscach!"
+        "Wymagane kwalifikacje, aby odnieść sukces w tej roli",
+        "Znajomość notacji UML i BPMN oraz doświadczenie w ich stosowaniu w narzędziu Sparx Enterprise Architect",
+        "Doświadczenie w modelowaniu procesów biznesowych w BPMN i UML w co najmniej 2 projektach"
       ],
       "summary_offers": [],
       "required_skills": [
-        "Windows",
-        "VPN",
-        "Office"
+        "Analytics",
+        "UML",
+        "BPMN",
+        "Analiza Biznesowa"
       ],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00",
+      "contact_email": "info@cgi.com",
+      "contact_email_kind": "company_contact"
+    },
+    {
+      "id": "7b10e9095936233a",
+      "title": "Junior IT Business Analyst (Banking)",
+      "company": "COMARCH",
+      "location": "Katowice",
+      "url": "https://justjoin.it/job-offer/comarch-junior-it-business-analyst-banking--katowice-analytics",
+      "apply_url": "https://kariera.comarch.pl/praca/junior-it-business-analyst-banking/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-10T06:00:09.4906364Z",
+      "fit_score": 58,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Katowice Hybrid Hybrid IT Analyst New 1 340,27 | What they expect: Banking & Financial Domain; Relational Databases & Data Modeling; Business Requirements Analysis",
+      "summary_tasks": [
+        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
+        "Wspieramy finanse, handel i MŚP, współpracując z g",
+        "Katowice Hybrid Hybrid IT Analyst New 1 340,27"
+      ],
+      "summary_expectations": [
+        "Banking & Financial Domain",
+        "Relational Databases & Data Modeling",
+        "Business Requirements Analysis"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Analiza Biznesowa",
+        "banking"
+      ],
+      "first_found_at": "2026-09-10T06:27:49.287872+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
     }
   ]
 }
