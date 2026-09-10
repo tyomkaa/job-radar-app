@@ -176,6 +176,191 @@ function statusLabel(status) {
   return ({APPLIED:'APPLIED', REPLIED:'REPLY', INTERVIEW:'INTERVIEW', REJECTED:'REJECTED', OFFER:'OFFER', WITHDRAWN:'WITHDRAWN', NO_RESPONSE:'NO RESPONSE'})[status] || '';
 }
 
+const REPLY_STOP_WORDS = new Set([
+  'the','and','for','with','from','your','you','our','this','that','have','has','are','was','were','about','regarding','position','role','job','application','apply','applied','candidate','recruitment','recruiter','hiring','team','thank','thanks','hello','dear','best','regards',
+  'oferta','praca','pracy','stanowisko','aplikacja','aplikacji','rekrutacja','rekrutacji','kandydat','kandydata','dziekujemy','dziękujemy','witam','pozdrawiam'
+]);
+function replyTokens(value) {
+  return norm(value).split(/\s+/).filter(token => token.length >= 3 && !REPLY_STOP_WORDS.has(token));
+}
+function compactNorm(value) { return norm(value).replace(/\s+/g, ''); }
+function emailDomains(value) {
+  const found = String(value || '').toLowerCase().match(/[a-z0-9._%+-]+@([a-z0-9.-]+\.[a-z]{2,})/g) || [];
+  return [...new Set(found.map(email => email.split('@')[1]))];
+}
+function domainStem(domain) {
+  return String(domain || '').toLowerCase().split('.')[0].replace(/[^a-z0-9]+/g, '');
+}
+function tokenOverlapScore(sourceTokens, queryTokens, weight=10, cap=36) {
+  if (!sourceTokens.length || !queryTokens.length) return 0;
+  const q = new Set(queryTokens);
+  let hits = 0;
+  for (const token of new Set(sourceTokens)) if (q.has(token)) hits += 1;
+  return Math.min(cap, hits * weight);
+}
+function replyConfidence(score) {
+  if (score >= 90) return 99;
+  if (score >= 70) return 97;
+  if (score >= 55) return 93;
+  if (score >= 42) return 87;
+  if (score >= 30) return 79;
+  if (score >= 20) return 68;
+  return 55;
+}
+function scoreReplyRecord(record, rawQuery) {
+  const job = record?.job || {};
+  const query = norm(rawQuery);
+  const compactQuery = compactNorm(rawQuery);
+  const qTokens = replyTokens(rawQuery);
+  const company = norm(job.company);
+  const companyCompact = compactNorm(job.company);
+  const title = norm(job.title);
+  const reasons = [];
+  let score = 0;
+
+  if (company && query.includes(company)) { score += 70; reasons.push('company name'); }
+  else if (companyCompact.length >= 4 && compactQuery.includes(companyCompact)) { score += 62; reasons.push('company name'); }
+  else {
+    const companyScore = tokenOverlapScore(replyTokens(job.company), qTokens, 18, 45);
+    if (companyScore) { score += companyScore; reasons.push('company words'); }
+  }
+
+  if (title && title.length >= 8 && query.includes(title)) { score += 45; reasons.push('job title'); }
+  else {
+    const titleScore = tokenOverlapScore(replyTokens(job.title), qTokens, 9, 36);
+    if (titleScore) { score += titleScore; reasons.push('title words'); }
+  }
+
+  const rawLower = String(rawQuery || '').toLowerCase();
+  const contactEmail = String(job.contact_email || '').toLowerCase();
+  if (contactEmail && rawLower.includes(contactEmail)) { score += 75; reasons.push('same email'); }
+
+  const domains = emailDomains(rawQuery);
+  const storedDomain = contactEmail.includes('@') ? contactEmail.split('@')[1] : '';
+  for (const domain of domains) {
+    if (storedDomain && domain === storedDomain) { score += 55; reasons.push('same email domain'); continue; }
+    const stem = domainStem(domain);
+    if (stem.length >= 4 && companyCompact.length >= 4 && (stem.includes(companyCompact) || companyCompact.includes(stem))) {
+      score += 48; reasons.push('company domain');
+    }
+  }
+
+  return {record, score: Math.min(120, score), confidence: replyConfidence(score), reasons:[...new Set(reasons)]};
+}
+function matchReplyRecords(query) {
+  const text = String(query || '').trim();
+  if (text.length < 2) return [];
+  return trackedRecords()
+    .filter(record => record?.job)
+    .map(record => scoreReplyRecord(record, text))
+    .filter(item => item.score >= 12)
+    .sort((a,b) => b.score - a.score || String(b.record.applied_at || '').localeCompare(String(a.record.applied_at || '')))
+    .slice(0, 3);
+}
+function replyMatcherEls() {
+  return {
+    overlay: document.querySelector('#replyMatcher'),
+    input: document.querySelector('#replyInput'),
+    results: document.querySelector('#replyResults'),
+    status: document.querySelector('#replyMatchStatus')
+  };
+}
+function openReplyMatcher() {
+  const {overlay, input, results, status} = replyMatcherEls();
+  if (!overlay) return;
+  overlay.hidden = false;
+  document.body.classList.add('reply-modal-open');
+  if (results) results.innerHTML = '';
+  if (status) status.textContent = '';
+  setTimeout(() => input?.focus(), 60);
+}
+function closeReplyMatcher() {
+  const {overlay} = replyMatcherEls();
+  if (!overlay) return;
+  overlay.hidden = true;
+  document.body.classList.remove('reply-modal-open');
+}
+function updateReplyStatus(recordKey, status) {
+  const tracker = getTracker();
+  const record = tracker[recordKey];
+  if (!record) return null;
+  tracker[recordKey] = {
+    ...record,
+    status,
+    response_date: record.response_date || today(),
+    updated_at: new Date().toISOString()
+  };
+  setTracker(tracker);
+  return tracker[recordKey];
+}
+function activateFilter(name) {
+  document.querySelectorAll('.filter').forEach(button => button.classList.toggle('active', button.dataset.filter === name));
+  activeFilter = name;
+}
+function openTrackedApplication(recordKey) {
+  const record = getTracker()[recordKey];
+  if (!record?.job) return;
+  closeReplyMatcher();
+  activateFilter('APPLIED');
+  render();
+  setTimeout(() => {
+    const card = cardById(record.job.id);
+    if (!card) return;
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+    setTimeout(() => {
+      const details = card.querySelector('.tracking-wrap');
+      if (details) { details.open = true; focusTracking(details); }
+    }, 260);
+  }, 80);
+}
+function renderReplyResults(query) {
+  const {results, status} = replyMatcherEls();
+  if (!results || !status) return;
+  const text = String(query || '').trim();
+  if (text.length < 2) {
+    results.innerHTML = '';
+    status.textContent = '';
+    return;
+  }
+  const matches = matchReplyRecords(text);
+  if (!matches.length) {
+    status.textContent = 'No confident match';
+    results.innerHTML = '<div class="reply-empty"><b>No application matched yet.</b><span>Try the company name, sender email, job title, or a longer piece of the message.</span></div>';
+    return;
+  }
+  status.textContent = `${matches.length} possible ${matches.length === 1 ? 'match' : 'matches'}`;
+  results.innerHTML = matches.map(({record, confidence, reasons}, index) => {
+    const job = record.job || {};
+    const reason = reasons.length ? reasons.slice(0, 2).join(' + ') : 'text similarity';
+    return `<article class="reply-result" data-record-key="${esc(record.key)}">
+      <div class="reply-result-head"><div><span class="reply-rank">${index === 0 ? 'BEST MATCH' : `MATCH ${index + 1}`}</span><h3>${esc(job.company || 'Unknown company')}</h3><p>${esc(job.title || 'Unknown position')}</p></div><span class="reply-confidence">${confidence}%</span></div>
+      <div class="reply-result-meta">Applied ${esc(record.applied_at || '—')} · matched by ${esc(reason)}</div>
+      <div class="reply-status-actions">
+        <button type="button" data-reply-status="REJECTED">Rejected</button>
+        <button type="button" data-reply-status="INTERVIEW">Interview</button>
+        <button type="button" data-reply-status="REPLIED">Reply</button>
+        <button type="button" data-reply-status="OFFER">Offer</button>
+      </div>
+      <button type="button" class="reply-open-tracking">Open tracking</button>
+    </article>`;
+  }).join('');
+
+  results.querySelectorAll('[data-reply-status]').forEach(button => button.addEventListener('click', () => {
+    const card = button.closest('.reply-result');
+    const recordKey = card?.dataset.recordKey;
+    if (!recordKey) return;
+    const updated = updateReplyStatus(recordKey, button.dataset.replyStatus);
+    if (!updated) return;
+    render();
+    status.textContent = `Saved · ${updated.job?.company || 'application'} → ${statusLabel(updated.status)}`;
+    card.querySelectorAll('[data-reply-status]').forEach(x => x.classList.toggle('selected', x.dataset.replyStatus === updated.status));
+  }));
+  results.querySelectorAll('.reply-open-tracking').forEach(button => button.addEventListener('click', () => {
+    const recordKey = button.closest('.reply-result')?.dataset.recordKey;
+    if (recordKey) openTrackedApplication(recordKey);
+  }));
+}
+
 function fillSummaryList(listEl, items, emptyText) {
   listEl.innerHTML = '';
   const values = Array.isArray(items) ? items.filter(Boolean).slice(0, 3) : [];
@@ -556,6 +741,21 @@ async function importHistory(file) {
   } catch { alert('Could not import this history file.'); }
 }
 
+document.querySelector('#openReplyMatcher')?.addEventListener('click', openReplyMatcher);
+document.querySelector('#closeReplyMatcher')?.addEventListener('click', closeReplyMatcher);
+document.querySelector('#matchReply')?.addEventListener('click', () => renderReplyResults(document.querySelector('#replyInput')?.value || ''));
+let replyMatchTimer = null;
+document.querySelector('#replyInput')?.addEventListener('input', event => {
+  clearTimeout(replyMatchTimer);
+  replyMatchTimer = setTimeout(() => renderReplyResults(event.target.value), 220);
+});
+document.querySelector('#replyMatcher')?.addEventListener('click', event => {
+  if (event.target?.id === 'replyMatcher') closeReplyMatcher();
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !document.querySelector('#replyMatcher')?.hidden) closeReplyMatcher();
+});
+
 document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
   button.classList.add('active'); activeFilter = button.dataset.filter; render();
@@ -576,7 +776,7 @@ document.addEventListener('visibilitychange', () => {
 setInterval(() => refreshWhenActive(true), AUTO_REFRESH_MS);
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js?v=10', {updateViaCache:'none'})
+  navigator.serviceWorker.register('service-worker.js?v=11', {updateViaCache:'none'})
     .then(registration => registration.update())
     .catch(() => {});
 }

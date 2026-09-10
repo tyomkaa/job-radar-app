@@ -10,7 +10,7 @@
 <title>Job Radar</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="styles.css?v=10">
+<link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
 <header class="topbar"><div><div class="eyebrow">PERSONAL JOB RADAR</div><h1>Job Radar</h1></div><button id="refreshBtn" class="icon-btn" aria-label="Refresh">↻</button></header>
@@ -35,6 +35,13 @@
 <button class="filter" data-filter="APPLIED">Applied</button>
 <button class="filter" data-filter="REPLIED">Replies</button>
 </nav>
+<section class="reply-entry">
+  <button id="openReplyMatcher" class="reply-entry-btn" type="button">
+    <span class="reply-entry-icon">✦</span>
+    <span><b>Process reply</b><small>Match an email to the right application</small></span>
+    <span class="reply-entry-arrow">›</span>
+  </button>
+</section>
 <details class="data-tools">
 <summary>Application history & backup</summary>
 <p>Your application history is stored only in this browser on this device. It is not uploaded to GitHub.</p>
@@ -42,6 +49,19 @@
 </details>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
 </main>
+<div id="replyMatcher" class="reply-overlay" hidden>
+  <section class="reply-sheet" role="dialog" aria-modal="true" aria-labelledby="replyMatcherTitle">
+    <div class="reply-sheet-head">
+      <div><div class="reply-kicker">REPLY MATCHER</div><h2 id="replyMatcherTitle">Process a recruiter reply</h2></div>
+      <button id="closeReplyMatcher" class="reply-close" type="button" aria-label="Close">×</button>
+    </div>
+    <p class="reply-help">Paste a company name, sender email, email subject, or a piece of the message. Job Radar will match it against your applications.</p>
+    <textarea id="replyInput" class="reply-input" rows="4" placeholder="e.g. CodeTwo, recruiter@codetwo.com, or paste the email subject…"></textarea>
+    <div class="reply-controls"><button id="matchReply" class="primary reply-match-btn" type="button">Find application</button><span id="replyMatchStatus" class="reply-match-status"></span></div>
+    <div id="replyResults" class="reply-results"></div>
+    <div class="reply-privacy">Matching happens only on this device. Nothing from the email is uploaded.</div>
+  </section>
+</div>
 <template id="jobTemplate">
 <article class="job-card">
 <div class="card-head"><div><div class="score-row"><span class="score"></span><span class="level"></span><span class="application-badge"></span></div><h2 class="title"></h2><div class="company"></div></div><button class="save-btn" aria-label="Save job">☆</button></div>
@@ -73,5 +93,5 @@
 <div class="actions"><a class="primary open-job" target="_blank" rel="noopener">Open job</a><button class="secondary quick-applied">Mark applied</button></div>
 </article>
 </template>
-<script src="app.js?v=10"></script>
+<script src="app.js?v=11"></script>
 </body></html>
