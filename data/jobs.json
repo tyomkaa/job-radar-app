@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-10T16:33:22.054709+00:00",
-    "found": 2974,
-    "accepted": 40,
+    "generated_at": "2026-09-11T06:27:32.938255+00:00",
+    "found": 2984,
+    "accepted": 44,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1186
+        "fetched": 1175
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 644
+        "fetched": 663
       }
     }
   },
@@ -155,82 +155,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "cb8f74965c5f93f2",
-      "title": "Marketing Tools and CRM Specialist",
-      "company": "Cofidis S.A. (Spółka Akcyjna) Oddział w Polsce",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/marketing-tools-and-crm-specialist-warszawa,oferta,1005023013",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-11T13:19:06.01Z",
-      "fit_score": 81,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Zarządzanie serwisem www marki pod względem wizualnym i treści; wprowadzanie/ koordynowanie zmian; Obsługa narzędzi firmowych do komunikacji z klientami, testy poprawności funkcjonalności | What they expect: Umiejętność analitycznego myślenia i wyciągania wniosków w celu optymalizacji działań znajomość tematyki e-mail marketingu, e-commerce i CRM strategiczne myślenie i nastawienie na wynik bardzo dobra znajomość języka angielskiego bardzo dobra znajomość pakietu MS-Office (Excel, PowerPoint) podstawowa znajomość języka HTML | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków dofinansowanie szkoleń i kursów ubezpieczenie na życie możliwość pracy zdalnej owoce spotkania integracyjne brak dress code’u kawa / herbata karty przedpłacone dofinansowanie wypoczynku Cofidis S; (Spółka Akcyjna) Oddział w Polsce Przewiń do profilu firmy Cofidis S; Grupa Cofidis została utworzona w 1982 r",
-      "summary_tasks": [
-        "Zarządzanie serwisem www marki pod względem wizualnym i treści",
-        "wprowadzanie/ koordynowanie zmian",
-        "Obsługa narzędzi firmowych do komunikacji z klientami, testy poprawności funkcjonalności"
-      ],
-      "summary_expectations": [
-        "Umiejętność analitycznego myślenia i wyciągania wniosków w celu optymalizacji działań znajomość tematyki e-mail marketingu, e-commerce i CRM strategiczne myślenie i nastawienie na wynik bardzo dobra znajomość języka angielskiego bardzo dobra znajomość pakietu MS-Office (Excel, PowerPoint) podstawowa znajomość języka HTML"
-      ],
-      "summary_offers": [
-        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków dofinansowanie szkoleń i kursów ubezpieczenie na życie możliwość pracy zdalnej owoce spotkania integracyjne brak dress code’u kawa / herbata karty przedpłacone dofinansowanie wypoczynku Cofidis S",
-        "(Spółka Akcyjna) Oddział w Polsce Przewiń do profilu firmy Cofidis S",
-        "Grupa Cofidis została utworzona w 1982 r"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00",
-      "contact_email": "kariera@cofidis.pl",
-      "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "3b2753ae0d38ee5f",
-      "title": "Network Administrator",
-      "company": "cloudatus",
-      "location": "Rzeszów, Warszawa, Wrocław, Kraków, Katowice",
-      "url": "https://justjoin.it/job-offer/cloudatus-network-administrator-rzeszow-admin-7d52cc71",
-      "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-10T12:00:15.0286599Z",
-      "fit_score": 79,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,; At cloudatus, you will: Build, administer, monitor; Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g | What they expect: Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g; routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport); Flexible working schedule; 100% remote",
-      "summary_tasks": [
-        "Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,",
-        "At cloudatus, you will: Build, administer, monitor",
-        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g"
-      ],
-      "summary_expectations": [
-        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g",
-        "routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred"
-      ],
-      "summary_offers": [
-        "Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport)",
-        "Flexible working schedule",
-        "100% remote"
-      ],
-      "required_skills": [
-        "SD-WAN",
-        "DNS",
-        "IP networks",
-        "Fortinet",
-        "DHCP",
-        "NTP",
-        "LAN/WAN",
-        "zScaler"
-      ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
       "id": "56ebbf2335615d4b",
@@ -407,7 +331,9 @@
         "JS",
         "CSS"
       ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00",
+      "contact_email": "info@copuz.com",
+      "contact_email_kind": "company_contact"
     },
     {
       "id": "727dd8ce2eafd8d5",
@@ -538,6 +464,34 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-02T06:27:56.338800+00:00"
+    },
+    {
+      "id": "e77296eb234aeff0",
+      "title": "Helpdesk / Serwis w Dziale IT",
+      "company": "UNITY-T GROUP sp. z o.o. sp.k.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/helpdesk-serwis-w-dziale-it-warszawa,oferta,1005028309",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-13T12:23:28.597Z",
+      "fit_score": 75,
+      "match_level": "STRONG",
+      "summary": "What you'll do: naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo | What they expect: dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP | What they offer: kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego",
+      "summary_tasks": [
+        "naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo"
+      ],
+      "summary_expectations": [
+        "dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP"
+      ],
+      "summary_offers": [
+        "kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
       "id": "a2fd6924edffc7ac",
@@ -915,6 +869,40 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
+      "id": "ac25c14987c2220d",
+      "title": "Analityk danych (m/k/n)",
+      "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-danych-m-k-n-warszawa,oferta,1005078261",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T08:02:47.67Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI; Analiza i integracja danych; Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych | What they expect: Poparta doświadczeniem bardzo dobra znajomość języka SQL; Doświadczenie w zakresie przygotowywania raportów i analiz; Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych | What they offer: Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii; pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów); Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową",
+      "summary_tasks": [
+        "Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI",
+        "Analiza i integracja danych",
+        "Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych"
+      ],
+      "summary_expectations": [
+        "Poparta doświadczeniem bardzo dobra znajomość języka SQL",
+        "Doświadczenie w zakresie przygotowywania raportów i analiz",
+        "Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych"
+      ],
+      "summary_offers": [
+        "Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii",
+        "pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów)",
+        "Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
       "id": "603c2b99051fc986",
       "title": "Digital Marketing Specialist (k/m)",
       "company": "HR WISE Sp. z o.o.",
@@ -941,6 +929,37 @@
         "Podstawowa znajomość marketing automation i narzędzi typu HubSpot, Mailchimp, ActiveCampaign"
       ],
       "summary_offers": [],
+      "required_skills": [],
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "eaf0860b9bda3ca6",
+      "title": "Analityk Biznesowy / Analityczka Biznesowa (Biznesowo-Systemowy) - Talent Pool",
+      "company": "TRANSITION TECHNOLOGIES PSC S.A",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-analityczka-biznesowa-biznesowo-systemowy-talent-pool-warszawa,oferta,1005047443",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-24T13:26:19.633Z",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników | What they expect: doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy; Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie | What they offer: Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B); Możliwość szerokiego rozwoju kompetencji; Atrakcyjne benefity, m.in",
+      "summary_tasks": [
+        "analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników"
+      ],
+      "summary_expectations": [
+        "doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy",
+        "Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie"
+      ],
+      "summary_offers": [
+        "Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B)",
+        "Możliwość szerokiego rozwoju kompetencji",
+        "Atrakcyjne benefity, m.in"
+      ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
@@ -979,6 +998,47 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
+      "id": "784f0ab79ac39328",
+      "title": "Młodszy Specjalista IT",
+      "company": "BPX S.A.",
+      "location": "Wrocław",
+      "url": "https://justjoin.it/job-offer/bpx-s-a--mlodszy-specjalista-it-wroclaw-admin",
+      "apply_url": "https://bpxsa.traffit.com/public/form/a/92ee1961ae8b1b265cf2e4a4e5f76fa1625a6561?source=justjoin.it",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-10T18:00:09.090678Z",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Współpraca przy rozwiązywaniu problemów technicznych z użytkownikami po stronie klienta; Wsparcie i obsługa klienta w zakresie zarządzania środowiskiem; Bieżące zarządzanie i monitorowanie infrastruktury IT (instalacja nowych środowisk, utrzymywanie istniejących) | What they expect: Umiejętność rozwiązywania podstawowych problemów z zakresu IT na systemach Windows; Podstawowa znajomość zagadnień sieci komputerowych LAN/WLAN; Podstawowa znajomość systemów Linux (Debian, Suse, CentOS) | What they offer: Przyjazną atmosferę i środowisko pracy; Elastyczny czas pracy; Ubezpieczenie grupowe / Multisport / Opiekę medyczną",
+      "summary_tasks": [
+        "Współpraca przy rozwiązywaniu problemów technicznych z użytkownikami po stronie klienta",
+        "Wsparcie i obsługa klienta w zakresie zarządzania środowiskiem",
+        "Bieżące zarządzanie i monitorowanie infrastruktury IT (instalacja nowych środowisk, utrzymywanie istniejących)"
+      ],
+      "summary_expectations": [
+        "Umiejętność rozwiązywania podstawowych problemów z zakresu IT na systemach Windows",
+        "Podstawowa znajomość zagadnień sieci komputerowych LAN/WLAN",
+        "Podstawowa znajomość systemów Linux (Debian, Suse, CentOS)"
+      ],
+      "summary_offers": [
+        "Przyjazną atmosferę i środowisko pracy",
+        "Elastyczny czas pracy",
+        "Ubezpieczenie grupowe / Multisport / Opiekę medyczną"
+      ],
+      "required_skills": [
+        "MsSQL",
+        "Linux",
+        "LAN",
+        "Debian",
+        "Oracle",
+        "MS SQL"
+      ],
+      "first_found_at": "2026-09-11T06:27:32.938255+00:00"
+    },
+    {
       "id": "6ffca91d4c1e65da",
       "title": "SQL / Database Technical Support Consultant",
       "company": "COMARCH",
@@ -990,7 +1050,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T13:00:15.9782311Z",
+      "published_at": "2026-09-10T13:00:15.978231Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
       "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Similar offers MOTIFE Kraków Hybrid Hybrid Technical Support Engineer New 2 412,87 | What they expect: Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQLDobra znajomość środowiska Linux",
@@ -1012,40 +1072,6 @@
       "first_found_at": "2026-09-08T06:26:54.139959+00:00",
       "contact_email": "praca@comarch.pl",
       "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "22e9f7ef4160f260",
-      "title": "IT Support Specialist (2nd Line)",
-      "company": "Allegro sp. z o.o.",
-      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
-      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1787833977909",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
-      "summary_tasks": [
-        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
-        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
-        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
-      ],
-      "summary_expectations": [
-        "Strong organizational skills",
-        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
-        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
-      ],
-      "summary_offers": [
-        "Pakiet sportowy",
-        "Prywatna opieka medyczna",
-        "Budżet na szkolenia"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
       "id": "a73a59fc9b9757f1",
@@ -1082,6 +1108,70 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
+      "id": "22e9f7ef4160f260",
+      "title": "IT Support Specialist (2nd Line)",
+      "company": "Allegro sp. z o.o.",
+      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
+      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1787833977909",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
+      "summary_tasks": [
+        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
+        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
+        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
+      ],
+      "summary_expectations": [
+        "Strong organizational skills",
+        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
+        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
+      ],
+      "summary_offers": [
+        "Pakiet sportowy",
+        "Prywatna opieka medyczna",
+        "Budżet na szkolenia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "5355825067133b13",
+      "title": "Specjalista IT (k/m)",
+      "company": "N2H Sp. z o.o.",
+      "location": "Błonie-Wieś (pow. warszawski zachodni), mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-it-k-m-blonie-wies-pow-warszawski-zachodni-sochaczewska-96b,oferta,1005077782",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T07:08:08.547Z",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu | What they expect: minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych | What they offer: możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio; Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku; N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce",
+      "summary_tasks": [
+        "zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu"
+      ],
+      "summary_expectations": [
+        "minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych"
+      ],
+      "summary_offers": [
+        "możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio",
+        "Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku",
+        "N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+    },
+    {
       "id": "6a1715ce6c7fdccb",
       "title": "Business Analyst",
       "company": "Antal Sp. z o.o.",
@@ -1093,7 +1183,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T15:00:11.9168423Z",
+      "published_at": "2026-09-10T15:00:11.916842Z",
       "fit_score": 65,
       "match_level": "MEDIUM",
       "summary": "What you'll do: Kluczowe zadania: Zbieranie i doprecyzowanie wymagań z biznesem i IT Tworzenie user stories, AC; Similar offers SCALO Warszawa , +2 Locations Hybrid Hybrid Business Analyst New 4 341,69; 5 698,47 USD/month Jira Confluence Business Analysis Analytics Mid Mid B2B B2B Full-time Full-time New EUVIC FUTURE WORK SP | What they expect: Dobrze odnajduje się w pracy projektowej i środowisku międzynarodowym (j; angielski na poziomie min",
@@ -1182,6 +1272,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "749d1669abb7427d",
+      "title": "Supply Chain Operations Specialist with English",
+      "company": "Antal",
+      "location": "POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False",
+      "url": "https://nofluffjobs.com/pl/job/supply-chain-operations-specialist-with-english-antal-krakow",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Unspecified",
+      "seniority": "Mid",
+      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
+      "published_at": "1788991285628",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Working with SAP to manage and update order-related information; Monitoring order status and resolving operational issues on a daily basis; The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies | What they expect: Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role; Practical experience with SAP; English language skills at a minimum B2 level | What they offer: Comprehensive onboarding and training to prepare you for the role; Opportunities for professional development in an international environment; Hybrid working model and flexible working hours",
+      "summary_tasks": [
+        "Working with SAP to manage and update order-related information",
+        "Monitoring order status and resolving operational issues on a daily basis",
+        "The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies"
+      ],
+      "summary_expectations": [
+        "Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role",
+        "Practical experience with SAP",
+        "English language skills at a minimum B2 level"
+      ],
+      "summary_offers": [
+        "Comprehensive onboarding and training to prepare you for the role",
+        "Opportunities for professional development in an international environment",
+        "Hybrid working model and flexible working hours"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-03T06:27:56.338800+00:00"
     },
     {
       "id": "53f110f8eacd58d5",
@@ -1324,7 +1448,7 @@
       "work_mode": "Hybrid",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-10T14:00:09.5606419Z",
+      "published_at": "2026-09-10T14:00:09.560641Z",
       "fit_score": 61,
       "match_level": "MEDIUM",
       "summary": "What you'll do: tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej; rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe; wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem | What they expect: umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI; tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query; przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych",
@@ -1358,7 +1482,7 @@
       "work_mode": "Hybrid",
       "seniority": "intern",
       "salary": "",
-      "published_at": "2026-09-10T12:00:27.3229211Z",
+      "published_at": "2026-09-10T12:00:27.322921Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "summary": "What you'll do: Our development teams are responsible for end-to-end enterprise application development process using the newest technologies; Following the motto “Get the future you want”, we offer a wide variety of learning and personal development opportunities; YOUR TASKS Gather, analyze, and document business and IT requirements for low‑code solutions in line with industry standards | What they expect: Non‑students with relevant skills are also encouraged to apply; Basic knowledge of relational databases and SQL; Familiarity with Low‑code or CRM platforms is a plus | What they offer: a wide variety of learning and personal development opportunities; Participate in additional development initiatives such as mentorship programs and Low‑code Community activities; Enjoy hybrid working model",
