@@ -1,339 +1,391 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-11T06:27:32.938255+00:00",
-    "found": 2984,
-    "accepted": 44,
+    "generated_at": "2026-09-13T21:39:14.386217+00:00",
+    "found": 5097,
+    "accepted": 34,
     "sources": {
       "justjoin.it": {
         "status": "ok",
-        "fetched": 1200
+        "fetched": 2000
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1175
+        "fetched": 1932
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 663
+        "fetched": 1243
       }
     }
   },
   "jobs": [
     {
-      "id": "f748b9ffd4b82793",
-      "title": "Specjalista / Specjalistka ds. Digital Marketingu",
-      "company": "Induprogress Sp z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-digital-marketingu-warszawa-trakt-lubelski-404,oferta,1005064718",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-01T14:13:24.153Z",
-      "fit_score": 88,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy; Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp; Zarządzanie profilami firmy w mediach społecznościowych | What they expect: Doświadczenie lub praktyczna wiedza z zakresu digital marketingu; Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy; Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami | What they offer: Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów; Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds; Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych",
-      "summary_tasks": [
-        "Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy",
-        "Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp",
-        "Zarządzanie profilami firmy w mediach społecznościowych"
-      ],
-      "summary_expectations": [
-        "Doświadczenie lub praktyczna wiedza z zakresu digital marketingu",
-        "Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy",
-        "Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami"
-      ],
-      "summary_offers": [
-        "Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów",
-        "Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds",
-        "Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "7e543bed9c21a60d",
-      "title": "Associate Operations Analyst",
-      "company": "LENOVO TECHNOLOGY B.V. sp. z o.o. ODDZIAŁ W POLSCE",
+      "id": "d79a4d5461080370",
+      "title": "Junior E-commerce Specialist",
+      "company": "Lacoste (Devanlay Polska Sp. z o.o.)",
       "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/associate-operations-analyst-warszawa,oferta,1005045644",
+      "url": "https://www.pracuj.pl/praca/junior-e-commerce-specialist-warszawa-zlota-59,oferta,1005066668",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "mid",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-08-24T08:21:12.613Z",
-      "fit_score": 87,
+      "published_at": "2026-09-02T11:58:58.503Z",
+      "fit_score": 88,
       "match_level": "STRONG",
-      "summary": "What you'll do: BI Modernization & Dashboard Optimization; Support the migration, refactoring, and performance tuning of existing business dashboards and reporting tools in BI Tools; Data Automation & Pipeline | What they expect: Proficient in Microsoft Excel (advanced formulas, pivot tables, and clean spreadsheet design); Fluent English communication skills (written and verbal) are essential; Practical familiarity with AI tools to accelerate data cleaning, research, and drafting presentations | What they offer: Flexible working hours easily adaptable to your university schedule; Hybrid work model (modern office in Warsaw + remote flexibility); Benefits sharing the costs of sports activities private medical care life insurance remote work opportunities flexible working time fruits corporate products",
+      "summary": "What you'll do: Cooperating with the Customer Service Team and monitoring processes related to e-commerce customer service; Monitoring online activities and transactions, with particular focus on omnichannel processes; Monitoring payment processes, including handling refunds and supporting the chargeback process | What they expect: Strong analytical and problem-solving skills; Good organisational and prioritisation skills; Accuracy and attention to detail Optional Previous experience in e-commerce, retail or the fashion industry | What they offer: stabilne zatrudnienie oraz realne możliwości rozwoju zawodowego w międzynarodowym środowisku; Dołącz do naszego zespołu!; Zapraszamy do aplikowania wszystkie osoby – niezależnie od płci, wieku, pochodzenia, orientacji, wyznania czy poziomu sprawności",
       "summary_tasks": [
-        "BI Modernization & Dashboard Optimization",
-        "Support the migration, refactoring, and performance tuning of existing business dashboards and reporting tools in BI Tools",
-        "Data Automation & Pipeline"
+        "Cooperating with the Customer Service Team and monitoring processes related to e-commerce customer service",
+        "Monitoring online activities and transactions, with particular focus on omnichannel processes",
+        "Monitoring payment processes, including handling refunds and supporting the chargeback process"
       ],
       "summary_expectations": [
-        "Proficient in Microsoft Excel (advanced formulas, pivot tables, and clean spreadsheet design)",
-        "Fluent English communication skills (written and verbal) are essential",
-        "Practical familiarity with AI tools to accelerate data cleaning, research, and drafting presentations"
+        "Strong analytical and problem-solving skills",
+        "Good organisational and prioritisation skills",
+        "Accuracy and attention to detail Optional Previous experience in e-commerce, retail or the fashion industry"
       ],
       "summary_offers": [
-        "Flexible working hours easily adaptable to your university schedule",
-        "Hybrid work model (modern office in Warsaw + remote flexibility)",
-        "Benefits sharing the costs of sports activities private medical care life insurance remote work opportunities flexible working time fruits corporate products"
+        "stabilne zatrudnienie oraz realne możliwości rozwoju zawodowego w międzynarodowym środowisku",
+        "Dołącz do naszego zespołu!",
+        "Zapraszamy do aplikowania wszystkie osoby – niezależnie od płci, wieku, pochodzenia, orientacji, wyznania czy poziomu sprawności"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "4611f4a80127517f",
-      "title": "SEO Specialist",
-      "company": "FABRYKA MARKETINGU sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/seo-specialist-warszawa-ratuszowa-11,oferta,1005049959",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-25T12:49:09.207Z",
-      "fit_score": 83,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity; Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce; Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków | What they expect: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym; Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe; Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO | What they offer: Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami; Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać",
-      "summary_tasks": [
-        "Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity",
-        "Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce",
-        "Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków"
-      ],
-      "summary_expectations": [
-        "Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym",
-        "Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe",
-        "Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO"
-      ],
-      "summary_offers": [
-        "Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami",
-        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
-        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "8b33f95839c21f6a",
-      "title": "Specjalista ds. SEO (K/M)",
-      "company": "HEBE Jeronimo Martins Drogerie i Farmacja",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-seo-k-m-warszawa-jozefa-piusa-dziekonskiego-1,oferta,1005077225",
+      "id": "88466baf58cbde73",
+      "title": "Junior Financial Operations Specialist",
+      "company": "OPGROEN ASSURADEUREN B.V. (sp. z o.o.) ODDZIAŁ W POLSCE",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-financial-operations-specialist-warszawa-skierniewicka-10a,oferta,1005036809",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid, Office",
-      "seniority": "mid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-07T14:19:50.053Z",
-      "fit_score": 82,
+      "published_at": "2026-08-19T07:41:00.14Z",
+      "fit_score": 88,
       "match_level": "STRONG",
-      "summary": "What you'll do: Aktualnie szukamy osób na stanowisko Specjalisty/Specjalistki ds.SEO; Współtworzenie i realizacja strategii SEO; Przygotowywanie wytycznych SEO/GEO dla zespołów IT i content oraz weryfikacja poprawności ich wdrożenia | What they expect: Doświadczenie w pracy w obszarze SEO, optymalizacji serwisów internetowych lub rozwoju widoczności organicznej, najlepiej w środowisku e-commerce; Umiejętność pracy z narzędziami takimi jak Google Search Console, Google Analytics, Senuto, Ahrefs, Semrush, Looker lub podobnymi; Umiejętność tworzenia jasnych rekomendacji dla zespołów biznesowych, contentowych i technologicznych | What they offer: Elastyczne godziny przyjścia do pracy (8:00 - 10:00); Prywatna opieka medyczna Medicover; Karta Multisport PLUS lub Medicover Sport Zapomogi i nieoprocentowane pożyczki",
+      "summary": "What you'll do: Support invoice administration for both the Dutch entity and the Polish branch; Maintain invoice records and payment administration; Support timely and accurate payment processing | What they expect: Strong administrative and organizational skills; Good communication skills in Polish and English; Optional Basic experience with invoice processing, financial administration, or accounts payable | What they offer: You’ll receive on-the-job training and the opportunity to learn about the insurance intermediary industry; We work in a hybrid model (60% from the office); z o.o.) ODDZIAŁ W POLSCE Scroll to company's profile At OpGroen we make insurance simple, sustainable and personal",
       "summary_tasks": [
-        "Aktualnie szukamy osób na stanowisko Specjalisty/Specjalistki ds.SEO",
-        "Współtworzenie i realizacja strategii SEO",
-        "Przygotowywanie wytycznych SEO/GEO dla zespołów IT i content oraz weryfikacja poprawności ich wdrożenia"
+        "Support invoice administration for both the Dutch entity and the Polish branch",
+        "Maintain invoice records and payment administration",
+        "Support timely and accurate payment processing"
       ],
       "summary_expectations": [
-        "Doświadczenie w pracy w obszarze SEO, optymalizacji serwisów internetowych lub rozwoju widoczności organicznej, najlepiej w środowisku e-commerce",
-        "Umiejętność pracy z narzędziami takimi jak Google Search Console, Google Analytics, Senuto, Ahrefs, Semrush, Looker lub podobnymi",
-        "Umiejętność tworzenia jasnych rekomendacji dla zespołów biznesowych, contentowych i technologicznych"
+        "Strong administrative and organizational skills",
+        "Good communication skills in Polish and English",
+        "Optional Basic experience with invoice processing, financial administration, or accounts payable"
       ],
       "summary_offers": [
-        "Elastyczne godziny przyjścia do pracy (8:00 - 10:00)",
-        "Prywatna opieka medyczna Medicover",
-        "Karta Multisport PLUS lub Medicover Sport Zapomogi i nieoprocentowane pożyczki"
+        "You’ll receive on-the-job training and the opportunity to learn about the insurance intermediary industry",
+        "We work in a hybrid model (60% from the office)",
+        "z o.o.) ODDZIAŁ W POLSCE Scroll to company's profile At OpGroen we make insurance simple, sustainable and personal"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "56ebbf2335615d4b",
-      "title": "Technical Support Specialist",
-      "company": "Huawei Polska Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/technical-support-specialist-warszawa-domaniewska-39a,oferta,1005039832",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-20T09:07:47.323Z",
-      "fit_score": 79,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Product Issue Handling: Responsible for the troubleshooting, tracking,; Product Improvement: Identify product enhancement opportunities and requirements based on issue handling and analysis; Collaborate with other departments to develop improvement plans and track their implementation | What they expect: Work experience: At least 1 year of experience in development, maintenance, or technical support in the electronics/communications industry; Language skills: English , fluent in writing and speaking; Professional knowledge: Familiar with the hardware architecture, software features, operational principles, | What they offer: We offer premium private healthcare package for our employees; Benefit Platform; You can choose your benefits on our Benefit Platform e.g.: cinema/theater tickets and discounts, shopping cards and many more",
-      "summary_tasks": [
-        "Product Issue Handling: Responsible for the troubleshooting, tracking,",
-        "Product Improvement: Identify product enhancement opportunities and requirements based on issue handling and analysis",
-        "Collaborate with other departments to develop improvement plans and track their implementation"
-      ],
-      "summary_expectations": [
-        "Work experience: At least 1 year of experience in development, maintenance, or technical support in the electronics/communications industry",
-        "Language skills: English , fluent in writing and speaking",
-        "Professional knowledge: Familiar with the hardware architecture, software features, operational principles,"
-      ],
-      "summary_offers": [
-        "We offer premium private healthcare package for our employees",
-        "Benefit Platform",
-        "You can choose your benefits on our Benefit Platform e.g.: cinema/theater tickets and discounts, shopping cards and many more"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00",
-      "contact_email": "career@huawei.com",
-      "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "fb70ac1fe564e9ba",
-      "title": "Technik Informatyk / Junior IT Support",
-      "company": "EMKA MICHAŁ WYRZYKOWSKI-KUĆ",
+      "id": "a0073b81bcdb9a90",
+      "title": "Junior Marketing Automation Specialist",
+      "company": "Empik S.A.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/technik-informatyk-junior-it-support-warszawa-rzeczna-6,oferta,1005049879",
+      "url": "https://www.pracuj.pl/praca/junior-marketing-automation-specialist-warszawa-marszalkowska-104-122,oferta,1005088059",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-08-25T12:37:06.807Z",
-      "fit_score": 79,
+      "published_at": "2026-09-11T10:38:41.087Z",
+      "fit_score": 87,
       "match_level": "STRONG",
-      "summary": "What you'll do: Bieżąca obsługa i wsparcie użytkowników w zakresie sprzętu komputerowego, oprogramowania; Współpraca z zewnętrznymi dostawcami usług i rozwiązań informatycznych oraz wsparcie w realizacji drobnych projektów IT | What they expect: szkoła średnia techniczna) lub w trakcie studiów na kierunku IT Praktyczna znajomość systemów operacyjnych Windows; Znajomość: ping, ipconfig, tracert, arp; Umiejętność diagnozowania i rozwiązywania typowych problemów sprzętowych i programowych użytkowników końcowych Podstawowa znajomość zagadnień związanych z bezpieczeństwem IT | What they offer: Stabilne zatrudnienie w oparciu o umowę o pracę na pełny etat Wynagrodzenie adekwatne do umiejętności oraz perspektywa wzrostu wraz ze zdobywanym doświadczeniem; Możliwość rozwoju zawodowego w kierunku specjalisty IT poprzez udział w ciekawych projektach i bieżące wsparcie bardziej doświadczonych ekspertów Przyjazna atmosfera pracy w niewielkim zespole, szybki proces decyzyjny i realny wpływ na stosowane rozwiązania techniczne",
+      "summary": "What you'll do: Projektowanie i wdrażanie scenariuszy Marketing Automation w Synerise - kanałami email, push, SMS, in-app Budowanie i obsługa segmentów odbiorców; Przygotowywanie i prowadzenie testów A/B Optymalizacja treści komunikacji; Obsługa kampanii kuponowych i benefitów Empik Premium | What they expect: Masz pierwsze doświadczenie w Marketing Automation, CRM lub Direct Marketingu Chcesz rozwijać się w obszarze Marketing Automation i technologii marketingowych Znasz podstawy Synerise lub innego narzędzia Marketing Automation Potrafisz budować segmenty i pracować z danymi Lubisz testować, analizować wyniki i szukać możliwości optymalizacji Masz podstawową znajomość HTML/CSS – będzie dodatkowym atutem Jesteś dokładny/a i zwracasz uwagę na szczegóły, szczególnie przy realizacji kampanii Lubisz współpracować z innymi i nie boisz się zadawać pytań ani szukać rozwiązań | What they offer: Możliwość rozwoju w strukturach firmy – awanse i transfery wewnętrzne Model pracy hybrydowej – 4 dni z biura + 1 dzień home office; Elastyczny czas rozpoczęcia pracy między 7:00 a 10:00 Spotkania i inicjatywy integracyjne – zarówno w ramach zespołu, jak i całej organizacji Dostęp do naszego tarasu z widokiem na PKiN 🌇; Nasza oferta to ponad 20 milionów produktów w 20 kategoriach – od książek, zabawek i artykułów papierniczych, po elektronikę, zdrowie i urodę, dom i ogród czy sport",
       "summary_tasks": [
-        "Bieżąca obsługa i wsparcie użytkowników w zakresie sprzętu komputerowego, oprogramowania",
-        "Współpraca z zewnętrznymi dostawcami usług i rozwiązań informatycznych oraz wsparcie w realizacji drobnych projektów IT"
+        "Projektowanie i wdrażanie scenariuszy Marketing Automation w Synerise - kanałami email, push, SMS, in-app Budowanie i obsługa segmentów odbiorców",
+        "Przygotowywanie i prowadzenie testów A/B Optymalizacja treści komunikacji",
+        "Obsługa kampanii kuponowych i benefitów Empik Premium"
       ],
       "summary_expectations": [
-        "szkoła średnia techniczna) lub w trakcie studiów na kierunku IT Praktyczna znajomość systemów operacyjnych Windows",
-        "Znajomość: ping, ipconfig, tracert, arp",
-        "Umiejętność diagnozowania i rozwiązywania typowych problemów sprzętowych i programowych użytkowników końcowych Podstawowa znajomość zagadnień związanych z bezpieczeństwem IT"
+        "Masz pierwsze doświadczenie w Marketing Automation, CRM lub Direct Marketingu Chcesz rozwijać się w obszarze Marketing Automation i technologii marketingowych Znasz podstawy Synerise lub innego narzędzia Marketing Automation Potrafisz budować segmenty i pracować z danymi Lubisz testować, analizować wyniki i szukać możliwości optymalizacji Masz podstawową znajomość HTML/CSS – będzie dodatkowym atutem Jesteś dokładny/a i zwracasz uwagę na szczegóły, szczególnie przy realizacji kampanii Lubisz współpracować z innymi i nie boisz się zadawać pytań ani szukać rozwiązań"
       ],
       "summary_offers": [
-        "Stabilne zatrudnienie w oparciu o umowę o pracę na pełny etat Wynagrodzenie adekwatne do umiejętności oraz perspektywa wzrostu wraz ze zdobywanym doświadczeniem",
-        "Możliwość rozwoju zawodowego w kierunku specjalisty IT poprzez udział w ciekawych projektach i bieżące wsparcie bardziej doświadczonych ekspertów Przyjazna atmosfera pracy w niewielkim zespole, szybki proces decyzyjny i realny wpływ na stosowane rozwiązania techniczne"
+        "Możliwość rozwoju w strukturach firmy – awanse i transfery wewnętrzne Model pracy hybrydowej – 4 dni z biura + 1 dzień home office",
+        "Elastyczny czas rozpoczęcia pracy między 7:00 a 10:00 Spotkania i inicjatywy integracyjne – zarówno w ramach zespołu, jak i całej organizacji Dostęp do naszego tarasu z widokiem na PKiN 🌇",
+        "Nasza oferta to ponad 20 milionów produktów w 20 kategoriach – od książek, zabawek i artykułów papierniczych, po elektronikę, zdrowie i urodę, dom i ogród czy sport"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "2e41a8b4a9a3453b",
-      "title": "Digital Marketing Specialist",
-      "company": "Akademeia High School",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/digital-marketing-specialist-warszawa-sw-urszuli-ledochowskiej-2,oferta,1005039117",
+      "id": "9c0ba4b04c8ff46f",
+      "title": "Junior Performance Marketing Specialist",
+      "company": "Match-Trade Technologies",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-performance-marketing-specialist-warszawa-gieldowa-5,oferta,1005089359",
       "apply_url": "",
       "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-20T06:28:20.227Z",
-      "fit_score": 79,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users; Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives; Assist with email marketing campaigns, including content preparation, scheduling and basic technical support | What they expect: We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field; Has strong organisational skills and the ability to manage multiple projects and deadlines; Has excellent written and verbal communication skills in English and Polish | What they offer: Vibrant international community Competitive salary adequate to your experience; Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical; Working closely with the Director of Marketing",
-      "summary_tasks": [
-        "Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users",
-        "Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives",
-        "Assist with email marketing campaigns, including content preparation, scheduling and basic technical support"
-      ],
-      "summary_expectations": [
-        "We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field",
-        "Has strong organisational skills and the ability to manage multiple projects and deadlines",
-        "Has excellent written and verbal communication skills in English and Polish"
-      ],
-      "summary_offers": [
-        "Vibrant international community Competitive salary adequate to your experience",
-        "Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical",
-        "Working closely with the Director of Marketing"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "a2ef8e54e6809df6",
-      "title": "IT Support Administrator",
-      "company": "Adria DTH B.V.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/it-support-administrator-warszawa,oferta,1005045333",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-24T07:22:14.3Z",
-      "fit_score": 78,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Develop and implement internal IT strategy aligned with business goals Design and implement IT solutions and system architectures; Provide user training and ongoing IT support (Helpdesk); Manage user accounts and access rights (Account Management) Define, implement, and enforce IT security policies Ensure compliance of IT strategy with organizational and regulatory requirements Conduct studies to | What they expect: Proven experience in IT at least 2+ Excellent knowledge of Polish and English language; Strong knowledge of IT infrastructure, hardware, software, and networking; Experience with cybersecurity, data protection, and backup solutions | What they offer: Competitive salary and benefits; Opportunities for growth and professional development; Work in an international environment If you are highly skilled",
-      "summary_tasks": [
-        "Develop and implement internal IT strategy aligned with business goals Design and implement IT solutions and system architectures",
-        "Provide user training and ongoing IT support (Helpdesk)",
-        "Manage user accounts and access rights (Account Management) Define, implement, and enforce IT security policies Ensure compliance of IT strategy with organizational and regulatory requirements Conduct studies to"
-      ],
-      "summary_expectations": [
-        "Proven experience in IT at least 2+ Excellent knowledge of Polish and English language",
-        "Strong knowledge of IT infrastructure, hardware, software, and networking",
-        "Experience with cybersecurity, data protection, and backup solutions"
-      ],
-      "summary_offers": [
-        "Competitive salary and benefits",
-        "Opportunities for growth and professional development",
-        "Work in an international environment If you are highly skilled"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "e52a4995c93bc77c",
-      "title": "Wordpress Web Developer",
-      "company": "COPUZ Sp. z o.o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/copuz-sp-z-o-o--wordpress-web-developer-warszawa-php",
-      "apply_url": "",
-      "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Office",
-      "seniority": "mid",
+      "seniority": "junior",
       "salary": "",
-      "published_at": "2026-09-10T12:00:18.7341433Z",
-      "fit_score": 77,
+      "published_at": "2026-09-11T22:00:00Z",
+      "fit_score": 84,
       "match_level": "STRONG",
-      "summary": "What you'll do: B2B Save Apply All offers Warszawa PHP Wordpress Web Developer PHP Wordpress Web Developer PHP Kamionkowska 51 , Warszawa COPUZ Sp; B2B Job description 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?; Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe | What they expect: doświadczenie w komercyjnych projektach (min; dobra znajomość WordPressa (motywy, ACF, hooks/filters, security); praktyczna znajomość kreatorów stron (np | What they offer: Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy; Czytelną perspektywę rozwoju; Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych",
+      "summary": "What you'll do: Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach, Monitoring kluczowych wskaźników efektywności i raportowanie; Analiza wyników kampanii i rekomendowanie usprawnień; Współpraca z zespołami marketingu i sprzedaży, Udział w testowaniu nowych kanałów i formatów reklamowych | What they expect: Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np; Google Ads, Meta Ads, LinkedIn Ads, Praktyczna znajomość GA4 lub innych narzędzi analityki webowej; Znajomość podstawowych pojęć i wskaźników performance marketingu | What they offer: Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma; Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport; Inwestujemy w rozwój zawodowy",
       "summary_tasks": [
-        "B2B Save Apply All offers Warszawa PHP Wordpress Web Developer PHP Wordpress Web Developer PHP Kamionkowska 51 , Warszawa COPUZ Sp",
-        "B2B Job description 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?",
-        "Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe"
+        "Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach, Monitoring kluczowych wskaźników efektywności i raportowanie",
+        "Analiza wyników kampanii i rekomendowanie usprawnień",
+        "Współpraca z zespołami marketingu i sprzedaży, Udział w testowaniu nowych kanałów i formatów reklamowych"
       ],
       "summary_expectations": [
-        "doświadczenie w komercyjnych projektach (min",
-        "dobra znajomość WordPressa (motywy, ACF, hooks/filters, security)",
-        "praktyczna znajomość kreatorów stron (np"
+        "Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np",
+        "Google Ads, Meta Ads, LinkedIn Ads, Praktyczna znajomość GA4 lub innych narzędzi analityki webowej",
+        "Znajomość podstawowych pojęć i wskaźników performance marketingu"
       ],
       "summary_offers": [
-        "Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy",
-        "Czytelną perspektywę rozwoju",
-        "Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych"
+        "Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma",
+        "Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport",
+        "Inwestujemy w rozwój zawodowy"
       ],
-      "required_skills": [
-        "PHP",
-        "WordPress",
-        "HTML",
-        "MySQL",
-        "JS",
-        "CSS"
-      ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00",
-      "contact_email": "info@copuz.com",
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00",
+      "contact_email": "contact@match-trade.com",
       "contact_email_kind": "company_contact"
+    },
+    {
+      "id": "a3622628494d36bf",
+      "title": "Junior HR Operations Specialist",
+      "company": "DLA PIPER GSC POLAND sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-hr-operations-specialist-warszawa,oferta,1005066867",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-02T12:20:19.94Z",
+      "fit_score": 84,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Providing administrative support in the HR area Ensuring a positive customer experience Cooperate closely local HR teams; Build and maintain positive relations with colleagues from other streams and departments and stakeholders across the firm | What they expect: Excellent command of English People focus and excellent client centric skills Attention to detail Highly motivated with a proactive 'can do' attitude; You will have a collaborative working style, will be able to work on own initiative as well as part of a wider team | What they offer: sharing the costs of sports activities private medical care sharing the costs of foreign language classes sharing the costs of professional training & courses flexible working time fruits integration events Junior HR Operations Specialist (Recruitment & Onboarding) work closely with local; Our global reach ensures that we can help businesses with their legal needs anywhere in the world; We strive to be the leading global business law firm by delivering quality, service excellence",
+      "summary_tasks": [
+        "Providing administrative support in the HR area Ensuring a positive customer experience Cooperate closely local HR teams",
+        "Build and maintain positive relations with colleagues from other streams and departments and stakeholders across the firm"
+      ],
+      "summary_expectations": [
+        "Excellent command of English People focus and excellent client centric skills Attention to detail Highly motivated with a proactive 'can do' attitude",
+        "You will have a collaborative working style, will be able to work on own initiative as well as part of a wider team"
+      ],
+      "summary_offers": [
+        "sharing the costs of sports activities private medical care sharing the costs of foreign language classes sharing the costs of professional training & courses flexible working time fruits integration events Junior HR Operations Specialist (Recruitment & Onboarding) work closely with local",
+        "Our global reach ensures that we can help businesses with their legal needs anywhere in the world",
+        "We strive to be the leading global business law firm by delivering quality, service excellence"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "f19f414546fbc95d",
+      "title": "Junior Operations Specialist (f/m/x)",
+      "company": "Sii Sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-operations-specialist-f-m-x-warszawa-aleja-niepodleglosci-69,oferta,1005051647",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-08-26T08:53:01.93Z",
+      "fit_score": 82,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Process and reconcile dividend-related transactions and events; Support the handling of mergers, liquidations, and other investment lifecycle events; Updating data in internal systems Verifying data on clients' investments in investment funds Transferring data between banking systems | What they expect: Fluency in English and Polish Students or graduates – preferably from Economics, Finance, or Linguistics; Good knowledge of MS Office, mainly Excel; Strong attention to detail Excellent communication skills and a team player attitude Residing in Poland required Optional Interest in financial markets and money investments | What they offer: Great Place to Work since 2015 - it’s thanks to feedback from our workers that we get this special title; If you are interested in the financial; Onboarding will be carried out at an office located in the center of Warsaw, and after the implementation period, it is possible to work partly remotely",
+      "summary_tasks": [
+        "Process and reconcile dividend-related transactions and events",
+        "Support the handling of mergers, liquidations, and other investment lifecycle events",
+        "Updating data in internal systems Verifying data on clients' investments in investment funds Transferring data between banking systems"
+      ],
+      "summary_expectations": [
+        "Fluency in English and Polish Students or graduates – preferably from Economics, Finance, or Linguistics",
+        "Good knowledge of MS Office, mainly Excel",
+        "Strong attention to detail Excellent communication skills and a team player attitude Residing in Poland required Optional Interest in financial markets and money investments"
+      ],
+      "summary_offers": [
+        "Great Place to Work since 2015 - it’s thanks to feedback from our workers that we get this special title",
+        "If you are interested in the financial",
+        "Onboarding will be carried out at an office located in the center of Warsaw, and after the implementation period, it is possible to work partly remotely"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "d994196babf6a033",
+      "title": "Junior Finance Operations Specialist",
+      "company": "DLA PIPER GSC POLAND sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-finance-operations-specialist-warszawa-icchoka-lejba-pereca-1,oferta,1005032726",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-08-17T13:09:50.247Z",
+      "fit_score": 82,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Code and process invoices and expenses claims in line with procedures Ensure that all processed documents are posted in accordance with accounting rules and legally compliant Reverse and; Support AP and Expenses Team in daily tasks | What they expect: Excellent English skills University Degree preferably in accounting or relevant courses Attention to details Analytical; Ability to work in a multicultural environment; Very good self-organization and target orientation skills Customer and teamwork focus and capability | What they offer: Opportunity to gain experience in finance in an international environment Attractive benefits package (sports cards, private medical care for employees and family members, language courses); Benefits sharing the costs of sports activities private medical care sharing the costs of foreign language classes integration events DLA PIPER GSC POLAND sp; Our global reach ensures that we can help businesses with their legal needs anywhere in the world",
+      "summary_tasks": [
+        "Code and process invoices and expenses claims in line with procedures Ensure that all processed documents are posted in accordance with accounting rules and legally compliant Reverse and",
+        "Support AP and Expenses Team in daily tasks"
+      ],
+      "summary_expectations": [
+        "Excellent English skills University Degree preferably in accounting or relevant courses Attention to details Analytical",
+        "Ability to work in a multicultural environment",
+        "Very good self-organization and target orientation skills Customer and teamwork focus and capability"
+      ],
+      "summary_offers": [
+        "Opportunity to gain experience in finance in an international environment Attractive benefits package (sports cards, private medical care for employees and family members, language courses)",
+        "Benefits sharing the costs of sports activities private medical care sharing the costs of foreign language classes integration events DLA PIPER GSC POLAND sp",
+        "Our global reach ensures that we can help businesses with their legal needs anywhere in the world"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "bbcb82e312f05814",
+      "title": "Junior Analyst (M/F/D)",
+      "company": "DSV GBS",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-analyst-m-f-d-warszawa-tasmowa-10,oferta,1005066497",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-02T11:28:09.573Z",
+      "fit_score": 80,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python; Work closely with business analysts and other teams to design reports that truly meet client needs; Co-create and customize reporting tools that support decision-making | What they expect: Strong analytical skills and a problem-solving mindset; Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation; Solid Excel skills and experience working with large datasets (or in a junior analyst role) | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; DSV Global Business Services (DSV GBS) in Warsaw is in a phase of dynamic development",
+      "summary_tasks": [
+        "Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python",
+        "Work closely with business analysts and other teams to design reports that truly meet client needs",
+        "Co-create and customize reporting tools that support decision-making"
+      ],
+      "summary_expectations": [
+        "Strong analytical skills and a problem-solving mindset",
+        "Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation",
+        "Solid Excel skills and experience working with large datasets (or in a junior analyst role)"
+      ],
+      "summary_offers": [
+        "Employment based on an employment contract, along with a comprehensive benefits package",
+        "Training and development programs, as well as access to an e-learning platform",
+        "DSV Global Business Services (DSV GBS) in Warsaw is in a phase of dynamic development"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-02T14:19:54.740065+00:00"
+    },
+    {
+      "id": "33251d3acb2ecae9",
+      "title": "E-commerce Specialist with Slovenian",
+      "company": "Armatis Polska Sp. Z o. o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/e-commerce-specialist-with-slovenian-warszawa,oferta,1005056992",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-08-28T09:42:42.05Z",
+      "fit_score": 80,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Adding and updating products in the online store (images, descriptions, specifications, promotions); Creating and editing product descriptions while ensuring high quality and SEO optimization Translating content from German and/or English and adapting it for the local market; Managing website content (e.g., banners, marketing information) Publishing and updating promotional campaigns Organizing products into appropriate groups/categories Cooperation with graphic design, marketing and international teams to ensure content | What they expect: Advanced knowledge of English, General marketing and commercial knowledge; Very good communication and organizational skills; Knowledge of current e-commerce trends | What they offer: Stable employment in a rapidly growing company, Attractive salary, 100% remote work, Opportunity for professional development; Benefits sharing the costs of sports activities life insurance remote work opportunities employee referral program This is how we work",
+      "summary_tasks": [
+        "Adding and updating products in the online store (images, descriptions, specifications, promotions)",
+        "Creating and editing product descriptions while ensuring high quality and SEO optimization Translating content from German and/or English and adapting it for the local market",
+        "Managing website content (e.g., banners, marketing information) Publishing and updating promotional campaigns Organizing products into appropriate groups/categories Cooperation with graphic design, marketing and international teams to ensure content"
+      ],
+      "summary_expectations": [
+        "Advanced knowledge of English, General marketing and commercial knowledge",
+        "Very good communication and organizational skills",
+        "Knowledge of current e-commerce trends"
+      ],
+      "summary_offers": [
+        "Stable employment in a rapidly growing company, Attractive salary, 100% remote work, Opportunity for professional development",
+        "Benefits sharing the costs of sports activities life insurance remote work opportunities employee referral program This is how we work"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "47b1ad17bbce7e18",
+      "title": "Junior Export Operations Specialist",
+      "company": "KRYNICA VITAMIN S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-export-operations-specialist-warszawa,oferta,1005037880",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-08-19T11:34:11.697Z",
+      "fit_score": 79,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Organizacja i koordynacja procesu zamówień dla klientów Wystawianie dokumentów transportowych Mailowy i telefoniczny kontakt z klientem angielskojęzycznym; Współpraca z kontrahentami Pilnowanie terminowości w płatnościach Bieżące wsparcie działu eksportu | What they expect: Język angielski na poziomie B2+ (warunek konieczny) Dokładność i dobra organizacja pracy (warunek konieczny); Gotowość do pracy 100% w biurze (ul; Wiertnicza 143A) od poniedziałku do piątku w godzinach 9-17 (warunek konieczny) | What they offer: Możliwość rozwoju w eksporcie i współpracy z doświadczonym zespołem Umowę o pracę Wynagrodzenie adekwatne do wiedzy i doświadczenia Niezbędne narzędzia pracy",
+      "summary_tasks": [
+        "Organizacja i koordynacja procesu zamówień dla klientów Wystawianie dokumentów transportowych Mailowy i telefoniczny kontakt z klientem angielskojęzycznym",
+        "Współpraca z kontrahentami Pilnowanie terminowości w płatnościach Bieżące wsparcie działu eksportu"
+      ],
+      "summary_expectations": [
+        "Język angielski na poziomie B2+ (warunek konieczny) Dokładność i dobra organizacja pracy (warunek konieczny)",
+        "Gotowość do pracy 100% w biurze (ul",
+        "Wiertnicza 143A) od poniedziałku do piątku w godzinach 9-17 (warunek konieczny)"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju w eksporcie i współpracy z doświadczonym zespołem Umowę o pracę Wynagrodzenie adekwatne do wiedzy i doświadczenia Niezbędne narzędzia pracy"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "1670e5d5f327ea4d",
+      "title": "Specjalista ds. Operacji Magazynowych (m/k)",
+      "company": "Media Markt",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-operacji-magazynowych-m-k-warszawa-aleje-jerozolimskie-179,oferta,1005083121",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-09T14:33:03.76Z",
+      "fit_score": 73,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Obsługa przyjęć, wydań i zwrotów towarów oraz weryfikacja ich zgodności z dokumentacją; Przygotowywanie awiz wysyłkowych oraz obsługa wydań towarów przewoźnikom i operatorom logistycznym; Obsługa reklamacji i procesów serwisowych, w tym ekspedycja oraz rozliczanie zleceń w systemie | What they expect: rok doświadczenie w pracy operacyjnej w obszarze logistyki, magazynu lub obsługi zwrotów; Podstawowa wiedza dotycząca zabezpieczania ładunków i przygotowywania towarów do transportu; Dobra organizacja pracy i umiejętność efektywnego zagospodarowania przestrzeni magazynowej | What they offer: Praca w trybie stacjonarnym w lokalizacji Blue City w Warszawie Dedykowane szkolenia i możliwości rozwoju Dostęp do platformy oferującej różnorodne benefity - wybór należy do Ciebie; Dofinansowanie do zakupu okularów Dodatkowy urlop dla osób z lekkim stopniem niepełnosprawnośc Najlepsze rozwiązania powstają, gdy spotykają się różne perspektywy; Znasz nas doskonale, przez ostatnie 25 lat wyznaczaliśmy kierunek rozwoju branży i robimy to nadal",
+      "summary_tasks": [
+        "Obsługa przyjęć, wydań i zwrotów towarów oraz weryfikacja ich zgodności z dokumentacją",
+        "Przygotowywanie awiz wysyłkowych oraz obsługa wydań towarów przewoźnikom i operatorom logistycznym",
+        "Obsługa reklamacji i procesów serwisowych, w tym ekspedycja oraz rozliczanie zleceń w systemie"
+      ],
+      "summary_expectations": [
+        "rok doświadczenie w pracy operacyjnej w obszarze logistyki, magazynu lub obsługi zwrotów",
+        "Podstawowa wiedza dotycząca zabezpieczania ładunków i przygotowywania towarów do transportu",
+        "Dobra organizacja pracy i umiejętność efektywnego zagospodarowania przestrzeni magazynowej"
+      ],
+      "summary_offers": [
+        "Praca w trybie stacjonarnym w lokalizacji Blue City w Warszawie Dedykowane szkolenia i możliwości rozwoju Dostęp do platformy oferującej różnorodne benefity - wybór należy do Ciebie",
+        "Dofinansowanie do zakupu okularów Dodatkowy urlop dla osób z lekkim stopniem niepełnosprawnośc Najlepsze rozwiązania powstają, gdy spotykają się różne perspektywy",
+        "Znasz nas doskonale, przez ostatnie 25 lat wyznaczaliśmy kierunek rozwoju branży i robimy to nadal"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
       "id": "727dd8ce2eafd8d5",
@@ -348,8 +400,8 @@
       "seniority": "mid",
       "salary": "",
       "published_at": "2026-08-31T10:15:34.54Z",
-      "fit_score": 77,
-      "match_level": "STRONG",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
       "summary": "What you'll do: Realizacja planu wdrożeń rozwiązań low-code/ no-code Identyfikacja i analiza potencjalnych procesów do robotyzacji/automatyzacji poprzez współpracę z innymi obszarami; Projektowanie rozwiązań w zakresie automatyzacji procesów biznesowych w technologii RPA i Low-Code; Tworzenie dokumentacji procesowej oraz ocena ryzyka (risk assessment) | What they expect: Znajomość platformy WEBCON; Umiejętność mapowania zadań i procesów; Komunikatywność, otwartość i umiejętność pracy w zespole | What they offer: Przewiń do profilu firmy Adamed to rodzinna firma farmaceutyczno-biotechnologiczna, która produkuje około 500 produktów oferowanych pacjentom w kilkudziesięciu krajach na całym świecie; Od ponad 20 lat firma prowadzi własną innowacyjną działalność badawczo-rozwojową; Adamed współpracuje naukowo z wiodącymi uniwersytetami, ekspertami medycznymi oraz instytutami naukowymi, w kraju i za granicą",
       "summary_tasks": [
         "Realizacja planu wdrożeń rozwiązań low-code/ no-code Identyfikacja i analiza potencjalnych procesów do robotyzacji/automatyzacji poprzez współpracę z innymi obszarami",
@@ -370,403 +422,69 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
-      "id": "9c72fdee737d6eaa",
-      "title": "Junior IT Service Desk Specialist (1st / 2nd Line Support)",
-      "company": "FRISTA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-it-service-desk-specialist-1st-2nd-line-support-warszawa,oferta,1005055677",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-27T14:57:37.487Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo | What they expect: bardzo dobre umiejętności komunikacyjne znajomość MS Office | What they offer: realne możliwości rozwoju zawodowego; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb; W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem",
-      "summary_tasks": [
-        "wsparcie użytkowników w ramach I i II linii wsparcia dla biura FRISTA kontakt z użytkownikami telefonicznie, mailowo"
-      ],
-      "summary_expectations": [
-        "bardzo dobre umiejętności komunikacyjne znajomość MS Office"
-      ],
-      "summary_offers": [
-        "realne możliwości rozwoju zawodowego",
-        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna brak dress code’u kawa / herbata dodatkowy urlop dofinansowanie do posiłków dostęp do firmowych programów szkoleniowych FRISTA Przewiń do profilu firmy FRISTA to firma z siedzibą w Bazylei w Szwajcarii, która wspiera organizacje w rozwoju poprzez modele outsourcingu, nearshoringu i offshoringu, dopasowane do ich potrzeb",
-        "W FRISTA wierzymy, że prawdziwy rozwój następuje tam, gdzie ludzie i technologia rozwijają się razem"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "9123d84da95db9d8",
-      "title": "Junior Helpdesk Specialist (K/M)",
-      "company": "Vision Express",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-helpdesk-specialist-k-m-warszawa-domaniewska-39,oferta,1005085499",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-10T12:26:43.62Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Wspieranie Pracowników Vision Express w zakresie systemów informatycznych Terminowa i rzetelna realizacja zgłoszeń Instalacja i konfiguracja komputerów i sprzętu sieciowego; Utrzymanie infrastruktury komputerowej i sieciowej w ponad 250 salonach w całej Polsce, Centrali Głównej oraz Centrum Logistycznym Kontakt z dostawcami i wsparciem zewnętrznym w obszarze IT | What they expect: Doświadczenia na podobnym stanowisku Komunikatywna znajomość języka angielskiego; Znajomość budowy sprzętu komputerowego PC oraz sieci lokalnych i rozległych; Umiejętność diagnozowania i rozwiązywania problemów ze sprzętem i oprogramowaniem komputerowym | What they offer: stabilne zatrudnienie w oparciu o umowę o pracę pełne wdrożenie do pracy oraz wsparcie ze strony Zespołu; Możliwość używania i szlifowania umiejętności komunikacji w j; Pakiet benefitów (zniżki na produkty Vision Express, kafeteria, konkursy pracownicze itp",
-      "summary_tasks": [
-        "Wspieranie Pracowników Vision Express w zakresie systemów informatycznych Terminowa i rzetelna realizacja zgłoszeń Instalacja i konfiguracja komputerów i sprzętu sieciowego",
-        "Utrzymanie infrastruktury komputerowej i sieciowej w ponad 250 salonach w całej Polsce, Centrali Głównej oraz Centrum Logistycznym Kontakt z dostawcami i wsparciem zewnętrznym w obszarze IT"
-      ],
-      "summary_expectations": [
-        "Doświadczenia na podobnym stanowisku Komunikatywna znajomość języka angielskiego",
-        "Znajomość budowy sprzętu komputerowego PC oraz sieci lokalnych i rozległych",
-        "Umiejętność diagnozowania i rozwiązywania problemów ze sprzętem i oprogramowaniem komputerowym"
-      ],
-      "summary_offers": [
-        "stabilne zatrudnienie w oparciu o umowę o pracę pełne wdrożenie do pracy oraz wsparcie ze strony Zespołu",
-        "Możliwość używania i szlifowania umiejętności komunikacji w j",
-        "Pakiet benefitów (zniżki na produkty Vision Express, kafeteria, konkursy pracownicze itp"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "d3419adf8bebc158",
-      "title": "Specjalista ds. helpdesk (k/m/n)",
-      "company": "DOZ S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-helpdesk-k-m-n-warszawa-aleje-jerozolimskie-134,oferta,1005065627",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-02T08:17:51.447Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Wsparcie użytkowników w rozwiązywaniu bieżących problemów związanych ze sprzętem komputerowym, urządzeniami teleinformatycznymi oraz oprogramowaniem; Tworzenie i przekazywanie zgłoszeń do odpowiednich działów, a także monitorowanie ich realizacji; Udzielanie użytkownikom wsparcia w zakresie obsługi narzędzi i systemów IT | What they expect: Podstawowa umiejętność obsługi i konfiguracji stacji roboczych oraz urządzeń biurowych; Znajomość kluczowych zagadnień sieciowych, takich jak TCP/IP, DNS i DHCP; Pierwsze doświadczenia w konfiguracji urządzeń z systemem Android | What they offer: 👩‍💻Ambitną pracę, w której nie sposób się nudzić 🩺Prywatną opiekę medyczną, dzięki której będziesz miał możliwość skonsultowania się ze specjalistami na terenie całego kraju 💪Karty sportowe, dzięki którym zadbasz o swoje dobre samopoczucie 🔏Możliwość dołączenia do dobrego ubezpieczenia grupowego na preferencyjnych warunkach, które zapewni poczucie bezpieczeństwa Tobie i Twoim bliskim 📉Zniżki; 👼Udział w akcjach CSR, bo lubimy pomagać ☕Pyszną kawę w miłym towarzystwie współpracowników 🧡 🤝Regularny feedback, który pomoże rozwijać Twoje kompetencje🧡 Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie szkoleń i kursów ubezpieczenie na życie zniżki na firmowe produkty i usługi wyprawka dla dziecka wyprawka szkolna umowa o pracę atrakcyjny system premiowy akcje profilaktyczne, programy prozdrowotne Tak się u nas pracuje",
-      "summary_tasks": [
-        "Wsparcie użytkowników w rozwiązywaniu bieżących problemów związanych ze sprzętem komputerowym, urządzeniami teleinformatycznymi oraz oprogramowaniem",
-        "Tworzenie i przekazywanie zgłoszeń do odpowiednich działów, a także monitorowanie ich realizacji",
-        "Udzielanie użytkownikom wsparcia w zakresie obsługi narzędzi i systemów IT"
-      ],
-      "summary_expectations": [
-        "Podstawowa umiejętność obsługi i konfiguracji stacji roboczych oraz urządzeń biurowych",
-        "Znajomość kluczowych zagadnień sieciowych, takich jak TCP/IP, DNS i DHCP",
-        "Pierwsze doświadczenia w konfiguracji urządzeń z systemem Android"
-      ],
-      "summary_offers": [
-        "👩‍💻Ambitną pracę, w której nie sposób się nudzić 🩺Prywatną opiekę medyczną, dzięki której będziesz miał możliwość skonsultowania się ze specjalistami na terenie całego kraju 💪Karty sportowe, dzięki którym zadbasz o swoje dobre samopoczucie 🔏Możliwość dołączenia do dobrego ubezpieczenia grupowego na preferencyjnych warunkach, które zapewni poczucie bezpieczeństwa Tobie i Twoim bliskim 📉Zniżki",
-        "👼Udział w akcjach CSR, bo lubimy pomagać ☕Pyszną kawę w miłym towarzystwie współpracowników 🧡 🤝Regularny feedback, który pomoże rozwijać Twoje kompetencje🧡 Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie szkoleń i kursów ubezpieczenie na życie zniżki na firmowe produkty i usługi wyprawka dla dziecka wyprawka szkolna umowa o pracę atrakcyjny system premiowy akcje profilaktyczne, programy prozdrowotne Tak się u nas pracuje"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "e77296eb234aeff0",
-      "title": "Helpdesk / Serwis w Dziale IT",
-      "company": "UNITY-T GROUP sp. z o.o. sp.k.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/helpdesk-serwis-w-dziale-it-warszawa,oferta,1005028309",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-13T12:23:28.597Z",
-      "fit_score": 75,
-      "match_level": "STRONG",
-      "summary": "What you'll do: naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo | What they expect: dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP | What they offer: kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego",
-      "summary_tasks": [
-        "naprawę i konserwację sprzętu komputerowego instalację oprogramowania wsparcie użytkowników obsługę zgłoszeń przez system helpdesk obsługę użytkowników przez telefo"
-      ],
-      "summary_expectations": [
-        "dobra organizacja pracy dobra, praktyczna znajomość systemów operacyjnych z rodziny MS Windows dobra, praktyczna znajomość budowy komputerów dobra znajomość programów pocztowych dobra znajomość pakietu MS Office podstawowa znajomość budowy sieci komputerowych podstawowa znajomość protokołu TCP/IP"
-      ],
-      "summary_offers": [
-        "kontakt z nowoczesnymi technologiami informatycznymi atrakcyjne warunki zatrudnienia miłą atmosferę w pracy możliwość rozwoju zawodowego"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "a2fd6924edffc7ac",
-      "title": "Technical SEO Specialist",
-      "company": "BOLD PL",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/bold-pl-technical-seo-specialist-warszawa-other",
-      "apply_url": "https://grnh.se/l3sxqidp1us",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-10T16:00:14.729058Z",
-      "fit_score": 74,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Analyze areas of improvement, recommend changes and verify their implementation; Regularly monitor our websites’ traffic metrics, identify optimization opportunities; Execute and co-create a technical SEO strategy to grow sustainable organic traffic to our properties | What they expect: WHAT YOU’LL NEED Have 3–5 years of experience in doing on-site and technical SEO, preferably for international SaaS sites or marketplaces; Have extensive, solid SEO knowledge you’ll know how to apply to real-life situations; Are familiar with popular Tech SEO tools like Screaming Frog, Ahrefs, GSC, GA4, Chrome Dev Tools, WebPageTest and other similar tools | What they offer: (Medicover, medical-only or medical with dental care individual package, 100% paid by BOLD); Home office reimbursement; Benefits cafeteria platform",
-      "summary_tasks": [
-        "Analyze areas of improvement, recommend changes and verify their implementation",
-        "Regularly monitor our websites’ traffic metrics, identify optimization opportunities",
-        "Execute and co-create a technical SEO strategy to grow sustainable organic traffic to our properties"
-      ],
-      "summary_expectations": [
-        "WHAT YOU’LL NEED Have 3–5 years of experience in doing on-site and technical SEO, preferably for international SaaS sites or marketplaces",
-        "Have extensive, solid SEO knowledge you’ll know how to apply to real-life situations",
-        "Are familiar with popular Tech SEO tools like Screaming Frog, Ahrefs, GSC, GA4, Chrome Dev Tools, WebPageTest and other similar tools"
-      ],
-      "summary_offers": [
-        "(Medicover, medical-only or medical with dental care individual package, 100% paid by BOLD)",
-        "Home office reimbursement",
-        "Benefits cafeteria platform"
-      ],
-      "required_skills": [
-        "Core Web Vitals",
-        "Performance optimization",
-        "Tech SEO tools",
-        "On-site SEO",
-        "technical seo",
-        "Troubleshooting SEO issues",
-        "Python",
-        "SQL",
-        "BigQuery",
-        "a11y audits"
-      ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "0d8f8e26429574b7",
-      "title": "Network Administrator",
-      "company": "cloudatus",
-      "location": "Łódź, Gdańsk, Bydgoszcz, Opole, Szczecin",
-      "url": "https://justjoin.it/job-offer/cloudatus-network-administrator-lodz-admin-ead68a03",
-      "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-10T12:00:16.4429651Z",
-      "fit_score": 74,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,; At cloudatus, you will: Build, administer, monitor; Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g | What they expect: Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g; routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport); Flexible working schedule; 100% remote",
-      "summary_tasks": [
-        "Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,",
-        "At cloudatus, you will: Build, administer, monitor",
-        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g"
-      ],
-      "summary_expectations": [
-        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g",
-        "routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred"
-      ],
-      "summary_offers": [
-        "Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport)",
-        "Flexible working schedule",
-        "100% remote"
-      ],
-      "required_skills": [
-        "SD-WAN",
-        "DNS",
-        "IP networks",
-        "DHCP",
-        "NTP",
-        "LAN/WAN",
-        "Fortinet",
-        "zScaler"
-      ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "fe353e5f2a0be95e",
-      "title": "Specjalist(k)a ds. Sprzedaży w digital marketingu z językiem polskim i angielskim",
-      "company": "TTEC EUROPE B.V. SP. Z O.O. ODDZIAŁ W POLSCE",
+      "id": "e6856e3564d35625",
+      "title": "Marketing & Business Operations Specialist (AI-driven)",
+      "company": "PROBO MULTIMEDIA sp. z o.o. SK",
       "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/specjalist-k-a-ds-sprzedazy-w-digital-marketingu-z-jezykiem-polskim-i-angielskim-warszawa-krucza-50,oferta,1005085480",
+      "url": "https://www.pracuj.pl/praca/marketing-business-operations-specialist-ai-driven-warszawa-aleja-generala-wladyslawa-sikorskiego-9a,oferta,1005088609",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-10T12:21:16.03Z",
-      "fit_score": 74,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Analyze and strategize how to manage, and upsell the accounts, Contact existing customers in your portfolio to a consultation, Work in a target-driven environment with individual sales targets | What they expect: Verbal and written bilingual communication skills in both Polish and English, Sales aptitude, Goal orientation, Computer savvy, Reside in or able to work in Warsaw, Poland or relocate | What they offer: Relocation package of 2000 PLN net Base salary plus performance-related bonuses opportunities MyBenefit - Kafeteria PPK Plan Employee Referral Program VISA; Private Luxmed medical care including dental care and eye care plan (glasses reimbursement), Multisport Card; Flexible working hours Partial language course reimbursement program as well as tuition program for sales courses and studies",
-      "summary_tasks": [
-        "Analyze and strategize how to manage, and upsell the accounts, Contact existing customers in your portfolio to a consultation, Work in a target-driven environment with individual sales targets"
-      ],
-      "summary_expectations": [
-        "Verbal and written bilingual communication skills in both Polish and English, Sales aptitude, Goal orientation, Computer savvy, Reside in or able to work in Warsaw, Poland or relocate"
-      ],
-      "summary_offers": [
-        "Relocation package of 2000 PLN net Base salary plus performance-related bonuses opportunities MyBenefit - Kafeteria PPK Plan Employee Referral Program VISA",
-        "Private Luxmed medical care including dental care and eye care plan (glasses reimbursement), Multisport Card",
-        "Flexible working hours Partial language course reimbursement program as well as tuition program for sales courses and studies"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "ecadcb0f7b8bc0d8",
-      "title": "Inżynierka / Inżynier Wsparcia Technicznego",
-      "company": "Axians IT Poland Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/inzynierka-inzynier-wsparcia-technicznego-warszawa-aleja-jana-pawla-ii-19,oferta,1005050460",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-25T14:15:50.793Z",
-      "fit_score": 73,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Obsługa incydentów w systemie zgłoszeń Klienta; Diagnostyka uszkodzonego sprzętu i jego naprawa lub monitorowanie napraw zewnętrznych; Sprawowanie nadzoru nad infrastrukturą użytkownika końcowego – stacje robocze monitory oraz peryferia | What they expect: Minimum rok doświadczenia na podobnym stanowisku; Dobra znajomość infrastruktury IT; Umiejętność samodzielnej pracy, jak również w zespole | What they offer: Profesjonalny onboarding i szkolenia wprowadzające; Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover; Dofinansowanie do karty sportowej Multisport",
-      "summary_tasks": [
-        "Obsługa incydentów w systemie zgłoszeń Klienta",
-        "Diagnostyka uszkodzonego sprzętu i jego naprawa lub monitorowanie napraw zewnętrznych",
-        "Sprawowanie nadzoru nad infrastrukturą użytkownika końcowego – stacje robocze monitory oraz peryferia"
-      ],
-      "summary_expectations": [
-        "Minimum rok doświadczenia na podobnym stanowisku",
-        "Dobra znajomość infrastruktury IT",
-        "Umiejętność samodzielnej pracy, jak również w zespole"
-      ],
-      "summary_offers": [
-        "Profesjonalny onboarding i szkolenia wprowadzające",
-        "Dofinansowanie do pakietu prywatnej opieki medycznej w Medicover",
-        "Dofinansowanie do karty sportowej Multisport"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "ed7559abd1d8f41a",
-      "title": "Specjalista IT Service Desk",
-      "company": "KOMPEA.PL sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-it-service-desk-warszawa-stanislawa-przybyszewskiego-38,oferta,1005085935",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-10T13:46:21.567Z",
-      "fit_score": 72,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Zarządzanie zgłoszeniami serwisowymi i dokumentowanie działań w systemie zgłoszeń; Zarządzanie sieciami komputerowymi i urządzeniami sieciowymi; Prowadzenie i aktualizacja dokumentacji wewnętrznej | What they expect: doskonałe umiejętności interpersonalne bardzo dobra znajomość środowiska Microsoft Windows 11 bardzo dobra znajomość środowiska Microsoft 365 bardzo dobra znajomość systemów urządzeń sieciowych - RouterOS, Ubiquiti bardzo dobra znajomość działania sieci komputerowych (DHCP, routing, VPN, VLANs) dobra znajomość środowiska Microsoft Windows Server w tym Active Directory dobra znajomość podstawowych zasad bezpieczeństwa IT dobra znajomość systemów operacyjnych Android język angielski na poziomie minimum B1 prawo jazdy kat; B wykształcenie wyższe lub w trakcie studiów o kierunku informatycznym minimum 2 lata doświadczenia w pracy na podobnym stanowisku | What they offer: stabline zatrudnienie - umowa o pracę na czas nieokreślony możliwość nabycia cennych umiejętności i wiedzy technicznej dostęp do nowoczesnych technologii i sprzętu samochód służbowy przyjazną atmosferę pracy w zespole O nas Nasza firma świadczy kompleksowe usługi wsparcia informatycznego dla firm polskich i międzynarodowych z różnych branż od 2005 roku; Pełnimy funkcje samodzielnego administratora IT lub funkcjonujemy jako lokalny dział IT w większych organizacjach; Nieustannie poszerzamy naszą bazę klientów oraz zakres technologii",
-      "summary_tasks": [
-        "Zarządzanie zgłoszeniami serwisowymi i dokumentowanie działań w systemie zgłoszeń",
-        "Zarządzanie sieciami komputerowymi i urządzeniami sieciowymi",
-        "Prowadzenie i aktualizacja dokumentacji wewnętrznej"
-      ],
-      "summary_expectations": [
-        "doskonałe umiejętności interpersonalne bardzo dobra znajomość środowiska Microsoft Windows 11 bardzo dobra znajomość środowiska Microsoft 365 bardzo dobra znajomość systemów urządzeń sieciowych - RouterOS, Ubiquiti bardzo dobra znajomość działania sieci komputerowych (DHCP, routing, VPN, VLANs) dobra znajomość środowiska Microsoft Windows Server w tym Active Directory dobra znajomość podstawowych zasad bezpieczeństwa IT dobra znajomość systemów operacyjnych Android język angielski na poziomie minimum B1 prawo jazdy kat",
-        "B wykształcenie wyższe lub w trakcie studiów o kierunku informatycznym minimum 2 lata doświadczenia w pracy na podobnym stanowisku"
-      ],
-      "summary_offers": [
-        "stabline zatrudnienie - umowa o pracę na czas nieokreślony możliwość nabycia cennych umiejętności i wiedzy technicznej dostęp do nowoczesnych technologii i sprzętu samochód służbowy przyjazną atmosferę pracy w zespole O nas Nasza firma świadczy kompleksowe usługi wsparcia informatycznego dla firm polskich i międzynarodowych z różnych branż od 2005 roku",
-        "Pełnimy funkcje samodzielnego administratora IT lub funkcjonujemy jako lokalny dział IT w większych organizacjach",
-        "Nieustannie poszerzamy naszą bazę klientów oraz zakres technologii"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "8d488851b5a68ac7",
-      "title": "Specjalista IT Helpdesk (K/M/X)",
-      "company": "\"GODAN SERWIS\" sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-it-helpdesk-k-m-x-warszawa,oferta,1005031846",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-17T11:04:08.337Z",
-      "fit_score": 72,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Monitorowanie systemów informatycznych i diagnostyka awarii; Utrzymywanie dobrego kontaktu z użytkownikami i zapewnienie wysokiej jakości obsługi; Współpraca z zewnetrznymi firmami informatycznymi | What they expect: Znajomość systemów operacyjnych, takich jak Windows; Umiejętność diagnozowania i rozwiązywania problemów technicznych; Komunikatywność i umiejętność pracy zespołowej | What they offer: Narzędzia pracy – komputer, telefon; Możliwość podnoszenia kwalifikacji i rozwoju zawodowego; Możliwość skorzystania z pakietów opieki medycznej Benefity prywatna opieka medyczna ubezpieczenie na życie kawa / herbata \"GODAN SERWIS\" sp",
-      "summary_tasks": [
-        "Monitorowanie systemów informatycznych i diagnostyka awarii",
-        "Utrzymywanie dobrego kontaktu z użytkownikami i zapewnienie wysokiej jakości obsługi",
-        "Współpraca z zewnetrznymi firmami informatycznymi"
-      ],
-      "summary_expectations": [
-        "Znajomość systemów operacyjnych, takich jak Windows",
-        "Umiejętność diagnozowania i rozwiązywania problemów technicznych",
-        "Komunikatywność i umiejętność pracy zespołowej"
-      ],
-      "summary_offers": [
-        "Narzędzia pracy – komputer, telefon",
-        "Możliwość podnoszenia kwalifikacji i rozwoju zawodowego",
-        "Możliwość skorzystania z pakietów opieki medycznej Benefity prywatna opieka medyczna ubezpieczenie na życie kawa / herbata \"GODAN SERWIS\" sp"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "b5eeb40b9a2e6087",
-      "title": "Specjalista ds. CRM w aplikacji mobilnej (k/m) Modivo Platform",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-crm-w-aplikacji-mobilnej-k-m-modivo-platform-warszawa,oferta,1005066186",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-02T10:14:38.067Z",
-      "fit_score": 72,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: realizowanie kampanii CRM w kanale App Push dla aplikacji eobuwie, MODIVO i CCC, tworzenie copy do komunikatów App Push dopasowanych do charakteru i grupy docelowej każdej marki, opracowanie odrębnego języka komunikacji dla poszczególnych aplikacji, z uwzględnieniem ich tonu, stylu i specyfiki, poszukiwanie i testowanie różnych stylów komunikacji – prowadzenie testów A/B/C | What they expect: minimum 1–2 lata doświadczenia w realizacji kampanii CRM lub komunikacji mobilnej (App Push, e-mail, SMS itp | What they offer: pracę w silnej i dynamicznie rosnącej firmie o polskich korzeniach; Jesteśmy firmą otwartą na zatrudnianie osób z niepełnosprawnościami; Inspiruje nas moda i rozwój, a łączy pasja i zaangażowanie",
-      "summary_tasks": [
-        "realizowanie kampanii CRM w kanale App Push dla aplikacji eobuwie, MODIVO i CCC, tworzenie copy do komunikatów App Push dopasowanych do charakteru i grupy docelowej każdej marki, opracowanie odrębnego języka komunikacji dla poszczególnych aplikacji, z uwzględnieniem ich tonu, stylu i specyfiki, poszukiwanie i testowanie różnych stylów komunikacji – prowadzenie testów A/B/C"
-      ],
-      "summary_expectations": [
-        "minimum 1–2 lata doświadczenia w realizacji kampanii CRM lub komunikacji mobilnej (App Push, e-mail, SMS itp"
-      ],
-      "summary_offers": [
-        "pracę w silnej i dynamicznie rosnącej firmie o polskich korzeniach",
-        "Jesteśmy firmą otwartą na zatrudnianie osób z niepełnosprawnościami",
-        "Inspiruje nas moda i rozwój, a łączy pasja i zaangażowanie"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-02T06:27:56.338800+00:00"
-    },
-    {
-      "id": "ed26bb433fe8dc11",
-      "title": "Digital & CRM Specialist",
-      "company": "BELMONTE HOTEL sp. z o.o. SPÓŁKA KOMANDYTOWO-AKCYJNA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/digital-crm-specialist-warszawa-pulawska-2,oferta,1005057199",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-08-28T10:19:27.75Z",
-      "fit_score": 72,
+      "published_at": "2026-09-11T12:27:13.583Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: bieżąca obsługa i rozwój systemu CRM | What they expect: 2 lata doświadczenia w obszarze digital marketingu, CRM, marketing automation lub e-commerce praktyczne doświadczenie w pracy z systemami CRM i narzędziami marketing automation znajomość GA4 i samodzielność analizy danych | What they offer: pracę przy rozwoju marki Belmonte i jej kolejnych obiektów, w chwili obecnej praca dla dwóch obiektów marki możliwość rozwijania ekosystemu digitalowego dla całej Grupy Belmonte, udział w projektach związanych z otwieraniem nowych hoteli, realny wpływ na wdrażane rozwiązania i rozwój obszaru CRM; O nas Marka Belmonte wchodzi w kolejny etap rozwoju; Wraz z rozbudową portfolio hoteli rozwijamy również nasze działania digitalowe, CRM i ekosystem narzędzi wspierających komunikację oraz sprzedaż",
+      "summary": "What you'll do: Manage LinkedIn and newsletter communications; Support marketing campaigns and events; Support the implementation of smarter ways of working across the business | What they expect: Experience in marketing, communications, event coordination, or a similar role; Strong organisational skills and the ability to manage multiple priorities Enjoyment of both creative and operational work; Experience with CRM, marketing automation or newsletter tools | What they offer: Hybrid work model; Development opportunities within a global learning and development organisation A friendly team and a purpose-driven culture focused on helping people perform at their best; Benefits private medical care corporate products and services at discounted prices",
       "summary_tasks": [
-        "bieżąca obsługa i rozwój systemu CRM"
+        "Manage LinkedIn and newsletter communications",
+        "Support marketing campaigns and events",
+        "Support the implementation of smarter ways of working across the business"
       ],
       "summary_expectations": [
-        "2 lata doświadczenia w obszarze digital marketingu, CRM, marketing automation lub e-commerce praktyczne doświadczenie w pracy z systemami CRM i narzędziami marketing automation znajomość GA4 i samodzielność analizy danych"
+        "Experience in marketing, communications, event coordination, or a similar role",
+        "Strong organisational skills and the ability to manage multiple priorities Enjoyment of both creative and operational work",
+        "Experience with CRM, marketing automation or newsletter tools"
       ],
       "summary_offers": [
-        "pracę przy rozwoju marki Belmonte i jej kolejnych obiektów, w chwili obecnej praca dla dwóch obiektów marki możliwość rozwijania ekosystemu digitalowego dla całej Grupy Belmonte, udział w projektach związanych z otwieraniem nowych hoteli, realny wpływ na wdrażane rozwiązania i rozwój obszaru CRM",
-        "O nas Marka Belmonte wchodzi w kolejny etap rozwoju",
-        "Wraz z rozbudową portfolio hoteli rozwijamy również nasze działania digitalowe, CRM i ekosystem narzędzi wspierających komunikację oraz sprzedaż"
+        "Hybrid work model",
+        "Development opportunities within a global learning and development organisation A friendly team and a purpose-driven culture focused on helping people perform at their best",
+        "Benefits private medical care corporate products and services at discounted prices"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "f748b9ffd4b82793",
+      "title": "Specjalista / Specjalistka ds. Digital Marketingu",
+      "company": "Induprogress Sp z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-digital-marketingu-warszawa-trakt-lubelski-404,oferta,1005064718",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-01T14:13:24.153Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy; Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp; Zarządzanie profilami firmy w mediach społecznościowych | What they expect: Doświadczenie lub praktyczna wiedza z zakresu digital marketingu; Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy; Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami | What they offer: Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów; Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds; Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych",
+      "summary_tasks": [
+        "Planowanie, prowadzenie i rozwijanie działań digital marketingowych firmy",
+        "Prowadzenie i optymalizacja kampanii reklamowych w Google Ads, LinkedIn Ads itp",
+        "Zarządzanie profilami firmy w mediach społecznościowych"
+      ],
+      "summary_expectations": [
+        "Doświadczenie lub praktyczna wiedza z zakresu digital marketingu",
+        "Umiejętność współpracy z firmami IT – definiowania potrzeb, opisywania zmian oraz weryfikowania efektów ich pracy",
+        "Umiejętność koordynowania kilku równoległych projektów i współpracy z zewnętrznymi wykonawcami"
+      ],
+      "summary_offers": [
+        "Możliwość uczestnictwa w szkoleniach i rozwijania kompetencji z zakresu digital marketingu Dostęp do narzędzi niezbędnych do prowadzenia i analizy działań marketingowych Dużą samodzielność w realizacji projektów",
+        "Możliwość realnego wpływu na rozwój marketingu firmy Ubezpieczenie grupowe Benefity dofinansowanie zajęć sportowych dofinansowanie nauki języków ubezpieczenie na życie brak dress code’u elastyczny czas pracy W związku z rozwojem naszych działań marketingowych poszukujemy osoby na stanowisko Specjalisty / Specjalistki ds",
+        "Digital Marketingu, która będzie wspierać nas w prowadzeniu kampanii online, rozwijaniu obecności firmy w internecie oraz rozwoju stron internetowych i narzędzi cyfrowych"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
@@ -784,7 +502,7 @@
       "seniority": "mid",
       "salary": "",
       "published_at": "2026-09-10T11:16:11.52Z",
-      "fit_score": 72,
+      "fit_score": 60,
       "match_level": "MEDIUM",
       "summary": "What you'll do: Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja; Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek; Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny); Doświadczenie w branży beauty/fashion będzie dodatkowym atutem; Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media | What they offer: Dofinansowanie szkoleń i kursów Zniżki na firmowe produkty i usługi Parking dla pracowników; Możliwość pracy zdalnej O nas Cześć!; W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)",
       "summary_tasks": [
@@ -806,506 +524,463 @@
       "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
-      "id": "ad68d779c382497f",
-      "title": "IT Support Specialist",
-      "company": "net-o-logy Sp. z o.o.",
-      "location": "Janki (pow. pruszkowski), mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/it-support-specialist-janki-pow-pruszkowski,oferta,1005037456",
+      "id": "2e41a8b4a9a3453b",
+      "title": "Digital Marketing Specialist",
+      "company": "Akademeia High School",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/digital-marketing-specialist-warszawa-sw-urszuli-ledochowskiej-2,oferta,1005039117",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-08-20T06:28:20.227Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users; Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives; Assist with email marketing campaigns, including content preparation, scheduling and basic technical support | What they expect: We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field; Has strong organisational skills and the ability to manage multiple projects and deadlines; Has excellent written and verbal communication skills in English and Polish | What they offer: Vibrant international community Competitive salary adequate to your experience; Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical; Working closely with the Director of Marketing",
+      "summary_tasks": [
+        "Manage website updates through the CMS, ensuring content accuracy, consistency and a high-quality digital experience for users",
+        "Support the organisation and promotion of school events, including Open Days, seminars, webinars, fairs and community initiatives",
+        "Assist with email marketing campaigns, including content preparation, scheduling and basic technical support"
+      ],
+      "summary_expectations": [
+        "We are looking for someone who: Has previous experience in marketing, digital communications, content creation or a related field",
+        "Has strong organisational skills and the ability to manage multiple projects and deadlines",
+        "Has excellent written and verbal communication skills in English and Polish"
+      ],
+      "summary_offers": [
+        "Vibrant international community Competitive salary adequate to your experience",
+        "Benefits sharing the costs of sports activities sharing the costs of professional training & courses integration events Access to private medical",
+        "Working closely with the Director of Marketing"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "c2d8863efa2e5536",
+      "title": "Specjalista/Specjalistka ds. marketingu produktowego (Product Marketing Specialist)",
+      "company": "Kross s.a.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-produktowego-product-marketing-specialist-warszawa,oferta,1005085033",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-10T11:02:12.047Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: tworzenie opisów produktów, materiałów marketingowych i treści wspierających sprzedaż, przygotowywanie materiałów video na Instagram, TikTok i inne kanały social media, występowanie przed kamerą i prezentowanie produktów, przekładanie specyfikacji technicznej, funkcji i zastosowania produktów na język korzyści dla użytkownika, współpraca przy tworzeniu i aktualizacji stron produktowych, przygotowywanie prezentacji, grafik i innych materiałów marketingowych, tworzenie i redagowanie treści w języku polskim i angielskim, współpraca z zespołami marketingu, sprzedaży i produktu, analiza produktów | What they expect: azainteresowanie branżą rowerową i znajomość produktów | What they offer: Zatrudnienie na podstawie umowy o pracę lub kontraktu B2B, Premie kwartalne zależne od osiąganych wyników; Prywatna opieka medyczna, Ubezpieczenie na życie, PPE/ PPK, Wysokie zniżki pracownicze, Wypożyczalnia rowerów, Wydarzenia rodzinne i charytatywne; Benefity prywatna opieka medyczna ubezpieczenie na życie zniżki na firmowe produkty i usługi program emerytalny Kross s.a",
+      "summary_tasks": [
+        "tworzenie opisów produktów, materiałów marketingowych i treści wspierających sprzedaż, przygotowywanie materiałów video na Instagram, TikTok i inne kanały social media, występowanie przed kamerą i prezentowanie produktów, przekładanie specyfikacji technicznej, funkcji i zastosowania produktów na język korzyści dla użytkownika, współpraca przy tworzeniu i aktualizacji stron produktowych, przygotowywanie prezentacji, grafik i innych materiałów marketingowych, tworzenie i redagowanie treści w języku polskim i angielskim, współpraca z zespołami marketingu, sprzedaży i produktu, analiza produktów"
+      ],
+      "summary_expectations": [
+        "azainteresowanie branżą rowerową i znajomość produktów"
+      ],
+      "summary_offers": [
+        "Zatrudnienie na podstawie umowy o pracę lub kontraktu B2B, Premie kwartalne zależne od osiąganych wyników",
+        "Prywatna opieka medyczna, Ubezpieczenie na życie, PPE/ PPK, Wysokie zniżki pracownicze, Wypożyczalnia rowerów, Wydarzenia rodzinne i charytatywne",
+        "Benefity prywatna opieka medyczna ubezpieczenie na życie zniżki na firmowe produkty i usługi program emerytalny Kross s.a"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "9776f8555f4a1870",
+      "title": "Performance Marketing Specialist - Google Ads / Meta Ads",
+      "company": "MManiak.pl",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/performance-marketing-specialist-google-ads-meta-ads-warszawa-kabaretowa-21,oferta,1005036762",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-19T07:37:32.417Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Twoja rola: Będziesz odpowiadać za prowadzenie i rozwój płatnych działań reklamowych MMAniaka w Meta Ads i Google Ads; prowadzenie i rozwój kampanii w Meta Ads i Google Ads 2; przygotowywanie briefów dla grafika i współpraca przy produkcji kreacji reklamowych 2 | What they expect: Powinieneś / powinnaś umieć: 1; prowadzić kampanie w Meta Ads i Google Ads 2; rozumieć kampanie sprzedażowe, remarketing, katalogi, Advantage+, Search, Shopping, PMax i Merchant Center 3 | What they offer: pracę hybrydową w Warszawie (Bielany) w firmie e-commerce działającej na rynku sportów walki od 2007 roku realny wpływ na rozwój kampanii, procesów i sposobu mierzenia marketingu możliwość pracy nad marką MMAniak; Wyślij CV, w tytule maila wpisz: Performance Marketing Specialist W wiadomości napisz krótko: 1; swoje doświadczenie w prowadzeniu kampanii reklamowych 2",
+      "summary_tasks": [
+        "Twoja rola: Będziesz odpowiadać za prowadzenie i rozwój płatnych działań reklamowych MMAniaka w Meta Ads i Google Ads",
+        "prowadzenie i rozwój kampanii w Meta Ads i Google Ads 2",
+        "przygotowywanie briefów dla grafika i współpraca przy produkcji kreacji reklamowych 2"
+      ],
+      "summary_expectations": [
+        "Powinieneś / powinnaś umieć: 1",
+        "prowadzić kampanie w Meta Ads i Google Ads 2",
+        "rozumieć kampanie sprzedażowe, remarketing, katalogi, Advantage+, Search, Shopping, PMax i Merchant Center 3"
+      ],
+      "summary_offers": [
+        "pracę hybrydową w Warszawie (Bielany) w firmie e-commerce działającej na rynku sportów walki od 2007 roku realny wpływ na rozwój kampanii, procesów i sposobu mierzenia marketingu możliwość pracy nad marką MMAniak",
+        "Wyślij CV, w tytule maila wpisz: Performance Marketing Specialist W wiadomości napisz krótko: 1",
+        "swoje doświadczenie w prowadzeniu kampanii reklamowych 2"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "f096dd3e355add2d",
+      "title": "E-Commerce Specialist",
+      "company": "GABONA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "location": "Jawczyce (pow. warszawski zachodni), mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/e-commerce-specialist-jawczyce-pow-warszawski-zachodni-wspolna-droga-6b,oferta,1005079933",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T13:15:42.237Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: 1) rozwój i bieżąca obsługa sprzedaży w kanałach e-commerce: - sklep internetowy, - Allegro, - Amazon, - Empik Marketplace, - TikTok Shop, -; Rozwijaj razem z nami sprzedaż online na wielu rynkach i platformach; Szukamy specjalisty, który wesprze rozwój sklepu internetowego, marketplace'ów | What they expect: Szukamy osoby, która swobodnie porusza się w świecie e-commerce i chce aktywnie wpływać na rozwój sprzedaży online; posiada doświadczenie w prowadzeniu lub rozwijaniu sprzedaży w kanałach e-commerce; zna realia funkcjonowania marketplace'ów i/lub sklepów internetowych | What they offer: 🚀 Realny wpływ na rozwój całego e-commerce firmy; Elastyczne godziny pracy ⚕️ Prywatną opiekę medyczną Enel-Med; 🛍️ Zniżki na produkty z naszej oferty",
+      "summary_tasks": [
+        "1) rozwój i bieżąca obsługa sprzedaży w kanałach e-commerce: - sklep internetowy, - Allegro, - Amazon, - Empik Marketplace, - TikTok Shop, -",
+        "Rozwijaj razem z nami sprzedaż online na wielu rynkach i platformach",
+        "Szukamy specjalisty, który wesprze rozwój sklepu internetowego, marketplace'ów"
+      ],
+      "summary_expectations": [
+        "Szukamy osoby, która swobodnie porusza się w świecie e-commerce i chce aktywnie wpływać na rozwój sprzedaży online",
+        "posiada doświadczenie w prowadzeniu lub rozwijaniu sprzedaży w kanałach e-commerce",
+        "zna realia funkcjonowania marketplace'ów i/lub sklepów internetowych"
+      ],
+      "summary_offers": [
+        "🚀 Realny wpływ na rozwój całego e-commerce firmy",
+        "Elastyczne godziny pracy ⚕️ Prywatną opiekę medyczną Enel-Med",
+        "🛍️ Zniżki na produkty z naszej oferty"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "5eb573ba6394bbaa",
+      "title": "Specjalista ds. E-commerce (m/k)",
+      "company": "Biedronka (Jeronimo Martins Polska S.A.)",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-e-commerce-m-k-warszawa-dolna-3,oferta,1005065889",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-02T09:19:00.85Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Aktualnie prowadzimy rekrutację na stanowisko Specjalisty / Specjalistki ds; Zarządzanie asortymentem i dostępnością produktów, w tym: analiza wyników, monitorowanie dostępności produktów; Współpraca z innymi działami: supply chain, operacje, IT | What they expect: Doświadczenie (lub zainteresowanie) w obszarze e-commerce, zarządzaniu asortymentem lub analizie kategorii Wysokie umiejętności analityczne; Bardzo dobra znajomość Excela; Umiejętność pracy z danymi dotyczącymi sprzedaży, asortymentu i dostępności produktów | What they offer: Dodatkowe wsparcie finansowe m.in.: zasilenia e-kodów środkami finansowymi do wykorzystania na zakupy w Biedronce i Hebe, vouchery rabatowe, zniżki na oferty znanych marek, jak np.: cateringi dietetyczne, hotele; To właśnie Biedronka – największy pracodawca w Polsce, który od 29 lat z sukcesem działa na polskim rynku, gwarantując swoim pracownikom stabilność zatrudnienia, możliwości rozwoju w strukturach firmy; Zostań częścią naszego zespołu, miej wpływ na doświadczenia zakupowe milionów klientów w Polsce i przekonaj się, że Twoja praca ma znaczenie",
+      "summary_tasks": [
+        "Aktualnie prowadzimy rekrutację na stanowisko Specjalisty / Specjalistki ds",
+        "Zarządzanie asortymentem i dostępnością produktów, w tym: analiza wyników, monitorowanie dostępności produktów",
+        "Współpraca z innymi działami: supply chain, operacje, IT"
+      ],
+      "summary_expectations": [
+        "Doświadczenie (lub zainteresowanie) w obszarze e-commerce, zarządzaniu asortymentem lub analizie kategorii Wysokie umiejętności analityczne",
+        "Bardzo dobra znajomość Excela",
+        "Umiejętność pracy z danymi dotyczącymi sprzedaży, asortymentu i dostępności produktów"
+      ],
+      "summary_offers": [
+        "Dodatkowe wsparcie finansowe m.in.: zasilenia e-kodów środkami finansowymi do wykorzystania na zakupy w Biedronce i Hebe, vouchery rabatowe, zniżki na oferty znanych marek, jak np.: cateringi dietetyczne, hotele",
+        "To właśnie Biedronka – największy pracodawca w Polsce, który od 29 lat z sukcesem działa na polskim rynku, gwarantując swoim pracownikom stabilność zatrudnienia, możliwości rozwoju w strukturach firmy",
+        "Zostań częścią naszego zespołu, miej wpływ na doświadczenia zakupowe milionów klientów w Polsce i przekonaj się, że Twoja praca ma znaczenie"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "8b33f95839c21f6a",
+      "title": "Specjalista ds. SEO (K/M)",
+      "company": "HEBE Jeronimo Martins Drogerie i Farmacja",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-seo-k-m-warszawa-jozefa-piusa-dziekonskiego-1,oferta,1005077225",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-07T14:19:50.053Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Aktualnie szukamy osób na stanowisko Specjalisty/Specjalistki ds.SEO; Współtworzenie i realizacja strategii SEO; Przygotowywanie wytycznych SEO/GEO dla zespołów IT i content oraz weryfikacja poprawności ich wdrożenia | What they expect: Doświadczenie w pracy w obszarze SEO, optymalizacji serwisów internetowych lub rozwoju widoczności organicznej, najlepiej w środowisku e-commerce; Umiejętność pracy z narzędziami takimi jak Google Search Console, Google Analytics, Senuto, Ahrefs, Semrush, Looker lub podobnymi; Umiejętność tworzenia jasnych rekomendacji dla zespołów biznesowych, contentowych i technologicznych | What they offer: Elastyczne godziny przyjścia do pracy (8:00 - 10:00); Prywatna opieka medyczna Medicover; Karta Multisport PLUS lub Medicover Sport Zapomogi i nieoprocentowane pożyczki",
+      "summary_tasks": [
+        "Aktualnie szukamy osób na stanowisko Specjalisty/Specjalistki ds.SEO",
+        "Współtworzenie i realizacja strategii SEO",
+        "Przygotowywanie wytycznych SEO/GEO dla zespołów IT i content oraz weryfikacja poprawności ich wdrożenia"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w pracy w obszarze SEO, optymalizacji serwisów internetowych lub rozwoju widoczności organicznej, najlepiej w środowisku e-commerce",
+        "Umiejętność pracy z narzędziami takimi jak Google Search Console, Google Analytics, Senuto, Ahrefs, Semrush, Looker lub podobnymi",
+        "Umiejętność tworzenia jasnych rekomendacji dla zespołów biznesowych, contentowych i technologicznych"
+      ],
+      "summary_offers": [
+        "Elastyczne godziny przyjścia do pracy (8:00 - 10:00)",
+        "Prywatna opieka medyczna Medicover",
+        "Karta Multisport PLUS lub Medicover Sport Zapomogi i nieoprocentowane pożyczki"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-08T06:26:54.139959+00:00"
+    },
+    {
+      "id": "829558bb59bc2212",
+      "title": "Specjalista ds. treści produktowych i e-commerce (K/M)",
+      "company": "HAMELIN Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-i-e-commerce-k-m-warszawa-jutrzenki-137a,oferta,1005043549",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Remote, Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-08-19T06:13:01.37Z",
-      "fit_score": 71,
+      "published_at": "2026-08-21T12:49:11.73Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Wsparcie procesu zarządzania smartfonami i sprzętem IT, w tym konfigurację, wymianę oraz ewidencję; Zarządzanie kontami służbowymi pracowników, Bezpośrednie oraz zdalne wsparcie klientów wewnętrznych w zakresie sprzętu oraz oprogramowania; Obsługa zgłoszeń klientów wewnętrznych w systemie ITSM w zakresie zarządzania incydentami oraz realizacji wniosków, Komunikacja z klientami wewnętrznymi | What they expect: Masz wykształcenie kierunkowe (techniczne lub wyższe), Swobodnie poruszasz się w środowisku Microsoft Windows/Linux, Znasz podstawy technologii sieciowych, Komunikujesz się w języku angielskim, Jesteś osobą systematyczną i dobrze zorganizowaną; Jesteś nastawiony pro-kliencko | What they offer: stabilne zatrudnienie na podstawie umowy o pracę lub B2B, pracę w technicznym zespole realizującym projekty infrastrukturalne dla klientów biznesowych, wpływ na sposób pracy zespołu i rozwój standardów technicznych, wsparcie doświadczonych specjalistów, szkolenia i certyfikacje, pakiet benefitów, przyjazne środowisko pracy; Przewiń do profilu firmy Największą siłą Netology są ludzie a obecnie do naszego zespołu szukamy osoby na stanowisko IT Support Specialist; U nas każda ważna rzecz zaczyna się od rozmowy",
+      "summary": "What you'll do: obsługa i bieżąca aktualizacja treści na platformie B2B | What they expect: wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np; w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne; Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi; Przewiń do profilu firmy HAMELIN Polska Sp",
       "summary_tasks": [
-        "Wsparcie procesu zarządzania smartfonami i sprzętem IT, w tym konfigurację, wymianę oraz ewidencję",
-        "Zarządzanie kontami służbowymi pracowników, Bezpośrednie oraz zdalne wsparcie klientów wewnętrznych w zakresie sprzętu oraz oprogramowania",
-        "Obsługa zgłoszeń klientów wewnętrznych w systemie ITSM w zakresie zarządzania incydentami oraz realizacji wniosków, Komunikacja z klientami wewnętrznymi"
+        "obsługa i bieżąca aktualizacja treści na platformie B2B"
       ],
       "summary_expectations": [
-        "Masz wykształcenie kierunkowe (techniczne lub wyższe), Swobodnie poruszasz się w środowisku Microsoft Windows/Linux, Znasz podstawy technologii sieciowych, Komunikujesz się w języku angielskim, Jesteś osobą systematyczną i dobrze zorganizowaną",
-        "Jesteś nastawiony pro-kliencko"
+        "wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np",
+        "w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych"
       ],
       "summary_offers": [
-        "stabilne zatrudnienie na podstawie umowy o pracę lub B2B, pracę w technicznym zespole realizującym projekty infrastrukturalne dla klientów biznesowych, wpływ na sposób pracy zespołu i rozwój standardów technicznych, wsparcie doświadczonych specjalistów, szkolenia i certyfikacje, pakiet benefitów, przyjazne środowisko pracy",
-        "Przewiń do profilu firmy Największą siłą Netology są ludzie a obecnie do naszego zespołu szukamy osoby na stanowisko IT Support Specialist",
-        "U nas każda ważna rzecz zaczyna się od rozmowy"
+        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne",
+        "Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi",
+        "Przewiń do profilu firmy HAMELIN Polska Sp"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "8c951a952fd48686",
-      "title": "Specjalista IT / Helpdesk L1/L2",
-      "company": "OT2S Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-it-helpdesk-l1-l2-warszawa,oferta,1005042528",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-21T08:49:17.863Z",
-      "fit_score": 71,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych; Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników; Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości | What they expect: Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2; Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników; Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365",
-      "summary_tasks": [
-        "Obsługa zgłoszeń użytkowników – diagnozowanie i rozwiązywanie problemów aplikacyjnych, sprzętowych, systemowych oraz sieciowych",
-        "Zakładanie kont, nadawanie dostępów i uprawnień oraz obsługa procesów związanych z rozpoczęciem i zakończeniem pracy użytkowników",
-        "Monitorowanie środowisk klientów oraz reagowanie na alerty i nieprawidłowości"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w pracy na podobnym stanowisku – Helpdesk IT / IT Support L1/L2",
-        "Bardzo dobra znajomość systemów Microsoft Windows 11 / MacOS oraz umiejętność samodzielnego diagnozowania problemów użytkowników",
-        "Praktyczna znajomość Microsoft 365 i podstaw administracji usługami Microsoft 365"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "ac25c14987c2220d",
-      "title": "Analityk danych (m/k/n)",
-      "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-danych-m-k-n-warszawa,oferta,1005078261",
+      "id": "fe353e5f2a0be95e",
+      "title": "Specjalist(k)a ds. Sprzedaży w digital marketingu z językiem polskim i angielskim",
+      "company": "TTEC EUROPE B.V. SP. Z O.O. ODDZIAŁ W POLSCE",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/specjalist-k-a-ds-sprzedazy-w-digital-marketingu-z-jezykiem-polskim-i-angielskim-warszawa-krucza-50,oferta,1005085480",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
+      "seniority": "junior, mid",
       "salary": "",
-      "published_at": "2026-09-08T08:02:47.67Z",
-      "fit_score": 71,
+      "published_at": "2026-09-10T12:21:16.03Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI; Analiza i integracja danych; Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych | What they expect: Poparta doświadczeniem bardzo dobra znajomość języka SQL; Doświadczenie w zakresie przygotowywania raportów i analiz; Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych | What they offer: Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii; pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów); Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową",
+      "summary": "What you'll do: Analyze and strategize how to manage, and upsell the accounts, Contact existing customers in your portfolio to a consultation, Work in a target-driven environment with individual sales targets | What they expect: Verbal and written bilingual communication skills in both Polish and English, Sales aptitude, Goal orientation, Computer savvy, Reside in or able to work in Warsaw, Poland or relocate | What they offer: Relocation package of 2000 PLN net Base salary plus performance-related bonuses opportunities MyBenefit - Kafeteria PPK Plan Employee Referral Program VISA; Private Luxmed medical care including dental care and eye care plan (glasses reimbursement), Multisport Card; Flexible working hours Partial language course reimbursement program as well as tuition program for sales courses and studies",
       "summary_tasks": [
-        "Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI",
-        "Analiza i integracja danych",
-        "Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych"
+        "Analyze and strategize how to manage, and upsell the accounts, Contact existing customers in your portfolio to a consultation, Work in a target-driven environment with individual sales targets"
       ],
       "summary_expectations": [
-        "Poparta doświadczeniem bardzo dobra znajomość języka SQL",
-        "Doświadczenie w zakresie przygotowywania raportów i analiz",
-        "Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych"
+        "Verbal and written bilingual communication skills in both Polish and English, Sales aptitude, Goal orientation, Computer savvy, Reside in or able to work in Warsaw, Poland or relocate"
       ],
       "summary_offers": [
-        "Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii",
-        "pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów)",
-        "Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową"
+        "Relocation package of 2000 PLN net Base salary plus performance-related bonuses opportunities MyBenefit - Kafeteria PPK Plan Employee Referral Program VISA",
+        "Private Luxmed medical care including dental care and eye care plan (glasses reimbursement), Multisport Card",
+        "Flexible working hours Partial language course reimbursement program as well as tuition program for sales courses and studies"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
-      "id": "603c2b99051fc986",
-      "title": "Digital Marketing Specialist (k/m)",
-      "company": "HR WISE Sp. z o.o.",
-      "location": "POL Poland Kraków digital-marketing-specialist-k-m-hr-wise-krakow-1 False",
-      "url": "https://nofluffjobs.com/pl/job/digital-marketing-specialist-k-m-hr-wise-krakow-1",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1788179188806",
-      "fit_score": 70,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Planowanie, wdrażanie i optymalizacja kampanii emailingowych; Planowanie, wdrażanie i optymalizacja kampanii digital marketingowych (Google Ads, Meta Ads, kampanie leadowe, remarketing); Opracowywanie strategii digital marketingowych, harmonogramów i budżetów tych działań (online i offline) we współpracy z Dyrektorem Marketingu | What they expect: Minimum 3 lata doświadczenia w marketingu, w tym digital marketingu; Doświadczenie w prowadzeniu kampanii online i pracy z budżetami marketingowymi; Podstawowa znajomość marketing automation i narzędzi typu HubSpot, Mailchimp, ActiveCampaign",
-      "summary_tasks": [
-        "Planowanie, wdrażanie i optymalizacja kampanii emailingowych",
-        "Planowanie, wdrażanie i optymalizacja kampanii digital marketingowych (Google Ads, Meta Ads, kampanie leadowe, remarketing)",
-        "Opracowywanie strategii digital marketingowych, harmonogramów i budżetów tych działań (online i offline) we współpracy z Dyrektorem Marketingu"
-      ],
-      "summary_expectations": [
-        "Minimum 3 lata doświadczenia w marketingu, w tym digital marketingu",
-        "Doświadczenie w prowadzeniu kampanii online i pracy z budżetami marketingowymi",
-        "Podstawowa znajomość marketing automation i narzędzi typu HubSpot, Mailchimp, ActiveCampaign"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "eaf0860b9bda3ca6",
-      "title": "Analityk Biznesowy / Analityczka Biznesowa (Biznesowo-Systemowy) - Talent Pool",
-      "company": "TRANSITION TECHNOLOGIES PSC S.A",
+      "id": "4611f4a80127517f",
+      "title": "SEO Specialist",
+      "company": "FABRYKA MARKETINGU sp. z o.o.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-analityczka-biznesowa-biznesowo-systemowy-talent-pool-warszawa,oferta,1005047443",
+      "url": "https://www.pracuj.pl/praca/seo-specialist-warszawa-ratuszowa-11,oferta,1005049959",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-08-24T13:26:19.633Z",
-      "fit_score": 69,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników | What they expect: doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy; Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie | What they offer: Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B); Możliwość szerokiego rozwoju kompetencji; Atrakcyjne benefity, m.in",
-      "summary_tasks": [
-        "analiza potrzeb biznesowych i przekładanie ich na wymagania systemowe, zbieranie, analizowanie i dokumentowanie wymagań użytkowników"
-      ],
-      "summary_expectations": [
-        "doświadczenie w analizie biznesowej, systemowej lub biznesowo-systemowej, poparte udziałem w zrealizowanych projektach, doświadczenie w pracy z wymaganiami użytkowników i interesariuszy",
-        "Znajomość UML i BPMN, praktyczna znajomość Enterprise Architect, umożliwiająca samodzielną pracę, znajomość SQL, znajomość JIRA i Confluence, znajomość języka polskiego na poziomie co najmniej C1, umożliwiająca swobodną komunikację w mowie i piśmie"
-      ],
-      "summary_offers": [
-        "Elastyczne formy zatrudnienia i organizacji czasu pracy (umowa o pracę lub współpraca B2B)",
-        "Możliwość szerokiego rozwoju kompetencji",
-        "Atrakcyjne benefity, m.in"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "fd5069ab8c9f6725",
-      "title": "Technical Support Engineer (Security)",
-      "company": "Braver IT S.A.",
-      "location": "POL Poland Kraków technical-support-engineer-security-braver-it-krakow False",
-      "url": "https://nofluffjobs.com/pl/job/technical-support-engineer-security-braver-it-krakow",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Mid",
-      "salary": "8000.0 13000.0 permanent PLN Month VISIBLE False",
-      "published_at": "1787842336875",
-      "fit_score": 68,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Provide technical support for Microsoft Security solutions; Troubleshoot issues across cloud, endpoint, server and network environments; Analyze logs and diagnose technical problems | What they expect: Experience with Windows Server / Windows Client; 1+ year of cloud experience; Strong troubleshooting skills | What they offer: Szczegóły oferty; Bez pracy zdalnej; Oceń tę ofertę",
-      "summary_tasks": [
-        "Provide technical support for Microsoft Security solutions",
-        "Troubleshoot issues across cloud, endpoint, server and network environments",
-        "Analyze logs and diagnose technical problems"
-      ],
-      "summary_expectations": [
-        "Experience with Windows Server / Windows Client",
-        "1+ year of cloud experience",
-        "Strong troubleshooting skills"
-      ],
-      "summary_offers": [
-        "Szczegóły oferty",
-        "Bez pracy zdalnej",
-        "Oceń tę ofertę"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "784f0ab79ac39328",
-      "title": "Młodszy Specjalista IT",
-      "company": "BPX S.A.",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/bpx-s-a--mlodszy-specjalista-it-wroclaw-admin",
-      "apply_url": "https://bpxsa.traffit.com/public/form/a/92ee1961ae8b1b265cf2e4a4e5f76fa1625a6561?source=justjoin.it",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-10T18:00:09.090678Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Współpraca przy rozwiązywaniu problemów technicznych z użytkownikami po stronie klienta; Wsparcie i obsługa klienta w zakresie zarządzania środowiskiem; Bieżące zarządzanie i monitorowanie infrastruktury IT (instalacja nowych środowisk, utrzymywanie istniejących) | What they expect: Umiejętność rozwiązywania podstawowych problemów z zakresu IT na systemach Windows; Podstawowa znajomość zagadnień sieci komputerowych LAN/WLAN; Podstawowa znajomość systemów Linux (Debian, Suse, CentOS) | What they offer: Przyjazną atmosferę i środowisko pracy; Elastyczny czas pracy; Ubezpieczenie grupowe / Multisport / Opiekę medyczną",
-      "summary_tasks": [
-        "Współpraca przy rozwiązywaniu problemów technicznych z użytkownikami po stronie klienta",
-        "Wsparcie i obsługa klienta w zakresie zarządzania środowiskiem",
-        "Bieżące zarządzanie i monitorowanie infrastruktury IT (instalacja nowych środowisk, utrzymywanie istniejących)"
-      ],
-      "summary_expectations": [
-        "Umiejętność rozwiązywania podstawowych problemów z zakresu IT na systemach Windows",
-        "Podstawowa znajomość zagadnień sieci komputerowych LAN/WLAN",
-        "Podstawowa znajomość systemów Linux (Debian, Suse, CentOS)"
-      ],
-      "summary_offers": [
-        "Przyjazną atmosferę i środowisko pracy",
-        "Elastyczny czas pracy",
-        "Ubezpieczenie grupowe / Multisport / Opiekę medyczną"
-      ],
-      "required_skills": [
-        "MsSQL",
-        "Linux",
-        "LAN",
-        "Debian",
-        "Oracle",
-        "MS SQL"
-      ],
-      "first_found_at": "2026-09-11T06:27:32.938255+00:00"
-    },
-    {
-      "id": "6ffca91d4c1e65da",
-      "title": "SQL / Database Technical Support Consultant",
-      "company": "COMARCH",
-      "location": "Kraków, Wrocław, Rzeszów",
-      "url": "https://justjoin.it/job-offer/comarch-sql-database-technical-support-consultant-krakow-support",
-      "apply_url": "https://kariera.comarch.pl/praca/sql-database-technical-support-consultant/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T13:00:15.978231Z",
-      "fit_score": 66,
+      "published_at": "2026-08-25T12:49:09.207Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Similar offers MOTIFE Kraków Hybrid Hybrid Technical Support Engineer New 2 412,87 | What they expect: Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQLDobra znajomość środowiska Linux",
+      "summary": "What you'll do: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity; Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce; Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków | What they expect: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym; Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe; Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO | What they offer: Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami; Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać",
       "summary_tasks": [
-        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
-        "Wspieramy finanse, handel i MŚP, współpracując z g",
-        "Similar offers MOTIFE Kraków Hybrid Hybrid Technical Support Engineer New 2 412,87"
+        "Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity",
+        "Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce",
+        "Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków"
       ],
       "summary_expectations": [
-        "Profil pracownika Minimum 2-letnie doświadczenie w pracy w dziale wsparcia technicznego (IT / Telco) Praktyczna znajomość relacyjnych baz danych (w tym Oracle i/lub PostgreSQL, język SQL / PL/SQLDobra znajomość środowiska Linux"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "SQL",
-        "Linux",
-        "Oracle",
-        "PostreSQL"
-      ],
-      "first_found_at": "2026-09-08T06:26:54.139959+00:00",
-      "contact_email": "praca@comarch.pl",
-      "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "a73a59fc9b9757f1",
-      "title": "Młodszy Specjalista IT- e-commerce w Paymento",
-      "company": "ING BANK ŚLĄSKI SPÓŁKA AKCYJNA",
-      "location": "POL Poland Tychy Browarowa 21 mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-tychy False",
-      "url": "https://nofluffjobs.com/pl/job/mlodszy-specjalista-it-e-commerce-w-paymento-ing-bank-slaski-spolka-akcyjna-tychy",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Junior",
-      "salary": "7000.0 permanent PLN Month VISIBLE False",
-      "published_at": "1787235727155",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: obsługujesz technicznie zgłoszonych przez klientów problemów (instalacja modułów w sklepach internetowych, obsługujesz błędy zgłaszane przez klientów); rozwiązujesz i eskalujesz incydenty oraz awarie informatyczne; Paymento z ING współpracuje od 2017 roku m.in | What they expect: posiadasz wykształcenie min; masz znajomość technologii budowy stron internetowych (HTML, CSS, PHP); masz podstawową znajomość rynku płatności online i platform sprzedażowych | What they offer: rozwój pod okiem doświadczonych programistów (coaching); prywatną opiekę medyczną; Praca zdalna przez 3 dni w tygodniu",
-      "summary_tasks": [
-        "obsługujesz technicznie zgłoszonych przez klientów problemów (instalacja modułów w sklepach internetowych, obsługujesz błędy zgłaszane przez klientów)",
-        "rozwiązujesz i eskalujesz incydenty oraz awarie informatyczne",
-        "Paymento z ING współpracuje od 2017 roku m.in"
-      ],
-      "summary_expectations": [
-        "posiadasz wykształcenie min",
-        "masz znajomość technologii budowy stron internetowych (HTML, CSS, PHP)",
-        "masz podstawową znajomość rynku płatności online i platform sprzedażowych"
+        "Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym",
+        "Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe",
+        "Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO"
       ],
       "summary_offers": [
-        "rozwój pod okiem doświadczonych programistów (coaching)",
-        "prywatną opiekę medyczną",
-        "Praca zdalna przez 3 dni w tygodniu"
+        "Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami",
+        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
+        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
-      "id": "22e9f7ef4160f260",
-      "title": "IT Support Specialist (2nd Line)",
-      "company": "Allegro sp. z o.o.",
-      "location": "POL Poland Warszawa it-support-specialist-2nd-line-allegro-warszawa False Flexible working hours in the hybrid model (4/1) - working hours start between 7:00 a.m. and 10:00 a.m. We also have 30 days of occasional remote work.",
-      "url": "https://nofluffjobs.com/pl/job/it-support-specialist-2nd-line-allegro-warszawa",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1787833977909",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow; Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line; Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics | What they expect: Strong organizational skills; At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager; Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Budżet na szkolenia",
-      "summary_tasks": [
-        "Coordination and communication: Effectively bridging the needs of business, operations, and development teams, while ensuring smooth information flow",
-        "Advanced troubleshooting: Diagnosing process anomalies and API integration errors escalated from the 1st line",
-        "Database management: Utilizing intermediate to advanced SQL to debug database issues and perform log diagnostics"
-      ],
-      "summary_expectations": [
-        "Strong organizational skills",
-        "At least 2–3 years of experience in system maintenance, 2nd line technical support (L2), or as an IT Project Manager",
-        "Good knowledge of SQL (PostgreSQL) and experience working with complex data architecture"
-      ],
-      "summary_offers": [
-        "Pakiet sportowy",
-        "Prywatna opieka medyczna",
-        "Budżet na szkolenia"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "5355825067133b13",
-      "title": "Specjalista IT (k/m)",
-      "company": "N2H Sp. z o.o.",
-      "location": "Błonie-Wieś (pow. warszawski zachodni), mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-it-k-m-blonie-wies-pow-warszawski-zachodni-sochaczewska-96b,oferta,1005077782",
+      "id": "945e3dd13bfd0022",
+      "title": "Customs Operations Specialist (1st October/ November start date)",
+      "company": "Maersk (Kornferry)",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/customs-operations-specialist-1st-october-november-start-date-warszawa,oferta,1005077758",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-08T07:08:08.547Z",
-      "fit_score": 66,
+      "published_at": "2026-09-08T07:03:13.68Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu | What they expect: minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych | What they offer: możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio; Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku; N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce",
+      "summary": "What you'll do: As a Customs Operations Specialist, you will play a crucial role in our operations; You will coordinate and organize a range of customs services operations - no two days are the same, and you’ll have plenty of opportunities to grow and shape the role to fit your strengths!; You will work closely with our internal logistics and supply chain teams to optimize customs processes and handle post-clearance audits and compliance reporting | What they expect: Attention to detail – You spot the little things that others might miss!; Customs & Logistics – You are working in a Customs or Import/export environment Tech-savvy – A good working knowledge of MS Office is helpful; Regulated environment experience – If you’ve worked in customs, logistics, or a similar field, that’s a bonus! | What they offer: 6,500 PLN – 8,500 PLN gross per month, depending on experience 5% annual bonus LuxMed Sports Card Opportunity to grow your experience in customs; Benefits sharing the costs of sports activities private medical care Who are we looking for?; At Maersk, you’ll have access to international career opportunities, professional development programs, and leadership training to help you grow",
       "summary_tasks": [
-        "zapewnianie pierwszej linii wsparcia IT dla użytkowników Centrum Logistycznego konfiguracja, utrzymanie i podstawowy serwis sprzętu"
+        "As a Customs Operations Specialist, you will play a crucial role in our operations",
+        "You will coordinate and organize a range of customs services operations - no two days are the same, and you’ll have plenty of opportunities to grow and shape the role to fit your strengths!",
+        "You will work closely with our internal logistics and supply chain teams to optimize customs processes and handle post-clearance audits and compliance reporting"
       ],
       "summary_expectations": [
-        "minimum roczne doświadczenie w obszarze IT Support, Helpdesk lub Service Desk dobra znajomość środowiska Windows i Microsoft 365 umiejętność diagnozowania problemów sprzętowych, programowych"
+        "Attention to detail – You spot the little things that others might miss!",
+        "Customs & Logistics – You are working in a Customs or Import/export environment Tech-savvy – A good working knowledge of MS Office is helpful",
+        "Regulated environment experience – If you’ve worked in customs, logistics, or a similar field, that’s a bonus!"
       ],
       "summary_offers": [
-        "możliwość dołączenia do prywatnej opieki medycznej LUXMED, karty sportowej MEDICOVER SPORT i dodatkowego ubezpieczenia PZU – na preferencyjnych warunkach kartę rabatową na zakupy w sklepach stacjonarnych Homla pracę w pełnym wymiarze etatu niezbędne narzędzia pracy, które pozwolą Ci na swobodne działanie Benefity zniżki na firmowe produkty i usługi brak dress code’u kawa / herbata parking dla pracowników karta sportowa MEDICOVER SPORT na preferencyjnych warunkach prywatna opieka medyczna LUXMED na preferencyjnych warunkach ubezpieczenie na życie PZU na preferencyjnych warunkach Zainteresowane osoby prosimy o przesłanie CV wraz z portfolio",
-        "Przewiń do profilu firmy Spółka N2H to prężnie rozwijająca się firma działająca na polskim rynku",
-        "N2H jest właścicielem marki Homla zajmującej się sprzedażą wyposażenia wnętrz na rynku detalicznym oraz e-commerce"
+        "6,500 PLN – 8,500 PLN gross per month, depending on experience 5% annual bonus LuxMed Sports Card Opportunity to grow your experience in customs",
+        "Benefits sharing the costs of sports activities private medical care Who are we looking for?",
+        "At Maersk, you’ll have access to international career opportunities, professional development programs, and leadership training to help you grow"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "6a1715ce6c7fdccb",
-      "title": "Business Analyst",
-      "company": "Antal Sp. z o.o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/antal-sp-z-o-o--business-analyst-warszawa-analytics-fb96ba29",
-      "apply_url": "https://antalpl.traffit.com/public/form/a/038f6b4bbd8df1717d02ad060862f225324d427070556f3d?source=justjoin.it",
-      "source": "justjoin.it",
+      "id": "2a26d139117eeac5",
+      "title": "Legal Operations Specialist – Probate & Insolvency",
+      "company": "Asseta S. A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/legal-operations-specialist-probate-insolvency-warszawa,oferta,1005048514",
+      "apply_url": "",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Remote, Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T15:00:11.916842Z",
-      "fit_score": 65,
+      "published_at": "2026-08-25T08:15:48.99Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Kluczowe zadania: Zbieranie i doprecyzowanie wymagań z biznesem i IT Tworzenie user stories, AC; Similar offers SCALO Warszawa , +2 Locations Hybrid Hybrid Business Analyst New 4 341,69; 5 698,47 USD/month Jira Confluence Business Analysis Analytics Mid Mid B2B B2B Full-time Full-time New EUVIC FUTURE WORK SP | What they expect: Dobrze odnajduje się w pracy projektowej i środowisku międzynarodowym (j; angielski na poziomie min",
+      "summary": "What you'll do: Istotną częścią zakresu obowiązków jest praca na danych: weryfikacja, typowanie spraw do odpowiednich działań oraz analiza rentowności działań; Czym będziesz się zajmować; Prowadzeniem postępowań spadkowych – w tym sporządzaniem wniosków o stwierdzenie nabycia spadku, wniosków o przeklauzulowanie na spadkobierców | What they expect: Praktyczna znajomości postępowania sądowego i egzekucyjnego – zwłaszcza w obszarze spraw spadkowych; Praktyczna znajomości postępowania upadłościowego i sprawnego poruszania się po KRZcie; Zdolność trafnego odczytywania pism z sądu i innych organów oraz rozumienia, jakich działań te pisma wymagają | What they offer: Możliwość rozwoju zawodowego i zdobywania nowych kompetencji, Benefity pozapłacowe (np; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie spotkania integracyjne program rekomendacji pracowników inicjatywy dobroczynne Asseta S; Otwartość na nowoczesne rozwiązania oraz nieustanny rozwój każdego dnia przybliżają nas do celu, którym jest umocnienie pozycji wśród liderów rynku",
       "summary_tasks": [
-        "Kluczowe zadania: Zbieranie i doprecyzowanie wymagań z biznesem i IT Tworzenie user stories, AC",
-        "Similar offers SCALO Warszawa , +2 Locations Hybrid Hybrid Business Analyst New 4 341,69",
-        "5 698,47 USD/month Jira Confluence Business Analysis Analytics Mid Mid B2B B2B Full-time Full-time New EUVIC FUTURE WORK SP"
+        "Istotną częścią zakresu obowiązków jest praca na danych: weryfikacja, typowanie spraw do odpowiednich działań oraz analiza rentowności działań",
+        "Czym będziesz się zajmować",
+        "Prowadzeniem postępowań spadkowych – w tym sporządzaniem wniosków o stwierdzenie nabycia spadku, wniosków o przeklauzulowanie na spadkobierców"
       ],
       "summary_expectations": [
-        "Dobrze odnajduje się w pracy projektowej i środowisku międzynarodowym (j",
-        "angielski na poziomie min"
+        "Praktyczna znajomości postępowania sądowego i egzekucyjnego – zwłaszcza w obszarze spraw spadkowych",
+        "Praktyczna znajomości postępowania upadłościowego i sprawnego poruszania się po KRZcie",
+        "Zdolność trafnego odczytywania pism z sądu i innych organów oraz rozumienia, jakich działań te pisma wymagają"
       ],
-      "summary_offers": [],
-      "required_skills": [
-        "Jira",
-        "API"
+      "summary_offers": [
+        "Możliwość rozwoju zawodowego i zdobywania nowych kompetencji, Benefity pozapłacowe (np",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie spotkania integracyjne program rekomendacji pracowników inicjatywy dobroczynne Asseta S",
+        "Otwartość na nowoczesne rozwiązania oraz nieustanny rozwój każdego dnia przybliżają nas do celu, którym jest umocnienie pozycji wśród liderów rynku"
       ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "0b27a786effe3b60",
-      "title": "Analityk Biznesowy (procesy inwestycyjne, regulacyjne,  bankowość) - k/m/n",
-      "company": "Nexio Management Sp. z o. o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/nexio-management-sp-z-o-o--analityk-biznesowy-procesy-inwestycyjne-regulacyjne-bankowosc---k-m-n-warszawa-analytics",
-      "apply_url": "https://nexio.traffit.com/public/form/a/a3846739cdfd9e6a1229c4762b85248a555a4d47?source=justjoin.it",
-      "source": "justjoin.it",
+      "id": "1d078fcf70891fdb",
+      "title": "Specjalista ds. Operacji Międzynarodowych [k/m]",
+      "company": "Zadbano",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-operacji-miedzynarodowych-k-m-warszawa,oferta,1005086013",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-10T14:07:37.03Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: monitorowanie sytuacji na rynkach zagranicznych na podstawie dashboardów i raportów weryfikowanie statusów przesyłek i transportów; Operacji Międzynarodowych w codziennych zadaniach operacyjnych udział w wizytach operacyjnych w hubach, magazynach i u przewoźników | What they expect: znajomość języka angielskiego na poziomie min; B2/C1 bardzo dobra organizacja pracy i samodzielność dokładność i rzetelność umiejętność sprawnego komunikowania się i współpracy z różnymi zespołami podstawowa znajomość Excela gotowość do podróży służbowych w Polsce i za granicą elastyczność i umiejętność szybkiego reagowania na sytuacje operacyjne | What they offer: stabilna forma zatrudnienia - umowa o pracę pracę w międzynarodowym obszarze operacyjnym możliwość zdobycia doświadczenia w logistyce Cross-Border współpracę z zagranicznymi partnerami i przewoźnikami możliwość rozwoju poprzez pracę z danymi, procesami operacyjnymi i zespołami w różnych lokalizacjach udział w krajowych i zagranicznych wyjazdach operacyjnych pakiet benefitów (m; karta Multisport, prywatna opieka medyczna z możliwością objęcia nią partnera i dzieci, ubezpieczenie na życie) Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie możliwość pracy zdalnej spotkania integracyjne program rekomendacji pracowników inicjatywy dobroczynne Kogo szukamy?; W Zadbano rozwój i dobre relacje są naprawdę istotne",
+      "summary_tasks": [
+        "monitorowanie sytuacji na rynkach zagranicznych na podstawie dashboardów i raportów weryfikowanie statusów przesyłek i transportów",
+        "Operacji Międzynarodowych w codziennych zadaniach operacyjnych udział w wizytach operacyjnych w hubach, magazynach i u przewoźników"
+      ],
+      "summary_expectations": [
+        "znajomość języka angielskiego na poziomie min",
+        "B2/C1 bardzo dobra organizacja pracy i samodzielność dokładność i rzetelność umiejętność sprawnego komunikowania się i współpracy z różnymi zespołami podstawowa znajomość Excela gotowość do podróży służbowych w Polsce i za granicą elastyczność i umiejętność szybkiego reagowania na sytuacje operacyjne"
+      ],
+      "summary_offers": [
+        "stabilna forma zatrudnienia - umowa o pracę pracę w międzynarodowym obszarze operacyjnym możliwość zdobycia doświadczenia w logistyce Cross-Border współpracę z zagranicznymi partnerami i przewoźnikami możliwość rozwoju poprzez pracę z danymi, procesami operacyjnymi i zespołami w różnych lokalizacjach udział w krajowych i zagranicznych wyjazdach operacyjnych pakiet benefitów (m",
+        "karta Multisport, prywatna opieka medyczna z możliwością objęcia nią partnera i dzieci, ubezpieczenie na życie) Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie możliwość pracy zdalnej spotkania integracyjne program rekomendacji pracowników inicjatywy dobroczynne Kogo szukamy?",
+        "W Zadbano rozwój i dobre relacje są naprawdę istotne"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "db4b9260486a9936",
+      "title": "Delivery Platform Operations Specialist (m/k)",
+      "company": "Trenkwalder",
+      "location": "Wrocław, dolnośląskie, Polska",
+      "url": "https://www.pracuj.pl/praca/delivery-platform-operations-specialist-m-k-wroclaw,oferta,1005038428",
+      "apply_url": "",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
+      "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T12:35:42.938354Z",
-      "fit_score": 65,
+      "published_at": "2026-08-19T13:20:36.317Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Analiza i modelowanie procesów związanych z produktami i usługami inwestycyjnymi; Analiza wpływu zmian regulacyjnych na procesy biznesowe oraz wspierające je rozwiązania IT; Współpraca z zespołami produktowymi, IT, Compliance i innymi interesariuszami | What they expect: 5-6 lat doświadczenia w analizie biznesowej w sektorze finansowym; Praktyczna znajomość procesów związanych z produktami inwestycyjnymi; Dobra znajomość zasad funkcjonowania rynku kapitałowego, mile widziana znajomość MiFID II | What they offer: Stabilność zatrudnienia - długofalowe projekty, współpraca z wiodącymi firmami, możliwość rozwoju w różnych obszarach branży IT; Elastyczne formy współpracy - umowa B2B, umowa o pracę lub zlecenie; Benefity: Medicover (rozszerzony o stomatologię), FitProfit, lekcje języka angielskiego",
+      "summary": "What you'll do: wsparcie operacyjne partnerów współpracujących z platformami dostawczymi, koordynacja procesów związanych z onboardingiem, aktywacją | What they expect: Szukamy osoby, która: posiada doświadczenie zdobyte w organizacji zarządzającej flotą kurierów lub współpracującej z platformami dostawczymi, zna procesy związane z zarządzaniem flotą kurierów, rozliczeniami i obsługą operacyjną, swobodnie porusza się w systemach operacyjnych i potrafi analizować dane, potrafi przygotowywać raporty | What they offer: pracę w modelu zdalnym, możliwość wykorzystania doświadczenia zdobytego w branży platform logistycznych i kurierskich, dużą samodzielność; Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie możliwość pracy zdalnej elastyczny czas pracy dodatkowy urlop Trenkwalder Przewiń do profilu firmy Trenkwalder jest jednym z liderów w branży HR w Polsce, specjalizując się w rekrutacjach, outsourcingu i doradztwie personalnym; Agencja zatrudnienia Trenkwalder & Partner Sp",
       "summary_tasks": [
-        "Analiza i modelowanie procesów związanych z produktami i usługami inwestycyjnymi",
-        "Analiza wpływu zmian regulacyjnych na procesy biznesowe oraz wspierające je rozwiązania IT",
-        "Współpraca z zespołami produktowymi, IT, Compliance i innymi interesariuszami"
+        "wsparcie operacyjne partnerów współpracujących z platformami dostawczymi, koordynacja procesów związanych z onboardingiem, aktywacją"
       ],
       "summary_expectations": [
-        "5-6 lat doświadczenia w analizie biznesowej w sektorze finansowym",
-        "Praktyczna znajomość procesów związanych z produktami inwestycyjnymi",
-        "Dobra znajomość zasad funkcjonowania rynku kapitałowego, mile widziana znajomość MiFID II"
+        "Szukamy osoby, która: posiada doświadczenie zdobyte w organizacji zarządzającej flotą kurierów lub współpracującej z platformami dostawczymi, zna procesy związane z zarządzaniem flotą kurierów, rozliczeniami i obsługą operacyjną, swobodnie porusza się w systemach operacyjnych i potrafi analizować dane, potrafi przygotowywać raporty"
       ],
       "summary_offers": [
-        "Stabilność zatrudnienia - długofalowe projekty, współpraca z wiodącymi firmami, możliwość rozwoju w różnych obszarach branży IT",
-        "Elastyczne formy współpracy - umowa B2B, umowa o pracę lub zlecenie",
-        "Benefity: Medicover (rozszerzony o stomatologię), FitProfit, lekcje języka angielskiego"
-      ],
-      "required_skills": [
-        "Analiza Biznesowa"
-      ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "cc41607097f3bd08",
-      "title": "Associate IT Support Specialist",
-      "company": "GFT Poland",
-      "location": "POL Poland Kraków Wadowicka 7 associate-it-support-specialist-gft-poland-krakow False",
-      "url": "https://nofluffjobs.com/pl/job/associate-it-support-specialist-gft-poland-krakow",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Junior",
-      "salary": "6500.0 9000.0 permanent PLN Month VISIBLE False",
-      "published_at": "1786714391109",
-      "fit_score": 65,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Provide technical support for end users regarding hardware, software, and peripheral devices; Install, configure, and maintain computers and business applications; Deliver remote technical support to global users | What they expect: Knowledge of Windows 10 and Windows 11; Knowledge of Microsoft 365 applications; Very good communication skills | What they offer: Benefit package tailored to your needs (medical, sport, lunch subsidy, life insurance, etc.); Online training and certifications; Szczegóły oferty",
-      "summary_tasks": [
-        "Provide technical support for end users regarding hardware, software, and peripheral devices",
-        "Install, configure, and maintain computers and business applications",
-        "Deliver remote technical support to global users"
-      ],
-      "summary_expectations": [
-        "Knowledge of Windows 10 and Windows 11",
-        "Knowledge of Microsoft 365 applications",
-        "Very good communication skills"
-      ],
-      "summary_offers": [
-        "Benefit package tailored to your needs (medical, sport, lunch subsidy, life insurance, etc.)",
-        "Online training and certifications",
-        "Szczegóły oferty"
+        "pracę w modelu zdalnym, możliwość wykorzystania doświadczenia zdobytego w branży platform logistycznych i kurierskich, dużą samodzielność",
+        "Benefity dofinansowanie zajęć sportowych prywatna opieka medyczna ubezpieczenie na życie możliwość pracy zdalnej elastyczny czas pracy dodatkowy urlop Trenkwalder Przewiń do profilu firmy Trenkwalder jest jednym z liderów w branży HR w Polsce, specjalizując się w rekrutacjach, outsourcingu i doradztwie personalnym",
+        "Agencja zatrudnienia Trenkwalder & Partner Sp"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "749d1669abb7427d",
-      "title": "Supply Chain Operations Specialist with English",
-      "company": "Antal",
-      "location": "POL Poland Kraków supply-chain-operations-specialist-with-english-antal-krakow False",
-      "url": "https://nofluffjobs.com/pl/job/supply-chain-operations-specialist-with-english-antal-krakow",
+      "id": "fa1dc0b7c082392d",
+      "title": "Operations Specialist",
+      "company": "P&P Solutions Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/operations-specialist-warszawa,oferta,1005033067",
       "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1788991285628",
-      "fit_score": 65,
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-17T14:35:13.417Z",
+      "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Working with SAP to manage and update order-related information; Monitoring order status and resolving operational issues on a daily basis; The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies | What they expect: Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role; Practical experience with SAP; English language skills at a minimum B2 level | What they offer: Comprehensive onboarding and training to prepare you for the role; Opportunities for professional development in an international environment; Hybrid working model and flexible working hours",
+      "summary": "What you'll do: Zarządzanie i monitorowanie procesów finansowych oraz administracyjnych związanych z rozliczeniami i dokumentacją; Zarządzanie bieżącą korespondencją (przychodzącą i wychodzącą) dotyczącą usług chmurowych; Organizowanie i gromadzenie dokumentacji operacyjnej oraz współpraca z innymi działami w celu skutecznej realizacji projektów | What they expect: Minimum trzyletnie doświadczenie w pracy biurowej, administracyjnej lub w obszarze obsługi procesów; Umiejętność zarządzania i koordynacji procesów w ramach organizacji; Wysoko rozwinięte umiejętności organizacyjne i analityczne | What they offer: Możliwość zdobycia cennego doświadczenia i realną możliwość rozwoju w firmie; Stabilne warunki zatrudnienia i atrakcyjne wynagrodzenie (solidna podstawa i system premiowy bez ograniczeń); Pakiet benefitów (system kafeteryjny, prywatna opieka medyczna Medicover) o łącznej wartości ponad 600 PLN",
       "summary_tasks": [
-        "Working with SAP to manage and update order-related information",
-        "Monitoring order status and resolving operational issues on a daily basis",
-        "The company offers excellent opportunities for professional growth, participation in international projects, and a collaborative environment focused on developing new skills and competencies"
+        "Zarządzanie i monitorowanie procesów finansowych oraz administracyjnych związanych z rozliczeniami i dokumentacją",
+        "Zarządzanie bieżącą korespondencją (przychodzącą i wychodzącą) dotyczącą usług chmurowych",
+        "Organizowanie i gromadzenie dokumentacji operacyjnej oraz współpraca z innymi działami w celu skutecznej realizacji projektów"
       ],
       "summary_expectations": [
-        "Minimum 1 year of experience in Order Management, Customer Service, Supply Chain Operations, or a similar role",
-        "Practical experience with SAP",
-        "English language skills at a minimum B2 level"
+        "Minimum trzyletnie doświadczenie w pracy biurowej, administracyjnej lub w obszarze obsługi procesów",
+        "Umiejętność zarządzania i koordynacji procesów w ramach organizacji",
+        "Wysoko rozwinięte umiejętności organizacyjne i analityczne"
       ],
       "summary_offers": [
-        "Comprehensive onboarding and training to prepare you for the role",
-        "Opportunities for professional development in an international environment",
-        "Hybrid working model and flexible working hours"
+        "Możliwość zdobycia cennego doświadczenia i realną możliwość rozwoju w firmie",
+        "Stabilne warunki zatrudnienia i atrakcyjne wynagrodzenie (solidna podstawa i system premiowy bez ograniczeń)",
+        "Pakiet benefitów (system kafeteryjny, prywatna opieka medyczna Medicover) o łącznej wartości ponad 600 PLN"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-03T06:27:56.338800+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
       "id": "53f110f8eacd58d5",
@@ -1320,7 +995,7 @@
       "seniority": "mid",
       "salary": "",
       "published_at": "2026-09-04T14:02:09.467Z",
-      "fit_score": 65,
+      "fit_score": 60,
       "match_level": "MEDIUM",
       "summary": "What you'll do: Współpraca z interesariuszami biznesowymi (wewnętrznymi i zewnętrznymi) Organizacja warsztatów z interesariuszami; Współpraca z zespołami projektowymi składającymi się z Product Ownerów, analityków, programistów, testerów odpowiadających za rozwój oprogramowania i wdrażanie nowych funkcjonalności Testowanie wybranych funkcjonalności w ramach wdrażanych rozwiązań Realizacja złożonych celów biznesowych | What they expect: Masz doświadczenie na podobnym stanowisku i/lub masz doświadczenie w zakresie implementacji zmian w systemach Posiadasz wykształcenie wyższe (preferowane kierunki: finanse, bankowość, informatyka) Masz zdolności analityczne w zakresie identyfikowania wymagań biznesowych i przekładania ich na rozwiązania IT Potrafisz zdefiniować potrzebę biznesową, przeanalizować możliwe rozwiązania i wybrać najbardziej optymalne Znasz dobrze systemy JIRA, Confluence (dodatkowy atut) Środowisko Agile i SCRUM nie jest Ci obce",
       "summary_tasks": [
@@ -1335,178 +1010,137 @@
       "first_found_at": "2026-09-05T11:40:52.193898+00:00"
     },
     {
-      "id": "7da88e0776357997",
-      "title": "Junior Business Analyst – AI & Operational Transformation",
-      "company": "Antal",
-      "location": "POL Poland Warszawa junior-business-analyst-ai-operational-transformation-antal-warszawa-1 False",
-      "url": "https://nofluffjobs.com/pl/job/junior-business-analyst-ai-operational-transformation-antal-warszawa-1",
+      "id": "d0e7eaa2ae491cb2",
+      "title": "Specjalista ds. Analiz Procesów Operacyjnych (k/m/n)",
+      "company": "ITCARD S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-analiz-procesow-operacyjnych-k-m-n-warszawa-jutrzenki-139,oferta,1005055123",
       "apply_url": "",
-      "source": "nofluffjobs.com",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Unspecified",
-      "seniority": "Junior",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1788523137040",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Gather and analyze business requirements; Map and optimize operational processes; Identify opportunities for AI adoption and automation | What they expect: Map and optimize operational processes; Identify opportunities for AI adoption and automation; As a Business Analyst, you will play a key role in understanding business challenges, gathering requirements",
-      "summary_tasks": [
-        "Gather and analyze business requirements",
-        "Map and optimize operational processes",
-        "Identify opportunities for AI adoption and automation"
-      ],
-      "summary_expectations": [
-        "Map and optimize operational processes",
-        "Identify opportunities for AI adoption and automation",
-        "As a Business Analyst, you will play a key role in understanding business challenges, gathering requirements"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "fd934b8a602d9572",
-      "title": "Technical Support Engineer (L2)",
-      "company": "OneRail Poland Sp. z o.o.",
-      "location": "POL Poland Kraków technical-support-engineer-l2-onerail-poland-krakow-2 False Work Style: Hybrid (3-4 days from the office/week). During the first 3-4 months, the role requires wider overlap with US time zone (GMT-5) to support onboarding.",
-      "url": "https://nofluffjobs.com/pl/job/technical-support-engineer-l2-onerail-poland-krakow-2",
-      "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "12000.0 16000.0 permanent PLN Month VISIBLE False",
-      "published_at": "1787917288077",
-      "fit_score": 62,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Serve as a primary technical support contact for customer-reported issues; Investigate problems using logs, monitoring tools, API requests, and SQL queries; Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification | What they expect: Strong troubleshooting skills and comfort working through ambiguous problems independently; Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes); Working knowledge of SQL for investigation and validation | What they offer: a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you; Attractive salary and benefits package; Pracodawca oferuje następujący model pracy hybrydowej",
-      "summary_tasks": [
-        "Serve as a primary technical support contact for customer-reported issues",
-        "Investigate problems using logs, monitoring tools, API requests, and SQL queries",
-        "Leverage AI tools to help analyze logs, error traces, and reproduction steps to accelerate root cause identification"
-      ],
-      "summary_expectations": [
-        "Strong troubleshooting skills and comfort working through ambiguous problems independently",
-        "Hands-on experience debugging REST APIs (requests, responses, auth, payloads, status codes)",
-        "Working knowledge of SQL for investigation and validation"
-      ],
-      "summary_offers": [
-        "a flexible hybrid work style and flexible employment types to suit your needs, ensuring a work-life balance that works for you",
-        "Attractive salary and benefits package",
-        "Pracodawca oferuje następujący model pracy hybrydowej"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "c2e1f2510ac2d656",
-      "title": "IT Support Specialist",
-      "company": "Callstack",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/callstack-it-support-specialist-wroclaw-support",
-      "apply_url": "https://www.callstack.com/careers#jobform-2712968",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T15:00:11.909338Z",
-      "fit_score": 61,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Permanent Job description Callstack supports and inspires top industry leaders in shipping better digital products and services to their users; We are a team of high-level experts in cross-platform development and consultancy; We truly believe that you can get the best out of people when you give them a chance to participate and develop | What they expect: This position requires working from our Wrocław office 60% of the time; Maintain IT documentation and knowledge base, and identify opportunities for process improvements and automation; You are the right candidate if you have: Previous experience in IT Support, Helpdesk, Service Desk , or a similar role | What they offer: Fully covered life insurance; Multisport Card or monthly allowance for other sports activities; Development Budget",
-      "summary_tasks": [
-        "Permanent Job description Callstack supports and inspires top industry leaders in shipping better digital products and services to their users",
-        "We are a team of high-level experts in cross-platform development and consultancy",
-        "We truly believe that you can get the best out of people when you give them a chance to participate and develop"
-      ],
-      "summary_expectations": [
-        "This position requires working from our Wrocław office 60% of the time",
-        "Maintain IT documentation and knowledge base, and identify opportunities for process improvements and automation",
-        "You are the right candidate if you have: Previous experience in IT Support, Helpdesk, Service Desk , or a similar role"
-      ],
-      "summary_offers": [
-        "Fully covered life insurance",
-        "Multisport Card or monthly allowance for other sports activities",
-        "Development Budget"
-      ],
-      "required_skills": [
-        "IT Support"
-      ],
-      "first_found_at": "2026-09-03T06:27:56.338800+00:00",
-      "contact_email": "hello@callstack.com",
-      "contact_email_kind": "company_contact"
-    },
-    {
-      "id": "94dc01641bfcf666",
-      "title": "Młodszy Analityk SQL/BI (k/m)",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/modivo-platform-mlodszy-analityk-sql-bi-k-m--warszawa-data",
-      "apply_url": "https://career.modivoplatform.com/offer/7480/mlodszy-analityk-sql-bi",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-10T14:00:09.560641Z",
-      "fit_score": 61,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej; rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe; wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem | What they expect: umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI; tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query; przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych",
-      "summary_tasks": [
-        "tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej",
-        "rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe",
-        "wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem"
-      ],
-      "summary_expectations": [
-        "umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI",
-        "tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query",
-        "przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "SQL",
-        "BI",
-        "MS Excel"
-      ],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "3e26a0537d940295",
-      "title": "Intern Business Analyst (Microsoft Low-Code, Agentic AI)",
-      "company": "Capgemini",
-      "location": "Poznań, Gdańsk, Wrocław",
-      "url": "https://justjoin.it/job-offer/capgemini-polska-intern-business-analyst-microsoft-low-code-agentic-ai--poznan-analytics",
-      "apply_url": "https://careers.capgemini.com/job/Wroc%C5%82aw-Intern-Business-Analyst-%28Microsoft-Low-Code%2C-Agentic-AI%29/1181826101/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "intern",
-      "salary": "",
-      "published_at": "2026-09-10T12:00:27.322921Z",
+      "published_at": "2026-08-27T12:39:21.087Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Our development teams are responsible for end-to-end enterprise application development process using the newest technologies; Following the motto “Get the future you want”, we offer a wide variety of learning and personal development opportunities; YOUR TASKS Gather, analyze, and document business and IT requirements for low‑code solutions in line with industry standards | What they expect: Non‑students with relevant skills are also encouraged to apply; Basic knowledge of relational databases and SQL; Familiarity with Low‑code or CRM platforms is a plus | What they offer: a wide variety of learning and personal development opportunities; Participate in additional development initiatives such as mentorship programs and Low‑code Community activities; Enjoy hybrid working model",
+      "summary": "What you'll do: Identyfikowanie procesów operacyjnych wymagających optymalizacji i/lub automatyzacji, także z wykorzystaniem AI; Projektowanie, planowanie i wdrażanie usprawnień procesowych; Monitorowanie i raportowanie efektów wdrożonych zmian | What they expect: Doświadczenie w stosowaniu różnych narzędzi i metodologii zarządzania procesami; Umiejętność mapowania i optymalizacji procesów; Umiejętność identyfikacji procesów wymagających usprawnienia oraz przedstawiania propozycji rozwiązań | What they offer: Możliwość zdobycia doświadczenia w rozwojowej branży technologicznej; Elastyczne godziny pracy i możliwość pracy hybrydowej; 🎉 Dodatkowy dzień urlopu z okazji urodzin",
       "summary_tasks": [
-        "Our development teams are responsible for end-to-end enterprise application development process using the newest technologies",
-        "Following the motto “Get the future you want”, we offer a wide variety of learning and personal development opportunities",
-        "YOUR TASKS Gather, analyze, and document business and IT requirements for low‑code solutions in line with industry standards"
+        "Identyfikowanie procesów operacyjnych wymagających optymalizacji i/lub automatyzacji, także z wykorzystaniem AI",
+        "Projektowanie, planowanie i wdrażanie usprawnień procesowych",
+        "Monitorowanie i raportowanie efektów wdrożonych zmian"
       ],
       "summary_expectations": [
-        "Non‑students with relevant skills are also encouraged to apply",
-        "Basic knowledge of relational databases and SQL",
-        "Familiarity with Low‑code or CRM platforms is a plus"
+        "Doświadczenie w stosowaniu różnych narzędzi i metodologii zarządzania procesami",
+        "Umiejętność mapowania i optymalizacji procesów",
+        "Umiejętność identyfikacji procesów wymagających usprawnienia oraz przedstawiania propozycji rozwiązań"
       ],
       "summary_offers": [
-        "a wide variety of learning and personal development opportunities",
-        "Participate in additional development initiatives such as mentorship programs and Low‑code Community activities",
-        "Enjoy hybrid working model"
+        "Możliwość zdobycia doświadczenia w rozwojowej branży technologicznej",
+        "Elastyczne godziny pracy i możliwość pracy hybrydowej",
+        "🎉 Dodatkowy dzień urlopu z okazji urodzin"
       ],
-      "required_skills": [
-        "UML",
-        "Analytics",
-        "SQL"
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "ad9ca418379d4756",
+      "title": "Specjalista E-commerce - sklep internetowy i Allegro",
+      "company": "MAXTOOLS sp. z o.o.",
+      "location": "Przeworsk, podkarpackie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-e-commerce-sklep-internetowy-i-allegro-przeworsk,oferta,1005084711",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-10T10:20:21.587Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: kompleksowe wdrażanie nowych produktów do sklepu internetowego i na Allegro, tworzenie i optymalizacja ofert produktowych: opisów, parametrów, zdjęć, wariantów i zestawów, bieżąca opieka nad ofertami na Allegro i w sklepie internetowym, analiza konkurencji, cen, ofert | What they expect: co najmniej 2-letnie doświadczenie w e-commerce, najlepiej przy ofercie kierowanej do klienta profesjonalnego i/lub B2B, bardzo dobra znajomość Allegro i zrozumienie sposobu działania marketplace, umiejętność samodzielnej organizacji pracy i pilnowania terminów w ramach zdefiniowanych celów, umiejętność analizowania ofert konkurencji; umiejętność współpracy z grafikami, montażystami, programistami i innymi specjalistami, rzetelność i terminowość - zależy nam na osobie, która dowozi ustalone zadania na czas, umiejętność samodzielnego szukania rozwiązań bez potrzeby otrzymywania dokładnej instrukcji do każdego zadania | What they offer: pracę w pełnym wymiarze / pełnej dostępności, możliwość współpracy na B2B lub umowie o pracę, samodzielne stanowisko z bieżącym wsparciem i dużą przestrzenią do działania, możliwość rozwijania kompetencji w obszarze marketplace, e-commerce, marketingu i rozwoju produktów, swobodę w proponowaniu i wdrażaniu usprawnień w ramach ustalonych celów, pracę w rozwijającym się segmencie i przy produktach dla klientów profesjonalnych, które realnie usprawniają ich pracę, pracę przy marce, która ma już klientów, sprzedaż i pozytywne opinie, a jednocześnie nadal intensywnie się rozwija, możliwość awansu na stanowisko managerskie wraz ze wzrostem kompetencji, doświadczenia i rozwojem firmy, dostęp do zewnętrznych konsultantów i specjalistów wspierających rozwój e-commerce, dostęp do grafików, programistów, fotografów, montażystów; O nas MAXTOOLS to rozwijająca się firma specjalizująca się w profesjonalnych narzędziach dla branży budowlanej i wykończeniowej; Sprzedajemy poprzez własny sklep internetowy, Allegro oraz sieć dystrybutorów i systematycznie rozwijamy portfolio produktów",
+      "summary_tasks": [
+        "kompleksowe wdrażanie nowych produktów do sklepu internetowego i na Allegro, tworzenie i optymalizacja ofert produktowych: opisów, parametrów, zdjęć, wariantów i zestawów, bieżąca opieka nad ofertami na Allegro i w sklepie internetowym, analiza konkurencji, cen, ofert"
       ],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+      "summary_expectations": [
+        "co najmniej 2-letnie doświadczenie w e-commerce, najlepiej przy ofercie kierowanej do klienta profesjonalnego i/lub B2B, bardzo dobra znajomość Allegro i zrozumienie sposobu działania marketplace, umiejętność samodzielnej organizacji pracy i pilnowania terminów w ramach zdefiniowanych celów, umiejętność analizowania ofert konkurencji",
+        "umiejętność współpracy z grafikami, montażystami, programistami i innymi specjalistami, rzetelność i terminowość - zależy nam na osobie, która dowozi ustalone zadania na czas, umiejętność samodzielnego szukania rozwiązań bez potrzeby otrzymywania dokładnej instrukcji do każdego zadania"
+      ],
+      "summary_offers": [
+        "pracę w pełnym wymiarze / pełnej dostępności, możliwość współpracy na B2B lub umowie o pracę, samodzielne stanowisko z bieżącym wsparciem i dużą przestrzenią do działania, możliwość rozwijania kompetencji w obszarze marketplace, e-commerce, marketingu i rozwoju produktów, swobodę w proponowaniu i wdrażaniu usprawnień w ramach ustalonych celów, pracę w rozwijającym się segmencie i przy produktach dla klientów profesjonalnych, które realnie usprawniają ich pracę, pracę przy marce, która ma już klientów, sprzedaż i pozytywne opinie, a jednocześnie nadal intensywnie się rozwija, możliwość awansu na stanowisko managerskie wraz ze wzrostem kompetencji, doświadczenia i rozwojem firmy, dostęp do zewnętrznych konsultantów i specjalistów wspierających rozwój e-commerce, dostęp do grafików, programistów, fotografów, montażystów",
+        "O nas MAXTOOLS to rozwijająca się firma specjalizująca się w profesjonalnych narzędziach dla branży budowlanej i wykończeniowej",
+        "Sprzedajemy poprzez własny sklep internetowy, Allegro oraz sieć dystrybutorów i systematycznie rozwijamy portfolio produktów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "1023c0a2a35cee3a",
+      "title": "Export E-Commerce Specialist (k/m)",
+      "company": "HALFING & PETERSEN",
+      "location": "Kraków, małopolskie, Polska",
+      "url": "https://www.pracuj.pl/praca/export-e-commerce-specialist-k-m-krakow,oferta,1005055272",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-27T13:02:33.267Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Rozwój sprzedaży internetowej na wybranych rynkach zagranicznych; Zarządzanie ofertą produktową oraz sprzedażą w kanałach e-commerce i marketplace Dbanie o wysoką jakość obsługi klientów oraz rozwój relacji na powierzonych rynkach; Współpraca z innymi działami w organizacji w zakresie realizacji działań wspierających sprzedaż | What they expect: Doświadczenie w sprzedaży e-commerce na rynkach zagranicznych; Znajomość specyfiki sprzedaży internetowej w modelu B2C Komunikatywna znajomość języka angielskiego Praktyczne doświadczenie w sprzedaży za pośrednictwem platform e-commerce; Doświadczenie w obsłudze klienta oraz budowaniu pozytywnych relacji biznesowych Praktyczna znajomość sprzedaży internetowej z wykorzystaniem kanałów marketplace | What they offer: Stabilne zatrudnienie w oparciu o umowę o pracę Pracę w stabilnej firmie o ugruntowanej pozycji rynkowej o międzynarodowym zasięgu; Możliwość dalszego rozwoju zawodowego oraz podnoszenie kompetencji w strukturach firmy; Dofinansowanie aktywności sportowych",
+      "summary_tasks": [
+        "Rozwój sprzedaży internetowej na wybranych rynkach zagranicznych",
+        "Zarządzanie ofertą produktową oraz sprzedażą w kanałach e-commerce i marketplace Dbanie o wysoką jakość obsługi klientów oraz rozwój relacji na powierzonych rynkach",
+        "Współpraca z innymi działami w organizacji w zakresie realizacji działań wspierających sprzedaż"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w sprzedaży e-commerce na rynkach zagranicznych",
+        "Znajomość specyfiki sprzedaży internetowej w modelu B2C Komunikatywna znajomość języka angielskiego Praktyczne doświadczenie w sprzedaży za pośrednictwem platform e-commerce",
+        "Doświadczenie w obsłudze klienta oraz budowaniu pozytywnych relacji biznesowych Praktyczna znajomość sprzedaży internetowej z wykorzystaniem kanałów marketplace"
+      ],
+      "summary_offers": [
+        "Stabilne zatrudnienie w oparciu o umowę o pracę Pracę w stabilnej firmie o ugruntowanej pozycji rynkowej o międzynarodowym zasięgu",
+        "Możliwość dalszego rozwoju zawodowego oraz podnoszenie kompetencji w strukturach firmy",
+        "Dofinansowanie aktywności sportowych"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "264c0c54e03a80f9",
+      "title": "Product Operations Specialist (m/f)",
+      "company": "APILO sp. z o.o.",
+      "location": "Kozy (pow. bielski), śląskie, Polska",
+      "url": "https://www.pracuj.pl/praca/product-operations-specialist-m-f-kozy-pow-bielski-teczowa-2b,oferta,1005066810",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-02T12:17:32.69Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Czym będziesz się zajmować?; Koordynacją międzydziałową — organizowaniem współpracy między produktem, inżynierią/IT, QA i marketingiem (bycie punktem kontaktowym); Tworzeniem i utrzymywaniem dokumentacji: wymagań produktowych, specyfikacji, instrukcji/poradników dla użytkowników | What they expect: Bardzo dobra znajomość Excela/Arkuszy Google; Umiejętności analityczne - wyciąganie wniosków z danych, identyfikowanie wąskich gardeł procesowych; Bardzo dobra komunikacja i umiejętność pracy z wieloma interesariuszami jednocześnie | What they offer: Dzień wolny na urodziny (+1 do puli urlopowej!); System kafeteryjny, w tym Multisport; Dodatkowe ubezpieczenie grupowe",
+      "summary_tasks": [
+        "Czym będziesz się zajmować?",
+        "Koordynacją międzydziałową — organizowaniem współpracy między produktem, inżynierią/IT, QA i marketingiem (bycie punktem kontaktowym)",
+        "Tworzeniem i utrzymywaniem dokumentacji: wymagań produktowych, specyfikacji, instrukcji/poradników dla użytkowników"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość Excela/Arkuszy Google",
+        "Umiejętności analityczne - wyciąganie wniosków z danych, identyfikowanie wąskich gardeł procesowych",
+        "Bardzo dobra komunikacja i umiejętność pracy z wieloma interesariuszami jednocześnie"
+      ],
+      "summary_offers": [
+        "Dzień wolny na urodziny (+1 do puli urlopowej!)",
+        "System kafeteryjny, w tym Multisport",
+        "Dodatkowe ubezpieczenie grupowe"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     }
   ]
 }
