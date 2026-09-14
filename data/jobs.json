@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-13T21:39:14.386217+00:00",
-    "found": 5097,
-    "accepted": 34,
+    "generated_at": "2026-09-14T06:28:44.143983+00:00",
+    "found": 5113,
+    "accepted": 35,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1932
+        "fetched": 1921
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 1243
+        "fetched": 1262
       }
     }
   },
@@ -690,6 +690,37 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
+      "id": "829558bb59bc2212",
+      "title": "Specjalista ds. treści produktowych i e-commerce (K/M)",
+      "company": "HAMELIN Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-i-e-commerce-k-m-warszawa-jutrzenki-137a,oferta,1005043549",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-21T12:49:11.73Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: obsługa i bieżąca aktualizacja treści na platformie B2B | What they expect: wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np; w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne; Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi; Przewiń do profilu firmy HAMELIN Polska Sp",
+      "summary_tasks": [
+        "obsługa i bieżąca aktualizacja treści na platformie B2B"
+      ],
+      "summary_expectations": [
+        "wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np",
+        "w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne",
+        "Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi",
+        "Przewiń do profilu firmy HAMELIN Polska Sp"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
       "id": "8b33f95839c21f6a",
       "title": "Specjalista ds. SEO (K/M)",
       "company": "HEBE Jeronimo Martins Drogerie i Farmacja",
@@ -722,37 +753,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-08T06:26:54.139959+00:00"
-    },
-    {
-      "id": "829558bb59bc2212",
-      "title": "Specjalista ds. treści produktowych i e-commerce (K/M)",
-      "company": "HAMELIN Polska Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-i-e-commerce-k-m-warszawa-jutrzenki-137a,oferta,1005043549",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-21T12:49:11.73Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: obsługa i bieżąca aktualizacja treści na platformie B2B | What they expect: wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np; w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne; Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi; Przewiń do profilu firmy HAMELIN Polska Sp",
-      "summary_tasks": [
-        "obsługa i bieżąca aktualizacja treści na platformie B2B"
-      ],
-      "summary_expectations": [
-        "wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np",
-        "w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych"
-      ],
-      "summary_offers": [
-        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne",
-        "Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi",
-        "Przewiń do profilu firmy HAMELIN Polska Sp"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
       "id": "fe353e5f2a0be95e",
@@ -981,6 +981,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "ac25c14987c2220d",
+      "title": "Analityk danych (m/k/n)",
+      "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-danych-m-k-n-warszawa,oferta,1005078261",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T08:02:47.67Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI; Analiza i integracja danych; Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych | What they expect: Poparta doświadczeniem bardzo dobra znajomość języka SQL; Doświadczenie w zakresie przygotowywania raportów i analiz; Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych | What they offer: Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii; pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów); Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową",
+      "summary_tasks": [
+        "Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI",
+        "Analiza i integracja danych",
+        "Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych"
+      ],
+      "summary_expectations": [
+        "Poparta doświadczeniem bardzo dobra znajomość języka SQL",
+        "Doświadczenie w zakresie przygotowywania raportów i analiz",
+        "Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych"
+      ],
+      "summary_offers": [
+        "Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii",
+        "pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów)",
+        "Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "53f110f8eacd58d5",
