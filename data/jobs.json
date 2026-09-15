@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-14T06:28:44.143983+00:00",
-    "found": 5113,
-    "accepted": 35,
+    "generated_at": "2026-09-15T06:28:53.837581+00:00",
+    "found": 5130,
+    "accepted": 34,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1921
+        "fetched": 1946
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 1262
+        "fetched": 1284
       }
     }
   },
@@ -223,39 +223,6 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "d994196babf6a033",
-      "title": "Junior Finance Operations Specialist",
-      "company": "DLA PIPER GSC POLAND sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/junior-finance-operations-specialist-warszawa-icchoka-lejba-pereca-1,oferta,1005032726",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-08-17T13:09:50.247Z",
-      "fit_score": 82,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Code and process invoices and expenses claims in line with procedures Ensure that all processed documents are posted in accordance with accounting rules and legally compliant Reverse and; Support AP and Expenses Team in daily tasks | What they expect: Excellent English skills University Degree preferably in accounting or relevant courses Attention to details Analytical; Ability to work in a multicultural environment; Very good self-organization and target orientation skills Customer and teamwork focus and capability | What they offer: Opportunity to gain experience in finance in an international environment Attractive benefits package (sports cards, private medical care for employees and family members, language courses); Benefits sharing the costs of sports activities private medical care sharing the costs of foreign language classes integration events DLA PIPER GSC POLAND sp; Our global reach ensures that we can help businesses with their legal needs anywhere in the world",
-      "summary_tasks": [
-        "Code and process invoices and expenses claims in line with procedures Ensure that all processed documents are posted in accordance with accounting rules and legally compliant Reverse and",
-        "Support AP and Expenses Team in daily tasks"
-      ],
-      "summary_expectations": [
-        "Excellent English skills University Degree preferably in accounting or relevant courses Attention to details Analytical",
-        "Ability to work in a multicultural environment",
-        "Very good self-organization and target orientation skills Customer and teamwork focus and capability"
-      ],
-      "summary_offers": [
-        "Opportunity to gain experience in finance in an international environment Attractive benefits package (sports cards, private medical care for employees and family members, language courses)",
-        "Benefits sharing the costs of sports activities private medical care sharing the costs of foreign language classes integration events DLA PIPER GSC POLAND sp",
-        "Our global reach ensures that we can help businesses with their legal needs anywhere in the world"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
-    },
-    {
       "id": "bbcb82e312f05814",
       "title": "Junior Analyst (M/F/D)",
       "company": "DSV GBS",
@@ -385,7 +352,9 @@
         "Znasz nas doskonale, przez ostatnie 25 lat wyznaczaliśmy kierunek rozwoju branży i robimy to nadal"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00",
+      "contact_email": "contact@mediamarkt.pl",
+      "contact_email_kind": "company_contact"
     },
     {
       "id": "727dd8ce2eafd8d5",
@@ -490,38 +459,36 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
-      "id": "95960d0deefc4157",
-      "title": "Social Media & Content Specialist",
-      "company": "DAHLIA sp. z o.o.",
+      "id": "bda6d95191e51a88",
+      "title": "Specjalista / Specjalistka ds. digital marketingu",
+      "company": "Konsorcjum Szkoleniowo-Doradcze Gamma sp. z o.o. sp.k.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-content-specialist-warszawa-inflancka-4,oferta,1005085113",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-digital-marketingu-warszawa-solec-38,oferta,1005092144",
       "apply_url": "",
       "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid, Office",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T11:16:11.52Z",
+      "published_at": "2026-09-14T12:13:26.673Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja; Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek; Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny); Doświadczenie w branży beauty/fashion będzie dodatkowym atutem; Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media | What they offer: Dofinansowanie szkoleń i kursów Zniżki na firmowe produkty i usługi Parking dla pracowników; Możliwość pracy zdalnej O nas Cześć!; W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)",
+      "summary": "What you'll do: ) Twój zakres obowiązków: SEO i widoczność; optymalizacja stron i treści pod kątem SEO; monitorowanie podstawowych obszarów technicznego SEO | What they expect: Doświadczenie w działaniach digital marketingowych i SEO Zaangażowanie i chęć szukania rozwiązań Otwartość na naukę | What they offer: Możliwość rozwoju nowych kompetencji; O nas Jesteśmy wiodącą na polskim rynku firmą szkoleniowo-doradczą z branży L&D; W branży rozwojowej działamy już 20 lat",
       "summary_tasks": [
-        "Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja",
-        "Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek",
-        "Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs"
+        ") Twój zakres obowiązków: SEO i widoczność",
+        "optymalizacja stron i treści pod kątem SEO",
+        "monitorowanie podstawowych obszarów technicznego SEO"
       ],
       "summary_expectations": [
-        "Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny)",
-        "Doświadczenie w branży beauty/fashion będzie dodatkowym atutem",
-        "Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media"
+        "Doświadczenie w działaniach digital marketingowych i SEO Zaangażowanie i chęć szukania rozwiązań Otwartość na naukę"
       ],
       "summary_offers": [
-        "Dofinansowanie szkoleń i kursów Zniżki na firmowe produkty i usługi Parking dla pracowników",
-        "Możliwość pracy zdalnej O nas Cześć!",
-        "W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)"
+        "Możliwość rozwoju nowych kompetencji",
+        "O nas Jesteśmy wiodącą na polskim rynku firmą szkoleniowo-doradczą z branży L&D",
+        "W branży rozwojowej działamy już 20 lat"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+      "first_found_at": "2026-09-15T06:28:53.837581+00:00"
     },
     {
       "id": "2e41a8b4a9a3453b",
@@ -556,6 +523,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "95960d0deefc4157",
+      "title": "Social Media & Content Specialist",
+      "company": "DAHLIA sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/social-media-content-specialist-warszawa-inflancka-4,oferta,1005085113",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-10T11:16:11.52Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja; Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek; Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny); Doświadczenie w branży beauty/fashion będzie dodatkowym atutem; Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media | What they offer: Dofinansowanie szkoleń i kursów Zniżki na firmowe produkty i usługi Parking dla pracowników; Możliwość pracy zdalnej O nas Cześć!; W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)",
+      "summary_tasks": [
+        "Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja",
+        "Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek",
+        "Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs"
+      ],
+      "summary_expectations": [
+        "Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny)",
+        "Doświadczenie w branży beauty/fashion będzie dodatkowym atutem",
+        "Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media"
+      ],
+      "summary_offers": [
+        "Dofinansowanie szkoleń i kursów Zniżki na firmowe produkty i usługi Parking dla pracowników",
+        "Możliwość pracy zdalnej O nas Cześć!",
+        "W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
       "id": "c2d8863efa2e5536",
@@ -690,35 +691,38 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "829558bb59bc2212",
-      "title": "Specjalista ds. treści produktowych i e-commerce (K/M)",
-      "company": "HAMELIN Polska Sp. z o.o.",
+      "id": "4611f4a80127517f",
+      "title": "SEO Specialist",
+      "company": "FABRYKA MARKETINGU sp. z o.o.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-i-e-commerce-k-m-warszawa-jutrzenki-137a,oferta,1005043549",
+      "url": "https://www.pracuj.pl/praca/seo-specialist-warszawa-ratuszowa-11,oferta,1005049959",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Office",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-08-21T12:49:11.73Z",
+      "published_at": "2026-08-25T12:49:09.207Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: obsługa i bieżąca aktualizacja treści na platformie B2B | What they expect: wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np; w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne; Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi; Przewiń do profilu firmy HAMELIN Polska Sp",
+      "summary": "What you'll do: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity; Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce; Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków | What they expect: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym; Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe; Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO | What they offer: Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami; Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać",
       "summary_tasks": [
-        "obsługa i bieżąca aktualizacja treści na platformie B2B"
+        "Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity",
+        "Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce",
+        "Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków"
       ],
       "summary_expectations": [
-        "wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np",
-        "w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych"
+        "Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym",
+        "Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe",
+        "Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO"
       ],
       "summary_offers": [
-        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne",
-        "Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi",
-        "Przewiń do profilu firmy HAMELIN Polska Sp"
+        "Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami",
+        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
+        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
       "id": "8b33f95839c21f6a",
@@ -755,6 +759,37 @@
       "first_found_at": "2026-09-08T06:26:54.139959+00:00"
     },
     {
+      "id": "829558bb59bc2212",
+      "title": "Specjalista ds. treści produktowych i e-commerce (K/M)",
+      "company": "HAMELIN Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-i-e-commerce-k-m-warszawa-jutrzenki-137a,oferta,1005043549",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-21T12:49:11.73Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: obsługa i bieżąca aktualizacja treści na platformie B2B | What they expect: wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np; w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych | What they offer: dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne; Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi; Przewiń do profilu firmy HAMELIN Polska Sp",
+      "summary_tasks": [
+        "obsługa i bieżąca aktualizacja treści na platformie B2B"
+      ],
+      "summary_expectations": [
+        "wykształcenie wyższe, preferowane kierunki: marketing, e-commerce, zarządzanie, media cyfrowe lub kierunki pokrewne, minimum 1 rok doświadczenia na podobnym stanowisku, np",
+        "w obszarze e-commerce, digital marketingu, content managementu lub zarządzania treścią produktową, doświadczenie w pracy z systemami CMS i PIM/DAM, dobra znajomość pakietu Microsoft Office, znajomość języka angielskiego na poziomie minimum B2, umożliwiająca swobodną komunikację z centralą firmy, bardzo dobra organizacja pracy i umiejętność ustalania priorytetów, samodzielność i odpowiedzialność za powierzone zadania, dokładność i dbałość o jakość danych"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych prywatna opieka medyczna dofinansowanie nauki języków możliwość pracy zdalnej zniżki na firmowe produkty i usługi spotkania integracyjne",
+        "Możliwość przystąpienia do ubezpieczenia grupowego Świąteczne Świadczenie Pieniężne O stanowisku To stanowisko dla osoby, która dobrze czuje się w obszarze e-commerce i digital marketingu, lubi pracę z treścią, danymi produktowymi i materiałami graficznymi",
+        "Przewiń do profilu firmy HAMELIN Polska Sp"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
       "id": "fe353e5f2a0be95e",
       "title": "Specjalist(k)a ds. Sprzedaży w digital marketingu z językiem polskim i angielskim",
       "company": "TTEC EUROPE B.V. SP. Z O.O. ODDZIAŁ W POLSCE",
@@ -783,40 +818,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-10T16:33:22.054709+00:00"
-    },
-    {
-      "id": "4611f4a80127517f",
-      "title": "SEO Specialist",
-      "company": "FABRYKA MARKETINGU sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/seo-specialist-warszawa-ratuszowa-11,oferta,1005049959",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-25T12:49:09.207Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity; Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce; Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków | What they expect: Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym; Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe; Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO | What they offer: Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami; Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać",
-      "summary_tasks": [
-        "Będziesz tworzyć i wdrażać strategie SEO z uwzględnieniem GEO (Generative Engine Optimization), czyli optymalizacji serwisów pod chatboty AI, takie jak ChatGPT, Gemini czy Perplexity",
-        "Przeprowadzać zaawansowane audyty techniczne SEO oraz na bieżąco optymalizować serwisy, również e-commerce",
-        "Przygotowywać analizy, zestawienia i analizy konkurencji oraz monitorować profil linków"
-      ],
-      "summary_expectations": [
-        "Masz minimum rok doświadczenia na stanowisku SEO Specialist lub podobnym",
-        "Znasz HTML, CSS i JavaScript oraz środowisko WordPress – rozumiesz, jak technicznie zbudowane są strony internetowe",
-        "Potrafisz redagować teksty i wiesz, jak pisać z myślą o użytkownikach i SEO"
-      ],
-      "summary_offers": [
-        "Samodzielność w działaniu oraz realny wpływ na prowadzone projekty i rozwój relacji z Klientami",
-        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
-        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz mogła/mógł się rozwijać"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
       "id": "945e3dd13bfd0022",
@@ -981,40 +982,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
-    },
-    {
-      "id": "ac25c14987c2220d",
-      "title": "Analityk danych (m/k/n)",
-      "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-danych-m-k-n-warszawa,oferta,1005078261",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-08T08:02:47.67Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI; Analiza i integracja danych; Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych | What they expect: Poparta doświadczeniem bardzo dobra znajomość języka SQL; Doświadczenie w zakresie przygotowywania raportów i analiz; Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych | What they offer: Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii; pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów); Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową",
-      "summary_tasks": [
-        "Przygotowywanie raportów analitycznych z zakresu nauki i szkolnictwa wyższego Wizualizacja danych w narzędziach klasy BI",
-        "Analiza i integracja danych",
-        "Wsparcie w zakresie projektowania, implementacji i utrzymania procesów ETL hurtowni danych"
-      ],
-      "summary_expectations": [
-        "Poparta doświadczeniem bardzo dobra znajomość języka SQL",
-        "Doświadczenie w zakresie przygotowywania raportów i analiz",
-        "Znajomość zagadnień związanych z projektowaniem struktur hurtowni danych"
-      ],
-      "summary_offers": [
-        "Prywatna opieka medyczna (preferencyjne warunki dla pracowników i ich rodzin) Brak dress code’u Program Erasmus+ dla pracowników Karty sportowe w ramach kafeterii",
-        "pożyczki) Ubezpieczenie na życie (preferencyjne warunki dla pracowników) Budżet rozwojowy (możliwość ubiegania się o dofinansowanie do studiów)",
-        "Łączymy stabilność instytucji publicznej z dynamicznym środowiskiem projektowym – oferujemy umowę o pracę, możliwość łączenia ścieżki zawodowej z naukową"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
       "id": "53f110f8eacd58d5",
