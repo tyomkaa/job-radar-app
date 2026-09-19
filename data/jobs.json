@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-19T06:37:40.809618+00:00",
-    "found": 6181,
-    "accepted": 93,
+    "generated_at": "2026-09-19T09:20:36.288753+00:00",
+    "found": 6150,
+    "accepted": 97,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1888
+        "fetched": 1868
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2383
+        "fetched": 2375
       }
     }
   },
@@ -1110,47 +1110,6 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "15af58d5b5a40627",
-      "title": "Performance Marketing Specialist (SEM, SEO, Analytics, AI-SEO)",
-      "company": "CodeTwo - HRejterzy",
-      "location": "Wrocław, Jelenia Góra",
-      "url": "https://justjoin.it/job-offer/codetwo---hrejterzy-performance-marketing-specialist-sem-seo-analytics-ai-seo--wroclaw-other-f9b849ca",
-      "apply_url": "https://codetwo.recruitee.com/o/performance-marketing-specialist-specjalista-ka-ds-performance-marketingu-sem-seo-analytics-ai-seo",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-19T06:00:05.3829106Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Monitorowaniem słów kluczowych, widoczności oraz analizą ruchu organicznego (Google Search Console, SEMrush itp.); Optymalizowaniem stron www i contentu pod kątem SEO i AI-SEO (optymalizacja treści pod modele/systemy AI oraz wyszukiwarki oparte na AI); Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO | What they expect: Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO; Przynajmniej 1,5 roku doświadczenia w performance marketingu / SEO; Praktycznego doświadczenia w prowadzeniu kampanii performance marketingowych (Google Ads, Microsoft Ads, Meta Ads lub innych platform) | What they offer: Wynagrodzenie od 9 000 zł do 16 000 zł brutto (umowa o pracę); Możliwość wyboru pomiędzy pracą zdalną, pracą w biurze we Wrocławiu lub Jeleniej Górze; Realny wpływ na rozwój firmy i jej produktów",
-      "summary_tasks": [
-        "Monitorowaniem słów kluczowych, widoczności oraz analizą ruchu organicznego (Google Search Console, SEMrush itp.)",
-        "Optymalizowaniem stron www i contentu pod kątem SEO i AI-SEO (optymalizacja treści pod modele/systemy AI oraz wyszukiwarki oparte na AI)",
-        "Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO"
-      ],
-      "summary_expectations": [
-        "Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO",
-        "Przynajmniej 1,5 roku doświadczenia w performance marketingu / SEO",
-        "Praktycznego doświadczenia w prowadzeniu kampanii performance marketingowych (Google Ads, Microsoft Ads, Meta Ads lub innych platform)"
-      ],
-      "summary_offers": [
-        "Wynagrodzenie od 9 000 zł do 16 000 zł brutto (umowa o pracę)",
-        "Możliwość wyboru pomiędzy pracą zdalną, pracą w biurze we Wrocławiu lub Jeleniej Górze",
-        "Realny wpływ na rozwój firmy i jej produktów"
-      ],
-      "required_skills": [
-        "Meta Ads",
-        "Linkedin Ads",
-        "Google Analytics",
-        "Microsoft Ads",
-        "Google Search Console",
-        "Google Ads"
-      ],
-      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
-    },
-    {
       "id": "e6856e3564d35625",
       "title": "Marketing & Business Operations Specialist (AI-driven)",
       "company": "PROBO MULTIMEDIA sp. z o.o. SK",
@@ -2058,44 +2017,77 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "d87c56d4f0b3e6bf",
-      "title": "Network Engineer",
-      "company": "Motorola Solutions",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/motorola-solutions-network-engineer-krakow-devops",
-      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Senior-Network-Engineer_R65743-1",
+      "id": "15af58d5b5a40627",
+      "title": "Performance Marketing Specialist (SEM, SEO, Analytics, AI-SEO)",
+      "company": "CodeTwo - HRejterzy",
+      "location": "Wrocław, Jelenia Góra",
+      "url": "https://justjoin.it/job-offer/codetwo---hrejterzy-performance-marketing-specialist-sem-seo-analytics-ai-seo--wroclaw-other-f9b849ca",
+      "apply_url": "https://codetwo.recruitee.com/o/performance-marketing-specialist-specjalista-ka-ds-performance-marketingu-sem-seo-analytics-ai-seo",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
+      "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-18T15:00:02.8265086Z",
+      "published_at": "2026-09-19T06:00:05.3829106Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting; Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments; Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans | What they expect: Practical experience configuring network hardware, specifically Juniper (SRX/EX) and; Familiarity with LAN/WAN concepts and VPN overlays; Basic Linux operating system and virtualization knowledge",
+      "summary": "What you'll do: Monitorowaniem słów kluczowych, widoczności oraz analizą ruchu organicznego (Google Search Console, SEMrush itp.); Optymalizowaniem stron www i contentu pod kątem SEO i AI-SEO (optymalizacja treści pod modele/systemy AI oraz wyszukiwarki oparte na AI); Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO | What they expect: Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO; Przynajmniej 1,5 roku doświadczenia w performance marketingu / SEO; Praktycznego doświadczenia w prowadzeniu kampanii performance marketingowych (Google Ads, Microsoft Ads, Meta Ads lub innych platform) | What they offer: Wynagrodzenie od 9 000 zł do 16 000 zł brutto (umowa o pracę); Możliwość wyboru pomiędzy pracą zdalną, pracą w biurze we Wrocławiu lub Jeleniej Górze; Realny wpływ na rozwój firmy i jej produktów",
       "summary_tasks": [
-        "Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting",
-        "Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments",
-        "Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans"
+        "Monitorowaniem słów kluczowych, widoczności oraz analizą ruchu organicznego (Google Search Console, SEMrush itp.)",
+        "Optymalizowaniem stron www i contentu pod kątem SEO i AI-SEO (optymalizacja treści pod modele/systemy AI oraz wyszukiwarki oparte na AI)",
+        "Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO"
       ],
       "summary_expectations": [
-        "Practical experience configuring network hardware, specifically Juniper (SRX/EX) and",
-        "Familiarity with LAN/WAN concepts and VPN overlays",
-        "Basic Linux operating system and virtualization knowledge"
+        "Szukamy osoby z doświadczeniem w performance marketingu B2B / SaaS, obejmującym kampanie w wyszukiwarkach, analitykę oraz SEO",
+        "Przynajmniej 1,5 roku doświadczenia w performance marketingu / SEO",
+        "Praktycznego doświadczenia w prowadzeniu kampanii performance marketingowych (Google Ads, Microsoft Ads, Meta Ads lub innych platform)"
       ],
-      "summary_offers": [],
+      "summary_offers": [
+        "Wynagrodzenie od 9 000 zł do 16 000 zł brutto (umowa o pracę)",
+        "Możliwość wyboru pomiędzy pracą zdalną, pracą w biurze we Wrocławiu lub Jeleniej Górze",
+        "Realny wpływ na rozwój firmy i jej produktów"
+      ],
       "required_skills": [
-        "IP networks",
-        "routing",
-        "TCP/IP",
-        "LAN/WAN",
-        "VPN",
-        "Linux",
-        "Virtualization",
-        "Scripting",
-        "mobile radio architectures"
+        "Meta Ads",
+        "Linkedin Ads",
+        "Google Analytics",
+        "Microsoft Ads",
+        "Google Search Console",
+        "Google Ads"
       ],
       "first_found_at": "2026-09-03T17:22:44.831756+00:00"
+    },
+    {
+      "id": "a657c62147b0112c",
+      "title": "IT Business Analyst (FinTech)",
+      "company": "CodeTalent Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/it-business-analyst-fintech-warszawa,oferta,1005093473",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-15T07:07:42.417Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji); Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro); Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence) | What they expect: Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ( | What they offer: Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe; Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy; Prywatna opieka medyczna i dofinansowanie karty sportowej",
+      "summary_tasks": [
+        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji)",
+        "Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro)",
+        "Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence)"
+      ],
+      "summary_expectations": [
+        "Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ("
+      ],
+      "summary_offers": [
+        "Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe",
+        "Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy",
+        "Prywatna opieka medyczna i dofinansowanie karty sportowej"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
       "id": "c358b77bc6f24aed",
@@ -2130,38 +2122,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-19T06:37:40.809618+00:00"
-    },
-    {
-      "id": "a657c62147b0112c",
-      "title": "IT Business Analyst (FinTech)",
-      "company": "CodeTalent Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/it-business-analyst-fintech-warszawa,oferta,1005093473",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-15T07:07:42.417Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji); Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro); Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence) | What they expect: Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ( | What they offer: Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe; Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy; Prywatna opieka medyczna i dofinansowanie karty sportowej",
-      "summary_tasks": [
-        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji)",
-        "Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro)",
-        "Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence)"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ("
-      ],
-      "summary_offers": [
-        "Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe",
-        "Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy",
-        "Prywatna opieka medyczna i dofinansowanie karty sportowej"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
       "id": "945e3dd13bfd0022",
@@ -2334,6 +2294,70 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "8cae5936d9d0bd94",
+      "title": "Analityk / Analityczka Danych",
+      "company": "Bank Polskiej Spółdzielczości SA",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa-grzybowska-81,oferta,1005048641",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-25T08:37:48.997Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze; automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych; współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych | What they expect: doświadczenie w analizie danych | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
+      "summary_tasks": [
+        "projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze",
+        "automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych",
+        "współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych"
+      ],
+      "summary_expectations": [
+        "doświadczenie w analizie danych"
+      ],
+      "summary_offers": [
+        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
+        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
+        "ubezpieczenie grupowe firmy Ergo Hestia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "e8cbcb377897e847",
+      "title": "Główny specjalista ds. analiz (m/k)",
+      "company": "Instytut Łączności-Państwowy Instytut Badawczy",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/glowny-specjalista-ds-analiz-m-k-warszawa-szachowa-1,oferta,1005071494",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-04T08:21:12.5Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Do głównych zadań osoby zatrudnionej będzie należało przygotowywanie analiz rynkowych, ekonomicznych i regulacyjnych, budowa modeli prognostycznych, analiza danych sektorowych, opracowywanie rekomendacji dla kierownictwa Instytutu | What they expect: Umiejętność budowy modeli finansowych i ekonometrycznych służących analizie oraz prognozowaniu zjawisk rynkowych; Doświadczenie w opracowywaniu analiz strategicznych i rekomendacji wspierających podejmowanie decyzji; Umiejętność przygotowywania raportów, analiz eksperckich i prezentacji wyników badań na poziomie zarządczym oraz dla interesariuszy rynku | What they offer: opiekę medyczną; karta MultiSport; elastyczne godziny pracy",
+      "summary_tasks": [
+        "Do głównych zadań osoby zatrudnionej będzie należało przygotowywanie analiz rynkowych, ekonomicznych i regulacyjnych, budowa modeli prognostycznych, analiza danych sektorowych, opracowywanie rekomendacji dla kierownictwa Instytutu"
+      ],
+      "summary_expectations": [
+        "Umiejętność budowy modeli finansowych i ekonometrycznych służących analizie oraz prognozowaniu zjawisk rynkowych",
+        "Doświadczenie w opracowywaniu analiz strategicznych i rekomendacji wspierających podejmowanie decyzji",
+        "Umiejętność przygotowywania raportów, analiz eksperckich i prezentacji wyników badań na poziomie zarządczym oraz dla interesariuszy rynku"
+      ],
+      "summary_offers": [
+        "opiekę medyczną",
+        "karta MultiSport",
+        "elastyczne godziny pracy"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
       "id": "491f741539b3e660",
       "title": "Specjalista ds. raportowania i analizy danych",
       "company": "ZWIĄZEK ARTYSTÓW WYKONAWCÓW STOART",
@@ -2435,38 +2459,6 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "8cae5936d9d0bd94",
-      "title": "Analityk / Analityczka Danych",
-      "company": "Bank Polskiej Spółdzielczości SA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa-grzybowska-81,oferta,1005048641",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-25T08:37:48.997Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze; automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych; współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych | What they expect: doświadczenie w analizie danych | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
-      "summary_tasks": [
-        "projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze",
-        "automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych",
-        "współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych"
-      ],
-      "summary_expectations": [
-        "doświadczenie w analizie danych"
-      ],
-      "summary_offers": [
-        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
-        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
-        "ubezpieczenie grupowe firmy Ergo Hestia"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
       "id": "559195954547b3db",
       "title": "IT Analityk / Analityczka Danych Biznesowych",
       "company": "ASTEK Polska",
@@ -2499,6 +2491,46 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "d87c56d4f0b3e6bf",
+      "title": "Network Engineer",
+      "company": "Motorola Solutions",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/motorola-solutions-network-engineer-krakow-devops",
+      "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Senior-Network-Engineer_R65743-1",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-18T15:00:02.8265086Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting; Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments; Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans | What they expect: Practical experience configuring network hardware, specifically Juniper (SRX/EX) and; Familiarity with LAN/WAN concepts and VPN overlays; Basic Linux operating system and virtualization knowledge",
+      "summary_tasks": [
+        "Permanent Job description As an engineer in our group, you will handle hands-on network architecture, security implementation, and scripting",
+        "Routing setup: Implementing dynamic routing (OSPF, eBGP) for large-scale deployments",
+        "Security: Setting up network defense segments, deploying Intrusion Detection Systems, managing PKI, and performing vulnerability scans"
+      ],
+      "summary_expectations": [
+        "Practical experience configuring network hardware, specifically Juniper (SRX/EX) and",
+        "Familiarity with LAN/WAN concepts and VPN overlays",
+        "Basic Linux operating system and virtualization knowledge"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "IP networks",
+        "routing",
+        "TCP/IP",
+        "LAN/WAN",
+        "VPN",
+        "Linux",
+        "Virtualization",
+        "Scripting",
+        "mobile radio architectures"
+      ],
+      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
     },
     {
       "id": "78d46baf47d0e3ca",
@@ -2633,6 +2665,46 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "19615f819bc652c0",
+      "title": "Analityk Biznesowy",
+      "company": "Asseco Poland S.A.",
+      "location": "Gdynia",
+      "url": "https://justjoin.it/job-offer/asseco-poland-s-a--analityk-biznesowy-gdynia-analytics-478cb138",
+      "apply_url": "https://praca.asseco.pl/Oferta/a24d9351-7211-4bae-9cfe-9e207996438a/Aplikacja",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-18T13:00:06.906703Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Analityk Biznesowy Save Apply All offers Gdynia Analytics Analityk Biznesowy Analytics Analityk Biznesowy Analytics Kazimierza Górskiego 2 , Gdynia Asseco Poland S; Rekrutacja prowadzona zdalnie (rozmowa telefoniczna + 1 spotkanie) Czym będziesz się zajmować?; Similar offers B2Bnetwork Wrocław Remote Remote Analityk Biznesowy / Analityczka Biznesowa (AML/KYC) New 21,04 | What they expect: Wsparciem procesu ustalania kierunków rozwoju systemów zgodnie z potrzebami i trendami rynku i były konkurencyjne Definiowaniem wymagań funkcjonalnych dla rozwijanych funkcjonalności i weryfikacja ich spełniania Identyfikowaniem i modelowaniem procesów biznesowych klienta Dokumentowaniem wymagań, potrzeb; 5-letnie doświadczenie w pracy na podobnym stanowisku Wykształcenie wyższe (preferowane kierunki informatyczne) Doświadczenie w pracy z klientem; 37,17 USD/h Koordynacja zmian systemowych Uzgadnianie potrzeb biznesowych Specyfikacja wymagań Analiza Biznesowa Prototypowanie zmian Zarządzanie relacjami z klientami Współpraca z zespołem dev i QA Zarządzanie projektami biznesowymi Planowanie i monitorowanie prac Kontrola budżetowa Mid Mid B2B B2B B2B Contract B2B Contract New Tukano Software House Sp | What they offer: Ubezpieczenie grupowe; Prywatna opieka medyczna; Multisport",
+      "summary_tasks": [
+        "Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Analityk Biznesowy Save Apply All offers Gdynia Analytics Analityk Biznesowy Analytics Analityk Biznesowy Analytics Kazimierza Górskiego 2 , Gdynia Asseco Poland S",
+        "Rekrutacja prowadzona zdalnie (rozmowa telefoniczna + 1 spotkanie) Czym będziesz się zajmować?",
+        "Similar offers B2Bnetwork Wrocław Remote Remote Analityk Biznesowy / Analityczka Biznesowa (AML/KYC) New 21,04"
+      ],
+      "summary_expectations": [
+        "Wsparciem procesu ustalania kierunków rozwoju systemów zgodnie z potrzebami i trendami rynku i były konkurencyjne Definiowaniem wymagań funkcjonalnych dla rozwijanych funkcjonalności i weryfikacja ich spełniania Identyfikowaniem i modelowaniem procesów biznesowych klienta Dokumentowaniem wymagań, potrzeb",
+        "5-letnie doświadczenie w pracy na podobnym stanowisku Wykształcenie wyższe (preferowane kierunki informatyczne) Doświadczenie w pracy z klientem",
+        "37,17 USD/h Koordynacja zmian systemowych Uzgadnianie potrzeb biznesowych Specyfikacja wymagań Analiza Biznesowa Prototypowanie zmian Zarządzanie relacjami z klientami Współpraca z zespołem dev i QA Zarządzanie projektami biznesowymi Planowanie i monitorowanie prac Kontrola budżetowa Mid Mid B2B B2B B2B Contract B2B Contract New Tukano Software House Sp"
+      ],
+      "summary_offers": [
+        "Ubezpieczenie grupowe",
+        "Prywatna opieka medyczna",
+        "Multisport"
+      ],
+      "required_skills": [
+        "SQL",
+        "Analiza Biznesowa",
+        "Analityczne Myślenie",
+        "Jira",
+        "MS Office"
+      ],
+      "first_found_at": "2026-09-19T09:20:36.288753+00:00"
     },
     {
       "id": "5a24bdc1dc21a9e0",
@@ -3109,44 +3181,6 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "c3bb798d0ecf61bf",
-      "title": "BPO IT & Operations Specialist ( Internal Communication Specialist)",
-      "company": "RÖDL",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/rodl-bpo-it-operations-specialist-warszawa-analytics",
-      "apply_url": "https://roedl.elevato.net/pl/bpo-it-operations-specialist,j,3579",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-18T09:00:08.313592Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Support global initiatives related to; AI, process automation, and application development; Collaborate with business and IT teams to identify and implement process improvements | What they expect: Support project documentation and knowledge-sharing activities; Excellent written and verbal English communication skills; Experience creating communication and training materials | What they offer: W naszej organizacji wiemy, jak istotne dla rozwoju zawodowego jest znalezienie równowagi między pracą a życiem prywatnym; AI, process automation, and application development; Create communication, presentation, training, and informational materials",
-      "summary_tasks": [
-        "Support global initiatives related to",
-        "AI, process automation, and application development",
-        "Collaborate with business and IT teams to identify and implement process improvements"
-      ],
-      "summary_expectations": [
-        "Support project documentation and knowledge-sharing activities",
-        "Excellent written and verbal English communication skills",
-        "Experience creating communication and training materials"
-      ],
-      "summary_offers": [
-        "W naszej organizacji wiemy, jak istotne dla rozwoju zawodowego jest znalezienie równowagi między pracą a życiem prywatnym",
-        "AI, process automation, and application development",
-        "Create communication, presentation, training, and informational materials"
-      ],
-      "required_skills": [
-        "Business Analysis",
-        "AI",
-        "Microsoft Office"
-      ],
-      "first_found_at": "2026-09-19T06:37:40.809618+00:00"
-    },
-    {
       "id": "f0f9b0176bf10eef",
       "title": "Administrator sieci teleinformatycznych (k/m)",
       "company": "PIT-RADWAR S.A.",
@@ -3179,6 +3213,108 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "d7e3b4347a8cbca1",
+      "title": "Administrator / Administratorka Systemów Linux",
+      "company": "nazwa.pl",
+      "location": "Kraków, małopolskie, Polska",
+      "url": "https://www.pracuj.pl/praca/administrator-administratorka-systemow-linux-krakow-pana-tadeusza-2,oferta,1005081425",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-09T08:51:41.167Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: instalacja, konfiguracja i administracja systemami operacyjnymi; monitorowanie stanu systemów informatycznych; projektowanie i wdrażanie rozwiązań i tworzenie dokumentacji technicznej | What they expect: na co dzień administrujesz systemami i masz zaawansowaną znajomość Linuxa; znasz narzędzia systemowe i potrafisz je wykorzystać do monitorowania, konfiguracji i optymalizacji parametrów pracy; masz praktyczną znajomość narzędzi Nagios, Grafana/Graphite | What they offer: rozwój w największej firmie w Europie Środkowo-Wschodniej świadczącej usługi hostingu w chmurze; możliwość pracy w 100% zdalnej; rozbudowane zaplecze socjalne oraz system licznych benefitów",
+      "summary_tasks": [
+        "instalacja, konfiguracja i administracja systemami operacyjnymi",
+        "monitorowanie stanu systemów informatycznych",
+        "projektowanie i wdrażanie rozwiązań i tworzenie dokumentacji technicznej"
+      ],
+      "summary_expectations": [
+        "na co dzień administrujesz systemami i masz zaawansowaną znajomość Linuxa",
+        "znasz narzędzia systemowe i potrafisz je wykorzystać do monitorowania, konfiguracji i optymalizacji parametrów pracy",
+        "masz praktyczną znajomość narzędzi Nagios, Grafana/Graphite"
+      ],
+      "summary_offers": [
+        "rozwój w największej firmie w Europie Środkowo-Wschodniej świadczącej usługi hostingu w chmurze",
+        "możliwość pracy w 100% zdalnej",
+        "rozbudowane zaplecze socjalne oraz system licznych benefitów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-19T09:20:36.288753+00:00"
+    },
+    {
+      "id": "87bb9ea03ef4b552",
+      "title": "Administrator Systemów IT (K/M)",
+      "company": "TRIOL-POLAND sp. z o.o.",
+      "location": "Ostrówek (pow. węgrowski), mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/administrator-systemow-it-k-m-ostrowek-pow-wegrowski-fabryczna-59,oferta,1005078531",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-08T08:56:47.333Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Administracja i wsparcie środowisk cloud/hybrid oraz usług hostingowych, w tym domen, DNS, certyfikatów i usług współpracy; Tworzenie i utrzymywanie dokumentacji infrastruktury, procedur, checklist; Automatyzacja powtarzalnych zadań administracyjnych z wykorzystaniem PowerShell i/lub Bash | What they expect: Minimum 2,5–3,5 lata praktycznego doświadczenia w administracji systemami IT lub infrastrukturą IT; Samodzielność w rozwiązywaniu problemów na poziomie L2 oraz umiejętność przyjmowania i obsługi bardziej złożonych eskalacji; Bardzo dobra znajomość Windows Server, w szczególności usług systemowych, Event Viewer, DNS/DHCP, Active Directory i GPO | What they offer: Security/NIS2 jest jednym z możliwych kierunków rozwoju, a nie jedyną przewidzianą ścieżką kariery; Warunki finansowe: stabilne i terminowe wynagrodzenie, ubezpieczenie grupowe oraz niezbędne narzędzia do pracy; Działamy na rynku energoelektroniki od ponad 30 lat, realizując pełny cykl prac - od rozwoju i produkcji urządzeń po sprzedaż i wdrożenie u Klienta",
+      "summary_tasks": [
+        "Administracja i wsparcie środowisk cloud/hybrid oraz usług hostingowych, w tym domen, DNS, certyfikatów i usług współpracy",
+        "Tworzenie i utrzymywanie dokumentacji infrastruktury, procedur, checklist",
+        "Automatyzacja powtarzalnych zadań administracyjnych z wykorzystaniem PowerShell i/lub Bash"
+      ],
+      "summary_expectations": [
+        "Minimum 2,5–3,5 lata praktycznego doświadczenia w administracji systemami IT lub infrastrukturą IT",
+        "Samodzielność w rozwiązywaniu problemów na poziomie L2 oraz umiejętność przyjmowania i obsługi bardziej złożonych eskalacji",
+        "Bardzo dobra znajomość Windows Server, w szczególności usług systemowych, Event Viewer, DNS/DHCP, Active Directory i GPO"
+      ],
+      "summary_offers": [
+        "Security/NIS2 jest jednym z możliwych kierunków rozwoju, a nie jedyną przewidzianą ścieżką kariery",
+        "Warunki finansowe: stabilne i terminowe wynagrodzenie, ubezpieczenie grupowe oraz niezbędne narzędzia do pracy",
+        "Działamy na rynku energoelektroniki od ponad 30 lat, realizując pełny cykl prac - od rozwoju i produkcji urządzeń po sprzedaż i wdrożenie u Klienta"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-19T09:20:36.288753+00:00"
+    },
+    {
+      "id": "a8d47a2d0af7f063",
+      "title": "Microsoft SQL Server Administrator (Infrastructure Administrator)",
+      "company": "Sopra Steria Polska Sp. z o.o.",
+      "location": "Katowice, Silesian, Poland",
+      "url": "https://www.pracuj.pl/praca/microsoft-sql-server-administrator-infrastructure-administrator-katowice-zelazna-10,oferta,1005087085",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-11T07:34:39.49Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Administer and maintain Windows Server and Microsoft SQL Server environments; Manage backup and restore processes and support infrastructure migration projects; Automate operational and administrative tasks using Ansible | What they expect: Hands-on experience with Windows Server administration and support; Strong knowledge of Microsoft SQL Server 2016; Experience with infrastructure automation using Ansible | What they offer: BENEFITS (UoP): Luxmed, Medicover Sport, Worksmile, educational platforms, languages learning platform, referral bonus, copyrights, life insurance, workation; sharing the costs of professional training & courses; remote work opportunities",
+      "summary_tasks": [
+        "Administer and maintain Windows Server and Microsoft SQL Server environments",
+        "Manage backup and restore processes and support infrastructure migration projects",
+        "Automate operational and administrative tasks using Ansible"
+      ],
+      "summary_expectations": [
+        "Hands-on experience with Windows Server administration and support",
+        "Strong knowledge of Microsoft SQL Server 2016",
+        "Experience with infrastructure automation using Ansible"
+      ],
+      "summary_offers": [
+        "BENEFITS (UoP): Luxmed, Medicover Sport, Worksmile, educational platforms, languages learning platform, referral bonus, copyrights, life insurance, workation",
+        "sharing the costs of professional training & courses",
+        "remote work opportunities"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-19T09:20:36.288753+00:00"
     }
   ]
 }
