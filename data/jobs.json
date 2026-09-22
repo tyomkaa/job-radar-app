@@ -1,21 +1,21 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-21T06:40:40.410144+00:00",
-    "found": 4073,
-    "accepted": 91,
+    "generated_at": "2026-09-22T06:40:42.636985+00:00",
+    "found": 5997,
+    "accepted": 103,
     "sources": {
       "justjoin.it": {
-        "status": "error",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 2000
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1827
+        "fetched": 1812
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2302
+        "fetched": 2301
       }
     }
   },
@@ -329,42 +329,6 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "9c0ba4b04c8ff46f",
-      "title": "Junior Performance Marketing Specialist",
-      "company": "Match-Trade Technologies",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-performance-marketing-specialist-warszawa-gieldowa-5,oferta,1005089359",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-11T22:00:00Z",
-      "fit_score": 83,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach; Monitoring kluczowych wskaźników efektywności i raportowanie; Współpraca z zespołami marketingu i sprzedaży | What they expect: Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np; Praktyczna znajomość GA4 lub innych narzędzi analityki webowej; Znajomość podstawowych pojęć i wskaźników performance marketingu | What they offer: Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma; Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport; Inwestujemy w rozwój zawodowy",
-      "summary_tasks": [
-        "Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach",
-        "Monitoring kluczowych wskaźników efektywności i raportowanie",
-        "Współpraca z zespołami marketingu i sprzedaży"
-      ],
-      "summary_expectations": [
-        "Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np",
-        "Praktyczna znajomość GA4 lub innych narzędzi analityki webowej",
-        "Znajomość podstawowych pojęć i wskaźników performance marketingu"
-      ],
-      "summary_offers": [
-        "Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma",
-        "Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport",
-        "Inwestujemy w rozwój zawodowy"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00",
-      "contact_email": "contact@match-trade.com",
-      "contact_email_kind": "company_contact"
-    },
-    {
       "id": "fa50cc4779a585bb",
       "title": "Młodszy specjalista / Młodsza specjalistka ds. marketingu i PR",
       "company": "UNIFEQ",
@@ -397,6 +361,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "9c0ba4b04c8ff46f",
+      "title": "Junior Performance Marketing Specialist",
+      "company": "Match-Trade Technologies",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-performance-marketing-specialist-warszawa-gieldowa-5,oferta,1005089359",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-11T22:00:00Z",
+      "fit_score": 83,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach; Monitoring kluczowych wskaźników efektywności i raportowanie; Współpraca z zespołami marketingu i sprzedaży | What they expect: Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np; Praktyczna znajomość GA4 lub innych narzędzi analityki webowej; Znajomość podstawowych pojęć i wskaźników performance marketingu | What they offer: Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma; Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport; Inwestujemy w rozwój zawodowy",
+      "summary_tasks": [
+        "Planowanie, tworzenie i optymalizacja kampanii w Google Ads, a docelowo również LinkedIn Ads, Meta Ads i na innych platformach",
+        "Monitoring kluczowych wskaźników efektywności i raportowanie",
+        "Współpraca z zespołami marketingu i sprzedaży"
+      ],
+      "summary_expectations": [
+        "Minimum rok doświadczenia w pracy z jednym z systemów reklamowych np",
+        "Praktyczna znajomość GA4 lub innych narzędzi analityki webowej",
+        "Znajomość podstawowych pojęć i wskaźników performance marketingu"
+      ],
+      "summary_offers": [
+        "Wszyscy pracownicy, niezależnie od stażu pracy, mają dostęp do pakietu prywatnej opieki medycznej Medicover, który w całości opłaca firma",
+        "Oferujemy naszym pracownikom możliwość aktywnego spędzania wolnego czasu dzięki karcie MultiSport",
+        "Inwestujemy w rozwój zawodowy"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
       "id": "529129514f8f6bac",
@@ -433,40 +431,6 @@
       "first_found_at": "2026-09-18T06:39:59.734532+00:00"
     },
     {
-      "id": "f19f414546fbc95d",
-      "title": "Junior Operations Specialist (f/m/x)",
-      "company": "Sii Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/junior-operations-specialist-f-m-x-warszawa-aleja-niepodleglosci-69,oferta,1005051647",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-08-26T08:53:01.93Z",
-      "fit_score": 81,
-      "match_level": "STRONG",
-      "summary": "What you'll do: Process and reconcile dividend-related transactions and events; Support the handling of mergers, liquidations, and other investment lifecycle events; Analysing data discrepancies in Excel | What they expect: Good knowledge of MS Office, mainly Excel; Excellent communication skills and a team player attitude; Residing in Poland required | What they offer: Attractive benefits package - private healthcare, benefits cafeteria platform, car discounts and more; Comfortable workplace – class A offices or remote work; Investment in your growth – meetups, webinars, training platform and technology blog – you choose",
-      "summary_tasks": [
-        "Process and reconcile dividend-related transactions and events",
-        "Support the handling of mergers, liquidations, and other investment lifecycle events",
-        "Analysing data discrepancies in Excel"
-      ],
-      "summary_expectations": [
-        "Good knowledge of MS Office, mainly Excel",
-        "Excellent communication skills and a team player attitude",
-        "Residing in Poland required"
-      ],
-      "summary_offers": [
-        "Attractive benefits package - private healthcare, benefits cafeteria platform, car discounts and more",
-        "Comfortable workplace – class A offices or remote work",
-        "Investment in your growth – meetups, webinars, training platform and technology blog – you choose"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
-    },
-    {
       "id": "c0794edeb58b592a",
       "title": "Junior Ocean Freight Operations Specialist",
       "company": "CSA GLOBAL LOGISTICS (POLAND) SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -499,6 +463,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-18T06:39:59.734532+00:00"
+    },
+    {
+      "id": "e878c11ec70e6a9a",
+      "title": "Młodszy Specjalista ds. Operacji i Rozliczeń Usług Finansowych (K/M/N)",
+      "company": "RTV EURO AGD",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-ds-operacji-i-rozliczen-uslug-finansowych-k-m-n-warszawa-krakowiakow-42,oferta,1005079362",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-08T11:45:08.377Z",
+      "fit_score": 81,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Prowadzenie rozliczeń produktów i usług finansowych oraz usług płatniczych, w tym uzgadnianie naliczeń prowizji, wystawianie faktur i monitorowanie płatności z kontrahentami; Współpraca z właścicielami produktów, kontrahentami oraz innymi działami przy obsłudze, rozliczaniu oraz wdrażaniu nowych produktów i usług finansowych; Współudział w przygotowywaniu zapisów do umów z dostawcami, tworzeniu dokumentacji dla partnerów biznesowych oraz regulaminów promocji i produktów finansowych | What they expect: Doświadczenie w obszarze finansów, bankowości, ubezpieczeń, płatności lub rozliczeń oraz zrozumienie specyfiki produktów i usług finansowych; Umiejętność analizy danych, przygotowywania zestawień i wyciągania wniosków; Znajomość pakietu MS Office, w szczególności programu Excel, na poziomie bardzo dobrym | What they offer: Przestrzeń do wdrażania własnych pomysłów i rozwiązań – Twoje decyzje mają znaczenie i realnie wpływają na rozwój obszaru, za który odpowiadasz; Benefity, które wspierają zdrowie i codzienny komfort Twój i Twoich Bliskich – prywatna opieka medyczna, karty sportowe, ubezpieczenie na życie; Praca stacjonarna w nowoczesnym biurze w kompleksie The Park Warsaw z bezpłatnym parkingiem, obiektami gastronomicznymi, przedszkolem, siłownią i przyjazną infrastrukturą rowerową",
+      "summary_tasks": [
+        "Prowadzenie rozliczeń produktów i usług finansowych oraz usług płatniczych, w tym uzgadnianie naliczeń prowizji, wystawianie faktur i monitorowanie płatności z kontrahentami",
+        "Współpraca z właścicielami produktów, kontrahentami oraz innymi działami przy obsłudze, rozliczaniu oraz wdrażaniu nowych produktów i usług finansowych",
+        "Współudział w przygotowywaniu zapisów do umów z dostawcami, tworzeniu dokumentacji dla partnerów biznesowych oraz regulaminów promocji i produktów finansowych"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w obszarze finansów, bankowości, ubezpieczeń, płatności lub rozliczeń oraz zrozumienie specyfiki produktów i usług finansowych",
+        "Umiejętność analizy danych, przygotowywania zestawień i wyciągania wniosków",
+        "Znajomość pakietu MS Office, w szczególności programu Excel, na poziomie bardzo dobrym"
+      ],
+      "summary_offers": [
+        "Przestrzeń do wdrażania własnych pomysłów i rozwiązań – Twoje decyzje mają znaczenie i realnie wpływają na rozwój obszaru, za który odpowiadasz",
+        "Benefity, które wspierają zdrowie i codzienny komfort Twój i Twoich Bliskich – prywatna opieka medyczna, karty sportowe, ubezpieczenie na życie",
+        "Praca stacjonarna w nowoczesnym biurze w kompleksie The Park Warsaw z bezpłatnym parkingiem, obiektami gastronomicznymi, przedszkolem, siłownią i przyjazną infrastrukturą rowerową"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
     },
     {
       "id": "5ab3fdf5a013c56b",
@@ -769,6 +767,44 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "46bf7cdca3d99796",
+      "title": "Młodszy analityk ds. cyberbezpieczeństwa / SOC L1 (K/M/X)",
+      "company": "COMARCH",
+      "location": "Kraków",
+      "url": "https://justjoin.it/job-offer/comarch-mlodszy-analityk-ds-cyberbezpieczenstwa-soc-l1-k-m-x--krakow-security",
+      "apply_url": "https://kariera.comarch.pl/praca/mlodszy-analityk-ds-cyberbezpieczenstwa-soc-l1-k-m-x/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-21T12:43:11.95303Z",
+      "fit_score": 70,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Wrocław , +2 Locations Hybrid Hybrid SOC L1 Analyst New 1 577,70 | What they expect: Chcesz postawić pierwsze kroki w świecie IT lub masz już podstawowe doświadczenie i szukasz miejsca, gdzie rozwiniesz się w obszarze cyberbezpieczeństwa?; Dołącz do zespołu SOC L1 w pionie Chief Information Security Office i pracuj z doświadczonym zespołem, ucząc się na realnych przypadkach i podnosząc swoje kompetencje w świecie cyberzagrożeń; możesz wybrać pełne dofinansowanie do karty Multisport czy przeznaczyć środki na kulturę, wypoczynek lub sport i zakupy Możliwość korzystania z zaawansowanych narzędzi AI i Google Workspace Możliwość pracy w modelu hybrydowym po okresie wdrożenia (2 dni pracy zdalnej, 3 dni pracy z biura) Współpraca z różnymi zespołami kompetencyjnymi, która pozwoli Ci na poznanie nowych technologii i poszerzenie wiedzy w obszarze IT Udogodnienia dla rowerzystów/ rowerzystek (stojaki, szatnie, rowerownie, stacja naprawcza), a dla tych, co do pracy docierają samochodem",
+      "summary_tasks": [
+        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
+        "Wspieramy finanse, handel i MŚP, współpracując z g",
+        "Wrocław , +2 Locations Hybrid Hybrid SOC L1 Analyst New 1 577,70"
+      ],
+      "summary_expectations": [
+        "Chcesz postawić pierwsze kroki w świecie IT lub masz już podstawowe doświadczenie i szukasz miejsca, gdzie rozwiniesz się w obszarze cyberbezpieczeństwa?",
+        "Dołącz do zespołu SOC L1 w pionie Chief Information Security Office i pracuj z doświadczonym zespołem, ucząc się na realnych przypadkach i podnosząc swoje kompetencje w świecie cyberzagrożeń",
+        "możesz wybrać pełne dofinansowanie do karty Multisport czy przeznaczyć środki na kulturę, wypoczynek lub sport i zakupy Możliwość korzystania z zaawansowanych narzędzi AI i Google Workspace Możliwość pracy w modelu hybrydowym po okresie wdrożenia (2 dni pracy zdalnej, 3 dni pracy z biura) Współpraca z różnymi zespołami kompetencyjnymi, która pozwoli Ci na poznanie nowych technologii i poszerzenie wiedzy w obszarze IT Udogodnienia dla rowerzystów/ rowerzystek (stojaki, szatnie, rowerownie, stacja naprawcza), a dla tych, co do pracy docierają samochodem"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "TCP/IP",
+        "Windows",
+        "Linux",
+        "Bash",
+        "Powershell"
+      ],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
+    },
+    {
       "id": "ebbd8ad7a699f16d",
       "title": "Młodszy analityk / Młodsza analityczka danych",
       "company": "ZE PAK S.A.",
@@ -871,6 +907,41 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "7b10e9095936233a",
+      "title": "Junior IT Business Analyst (Banking)",
+      "company": "COMARCH",
+      "location": "Katowice",
+      "url": "https://justjoin.it/job-offer/comarch-junior-it-business-analyst-banking--katowice-analytics",
+      "apply_url": "https://kariera.comarch.pl/praca/junior-it-business-analyst-banking/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-22T06:00:09.4504928Z",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Katowice Hybrid Hybrid IT Analyst New 1 340,27 | What they expect: Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Junior IT Business Analyst (Banking) Save Apply All offers Katowice Analytics Junior IT Business Analyst (Banking) Analytics Junior IT Business Analyst (Banking) Analytics Baildona , Katowice COMARCH Job offers COMARCH Full-time Permanent Junior Hybrid 3 onsite / 2 remote Job description Do naszego zespołu poszukujemy osoby na stanowisko Junior IT Business Analyst, która odznacza się ścisłym, analitycznym myśleniem i chce rozwijać swoje kompetencje w obszarze systemów bankowych; Jeśli masz pierwsze doświadczenia analityczne, dobrze czujesz się w świecie finansów, sprawnie komunikujesz się po angielsku i chcesz uczyć się od doświadczonych ekspertów; Profil stanowiska Minimum 1 rok doświadczenia zawodowego w sektorze bankowym / IT Rozwinięte zdolności analityczne, logiczne myślenie",
+      "summary_tasks": [
+        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
+        "Wspieramy finanse, handel i MŚP, współpracując z g",
+        "Katowice Hybrid Hybrid IT Analyst New 1 340,27"
+      ],
+      "summary_expectations": [
+        "Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters Junior IT Business Analyst (Banking) Save Apply All offers Katowice Analytics Junior IT Business Analyst (Banking) Analytics Junior IT Business Analyst (Banking) Analytics Baildona , Katowice COMARCH Job offers COMARCH Full-time Permanent Junior Hybrid 3 onsite / 2 remote Job description Do naszego zespołu poszukujemy osoby na stanowisko Junior IT Business Analyst, która odznacza się ścisłym, analitycznym myśleniem i chce rozwijać swoje kompetencje w obszarze systemów bankowych",
+        "Jeśli masz pierwsze doświadczenia analityczne, dobrze czujesz się w świecie finansów, sprawnie komunikujesz się po angielsku i chcesz uczyć się od doświadczonych ekspertów",
+        "Profil stanowiska Minimum 1 rok doświadczenia zawodowego w sektorze bankowym / IT Rozwinięte zdolności analityczne, logiczne myślenie"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Analiza Biznesowa",
+        "banking"
+      ],
+      "first_found_at": "2026-09-04T10:30:52.239895+00:00",
+      "contact_email": "praca@comarch.pl",
+      "contact_email_kind": "recruitment"
+    },
+    {
       "id": "7bdf17e9addec263",
       "title": "Młodszy/a Specjalista/ka ds. Danych i Procesów Zakupowych (Junior Data and Purchasing Process Specialist)",
       "company": "Prettl Adion Polska Sp. z o.o.",
@@ -937,6 +1008,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "e08226ec19cd95b1",
+      "title": "Junior Community Marketing Specialist",
+      "company": "Verita HR",
+      "location": "POL Poland Warszawa junior-community-marketing-specialist-verita-hr-warszawa False",
+      "url": "https://nofluffjobs.com/pl/job/junior-community-marketing-specialist-verita-hr-warszawa",
+      "apply_url": "",
+      "source": "nofluffjobs.com",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Unspecified",
+      "seniority": "Junior",
+      "salary": "permanent PLN Month AT_SECOND_INTERVIEW False",
+      "published_at": "1789974838514",
+      "fit_score": 64,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Develop and maintain active relationships with online communities across various social media platforms; Monitor online conversations, identify emerging trends, and maintain a positive brand presence; Support the resolution of customer concerns and contribute to effective reputation management | What they expect: Around 1–2 years of experience in digital marketing, community management, communications, or a similar role; Excellent writing and communication skills in both; Familiarity with SEO fundamentals and content optimization principles | What they offer: Pakiet sportowy; Prywatna opieka medyczna; Międzynarodowe projekty",
+      "summary_tasks": [
+        "Develop and maintain active relationships with online communities across various social media platforms",
+        "Monitor online conversations, identify emerging trends, and maintain a positive brand presence",
+        "Support the resolution of customer concerns and contribute to effective reputation management"
+      ],
+      "summary_expectations": [
+        "Around 1–2 years of experience in digital marketing, community management, communications, or a similar role",
+        "Excellent writing and communication skills in both",
+        "Familiarity with SEO fundamentals and content optimization principles"
+      ],
+      "summary_offers": [
+        "Pakiet sportowy",
+        "Prywatna opieka medyczna",
+        "Międzynarodowe projekty"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
     },
     {
       "id": "41ed2fe1782d9063",
@@ -1346,6 +1451,40 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "fdfbb6518902d2ab",
+      "title": "Sales and Marketing Specialist at Saga Egmont (Maternity cover)",
+      "company": "Saga Egmont",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/sales-and-marketing-specialist-at-saga-egmont-maternity-cover-warszawa,oferta,1005075196",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-07T08:39:52.51Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Manage communications and develop collaborations with our retailers; Analyse campaign results to optimize future efforts; Developing and implementing marketing plans for individual titles | What they expect: have experience working in marketing, communications and/or sales of popular literature, preferably at a publishing house; are a quick learner, efficient, and meticulous; have the ability to quickly adapt to different IT systems of high complexity | What they offer: Hybrid work model with a great deal of flexibility (working from home full-time is not possible); Private medical care; Worksmile benefits program",
+      "summary_tasks": [
+        "Manage communications and develop collaborations with our retailers",
+        "Analyse campaign results to optimize future efforts",
+        "Developing and implementing marketing plans for individual titles"
+      ],
+      "summary_expectations": [
+        "have experience working in marketing, communications and/or sales of popular literature, preferably at a publishing house",
+        "are a quick learner, efficient, and meticulous",
+        "have the ability to quickly adapt to different IT systems of high complexity"
+      ],
+      "summary_offers": [
+        "Hybrid work model with a great deal of flexibility (working from home full-time is not possible)",
+        "Private medical care",
+        "Worksmile benefits program"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
+    },
+    {
       "id": "3bf1313036f0bb3b",
       "title": "Specjalista ds. marketingu (K/M)",
       "company": "TOPSERW",
@@ -1378,40 +1517,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "83ae776a06f82c6c",
-      "title": "Specjalista ds. Treści produktowych e-Apteka (k/m)",
-      "company": "Super-Pharm",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-e-apteka-k-m-warszawa,oferta,1005070545",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-03T15:14:17.677Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej; Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy; Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego | What they expect: Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej; Doświadczenie w tworzeniu angażujących treści; Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim | What they offer: Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne; Możliwość rozwoju w obszarze sprzedaży internetowej; Możliwość pracy zdalnej 2 razy w tygodniu",
-      "summary_tasks": [
-        "Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej",
-        "Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy",
-        "Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego"
-      ],
-      "summary_expectations": [
-        "Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej",
-        "Doświadczenie w tworzeniu angażujących treści",
-        "Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim"
-      ],
-      "summary_offers": [
-        "Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne",
-        "Możliwość rozwoju w obszarze sprzedaży internetowej",
-        "Możliwość pracy zdalnej 2 razy w tygodniu"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
     },
     {
       "id": "9de4f0b6ac8ef8ee",
@@ -1512,6 +1617,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
+      "id": "6359686db6da20de",
+      "title": "Specjalistka / Specjalista e-commerce",
+      "company": "SMYK sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalistka-specjalista-e-commerce-warszawa-domaniewska-48,oferta,1005106208",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-21T10:51:53.29Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój; Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych; Prowadzenie komunikacji Mobile Push i analiza jej wyników | What they expect: Doświadczenie w konfigurowaniu sklepów online; Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej; Znajomość pakietu MS Office na poziomie średniozaawansowanym | What they offer: Udział w szkoleniach stacjonarnych, językowych i e-learningowych; Możliwość przystąpienia do ubezpieczenia grupowego; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój",
+        "Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych",
+        "Prowadzenie komunikacji Mobile Push i analiza jej wyników"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w konfigurowaniu sklepów online",
+        "Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej",
+        "Znajomość pakietu MS Office na poziomie średniozaawansowanym"
+      ],
+      "summary_offers": [
+        "Udział w szkoleniach stacjonarnych, językowych i e-learningowych",
+        "Możliwość przystąpienia do ubezpieczenia grupowego",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
     },
     {
       "id": "5eb573ba6394bbaa",
@@ -1778,6 +1917,40 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "83ae776a06f82c6c",
+      "title": "Specjalista ds. Treści produktowych e-Apteka (k/m)",
+      "company": "Super-Pharm",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-e-apteka-k-m-warszawa,oferta,1005070545",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-03T15:14:17.677Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej; Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy; Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego | What they expect: Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej; Doświadczenie w tworzeniu angażujących treści; Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim | What they offer: Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne; Możliwość rozwoju w obszarze sprzedaży internetowej; Możliwość pracy zdalnej 2 razy w tygodniu",
+      "summary_tasks": [
+        "Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej",
+        "Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy",
+        "Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego"
+      ],
+      "summary_expectations": [
+        "Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej",
+        "Doświadczenie w tworzeniu angażujących treści",
+        "Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim"
+      ],
+      "summary_offers": [
+        "Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne",
+        "Możliwość rozwoju w obszarze sprzedaży internetowej",
+        "Możliwość pracy zdalnej 2 razy w tygodniu"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
+    },
+    {
       "id": "5155c6460c02a6fa",
       "title": "Specjalista / Specjalistka ds. marketingu",
       "company": "KPD WIEJAK I WSPÓLNICY sp.j.",
@@ -1909,38 +2082,6 @@
         "pakiet medyczny i kartę MultiSport",
         "Benefity",
         "prywatna opieka medyczna"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "a657c62147b0112c",
-      "title": "IT Business Analyst (FinTech)",
-      "company": "CodeTalent Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/it-business-analyst-fintech-warszawa,oferta,1005093473",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-15T07:07:42.417Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji); Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro); Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence) | What they expect: Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ( | What they offer: Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe; Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy; Prywatna opieka medyczna i dofinansowanie karty sportowej",
-      "summary_tasks": [
-        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji)",
-        "Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro)",
-        "Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence)"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ("
-      ],
-      "summary_offers": [
-        "Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe",
-        "Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy",
-        "Prywatna opieka medyczna i dofinansowanie karty sportowej"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
@@ -2082,33 +2223,34 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "8cae5936d9d0bd94",
+      "id": "365d106fa36f7630",
       "title": "Analityk / Analityczka Danych",
-      "company": "Bank Polskiej Spółdzielczości SA",
+      "company": "PKO Faktoring S.A.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa-grzybowska-81,oferta,1005048641",
+      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa,oferta,1005092707",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-08-25T08:37:48.997Z",
+      "published_at": "2026-09-14T13:42:23.453Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze; automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych; współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych | What they expect: doświadczenie w analizie danych | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
+      "summary": "What you'll do: Współtworzenie rozwiązań informatycznych wspomagających proces zarządzania ryzykiem zarówno na poziomie pojedynczej transakcji jak i na poziomie całego portfela; Utrzymanie, modyfikowanie i automatyzowanie istniejących raportów zarządczych w wybranych obszarach; Wykonywanie zleconych analiz ad hoc oraz projektowanie i rozwijanie nowych raportów z wykorzystaniem dostępnych narzędzi | What they expect: Doświadczenie w pracy w instytucji finansowej w obszarze zarządzania ryzykiem; Praktyczna znajomość SQL ( | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; Aby utrzymać ten trend prowadzimy liczne projekty rozwojowe (nowe produkty, procesy, systemy)",
       "summary_tasks": [
-        "projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze",
-        "automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych",
-        "współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych"
+        "Współtworzenie rozwiązań informatycznych wspomagających proces zarządzania ryzykiem zarówno na poziomie pojedynczej transakcji jak i na poziomie całego portfela",
+        "Utrzymanie, modyfikowanie i automatyzowanie istniejących raportów zarządczych w wybranych obszarach",
+        "Wykonywanie zleconych analiz ad hoc oraz projektowanie i rozwijanie nowych raportów z wykorzystaniem dostępnych narzędzi"
       ],
       "summary_expectations": [
-        "doświadczenie w analizie danych"
+        "Doświadczenie w pracy w instytucji finansowej w obszarze zarządzania ryzykiem",
+        "Praktyczna znajomość SQL ("
       ],
       "summary_offers": [
-        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
-        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
-        "ubezpieczenie grupowe firmy Ergo Hestia"
+        "prywatna opieka medyczna",
+        "ubezpieczenie na życie",
+        "Aby utrzymać ten trend prowadzimy liczne projekty rozwojowe (nowe produkty, procesy, systemy)"
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
@@ -2148,6 +2290,38 @@
       "first_found_at": "2026-09-19T06:37:40.809618+00:00"
     },
     {
+      "id": "8cae5936d9d0bd94",
+      "title": "Analityk / Analityczka Danych",
+      "company": "Bank Polskiej Spółdzielczości SA",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa-grzybowska-81,oferta,1005048641",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-08-25T08:37:48.997Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze; automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych; współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych | What they expect: doświadczenie w analizie danych | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
+      "summary_tasks": [
+        "projektowanie, rozwój i utrzymanie raportów oraz interaktywnych dashboardów Business Intelligence wspierających procesy biznesowe i zarządcze",
+        "automatyzacja procesów raportowych oraz rozwój i optymalizacja rozwiązań analitycznych",
+        "współpraca z klientami wewnętrznymi w zakresie identyfikacji potrzeb biznesowych oraz projektowania i wdrażania rozwiązań raportowych"
+      ],
+      "summary_expectations": [
+        "doświadczenie w analizie danych"
+      ],
+      "summary_offers": [
+        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
+        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
+        "ubezpieczenie grupowe firmy Ergo Hestia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
       "id": "ac25c14987c2220d",
       "title": "Analityk danych (m/k/n)",
       "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
@@ -2182,37 +2356,41 @@
       "first_found_at": "2026-09-09T06:26:11.406251+00:00"
     },
     {
-      "id": "365d106fa36f7630",
-      "title": "Analityk / Analityczka Danych",
-      "company": "PKO Faktoring S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-warszawa,oferta,1005092707",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "id": "7d9c6e26b31880cc",
+      "title": "Operations Analyst",
+      "company": "Transition Technologies MS",
+      "location": "Warszawa, Gdańsk, Wrocław, Kraków, Poznań",
+      "url": "https://justjoin.it/job-offer/transition-technologies-ms-operations-analyst-warszawa-analytics",
+      "apply_url": "https://ttms.traffit.com/public/form/a/2108?uid=a617996b95d8c3d6920a9e92e901eb85755a38485a5634374248364c5637566f6673656b506e616f",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-14T13:42:23.453Z",
+      "published_at": "2026-09-21T13:00:29.688909Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Współtworzenie rozwiązań informatycznych wspomagających proces zarządzania ryzykiem zarówno na poziomie pojedynczej transakcji jak i na poziomie całego portfela; Utrzymanie, modyfikowanie i automatyzowanie istniejących raportów zarządczych w wybranych obszarach; Wykonywanie zleconych analiz ad hoc oraz projektowanie i rozwijanie nowych raportów z wykorzystaniem dostępnych narzędzi | What they expect: Doświadczenie w pracy w instytucji finansowej w obszarze zarządzania ryzykiem; Praktyczna znajomość SQL ( | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; Aby utrzymać ten trend prowadzimy liczne projekty rozwojowe (nowe produkty, procesy, systemy)",
+      "summary": "What you'll do: Own the day-to-day operational layer across all active workstreams by supporting and; Guarantee all data is always updated for any monthly status snapshots and completion reports for the Brilliant & Basics OKR across all teams; Build working relationships with Engineering Managers across all teams | What they expect: Experience with Jira or similar project/issue tracking tools; Nice to Have Familiarity with Microsoft 365 (SharePoint, Teams, Excel), Jira (or similar) and AI tools; Experience in a technology or software delivery environment | What they offer: Possibility to work remote or hybrid (2 days per week from the office); Opportunities for development and promotion; Attractive package of benefits",
       "summary_tasks": [
-        "Współtworzenie rozwiązań informatycznych wspomagających proces zarządzania ryzykiem zarówno na poziomie pojedynczej transakcji jak i na poziomie całego portfela",
-        "Utrzymanie, modyfikowanie i automatyzowanie istniejących raportów zarządczych w wybranych obszarach",
-        "Wykonywanie zleconych analiz ad hoc oraz projektowanie i rozwijanie nowych raportów z wykorzystaniem dostępnych narzędzi"
+        "Own the day-to-day operational layer across all active workstreams by supporting and",
+        "Guarantee all data is always updated for any monthly status snapshots and completion reports for the Brilliant & Basics OKR across all teams",
+        "Build working relationships with Engineering Managers across all teams"
       ],
       "summary_expectations": [
-        "Doświadczenie w pracy w instytucji finansowej w obszarze zarządzania ryzykiem",
-        "Praktyczna znajomość SQL ("
+        "Experience with Jira or similar project/issue tracking tools",
+        "Nice to Have Familiarity with Microsoft 365 (SharePoint, Teams, Excel), Jira (or similar) and AI tools",
+        "Experience in a technology or software delivery environment"
       ],
       "summary_offers": [
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie",
-        "Aby utrzymać ten trend prowadzimy liczne projekty rozwojowe (nowe produkty, procesy, systemy)"
+        "Possibility to work remote or hybrid (2 days per week from the office)",
+        "Opportunities for development and promotion",
+        "Attractive package of benefits"
       ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+      "required_skills": [
+        "Jira",
+        "Microsoft365"
+      ],
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
       "id": "fa7654bcda37df04",
@@ -2278,6 +2456,44 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "e7dc36b86466425f",
+      "title": "Metadata Specialist",
+      "company": "KRUK S.A",
+      "location": "Wrocław",
+      "url": "https://justjoin.it/job-offer/kruk-s-a-metadata-specialist-wroclaw-data",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=4d3fadd1b4f041d7a3798b1fc29b0536",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-21T13:00:29.21417Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Develop and maintain a standardized metadata schema for all data attributes from Kruk Data Domain Map; Provide guidance and support to data users on how to effectively use metadata to discover and understand available data assets; Monitor and maintain the metadata repository, ensuring data quality, integrity, and accessibility over | What they expect: Previous experience as a Metadata specialist or in a similar role; Experience in implementing and managing metadata repository tools, preferably Microsoft Purview; Good communication & interpersonal skills to work with both business and IT | What they offer: Flexible starting hours; Possibility of full remote work; Opportunity to receive an attractive bonus in the employee referral program",
+      "summary_tasks": [
+        "Develop and maintain a standardized metadata schema for all data attributes from Kruk Data Domain Map",
+        "Provide guidance and support to data users on how to effectively use metadata to discover and understand available data assets",
+        "Monitor and maintain the metadata repository, ensuring data quality, integrity, and accessibility over"
+      ],
+      "summary_expectations": [
+        "Previous experience as a Metadata specialist or in a similar role",
+        "Experience in implementing and managing metadata repository tools, preferably Microsoft Purview",
+        "Good communication & interpersonal skills to work with both business and IT"
+      ],
+      "summary_offers": [
+        "Flexible starting hours",
+        "Possibility of full remote work",
+        "Opportunity to receive an attractive bonus in the employee referral program"
+      ],
+      "required_skills": [
+        "Metadata",
+        "Microsoft Purview",
+        "Agile"
+      ],
+      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
     },
     {
       "id": "559195954547b3db",
@@ -2346,6 +2562,106 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "a657c62147b0112c",
+      "title": "IT Business Analyst (FinTech)",
+      "company": "CodeTalent Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/it-business-analyst-fintech-warszawa,oferta,1005093473",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-15T07:07:42.417Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji); Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro); Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence) | What they expect: Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ( | What they offer: Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe; Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy; Prywatna opieka medyczna i dofinansowanie karty sportowej",
+      "summary_tasks": [
+        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji)",
+        "Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań (Figma, Miro)",
+        "Prowadzenie i bieżące utrzymanie dokumentacji projektowej (Jira / Confluence)"
+      ],
+      "summary_expectations": [
+        "Minimum 2 lata doświadczenia na stanowisku Analityka Biznesowego IT ("
+      ],
+      "summary_offers": [
+        "Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe",
+        "Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy",
+        "Prywatna opieka medyczna i dofinansowanie karty sportowej"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "4c3f08e393ba3186",
+      "title": "Business Analyst",
+      "company": "Sollers Consulting",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/business-analyst-warszawa-koszykowa-54,oferta,1005064999",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-01T22:00:00Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies; Conduct business analysis, define functional requirements, and test developed solutions and support UATs; Work closely with software developers and IT architects on a daily basis | What they expect: Familiarity with insurance business processes; Experience working in fintech, consulting, implementation, or IT company, especially in the fields of insurance or bancassurance; Team leadership skills and management experience | What they offer: Flexible working hours and a hybrid home office model (2-3 times per week in the office) as work-life balance is crucial at Sollers; Opportunities for growth with a training budget that you can use for courses and conferences; We also provide access to an online training platform and co-fund language classes",
+      "summary_tasks": [
+        "Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies",
+        "Conduct business analysis, define functional requirements, and test developed solutions and support UATs",
+        "Work closely with software developers and IT architects on a daily basis"
+      ],
+      "summary_expectations": [
+        "Familiarity with insurance business processes",
+        "Experience working in fintech, consulting, implementation, or IT company, especially in the fields of insurance or bancassurance",
+        "Team leadership skills and management experience"
+      ],
+      "summary_offers": [
+        "Flexible working hours and a hybrid home office model (2-3 times per week in the office) as work-life balance is crucial at Sollers",
+        "Opportunities for growth with a training budget that you can use for courses and conferences",
+        "We also provide access to an online training platform and co-fund language classes"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
+    },
+    {
+      "id": "fd97f7997867092a",
+      "title": "Analityk Biznesowy / Konsultant – ESG (k/m)",
+      "company": "Audytel S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-konsultant-esg-k-m-warszawa,oferta,1005105165",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-21T08:14:26.567Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Do Zespołu ESG Audytel S.A; szukamy osoby, która chce rozwijać się w audycie i konsultingu oraz pracować przy realnych problemach biznesowych polskich przedsiębiorstw; Na co dzień będziesz pracować równolegle przy kilku projektach, dla różnych Klientów i na różnych etapach ich realizacji, tj | What they expect: bardzo dobre umiejętności analityczne i swoboda pracy z liczbami; umiejętność logicznego strukturyzowania problemów i wyciągania wniosków; biegła znajomość Excela i PowerPointa | What they offer: elastyczne godziny pracy i możliwość dopasowania długości dnia pracy; dofinansowanie pakietu medycznego i karty Multisport; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Do Zespołu ESG Audytel S.A",
+        "szukamy osoby, która chce rozwijać się w audycie i konsultingu oraz pracować przy realnych problemach biznesowych polskich przedsiębiorstw",
+        "Na co dzień będziesz pracować równolegle przy kilku projektach, dla różnych Klientów i na różnych etapach ich realizacji, tj"
+      ],
+      "summary_expectations": [
+        "bardzo dobre umiejętności analityczne i swoboda pracy z liczbami",
+        "umiejętność logicznego strukturyzowania problemów i wyciągania wniosków",
+        "biegła znajomość Excela i PowerPointa"
+      ],
+      "summary_offers": [
+        "elastyczne godziny pracy i możliwość dopasowania długości dnia pracy",
+        "dofinansowanie pakietu medycznego i karty Multisport",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
     },
     {
       "id": "b1210cb1537561bf",
@@ -2450,6 +2766,45 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "bfcf562bfae7ad76",
+      "title": "Analityk Danych",
+      "company": "SGA M. WESOŁOWSKI I SKA SPÓŁKA KOMANDYTOWA",
+      "location": "Lublin",
+      "url": "https://justjoin.it/job-offer/sga-m-wesolowski-i-ska-spolka-komandytowa-analityk-danych-lublin-analytics",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-21T12:00:24.3021515Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Permanent Save Apply All offers Lublin Analytics Analityk Danych Analytics Analityk Danych Analytics Lędzian 86 , Lublin SGA M; Tworzone przez nas systemy analityczne wspomagają zarządzanie ochroną zdrowia w poszczególnych jednostkach medycznych i całych województwach; Tech stack Analityczne Myślenie nice to have Analytics nice to have Analiza Biznesowa nice to have Analytical Thinking nice to have Office location Analityk Danych 1 801,21 | What they expect: umiejętność analitycznego myślenia i wyciągania praktycznych wniosków z danych; bardzo dobra umiejętność pisania raportów, opisywania wyników analiz i klarownego przedstawiania toku rozumowania; dobra znajomość MS Excel oraz swoboda pracy z danymi | What they offer: praktyczne wdrożenie w obszar rozliczeń z NFZ, analiz szpitalnych i doradztwa dla placówek medycznych; możliwość rozwoju w niszowej, eksperckiej i dynamicznie rozwijającej się branży; możliwość realnego wpływu na usprawnianie funkcjonowania placówek medycznych",
+      "summary_tasks": [
+        "Permanent Save Apply All offers Lublin Analytics Analityk Danych Analytics Analityk Danych Analytics Lędzian 86 , Lublin SGA M",
+        "Tworzone przez nas systemy analityczne wspomagają zarządzanie ochroną zdrowia w poszczególnych jednostkach medycznych i całych województwach",
+        "Tech stack Analityczne Myślenie nice to have Analytics nice to have Analiza Biznesowa nice to have Analytical Thinking nice to have Office location Analityk Danych 1 801,21"
+      ],
+      "summary_expectations": [
+        "umiejętność analitycznego myślenia i wyciągania praktycznych wniosków z danych",
+        "bardzo dobra umiejętność pisania raportów, opisywania wyników analiz i klarownego przedstawiania toku rozumowania",
+        "dobra znajomość MS Excel oraz swoboda pracy z danymi"
+      ],
+      "summary_offers": [
+        "praktyczne wdrożenie w obszar rozliczeń z NFZ, analiz szpitalnych i doradztwa dla placówek medycznych",
+        "możliwość rozwoju w niszowej, eksperckiej i dynamicznie rozwijającej się branży",
+        "możliwość realnego wpływu na usprawnianie funkcjonowania placówek medycznych"
+      ],
+      "required_skills": [
+        "Analityczne Myślenie",
+        "Analytics",
+        "Analiza Biznesowa",
+        "Analytical Thinking"
+      ],
+      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
+    },
+    {
       "id": "8c10254d7540e583",
       "title": "Specjalista ds. E-commerce i Sprzedaży Online",
       "company": "STOTECH sp. z o.o.",
@@ -2548,40 +2903,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "619f78be1a295525",
-      "title": "Specjalista ds. Marketingu i Wizerunku (K/M)",
-      "company": "Kancelaria Tax & Law sp.z o.o.",
-      "location": "Kraków, małopolskie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-marketingu-i-wizerunku-k-m-krakow-jana-zamoyskiego-81,oferta,1005096993",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-16T10:16:40.073Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Planowanie i prowadzenie bieżących działań marketingowych oraz wizerunkowych; Zarządzanie firmowymi profilami w mediach społecznościowych, w szczególności na Facebooku, LinkedIn i Instagramie; Współtworzenie kampanii marketingowych oraz działań mających na celu zwiększenie rozpoznawalności marki | What they expect: Co najmniej rok doświadczenia w marketingu, komunikacji lub prowadzeniu social media; Praktyczna znajomość mediów społecznościowych oraz podstawowych zagadnień digital marketingu; Umiejętność tworzenia angażujących i poprawnych językowo treści | What they offer: Możliwość rozwoju zawodowego i zdobywania nowych umiejętności; Samodzielność oraz możliwość realnego wpływania na rozwój komunikacji i marki firmy; Możliwość pracy zdalnej po okresie wdrożenia",
-      "summary_tasks": [
-        "Planowanie i prowadzenie bieżących działań marketingowych oraz wizerunkowych",
-        "Zarządzanie firmowymi profilami w mediach społecznościowych, w szczególności na Facebooku, LinkedIn i Instagramie",
-        "Współtworzenie kampanii marketingowych oraz działań mających na celu zwiększenie rozpoznawalności marki"
-      ],
-      "summary_expectations": [
-        "Co najmniej rok doświadczenia w marketingu, komunikacji lub prowadzeniu social media",
-        "Praktyczna znajomość mediów społecznościowych oraz podstawowych zagadnień digital marketingu",
-        "Umiejętność tworzenia angażujących i poprawnych językowo treści"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju zawodowego i zdobywania nowych umiejętności",
-        "Samodzielność oraz możliwość realnego wpływania na rozwój komunikacji i marki firmy",
-        "Możliwość pracy zdalnej po okresie wdrożenia"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
     },
     {
       "id": "03cf66d7b5522189",
@@ -2854,6 +3175,117 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-16T06:38:45.640531+00:00"
+    },
+    {
+      "id": "5a098c00fa187dc3",
+      "title": "Specjalista ds. marketingu i pozyskiwania klientów",
+      "company": "KACPER DROZD SYNAPSITE",
+      "location": "Lublin, lubelskie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-marketingu-i-pozyskiwania-klientow-lublin-rotmistrza-witolda-pileckiego-25,oferta,1005104902",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-21T07:29:00.157Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: To współpraca w 100% prowizyjna (20% od wartości projektu); Prowadzenie prostej listy kontaktów i ich statusów; Prowadzenie profili SynapSite: Facebook, Instagram, LinkedIn, TikTok | What they expect: Doświadczenie w odzywaniu się do obcych ludzi w celu biznesowym; Umiejętność samodzielnego nagrania i zmontowania rolki telefonem; Znajomość tego, co dziś działa na Facebooku, Instagramie | What they offer: 20% wartości każdego projektu z Twojego leada; zleceniu SynapSite to od kilkuset do kilku tysięcy złotych z jednego klienta; Praca w 100% zdalna i elastyczne godziny",
+      "summary_tasks": [
+        "To współpraca w 100% prowizyjna (20% od wartości projektu)",
+        "Prowadzenie prostej listy kontaktów i ich statusów",
+        "Prowadzenie profili SynapSite: Facebook, Instagram, LinkedIn, TikTok"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w odzywaniu się do obcych ludzi w celu biznesowym",
+        "Umiejętność samodzielnego nagrania i zmontowania rolki telefonem",
+        "Znajomość tego, co dziś działa na Facebooku, Instagramie"
+      ],
+      "summary_offers": [
+        "20% wartości każdego projektu z Twojego leada",
+        "zleceniu SynapSite to od kilkuset do kilku tysięcy złotych z jednego klienta",
+        "Praca w 100% zdalna i elastyczne godziny"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
+    },
+    {
+      "id": "619f78be1a295525",
+      "title": "Specjalista ds. Marketingu i Wizerunku (K/M)",
+      "company": "Kancelaria Tax & Law sp.z o.o.",
+      "location": "Kraków, małopolskie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-marketingu-i-wizerunku-k-m-krakow-jana-zamoyskiego-81,oferta,1005096993",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-16T10:16:40.073Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Planowanie i prowadzenie bieżących działań marketingowych oraz wizerunkowych; Zarządzanie firmowymi profilami w mediach społecznościowych, w szczególności na Facebooku, LinkedIn i Instagramie; Współtworzenie kampanii marketingowych oraz działań mających na celu zwiększenie rozpoznawalności marki | What they expect: Co najmniej rok doświadczenia w marketingu, komunikacji lub prowadzeniu social media; Praktyczna znajomość mediów społecznościowych oraz podstawowych zagadnień digital marketingu; Umiejętność tworzenia angażujących i poprawnych językowo treści | What they offer: Możliwość rozwoju zawodowego i zdobywania nowych umiejętności; Samodzielność oraz możliwość realnego wpływania na rozwój komunikacji i marki firmy; Możliwość pracy zdalnej po okresie wdrożenia",
+      "summary_tasks": [
+        "Planowanie i prowadzenie bieżących działań marketingowych oraz wizerunkowych",
+        "Zarządzanie firmowymi profilami w mediach społecznościowych, w szczególności na Facebooku, LinkedIn i Instagramie",
+        "Współtworzenie kampanii marketingowych oraz działań mających na celu zwiększenie rozpoznawalności marki"
+      ],
+      "summary_expectations": [
+        "Co najmniej rok doświadczenia w marketingu, komunikacji lub prowadzeniu social media",
+        "Praktyczna znajomość mediów społecznościowych oraz podstawowych zagadnień digital marketingu",
+        "Umiejętność tworzenia angażujących i poprawnych językowo treści"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju zawodowego i zdobywania nowych umiejętności",
+        "Samodzielność oraz możliwość realnego wpływania na rozwój komunikacji i marki firmy",
+        "Możliwość pracy zdalnej po okresie wdrożenia"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
+    },
+    {
+      "id": "85fef0fae8c2c553",
+      "title": "Business Analyst | Branża Bankowa",
+      "company": "Edge One Solutions Sp. z o.o",
+      "location": "Warszawa, Kraków, Gdańsk",
+      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-business-analyst-branza-bankowa-warszawa-analytics-a4e3ec7c",
+      "apply_url": "https://edge1s.recruitify.ai/job/444940c0-af51-40c7-9070-6acca990a146?sourceId=37",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-21T12:00:06.208137Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Similar offers Link Group Warszawa , +9 Locations Remote Remote Business Analyst New 29,20; 34,51 USD/h Analytics REST API JSON Jira Confluence Mid Mid B2B B2B Full-time Full-time New Optiveum Warszawa Remote Remote Business Analyst New 42,07; Recommended offer Jit Team Warszawa Hybrid Hybrid Application Manager/SME for DORA New 2 760,98 | What they expect: Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji; dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange; sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował? | What they offer: prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity; sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
+      "summary_tasks": [
+        "Similar offers Link Group Warszawa , +9 Locations Remote Remote Business Analyst New 29,20",
+        "34,51 USD/h Analytics REST API JSON Jira Confluence Mid Mid B2B B2B Full-time Full-time New Optiveum Warszawa Remote Remote Business Analyst New 42,07",
+        "Recommended offer Jit Team Warszawa Hybrid Hybrid Application Manager/SME for DORA New 2 760,98"
+      ],
+      "summary_expectations": [
+        "Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji",
+        "dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange",
+        "sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował?"
+      ],
+      "summary_offers": [
+        "prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
+        "Elastyczne benefity",
+        "sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
+      ],
+      "required_skills": [
+        "Analiza Biznesowa",
+        "iOS",
+        "Android",
+        "Jira",
+        "Confluence",
+        "Figma",
+        "draw.io",
+        "KMP/CMP"
+      ],
+      "first_found_at": "2026-09-17T06:37:44.439122+00:00"
     },
     {
       "id": "7761090d974ab262",
