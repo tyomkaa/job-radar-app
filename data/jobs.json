@@ -1,9 +1,9 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-09-25T06:37:33.219003+00:00",
-    "found": 6139,
-    "accepted": 98,
+    "generated_at": "2026-09-26T06:38:57.960547+00:00",
+    "found": 6128,
+    "accepted": 101,
     "sources": {
       "justjoin.it": {
         "status": "ok",
@@ -11,11 +11,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 1915
+        "fetched": 1879
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2355
+        "fetched": 2367
       }
     }
   },
@@ -431,6 +431,40 @@
       "first_found_at": "2026-09-18T06:39:59.734532+00:00"
     },
     {
+      "id": "4c3f383bd39d6bf3",
+      "title": "Junior Operations Specialist (f/m/x)",
+      "company": "Sii Sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-operations-specialist-f-m-x-warszawa-aleja-niepodleglosci-69,oferta,1005119129",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-09-25T14:28:23.29Z",
+      "fit_score": 81,
+      "match_level": "STRONG",
+      "summary": "What you'll do: Process and reconcile dividend-related transactions and events; Support the handling of mergers, liquidations, and other investment lifecycle events; Analysing data discrepancies in Excel | What they expect: Good knowledge of MS Office, mainly Excel; Excellent communication skills and a team player attitude; Residing in Poland required | What they offer: Attractive benefits package - private healthcare, benefits cafeteria platform, car discounts and more; Comfortable workplace – class A offices or remote work; Investment in your growth – meetups, webinars, training platform and technology blog – you choose",
+      "summary_tasks": [
+        "Process and reconcile dividend-related transactions and events",
+        "Support the handling of mergers, liquidations, and other investment lifecycle events",
+        "Analysing data discrepancies in Excel"
+      ],
+      "summary_expectations": [
+        "Good knowledge of MS Office, mainly Excel",
+        "Excellent communication skills and a team player attitude",
+        "Residing in Poland required"
+      ],
+      "summary_offers": [
+        "Attractive benefits package - private healthcare, benefits cafeteria platform, car discounts and more",
+        "Comfortable workplace – class A offices or remote work",
+        "Investment in your growth – meetups, webinars, training platform and technology blog – you choose"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-13T21:39:14.386217+00:00"
+    },
+    {
       "id": "c0794edeb58b592a",
       "title": "Junior Ocean Freight Operations Specialist",
       "company": "CSA GLOBAL LOGISTICS (POLAND) SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -497,6 +531,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-22T06:40:42.636985+00:00"
+    },
+    {
+      "id": "8e3b628c72ac5e3b",
+      "title": "Koordynator / Koordynatorka marketingu",
+      "company": "JADŁODAJNIA CENTRALNA sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/koordynator-koordynatorka-marketingu-warszawa,oferta,1005116850",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-09-25T06:58:39.29Z",
+      "fit_score": 80,
+      "match_level": "STRONG",
+      "summary": "What you'll do: koordynowanie akcji promocyjnych i komunikacji w nowo wprowadzanej aplikacji mobilnej w sieci gastronomicznej; koordynowanie i wdrażanie akcji promocyjnych w lokalach; współpraca przy aktualizacji treści na stronie internetowej | What they expect: doświadczenie i wyczucie marketingowe w branży gastronomicznej, retail lub FMCG; osoba dobrze zorganizowana, potrafiąca prowadzić kilka projektów jednocześnie; samodzielna prowadząca zadania od pomysłu do realizacji | What they offer: realny wpływ na działania marketingowe i rozwój marki; możliwość rozwoju wraz z rozwojem sieci; Do naszego zespołu szukamy osoby, która będzie aktywnie wspierać rozwój marki i koordynować działania marketingowe w naszej sieci lokali gastronomicznych",
+      "summary_tasks": [
+        "koordynowanie akcji promocyjnych i komunikacji w nowo wprowadzanej aplikacji mobilnej w sieci gastronomicznej",
+        "koordynowanie i wdrażanie akcji promocyjnych w lokalach",
+        "współpraca przy aktualizacji treści na stronie internetowej"
+      ],
+      "summary_expectations": [
+        "doświadczenie i wyczucie marketingowe w branży gastronomicznej, retail lub FMCG",
+        "osoba dobrze zorganizowana, potrafiąca prowadzić kilka projektów jednocześnie",
+        "samodzielna prowadząca zadania od pomysłu do realizacji"
+      ],
+      "summary_offers": [
+        "realny wpływ na działania marketingowe i rozwój marki",
+        "możliwość rozwoju wraz z rozwojem sieci",
+        "Do naszego zespołu szukamy osoby, która będzie aktywnie wspierać rozwój marki i koordynować działania marketingowe w naszej sieci lokali gastronomicznych"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
     },
     {
       "id": "5ab3fdf5a013c56b",
@@ -903,80 +971,6 @@
       "first_found_at": "2026-09-25T06:37:33.219003+00:00"
     },
     {
-      "id": "46bf7cdca3d99796",
-      "title": "Młodszy analityk ds. cyberbezpieczeństwa / SOC L1 (K/M/X)",
-      "company": "COMARCH",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/comarch-mlodszy-analityk-ds-cyberbezpieczenstwa-soc-l1-k-m-x--krakow-security",
-      "apply_url": "https://kariera.comarch.pl/praca/mlodszy-analityk-ds-cyberbezpieczenstwa-soc-l1-k-m-x/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-24T13:00:17.397819Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI; Wspieramy finanse, handel i MŚP, współpracując z g; Wrocław , +2 Locations Hybrid Hybrid SOC L1 Analyst New 1 577,70 | What they expect: Chcesz postawić pierwsze kroki w świecie IT lub masz już podstawowe doświadczenie i szukasz miejsca, gdzie rozwiniesz się w obszarze cyberbezpieczeństwa?; Dołącz do zespołu SOC L1 w pionie Chief Information Security Office i pracuj z doświadczonym zespołem, ucząc się na realnych przypadkach i podnosząc swoje kompetencje w świecie cyberzagrożeń; możesz wybrać pełne dofinansowanie do karty Multisport czy przeznaczyć środki na kulturę, wypoczynek lub sport i zakupy Możliwość korzystania z zaawansowanych narzędzi AI i Google Workspace Możliwość pracy w modelu hybrydowym po okresie wdrożenia (2 dni pracy zdalnej, 3 dni pracy z biura) Współpraca z różnymi zespołami kompetencyjnymi, która pozwoli Ci na poznanie nowych technologii i poszerzenie wiedzy w obszarze IT Udogodnienia dla rowerzystów/ rowerzystek (stojaki, szatnie, rowerownie, stacja naprawcza), a dla tych, co do pracy docierają samochodem",
-      "summary_tasks": [
-        "Specjalizujemy się w ERP, CRM, bezpieczeństwie IT, telekomunikacji i AI",
-        "Wspieramy finanse, handel i MŚP, współpracując z g",
-        "Wrocław , +2 Locations Hybrid Hybrid SOC L1 Analyst New 1 577,70"
-      ],
-      "summary_expectations": [
-        "Chcesz postawić pierwsze kroki w świecie IT lub masz już podstawowe doświadczenie i szukasz miejsca, gdzie rozwiniesz się w obszarze cyberbezpieczeństwa?",
-        "Dołącz do zespołu SOC L1 w pionie Chief Information Security Office i pracuj z doświadczonym zespołem, ucząc się na realnych przypadkach i podnosząc swoje kompetencje w świecie cyberzagrożeń",
-        "możesz wybrać pełne dofinansowanie do karty Multisport czy przeznaczyć środki na kulturę, wypoczynek lub sport i zakupy Możliwość korzystania z zaawansowanych narzędzi AI i Google Workspace Możliwość pracy w modelu hybrydowym po okresie wdrożenia (2 dni pracy zdalnej, 3 dni pracy z biura) Współpraca z różnymi zespołami kompetencyjnymi, która pozwoli Ci na poznanie nowych technologii i poszerzenie wiedzy w obszarze IT Udogodnienia dla rowerzystów/ rowerzystek (stojaki, szatnie, rowerownie, stacja naprawcza), a dla tych, co do pracy docierają samochodem"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "TCP/IP",
-        "Windows",
-        "Linux",
-        "Bash",
-        "Powershell"
-      ],
-      "first_found_at": "2026-09-22T06:40:42.636985+00:00",
-      "contact_email": "praca@comarch.pl",
-      "contact_email_kind": "recruitment"
-    },
-    {
-      "id": "c0f926f005071f52",
-      "title": "Młodszy Analityk IT / Młodsza Analityczka IT (Umowa na zastępstwo)",
-      "company": "Santander Consumer Bank",
-      "location": "Wrocław",
-      "url": "https://justjoin.it/job-offer/santander-consumer-bank-mlodszy-analityk-it-mlodsza-analityczka-it-umowa-na-zastepstwo--wroclaw-analytics",
-      "apply_url": "https://santander.wd3.myworkdayjobs.com/pl-PL/SantanderCareers/job/Wrocaw/Modszy-Analityk-IT---Modsza-Analityczka-IT_Req1612159",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-24T10:00:21.320379Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: analiza danych przy użyciu SQL; diagnoza problemów zgłaszanych przez użytkowników i systemy; współpraca z zespołami IT oraz biznesem | What they expect: Praktycznej znajomości SQL; Dlatego zależy nam nie tylko na znajomości składni, ale przede wszystkim na doświadczeniu w pracy z rzeczywistym kodem SQL; znajomość języka polskiego na poziomie native | What they offer: Dostęp do wiedzy no limit- wewnętrzna strefa wymiany wiedzy, platforma szkoleniowa Dojo z dostępem do szkoleń na LinkedIn Learning, IBM; Prywatną opiekę medyczną – Medicover; Elastyczne systemy czasu pracy nastawione na zachowanie równowagi życia zawodowego i prywatnego",
-      "summary_tasks": [
-        "analiza danych przy użyciu SQL",
-        "diagnoza problemów zgłaszanych przez użytkowników i systemy",
-        "współpraca z zespołami IT oraz biznesem"
-      ],
-      "summary_expectations": [
-        "Praktycznej znajomości SQL",
-        "Dlatego zależy nam nie tylko na znajomości składni, ale przede wszystkim na doświadczeniu w pracy z rzeczywistym kodem SQL",
-        "znajomość języka polskiego na poziomie native"
-      ],
-      "summary_offers": [
-        "Dostęp do wiedzy no limit- wewnętrzna strefa wymiany wiedzy, platforma szkoleniowa Dojo z dostępem do szkoleń na LinkedIn Learning, IBM",
-        "Prywatną opiekę medyczną – Medicover",
-        "Elastyczne systemy czasu pracy nastawione na zachowanie równowagi życia zawodowego i prywatnego"
-      ],
-      "required_skills": [
-        "SQL"
-      ],
-      "first_found_at": "2026-09-20T06:40:35.662010+00:00"
-    },
-    {
       "id": "d079898b0e1e9860",
       "title": "Młodszy/a Specjalista/ka ds. Raportowania (Program Rozwojowy)",
       "company": "Faurecia R&D Center S.A.",
@@ -1043,39 +1037,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-22T06:40:42.636985+00:00"
-    },
-    {
-      "id": "fe89dbaa2e4edcba",
-      "title": "Młodszy Analityk finansowy / Młodsza Analityczka finansowa",
-      "company": "SNUS FUSION sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-analityk-finansowy-mlodsza-analityczka-finansowa-warszawa-staniewicka-12,oferta,1005079710",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-09-08T12:43:47.47Z",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Przygotowywanie cyklicznych raportów finansowych i zarządczych dotyczących wyników spółki; Monitorowanie realizacji budżetu i analiza odchyleń; Wsparcie w procesie budżetowania i forecastingu | What they expect: Wykształcenie wyższe o profilu finansowym bądź pokrewnym; Minimum rok doświadczenia w finansach | What they offer: Nieszablonowe wyzwania, gwarantujące rozwój oraz brak rutyny :-); Wraz z rozwojem działu zakres obowiązków będzie się poszerzał, a najlepsze osoby będą miały możliwość objęcia funkcji koordynatora lub lidera zespołu; Zapewniamy pełne wdrożenie oraz szkolenie z wykorzystywanych aplikacji, w tym Comarch DMS, systemów ERP oraz Microsoft Power BI",
-      "summary_tasks": [
-        "Przygotowywanie cyklicznych raportów finansowych i zarządczych dotyczących wyników spółki",
-        "Monitorowanie realizacji budżetu i analiza odchyleń",
-        "Wsparcie w procesie budżetowania i forecastingu"
-      ],
-      "summary_expectations": [
-        "Wykształcenie wyższe o profilu finansowym bądź pokrewnym",
-        "Minimum rok doświadczenia w finansach"
-      ],
-      "summary_offers": [
-        "Nieszablonowe wyzwania, gwarantujące rozwój oraz brak rutyny :-)",
-        "Wraz z rozwojem działu zakres obowiązków będzie się poszerzał, a najlepsze osoby będą miały możliwość objęcia funkcji koordynatora lub lidera zespołu",
-        "Zapewniamy pełne wdrożenie oraz szkolenie z wykorzystywanych aplikacji, w tym Comarch DMS, systemów ERP oraz Microsoft Power BI"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-24T06:37:14.299063+00:00"
     },
     {
       "id": "41ed2fe1782d9063",
@@ -1248,38 +1209,72 @@
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
     },
     {
-      "id": "75256b3a77312952",
-      "title": "Marketing Specialist",
-      "company": "Manutan Polska Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/marketing-specialist-warszawa-janusza-kurtyki-4,oferta,1005111799",
+      "id": "95960d0deefc4157",
+      "title": "Social Media & Content Specialist",
+      "company": "DAHLIA sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/social-media-content-specialist-warszawa-inflancka-4,oferta,1005085113",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Hybrid, Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-23T08:50:26.533Z",
+      "published_at": "2026-09-10T11:16:11.52Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Develop and deliver high-quality sales support materials, including leaflets, brochures, and presentations, ensuring alignment with brand guidelines; Collaborate with the content team to develop and optimize web content that drives traffic and engagement; Work with internal search and ensure all content is optimized for SEO and aligns with overall marketing strategies | What they expect: Solid knowledge on marketing, including digital marketing/eCommerce; Versatile profile, combining business and operational vision and knowledge; Good project management skills | What they offer: development in a dynamic work environment; Multisport sports card; private medical care",
+      "summary": "What you'll do: Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja; Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek; Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny); Doświadczenie w branży beauty/fashion będzie dodatkowym atutem; Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media | What they offer: Prywatna opieka medyczna; Dofinansowanie szkoleń i kursów; W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)",
       "summary_tasks": [
-        "Develop and deliver high-quality sales support materials, including leaflets, brochures, and presentations, ensuring alignment with brand guidelines",
-        "Collaborate with the content team to develop and optimize web content that drives traffic and engagement",
-        "Work with internal search and ensure all content is optimized for SEO and aligns with overall marketing strategies"
+        "Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja",
+        "Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek",
+        "Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs"
       ],
       "summary_expectations": [
-        "Solid knowledge on marketing, including digital marketing/eCommerce",
-        "Versatile profile, combining business and operational vision and knowledge",
-        "Good project management skills"
+        "Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny)",
+        "Doświadczenie w branży beauty/fashion będzie dodatkowym atutem",
+        "Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media"
       ],
       "summary_offers": [
-        "development in a dynamic work environment",
-        "Multisport sports card",
-        "private medical care"
+        "Prywatna opieka medyczna",
+        "Dofinansowanie szkoleń i kursów",
+        "W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-24T06:37:14.299063+00:00"
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+    },
+    {
+      "id": "32c7baab569a695c",
+      "title": "Specjalista / Specjalistka ds. marketingu",
+      "company": "SMT sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-warszawa,oferta,1005119106",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T14:16:16.067Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Planowanie i realizacja działań marketingowych wspierających cele biznesowe SMT sp; Tworzenie i redagowanie treści marketingowych na różne kanały komunikacji, w tym digital i materiały offline; Współpraca z zespołem oraz partnerami zewnętrznymi przy koordynacji projektów marketingowych | What they expect: Doświadczenie w realizacji działań marketingowych online i offline; Praktyczna znajomość narzędzi digital marketingu (m.in; Umiejętność tworzenia angażujących treści marketingowych w języku polskim | What they offer: Elastyczny, częściowy wymiar etatu umożliwiający łączenie pracy z innymi aktywnościami; Dostęp do szkoleń i rozwoju kompetencji marketingowych w nowoczesnym środowisku pracy; to firma, która łączy kompetencje marketingowe, technologiczne i analityczne, aby realnie wspierać rozwój biznesu naszych klientów",
+      "summary_tasks": [
+        "Planowanie i realizacja działań marketingowych wspierających cele biznesowe SMT sp",
+        "Tworzenie i redagowanie treści marketingowych na różne kanały komunikacji, w tym digital i materiały offline",
+        "Współpraca z zespołem oraz partnerami zewnętrznymi przy koordynacji projektów marketingowych"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w realizacji działań marketingowych online i offline",
+        "Praktyczna znajomość narzędzi digital marketingu (m.in",
+        "Umiejętność tworzenia angażujących treści marketingowych w języku polskim"
+      ],
+      "summary_offers": [
+        "Elastyczny, częściowy wymiar etatu umożliwiający łączenie pracy z innymi aktywnościami",
+        "Dostęp do szkoleń i rozwoju kompetencji marketingowych w nowoczesnym środowisku pracy",
+        "to firma, która łączy kompetencje marketingowe, technologiczne i analityczne, aby realnie wspierać rozwój biznesu naszych klientów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
     },
     {
       "id": "bda6d95191e51a88",
@@ -1316,72 +1311,38 @@
       "first_found_at": "2026-09-15T06:28:53.837581+00:00"
     },
     {
-      "id": "f40b65cda806426c",
-      "title": "Specjalista / Specjalistka ds. marketingu i Social media",
-      "company": "Royal Tulip Warsaw Centre",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-i-social-media-warszawa-grzybowska-49,oferta,1005066379",
+      "id": "75256b3a77312952",
+      "title": "Marketing Specialist",
+      "company": "Manutan Polska Sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/marketing-specialist-warszawa-janusza-kurtyki-4,oferta,1005111799",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-02T11:07:32.937Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: tworzenie zdjęć i materiałów wideo – głównie przy użyciu iPhone’a; tworzenie i publikowanie treści na Facebooku, Instagramie i TikToku; współpraca z działem sprzedaży oraz innymi działami hotelu oraz zespołami konceptów gastronomicznych | What they expect: Szukamy osoby, która ma doświadczenie w marketingu i samodzielnym tworzeniu materiałów marketingowych, a w szczególności; potrafi robić dobre i estetyczne zdjęcia telefonem; swobodnie nagrywa materiały wideo | What they offer: płatne szkolenia i możliwość zdobywania nowych kompetencji: 3 000 zł rocznie na rozwój – szkolenia, kursy i inne formy podnoszenia kompetencji; prywatną opiekę medyczną Enel-Med; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "tworzenie zdjęć i materiałów wideo – głównie przy użyciu iPhone’a",
-        "tworzenie i publikowanie treści na Facebooku, Instagramie i TikToku",
-        "współpraca z działem sprzedaży oraz innymi działami hotelu oraz zespołami konceptów gastronomicznych"
-      ],
-      "summary_expectations": [
-        "Szukamy osoby, która ma doświadczenie w marketingu i samodzielnym tworzeniu materiałów marketingowych, a w szczególności",
-        "potrafi robić dobre i estetyczne zdjęcia telefonem",
-        "swobodnie nagrywa materiały wideo"
-      ],
-      "summary_offers": [
-        "płatne szkolenia i możliwość zdobywania nowych kompetencji: 3 000 zł rocznie na rozwój – szkolenia, kursy i inne formy podnoszenia kompetencji",
-        "prywatną opiekę medyczną Enel-Med",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "95960d0deefc4157",
-      "title": "Social Media & Content Specialist",
-      "company": "DAHLIA sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-content-specialist-warszawa-inflancka-4,oferta,1005085113",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-10T11:16:11.52Z",
+      "published_at": "2026-09-23T08:50:26.533Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja; Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek; Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny); Doświadczenie w branży beauty/fashion będzie dodatkowym atutem; Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media | What they offer: Prywatna opieka medyczna; Dofinansowanie szkoleń i kursów; W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)",
+      "summary": "What you'll do: Develop and deliver high-quality sales support materials, including leaflets, brochures, and presentations, ensuring alignment with brand guidelines; Collaborate with the content team to develop and optimize web content that drives traffic and engagement; Work with internal search and ensure all content is optimized for SEO and aligns with overall marketing strategies | What they expect: Solid knowledge on marketing, including digital marketing/eCommerce; Versatile profile, combining business and operational vision and knowledge; Good project management skills | What they offer: development in a dynamic work environment; Multisport sports card; private medical care",
       "summary_tasks": [
-        "Zarządzanie kanałami SM (FB/IG/TikTok) podległych marek - planowanie treści, zakup reklam, moderacja",
-        "Generowanie kreatywnych pomysłów i ich realizacja w ramach samodzielnego tworzenia treści ukierunkowanych na budowanie świadomości podległych marek",
-        "Współpraca z Brand Manageremi i PR Managerem w ramach tworzenia sieci kontaktów KOLs"
+        "Develop and deliver high-quality sales support materials, including leaflets, brochures, and presentations, ensuring alignment with brand guidelines",
+        "Collaborate with the content team to develop and optimize web content that drives traffic and engagement",
+        "Work with internal search and ensure all content is optimized for SEO and aligns with overall marketing strategies"
       ],
       "summary_expectations": [
-        "Minimum 2-letnie doświadczenie na podobnym stanowisku (warunek konieczny)",
-        "Doświadczenie w branży beauty/fashion będzie dodatkowym atutem",
-        "Znajomość trendów i narzędzi marketingowych, z naciskiem na digital i Social Media"
+        "Solid knowledge on marketing, including digital marketing/eCommerce",
+        "Versatile profile, combining business and operational vision and knowledge",
+        "Good project management skills"
       ],
       "summary_offers": [
-        "Prywatna opieka medyczna",
-        "Dofinansowanie szkoleń i kursów",
-        "W związku z rozwojem, do naszego zespołu marketingu poszukujemy odpowiedniej osoby na stanowisko Content & Social Media Specialist (Mid/Senior)"
+        "development in a dynamic work environment",
+        "Multisport sports card",
+        "private medical care"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+      "first_found_at": "2026-09-24T06:37:14.299063+00:00"
     },
     {
       "id": "fe353e5f2a0be95e",
@@ -1415,6 +1376,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+    },
+    {
+      "id": "f40b65cda806426c",
+      "title": "Specjalista / Specjalistka ds. marketingu i Social media",
+      "company": "Royal Tulip Warsaw Centre",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-i-social-media-warszawa-grzybowska-49,oferta,1005066379",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-02T11:07:32.937Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: tworzenie zdjęć i materiałów wideo – głównie przy użyciu iPhone’a; tworzenie i publikowanie treści na Facebooku, Instagramie i TikToku; współpraca z działem sprzedaży oraz innymi działami hotelu oraz zespołami konceptów gastronomicznych | What they expect: Szukamy osoby, która ma doświadczenie w marketingu i samodzielnym tworzeniu materiałów marketingowych, a w szczególności; potrafi robić dobre i estetyczne zdjęcia telefonem; swobodnie nagrywa materiały wideo | What they offer: płatne szkolenia i możliwość zdobywania nowych kompetencji: 3 000 zł rocznie na rozwój – szkolenia, kursy i inne formy podnoszenia kompetencji; prywatną opiekę medyczną Enel-Med; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "tworzenie zdjęć i materiałów wideo – głównie przy użyciu iPhone’a",
+        "tworzenie i publikowanie treści na Facebooku, Instagramie i TikToku",
+        "współpraca z działem sprzedaży oraz innymi działami hotelu oraz zespołami konceptów gastronomicznych"
+      ],
+      "summary_expectations": [
+        "Szukamy osoby, która ma doświadczenie w marketingu i samodzielnym tworzeniu materiałów marketingowych, a w szczególności",
+        "potrafi robić dobre i estetyczne zdjęcia telefonem",
+        "swobodnie nagrywa materiały wideo"
+      ],
+      "summary_offers": [
+        "płatne szkolenia i możliwość zdobywania nowych kompetencji: 3 000 zł rocznie na rozwój – szkolenia, kursy i inne formy podnoszenia kompetencji",
+        "prywatną opiekę medyczną Enel-Med",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
       "id": "3d9b7d43d69c5ba9",
@@ -1451,6 +1446,74 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "c00cb91e0c2af680",
+      "title": "Specjalistka / Specjalista ds. marketingu",
+      "company": "SHIM-POL",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalistka-specjalista-ds-marketingu-warszawa-jana-kochanowskiego-49a,oferta,1005117956",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T10:56:10.477Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Samodzielne przygotowywanie materiałów reklamowych do druku (DTP) oraz bezpośrednia współpraca z drukarniami; Uczestniczenie w projektowaniu i tworzeniu materiałów marketingowych (online oraz offline) na potrzeby bieżących działań oraz organizowanych wydarzeń; Tworzenie oraz publikacja treści na platformach Social Media (LinkedIn, YouTube) | What they expect: Bardzo dobra, praktyczna znajomość programów pakietu Adobe Creative Cloud (w szczególności Photoshop, Illustrator, InDesign); Znajomość zasad składu komputerowego oraz procesów przygotowania plików do druku (DTP, profile kolorów, spady); Minimum 3-letnie doświadczenie na podobnym stanowisku | What they offer: Bogaty pakiet benefitów (m.in; opieka medyczna, ubezpieczenie na życie, dofinansowanie Multisport); Benefity",
+      "summary_tasks": [
+        "Samodzielne przygotowywanie materiałów reklamowych do druku (DTP) oraz bezpośrednia współpraca z drukarniami",
+        "Uczestniczenie w projektowaniu i tworzeniu materiałów marketingowych (online oraz offline) na potrzeby bieżących działań oraz organizowanych wydarzeń",
+        "Tworzenie oraz publikacja treści na platformach Social Media (LinkedIn, YouTube)"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra, praktyczna znajomość programów pakietu Adobe Creative Cloud (w szczególności Photoshop, Illustrator, InDesign)",
+        "Znajomość zasad składu komputerowego oraz procesów przygotowania plików do druku (DTP, profile kolorów, spady)",
+        "Minimum 3-letnie doświadczenie na podobnym stanowisku"
+      ],
+      "summary_offers": [
+        "Bogaty pakiet benefitów (m.in",
+        "opieka medyczna, ubezpieczenie na życie, dofinansowanie Multisport)",
+        "Benefity"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
+    },
+    {
+      "id": "3f510c709dfaf56f",
+      "title": "Specjalista / Specjalistka ds. marketingu",
+      "company": "\"SPECTRA LIGHTING\" sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-warszawa-ostrodzka-53,oferta,1005117545",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T09:31:07.37Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Zarządzanie stroną WWW: bieżąca aktualizacja treści, dbanie o spójność wizualną witryny oraz optymalizacja działań; Social Media Management: aktywne prowadzenie profili firmowych oraz angażowanie naszej społeczności internetowej; Wsparcie sprzedaży: ścisła współpraca z zespołami handlowymi oraz pomoc w kreowaniu trwałych relacji z naszymi partnerami biznesowymi | What they expect: Zmysł estetyczny i warsztat graficzny: praktyczna znajomość programów z pakietu Adobe (Photoshop, Illustrator, InDesign) lub pokrewnych narzędzi; Znajomość środowiska webowego: doświadczenie w zarządzaniu stronami internetowymi, znajomość systemów CMS (np; Język angielski: znajomość na poziomie umożliwiającym swobodną komunikację biznesową | What they offer: Stabilność i rozwój: zatrudnienie w dynamicznie rosnącej polskiej firmie o ugruntowanej pozycji w branży oświetleniowej; Dzięki temu możemy oferować kompleksową obsługę – od koncepcji, przez projekt i dobór opraw, aż po wdrożenie; Cenimy partnerskie relacje, dzielenie się wiedzą oraz realny wpływ pracowników na kierunek rozwoju firmy",
+      "summary_tasks": [
+        "Zarządzanie stroną WWW: bieżąca aktualizacja treści, dbanie o spójność wizualną witryny oraz optymalizacja działań",
+        "Social Media Management: aktywne prowadzenie profili firmowych oraz angażowanie naszej społeczności internetowej",
+        "Wsparcie sprzedaży: ścisła współpraca z zespołami handlowymi oraz pomoc w kreowaniu trwałych relacji z naszymi partnerami biznesowymi"
+      ],
+      "summary_expectations": [
+        "Zmysł estetyczny i warsztat graficzny: praktyczna znajomość programów z pakietu Adobe (Photoshop, Illustrator, InDesign) lub pokrewnych narzędzi",
+        "Znajomość środowiska webowego: doświadczenie w zarządzaniu stronami internetowymi, znajomość systemów CMS (np",
+        "Język angielski: znajomość na poziomie umożliwiającym swobodną komunikację biznesową"
+      ],
+      "summary_offers": [
+        "Stabilność i rozwój: zatrudnienie w dynamicznie rosnącej polskiej firmie o ugruntowanej pozycji w branży oświetleniowej",
+        "Dzięki temu możemy oferować kompleksową obsługę – od koncepcji, przez projekt i dobór opraw, aż po wdrożenie",
+        "Cenimy partnerskie relacje, dzielenie się wiedzą oraz realny wpływ pracowników na kierunek rozwoju firmy"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
+    },
+    {
       "id": "e3639712cc859006",
       "title": "Specjalista / Specjalistka ds. marketingu",
       "company": "COSWELL POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -1485,74 +1548,6 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "3bf1313036f0bb3b",
-      "title": "Specjalista ds. marketingu (K/M)",
-      "company": "TOPSERW",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-marketingu-k-m-warszawa,oferta,1005061922",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-31T14:47:08.75Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Samodzielne tworzenie i planowanie contentu do social media: Pisanie angażujących treści (copywriting); Samodzielne tworzenie i planowanie newsletterów; Salesmanago, GetResponse), po planowanie wysyłek | What they expect: Doskonałe warsztatowo „lekkie pióro”: Lekkość w pisaniu chwytliwych i merytorycznych tekstów (copywriting) oraz bezbłędna znajomość języka polskiego (ortografia, stylistyka, interpunkcja); Doświadczenie w zarządzaniu contentem; Umiejętność prowadzenia profilów social media, planowania kalendarza publikacji i wysyłki newsletterów | What they offer: Premie kwartalne oraz nagrody; Atrakcyjny pakiet medyczny; Możliwość dołączenia do ubezpieczenia grupowego",
-      "summary_tasks": [
-        "Samodzielne tworzenie i planowanie contentu do social media: Pisanie angażujących treści (copywriting)",
-        "Samodzielne tworzenie i planowanie newsletterów",
-        "Salesmanago, GetResponse), po planowanie wysyłek"
-      ],
-      "summary_expectations": [
-        "Doskonałe warsztatowo „lekkie pióro”: Lekkość w pisaniu chwytliwych i merytorycznych tekstów (copywriting) oraz bezbłędna znajomość języka polskiego (ortografia, stylistyka, interpunkcja)",
-        "Doświadczenie w zarządzaniu contentem",
-        "Umiejętność prowadzenia profilów social media, planowania kalendarza publikacji i wysyłki newsletterów"
-      ],
-      "summary_offers": [
-        "Premie kwartalne oraz nagrody",
-        "Atrakcyjny pakiet medyczny",
-        "Możliwość dołączenia do ubezpieczenia grupowego"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "83ae776a06f82c6c",
-      "title": "Specjalista ds. Treści produktowych e-Apteka (k/m)",
-      "company": "Super-Pharm",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-e-apteka-k-m-warszawa,oferta,1005070545",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-09-03T15:14:17.677Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej; Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy; Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego | What they expect: Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej; Doświadczenie w tworzeniu angażujących treści; Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim | What they offer: Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne; Możliwość rozwoju w obszarze sprzedaży internetowej; Możliwość pracy zdalnej 2 razy w tygodniu",
-      "summary_tasks": [
-        "Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej",
-        "Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy",
-        "Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego"
-      ],
-      "summary_expectations": [
-        "Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej",
-        "Doświadczenie w tworzeniu angażujących treści",
-        "Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim"
-      ],
-      "summary_offers": [
-        "Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne",
-        "Możliwość rozwoju w obszarze sprzedaży internetowej",
-        "Możliwość pracy zdalnej 2 razy w tygodniu"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
-    },
-    {
       "id": "fcdd4f359ae2fde4",
       "title": "Performance Marketing Specialist (SEM / Meta Ads / Google Ads) (K/M/N)",
       "company": "Sales & More SA",
@@ -1585,6 +1580,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-23T06:37:32.967625+00:00"
+    },
+    {
+      "id": "06f6454e1931527a",
+      "title": "Specjalista ds. Cenników i Strony Internetowej (Pricing & Content Specialist)",
+      "company": "VIYAR",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-cennikow-i-strony-internetowej-pricing-content-specialist-warszawa,oferta,1005117449",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T09:08:37.983Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Tworzenie i optymalizacja struktury filtrów produktowych; Bieżący monitoring dostępności produktów na stronie internetowej; Przekazywanie zweryfikowanych danych do działu księgowości w celu wprowadzenia cenników do systemu ERP | What they expect: Doświadczenie na podobnym stanowisku (Content Specialist, Pricing Specialist, E-commerce Specialist lub pokrewne); Praktyczna znajomość systemów klasy ERP oraz systemów CMS / platform e-commerce; Umiejętność pracy z danymi, dobra znajomość programu MS Excel (kalkulacje, funkcje, analiza danych) | What they offer: Profesjonalne szkolenie oraz wdrożenie pod opieką; Stawiamy na innowacyjność i niezawodność, nieustannie poszerzając naszą ofertę, aby odpowiadać na zmieniające się potrzeby rynku; Dzięki konsekwentnemu rozwojowi jesteśmy dziś jedną z najbardziej rozpoznawalnych firm w swoim segmencie",
+      "summary_tasks": [
+        "Tworzenie i optymalizacja struktury filtrów produktowych",
+        "Bieżący monitoring dostępności produktów na stronie internetowej",
+        "Przekazywanie zweryfikowanych danych do działu księgowości w celu wprowadzenia cenników do systemu ERP"
+      ],
+      "summary_expectations": [
+        "Doświadczenie na podobnym stanowisku (Content Specialist, Pricing Specialist, E-commerce Specialist lub pokrewne)",
+        "Praktyczna znajomość systemów klasy ERP oraz systemów CMS / platform e-commerce",
+        "Umiejętność pracy z danymi, dobra znajomość programu MS Excel (kalkulacje, funkcje, analiza danych)"
+      ],
+      "summary_offers": [
+        "Profesjonalne szkolenie oraz wdrożenie pod opieką",
+        "Stawiamy na innowacyjność i niezawodność, nieustannie poszerzając naszą ofertę, aby odpowiadać na zmieniające się potrzeby rynku",
+        "Dzięki konsekwentnemu rozwojowi jesteśmy dziś jedną z najbardziej rozpoznawalnych firm w swoim segmencie"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
     },
     {
       "id": "9de4f0b6ac8ef8ee",
@@ -1687,38 +1716,42 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "6359686db6da20de",
-      "title": "Specjalistka / Specjalista e-commerce",
-      "company": "SMYK sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalistka-specjalista-e-commerce-warszawa-domaniewska-48,oferta,1005106208",
-      "apply_url": "",
-      "source": "pracuj.pl",
+      "id": "262ac3c7b9d945f9",
+      "title": "Business Analyst",
+      "company": "Sollers Consulting",
+      "location": "Białystok, Gdańsk, Kraków, Lublin, Łódź, Poznań, Warszawa, Szczecin, Wrocław",
+      "url": "https://justjoin.it/job-offer/sollers-consulting-business-analyst-bialystok-analytics",
+      "apply_url": "https://sollers.com/en/careers/business-analyst-3/",
+      "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-21T10:51:53.29Z",
+      "published_at": "2026-09-25T15:00:04.7282115Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój; Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych; Prowadzenie komunikacji Mobile Push i analiza jej wyników | What they expect: Doświadczenie w konfigurowaniu sklepów online; Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej; Znajomość pakietu MS Office na poziomie średniozaawansowanym | What they offer: Udział w szkoleniach stacjonarnych, językowych i e-learningowych; Możliwość przystąpienia do ubezpieczenia grupowego; dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Permanent Save Apply All offers Białystok Analytics Business Analyst Analytics Business Analyst Analytics; from requirements analysis, through testing to creating new solutions; You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies | What they expect: analysis, through testing to creating new solutions – is done with passion and high-quality assurance; Conduct business analysis, define functional requirements, and test developed solutions and support UATs; About the requirements | What they offer: Benefits & Perks; Our team is the heart of our company; That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable",
       "summary_tasks": [
-        "Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój",
-        "Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych",
-        "Prowadzenie komunikacji Mobile Push i analiza jej wyników"
+        "Permanent Save Apply All offers Białystok Analytics Business Analyst Analytics Business Analyst Analytics",
+        "from requirements analysis, through testing to creating new solutions",
+        "You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies"
       ],
       "summary_expectations": [
-        "Doświadczenie w konfigurowaniu sklepów online",
-        "Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej",
-        "Znajomość pakietu MS Office na poziomie średniozaawansowanym"
+        "analysis, through testing to creating new solutions – is done with passion and high-quality assurance",
+        "Conduct business analysis, define functional requirements, and test developed solutions and support UATs",
+        "About the requirements"
       ],
       "summary_offers": [
-        "Udział w szkoleniach stacjonarnych, językowych i e-learningowych",
-        "Możliwość przystąpienia do ubezpieczenia grupowego",
-        "dofinansowanie szkoleń i kursów"
+        "Benefits & Perks",
+        "Our team is the heart of our company",
+        "That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable"
       ],
-      "required_skills": [],
-      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
+      "required_skills": [
+        "Analiza Biznesowa",
+        "analiza",
+        "Zarządzanie zespołem"
+      ],
+      "first_found_at": "2026-09-16T06:38:45.640531+00:00"
     },
     {
       "id": "5eb573ba6394bbaa",
@@ -1755,42 +1788,38 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "ae40df32e450e376",
-      "title": "Główny Inżynier / Inżynierka Systemów Informatycznych (Network Engineer)",
-      "company": "Integrated Solutions Sp. z o.o",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/orange-polska-glowny-inzynier-inzynierka-systemow-informatycznych-network-engineer--warszawa-admin",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=939628b2f72a4c6f9ed051fa6cce1c99",
-      "source": "justjoin.it",
+      "id": "6359686db6da20de",
+      "title": "Specjalistka / Specjalista e-commerce",
+      "company": "SMYK sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalistka-specjalista-e-commerce-warszawa-domaniewska-48,oferta,1005106208",
+      "apply_url": "",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-24T15:00:14.838269Z",
+      "published_at": "2026-09-21T10:51:53.29Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Monitorowanie i optymalizacja działania sieci, zapewniając jej skalowalność, stabilność i bezpieczeństwo; Zarządzanie konfiguracją oraz dokumentacją projektów sieciowych; Współpraca z zespołami technicznymi, dostawcami oraz interesariuszami biznesowymi | What they expect: TCP/IP i warstwa 2 — masz dobrą znajomość technologii TCP/IP, warstwy 2 oraz routingu dynamicznego (OSPF, BGP); Wi‑Fi, SDN, wirtualizacja — posiadasz doświadczenie z technologiami Wi‑Fi, SDN, wirtualizacją sieci oraz sieciami kampusowymi i centrami danych; Projekty i migracje — masz doświadczenie w planowaniu, wdrażaniu i migracji rozwiązań sieciowych oraz współpracy z zespołami i dostawcami | What they offer: Prywatną opiekę medyczną w pełni opłacaną przez pracodawcę; Ubezpieczenie grupowe na preferencyjnych warunkach; Platformę benefitową zasilaną środkami z Funduszu Socjalnego (",
+      "summary": "What you'll do: Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój; Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych; Prowadzenie komunikacji Mobile Push i analiza jej wyników | What they expect: Doświadczenie w konfigurowaniu sklepów online; Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej; Znajomość pakietu MS Office na poziomie średniozaawansowanym | What they offer: Udział w szkoleniach stacjonarnych, językowych i e-learningowych; Możliwość przystąpienia do ubezpieczenia grupowego; dofinansowanie szkoleń i kursów",
       "summary_tasks": [
-        "Monitorowanie i optymalizacja działania sieci, zapewniając jej skalowalność, stabilność i bezpieczeństwo",
-        "Zarządzanie konfiguracją oraz dokumentacją projektów sieciowych",
-        "Współpraca z zespołami technicznymi, dostawcami oraz interesariuszami biznesowymi"
+        "Dbanie o aktualizację treści aplikacji mobilnej i sklepu internetowego oraz odpowiedzialność za jej dalszy rozwój",
+        "Współpraca z Działem Zakupów i Marketingu w zakresie planowania i analizy wyników prowadzonych akcji promocyjnych",
+        "Prowadzenie komunikacji Mobile Push i analiza jej wyników"
       ],
       "summary_expectations": [
-        "TCP/IP i warstwa 2 — masz dobrą znajomość technologii TCP/IP, warstwy 2 oraz routingu dynamicznego (OSPF, BGP)",
-        "Wi‑Fi, SDN, wirtualizacja — posiadasz doświadczenie z technologiami Wi‑Fi, SDN, wirtualizacją sieci oraz sieciami kampusowymi i centrami danych",
-        "Projekty i migracje — masz doświadczenie w planowaniu, wdrażaniu i migracji rozwiązań sieciowych oraz współpracy z zespołami i dostawcami"
+        "Doświadczenie w konfigurowaniu sklepów online",
+        "Minimum 2-letnie doświadczenie w pracy przy publikacji treści na stronach www lub aplikacji mobilnej",
+        "Znajomość pakietu MS Office na poziomie średniozaawansowanym"
       ],
       "summary_offers": [
-        "Prywatną opiekę medyczną w pełni opłacaną przez pracodawcę",
-        "Ubezpieczenie grupowe na preferencyjnych warunkach",
-        "Platformę benefitową zasilaną środkami z Funduszu Socjalnego ("
+        "Udział w szkoleniach stacjonarnych, językowych i e-learningowych",
+        "Możliwość przystąpienia do ubezpieczenia grupowego",
+        "dofinansowanie szkoleń i kursów"
       ],
-      "required_skills": [
-        "TCP/IP",
-        "Wi-Fi",
-        "SD-WAN"
-      ],
-      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
+      "required_skills": [],
+      "first_found_at": "2026-09-22T06:40:42.636985+00:00"
     },
     {
       "id": "c4dcf512c95b3a4b",
@@ -1857,40 +1886,6 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "9352cbcc9111cb7c",
-      "title": "Specjalista/ka ds. e-commerce z językiem bułgarskim",
-      "company": "Empik S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ka-ds-e-commerce-z-jezykiem-bulgarskim-warszawa-marszalkowska-104-122,oferta,1005052196",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-08-26T10:59:23.85Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Monitorowanie rynku i konkurencji, identyfikowanie trendów oraz przygotowywanie rekomendacji i planów działań wspierających wzrost sprzedaży; Planowanie, tworzenie i wdrażanie oferty handlowej oraz akcji promocyjnych dopasowanych do specyfiki rynku bułgarskiego; Bieżąca praca z systemem CMS – zarządzanie treściami, produktami, kategoriami, promocjami i elementami oferty na stronie internetowej oraz w aplikacji | What they expect: Masz doświadczenie w e-commerce i rozumiesz mechanizmy sprzedaży internetowej; Masz doświadczenie w pracy z systemami CMS i potrafisz samodzielnie zarządzać treściami oraz ofertą w sklepie internetowym; Potrafisz spojrzeć na sklep internetowy z perspektywy klienta i identyfikować obszary wymagające optymalizacji | What they offer: Możliwość rozwoju w strukturach firmy (awanse, transfery wewnętrzne); Model pracy hybrydowej (4 dni pracy z biura + 1 dzień w trybie home office), nasze biuro jest zlokalizowane w samym centrum miasta przy ul; Marszałkowska 104/122 lub pracę zdalną",
-      "summary_tasks": [
-        "Monitorowanie rynku i konkurencji, identyfikowanie trendów oraz przygotowywanie rekomendacji i planów działań wspierających wzrost sprzedaży",
-        "Planowanie, tworzenie i wdrażanie oferty handlowej oraz akcji promocyjnych dopasowanych do specyfiki rynku bułgarskiego",
-        "Bieżąca praca z systemem CMS – zarządzanie treściami, produktami, kategoriami, promocjami i elementami oferty na stronie internetowej oraz w aplikacji"
-      ],
-      "summary_expectations": [
-        "Masz doświadczenie w e-commerce i rozumiesz mechanizmy sprzedaży internetowej",
-        "Masz doświadczenie w pracy z systemami CMS i potrafisz samodzielnie zarządzać treściami oraz ofertą w sklepie internetowym",
-        "Potrafisz spojrzeć na sklep internetowy z perspektywy klienta i identyfikować obszary wymagające optymalizacji"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju w strukturach firmy (awanse, transfery wewnętrzne)",
-        "Model pracy hybrydowej (4 dni pracy z biura + 1 dzień w trybie home office), nasze biuro jest zlokalizowane w samym centrum miasta przy ul",
-        "Marszałkowska 104/122 lub pracę zdalną"
-      ],
-      "required_skills": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
       "id": "b7454d7e9718d368",
       "title": "Specjalista / Specjalistka ds. SEO",
       "company": "CUK Ubezpieczenia",
@@ -1923,48 +1918,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-24T06:37:14.299063+00:00"
-    },
-    {
-      "id": "e5efe94a9588480d",
-      "title": "Infrastructure Administrator",
-      "company": "cloudatus",
-      "location": "Rzeszów, Kraków, Łódź, Katowice, Wrocław",
-      "url": "https://justjoin.it/job-offer/cloudatus-infrastructure-administrator-rzeszow-admin-4af2422e",
-      "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-24T15:00:14.764448Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,; You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model; This role combines hands-on administration, troubleshooting, patching, backup, documentation, | What they expect: one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote",
-      "summary_tasks": [
-        "As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,",
-        "You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model",
-        "This role combines hands-on administration, troubleshooting, patching, backup, documentation,"
-      ],
-      "summary_expectations": [
-        "one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup"
-      ],
-      "summary_offers": [
-        "Industry leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote"
-      ],
-      "required_skills": [
-        "Windows Server",
-        "Cloud",
-        "monitoring",
-        "Hyper-V",
-        "Virtualization",
-        "Linux",
-        "VMware",
-        "Active Directory",
-        "backup"
-      ],
-      "first_found_at": "2026-09-20T06:40:35.662010+00:00"
     },
     {
       "id": "8b33f95839c21f6a",
@@ -2065,46 +2018,104 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "3e0390009c39aa5a",
-      "title": "Infrastructure Administrator",
-      "company": "cloudatus",
-      "location": "Warszawa, Szczecin, Gdańsk, Bydgoszcz, Olsztyn",
-      "url": "https://justjoin.it/job-offer/cloudatus-infrastructure-administrator-warszawa-admin-ee480ce4",
+      "id": "3bf1313036f0bb3b",
+      "title": "Specjalista ds. marketingu (K/M)",
+      "company": "TOPSERW",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-marketingu-k-m-warszawa,oferta,1005061922",
       "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-09-24T15:00:10.756939Z",
+      "published_at": "2026-08-31T14:47:08.75Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,; You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model; This role combines hands-on administration, troubleshooting, patching, backup, documentation, | What they expect: one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote",
+      "summary": "What you'll do: Samodzielne tworzenie i planowanie contentu do social media: Pisanie angażujących treści (copywriting); Samodzielne tworzenie i planowanie newsletterów; Salesmanago, GetResponse), po planowanie wysyłek | What they expect: Doskonałe warsztatowo „lekkie pióro”: Lekkość w pisaniu chwytliwych i merytorycznych tekstów (copywriting) oraz bezbłędna znajomość języka polskiego (ortografia, stylistyka, interpunkcja); Doświadczenie w zarządzaniu contentem; Umiejętność prowadzenia profilów social media, planowania kalendarza publikacji i wysyłki newsletterów | What they offer: Premie kwartalne oraz nagrody; Atrakcyjny pakiet medyczny; Możliwość dołączenia do ubezpieczenia grupowego",
       "summary_tasks": [
-        "As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,",
-        "You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model",
-        "This role combines hands-on administration, troubleshooting, patching, backup, documentation,"
+        "Samodzielne tworzenie i planowanie contentu do social media: Pisanie angażujących treści (copywriting)",
+        "Samodzielne tworzenie i planowanie newsletterów",
+        "Salesmanago, GetResponse), po planowanie wysyłek"
       ],
       "summary_expectations": [
-        "one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup"
+        "Doskonałe warsztatowo „lekkie pióro”: Lekkość w pisaniu chwytliwych i merytorycznych tekstów (copywriting) oraz bezbłędna znajomość języka polskiego (ortografia, stylistyka, interpunkcja)",
+        "Doświadczenie w zarządzaniu contentem",
+        "Umiejętność prowadzenia profilów social media, planowania kalendarza publikacji i wysyłki newsletterów"
       ],
       "summary_offers": [
-        "Industry leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote"
+        "Premie kwartalne oraz nagrody",
+        "Atrakcyjny pakiet medyczny",
+        "Możliwość dołączenia do ubezpieczenia grupowego"
       ],
-      "required_skills": [
-        "Windows Server",
-        "Cloud",
-        "monitoring",
-        "Hyper-V",
-        "Virtualization",
-        "Linux",
-        "VMware",
-        "Active Directory",
-        "backup"
+      "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "3e8fdc9d2af63f42",
+      "title": "Specjalista / Specjalistka ds. marketingu",
+      "company": "Grupa Auto Forum",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-warszawa,oferta,1005085044",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-10T11:04:24.343Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Współtworzenie planu marketingowego dla wszystkich marek z Grupy Auto Forum, w tym dla marki Premium Mercedes- Benz; Planowanie, organizacja i kontrola przebiegu eventów; Tworzenie i moderowanie treści w SM | What they expect: Wykształcenie wyższe – marketing, zarządzanie, socjologia lub pokrewne ( | What they offer: Pracę na odpowiedzialnym stanowisku w stabilnej firmie, ukierunkowanej na rozwój; Rozwój zawodowy, szkolenia wewnętrzne i zewnętrzne; Pakiet Medyczny finansowany przez Pracodawcę",
+      "summary_tasks": [
+        "Współtworzenie planu marketingowego dla wszystkich marek z Grupy Auto Forum, w tym dla marki Premium Mercedes- Benz",
+        "Planowanie, organizacja i kontrola przebiegu eventów",
+        "Tworzenie i moderowanie treści w SM"
       ],
-      "first_found_at": "2026-09-20T06:40:35.662010+00:00"
+      "summary_expectations": [
+        "Wykształcenie wyższe – marketing, zarządzanie, socjologia lub pokrewne ("
+      ],
+      "summary_offers": [
+        "Pracę na odpowiedzialnym stanowisku w stabilnej firmie, ukierunkowanej na rozwój",
+        "Rozwój zawodowy, szkolenia wewnętrzne i zewnętrzne",
+        "Pakiet Medyczny finansowany przez Pracodawcę"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
+    },
+    {
+      "id": "83ae776a06f82c6c",
+      "title": "Specjalista ds. Treści produktowych e-Apteka (k/m)",
+      "company": "Super-Pharm",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-ds-tresci-produktowych-e-apteka-k-m-warszawa,oferta,1005070545",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-09-03T15:14:17.677Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej; Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy; Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego | What they expect: Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej; Doświadczenie w tworzeniu angażujących treści; Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim | What they offer: Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne; Możliwość rozwoju w obszarze sprzedaży internetowej; Możliwość pracy zdalnej 2 razy w tygodniu",
+      "summary_tasks": [
+        "Tworzenie i edytowanie opisów produktowych (leków RX, leków OTC, wyrobów medycznych, suplementów diety, sprzętu medycznego, kosmetyków i innych zawartych w portfolio apteki internetowej), treści marketingowych, treści landing pages zgodnie z zasadami optymalizacji treści, z zasadami poprawnej pisowni polskiej",
+        "Aktualizacja danych produktowych na podstawie zgłoszeń Biura Obsługi Klienta lub dostawcy",
+        "Wykonywanie innych zadań związanych z obsługą treści sklepu internetowego"
+      ],
+      "summary_expectations": [
+        "Co najmniej 6 miesięcy doświadczenia pracy w firmie prowadzącej sprzedaż internetową (preferowana branża farmaceutyczna) lub w aptece stacjonarnej",
+        "Doświadczenie w tworzeniu angażujących treści",
+        "Lekkie pióro i doskonała znajomość zasad pisowni w języku polskim"
+      ],
+      "summary_offers": [
+        "Szeroki pakiet benefitów, w tym opiekę medyczną, ubezpieczenie na życie, kartę Multisport, zniżki pracownicze, inne",
+        "Możliwość rozwoju w obszarze sprzedaży internetowej",
+        "Możliwość pracy zdalnej 2 razy w tygodniu"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-03T17:22:44.831756+00:00"
     },
     {
       "id": "79f856956ddba821",
@@ -2175,38 +2186,38 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "c358b77bc6f24aed",
-      "title": "HR Data Analyst",
-      "company": "Antal",
-      "location": "POL Poland Wrocław hr-data-analyst-antal-wroclaw False",
-      "url": "https://nofluffjobs.com/pl/job/hr-data-analyst-antal-wroclaw",
+      "id": "8b1f4d637740f689",
+      "title": "Sales Operations & Implementation Specialist",
+      "company": "AS Inbank",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/sales-operations-implementation-specialist-warszawa,oferta,1005118533",
       "apply_url": "",
-      "source": "nofluffjobs.com",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "permanent PLN Month AT_FIRST_INTERVIEW False",
-      "published_at": "1788732083586",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T12:36:39.833Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Partnering with the leadership team (including the People Analytics Manager; Overseeing the maintenance and quality control of existing People Analytics dashboards, products, and routine reports; Leading dataset development (drawing on systems like Workday) to build a robust architecture for various operational use cases | What they expect: 2+ years of experience in an analytical role; (experience in People/HR analytics is a significant advantage); Superb analytical skills with hands-on experience in cleaning, manipulating, and combining large datasets | What they offer: A modern, hybrid working environment based in Wrocław; Szczegóły oferty; liczba dni zdalnych do ustalenia",
+      "summary": "What you'll do: Support: Supporting Sales Managers and business partners with day-to-day operational topics and helping ensure smooth sales processes; Partner Cooperation: Building and maintaining effective long-term cooperation with the key partners and supporting them with operational topics; Managing access to sales applications and providing day-to-day support to their users | What they expect: Hands-on knowledge and experience in operational and/or sales support within a financial institution; Excellent organisational skills, accuracy, and strong attention to detail; Strong interpersonal and communication skills, combined with the ability to work effectively with different stakeholders | What they offer: Engaging and challenging projects with plenty of opportunities to learn, grow, and develop professionally; Private medical care (Enel-Med); Additional employee perks and benefits throughout the year",
       "summary_tasks": [
-        "Partnering with the leadership team (including the People Analytics Manager",
-        "Overseeing the maintenance and quality control of existing People Analytics dashboards, products, and routine reports",
-        "Leading dataset development (drawing on systems like Workday) to build a robust architecture for various operational use cases"
+        "Support: Supporting Sales Managers and business partners with day-to-day operational topics and helping ensure smooth sales processes",
+        "Partner Cooperation: Building and maintaining effective long-term cooperation with the key partners and supporting them with operational topics",
+        "Managing access to sales applications and providing day-to-day support to their users"
       ],
       "summary_expectations": [
-        "2+ years of experience in an analytical role",
-        "(experience in People/HR analytics is a significant advantage)",
-        "Superb analytical skills with hands-on experience in cleaning, manipulating, and combining large datasets"
+        "Hands-on knowledge and experience in operational and/or sales support within a financial institution",
+        "Excellent organisational skills, accuracy, and strong attention to detail",
+        "Strong interpersonal and communication skills, combined with the ability to work effectively with different stakeholders"
       ],
       "summary_offers": [
-        "A modern, hybrid working environment based in Wrocław",
-        "Szczegóły oferty",
-        "liczba dni zdalnych do ustalenia"
+        "Engaging and challenging projects with plenty of opportunities to learn, grow, and develop professionally",
+        "Private medical care (Enel-Med)",
+        "Additional employee perks and benefits throughout the year"
       ],
       "required_skills": [],
-      "first_found_at": "2026-09-19T06:37:40.809618+00:00"
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
     },
     {
       "id": "945e3dd13bfd0022",
@@ -2311,48 +2322,6 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "df9708957f21abc5",
-      "title": "Infrastructure Administrator",
-      "company": "cloudatus",
-      "location": "Gdańsk, Gdynia, Szczecin, Bydgoszcz, Olsztyn",
-      "url": "https://justjoin.it/job-offer/cloudatus-infrastructure-administrator-gdansk-admin-eb3e45a8",
-      "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-24T14:00:17.25533Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,; You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model; This role combines hands-on administration, troubleshooting, patching, backup, documentation, | What they expect: one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote",
-      "summary_tasks": [
-        "As an Infrastructure Administrator , you will be responsible for the day-to-day administration, support, monitoring,",
-        "You will help ensure stability, availability, and operational continuity of core infrastructure services in a managed services model",
-        "This role combines hands-on administration, troubleshooting, patching, backup, documentation,"
-      ],
-      "summary_expectations": [
-        "one virtualization platform ( VMware, Hyper-V, Proxmox ) Hands-on experience with backup"
-      ],
-      "summary_offers": [
-        "Industry leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote"
-      ],
-      "required_skills": [
-        "Windows Server",
-        "Cloud",
-        "monitoring",
-        "Hyper-V",
-        "Virtualization",
-        "Linux",
-        "VMware",
-        "Active Directory",
-        "backup"
-      ],
-      "first_found_at": "2026-09-20T06:40:35.662010+00:00"
-    },
-    {
       "id": "ac25c14987c2220d",
       "title": "Analityk danych (m/k/n)",
       "company": "Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy",
@@ -2454,91 +2423,6 @@
       "first_found_at": "2026-09-19T06:37:40.809618+00:00"
     },
     {
-      "id": "a166fc30f7a8d2bd",
-      "title": "Systems Administrator",
-      "company": "Allegro",
-      "location": "Poznań",
-      "url": "https://justjoin.it/job-offer/allegro-systems-administrator-poznan-admin",
-      "apply_url": "https://careers.allegro.eu/job/Pozna%C5%84-Systems-Administrator-61-569/1361624155/?utm_source=JustJoinIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-24T14:00:14.416372Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: We oversee the management, security, and health of all endpoint devices such as macOS/Windows workstations, iOS/Android mobile devices; Configuring, managing, and maintaining localized physical workplace services, including e.g; Monitoring system availability, analyzing logs and assisting with capacity planning | What they expect: Strong practical knowledge administrating, configuring and troubleshooting standard operating systems, including Windows, macOS, Android and iOS; Proven experience using Active Directory alongside endpoint management tools like SCCM and WSUS; Excellent problem-solving skills, attention to detail, and the ability to work independently while remaining strictly aligned with SLA/KPI targets | What they offer: in a cafeteria plan - you choose what you like (e.g., medical, sports or lunch packages, insurance, purchase vouchers); A training budget, inter-team tourism (; ), hackathons, and an internal learning platform where you will find multiple trainings",
-      "summary_tasks": [
-        "We oversee the management, security, and health of all endpoint devices such as macOS/Windows workstations, iOS/Android mobile devices",
-        "Configuring, managing, and maintaining localized physical workplace services, including e.g",
-        "Monitoring system availability, analyzing logs and assisting with capacity planning"
-      ],
-      "summary_expectations": [
-        "Strong practical knowledge administrating, configuring and troubleshooting standard operating systems, including Windows, macOS, Android and iOS",
-        "Proven experience using Active Directory alongside endpoint management tools like SCCM and WSUS",
-        "Excellent problem-solving skills, attention to detail, and the ability to work independently while remaining strictly aligned with SLA/KPI targets"
-      ],
-      "summary_offers": [
-        "in a cafeteria plan - you choose what you like (e.g., medical, sports or lunch packages, insurance, purchase vouchers)",
-        "A training budget, inter-team tourism (",
-        "), hackathons, and an internal learning platform where you will find multiple trainings"
-      ],
-      "required_skills": [
-        "System Administration",
-        "ITIL",
-        "Active Directory",
-        "Powershell",
-        "Bash",
-        "Python",
-        "SQL"
-      ],
-      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
-    },
-    {
-      "id": "d39b7b1abc600f3c",
-      "title": "Application Support Engineer / Windows System Administrator",
-      "company": "Transition Technologies MS",
-      "location": "Warszawa, Gdańsk, Wrocław, Kraków, Poznań",
-      "url": "https://justjoin.it/job-offer/transition-technologies-ms-application-support-engineer-windows-system-administrator-warszawa-support",
-      "apply_url": "https://ttms.traffit.com/public/form/a/2121?uid=3d8749470c2fc23e0f5a274c7b1d2c2650727037694f4374337a746f784433753169656a6553507a45304a4b6a387543",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-24T14:00:14.038093Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Administering and maintaining Windows Server environments; Managing and troubleshooting MS SQL Server databases; Creating and maintaining technical documentation, including Runbooks, DR Plans, and SOPs | What they expect: Database: Good knowledge of MS SQL Server (ability to manage, configure, and troubleshoot DB-related issues); Experience in creating and maintaining technical documentation (Runbooks, Disaster Recovery Plans, SOPs); Familiarity with corporate IT procedures (Change Management, Incident Management | What they offer: Possibility to work remote or hybrid (2 days per week from the office); Opportunities for development and promotion; Attractive package of benefits",
-      "summary_tasks": [
-        "Administering and maintaining Windows Server environments",
-        "Managing and troubleshooting MS SQL Server databases",
-        "Creating and maintaining technical documentation, including Runbooks, DR Plans, and SOPs"
-      ],
-      "summary_expectations": [
-        "Database: Good knowledge of MS SQL Server (ability to manage, configure, and troubleshoot DB-related issues)",
-        "Experience in creating and maintaining technical documentation (Runbooks, Disaster Recovery Plans, SOPs)",
-        "Familiarity with corporate IT procedures (Change Management, Incident Management"
-      ],
-      "summary_offers": [
-        "Possibility to work remote or hybrid (2 days per week from the office)",
-        "Opportunities for development and promotion",
-        "Attractive package of benefits"
-      ],
-      "required_skills": [
-        "MS Windows Server",
-        "MS SQL Server",
-        "troubleshoot DB-related issues",
-        "administration, configuration, and maintenance",
-        "creating and maintaining technical documentation",
-        "Runbooks, Disaster Recovery Plans, SOPs",
-        "understanding of deployment processes",
-        "Familiarity with corporate IT procedures"
-      ],
-      "first_found_at": "2026-09-10T06:27:49.287872+00:00"
-    },
-    {
       "id": "fa7654bcda37df04",
       "title": "Specjalista ds. Analiz (k/m)",
       "company": "Solid Security Sp. z o.o.",
@@ -2569,6 +2453,46 @@
         "Wsparcie doświadczonego Managera"
       ],
       "required_skills": [],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "6b2c42ce916a3c76",
+      "title": "Specjalista / Specjalistka ds. sieci IT",
+      "company": "TAURON Obsługa Klienta Sp. z o.o.",
+      "location": "Katowice",
+      "url": "https://justjoin.it/job-offer/tauron-obsluga-klienta-sp-z-o-o--specjalista-specjalistka-ds-sieci-it-katowice-admin-b323ba4b",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a695f55dbcc94d5c9d362136b8995532",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T13:00:14.6042572Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: sieci IT Admin Lwowska 23 , Katowice TAURON Obsługa Klienta Sp; Job offers TAURON Obsługa Klienta Sp; Permanent Job description Najwyższa jakość usług i obsługi klienta to nasz priorytet | What they expect: Doświadczenia zawodowego w obszarze sieci informatycznych oraz bezpieczeństwa połączeń z sieciami zewnętrznymi; Bardzo dobrej znajomości i umiejętności konfiguracji urządzeń sieciowych Cisco (w szczególności: przełączniki, routery oraz firewalle); Doświadczenia w konfiguracji i administracji rozwiązań Check Point | What they offer: premia roczna oraz premie kwartalne; Prywatna opieka medyczna w Enel-Med (pakiet obejmuje nielimitowany dostęp do lekarzy wielu specjalizacji); Możliwość przystąpienia do ubezpieczenia grupowego w PZU",
+      "summary_tasks": [
+        "sieci IT Admin Lwowska 23 , Katowice TAURON Obsługa Klienta Sp",
+        "Job offers TAURON Obsługa Klienta Sp",
+        "Permanent Job description Najwyższa jakość usług i obsługi klienta to nasz priorytet"
+      ],
+      "summary_expectations": [
+        "Doświadczenia zawodowego w obszarze sieci informatycznych oraz bezpieczeństwa połączeń z sieciami zewnętrznymi",
+        "Bardzo dobrej znajomości i umiejętności konfiguracji urządzeń sieciowych Cisco (w szczególności: przełączniki, routery oraz firewalle)",
+        "Doświadczenia w konfiguracji i administracji rozwiązań Check Point"
+      ],
+      "summary_offers": [
+        "premia roczna oraz premie kwartalne",
+        "Prywatna opieka medyczna w Enel-Med (pakiet obejmuje nielimitowany dostęp do lekarzy wielu specjalizacji)",
+        "Możliwość przystąpienia do ubezpieczenia grupowego w PZU"
+      ],
+      "required_skills": [
+        "Cisco",
+        "LAN",
+        "Wlan",
+        "VPN",
+        "Firewall"
+      ],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
@@ -2636,6 +2560,89 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "e52a4995c93bc77c",
+      "title": "Wordpress Web Developer",
+      "company": "COPUZ Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/copuz-sp-z-o-o--wordpress-web-developer-warszawa-php",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T12:00:14.3779731Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: B2B Save Apply All offers Warszawa PHP Wordpress Web Developer PHP Wordpress Web Developer PHP Kamionkowska 51 , Warszawa COPUZ Sp; B2B Job description 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?; Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe | What they expect: doświadczenie w komercyjnych projektach (min; dobra znajomość WordPressa (motywy, ACF, hooks/filters, security); praktyczna znajomość kreatorów stron (np | What they offer: Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy; Czytelną perspektywę rozwoju; Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych",
+      "summary_tasks": [
+        "B2B Save Apply All offers Warszawa PHP Wordpress Web Developer PHP Wordpress Web Developer PHP Kamionkowska 51 , Warszawa COPUZ Sp",
+        "B2B Job description 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?",
+        "Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe"
+      ],
+      "summary_expectations": [
+        "doświadczenie w komercyjnych projektach (min",
+        "dobra znajomość WordPressa (motywy, ACF, hooks/filters, security)",
+        "praktyczna znajomość kreatorów stron (np"
+      ],
+      "summary_offers": [
+        "Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy",
+        "Czytelną perspektywę rozwoju",
+        "Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych"
+      ],
+      "required_skills": [
+        "PHP",
+        "WordPress",
+        "HTML",
+        "MySQL",
+        "JS",
+        "CSS"
+      ],
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+    },
+    {
+      "id": "3b2753ae0d38ee5f",
+      "title": "Network Administrator",
+      "company": "cloudatus",
+      "location": "Rzeszów, Warszawa, Wrocław, Kraków, Katowice",
+      "url": "https://justjoin.it/job-offer/cloudatus-network-administrator-rzeszow-admin-7d52cc71",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T12:00:10.3477794Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,; At cloudatus, you will: Build, administer, monitor; Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g | What they expect: Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g; routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport); Flexible working schedule; 100% remote",
+      "summary_tasks": [
+        "Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,",
+        "At cloudatus, you will: Build, administer, monitor",
+        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g"
+      ],
+      "summary_expectations": [
+        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g",
+        "routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred"
+      ],
+      "summary_offers": [
+        "Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport)",
+        "Flexible working schedule",
+        "100% remote"
+      ],
+      "required_skills": [
+        "SD-WAN",
+        "DNS",
+        "IP networks",
+        "Fortinet",
+        "DHCP",
+        "NTP",
+        "LAN/WAN",
+        "zScaler"
+      ],
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
       "id": "2612948ede94b608",
@@ -2706,36 +2713,85 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "7b100c3f4d428f23",
-      "title": "Payments Operations Specialist with Hebrew",
-      "company": "HSBC Technology Poland",
-      "location": "POL Poland Kraków ul. Kapelanka 42A 30-347 payments-operations-specialist-with-hebrew-hsbc-technology-poland-krakow False",
-      "url": "https://nofluffjobs.com/pl/job/payments-operations-specialist-with-hebrew-hsbc-technology-poland-krakow",
+      "id": "0d8f8e26429574b7",
+      "title": "Network Administrator",
+      "company": "cloudatus",
+      "location": "Łódź, Gdańsk, Bydgoszcz, Opole, Szczecin",
+      "url": "https://justjoin.it/job-offer/cloudatus-network-administrator-lodz-admin-ead68a03",
       "apply_url": "",
-      "source": "nofluffjobs.com",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "Mid",
-      "salary": "7634 9541 permanent PLN Month VISIBLE False",
-      "published_at": "1789250487769",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T12:00:07.6058227Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "summary": "What you'll do: Process, monitor, and validate payment instructions across relevant payment channels; Maintain clear case notes and documentation to support auditability and strong governance; Identify root causes of recurring issues and support process improvements/automation opportunities | What they expect: while continuously improving how we work | What they offer: Additional bonuses for recognition awards; One-time reimbursement of home office set-up (up to 800 PLN); Financial support with trainings and education",
+      "summary": "What you'll do: Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,; At cloudatus, you will: Build, administer, monitor; Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g | What they expect: Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g; routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred | What they offer: Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport); Flexible working schedule; 100% remote",
       "summary_tasks": [
-        "Process, monitor, and validate payment instructions across relevant payment channels",
-        "Maintain clear case notes and documentation to support auditability and strong governance",
-        "Identify root causes of recurring issues and support process improvements/automation opportunities"
+        "Job description: As a Network Administrator , you will be responsible for the day-to-day operation, monitoring, troubleshooting, maintenance,",
+        "At cloudatus, you will: Build, administer, monitor",
+        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g"
       ],
       "summary_expectations": [
-        "while continuously improving how we work"
+        "Understanding of wired and wireless access technologies (Wi-Fi, 802.1x/EAP etc.) Hands-on experience with network products and solutions (e.g",
+        "routers and switches, wireless controllers, Access Points, network firewalls etc.) Knowledge of the network configuration of the server operating systems (Windows, Linux) Knowledge of Fortinet/Zscaler solutions is preferred"
       ],
       "summary_offers": [
-        "Additional bonuses for recognition awards",
-        "One-time reimbursement of home office set-up (up to 800 PLN)",
-        "Financial support with trainings and education"
+        "Industry leading healthcare and comprehensive medical coverage (Luxmed, MultiSport)",
+        "Flexible working schedule",
+        "100% remote"
       ],
-      "required_skills": [],
-      "first_found_at": "2026-09-07T06:27:04.785660+00:00"
+      "required_skills": [
+        "SD-WAN",
+        "DNS",
+        "IP networks",
+        "DHCP",
+        "NTP",
+        "LAN/WAN",
+        "Fortinet",
+        "zScaler"
+      ],
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
+    },
+    {
+      "id": "220d69ace5a860db",
+      "title": "Business Analyst",
+      "company": "Edge One Solutions Sp. z o.o",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-business-analyst-warszawa-analytics-eb4f5c99",
+      "apply_url": "https://edge1s.recruitify.ai/job/ec04f95e-10a6-4bfa-b475-c1bd9b0203c5?sourceId=37",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T11:00:16.8193Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Doświadczenie zdobyte w ciągu ostatnich 3 lat w zakresie: tworzenia dokumentacji produktowej, w tym regulacji wewnętrznych; Similar offers SCALO Warszawa Hybrid Hybrid Business Analyst New 3 374,28; z.o.o Warszawa Hybrid Hybrid Business Analyst New 1 825,25 | What they expect: mi regulacyjnymi oraz wymaganiami KIR; Uzgadnianie, analiza i walidacja wymagań biznesowych oraz systemowych; Zarządzanie wymaganiami i dokumentacją oraz dbanie o ich aktualność, jakość i spójność | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne (HearMe); Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
+      "summary_tasks": [
+        "Doświadczenie zdobyte w ciągu ostatnich 3 lat w zakresie: tworzenia dokumentacji produktowej, w tym regulacji wewnętrznych",
+        "Similar offers SCALO Warszawa Hybrid Hybrid Business Analyst New 3 374,28",
+        "z.o.o Warszawa Hybrid Hybrid Business Analyst New 1 825,25"
+      ],
+      "summary_expectations": [
+        "mi regulacyjnymi oraz wymaganiami KIR",
+        "Uzgadnianie, analiza i walidacja wymagań biznesowych oraz systemowych",
+        "Zarządzanie wymaganiami i dokumentacją oraz dbanie o ich aktualność, jakość i spójność"
+      ],
+      "summary_offers": [
+        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
+        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne (HearMe)",
+        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
+      ],
+      "required_skills": [
+        "Business Analysis",
+        "SEPA",
+        "VoP",
+        "Analytics"
+      ],
+      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
       "id": "90b1e82412deaf17",
@@ -2840,6 +2896,46 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
+      "id": "7f133758d9b31fb5",
+      "title": "Data Analyst (Digital Commerce)",
+      "company": "Reply Polska Sp. z o.o.",
+      "location": "Katowice",
+      "url": "https://justjoin.it/job-offer/reply-polska-sp-z-o-o--data-analyst-digital-commerce--katowice-data",
+      "apply_url": "https://www.reply.com/en/about/careers/pl/job-application/JOB-11432?country=pl&s=jobboard&k=JJIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T10:00:13.538954Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Furthermore you will be implementing; Your key responsibilities include; to support business decision-making | What they expect: you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!; Several years of professional experience in digital analytics, preferably within e-commerce or digital business environments; Strong knowledge of web analytics tools such as Adobe Analytics , Google Analytics , or Webtrekk and understanding of tracking methodologies | What they offer: to choose and manage all your benefits in one place; medical care package, meal tickets, sports cards; (we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)",
+      "summary_tasks": [
+        "Furthermore you will be implementing",
+        "Your key responsibilities include",
+        "to support business decision-making"
+      ],
+      "summary_expectations": [
+        "you'll have access to a multi-language learning platform enabling you to practice your language skills and learn new ones!",
+        "Several years of professional experience in digital analytics, preferably within e-commerce or digital business environments",
+        "Strong knowledge of web analytics tools such as Adobe Analytics , Google Analytics , or Webtrekk and understanding of tracking methodologies"
+      ],
+      "summary_offers": [
+        "to choose and manage all your benefits in one place",
+        "medical care package, meal tickets, sports cards",
+        "(we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms)"
+      ],
+      "required_skills": [
+        "Adobe Analytics",
+        "Google Analytics",
+        "SQL/Python",
+        "BI",
+        "Databricks"
+      ],
+      "first_found_at": "2026-09-04T10:30:52.239895+00:00"
+    },
+    {
       "id": "619f78be1a295525",
       "title": "Specjalista ds. Marketingu i Wizerunku (K/M)",
       "company": "Kancelaria Tax & Law sp.z o.o.",
@@ -2906,44 +3002,6 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "fafecdd36b1a0af8",
-      "title": "Administrator/Administratorka Systemów i Baz Danych (Linux/Oracle)",
-      "company": "KAMSOFT S.A.",
-      "location": "Katowice",
-      "url": "https://justjoin.it/job-offer/kamsoft-s-a--administrator-administratorka-systemow-i-baz-danych-linux-oracle--katowice-admin",
-      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/826676d1e2e74e249a68a61a3b1f9d18",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-09-24T10:00:22.854783Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "summary": "What you'll do: Główne zadania: Instalacja, konfiguracja, administracja i diagnozowanie systemów Linux (RedHat, Oracle Linux); Tworzenie i utrzymanie skryptów bash; Administracja, monitorowanie i diagnozowanie serwerów Apache | What they expect: Znajomość instalacji, administracji, diagnozowania systemów Linux (rodzina RedHat, Oracle Linux); Umiejętność pisania skryptów dla powłoki bash dla systemów Linux; Umiejętność pisania zapytań SQL | What they offer: rozwiązania chmurowe i stacjonarne, aplikacje mobilne, a także rozbudowane systemy dedykowane na szeroko pojęty rynek ochrony zdrowia; Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
-      "summary_tasks": [
-        "Główne zadania: Instalacja, konfiguracja, administracja i diagnozowanie systemów Linux (RedHat, Oracle Linux)",
-        "Tworzenie i utrzymanie skryptów bash",
-        "Administracja, monitorowanie i diagnozowanie serwerów Apache"
-      ],
-      "summary_expectations": [
-        "Znajomość instalacji, administracji, diagnozowania systemów Linux (rodzina RedHat, Oracle Linux)",
-        "Umiejętność pisania skryptów dla powłoki bash dla systemów Linux",
-        "Umiejętność pisania zapytań SQL"
-      ],
-      "summary_offers": [
-        "rozwiązania chmurowe i stacjonarne, aplikacje mobilne, a także rozbudowane systemy dedykowane na szeroko pojęty rynek ochrony zdrowia",
-        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
-        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników"
-      ],
-      "required_skills": [
-        "Linux",
-        "Oracle",
-        "SQL"
-      ],
-      "first_found_at": "2026-09-25T06:37:33.219003+00:00"
     },
     {
       "id": "944a1efe85cf0d9a",
@@ -3282,6 +3340,40 @@
       ],
       "required_skills": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "205436c6ed011a15",
+      "title": "Administrator systemów i sieci",
+      "company": "EUROSOC sp. z o.o.",
+      "location": "Gdynia, pomorskie, Polska",
+      "url": "https://www.pracuj.pl/praca/administrator-systemow-i-sieci-gdynia-polska-20,oferta,1005119072",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-09-25T14:09:21.223Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "summary": "What you'll do: Utrzymanie, rozwój i automatyzacja infrastruktury sieciowej oraz środowisk serwerowych (on-premise i cloud); Tworzenie i utrzymywanie procesów CI/CD oraz automatyzacji wdrożeń; Monitorowanie i optymalizacja działania systemów oraz sieci | What they expect: Praktyczna znajomość systemów Linux/Windows Server oraz technologii chmurowych; Dobra znajomość sieci komputerowych – protokoły TCP/IP, VPN, DNS, VLAN, routing, firewall; Doświadczenie w pracy z narzędziami automatyzacji i konfiguracji | What they offer: Elastyczne podejście do rozwoju zawodowego i pracy zdalnej; Realny wpływ na kształt i rozwój infrastruktury organizacji; Firma oferuje również szkolenia z zakresu bezpieczeństwa IT dla pracowników i kadry zarządzającej oraz wsparcie w obsłudze incydentów bezpieczeństwa",
+      "summary_tasks": [
+        "Utrzymanie, rozwój i automatyzacja infrastruktury sieciowej oraz środowisk serwerowych (on-premise i cloud)",
+        "Tworzenie i utrzymywanie procesów CI/CD oraz automatyzacji wdrożeń",
+        "Monitorowanie i optymalizacja działania systemów oraz sieci"
+      ],
+      "summary_expectations": [
+        "Praktyczna znajomość systemów Linux/Windows Server oraz technologii chmurowych",
+        "Dobra znajomość sieci komputerowych – protokoły TCP/IP, VPN, DNS, VLAN, routing, firewall",
+        "Doświadczenie w pracy z narzędziami automatyzacji i konfiguracji"
+      ],
+      "summary_offers": [
+        "Elastyczne podejście do rozwoju zawodowego i pracy zdalnej",
+        "Realny wpływ na kształt i rozwój infrastruktury organizacji",
+        "Firma oferuje również szkolenia z zakresu bezpieczeństwa IT dla pracowników i kadry zarządzającej oraz wsparcie w obsłudze incydentów bezpieczeństwa"
+      ],
+      "required_skills": [],
+      "first_found_at": "2026-09-26T06:38:57.960547+00:00"
     },
     {
       "id": "d7e3b4347a8cbca1",
