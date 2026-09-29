@@ -46,11 +46,12 @@
 </section>
 <details class="data-tools">
 <summary>Application history & backup</summary>
-<p>Your application history is stored only in this browser on this device. It is not uploaded to GitHub.</p>
+<p>Your application history and queue are stored only in this browser on this device. They are not uploaded to GitHub.</p>
 <div class="data-actions"><button id="exportHistory" class="secondary">Export history</button><label class="secondary file-label">Import history<input id="importHistory" type="file" accept="application/json,.json"></label></div>
 </details>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
 </main>
+
 <div id="replyMatcher" class="reply-overlay" hidden>
   <section class="reply-sheet" role="dialog" aria-modal="true" aria-labelledby="replyMatcherTitle">
     <div class="reply-sheet-head">
@@ -64,6 +65,44 @@
     <div class="reply-privacy">Matching happens only on this device. Nothing from the email is uploaded.</div>
   </section>
 </div>
+
+<div id="applicationAssistant" class="reply-overlay application-assistant-overlay" hidden>
+  <section class="reply-sheet application-assistant-sheet" role="dialog" aria-modal="true" aria-labelledby="applicationAssistantTitle">
+    <div class="reply-sheet-head">
+      <div><div class="reply-kicker">APPLICATION ASSISTANT</div><h2 id="applicationAssistantTitle">Prepare application</h2></div>
+      <button id="closeApplicationAssistant" class="reply-close" type="button" aria-label="Close">×</button>
+    </div>
+    <div class="assistant-headline">
+      <span id="assistantTier" class="level"></span>
+      <h3 id="assistantJobTitle"></h3>
+      <div id="assistantCompany" class="assistant-company"></div>
+    </div>
+    <div id="assistantFacts" class="assistant-facts"></div>
+    <section class="assistant-section">
+      <h4>Top requirements to verify</h4>
+      <ul id="assistantRequirements" class="assistant-requirements"></ul>
+    </section>
+    <section class="assistant-section">
+      <h4>Application checklist</h4>
+      <label class="assistant-check"><input type="checkbox" data-assistant-check="cv"><span>CV ready for this application</span></label>
+      <label class="assistant-check"><input type="checkbox" data-assistant-check="requirements"><span>Requirements reviewed</span></label>
+      <label class="assistant-check"><input type="checkbox" data-assistant-check="contract"><span>Contract / UoP checked</span></label>
+      <label class="assistant-check"><input type="checkbox" data-assistant-check="location"><span>Location / work mode checked</span></label>
+    </section>
+    <section class="assistant-section">
+      <label class="assistant-notes-label" for="assistantNotes"><h4>My application notes</h4></label>
+      <textarea id="assistantNotes" class="reply-input assistant-notes" rows="4" placeholder="Salary expectation, notice period, answers to remember, recruiter name…"></textarea>
+    </section>
+    <div class="assistant-controls">
+      <button id="assistantPrepared" class="secondary" type="button">Mark prepared</button>
+      <a id="assistantOpenJob" class="primary" target="_blank" rel="noopener">Open application</a>
+      <button id="assistantMarkApplied" class="primary assistant-applied" type="button">Mark applied</button>
+    </div>
+    <button id="assistantRemoveQueue" class="assistant-remove" type="button">Remove from queue</button>
+    <div class="reply-privacy">Checklist and notes stay only on this device. Job Radar never submits an application without you.</div>
+  </section>
+</div>
+
 <template id="jobTemplate">
 <article class="job-card">
 <div class="card-head"><div><div class="score-row"><span class="score"></span><span class="level"></span><span class="application-badge"></span></div><h2 class="title"></h2><div class="company"></div></div><button class="save-btn" aria-label="Save job">☆</button></div>
