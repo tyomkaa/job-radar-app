@@ -1,6 +1,6 @@
-// Job Radar v0.3.1 application answer templates.
-// Templates are generated only from the current vacancy plus data the user saved
-// locally in Application data. Nothing is submitted automatically.
+// Job Radar v0.3.3 vacancy-specific application drafts.
+// Drafts are built from the live vacancy plus profile text saved locally by the user.
+// Nothing is submitted automatically and no personal data is sent to GitHub.
 
 function templateClean(value) {
   return String(value || '').replace(/\s+/g, ' ').trim();
@@ -16,15 +16,36 @@ function compactRequirement(value) {
   const text = templateClean(value)
     .replace(/^[-•·]\s*/, '')
     .replace(/^(requirements?|wymagania|expected|you will|you'll)\s*[:–-]?\s*/i, '');
-  return text.length > 90 ? `${text.slice(0, 87).trim()}…` : text;
+  return text.length > 125 ? `${text.slice(0, 122).trim()}…` : text;
 }
 
-function templateFocus(job) {
-  const candidates = [
-    ...(Array.isArray(job?.required_skills) ? job.required_skills : []),
-    ...(Array.isArray(job?.summary_expectations) ? job.summary_expectations : [])
-  ].map(compactRequirement).filter(Boolean);
-  return [...new Set(candidates)].slice(0, 2);
+function naturalFragment(value) {
+  const text = compactRequirement(value).replace(/[.;:]$/g, '');
+  if (!text) return '';
+  return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
+function uniqueText(values) {
+  const seen = new Set();
+  return values.filter(Boolean).filter(value => {
+    const key = templateClean(value).toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function jobDraftContext(job) {
+  const tasks = uniqueText(Array.isArray(job?.summary_tasks) ? job.summary_tasks.map(compactRequirement) : []).slice(0, 2);
+  const expectations = uniqueText([
+    ...(Array.isArray(job?.summary_expectations) ? job.summary_expectations : []),
+    ...(Array.isArray(job?.required_skills) ? job.required_skills : [])
+  ].map(compactRequirement)).slice(0, 3);
+  return {tasks, expectations};
+}
+
+function shortProfileForDrafts() {
+  return sentence(getApplicationData().short_profile || '');
 }
 
 function applicationAnswerTemplates(job) {
@@ -32,44 +53,47 @@ function applicationAnswerTemplates(job) {
   const data = getApplicationData();
   const title = templateClean(job.title) || 'this position';
   const company = templateClean(job.company) || 'the company';
-  const focus = templateFocus(job);
-  const focusText = focus.length ? focus.join(' and ') : '';
-  const profile = sentence(data.short_profile);
+  const {tasks, expectations} = jobDraftContext(job);
+  const profile = shortProfileForDrafts();
   const templates = [];
 
-  let whyRole = `I'm interested in the ${title} role at ${company} because it is closely aligned with the kind of work I want to focus on next.`;
-  if (focusText) whyRole += ` The vacancy's focus on ${focusText} is particularly interesting to me.`;
-  whyRole += ' I would be keen to contribute while continuing to deepen my experience in the role.';
+  const roleDetail = tasks[0] || expectations[0] || '';
+  const secondDetail = expectations.find(x => x !== roleDetail) || tasks.find(x => x !== roleDetail) || '';
+
+  let whyRole = `I'm interested in the ${title} role at ${company} because the position combines work I want to develop further with responsibilities where I can contribute from the start.`;
+  if (roleDetail) whyRole += ` In particular, the opportunity to work on ${naturalFragment(roleDetail)} stood out to me.`;
+  if (secondDetail) whyRole += ` I also like that the role values ${naturalFragment(secondDetail)}.`;
+  whyRole += ` The combination makes this a role I would be genuinely motivated to grow into and contribute to.`;
   templates.push({key:'why_role', label:'Why are you interested in this role?', value:whyRole, kind:'generated'});
 
   if (profile) {
-    const goodFit = `${profile} I believe this background would let me contribute to the ${title} role while continuing to grow in the areas highlighted in the vacancy.`;
-    templates.push({key:'good_fit', label:'Why are you a good fit?', value:goodFit, kind:'generated'});
+    let fit = `${profile} `;
+    if (expectations[0]) fit += `That background is relevant to this role because the vacancy emphasizes ${naturalFragment(expectations[0])}. `;
+    if (tasks[0]) fit += `I would be especially comfortable contributing to work around ${naturalFragment(tasks[0])}. `;
+    fit += `I would bring a practical, hands-on approach and I am comfortable learning the role-specific tools and processes I have not used yet.`;
+    templates.push({key:'good_fit', label:'Why are you a good fit?', value:fit.trim(), kind:'generated'});
   }
 
-  let cover = `Dear Hiring Team,\n\nI am applying for the ${title} position at ${company}.`;
+  let motivation = `The ${title} position at ${company} caught my attention because it offers a practical opportunity to build on my current experience while moving deeper into this area.`;
+  if (tasks.length) motivation += ` The responsibilities around ${naturalFragment(tasks[0])}${tasks[1] ? ` and ${naturalFragment(tasks[1])}` : ''} are particularly relevant to what I am looking for next.`;
+  templates.push({key:'motivation', label:'Short motivation', value:motivation, kind:'generated'});
+
+  let cover = `Dear Hiring Team,\n\nI would like to apply for the ${title} position at ${company}.`;
   if (profile) cover += ` ${profile}`;
-  if (focusText) cover += ` The role caught my attention because of its focus on ${focusText}.`;
-  cover += '\n\nI would be happy to discuss how my background could support the team.\n\nBest regards';
+  if (roleDetail) cover += ` What particularly attracted me to this vacancy is the opportunity to work on ${naturalFragment(roleDetail)}.`;
+  if (expectations[0]) cover += ` The emphasis on ${naturalFragment(expectations[0])} also matches the direction in which I want to continue developing.`;
+  cover += `\n\nI would be glad to discuss how my background and practical experience could contribute to your team.\n\nBest regards`;
   templates.push({key:'cover_note', label:'Short cover note', value:cover, kind:'generated'});
 
-  const start = templateClean(data.available_start);
   const notice = templateClean(data.notice_period);
-  if (start || notice) {
-    let value = start ? `I would be available to start ${start}.` : '';
-    if (notice) value += `${value ? ' ' : ''}My notice period is ${notice}.`;
-    templates.push({key:'availability', label:'When can you start?', value, kind:'saved'});
-  }
-
-  const authorization = templateClean(data.work_authorization);
-  if (authorization) templates.push({
-    key:'authorization', label:'Work authorization / sponsorship', value:authorization, kind:'saved'
+  if (notice) templates.push({
+    key:'notice', label:'Notice period', value:`My current notice period is ${notice}.`, kind:'saved'
   });
 
   const salary = templateClean(data.salary_expectation);
   if (salary) templates.push({
     key:'salary', label:'Salary expectations',
-    value:`My salary expectation is ${salary}. I am open to discussing the overall compensation package and responsibilities.`,
+    value:`My salary expectation is ${salary}. I am open to discussing it in the context of the role's scope, responsibilities and overall compensation package.`,
     kind:'saved'
   });
 
@@ -86,7 +110,7 @@ function ensureTemplateSection() {
   section.className = 'assistant-section answer-template-section';
   section.innerHTML = `
     <div class="assistant-section-head">
-      <div><h4>Application answer templates</h4><small>Drafts — review before pasting into a form.</small></div>
+      <div><h4>Application drafts</h4><small>Tailored to this vacancy — review before pasting.</small></div>
     </div>
     <div id="assistantAnswerTemplates" class="answer-template-list"></div>`;
   quickSection.insertAdjacentElement('afterend', section);
@@ -99,12 +123,12 @@ function renderApplicationAnswerTemplates() {
   if (!host || !job) return;
   const templates = applicationAnswerTemplates(job);
   if (!templates.length) {
-    host.innerHTML = '<div class="quick-answer-empty">No templates available yet. Add your Application data first.</div>';
+    host.innerHTML = '<div class="quick-answer-empty">Add a Short profile in Application data to unlock more personalized drafts.</div>';
     return;
   }
   host.innerHTML = templates.map(item => `
     <article class="answer-template-card" data-template-key="${esc(item.key)}">
-      <div class="answer-template-head"><b>${esc(item.label)}</b><span>${item.kind === 'saved' ? 'YOUR DATA' : 'ROLE DRAFT'}</span></div>
+      <div class="answer-template-head"><b>${esc(item.label)}</b><span>${item.kind === 'saved' ? 'YOUR DATA' : 'VACANCY DRAFT'}</span></div>
       <p>${esc(item.value).replace(/\n/g, '<br>')}</p>
       <button type="button" data-copy-template="${esc(item.key)}">Copy answer</button>
     </article>`).join('');
@@ -127,6 +151,5 @@ saveApplicationDataForm = function() {
   renderApplicationAnswerTemplates();
 };
 
-// If the assistant was already open while this script loaded, decorate it now.
 ensureTemplateSection();
 if (!document.querySelector('#applicationAssistant')?.hidden) renderApplicationAnswerTemplates();
