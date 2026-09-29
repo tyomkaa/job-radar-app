@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v15-final';
-const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./styles-v13-ui.css','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v16';
+const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./styles-v13-ui.css','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
@@ -52,6 +52,7 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/v13-ui.js') ||
     url.pathname.endsWith('/v14-templates.js') ||
     url.pathname.endsWith('/v15-cv-manager.js') ||
+    url.pathname.endsWith('/v16-ux-fixes.js') ||
     url.pathname.endsWith('/styles-v13-ui.css')
   ) {
     event.respondWith(networkFirst(event.request, event.request));
