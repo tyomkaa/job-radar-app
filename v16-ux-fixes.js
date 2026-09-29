@@ -121,3 +121,12 @@ setQueueIds(queueIds());
     document.body.appendChild(script);
   }
 })();
+
+// Load Quick Summary viewport/state hardening.
+(function loadQuickSummaryUxUpgrade() {
+  if (document.querySelector('script[data-summary-ux-script]')) return;
+  const script = document.createElement('script');
+  script.src = `v18-summary-ux.js?v=1`;
+  script.dataset.summaryUxScript = '1';
+  document.body.appendChild(script);
+})();
