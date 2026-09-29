@@ -4,7 +4,9 @@
 
 const QUEUE_KEY = 'jobRadarApplicationQueueV1';
 const ASSISTANT_KEY = 'jobRadarApplicationAssistantV1';
+const APPLICATION_DATA_KEY = 'jobRadarApplicationDataV1';
 let assistantJobId = '';
+let reopenAssistantAfterData = false;
 
 function queueIds() {
   try { return new Set(JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]')); }
@@ -34,6 +36,81 @@ function saveAssistantRecord(job, patch) {
   state[key] = {...current, ...patch, updated_at:new Date().toISOString()};
   setAssistantState(state);
   return state[key];
+}
+
+function getApplicationData() {
+  try { return JSON.parse(localStorage.getItem(APPLICATION_DATA_KEY) || '{}'); }
+  catch { return {}; }
+}
+function setApplicationData(value) { localStorage.setItem(APPLICATION_DATA_KEY, JSON.stringify(value)); }
+function applicationDataFields() {
+  return [
+    ['full_name', 'Full name'], ['email', 'Email'], ['phone', 'Phone'], ['location', 'Current location'],
+    ['linkedin', 'LinkedIn'], ['portfolio', 'GitHub / portfolio'], ['work_authorization', 'Work authorization'],
+    ['notice_period', 'Notice period'], ['available_start', 'Available start'], ['salary_expectation', 'Salary expectation'],
+    ['languages', 'Languages'], ['short_profile', 'Short profile']
+  ];
+}
+function fillApplicationDataForm() {
+  const data = getApplicationData();
+  document.querySelectorAll('[data-profile-field]').forEach(input => { input.value = data[input.dataset.profileField] || ''; });
+  const status = document.querySelector('#applicationDataStatus');
+  if (status) status.textContent = Object.values(data).some(Boolean) ? 'Saved locally on this device.' : 'No reusable application data saved yet.';
+}
+function openApplicationData(fromAssistant=false) {
+  reopenAssistantAfterData = !!fromAssistant;
+  if (fromAssistant) document.querySelector('#applicationAssistant').hidden = true;
+  fillApplicationDataForm();
+  const overlay = document.querySelector('#applicationData');
+  if (!overlay) return;
+  overlay.hidden = false;
+  document.body.classList.add('reply-modal-open');
+}
+function closeApplicationData() {
+  const overlay = document.querySelector('#applicationData');
+  if (!overlay) return;
+  overlay.hidden = true;
+  if (reopenAssistantAfterData && assistantJob()) {
+    reopenAssistantAfterData = false;
+    openApplicationAssistant(assistantJob());
+    return;
+  }
+  reopenAssistantAfterData = false;
+  document.body.classList.remove('reply-modal-open');
+}
+function saveApplicationDataForm() {
+  const data = {};
+  document.querySelectorAll('[data-profile-field]').forEach(input => { data[input.dataset.profileField] = String(input.value || '').trim(); });
+  setApplicationData(data);
+  const status = document.querySelector('#applicationDataStatus');
+  if (status) status.textContent = 'Saved locally ✓';
+  renderAssistantQuickAnswers();
+}
+async function copyText(value, button) {
+  if (!value) return;
+  try {
+    await navigator.clipboard.writeText(value);
+    if (button) { const original = button.textContent; button.textContent = 'Copied ✓'; setTimeout(() => { button.textContent = original; }, 900); }
+  } catch (_) {
+    const area = document.createElement('textarea'); area.value = value; area.style.position='fixed'; area.style.opacity='0';
+    document.body.appendChild(area); area.select(); document.execCommand('copy'); area.remove();
+    if (button) { const original = button.textContent; button.textContent = 'Copied ✓'; setTimeout(() => { button.textContent = original; }, 900); }
+  }
+}
+function renderAssistantQuickAnswers() {
+  const host = document.querySelector('#assistantQuickAnswers');
+  if (!host) return;
+  const data = getApplicationData();
+  const values = applicationDataFields().filter(([key]) => String(data[key] || '').trim());
+  if (!values.length) {
+    host.innerHTML = '<div class="quick-answer-empty">Add your reusable application data once, then copy answers here with one tap.</div>';
+    return;
+  }
+  host.innerHTML = values.map(([key,label]) => `<div class="quick-answer"><div><b>${esc(label)}</b><span>${esc(data[key])}</span></div><button type="button" data-copy-profile="${esc(key)}">Copy</button></div>`).join('');
+  host.querySelectorAll('[data-copy-profile]').forEach(button => button.addEventListener('click', () => {
+    const value = getApplicationData()[button.dataset.copyProfile] || '';
+    copyText(value, button);
+  }));
 }
 
 function tierFor(job) {
@@ -111,6 +188,7 @@ function openApplicationAssistant(job) {
   ].join('');
   const req = document.querySelector('#assistantRequirements');
   req.innerHTML = assistantRequirements(job).map(x => `<li>${esc(x)}</li>`).join('');
+  renderAssistantQuickAnswers();
   document.querySelectorAll('[data-assistant-check]').forEach(input => {
     input.checked = !!state.checks?.[input.dataset.assistantCheck];
   });
@@ -245,16 +323,15 @@ updateSeenUi = function(id) {
 
 exportHistory = function() {
   const payload = {
-    format:'job-radar-application-history', version:4, exported_at:new Date().toISOString(),
+    format:'job-radar-application-history', version:5, exported_at:new Date().toISOString(),
     records:getTracker(), seen_jobs:[...seenIds()], saved_jobs:[...savedIds()], queued_jobs:[...queueIds()],
-    application_assistant:getAssistantState()
+    application_assistant:getAssistantState(), application_data:getApplicationData()
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
   const url = URL.createObjectURL(blob), a = document.createElement('a');
   a.href = url; a.download = `job-radar-history-${today()}.json`; a.click(); URL.revokeObjectURL(url);
 };
 
-const _v12ImportHistory = importHistory;
 importHistory = async function(file) {
   try {
     const payload = JSON.parse(await file.text()), incoming = payload.records || payload;
@@ -263,12 +340,21 @@ importHistory = async function(file) {
     if (Array.isArray(payload.seen_jobs)) localStorage.setItem('seenJobs', JSON.stringify([...new Set([...seenIds(), ...payload.seen_jobs])]));
     if (Array.isArray(payload.saved_jobs)) localStorage.setItem('savedJobs', JSON.stringify([...new Set([...savedIds(), ...payload.saved_jobs])]));
     if (Array.isArray(payload.queued_jobs)) localStorage.setItem(QUEUE_KEY, JSON.stringify([...new Set([...queueIds(), ...payload.queued_jobs])]));
-    if (payload.application_assistant && typeof payload.application_assistant === 'object' && !Array.isArray(payload.application_assistant)) {
-      setAssistantState({...getAssistantState(), ...payload.application_assistant});
-    }
-    render(); alert('Application history and queue imported.');
-  } catch { alert('Could not import this history file.'); }
+    if (payload.application_assistant && typeof payload.application_assistant === 'object' && !Array.isArray(payload.application_assistant)) setAssistantState({...getAssistantState(), ...payload.application_assistant});
+    if (payload.application_data && typeof payload.application_data === 'object' && !Array.isArray(payload.application_data)) setApplicationData({...getApplicationData(), ...payload.application_data});
+    render(); alert('Application backup imported.');
+  } catch { alert('Could not import this backup file.'); }
 };
+
+document.querySelector('#openApplicationData')?.addEventListener('click', () => openApplicationData(false));
+document.querySelector('#closeApplicationData')?.addEventListener('click', closeApplicationData);
+document.querySelector('#applicationData')?.addEventListener('click', event => { if (event.target?.id === 'applicationData') closeApplicationData(); });
+document.querySelector('#saveApplicationData')?.addEventListener('click', saveApplicationDataForm);
+document.querySelector('#clearApplicationData')?.addEventListener('click', () => {
+  localStorage.removeItem(APPLICATION_DATA_KEY); fillApplicationDataForm(); renderAssistantQuickAnswers();
+  const status = document.querySelector('#applicationDataStatus'); if (status) status.textContent = 'Saved application data cleared.';
+});
+document.querySelector('#editApplicationDataFromAssistant')?.addEventListener('click', () => { persistAssistantForm(); openApplicationData(true); });
 
 document.querySelector('#closeApplicationAssistant')?.addEventListener('click', closeApplicationAssistant);
 document.querySelector('#applicationAssistant')?.addEventListener('click', event => {
@@ -296,7 +382,9 @@ document.querySelector('#assistantRemoveQueue')?.addEventListener('click', () =>
   closeApplicationAssistant(); render({anchor:captureCardAnchor(job.id)});
 });
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && !document.querySelector('#applicationAssistant')?.hidden) closeApplicationAssistant();
+  if (event.key !== 'Escape') return;
+  if (!document.querySelector('#applicationData')?.hidden) closeApplicationData();
+  else if (!document.querySelector('#applicationAssistant')?.hidden) closeApplicationAssistant();
 });
 
 const jobsObserverV13 = new MutationObserver(() => decorateAllCards());
