@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v17';
-const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./styles-v13-ui.css','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v18';
+const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./v17-cv-editor.js','./v18-summary-ux.js','./styles-v13-ui.css','./styles-v17-cv.css','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
@@ -53,7 +53,10 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/v14-templates.js') ||
     url.pathname.endsWith('/v15-cv-manager.js') ||
     url.pathname.endsWith('/v16-ux-fixes.js') ||
-    url.pathname.endsWith('/styles-v13-ui.css')
+    url.pathname.endsWith('/v17-cv-editor.js') ||
+    url.pathname.endsWith('/v18-summary-ux.js') ||
+    url.pathname.endsWith('/styles-v13-ui.css') ||
+    url.pathname.endsWith('/styles-v17-cv.css')
   ) {
     event.respondWith(networkFirst(event.request, event.request));
     return;
