@@ -45,9 +45,9 @@
   </button>
 </section>
 <details class="data-tools">
-<summary>Application history & backup</summary>
-<p>Your application history and queue are stored only in this browser on this device. They are not uploaded to GitHub.</p>
-<div class="data-actions"><button id="exportHistory" class="secondary">Export history</button><label class="secondary file-label">Import history<input id="importHistory" type="file" accept="application/json,.json"></label></div>
+<summary>Application tools & backup</summary>
+<p>Your application data, history and queue are stored only in this browser on this device. They are not uploaded to GitHub.</p>
+<div class="data-actions"><button id="openApplicationData" class="secondary" type="button">Application data</button><button id="exportHistory" class="secondary">Export backup</button><label class="secondary file-label">Import backup<input id="importHistory" type="file" accept="application/json,.json"></label></div>
 </details>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
 </main>
@@ -83,6 +83,10 @@
       <ul id="assistantRequirements" class="assistant-requirements"></ul>
     </section>
     <section class="assistant-section">
+      <div class="assistant-section-head"><h4>Quick form answers</h4><button id="editApplicationDataFromAssistant" class="assistant-edit-data" type="button">Edit</button></div>
+      <div id="assistantQuickAnswers" class="quick-answer-list"></div>
+    </section>
+    <section class="assistant-section">
       <h4>Application checklist</h4>
       <label class="assistant-check"><input type="checkbox" data-assistant-check="cv"><span>CV ready for this application</span></label>
       <label class="assistant-check"><input type="checkbox" data-assistant-check="requirements"><span>Requirements reviewed</span></label>
@@ -99,7 +103,34 @@
       <button id="assistantMarkApplied" class="primary assistant-applied" type="button">Mark applied</button>
     </div>
     <button id="assistantRemoveQueue" class="assistant-remove" type="button">Remove from queue</button>
-    <div class="reply-privacy">Checklist and notes stay only on this device. Job Radar never submits an application without you.</div>
+    <div class="reply-privacy">Checklist, reusable answers and notes stay only on this device. Job Radar never submits an application without you.</div>
+  </section>
+</div>
+
+<div id="applicationData" class="reply-overlay application-data-overlay" hidden>
+  <section class="reply-sheet application-data-sheet" role="dialog" aria-modal="true" aria-labelledby="applicationDataTitle">
+    <div class="reply-sheet-head">
+      <div><div class="reply-kicker">APPLICATION DATA</div><h2 id="applicationDataTitle">Reusable form answers</h2></div>
+      <button id="closeApplicationData" class="reply-close" type="button" aria-label="Close">×</button>
+    </div>
+    <p class="reply-help">Enter repetitive application details once. Job Radar stores them only in this browser and gives you one-tap copy buttons while applying.</p>
+    <div class="application-data-grid">
+      <label>Full name<input data-profile-field="full_name" type="text" autocomplete="name" placeholder="Your full name"></label>
+      <label>Email<input data-profile-field="email" type="email" autocomplete="email" placeholder="Email used for applications"></label>
+      <label>Phone<input data-profile-field="phone" type="tel" autocomplete="tel" placeholder="Phone number"></label>
+      <label>Current location<input data-profile-field="location" type="text" autocomplete="address-level2" placeholder="e.g. Warsaw, Poland"></label>
+      <label>LinkedIn<input data-profile-field="linkedin" type="text" inputmode="url" placeholder="LinkedIn profile"></label>
+      <label>GitHub / portfolio<input data-profile-field="portfolio" type="text" inputmode="url" placeholder="GitHub or portfolio link"></label>
+      <label class="application-data-wide">Work authorization<textarea data-profile-field="work_authorization" rows="2" placeholder="Your standard answer for right-to-work / sponsorship questions"></textarea></label>
+      <label>Notice period<input data-profile-field="notice_period" type="text" placeholder="e.g. Available immediately / 2 weeks"></label>
+      <label>Available start<input data-profile-field="available_start" type="text" placeholder="Preferred start-date answer"></label>
+      <label class="application-data-wide">Salary expectation<input data-profile-field="salary_expectation" type="text" placeholder="Your reusable salary expectation or range"></label>
+      <label class="application-data-wide">Languages<textarea data-profile-field="languages" rows="2" placeholder="Languages and levels"></textarea></label>
+      <label class="application-data-wide">Short profile / About me<textarea data-profile-field="short_profile" rows="4" placeholder="Short reusable professional introduction for application forms"></textarea></label>
+    </div>
+    <div class="application-data-actions"><button id="saveApplicationData" class="primary" type="button">Save locally</button><button id="clearApplicationData" class="secondary danger-secondary" type="button">Clear saved data</button></div>
+    <div id="applicationDataStatus" class="application-data-status"></div>
+    <div class="reply-privacy">These values are not committed to the public app repository and are not sent to GitHub.</div>
   </section>
 </div>
 
