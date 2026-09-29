@@ -1,6 +1,20 @@
 // Job Radar v0.3 UI overlay. Keeps the stable v12 interaction/tracking code intact
 // while changing the discovery presentation to ACTIVE / SCANNED and
-// APPLY / POSSIBLE / STRETCH.
+// APPLY / POSSIBLE / STRETCH, plus a local Application Queue.
+
+const QUEUE_KEY = 'jobRadarApplicationQueueV1';
+
+function queueIds() {
+  try { return new Set(JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+function setQueueIds(set) { localStorage.setItem(QUEUE_KEY, JSON.stringify([...set])); }
+function toggleQueue(id) {
+  const set = queueIds();
+  set.has(id) ? set.delete(id) : set.add(id);
+  setQueueIds(set);
+  render({anchor:captureCardAnchor(id)});
+}
 
 function tierFor(job) {
   const explicit = String(job?.recommendation_tier || '').toUpperCase();
@@ -31,13 +45,14 @@ renderStats = function() {
   const interviews = records.filter(r => r.status === 'INTERVIEW' || r.status === 'OFFER').length;
   const offers = records.filter(r => r.status === 'OFFER').length;
   const scanned = Number(meta.found || 0);
+  const queued = jobs.filter(j => queueIds().has(j.id)).length;
   statsEl.innerHTML = stat('ACTIVE', jobs.length) + stat('TODAY', `+${addedToday}`) + stat('UNSEEN', unseen) +
-    stat('SCANNED', scanned || '—') + stat('APPLIED', records.length) + stat('REPLIES', replies) +
-    stat('INTERVIEWS', interviews) + stat('OFFERS', offers);
+    stat('SCANNED', scanned || '—') + stat('QUEUE', queued) + stat('APPLIED', records.length) +
+    stat('REPLIES', replies) + stat('INTERVIEWS', interviews) + stat('OFFERS', offers);
 };
 
 getVisibleJobs = function(pinnedId='') {
-  const tracker = getTracker(), seen = seenIds(), saved = savedIds();
+  const tracker = getTracker(), seen = seenIds(), saved = savedIds(), queued = queueIds();
   let pool = [...jobs];
   if (activeFilter === 'APPLIED' || activeFilter === 'REPLIED') pool = [...jobs, ...historyAsJobs()];
   const filtered = pool.filter(j => {
@@ -47,6 +62,7 @@ getVisibleJobs = function(pinnedId='') {
     if (['APPLY', 'POSSIBLE', 'STRETCH'].includes(activeFilter)) return tierFor(j) === activeFilter;
     if (activeFilter === 'TODAY') return isFirstFoundToday(j);
     if (activeFilter === 'UNSEEN') return !seen.has(j.id) && !rec;
+    if (activeFilter === 'QUEUE') return queued.has(j.id);
     if (activeFilter === 'SAVED') return saved.has(j.id);
     if (activeFilter === 'APPLIED') return !!rec;
     if (activeFilter === 'REPLIED') return !!rec && responseStatuses().has(rec.status);
@@ -85,6 +101,17 @@ function decorateJobCard(card) {
     span.innerHTML = `<b>Experience:</b> ${esc(experienceLabel(job))}`;
     metaExtra.prepend(span);
   }
+
+  const actions = card.querySelector('.actions');
+  if (actions && !actions.querySelector('.queue-btn')) {
+    const queued = queueIds().has(job.id);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `queue-btn ${queued ? 'queued' : ''}`;
+    button.textContent = queued ? 'Queued ✓' : 'Add to queue';
+    button.addEventListener('click', () => toggleQueue(job.id));
+    actions.appendChild(button);
+  }
   card.dataset.v13Decorated = '1';
 }
 
@@ -103,6 +130,17 @@ updateSeenUi = function(id) {
     card.dataset.v13Decorated = '0';
     decorateJobCard(card);
   }
+};
+
+const _v12ExportHistory = exportHistory;
+exportHistory = function() {
+  const payload = {
+    format:'job-radar-application-history', version:3, exported_at:new Date().toISOString(),
+    records:getTracker(), seen_jobs:[...seenIds()], saved_jobs:[...savedIds()], queued_jobs:[...queueIds()]
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob), a = document.createElement('a');
+  a.href = url; a.download = `job-radar-history-${today()}.json`; a.click(); URL.revokeObjectURL(url);
 };
 
 const jobsObserverV13 = new MutationObserver(() => decorateAllCards());
