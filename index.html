@@ -46,7 +46,7 @@
 </section>
 <details class="data-tools">
 <summary>Application tools & backup</summary>
-<p>Your application data, history and queue are stored only in this browser on this device. They are not uploaded to GitHub.</p>
+<p>Your application data, history and queue are stored only in this browser on this device. Export backup creates a local JSON file containing those saved answers and tracking data; CV PDFs stay separate and are never included.</p>
 <div class="data-actions"><button id="openApplicationData" class="secondary" type="button">Application data</button><button id="exportHistory" class="secondary">Export backup</button><label class="secondary file-label">Import backup<input id="importHistory" type="file" accept="application/json,.json"></label></div>
 </details>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
@@ -78,6 +78,7 @@
       <div id="assistantCompany" class="assistant-company"></div>
     </div>
     <div id="assistantFacts" class="assistant-facts"></div>
+    <div class="assistant-flow" aria-label="Application workflow"><span><b>1</b> Review</span><span><b>2</b> Choose CV</span><span><b>3</b> Apply</span><span><b>4</b> Track</span></div>
     <section class="assistant-section">
       <h4>Top requirements to verify</h4>
       <ul id="assistantRequirements" class="assistant-requirements"></ul>
@@ -121,13 +122,12 @@
       <label>Current location<input data-profile-field="location" type="text" autocomplete="address-level2" placeholder="e.g. Warsaw, Poland"></label>
       <label>LinkedIn<input data-profile-field="linkedin" type="text" inputmode="url" placeholder="LinkedIn profile"></label>
       <label>GitHub / portfolio<input data-profile-field="portfolio" type="text" inputmode="url" placeholder="GitHub or portfolio link"></label>
-      <label class="application-data-wide">Work authorization<textarea data-profile-field="work_authorization" rows="2" placeholder="Your standard answer for right-to-work / sponsorship questions"></textarea></label>
-      <label>Notice period<input data-profile-field="notice_period" type="text" placeholder="e.g. Available immediately / 2 weeks"></label>
-      <label>Available start<input data-profile-field="available_start" type="text" placeholder="Preferred start-date answer"></label>
-      <label class="application-data-wide">Salary expectation<input data-profile-field="salary_expectation" type="text" placeholder="Your reusable salary expectation or range"></label>
+      <label>Notice period<input data-profile-field="notice_period" type="text" placeholder="e.g. 2 weeks"></label>
+      <label>Salary expectation<input data-profile-field="salary_expectation" type="text" placeholder="Reusable salary expectation or range"></label>
       <label class="application-data-wide">Languages<textarea data-profile-field="languages" rows="2" placeholder="Languages and levels"></textarea></label>
-      <label class="application-data-wide">Short profile / About me<textarea data-profile-field="short_profile" rows="4" placeholder="Short reusable professional introduction for application forms"></textarea></label>
+      <label class="application-data-wide">Short profile / About me<textarea data-profile-field="short_profile" rows="4" placeholder="A short factual professional introduction used to personalize application drafts"></textarea></label>
     </div>
+    <p class="application-data-hint">Exact start dates and yes/no work-authorization questions are intentionally left to the employer form because they can change by application.</p>
     <div class="application-data-actions"><button id="saveApplicationData" class="primary" type="button">Save locally</button><button id="clearApplicationData" class="secondary danger-secondary" type="button">Clear saved data</button></div>
     <div id="applicationDataStatus" class="application-data-status"></div>
     <div class="reply-privacy">These values are not committed to the public app repository and are not sent to GitHub.</div>
