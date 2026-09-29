@@ -104,3 +104,20 @@ document.querySelector('#jobs')?.addEventListener('click', event => {
 
 // Normalize already-saved queue state after upgrading.
 setQueueIds(queueIds());
+
+// Load the CV Manager editor/polish layer without changing the stable page shell.
+(function loadCvManagerEditorUpgrade() {
+  if (!document.querySelector('link[data-cv-editor-style]')) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = `styles-v17-cv.css?v=1`;
+    link.dataset.cvEditorStyle = '1';
+    document.head.appendChild(link);
+  }
+  if (!document.querySelector('script[data-cv-editor-script]')) {
+    const script = document.createElement('script');
+    script.src = `v17-cv-editor.js?v=1`;
+    script.dataset.cvEditorScript = '1';
+    document.body.appendChild(script);
+  }
+})();
