@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v13';
-const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./styles-v13-ui.css','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v14';
+const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./styles-v13-ui.css','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
@@ -46,12 +46,11 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // App code and CSS are network-first so an old service worker can never
-  // strand the UI on a mixed HTML/JS/CSS version again.
   if (
     url.pathname.endsWith('/app-v12.js') ||
     url.pathname.endsWith('/styles-v12.css') ||
     url.pathname.endsWith('/v13-ui.js') ||
+    url.pathname.endsWith('/v14-templates.js') ||
     url.pathname.endsWith('/styles-v13-ui.css')
   ) {
     event.respondWith(networkFirst(event.request, event.request));
