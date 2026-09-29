@@ -1,8 +1,10 @@
 // Job Radar v0.3 UI overlay. Keeps the stable v12 interaction/tracking code intact
 // while changing the discovery presentation to ACTIVE / SCANNED and
-// APPLY / POSSIBLE / STRETCH, plus a local Application Queue.
+// APPLY / POSSIBLE / STRETCH, plus a local Application Queue and Assistant.
 
 const QUEUE_KEY = 'jobRadarApplicationQueueV1';
+const ASSISTANT_KEY = 'jobRadarApplicationAssistantV1';
+let assistantJobId = '';
 
 function queueIds() {
   try { return new Set(JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]')); }
@@ -14,6 +16,24 @@ function toggleQueue(id) {
   set.has(id) ? set.delete(id) : set.add(id);
   setQueueIds(set);
   render({anchor:captureCardAnchor(id)});
+}
+
+function getAssistantState() {
+  try { return JSON.parse(localStorage.getItem(ASSISTANT_KEY) || '{}'); }
+  catch { return {}; }
+}
+function setAssistantState(value) { localStorage.setItem(ASSISTANT_KEY, JSON.stringify(value)); }
+function assistantRecord(job) {
+  const state = getAssistantState();
+  return state[jobKey(job)] || {checks:{}, notes:'', prepared:false, updated_at:''};
+}
+function saveAssistantRecord(job, patch) {
+  const state = getAssistantState();
+  const key = jobKey(job);
+  const current = state[key] || {checks:{}, notes:'', prepared:false};
+  state[key] = {...current, ...patch, updated_at:new Date().toISOString()};
+  setAssistantState(state);
+  return state[key];
 }
 
 function tierFor(job) {
@@ -33,6 +53,88 @@ function experienceLabel(job) {
   if (years === 3) return '3+ years';
   if (years === 2) return '2 years';
   return '1 year';
+}
+
+function sourceChannel(job) {
+  const source = String(job?.source || '').toLowerCase();
+  if (source.startsWith('greenhouse:') || source.startsWith('lever:')) return 'Company site';
+  if (source.includes('pracuj') || source.includes('justjoin') || source.includes('nofluff') || source.includes('theprotocol') || source.includes('rocketjobs')) return 'Job board';
+  return '';
+}
+
+function assistantRequirements(job) {
+  const skills = Array.isArray(job.required_skills) ? job.required_skills.filter(Boolean) : [];
+  if (skills.length) return skills.slice(0, 6);
+  const expectations = Array.isArray(job.summary_expectations) ? job.summary_expectations.filter(Boolean) : [];
+  if (expectations.length) return expectations.slice(0, 6);
+  return ['Review the vacancy requirements on the application page before submitting.'];
+}
+
+function assistantJob() {
+  return jobs.find(j => String(j.id) === String(assistantJobId)) || null;
+}
+
+function closeApplicationAssistant() {
+  const overlay = document.querySelector('#applicationAssistant');
+  if (!overlay) return;
+  overlay.hidden = true;
+  assistantJobId = '';
+  document.body.classList.remove('reply-modal-open');
+}
+
+function persistAssistantForm() {
+  const job = assistantJob();
+  if (!job) return null;
+  const checks = {};
+  document.querySelectorAll('[data-assistant-check]').forEach(input => { checks[input.dataset.assistantCheck] = !!input.checked; });
+  const notes = document.querySelector('#assistantNotes')?.value || '';
+  return saveAssistantRecord(job, {checks, notes});
+}
+
+function openApplicationAssistant(job) {
+  const overlay = document.querySelector('#applicationAssistant');
+  if (!overlay || !job) return;
+  assistantJobId = String(job.id);
+  const state = assistantRecord(job);
+  const tier = tierFor(job);
+  const tierEl = document.querySelector('#assistantTier');
+  tierEl.textContent = tier;
+  tierEl.className = `level tier-${tier.toLowerCase()}`;
+  document.querySelector('#assistantJobTitle').textContent = job.title || 'Vacancy';
+  document.querySelector('#assistantCompany').textContent = job.company || 'Company not parsed';
+  document.querySelector('#assistantFacts').innerHTML = [
+    `<span><b>Score</b> ${Number(job.fit_score || 0)}%</span>`,
+    `<span><b>Experience</b> ${esc(experienceLabel(job))}</span>`,
+    `<span><b>Contract</b> ${esc(job.contract || 'Not confirmed')}</span>`,
+    `<span><b>Mode</b> ${esc(job.work_mode || 'Not stated')}</span>`,
+    `<span><b>Location</b> ${esc(job.location || 'Not stated')}</span>`
+  ].join('');
+  const req = document.querySelector('#assistantRequirements');
+  req.innerHTML = assistantRequirements(job).map(x => `<li>${esc(x)}</li>`).join('');
+  document.querySelectorAll('[data-assistant-check]').forEach(input => {
+    input.checked = !!state.checks?.[input.dataset.assistantCheck];
+  });
+  document.querySelector('#assistantNotes').value = state.notes || '';
+  const prepared = document.querySelector('#assistantPrepared');
+  prepared.textContent = state.prepared ? 'Prepared ✓' : 'Mark prepared';
+  prepared.classList.toggle('prepared', !!state.prepared);
+  const open = document.querySelector('#assistantOpenJob');
+  open.href = job.apply_url || job.url;
+  overlay.hidden = false;
+  document.body.classList.add('reply-modal-open');
+}
+
+function markAssistantApplied() {
+  const job = assistantJob();
+  if (!job) return;
+  persistAssistantForm();
+  const channel = sourceChannel(job);
+  saveTracking(job, {status:'APPLIED', applied_at:today(), channel, response_date:'', notes:assistantRecord(job).notes || ''});
+  markSeen(job.id);
+  const set = queueIds();
+  set.delete(job.id); setQueueIds(set);
+  closeApplicationAssistant();
+  render({anchor:captureCardAnchor(job.id)});
 }
 
 renderStats = function() {
@@ -112,6 +214,15 @@ function decorateJobCard(card) {
     button.addEventListener('click', () => toggleQueue(job.id));
     actions.appendChild(button);
   }
+  if (actions && queueIds().has(job.id) && !actions.querySelector('.assistant-btn')) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'assistant-btn';
+    const state = assistantRecord(job);
+    button.textContent = state.prepared ? 'Prepared ✓' : 'Prepare';
+    button.addEventListener('click', () => openApplicationAssistant(job));
+    actions.appendChild(button);
+  }
   card.dataset.v13Decorated = '1';
 }
 
@@ -132,16 +243,61 @@ updateSeenUi = function(id) {
   }
 };
 
-const _v12ExportHistory = exportHistory;
 exportHistory = function() {
   const payload = {
-    format:'job-radar-application-history', version:3, exported_at:new Date().toISOString(),
-    records:getTracker(), seen_jobs:[...seenIds()], saved_jobs:[...savedIds()], queued_jobs:[...queueIds()]
+    format:'job-radar-application-history', version:4, exported_at:new Date().toISOString(),
+    records:getTracker(), seen_jobs:[...seenIds()], saved_jobs:[...savedIds()], queued_jobs:[...queueIds()],
+    application_assistant:getAssistantState()
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
   const url = URL.createObjectURL(blob), a = document.createElement('a');
   a.href = url; a.download = `job-radar-history-${today()}.json`; a.click(); URL.revokeObjectURL(url);
 };
+
+const _v12ImportHistory = importHistory;
+importHistory = async function(file) {
+  try {
+    const payload = JSON.parse(await file.text()), incoming = payload.records || payload;
+    if (!incoming || typeof incoming !== 'object' || Array.isArray(incoming)) throw new Error('Invalid history format');
+    setTracker({...getTracker(), ...incoming});
+    if (Array.isArray(payload.seen_jobs)) localStorage.setItem('seenJobs', JSON.stringify([...new Set([...seenIds(), ...payload.seen_jobs])]));
+    if (Array.isArray(payload.saved_jobs)) localStorage.setItem('savedJobs', JSON.stringify([...new Set([...savedIds(), ...payload.saved_jobs])]));
+    if (Array.isArray(payload.queued_jobs)) localStorage.setItem(QUEUE_KEY, JSON.stringify([...new Set([...queueIds(), ...payload.queued_jobs])]));
+    if (payload.application_assistant && typeof payload.application_assistant === 'object' && !Array.isArray(payload.application_assistant)) {
+      setAssistantState({...getAssistantState(), ...payload.application_assistant});
+    }
+    render(); alert('Application history and queue imported.');
+  } catch { alert('Could not import this history file.'); }
+};
+
+document.querySelector('#closeApplicationAssistant')?.addEventListener('click', closeApplicationAssistant);
+document.querySelector('#applicationAssistant')?.addEventListener('click', event => {
+  if (event.target?.id === 'applicationAssistant') closeApplicationAssistant();
+});
+document.querySelector('#assistantNotes')?.addEventListener('input', persistAssistantForm);
+document.querySelectorAll('[data-assistant-check]').forEach(input => input.addEventListener('change', persistAssistantForm));
+document.querySelector('#assistantPrepared')?.addEventListener('click', () => {
+  const job = assistantJob(); if (!job) return;
+  const current = persistAssistantForm() || assistantRecord(job);
+  const updated = saveAssistantRecord(job, {prepared:!current.prepared});
+  const button = document.querySelector('#assistantPrepared');
+  button.textContent = updated.prepared ? 'Prepared ✓' : 'Mark prepared';
+  button.classList.toggle('prepared', !!updated.prepared);
+  const card = cardById(job.id); if (card) { card.dataset.v13Decorated='0'; decorateJobCard(card); }
+});
+document.querySelector('#assistantOpenJob')?.addEventListener('click', () => {
+  const job = assistantJob(); if (!job) return;
+  persistAssistantForm(); markSeen(job.id); saveReturnAnchor(job.id); updateSeenUi(job.id);
+});
+document.querySelector('#assistantMarkApplied')?.addEventListener('click', markAssistantApplied);
+document.querySelector('#assistantRemoveQueue')?.addEventListener('click', () => {
+  const job = assistantJob(); if (!job) return;
+  persistAssistantForm(); const set = queueIds(); set.delete(job.id); setQueueIds(set);
+  closeApplicationAssistant(); render({anchor:captureCardAnchor(job.id)});
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !document.querySelector('#applicationAssistant')?.hidden) closeApplicationAssistant();
+});
 
 const jobsObserverV13 = new MutationObserver(() => decorateAllCards());
 jobsObserverV13.observe(jobsEl, {childList:true});
