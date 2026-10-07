@@ -106,7 +106,12 @@ function renderHealth() {
   const entries = Object.entries(meta.sources || {});
   if (!entries.length) { healthEl.innerHTML = ''; return; }
   healthEl.innerHTML = '<div class="health-title">Sources</div><div class="health-row">' +
-    entries.map(([name, s]) => `<span class="health ${s.status === 'ok' ? 'ok' : 'bad'}">${esc(name)} · ${s.status === 'ok' ? s.fetched : 'error'}</span>`).join('') +
+    entries.map(([name, s]) => {
+      const state = s.status === 'ok' ? 'ok' : s.status === 'blocked' ? 'blocked' : s.status === 'degraded' ? 'degraded' : 'bad';
+      const value = state === 'ok' ? s.fetched : state === 'blocked' ? 'Unavailable (403)' : state === 'degraded' ? `Limited: ${s.fetched || 0}` : 'Error';
+      const explanation = s.warning || s.error || '';
+      return `<span class="health ${state}" title="${esc(explanation)}">${esc(name)} · ${esc(value)}</span>`;
+    }).join('') +
     '</div>';
 }
 
