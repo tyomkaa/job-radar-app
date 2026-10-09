@@ -1,0 +1,14 @@
+.fit-why{border:1px solid #2a303a;border-radius:14px;padding:10px 12px;margin:0 0 11px;background:#14181f}
+.fit-why summary{font-size:12px}
+.fit-body{display:grid;gap:7px;margin-top:9px;font-size:12px;line-height:1.45;color:#d3d8e2}
+.fit-body ul{margin:3px 0 0;padding-left:18px;display:grid;gap:3px}
+.fit-reason{font-weight:750;color:#f2f4f8}
+.fit-good b{color:#bfe3c9}
+.fit-warn b{color:#f0d29a}
+.chip.chip-interest{background:#233041;color:#cfe0f5;border:1px solid #34506e}
+.filtered-summary{margin:-2px 0 14px;padding:11px 13px;border-radius:14px;background:#151920;border:1px solid #272d38;color:#aeb6c5;font-size:12px}
+.filtered-summary summary{font-size:12px}
+.filtered-summary ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+.filtered-summary li{display:flex;justify-content:space-between;gap:12px}
+.filtered-summary li b{color:#f2f4f8}
+.filtered-summary p{margin:9px 0 0;font-size:10px;color:#8a93a5}
