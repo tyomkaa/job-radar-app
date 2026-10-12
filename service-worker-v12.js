@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v20-fit-notes';
-const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./v17-cv-editor.js','./v18-summary-ux.js','./v19-fit-notes.js','./styles-v19-fit.css','./styles-v13-ui.css','./styles-v17-cv.css','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v21-focus-cv';
+const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./v17-cv-editor.js','./v18-summary-ux.js','./v19-fit-notes.js','./v21-focus-cv.js','./styles-v19-fit.css','./styles-v13-ui.css','./styles-v17-cv.css','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
@@ -56,6 +56,7 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/v17-cv-editor.js') ||
     url.pathname.endsWith('/v18-summary-ux.js') ||
     url.pathname.endsWith('/v19-fit-notes.js') ||
+    url.pathname.endsWith('/v21-focus-cv.js') ||
     url.pathname.endsWith('/styles-v19-fit.css') ||
     url.pathname.endsWith('/styles-v13-ui.css') ||
     url.pathname.endsWith('/styles-v17-cv.css')
