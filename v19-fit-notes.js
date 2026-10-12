@@ -8,13 +8,18 @@ function fitNotesHtml(job) {
   if (notes.tier_reason) rows.push(`<div class="fit-reason">${esc(notes.tier_reason)}</div>`);
   const evidence = notes.evidence === 'work' ? 'experience from work' : 'experience from projects only';
   if (notes.direction) rows.push(`<div><b>Direction:</b> ${esc(notes.direction)} · ${esc(evidence)}</div>`);
-  if ((notes.matches || []).length) {
-    rows.push(`<div class="fit-good"><b>Matches your CV:</b><ul>${notes.matches.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`);
+  // General vacancy words such as "operations", "stakeholder" and "integration"
+  // are not convincing CV evidence. Show only recognisable technical signals.
+  const concrete = (notes.matches || []).filter(x =>
+    /python|playwright|openpyxl|wordpress|woocommerce|supabase|postgresql|sql|hubspot|seo|telecom|network|linux|github actions|google search console|rbac|rls/i.test(x)
+  ).slice(0, 2);
+  if (concrete.length) {
+    rows.push(`<div class="fit-good"><b>Relevant keywords:</b><ul>${concrete.map(x => `<li>${esc(x)}</li>`).join('')}</ul><small>Keywords found in the vacancy, not a guarantee of qualification.</small></div>`);
   }
   if ((notes.concerns || []).length) {
     rows.push(`<div class="fit-warn"><b>Watch out:</b><ul>${notes.concerns.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`);
   }
-  if (notes.suggested_cv) rows.push(`<div><b>Suggested CV:</b> ${esc(notes.suggested_cv)}</div>`);
+  if (notes.suggested_cv) rows.push(`<div><b>Suggested CV:</b> ${esc(notes.suggested_cv)} <small>· Choose or override in Prepare</small></div>`);
   return `<details class="fit-why"><summary>Why ${esc(tierFor(job))} · ${Number(job.fit_score || 0)}%</summary><div class="fit-body">${rows.join('')}</div></details>`;
 }
 
