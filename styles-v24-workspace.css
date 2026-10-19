@@ -1,0 +1,22 @@
+/* Job Radar v0.7 draft: one compact Review / Prepare / Apply workflow. */
+.application-assistant-sheet [data-workspace-tab][hidden]{display:none!important}
+.v24-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:12px 0 16px}
+.v24-tabs button{border:1px solid #35404d;border-radius:11px;min-height:44px;background:#212833;color:#bfc8d6;padding:9px 6px;font-size:12px;font-weight:800}
+.v24-tabs button.selected{background:#e7edf4;color:#111922;border-color:#e7edf4}
+.v24-review{background:#151b24;border:1px solid #303b4a;border-radius:15px;padding:13px;margin-bottom:14px}
+.v24-section-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.v24-section-head h4{margin:0}
+.v24-local-tag{font-size:9px;letter-spacing:.8px;color:#aeb9cb}
+.v24-hint{font-size:12px;line-height:1.5;color:#aeb9c9;margin:10px 0}
+.v24-review-result{border:1px solid #354254;border-radius:12px;padding:12px;font-size:12px;line-height:1.6;overflow-wrap:anywhere;color:#dfe6ee}
+.v24-review-result p{margin:9px 0}
+.v24-review-result strong{font-size:13px}
+.v24-action-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0}
+.v24-action-row button{min-height:44px;padding:10px;border:1px solid #475568;border-radius:12px;background:#232c38;color:#e9eef7;font:inherit;font-weight:750;font-size:12px}
+.v24-action-row button:first-child{background:#e7edf4;color:#101820}
+.v24-field-label{display:block;margin-top:12px;color:#cbd5e1;font-size:12px;font-weight:750}
+#v24PasteReview{display:block;width:100%;margin-top:6px;padding:11px;background:#101721;color:#eaf0f8;border:1px solid #455164;border-radius:12px;font:inherit;font-size:12px;resize:vertical}
+.v24-status{min-height:16px;font-size:12px;color:#c2d6be}
+.actions .v24-workspace-btn{grid-column:1/-1;border:1px solid #62718a;background:#e8edf4;color:#101820;min-height:44px}
+.application-assistant-sheet{max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 22px)}
+@media(max-width:370px){.v24-tabs button{font-size:11px}.v24-action-row{grid-template-columns:1fr}}
