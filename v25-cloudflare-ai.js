@@ -8,10 +8,10 @@
   function addControls() {
     const parent = document.querySelector("#v24ReviewSection");
     if (!parent || parent.querySelector("#aiDirectControls")) return;
-    const controls = document.createElement("section");
+    const controls = document.createElement("details");
     controls.id = "aiDirectControls";
     controls.className = "v24-review";
-    controls.innerHTML = '<h4>Analyze with Cloudflare AI</h4><p class="v24-hint">Job details are sent only when you press Analyze. Short profile, email, phone and PDF are not sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze Daily Picks (up to 6)</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
+    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Daily AI reviews arrive automatically after the next scheduled search. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze Daily Picks (up to 6)</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
     // Hide the legacy copy/paste workflow behind one optional disclosure.
     // Keep all original elements/listeners intact for no-AI fallback.
@@ -44,7 +44,7 @@
       panel.className="v24-review";
       panel.dataset.workspaceTab="prepare";
       panel.hidden=true;
-      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Enter only facts you can verify. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftToken">Cloudflare access token (only if not entered in Analyze)</label><input id="aiDraftToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN"><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
+      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Optional one-off Polish motivation/answer drafts. These need private authorization because they send your entered facts; automatic vacancy verdicts never require your token. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftToken">Cloudflare access token (only if not entered in Analyze)</label><input id="aiDraftToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN"><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
       const tabs=assistant.querySelector("#v24Tabs");
       if(tabs)tabs.insertAdjacentElement("afterend",panel);
       panel.querySelector("#aiMotivation").addEventListener("click",()=>generateDraft("motivation"));
@@ -163,12 +163,7 @@
     if (inFlight) return;
     const job = assistantJob();
     if (!job) return;
-    const input = document.querySelector("#aiDirectToken");
-    if (input?.value.trim()) {
-      secret = input.value.trim();
-      input.value = "";
-    }
-    if (!secret) return report("Enter your private Worker token.");
+    if (!takeToken()) return;
     if (aiReviewFor(job) && !confirm("Replace existing AI verdict?")) return;
     const keys = ["title","company","location","contract","work_mode","seniority","experience_required_years","description","summary_tasks","summary_expectations","required_skills"];
     const brief = {};
