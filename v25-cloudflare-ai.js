@@ -78,6 +78,13 @@
       const data = await response.json();
       if (!response.ok) throw Error(String(data.error || "HTTP " + response.status));
       const parsed = parseAiReview(JSON.stringify(data));
+      // Do not paint or save the result against a different vacancy if the
+      // user switched cards while the asynchronous request was in flight.
+      const current = assistantJob();
+      if (!current || jobKey(current) !== jobKey(job)) {
+        report("Analysis finished after switching vacancies; result was not saved.");
+        return;
+      }
       const store = aiReviews();
       store[jobKey(job)] = parsed;
       localStorage.setItem(AI_REVIEW_KEY, JSON.stringify(store));
