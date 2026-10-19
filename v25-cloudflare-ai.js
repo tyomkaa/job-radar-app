@@ -35,6 +35,21 @@
         disclosure.appendChild(node);
       }
     }
+
+    // Drafting is on demand and never submits anything to the employer.
+    const assistant = document.querySelector("#applicationAssistant");
+    if (assistant && !assistant.querySelector("#aiDraftTools")) {
+      const panel=document.createElement("section");
+      panel.id="aiDraftTools";
+      panel.className="v24-review";
+      panel.dataset.workspaceTab="prepare";
+      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Enter only facts you can verify. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
+      const tabs=assistant.querySelector("#v24Tabs");
+      if(tabs)tabs.insertAdjacentElement("afterend",panel);
+      panel.querySelector("#aiMotivation").addEventListener("click",()=>generateDraft("motivation"));
+      panel.querySelector("#aiAnswer").addEventListener("click",()=>generateDraft("answer"));
+      panel.querySelector("#aiCopyDraft").addEventListener("click",()=>copyText(panel.querySelector("#aiDraftOutput").value,panel.querySelector("#aiCopyDraft")));
+    }
     controls.querySelector("#aiDirectRun").addEventListener("click", analyze);
     controls.querySelector("#aiUsage").addEventListener("click", checkUsage);
     controls.querySelector("#aiBatch").addEventListener("click", batchAnalyze);
@@ -111,6 +126,34 @@
       report("Batch finished: "+done+" analyzed. Remaining quota: check with Check quota.");
     } catch(e){report("Batch not started: "+e.message);}
     finally{batchRunning=false;button.disabled=false;}
+  }
+
+  async function generateDraft(type) {
+    const root=document.querySelector("#aiDraftTools"),job=assistantJob();
+    if (!root||!job||!takeToken()) return;
+    const status=root.querySelector("#aiDraftStatus");
+    const facts=root.querySelector("#aiDraftFacts").value.trim();
+    const question=root.querySelector("#aiDraftQuestion").value.trim();
+    if (!facts) {status.textContent="Enter relevant verified experience first.";return;}
+    if (type==="answer"&&!question) {status.textContent="Enter the employer question first.";return;}
+    if (!window.confirm("Send this vacancy and your entered facts to Cloudflare AI to draft text?"))return;
+    status.textContent="Generating…";
+    const button=root.querySelector(type==="answer"?"#aiAnswer":"#aiMotivation");
+    button.disabled=true;
+    try {
+      const payload={action:"draft",draft_type:type,job:{
+        title:job.title,company:job.company,description:String(job.description||"").slice(0,1800),
+        summary_tasks:job.summary_tasks,summary_expectations:job.summary_expectations
+      },facts:facts.slice(0,1400),question:question.slice(0,600),language:"Polish"};
+      const response=await fetch(endpoint,{method:"POST",
+        headers:{"Authorization":"Bearer "+secret,"Content-Type":"application/json"},
+        body:JSON.stringify(payload),cache:"no-store"});
+      const data=await response.json();
+      if(!response.ok)throw Error(String(data.error||response.status));
+      root.querySelector("#aiDraftOutput").value=String(data.draft||"");
+      status.textContent="Draft ready. Check accuracy before copying or sending.";
+    }catch(e){status.textContent="Draft unavailable: "+e.message;}
+    finally{button.disabled=false;}
   }
   async function analyze() {
     if (inFlight) return;
