@@ -2,15 +2,16 @@
 (function () {
   let secret = "";
   let inFlight = false;
+  let batchRunning = false;
   const endpoint = "https://job-radar-ai.artem-zp-02.workers.dev/analyze";
   const formerOpen = openApplicationAssistant;
   function addControls() {
     const parent = document.querySelector("#v24ReviewSection");
     if (!parent || parent.querySelector("#aiDirectControls")) return;
-    const controls = document.createElement("section");
+    const controls = document.createElement("details");
     controls.id = "aiDirectControls";
     controls.className = "v24-review";
-    controls.innerHTML = '<h4>Analyze with Cloudflare AI</h4><p class="v24-hint">Job details are sent only when you press Analyze. Short profile, email, phone and PDF are not sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
+    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Daily AI reviews arrive automatically after the next scheduled search. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze Daily Picks (up to 6)</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
     // Hide the legacy copy/paste workflow behind one optional disclosure.
     // Keep all original elements/listeners intact for no-AI fallback.
@@ -34,7 +35,25 @@
         disclosure.appendChild(node);
       }
     }
+
+    // Drafting is on demand and never submits anything to the employer.
+    const assistant = document.querySelector("#applicationAssistant");
+    if (assistant && !assistant.querySelector("#aiDraftTools")) {
+      const panel=document.createElement("section");
+      panel.id="aiDraftTools";
+      panel.className="v24-review";
+      panel.dataset.workspaceTab="prepare";
+      panel.hidden=true;
+      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Optional one-off Polish motivation/answer drafts. These need private authorization because they send your entered facts; automatic vacancy verdicts never require your token. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftToken">Cloudflare access token (only if not entered in Analyze)</label><input id="aiDraftToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN"><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
+      const tabs=assistant.querySelector("#v24Tabs");
+      if(tabs)tabs.insertAdjacentElement("afterend",panel);
+      panel.querySelector("#aiMotivation").addEventListener("click",()=>generateDraft("motivation"));
+      panel.querySelector("#aiAnswer").addEventListener("click",()=>generateDraft("answer"));
+      panel.querySelector("#aiCopyDraft").addEventListener("click",()=>copyText(panel.querySelector("#aiDraftOutput").value,panel.querySelector("#aiCopyDraft")));
+    }
     controls.querySelector("#aiDirectRun").addEventListener("click", analyze);
+    controls.querySelector("#aiUsage").addEventListener("click", checkUsage);
+    controls.querySelector("#aiBatch").addEventListener("click", batchAnalyze);
     controls.querySelector("#aiDirectForget").addEventListener("click", () => {
       secret = "";
       controls.querySelector("#aiDirectToken").value = "";
@@ -45,16 +64,106 @@
     const node = document.querySelector("#aiDirectStatus");
     if (node) node.textContent = message;
   }
+
+  function takeToken() {
+    const el = document.querySelector("#aiDirectToken");
+    const backup = document.querySelector("#aiDraftToken");
+    for (const input of [el,backup]) {
+      if(input?.value.trim()){secret=input.value.trim();input.value="";}
+    }
+    if (!secret) { report("Enter your ACCESS_TOKEN first."); el?.focus(); return false; }
+    return true;
+  }
+  async function usage() {
+    const response = await fetch(endpoint.replace("/analyze","/usage"), {
+      headers:{"Authorization":"Bearer "+secret},cache:"no-store"
+    });
+    const data = await response.json();
+    if (!response.ok) throw Error(data.error||"Usage unavailable");
+    return data;
+  }
+  async function checkUsage() {
+    if (!takeToken()) return;
+    try {
+      const q = await usage();
+      report("AI today: "+q.used+" / "+q.limit+" attempts. "+q.remaining+" remaining. Cloudflare neuron quota is separate.");
+    } catch(e) { report("Quota check: "+e.message); }
+  }
+  async function batchAnalyze() {
+    if (batchRunning || inFlight || !takeToken()) return;
+    const selected = dailyRecommendations().map(x=>x.job)
+      .filter(j=>!aiReviewFor(j)).slice(0,6);
+    if (!selected.length) return report("No new Daily Picks need AI review.");
+    if (!window.confirm("Analyze up to "+selected.length+" Daily Picks with Cloudflare AI? Each attempt uses the free quota.")) return;
+    batchRunning=true;
+    const button=document.querySelector("#aiBatch");
+    button.disabled=true;
+    try {
+      let available=0;
+      try { available=(await usage()).remaining; } catch(e) { throw Error("Daily quota not confirmed: "+e.message); }
+      const list=selected.slice(0,Math.min(available,6));
+      if (!list.length) {report("Daily AI limit reached. No requests sent.");return;}
+      let done=0;
+      for (const job of list) {
+        try {
+          const brief={};
+          for (const key of ["title","company","location","contract","work_mode","seniority","experience_required_years","description","summary_tasks","summary_expectations","required_skills"]) {
+            const v=job[key];
+            brief[key]=Array.isArray(v)?v.slice(0,7).map(x=>String(x).slice(0,300)):String(v??"").slice(0,key==="description"?2200:300);
+          }
+          const response=await fetch(endpoint,{method:"POST",
+            headers:{"Authorization":"Bearer "+secret,"Content-Type":"application/json"},
+            body:JSON.stringify({job:brief}),cache:"no-store"});
+          const data=await response.json();
+          if (!response.ok) {
+            if(response.status===429) {report("Daily AI limit reached, stopped batch.");break;}
+            throw Error(String(data.error||response.status));
+          }
+          const review=parseAiReview(JSON.stringify(data));
+          const store=aiReviews();store[jobKey(job)]=review;
+          localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(store));
+          done++;
+          report("AI analyzed "+done+" / "+list.length+" Daily Picks…");
+        }catch(e){report("Stopped batch: "+e.message);break;}
+      }
+      render();
+      report("Batch finished: "+done+" analyzed. Remaining quota: check with Check quota.");
+    } catch(e){report("Batch not started: "+e.message);}
+    finally{batchRunning=false;button.disabled=false;}
+  }
+
+  async function generateDraft(type) {
+    const root=document.querySelector("#aiDraftTools"),job=assistantJob();
+    if (!root||!job||!takeToken()) return;
+    const status=root.querySelector("#aiDraftStatus");
+    const facts=root.querySelector("#aiDraftFacts").value.trim();
+    const question=root.querySelector("#aiDraftQuestion").value.trim();
+    if (!facts) {status.textContent="Enter relevant verified experience first.";return;}
+    if (type==="answer"&&!question) {status.textContent="Enter the employer question first.";return;}
+    if (!window.confirm("Send this vacancy and your entered facts to Cloudflare AI to draft text?"))return;
+    status.textContent="Generating…";
+    const button=root.querySelector(type==="answer"?"#aiAnswer":"#aiMotivation");
+    button.disabled=true;
+    try {
+      const payload={action:"draft",draft_type:type,job:{
+        title:job.title,company:job.company,description:String(job.description||"").slice(0,1800),
+        summary_tasks:job.summary_tasks,summary_expectations:job.summary_expectations
+      },facts:facts.slice(0,1400),question:question.slice(0,600),language:"Polish"};
+      const response=await fetch(endpoint,{method:"POST",
+        headers:{"Authorization":"Bearer "+secret,"Content-Type":"application/json"},
+        body:JSON.stringify(payload),cache:"no-store"});
+      const data=await response.json();
+      if(!response.ok)throw Error(String(data.error||response.status));
+      root.querySelector("#aiDraftOutput").value=String(data.draft||"");
+      status.textContent="Draft ready. Check accuracy before copying or sending.";
+    }catch(e){status.textContent="Draft unavailable: "+e.message;}
+    finally{button.disabled=false;}
+  }
   async function analyze() {
     if (inFlight) return;
     const job = assistantJob();
     if (!job) return;
-    const input = document.querySelector("#aiDirectToken");
-    if (input?.value.trim()) {
-      secret = input.value.trim();
-      input.value = "";
-    }
-    if (!secret) return report("Enter your private Worker token.");
+    if (!takeToken()) return;
     if (aiReviewFor(job) && !confirm("Replace existing AI verdict?")) return;
     const keys = ["title","company","location","contract","work_mode","seniority","experience_required_years","description","summary_tasks","summary_expectations","required_skills"];
     const brief = {};

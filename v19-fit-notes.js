@@ -1,27 +1,4 @@
-// Job Radar v0.4.0: explain every match and where filtered vacancies went.
-// The score is CV fit only; interests (Automation) are a separate filter.
-
-function fitNotesHtml(job) {
-  const notes = job.fit_notes || {};
-  if (!notes.tier_reason && !notes.direction) return '';
-  const rows = [];
-  if (notes.tier_reason) rows.push(`<div class="fit-reason">${esc(notes.tier_reason)}</div>`);
-  const evidence = notes.evidence === 'work' ? 'experience from work' : 'experience from projects only';
-  if (notes.direction) rows.push(`<div><b>Direction:</b> ${esc(notes.direction)} · ${esc(evidence)}</div>`);
-  // General vacancy words such as "operations", "stakeholder" and "integration"
-  // are not convincing CV evidence. Show only recognisable technical signals.
-  const concrete = (notes.matches || []).filter(x =>
-    /python|playwright|openpyxl|wordpress|woocommerce|supabase|postgresql|sql|hubspot|seo|telecom|network|linux|github actions|google search console|rbac|rls/i.test(x)
-  ).slice(0, 2);
-  if (concrete.length) {
-    rows.push(`<div class="fit-good"><b>Relevant keywords:</b><ul>${concrete.map(x => `<li>${esc(x)}</li>`).join('')}</ul><small>Keywords found in the vacancy, not a guarantee of qualification.</small></div>`);
-  }
-  if ((notes.concerns || []).length) {
-    rows.push(`<div class="fit-warn"><b>Watch out:</b><ul>${notes.concerns.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`);
-  }
-  if (notes.suggested_cv) rows.push(`<div><b>Suggested CV:</b> ${esc(notes.suggested_cv)} <small>· Choose or override in Prepare</small></div>`);
-  return `<details class="fit-why"><summary>Why ${esc(tierFor(job))} · ${Number(job.fit_score || 0)}%</summary><div class="fit-body">${rows.join('')}</div></details>`;
-}
+// Compact card UI: legacy Why score box hidden; fit_notes and scoring stay intact.
 
 function hasInterestTag(job, tag) {
   return Array.isArray(job.interest_tags) && job.interest_tags.includes(tag);
@@ -33,12 +10,10 @@ render = function(options={}) {
   renderFilteredSummary();
   document.querySelectorAll('.job-card').forEach(card => {
     const job = jobs.find(j => String(j.id) === card.dataset.jobId);
-    if (!job || card.querySelector('.fit-why')) return;
-    if (hasInterestTag(job, 'automation')) {
+    if (!job) return;
+    if (hasInterestTag(job, 'automation') && !card.querySelector('.chip-interest')) {
       card.querySelector('.chips')?.insertAdjacentHTML('afterbegin', '<span class="chip chip-interest">Automation</span>');
     }
-    const html = fitNotesHtml(job);
-    if (html) card.querySelector('.chips')?.insertAdjacentHTML('afterend', html);
   });
 };
 

@@ -1,7 +1,7 @@
 name: PWA Smoke Tests
 on:
   push:
-    branches: [main, feature/v07-unified-workspace]
+    branches: [main, feature/v07-unified-workspace, feature/compact-cards-hide-why]
   pull_request:
     branches: [main]
 permissions:
