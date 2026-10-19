@@ -35,3 +35,7 @@
 #aiDraftStatus,#aiDirectStatus{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
 .v25-manual-fallback{margin-top:12px}
 @media(max-width:380px){#aiDirectControls .v24-action-row{grid-template-columns:1fr}}
+
+/* Editable application drafts remain local and never use Workers AI. */
+.local-template-editor{display:block;box-sizing:border-box;width:100%;min-height:115px;margin:9px 0;padding:12px;resize:vertical;background:#111923;color:#e9eef6;border:1px solid #465365;border-radius:10px;font:inherit;font-size:13px;line-height:1.55}
+.local-template-editor:focus{outline:2px solid #9bc7fd;outline-offset:1px}
