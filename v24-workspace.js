@@ -10,6 +10,26 @@
   let activeWorkspaceTab = 'analyze';
   let previousWorkspaceJobId = '';
 
+  // One CV recommendation path: a reviewed AI suggestion can influence the
+  // suggested variant, but only if a matching PDF exists locally. Explicit
+  // user selections still win in selectedCv(). Fall back to backend rules.
+  const previousRecommendCv = recommendCv;
+  recommendCv = function (job, cvs) {
+    if (Array.isArray(cvs) && cvs.length && job) {
+      const review = aiReviewFor(job);
+      if (review && ['APPLY', 'CHECK'].includes(review.verdict)) {
+        const wanted = v21CvCategory(review.suggested_cv);
+        if (wanted) {
+          const match = cvs.find(cv =>
+            v21CvCategory(cv.label) === wanted || v21CvCategory(cv.file_name) === wanted
+          );
+          if (match) return match;
+        }
+      }
+    }
+    return previousRecommendCv(job, cvs);
+  };
+
   function workspaceJob() {
     return typeof assistantJob === 'function' ? assistantJob() : null;
   }
