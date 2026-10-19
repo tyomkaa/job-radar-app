@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="styles-v13-ui.css">
 <link rel="stylesheet" href="styles-v17-cv.css">
 <link rel="stylesheet" href="styles-v19-fit.css">
+<link rel="stylesheet" href="styles-v22-daily.css">
 </head>
 <body>
 <header class="topbar"><div><div class="eyebrow">PERSONAL JOB RADAR</div><h1>Job Radar</h1></div><button id="refreshBtn" class="icon-btn" aria-label="Refresh">↻</button></header>
@@ -28,6 +29,7 @@
   </label>
 </section>
 <nav class="filters" aria-label="Job filters">
+<button class="filter" data-filter="DAILY">Daily picks</button>
 <button class="filter" data-filter="FOCUS">Focus 50</button>
 <button class="filter active" data-filter="ALL">All</button>
 <button class="filter" data-filter="TODAY">Today</button>
@@ -53,6 +55,7 @@
 <p>Your application data, history and queue are stored only in this browser on this device. Export backup creates a local JSON file containing those saved answers and tracking data; CV PDFs stay separate and are never included.</p>
 <div class="data-actions"><button id="openApplicationData" class="secondary" type="button">Application data</button><button id="exportHistory" class="secondary">Export backup</button><label class="secondary file-label">Import backup<input id="importHistory" type="file" accept="application/json,.json"></label></div>
 </details>
+<section id="dailyBrief" class="daily-brief" hidden></section>
 <section id="jobs" class="jobs"><div class="loading">Loading jobs…</div></section>
 </main>
 
@@ -178,4 +181,5 @@
 <script src="v18-summary-ux.js"></script>
 <script src="v19-fit-notes.js"></script>
 <script src="v21-focus-cv.js"></script>
+<script src="v22-daily.js"></script>
 </body></html>
