@@ -4,7 +4,7 @@
 const AI_REVIEW_KEY='jobRadarAIReviewV1';
 let aiReviewJobId='';
 function aiReviews(){try{return JSON.parse(localStorage.getItem(AI_REVIEW_KEY)||'{}')}catch{return {}}}
-function aiReviewFor(job){return aiReviews()[jobKey(job)]||null}
+function aiReviewFor(job){return aiReviews()[jobKey(job)]||job?.ai_review||null}
 function aiReviewProfile(){
   // Local short profile is OPTIONAL. Never include names, email, phone, or
   // uploaded PDF bytes in a public URL or in a background request.
