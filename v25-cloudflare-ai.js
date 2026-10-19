@@ -12,6 +12,28 @@
     controls.className = "v24-review";
     controls.innerHTML = '<h4>Analyze with Cloudflare AI</h4><p class="v24-hint">Job details are sent only when you press Analyze. Short profile, email, phone and PDF are not sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
+    // Hide the legacy copy/paste workflow behind one optional disclosure.
+    // Keep all original elements/listeners intact for no-AI fallback.
+    const copy = parent.querySelector("#v24CopyBrief");
+    const copyActions = copy?.closest(".v24-action-row");
+    const paste = parent.querySelector("#v24PasteReview");
+    const pasteLabel = parent.querySelector('label[for="v24PasteReview"]');
+    const saveActions = parent.querySelector("#v24SaveReview")?.closest(".v24-action-row");
+    if (copyActions && paste && pasteLabel && saveActions) {
+      const disclosure = document.createElement("details");
+      disclosure.className = "v25-manual-fallback";
+      const heading = document.createElement("summary");
+      heading.textContent = "Manual analysis with ChatGPT (fallback)";
+      disclosure.appendChild(heading);
+      const guide = copyActions.previousElementSibling;
+      parent.insertBefore(disclosure, guide || copyActions);
+      if (guide && guide !== controls && guide !== parent.querySelector("#v24ReviewResult")) {
+        disclosure.appendChild(guide);
+      }
+      for (const node of [copyActions, pasteLabel, paste, saveActions]) {
+        disclosure.appendChild(node);
+      }
+    }
     controls.querySelector("#aiDirectRun").addEventListener("click", analyze);
     controls.querySelector("#aiDirectForget").addEventListener("click", () => {
       secret = "";
