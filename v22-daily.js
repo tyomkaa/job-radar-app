@@ -66,6 +66,17 @@ function dailyDecorate(){
   if(host.hidden)return;
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
   host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' worth reviewing</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Recommendations are heuristic, not hiring probabilities. Open All to see the full market.</small>';
+  const budget=meta?.ai_budget;
+  const usage=document.createElement('div');
+  usage.className='ai-budget-summary';
+  if(budget && budget.date_utc){
+    usage.textContent='Cloudflare AI: '+budget.used+' / '+budget.limit+
+      ' attempts used, '+budget.remaining+' remaining. Checked '+budget.checked_at_utc+
+      ' (UTC, may be outdated).';
+  }else{
+    usage.textContent='AI quota not available in this feed. Search works normally.';
+  }
+  host.appendChild(usage);
   document.querySelectorAll('#jobs .job-card').forEach(card=>{
     const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
