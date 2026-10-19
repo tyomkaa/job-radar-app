@@ -39,4 +39,10 @@ const requiredSections = [
 for (const id of requiredSections) {
   assert((html + read('v15-cv-manager.js') + read('v14-templates.js')).includes(id), 'missing app component ' + id);
 }
+const localDrafts=read('v26-local-drafts.js');
+assert(scripts.includes('v26-local-drafts.js'),'Local drafts not loaded');
+assert(serviceWorker.includes("'./v26-local-drafts.js'"),'Local draft editor not cached');
+assert(localDrafts.includes('local-template-editor'),'Editable template control missing');
+assert(!localDrafts.includes('fetch('),'Local drafts must not use any API');
+assert(!ai.includes('aiDraftTools') && !ai.includes('generateDraft('),'Quota-consuming AI application drafts still enabled');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
