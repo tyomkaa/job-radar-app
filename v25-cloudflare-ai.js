@@ -43,7 +43,8 @@
       panel.id="aiDraftTools";
       panel.className="v24-review";
       panel.dataset.workspaceTab="prepare";
-      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Enter only facts you can verify. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
+      panel.hidden=true;
+      panel.innerHTML='<h4>AI application drafts</h4><p class="v24-hint">Enter only facts you can verify. No PDF is uploaded. Review every draft before sending.</p><label for="aiDraftToken">Cloudflare access token (only if not entered in Analyze)</label><input id="aiDraftToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN"><label for="aiDraftFacts">My relevant verified experience</label><textarea id="aiDraftFacts" rows="3" placeholder="Python, APIs, automation projects, achievements you can prove"></textarea><label for="aiDraftQuestion">Employer question (optional)</label><textarea id="aiDraftQuestion" rows="2" placeholder="Why are you interested in this role?"></textarea><div class="v24-action-row"><button type="button" id="aiMotivation">Draft motivation</button><button type="button" id="aiAnswer">Draft answer</button></div><p class="v24-hint" id="aiDraftStatus"></p><textarea id="aiDraftOutput" rows="7" placeholder="AI draft appears here; edit before using"></textarea><button type="button" id="aiCopyDraft">Copy draft</button>';
       const tabs=assistant.querySelector("#v24Tabs");
       if(tabs)tabs.insertAdjacentElement("afterend",panel);
       panel.querySelector("#aiMotivation").addEventListener("click",()=>generateDraft("motivation"));
@@ -66,7 +67,10 @@
 
   function takeToken() {
     const el = document.querySelector("#aiDirectToken");
-    if (el?.value.trim()) { secret = el.value.trim(); el.value = ""; }
+    const backup = document.querySelector("#aiDraftToken");
+    for (const input of [el,backup]) {
+      if(input?.value.trim()){secret=input.value.trim();input.value="";}
+    }
     if (!secret) { report("Enter your ACCESS_TOKEN first."); el?.focus(); return false; }
     return true;
   }
