@@ -9,8 +9,9 @@ function dailyClassify(j){
   const text=String(j.title||'').toLowerCase();
   const autom=/(automatyzac|automation|rpa|workflow|power automate|integracj.*system|integration.*automat|process automation|n8n)/i.test(text);
   const bridge=/(crm.*automat|marketing automation|process improvement|optimiz.*process|usprawnian.*proces|system.*automat|business.*automat|ai.*e.?commerce)/i.test(text);
-  if(autom)return {direction:bridge?'bridge':'automation',boost:bridge?18:27};
+  if(/test automation|automation test|qa automation|automation tester/i.test(text))return {direction:'other',boost:0};
   if(bridge)return {direction:'bridge',boost:18};
+  if(autom)return {direction:'automation',boost:27};
   return {direction:'other',boost:0};
 }
 function dailyPenalty(j){
@@ -18,7 +19,7 @@ function dailyPenalty(j){
   const requirements=(j.summary_expectations||[]).join(' ').toLowerCase();
   const tasks=(j.summary_tasks||[]).join(' ').toLowerCase();
   let p=0;
-  if(/chemik|chemistry|laborator|analizy zagroż|analizy zagroz|fizykochem|cybersecurity analyst|data scien|mlops|llmops|fine.tun|research scientist|influencer|social media|content editor|freight|payroll/i.test(title))p+=95;
+  if(/chemik|chemistry|laborator|analizy zagroż|analizy zagroz|fizykochem|cybersecurity analyst|data scien|mlops|llmops|fine.tun|research scientist|influencer|social media|content editor|freight|payroll|test automation|automation test|qa automation|automation tester/i.test(title))p+=95;
   if(/chemik|fizykochem|laboratoryjn|laboratory equipment|obsługi.*sprzętu laboratoryjn/i.test(requirements+' '+tasks))p+=65;
   if(/doświadczenie w obszarze inżynierii ai.ml|fine.tuningiem|mlops|llmops|model lifecycle management/i.test(requirements))p+=50;
   if(/\b(?:mid|regular|senior|expert)\b/i.test(j.seniority||''))p+=14;
@@ -26,9 +27,12 @@ function dailyPenalty(j){
 }
 function dailyScore(j){
   const interest=dailyClassify(j);
+  const feedback=Object.values(dailyFeedback());
+  const careerDismissals=feedback.filter(x=>x.reason==='Not my career direction').length;
+  const otherPenalty=interest.direction==='other'?Math.min(12,careerDismissals*2):0;
   const company=String(j.company||'').toLowerCase();
   const bigCompany=DAILY_FAVORITES.some(name=>new RegExp('(^|[^a-z])'+name+'([^a-z]|$)','i').test(company));
-  return Number(j.fit_score||0)+interest.boost+(bigCompany?6:0)-dailyPenalty(j);
+  return Number(j.fit_score||0)+interest.boost+(bigCompany?6:0)-dailyPenalty(j)-otherPenalty;
 }
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
