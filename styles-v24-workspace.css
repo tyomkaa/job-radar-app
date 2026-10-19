@@ -20,3 +20,18 @@
 .actions .v24-workspace-btn{grid-column:1/-1;border:1px solid #62718a;background:#e8edf4;color:#101820;min-height:44px}
 .application-assistant-sheet{max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 22px)}
 @media(max-width:370px){.v24-tabs button{font-size:11px}.v24-action-row{grid-template-columns:1fr}}
+
+/* Cloudflare AI v0.8 opt-in controls: mobile-first, without large card clutter. */
+#aiDirectControls{margin-top:12px;padding:12px}
+#aiDirectControls h4,#aiDraftTools h4{margin:0 0 8px;font-size:14px}
+#aiDirectToken,#aiDraftToken,#aiDraftFacts,#aiDraftQuestion,#aiDraftOutput{
+  display:block;width:100%;margin:7px 0 11px;padding:11px;
+  background:#101721;color:#f1f5fa;border:1px solid #455164;
+  border-radius:11px;font:inherit;font-size:13px;resize:vertical;
+}
+#aiDraftTools label{font-size:12px;font-weight:700;color:#cbd5e1}
+#aiDraftTools button,#aiDirectControls button{min-height:44px;border-radius:10px}
+#aiCopyDraft{width:100%;border:1px solid #455164;background:#263142;color:#f5f7fa;padding:11px}
+#aiDraftStatus,#aiDirectStatus{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.v25-manual-fallback{margin-top:12px}
+@media(max-width:380px){#aiDirectControls .v24-action-row{grid-template-columns:1fr}}
