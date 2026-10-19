@@ -2,6 +2,7 @@
 (function () {
   let secret = "";
   let inFlight = false;
+  let batchRunning = false;
   const endpoint = "https://job-radar-ai.artem-zp-02.workers.dev/analyze";
   const formerOpen = openApplicationAssistant;
   function addControls() {
@@ -10,7 +11,7 @@
     const controls = document.createElement("section");
     controls.id = "aiDirectControls";
     controls.className = "v24-review";
-    controls.innerHTML = '<h4>Analyze with Cloudflare AI</h4><p class="v24-hint">Job details are sent only when you press Analyze. Short profile, email, phone and PDF are not sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
+    controls.innerHTML = '<h4>Analyze with Cloudflare AI</h4><p class="v24-hint">Job details are sent only when you press Analyze. Short profile, email, phone and PDF are not sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze Daily Picks (up to 6)</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
     // Hide the legacy copy/paste workflow behind one optional disclosure.
     // Keep all original elements/listeners intact for no-AI fallback.
@@ -35,6 +36,8 @@
       }
     }
     controls.querySelector("#aiDirectRun").addEventListener("click", analyze);
+    controls.querySelector("#aiUsage").addEventListener("click", checkUsage);
+    controls.querySelector("#aiBatch").addEventListener("click", batchAnalyze);
     controls.querySelector("#aiDirectForget").addEventListener("click", () => {
       secret = "";
       controls.querySelector("#aiDirectToken").value = "";
@@ -44,6 +47,70 @@
   function report(message) {
     const node = document.querySelector("#aiDirectStatus");
     if (node) node.textContent = message;
+  }
+
+  function takeToken() {
+    const el = document.querySelector("#aiDirectToken");
+    if (el?.value.trim()) { secret = el.value.trim(); el.value = ""; }
+    if (!secret) { report("Enter your ACCESS_TOKEN first."); el?.focus(); return false; }
+    return true;
+  }
+  async function usage() {
+    const response = await fetch(endpoint.replace("/analyze","/usage"), {
+      headers:{"Authorization":"Bearer "+secret},cache:"no-store"
+    });
+    const data = await response.json();
+    if (!response.ok) throw Error(data.error||"Usage unavailable");
+    return data;
+  }
+  async function checkUsage() {
+    if (!takeToken()) return;
+    try {
+      const q = await usage();
+      report("AI today: "+q.used+" / "+q.limit+" attempts. "+q.remaining+" remaining. Cloudflare neuron quota is separate.");
+    } catch(e) { report("Quota check: "+e.message); }
+  }
+  async function batchAnalyze() {
+    if (batchRunning || inFlight || !takeToken()) return;
+    const selected = dailyRecommendations().map(x=>x.job)
+      .filter(j=>!aiReviewFor(j)).slice(0,6);
+    if (!selected.length) return report("No new Daily Picks need AI review.");
+    if (!window.confirm("Analyze up to "+selected.length+" Daily Picks with Cloudflare AI? Each attempt uses the free quota.")) return;
+    batchRunning=true;
+    const button=document.querySelector("#aiBatch");
+    button.disabled=true;
+    try {
+      let available=0;
+      try { available=(await usage()).remaining; } catch(e) { throw Error("Daily quota not confirmed: "+e.message); }
+      const list=selected.slice(0,Math.min(available,6));
+      if (!list.length) {report("Daily AI limit reached. No requests sent.");return;}
+      let done=0;
+      for (const job of list) {
+        try {
+          const brief={};
+          for (const key of ["title","company","location","contract","work_mode","seniority","experience_required_years","description","summary_tasks","summary_expectations","required_skills"]) {
+            const v=job[key];
+            brief[key]=Array.isArray(v)?v.slice(0,7).map(x=>String(x).slice(0,300)):String(v??"").slice(0,key==="description"?2200:300);
+          }
+          const response=await fetch(endpoint,{method:"POST",
+            headers:{"Authorization":"Bearer "+secret,"Content-Type":"application/json"},
+            body:JSON.stringify({job:brief}),cache:"no-store"});
+          const data=await response.json();
+          if (!response.ok) {
+            if(response.status===429) {report("Daily AI limit reached, stopped batch.");break;}
+            throw Error(String(data.error||response.status));
+          }
+          const review=parseAiReview(JSON.stringify(data));
+          const store=aiReviews();store[jobKey(job)]=review;
+          localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(store));
+          done++;
+          report("AI analyzed "+done+" / "+list.length+" Daily Picks…");
+        }catch(e){report("Stopped batch: "+e.message);break;}
+      }
+      render();
+      report("Batch finished: "+done+" analyzed. Remaining quota: check with Check quota.");
+    } catch(e){report("Batch not started: "+e.message);}
+    finally{batchRunning=false;button.disabled=false;}
   }
   async function analyze() {
     if (inFlight) return;
