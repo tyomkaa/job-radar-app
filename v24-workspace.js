@@ -86,8 +86,8 @@
     review.className = 'assistant-section v24-review';
     review.dataset.workspaceTab = 'analyze';
     review.innerHTML = [
-      '<div class="v24-section-head"><h4>AI vacancy review</h4><span class="v24-local-tag">PRIVATE · OPT-IN</span></div>',
-      '<p class="v24-hint">Check career direction, actual duties and hard requirements. AI suggestions are not hiring predictions.</p>',
+      '<div class="v24-section-head"><h4>AI vacancy review</h4><span class="v24-local-tag">AUTOMATIC WHEN AVAILABLE</span></div>',
+      '<p class="v24-hint">Automatically reviewed vacancies appear here when the server has an AI verdict. AI suggestions are not hiring predictions.</p>',
       '<div id="v24ReviewResult" class="v24-review-result" aria-live="polite"></div>',
       '<p class="v24-hint">Free manual mode: copy the brief to ChatGPT, then paste its JSON answer. Your saved short profile and languages may be included in the copied brief; inspect it before sharing.</p>',
       '<div class="v24-action-row"><button type="button" id="v24CopyBrief">Copy analysis brief</button>',
@@ -168,6 +168,10 @@
     safeReviewLine(output, 'Gaps', result.gaps);
     safeReviewLine(output, 'Verify', result.verify);
     safeReviewLine(output, 'Suggested CV', result.suggested_cv);
+    const budget=meta?.ai_budget;
+    if(budget?.date_utc){
+      safeReviewLine(output,'AI daily budget',budget.used+' / '+budget.limit+' used, '+budget.remaining+' left (last sync '+budget.date_utc+' UTC)');
+    }
   }
 
   function workspaceStatus(message) {
