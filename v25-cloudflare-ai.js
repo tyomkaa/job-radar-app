@@ -11,7 +11,7 @@
     const controls = document.createElement("details");
     controls.id = "aiDirectControls";
     controls.className = "v24-review";
-    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Daily AI reviews arrive automatically after the next scheduled search. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze Daily Picks (up to 6)</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
+    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Daily AI reviews arrive automatically after the next scheduled search. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze remaining Daily Picks</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
     // Hide the legacy copy/paste workflow behind one optional disclosure.
     // Keep all original elements/listeners intact for no-AI fallback.
@@ -76,16 +76,16 @@
   async function batchAnalyze() {
     if (batchRunning || inFlight || !takeToken()) return;
     const selected = dailyRecommendations().map(x=>x.job)
-      .filter(j=>!aiReviewFor(j)).slice(0,6);
+      .filter(j=>!aiReviewFor(j));
     if (!selected.length) return report("No new Daily Picks need AI review.");
-    if (!window.confirm("Analyze up to "+selected.length+" Daily Picks with Cloudflare AI? Each attempt uses the free quota.")) return;
+    if (!window.confirm("Analyze "+Math.min(selected.length,10)+" remaining unreviewed Daily Picks? Each successful or attempted request uses the free quota.")) return;
     batchRunning=true;
     const button=document.querySelector("#aiBatch");
     button.disabled=true;
     try {
       let available=0;
       try { available=(await usage()).remaining; } catch(e) { throw Error("Daily quota not confirmed: "+e.message); }
-      const list=selected.slice(0,Math.min(available,6));
+      const list=selected.slice(0,Math.min(available,selected.length,10));
       if (!list.length) {report("Daily AI limit reached. No requests sent.");return;}
       let done=0;
       for (const job of list) {
@@ -104,8 +104,7 @@
             throw Error(String(data.error||response.status));
           }
           const review=parseAiReview(JSON.stringify(data));
-          const store=aiReviews();store[jobKey(job)]=review;
-          localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(store));
+          persistAiReview(job,review);
           done++;
           report("AI analyzed "+done+" / "+list.length+" Daily Picks…");
         }catch(e){report("Stopped batch: "+e.message);break;}
@@ -144,16 +143,15 @@
       const data = await response.json();
       if (!response.ok) throw Error(String(data.error || "HTTP " + response.status));
       const parsed = parseAiReview(JSON.stringify(data));
-      // Do not paint or save the result against a different vacancy if the
-      // user switched cards while the asynchronous request was in flight.
+      // Store first even if the user navigated to another vacancy mid-request;
+      // the expensive review should never be lost or billed twice.
+      persistAiReview(job,parsed);
       const current = assistantJob();
       if (!current || jobKey(current) !== jobKey(job)) {
-        report("Analysis finished after switching vacancies; result was not saved.");
+        render();
+        report("Analysis saved for the original vacancy.");
         return;
       }
-      const store = aiReviews();
-      store[jobKey(job)] = parsed;
-      localStorage.setItem(AI_REVIEW_KEY, JSON.stringify(store));
       render();
       const result = document.querySelector("#v24ReviewResult");
       if (result) {
