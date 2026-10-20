@@ -52,6 +52,20 @@
     if (kicker) kicker.textContent = 'APPLICATION WORKSPACE';
 
     const flow = sheet.querySelector('.assistant-flow');
+    function createTabNav(className) {
+      const nav=document.createElement('nav');
+      nav.className='v24-tabs '+className;
+      nav.setAttribute('aria-label','Application workflow navigation');
+      TABS.forEach((tab,index)=>{
+        const button=document.createElement('button');
+        button.type='button';
+        button.dataset.workspaceSwitch=tab.id;
+        button.textContent=(index+1)+' · '+tab.label;
+        button.addEventListener('click',()=>setWorkspaceTab(tab.id));
+        nav.appendChild(button);
+      });
+      return nav;
+    }
     const tabs = document.createElement('nav');
     tabs.id = 'v24Tabs';
     tabs.className = 'v24-tabs';
@@ -94,6 +108,11 @@
     workspaceSectionFor('.assistant-controls', 'apply');
     workspaceSectionFor('#assistantRemoveQueue', 'apply');
     workspaceSectionFor('.application-assistant-sheet > .reply-privacy', 'apply');
+    // Second navigation at the bottom of the sheet: long Prepare drafts
+    // should never require scrolling all the way back to the top.
+    const bottomTabs=createTabNav('v24-tabs-bottom');
+    bottomTabs.id='v24BottomTabs';
+    sheet.appendChild(bottomTabs);
 
     review.querySelector('#v24CopyBrief').addEventListener('click', function () {
       const job = workspaceJob();
@@ -178,6 +197,7 @@
     if (!job) return;
     const values = aiReviews();
     delete values[jobKey(job)];
+    delete values['id:'+job.id];
     localStorage.setItem(AI_REVIEW_KEY, JSON.stringify(values));
     const field = document.querySelector('#v24PasteReview');
     if (field) field.value = '';
