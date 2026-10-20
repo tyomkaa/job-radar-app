@@ -4,7 +4,20 @@
 const AI_REVIEW_KEY='jobRadarAIReviewV1';
 let aiReviewJobId='';
 function aiReviews(){try{return JSON.parse(localStorage.getItem(AI_REVIEW_KEY)||'{}')}catch{return {}}}
-function aiReviewFor(job){return aiReviews()[jobKey(job)]||job?.ai_review||null}
+function aiReviewFor(job){
+  if(!job)return null;
+  const data=aiReviews();
+  return data[jobKey(job)]||data['id:'+job.id]||job.ai_review||null;
+}
+function persistAiReview(job,review){
+  if(!job||!review||!['APPLY','CHECK','SKIP'].includes(review.verdict))throw Error('Invalid AI review');
+  const data=aiReviews();
+  data[jobKey(job)]=review;
+  data['id:'+job.id]=review;
+  localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(data));
+  const stored=aiReviews();
+  if(stored[jobKey(job)]?.verdict!==review.verdict)throw Error('AI verdict could not be saved on this device');
+}
 function aiReviewProfile(){
   // Local short profile is OPTIONAL. Never include names, email, phone, or
   // uploaded PDF bytes in a public URL or in a background request.
@@ -81,7 +94,7 @@ function aiReviewModal(){
   host.querySelector('#aiReviewSave').addEventListener('click',saveAiReview);
   host.querySelector('#aiReviewClear').addEventListener('click',()=>{
     const job=aiReviewJob();if(!job)return;
-    const values=aiReviews();delete values[jobKey(job)];
+    const values=aiReviews();delete values[jobKey(job)];delete values['id:'+job.id];
     localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(values));
     host.querySelector('#aiReviewAnswer').value='';
     host.querySelector('#aiReviewStatus').textContent='Local review cleared.';
@@ -119,8 +132,7 @@ function saveAiReview(){
   const job=aiReviewJob(),host=aiReviewModal();if(!job)return;
   try{
     const review=parseAiReview(host.querySelector('#aiReviewAnswer').value);
-    const data=aiReviews();data[jobKey(job)]=review;
-    localStorage.setItem(AI_REVIEW_KEY,JSON.stringify(data));
+    persistAiReview(job,review);
     host.querySelector('#aiReviewStatus').textContent='AI verdict saved locally. Review it critically.';
     showAiReviewResult(job);
     render();

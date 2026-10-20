@@ -1,6 +1,29 @@
 // v0.5 Daily Recommendations: transparent local priorities + user feedback.
 // No network AI, no unsupported probability-of-hire claims.
 const DAILY_FEEDBACK_KEY='jobRadarDailyFeedbackV1';
+const DAILY_SNAPSHOT_KEY='jobRadarDailySnapshotV2';
+function dailyFeedDay(){return meta?.generated_at?localDateKey(meta.generated_at):today()}
+function dailySnapshot(){
+  try{
+    const value=JSON.parse(localStorage.getItem(DAILY_SNAPSHOT_KEY)||'null');
+    return value&&value.day===dailyFeedDay()&&Array.isArray(value.keys)?value:null;
+  }catch{return null}
+}
+function dailySaveSnapshot(selected){
+  if(!jobs.length)return;
+  try{localStorage.setItem(DAILY_SNAPSHOT_KEY,JSON.stringify({
+    day:dailyFeedDay(),keys:selected.map(x=>jobKey(x.job)),created_at:new Date().toISOString()
+  }))}catch{}
+}
+function dailyTechnicalScope(job){
+  const t=String(job.title||'');
+  // Generic HR, recruitment and low-signal analysts/support jobs can remain in All.
+  if(/\b(?:hr|human resources|recruit(?:ment|er|ing)|kadry|payroll|learning & development)\b/i.test(t))return false;
+  if(/test automation|automation test|qa automation|automation tester|helpdesk|service desk|l1 support|first.line support|application support|wsparcia aplikacj/i.test(t)&&!/automat|workflow|rpa/i.test(t))return false;
+  const dir=dailyClassify(job).direction;
+  if(dir!=='other')return true;
+  return /network|sieci|telekom|telecom|noc|python|developer|integracj|integration|crm|system administrator|administrator.*system|sql.*analyst|data analyst|analityk danych|reporting analyst/i.test(t);
+}
 const DAILY_FAVORITES=['google','microsoft','apple','meta','amazon','adobe','cisco','ibm','oracle','salesforce','nvidia'];
 const DAILY_REASONS=['Not my career direction','Not interested in the duties','Requirements too advanced','Not interested in the company','Other'];
 function dailyFeedback(){try{return JSON.parse(localStorage.getItem(DAILY_FEEDBACK_KEY)||'{}')}catch{return {}}}
@@ -36,9 +59,16 @@ function dailyScore(j){
 }
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
+  const snapshot=dailySnapshot();
+  if(snapshot){
+    const byKey=new Map(jobs.map(j=>[jobKey(j),j]));
+    return snapshot.keys.map(key=>byKey.get(key)).filter(j=>
+      j&&!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&dailyTechnicalScope(j))
+      .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}));
+  }
   const list=jobs.filter(j=>!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&v21LocallyEligible(j)&&Number(j.experience_required_years||0)<=2)
   .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}))
-  .filter(x=>x.score>=68 && dailyPenalty(x.job)<60 && ['APPLY','POSSIBLE'].includes(tierFor(x.job)));
+  .filter(x=>x.score>=68 && dailyPenalty(x.job)<60 && dailyTechnicalScope(x.job) && ['APPLY','POSSIBLE'].includes(tierFor(x.job)));
   list.sort((a,b)=>b.score-a.score||Number(b.job.fit_score||0)-Number(a.job.fit_score||0));
   const selected=[];const names=new Set(); 
   // Include most promising automation, then excellent transition roles.
@@ -51,6 +81,7 @@ function dailyRecommendations(){
       selected.push(item);names.add(dedupe);
     }
   }
+  dailySaveSnapshot(selected);
   return selected;
 }
 const _dailyVisible=getVisibleJobs;
@@ -60,23 +91,39 @@ getVisibleJobs=function(pinnedId=''){
   if(pinnedId){const j=jobs.find(j=>String(j.id)===String(pinnedId));if(j&&!selection.includes(j))selection.unshift(j)}
   return selection;
 };
+function dailyQuotaTop(){
+  let badge=document.querySelector('#dailyQuotaTop');
+  const quota=meta?.ai_budget;
+  // No misleading placeholder if the server has not yet sent a valid reading.
+  if(!quota||!Number.isFinite(Number(quota.used))||!Number.isFinite(Number(quota.limit))||!quota.date_utc){
+    if(badge)badge.hidden=true;
+    return;
+  }
+  if(!badge){
+    badge=document.createElement('section');
+    badge.id='dailyQuotaTop';
+    badge.className='ai-budget-top';
+    badge.setAttribute('aria-label','Cloudflare AI quota at last feed update');
+    (document.querySelector('#stats')||document.querySelector('.topbar'))?.insertAdjacentElement('afterend',badge);
+  }
+  badge.hidden=false;
+  badge.replaceChildren();
+  const caption=document.createElement('strong');
+  caption.textContent='AI budget · '+quota.used+' / '+quota.limit+' attempts used';
+  const note=document.createElement('small');
+  note.textContent=quota.remaining+' remaining · last checked '+quota.date_utc+' UTC · not live';
+  const progress=document.createElement('progress');
+  progress.max=Math.max(1,Number(quota.limit));
+  progress.value=Math.min(progress.max,Math.max(0,Number(quota.used)));
+  badge.append(caption,progress,note);
+}
 function dailyDecorate(){
   const list=dailyRecommendations();const host=document.querySelector('#dailyBrief');if(!host)return;
   host.hidden=activeFilter!=='DAILY';
   if(host.hidden)return;
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
-  host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' worth reviewing</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Recommendations are heuristic, not hiring probabilities. Open All to see the full market.</small>';
-  const budget=meta?.ai_budget;
-  const usage=document.createElement('div');
-  usage.className='ai-budget-summary';
-  if(budget && budget.date_utc){
-    usage.textContent='Cloudflare AI: '+budget.used+' / '+budget.limit+
-      ' attempts used, '+budget.remaining+' remaining. Checked '+budget.checked_at_utc+
-      ' (UTC, may be outdated).';
-  }else{
-    usage.textContent='AI quota not available in this feed. Search works normally.';
-  }
-  host.appendChild(usage);
+  const total=dailySnapshot()?.keys.length||list.length;
+  host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' remaining of '+total+' today</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Fixed for this feed day: applying or dismissing a job will not add replacements. New selections appear with the next day’s feed. Open All for other vacancies.</small>';
   document.querySelectorAll('#jobs .job-card').forEach(card=>{
     const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
@@ -93,7 +140,7 @@ function dailyDecorate(){
   });
 }
 const _dailyRender=render;
-render=function(options={}){_dailyRender(options);dailyDecorate()};
+render=function(options={}){_dailyRender(options);dailyQuotaTop();dailyDecorate()};
 const dailyTab=document.querySelector('[data-filter="DAILY"]');
 if(dailyTab){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));dailyTab.classList.add('active');activeFilter='DAILY'}
 if(jobs.length)render();

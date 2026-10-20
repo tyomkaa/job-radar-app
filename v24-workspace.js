@@ -52,6 +52,20 @@
     if (kicker) kicker.textContent = 'APPLICATION WORKSPACE';
 
     const flow = sheet.querySelector('.assistant-flow');
+    function createTabNav(className) {
+      const nav=document.createElement('nav');
+      nav.className='v24-tabs '+className;
+      nav.setAttribute('aria-label','Application workflow navigation');
+      TABS.forEach((tab,index)=>{
+        const button=document.createElement('button');
+        button.type='button';
+        button.dataset.workspaceSwitch=tab.id;
+        button.textContent=(index+1)+' · '+tab.label;
+        button.addEventListener('click',()=>setWorkspaceTab(tab.id));
+        nav.appendChild(button);
+      });
+      return nav;
+    }
     const tabs = document.createElement('nav');
     tabs.id = 'v24Tabs';
     tabs.className = 'v24-tabs';
@@ -72,8 +86,8 @@
     review.className = 'assistant-section v24-review';
     review.dataset.workspaceTab = 'analyze';
     review.innerHTML = [
-      '<div class="v24-section-head"><h4>AI vacancy review</h4><span class="v24-local-tag">PRIVATE · OPT-IN</span></div>',
-      '<p class="v24-hint">Check career direction, actual duties and hard requirements. AI suggestions are not hiring predictions.</p>',
+      '<div class="v24-section-head"><h4>AI vacancy review</h4><span class="v24-local-tag">AUTOMATIC WHEN AVAILABLE</span></div>',
+      '<p class="v24-hint">Automatically reviewed vacancies appear here when the server has an AI verdict. AI suggestions are not hiring predictions.</p>',
       '<div id="v24ReviewResult" class="v24-review-result" aria-live="polite"></div>',
       '<p class="v24-hint">Free manual mode: copy the brief to ChatGPT, then paste its JSON answer. Your saved short profile and languages may be included in the copied brief; inspect it before sharing.</p>',
       '<div class="v24-action-row"><button type="button" id="v24CopyBrief">Copy analysis brief</button>',
@@ -94,6 +108,11 @@
     workspaceSectionFor('.assistant-controls', 'apply');
     workspaceSectionFor('#assistantRemoveQueue', 'apply');
     workspaceSectionFor('.application-assistant-sheet > .reply-privacy', 'apply');
+    // Second navigation at the bottom of the sheet: long Prepare drafts
+    // should never require scrolling all the way back to the top.
+    const bottomTabs=createTabNav('v24-tabs-bottom');
+    bottomTabs.id='v24BottomTabs';
+    sheet.appendChild(bottomTabs);
 
     review.querySelector('#v24CopyBrief').addEventListener('click', function () {
       const job = workspaceJob();
@@ -149,6 +168,10 @@
     safeReviewLine(output, 'Gaps', result.gaps);
     safeReviewLine(output, 'Verify', result.verify);
     safeReviewLine(output, 'Suggested CV', result.suggested_cv);
+    const budget=meta?.ai_budget;
+    if(budget?.date_utc){
+      safeReviewLine(output,'AI daily budget',budget.used+' / '+budget.limit+' used, '+budget.remaining+' left (last sync '+budget.date_utc+' UTC)');
+    }
   }
 
   function workspaceStatus(message) {
@@ -178,6 +201,7 @@
     if (!job) return;
     const values = aiReviews();
     delete values[jobKey(job)];
+    delete values['id:'+job.id];
     localStorage.setItem(AI_REVIEW_KEY, JSON.stringify(values));
     const field = document.querySelector('#v24PasteReview');
     if (field) field.value = '';

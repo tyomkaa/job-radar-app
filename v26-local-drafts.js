@@ -41,12 +41,14 @@
         {key:'motivation',label:'Krótka motywacja',value:'Chciałbym aplikować na stanowisko '+title+'. Interesuje mnie rozwój w obszarze '+area+'.'+detail+' Chętnie opowiem więcej o swojej motywacji podczas rozmowy.'},
         {key:'cover_note',label:'List motywacyjny',value:'Dzień dobry,\n\nchciałbym zgłosić swoją kandydaturę na stanowisko '+title+' w '+company+'.\n\n'+(facts ? facts+'\n\n' : '')+'Szczególnie interesuje mnie praca w obszarze '+area+'.'+detail+' Chętnie porozmawiam o tym, jak mógłbym wesprzeć zespół.\n\nZ poważaniem'},
         {key:'about_me',label:'Opowiedz o sobie',value:facts ? 'Moje doświadczenie zawodowe i projektowe: '+facts+' Chciałbym dalej rozwijać się w obszarze '+area+'.' : 'Interesuję się rozwojem w obszarze '+area+'. O swoich rzeczywistych umiejętnościach i projektach chętnie opowiem podczas rozmowy.'},
-        {key:'career_change',label:'Dlaczego zmieniasz kierunek kariery?',value:'Chcę rozwijać się w obszarze '+area+'. Interesują mnie zwłaszcza zadania związane z '+skills+'. Dotychczasowe doświadczenie traktuję jako punkt wyjścia do dalszej nauki i pracy w tym kierunku.'}
+        {key:'career_change',label:'Dlaczego zmieniasz kierunek kariery?',value:'Chcę rozwijać się w obszarze '+area+'. Interesują mnie zwłaszcza zadania związane z '+skills+'. Dotychczasowe doświadczenie traktuję jako punkt wyjścia do dalszej nauki i pracy w tym kierunku.'},
+        {key:'expectations_employer',label:'Czego oczekujesz od pracodawcy?',value:'Najważniejsze są dla mnie jasno określone zadania, dobra współpraca w zespole oraz możliwość rozwoju zawodowego w obszarze '+area+'. Doceniam konstruktywny feedback, dostęp do wiedzy i narzędzi potrzebnych do pracy oraz przejrzyste warunki zatrudnienia. Dodatkowe benefity są mile widziane, ale nie są moim głównym kryterium wyboru oferty.'}
       ];
     } else {
       options=[
         {key:'about_me',label:'Tell us about yourself',value:facts ? 'My background: '+facts : 'I am interested in developing my skills in this role. I would be happy to describe my relevant experience during an interview.'},
-        {key:'career_change',label:'Why move into this role?',value:'I would like to continue developing practical skills relevant to this role and contribute using experience I can demonstrate.'}
+        {key:'career_change',label:'Why move into this role?',value:'I would like to continue developing practical skills relevant to this role and contribute using experience I can demonstrate.'},
+        {key:'expectations_employer',label:'What do you expect from us?',value:'I value clear responsibilities, supportive teamwork, opportunities to learn, constructive feedback and transparent employment conditions. Useful tools and professional development matter more to me than individual perks.'}
       ];
     }
     const keys=new Set(options.map(x=>x.key));
