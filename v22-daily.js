@@ -1,6 +1,29 @@
 // v0.5 Daily Recommendations: transparent local priorities + user feedback.
 // No network AI, no unsupported probability-of-hire claims.
 const DAILY_FEEDBACK_KEY='jobRadarDailyFeedbackV1';
+const DAILY_SNAPSHOT_KEY='jobRadarDailySnapshotV2';
+function dailyFeedDay(){return meta?.generated_at?localDateKey(meta.generated_at):today()}
+function dailySnapshot(){
+  try{
+    const value=JSON.parse(localStorage.getItem(DAILY_SNAPSHOT_KEY)||'null');
+    return value&&value.day===dailyFeedDay()&&Array.isArray(value.keys)?value:null;
+  }catch{return null}
+}
+function dailySaveSnapshot(selected){
+  if(!jobs.length)return;
+  try{localStorage.setItem(DAILY_SNAPSHOT_KEY,JSON.stringify({
+    day:dailyFeedDay(),keys:selected.map(x=>jobKey(x.job)),created_at:new Date().toISOString()
+  }))}catch{}
+}
+function dailyTechnicalScope(job){
+  const t=String(job.title||'');
+  // Generic HR, recruitment and low-signal analysts/support jobs can remain in All.
+  if(/\b(?:hr|human resources|recruit(?:ment|er|ing)|kadry|payroll|learning & development)\b/i.test(t))return false;
+  if(/test automation|automation test|qa automation|automation tester|helpdesk|service desk|l1 support|first.line support/i.test(t))return false;
+  const dir=dailyClassify(job).direction;
+  if(dir!=='other')return true;
+  return /network|sieci|telekom|telecom|noc|python|developer|integracj|integration|crm|system administrator|administrator.*system|sql.*analyst|data analyst|analityk danych|reporting analyst/i.test(t);
+}
 const DAILY_FAVORITES=['google','microsoft','apple','meta','amazon','adobe','cisco','ibm','oracle','salesforce','nvidia'];
 const DAILY_REASONS=['Not my career direction','Not interested in the duties','Requirements too advanced','Not interested in the company','Other'];
 function dailyFeedback(){try{return JSON.parse(localStorage.getItem(DAILY_FEEDBACK_KEY)||'{}')}catch{return {}}}
@@ -36,9 +59,16 @@ function dailyScore(j){
 }
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
+  const snapshot=dailySnapshot();
+  if(snapshot){
+    const byKey=new Map(jobs.map(j=>[jobKey(j),j]));
+    return snapshot.keys.map(key=>byKey.get(key)).filter(j=>
+      j&&!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&dailyTechnicalScope(j))
+      .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}));
+  }
   const list=jobs.filter(j=>!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&v21LocallyEligible(j)&&Number(j.experience_required_years||0)<=2)
   .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}))
-  .filter(x=>x.score>=68 && dailyPenalty(x.job)<60 && ['APPLY','POSSIBLE'].includes(tierFor(x.job)));
+  .filter(x=>x.score>=68 && dailyPenalty(x.job)<60 && dailyTechnicalScope(x.job) && ['APPLY','POSSIBLE'].includes(tierFor(x.job)));
   list.sort((a,b)=>b.score-a.score||Number(b.job.fit_score||0)-Number(a.job.fit_score||0));
   const selected=[];const names=new Set(); 
   // Include most promising automation, then excellent transition roles.
@@ -51,6 +81,7 @@ function dailyRecommendations(){
       selected.push(item);names.add(dedupe);
     }
   }
+  dailySaveSnapshot(selected);
   return selected;
 }
 const _dailyVisible=getVisibleJobs;
@@ -65,7 +96,8 @@ function dailyDecorate(){
   host.hidden=activeFilter!=='DAILY';
   if(host.hidden)return;
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
-  host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' worth reviewing</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Recommendations are heuristic, not hiring probabilities. Open All to see the full market.</small>';
+  const total=dailySnapshot()?.keys.length||list.length;
+  host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' remaining of '+total+' today</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Fixed for this feed day: applying or dismissing a job will not add replacements. New selections appear with the next day’s feed. Open All for other vacancies.</small>';
   const budget=meta?.ai_budget;
   const usage=document.createElement('div');
   usage.className='ai-budget-summary';
