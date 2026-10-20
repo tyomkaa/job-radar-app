@@ -91,6 +91,32 @@ getVisibleJobs=function(pinnedId=''){
   if(pinnedId){const j=jobs.find(j=>String(j.id)===String(pinnedId));if(j&&!selection.includes(j))selection.unshift(j)}
   return selection;
 };
+function dailyQuotaTop(){
+  let badge=document.querySelector('#dailyQuotaTop');
+  const quota=meta?.ai_budget;
+  // No misleading placeholder if the server has not yet sent a valid reading.
+  if(!quota||!Number.isFinite(Number(quota.used))||!Number.isFinite(Number(quota.limit))||!quota.date_utc){
+    if(badge)badge.hidden=true;
+    return;
+  }
+  if(!badge){
+    badge=document.createElement('section');
+    badge.id='dailyQuotaTop';
+    badge.className='ai-budget-top';
+    badge.setAttribute('aria-label','Cloudflare AI quota at last feed update');
+    (document.querySelector('#stats')||document.querySelector('.topbar'))?.insertAdjacentElement('afterend',badge);
+  }
+  badge.hidden=false;
+  badge.replaceChildren();
+  const caption=document.createElement('strong');
+  caption.textContent='AI budget · '+quota.used+' / '+quota.limit+' attempts used';
+  const note=document.createElement('small');
+  note.textContent=quota.remaining+' remaining · last checked '+quota.date_utc+' UTC · not live';
+  const progress=document.createElement('progress');
+  progress.max=Math.max(1,Number(quota.limit));
+  progress.value=Math.min(progress.max,Math.max(0,Number(quota.used)));
+  badge.append(caption,progress,note);
+}
 function dailyDecorate(){
   const list=dailyRecommendations();const host=document.querySelector('#dailyBrief');if(!host)return;
   host.hidden=activeFilter!=='DAILY';
@@ -98,17 +124,6 @@ function dailyDecorate(){
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
   const total=dailySnapshot()?.keys.length||list.length;
   host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' remaining of '+total+' today</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Fixed for this feed day: applying or dismissing a job will not add replacements. New selections appear with the next day’s feed. Open All for other vacancies.</small>';
-  const budget=meta?.ai_budget;
-  const usage=document.createElement('div');
-  usage.className='ai-budget-summary';
-  if(budget && budget.date_utc){
-    usage.textContent='Cloudflare AI: '+budget.used+' / '+budget.limit+
-      ' attempts used, '+budget.remaining+' remaining. Checked '+budget.checked_at_utc+
-      ' (UTC, may be outdated).';
-  }else{
-    usage.textContent='AI quota not available in this feed. Search works normally.';
-  }
-  host.appendChild(usage);
   document.querySelectorAll('#jobs .job-card').forEach(card=>{
     const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
@@ -125,7 +140,7 @@ function dailyDecorate(){
   });
 }
 const _dailyRender=render;
-render=function(options={}){_dailyRender(options);dailyDecorate()};
+render=function(options={}){_dailyRender(options);dailyQuotaTop();dailyDecorate()};
 const dailyTab=document.querySelector('[data-filter="DAILY"]');
 if(dailyTab){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));dailyTab.classList.add('active');activeFilter='DAILY'}
 if(jobs.length)render();
