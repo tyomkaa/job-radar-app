@@ -45,4 +45,17 @@ assert(serviceWorker.includes("'./v26-local-drafts.js'"),'Local draft editor not
 assert(localDrafts.includes('local-template-editor'),'Editable template control missing');
 assert(!localDrafts.includes('fetch('),'Local drafts must not use any API');
 assert(!ai.includes('aiDraftTools') && !ai.includes('generateDraft('),'Quota-consuming AI application drafts still enabled');
+const daily=read('v22-daily.js');
+const review=read('v23-ai-review.js');
+const tabs=read('v24-workspace.js');
+const manual=read('v25-cloudflare-ai.js');
+const draft=read('v26-local-drafts.js');
+assert(daily.includes('DAILY_SNAPSHOT_KEY') && daily.includes('dailySaveSnapshot(selected)'),'Daily Picks not frozen');
+assert(daily.includes('dailyTechnicalScope'),'Career relevance check absent');
+assert(daily.includes('dailyQuotaTop'),'Top-of-page quota missing');
+assert(!daily.includes('AI quota not available in this feed'),'Misleading old quota text still visible');
+assert(review.includes('persistAiReview') && review.includes("data['id:'+job.id]"),'AI persistence fallback absent');
+assert(tabs.includes('v24BottomTabs'),'Bottom application tabs missing');
+assert(manual.includes('persistAiReview(job,parsed)'),'AI review must save before painting');
+assert(draft.includes('expectations_employer'),'Employer expectations template missing');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
