@@ -19,7 +19,7 @@ function dailyTechnicalScope(job){
   const t=String(job.title||'');
   // Generic HR, recruitment and low-signal analysts/support jobs can remain in All.
   if(/\b(?:hr|human resources|recruit(?:ment|er|ing)|kadry|payroll|learning & development)\b/i.test(t))return false;
-  if(/test automation|automation test|qa automation|automation tester|helpdesk|service desk|l1 support|first.line support/i.test(t))return false;
+  if(/test automation|automation test|qa automation|automation tester|helpdesk|service desk|l1 support|first.line support|application support|wsparcia aplikacj/i.test(t)&&!/automat|workflow|rpa/i.test(t))return false;
   const dir=dailyClassify(job).direction;
   if(dir!=='other')return true;
   return /network|sieci|telekom|telecom|noc|python|developer|integracj|integration|crm|system administrator|administrator.*system|sql.*analyst|data analyst|analityk danych|reporting analyst/i.test(t);
