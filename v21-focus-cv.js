@@ -52,6 +52,13 @@ function v21FocusPriority(job) {
 
 function v21FocusList() {
   const tracker = getTracker();
+  if(Array.isArray(meta?.focus_job_ids)){
+    const lookup=new Map(jobs.map(j=>[String(j.id),j]));
+    return meta.focus_job_ids.map(id=>lookup.get(String(id))).filter(job=>
+      job&&!tracker[jobKey(job)]&&v21LocallyEligible(job)&&
+      aiReviewFor(job)?.verdict!=='SKIP'&&
+      !(typeof dailyFeedback==='function'&&dailyFeedback()[jobKey(job)]));
+  }
   const eligible = jobs.filter(j => {
     const tier = tierFor(j);
     return (tier === 'APPLY' || tier === 'POSSIBLE') &&

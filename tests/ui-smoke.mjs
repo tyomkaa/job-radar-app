@@ -58,4 +58,12 @@ assert(review.includes('persistAiReview') && review.includes("data['id:'+job.id]
 assert(tabs.includes('v24BottomTabs'),'Bottom application tabs missing');
 assert(manual.includes('persistAiReview(job,parsed)'),'AI review must save before painting');
 assert(draft.includes('expectations_employer'),'Employer expectations template missing');
+// The browser must consume the same server-curated identities as AI, not
+// independently refill Daily Picks from the broad accepted feed.
+assert(daily.includes('meta?.daily_pick_ids'),'Canonical server Daily Picks missing');
+assert(daily.includes('jobRadarDailySnapshotV3'),'Old local snapshot could override server selection');
+const focus=read('v21-focus-cv.js');
+assert(focus.includes('meta?.focus_job_ids'),'Focus does not use server relevance list');
+assert(focus.includes("aiReviewFor(job)?.verdict!=='SKIP'"),'AI SKIP still visible in Focus');
+assert(daily.includes('daily_diagnostics'),'Reason breakdown for shortlist missing');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
