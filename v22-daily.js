@@ -1,7 +1,7 @@
 // v0.5 Daily Recommendations: transparent local priorities + user feedback.
 // No network AI, no unsupported probability-of-hire claims.
 const DAILY_FEEDBACK_KEY='jobRadarDailyFeedbackV1';
-const DAILY_SNAPSHOT_KEY='jobRadarDailySnapshotV2';
+const DAILY_SNAPSHOT_KEY='jobRadarDailySnapshotV3';
 function dailyFeedDay(){return meta?.generated_at?localDateKey(meta.generated_at):today()}
 function dailySnapshot(){
   try{
@@ -59,6 +59,24 @@ function dailyScore(j){
 }
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
+  // The backend is the sole recommendation authority for new feeds.
+  // Client-side applied/dismissed/AI SKIP feedback may only hide items.
+  if(Array.isArray(meta?.daily_pick_ids)){
+    const snapshot=dailySnapshot();
+    const keys=snapshot?.keys||meta.daily_pick_ids.map(id=>{
+      const job=jobs.find(j=>String(j.id)===String(id));
+      return job?jobKey(job):null;
+    }).filter(Boolean);
+    if(!snapshot){
+      try{localStorage.setItem(DAILY_SNAPSHOT_KEY,JSON.stringify({
+        day:dailyFeedDay(),keys,created_at:new Date().toISOString(),source:'server'
+      }))}catch{}
+    }
+    const lookup=new Map(jobs.map(j=>[jobKey(j),j]));
+    return keys.map(key=>lookup.get(key)).filter(j=>
+      j&&!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&aiReviewFor(j)?.verdict!=='SKIP')
+      .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}));
+  }
   const snapshot=dailySnapshot();
   if(snapshot){
     const byKey=new Map(jobs.map(j=>[jobKey(j),j]));
@@ -124,6 +142,22 @@ function dailyDecorate(){
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
   const total=dailySnapshot()?.keys.length||list.length;
   host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' remaining of '+total+' today</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Fixed for this feed day: applying or dismissing a job will not add replacements. New selections appear with the next day’s feed. Open All for other vacancies.</small>';
+  const audit=meta?.daily_diagnostics;
+  if(audit?.reasons){
+    const details=document.createElement('details');
+    details.className='daily-selection-audit';
+    const sum=document.createElement('summary');
+    sum.textContent='How today’s shortlist was selected';
+    details.appendChild(sum);
+    const p=document.createElement('p');
+    p.textContent=String(audit.feed_candidates||0)+' accepted vacancies checked; '+
+      String(audit.shortlisted||0)+' recommended. Excluded by: '+
+      Object.entries(audit.reasons).filter(([k,v])=>k!=='qualified'&&v)
+       .map(([key,count])=>key.replaceAll('_',' ')+': '+count).join(' · ')+
+      '. Applied or dismissed jobs are hidden only on this device.';
+    details.appendChild(p);
+    host.appendChild(details);
+  }
   document.querySelectorAll('#jobs .job-card').forEach(card=>{
     const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
