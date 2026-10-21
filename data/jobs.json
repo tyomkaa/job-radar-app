@@ -72,6 +72,37 @@
       "new": 2,
       "reused": 4,
       "unreviewed": 0
+    },
+    "version": 1,
+    "daily_pick_ids": [
+      "8588187d8eb61d83",
+      "054988ec9f909663"
+    ],
+    "focus_job_ids": [
+      "8588187d8eb61d83",
+      "0aa205258bee0ba4",
+      "171cf83e4979acf8",
+      "22e5639c1c588154",
+      "98b820613c74d38b",
+      "aad721965f6fd4ee",
+      "bec76b89843e7de4",
+      "2612948ede94b608",
+      "ad9ed1fa7602a0f6",
+      "c614accb5259c41b",
+      "054988ec9f909663",
+      "017da3efd8809fd0"
+    ],
+    "daily_diagnostics": {
+      "feed_candidates": 214,
+      "shortlisted": 2,
+      "automation": 1,
+      "reasons": {
+        "career_direction": 191,
+        "qualified": 2,
+        "contract_unverified": 1,
+        "backend_tier": 10,
+        "mid_level": 10
+      }
     }
   },
   "jobs": [
@@ -2112,7 +2143,7 @@
       "url": "https://rocketjobs.pl/oferta-pracy/mobilis-sp-z-o-o--specjalista--ka-ds-ai-i-automatyzacji-procesow-warszawa-bi-data",
       "apply_url": "",
       "source": "rocketjobs.pl",
-      "contract": "Unknown",
+      "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "12 000 - 17 000 PLN/mies.",
@@ -2146,7 +2177,6 @@
           "SQL / Excel / reporting: sql"
         ],
         "concerns": [
-          "Contract not confirmed yet",
           "Listed as Mid/Regular level",
           "Mentions AWS",
           "Mentions Azure"
