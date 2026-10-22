@@ -212,7 +212,7 @@ function dailyDecorate(){
     const info=dailyClassify(job);
     const wrap=document.createElement('div');wrap.className='daily-vote';
     const title=String(job.title||'');
-    const other=/network|networking|sieci|telekom|telecom|\\bnoc\\b/i.test(title)?'Career direction: networks / telecom':
+    const other=/network|networking|sieci|telekom|telecom|noc/i.test(title)?'Career direction: networks / telecom':
       /administrator|system/i.test(title)?'Career direction: IT systems (verify requirements)':'Related CV direction — review your interest';
     const label=info.direction==='automation'?'Career direction: AI / workflow automation':info.direction==='bridge'?'Career direction: transition into automation':other;
     wrap.innerHTML='<div class="daily-explain">'+esc(label)+'</div><button class="daily-dismiss" type="button">Not for me</button>';
