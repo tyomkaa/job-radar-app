@@ -109,6 +109,25 @@ getVisibleJobs=function(pinnedId=''){
   if(pinnedId){const j=jobs.find(j=>String(j.id)===String(pinnedId));if(j&&!selection.includes(j))selection.unshift(j)}
   return selection;
 };
+function dailySelectionProgress(){
+  const stored=dailySnapshot();
+  const feedback=dailyFeedback(),tracker=getTracker();
+  const byKey=new Map(jobs.map(j=>[jobKey(j),j]));
+  const source=Array.isArray(meta?.daily_pick_ids)?meta.daily_pick_ids.map(id=>
+    jobs.find(j=>String(j.id)===String(id))).filter(Boolean).map(j=>jobKey(j)):[];
+  const keys=stored?.keys||source;
+  const counts={total:keys.length,ready:0,applied:0,dismissed:0,aiSkipped:0,missing:0,newlyFound:0};
+  for(const key of keys){
+    const job=byKey.get(key);
+    if(!job){counts.missing++;continue;}
+    if(isFirstFoundToday(job))counts.newlyFound++;
+    if(tracker[key])counts.applied++;
+    else if(feedback[key])counts.dismissed++;
+    else if(aiReviewFor(job)?.verdict==='SKIP')counts.aiSkipped++;
+    else counts.ready++;
+  }
+  return counts;
+}
 function dailyQuotaTop(){
   let badge=document.querySelector('#dailyQuotaTop');
   const quota=meta?.ai_budget;
@@ -134,14 +153,44 @@ function dailyQuotaTop(){
   progress.max=Math.max(1,Number(quota.limit));
   progress.value=Math.min(progress.max,Math.max(0,Number(quota.used)));
   badge.append(caption,progress,note);
+  const ai=meta?.ai_automatic;
+  if(ai){
+    const info=document.createElement('small');
+    const reviewed=Number.isFinite(Number(ai.daily_reviewed))?Number(ai.daily_reviewed):
+      (meta?.daily_pick_ids||[]).filter(id=>jobs.find(j=>String(j.id)===String(id))?.ai_review).length;
+    info.textContent='AI from latest search: '+(ai.new||0)+' new requests, '+
+      (ai.reused||0)+' previous verdicts reused across all vacancies · '+
+      reviewed+' of '+(ai.daily_total??meta?.daily_pick_ids?.length??0)+
+      ' server Daily Picks have a saved AI verdict. Reused results cost 0 new attempts.';
+    badge.appendChild(info);
+  }
 }
 function dailyDecorate(){
   const list=dailyRecommendations();const host=document.querySelector('#dailyBrief');if(!host)return;
   host.hidden=activeFilter!=='DAILY';
   if(host.hidden)return;
   const n=jobs.length;const auto=list.filter(x=>x.focus.direction==='automation').length;
-  const total=dailySnapshot()?.keys.length||list.length;
-  host.innerHTML='<div class="daily-kicker">YOUR DAILY RECOMMENDATIONS</div><h2>'+list.length+' remaining of '+total+' today</h2><p>Checked '+n+' active vacancies. '+auto+' automation-first options. Shortlist prioritizes your career interest, not just CV keywords.</p><small>Fixed for this feed day: applying or dismissing a job will not add replacements. New selections appear with the next day’s feed. Open All for other vacancies.</small>';
+  const progress=dailySelectionProgress();
+  const handled=progress.applied+progress.dismissed+progress.aiSkipped;
+  const parts=[];
+  if(progress.applied)parts.push(progress.applied+' applied/tracked');
+  if(progress.dismissed)parts.push(progress.dismissed+' dismissed');
+  if(progress.aiSkipped)parts.push(progress.aiSkipped+' AI SKIP');
+  if(progress.missing)parts.push(progress.missing+' no longer available');
+  host.replaceChildren();
+  const kicker=document.createElement('div');kicker.className='daily-kicker';
+  kicker.textContent='YOUR DAILY RECOMMENDATIONS';
+  const heading=document.createElement('h2');
+  heading.textContent=progress.ready+' to review · '+handled+' already handled';
+  const description=document.createElement('p');
+  description.textContent='Server selected '+progress.total+' of '+n+' accepted vacancies. '+
+    progress.newlyFound+' newly found today; others are still-active carryovers. '+
+    auto+' automation-first options remain in your list.';
+  const note=document.createElement('small');
+  note.textContent='Daily Picks is your fixed shortlist, not all jobs newly published today. '+
+    (parts.length?'Hidden on this device: '+parts.join(', ')+'. ':'')+
+    'Applying or dismissing never pulls replacement vacancies into today’s list.';
+  host.append(kicker,heading,description,note);
   const audit=meta?.daily_diagnostics;
   if(audit?.reasons){
     const details=document.createElement('details');
@@ -162,7 +211,10 @@ function dailyDecorate(){
     const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
     const wrap=document.createElement('div');wrap.className='daily-vote';
-    const label=info.direction==='automation'?'Career direction: AI / workflow automation':info.direction==='bridge'?'Career direction: transition into automation':'Related CV direction — review your interest';
+    const title=String(job.title||'');
+    const other=/network|networking|sieci|telekom|telecom|\\bnoc\\b/i.test(title)?'Career direction: networks / telecom':
+      /administrator|system/i.test(title)?'Career direction: IT systems (verify requirements)':'Related CV direction — review your interest';
+    const label=info.direction==='automation'?'Career direction: AI / workflow automation':info.direction==='bridge'?'Career direction: transition into automation':other;
     wrap.innerHTML='<div class="daily-explain">'+esc(label)+'</div><button class="daily-dismiss" type="button">Not for me</button>';
     wrap.querySelector('button').addEventListener('click',()=>{
       const reason=window.prompt('Why not?\n1 — Not my career direction\n2 — Not interested in the duties\n3 — Requirements too advanced\n4 — Not interested in the company\n5 — Other\nEnter 1–5 (Cancel to keep):','1');
