@@ -5,3 +5,13 @@
 .ai-budget-top strong{font-size:13px}
 .ai-budget-top small{font-size:11px;color:#b4c1cf;line-height:1.4}
 .ai-budget-top progress{width:100%;height:9px;accent-color:#89c1ef}
+
+/* Clear distinction between server-selected jobs and device-local progress. */
+.focus-brief{margin:12px 0 16px;border:1px solid #384760;border-radius:16px;padding:16px 18px;background:#17202d;color:#e7edf6}
+.focus-brief[hidden]{display:none}
+.focus-brief strong{display:block;font-size:15px;line-height:1.4}
+.focus-brief p{font-size:12px;line-height:1.6;color:#bdcbdc;margin:8px 0 0}
+.daily-selection-audit{margin-top:14px;border-top:1px solid #35423e;padding-top:12px;font-size:12px}
+.daily-selection-audit summary{font-weight:700;cursor:pointer}
+.daily-selection-audit p{margin:9px 0 0}
+.ai-budget-top small+small{border-top:1px solid #394659;padding-top:9px}
