@@ -68,31 +68,39 @@
     ],
     "focus_job_ids": [
       "8588187d8eb61d83",
+      "7702ebc053476685",
       "171cf83e4979acf8",
       "22e5639c1c588154",
-      "98b820613c74d38b",
       "aad721965f6fd4ee",
       "bec76b89843e7de4",
-      "c28b7f6cac34d312",
-      "d1825778e1297c4d",
+      "a4397004e06b99d8",
+      "c7ea4dc1698025d9",
+      "37aa061d01ffa373",
       "0cd976adf7f21e24",
       "2612948ede94b608",
       "7e6916af33b09655",
       "ad9ed1fa7602a0f6",
       "c614accb5259c41b",
       "054988ec9f909663",
-      "017da3efd8809fd0"
+      "017da3efd8809fd0",
+      "bcf3c44b9731979f",
+      "726d21d0e4599895",
+      "7b31cc6406c6f77a",
+      "70b37fb4df0b6708",
+      "7e7be59d16b1ab49"
     ],
     "daily_diagnostics": {
       "feed_candidates": 209,
       "shortlisted": 3,
+      "focus_total": 21,
+      "focus_stretch": 8,
       "automation": 1,
       "reasons": {
         "qualified": 3,
-        "career_direction": 184,
+        "career_direction": 187,
         "contract_unverified": 1,
-        "backend_tier": 9,
-        "mid_level": 12
+        "backend_tier": 8,
+        "mid_level": 10
       }
     },
     "ai_budget": {
@@ -106,8 +114,21 @@
       "eligible": 3,
       "new": 2,
       "reused": 6,
-      "unreviewed": 0
-    }
+      "unreviewed": 0,
+      "daily_total": 3,
+      "daily_reviewed": 3,
+      "feed_reviewed": 8
+    },
+    "focus_stretch_ids": [
+      "7702ebc053476685",
+      "a4397004e06b99d8",
+      "c7ea4dc1698025d9",
+      "37aa061d01ffa373",
+      "726d21d0e4599895",
+      "7b31cc6406c6f77a",
+      "70b37fb4df0b6708",
+      "7e7be59d16b1ab49"
+    ]
   },
   "jobs": [
     {
