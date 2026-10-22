@@ -66,4 +66,12 @@ const focus=read('v21-focus-cv.js');
 assert(focus.includes('meta?.focus_job_ids'),'Focus does not use server relevance list');
 assert(focus.includes("aiReviewFor(job)?.verdict!=='SKIP'"),'AI SKIP still visible in Focus');
 assert(daily.includes('daily_diagnostics'),'Reason breakdown for shortlist missing');
+// Prevent misleading "one remaining of three" and double-counted AI.
+assert(daily.includes('function dailySelectionProgress()'),'Daily must count local applied/dismissed/AI SKIP');
+assert(daily.includes("' to review · '"),'Visible Daily progress wording missing');
+assert(daily.includes('newly found today'),'Fresh vs carryover distinction missing');
+assert(daily.includes('previous verdicts reused across all vacancies'),'AI reuse explanation missing');
+assert(!daily.includes("remaining of '+total+' today"),'Confusing old Daily wording retained');
+assert(focus.includes('function v21FocusBrief()'),'Focus selected vs locally hidden info missing');
+assert(focus.includes('exploratory STRETCH'),'STRETCH clearly labeled as exploratory');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
