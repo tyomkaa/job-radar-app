@@ -98,10 +98,35 @@ function v21FocusCount() {
   }
 }
 
+function v21FocusBrief(){
+  let host=document.querySelector('#focusBrief');
+  if(!host){
+    host=document.createElement('section');
+    host.id='focusBrief';
+    host.className='focus-brief';
+    document.querySelector('#dailyBrief')?.insertAdjacentElement('afterend',host);
+  }
+  if(!host)return;
+  host.hidden=activeFilter!=='FOCUS';
+  if(host.hidden)return;
+  const all=Array.isArray(meta?.focus_job_ids)?meta.focus_job_ids.length:v21FocusList().length;
+  const visible=v21FocusList();
+  const stretch=visible.filter(j=>j.recommendation_tier==='STRETCH').length;
+  host.replaceChildren();
+  const heading=document.createElement('strong');
+  heading.textContent='Focus: '+visible.length+' to explore · '+Math.max(0,all-visible.length)+' already handled';
+  const message=document.createElement('p');
+  message.textContent='Server selected '+all+' technically related roles, including promising Mid/Stretch opportunities. '+
+    'Your applied/dismissed vacancies and AI SKIP are hidden. '+
+    (stretch?stretch+' exploratory STRETCH option'+(stretch===1?'':'s')+' need extra verification. ':'')+
+    'AI verdicts may have been generated on earlier days; they do not imply a new AI request today.';
+  host.append(heading,message);
+}
 const _v21PreviousRender = render;
 render = function(options={}) {
   v21FocusCount();
   _v21PreviousRender(options);
+  v21FocusBrief();
 };
 
 // The normal stream remains in All. Start with a manageable shortlist so
