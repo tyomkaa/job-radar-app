@@ -84,4 +84,12 @@ assert(ukrainian.includes('v21LocallyEligible(job)'),'Ukrainian employer matches
 assert(ukrainian.includes('career')&&ukrainian.includes('current feed'),'Career links must be clearly separate from live feed');
 assert(!ukrainian.includes('fetch('),'Employer watchlist must not claim to scrape career sites');
 assert(!ukrainian.includes('localStorage.setItem'),'Employer filter must not mutate private local application data');
+const fresh=read('v28-fresh-opportunities.js');
+assert(html.includes('data-filter="FRESH"'),'New matches tab not wired');
+assert(scripts.includes('v28-fresh-opportunities.js'),'Fresh listing JS not loaded');
+assert(serviceWorker.includes("'./v28-fresh-opportunities.js'"),'Fresh JS missing in PWA offline cache');
+assert(serviceWorker.includes("'./styles-v28-fresh-opportunities.css'"),'Fresh CSS missing in PWA offline cache');
+assert(fresh.includes("meta?.fresh_opportunity_ids")&&fresh.includes("activeFilter!=='FRESH'"),'Fresh tab must consume server-curated matches');
+assert(fresh.includes("getTracker()")&&fresh.includes("dailyFeedback()")&&fresh.includes("aiReviewFor(j)?.verdict!=='SKIP'"),'Fresh tab must respect device feedback and AI SKIP');
+assert(fresh.includes("within the last 2 days"),'Clarify first-discovered, not employer-posted date');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
