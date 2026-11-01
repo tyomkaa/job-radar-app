@@ -62,23 +62,27 @@
     },
     "version": 1,
     "daily_pick_ids": [
-      "8588187d8eb61d83",
-      "7b38941f5f064f03"
+      "7b38941f5f064f03",
+      "8588187d8eb61d83"
     ],
     "focus_job_ids": [
+      "a6e9a05b7aade9e4",
+      "7b38941f5f064f03",
+      "0b12cc65e0c0ef79",
+      "dc48607353d4d5b1",
+      "ea2729f768fade3a",
+      "e85e13a9654ddd6c",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
       "22e5639c1c588154",
-      "9f86d4d8677401e4",
       "bec76b89843e7de4",
       "c77453e702de8a83",
-      "dc48607353d4d5b1",
       "37aa061d01ffa373",
       "a4397004e06b99d8",
-      "ea2729f768fade3a",
-      "e85e13a9654ddd6c",
+      "b6cc2f47a54f83ac",
+      "c87820f8e068db71",
       "31eb236ed458dd4c",
-      "7b38941f5f064f03",
+      "ac025687c5335372",
       "7e6916af33b09655",
       "ad9ed1fa7602a0f6",
       "c614accb5259c41b",
@@ -86,33 +90,36 @@
       "a1afcc605c4351d7",
       "087f74326a6dcf0e",
       "70b37fb4df0b6708",
-      "7e7be59d16b1ab49",
-      "0b12cc65e0c0ef79"
+      "7e7be59d16b1ab49"
     ],
     "focus_stretch_ids": [
-      "37aa061d01ffa373",
-      "a4397004e06b99d8",
+      "0b12cc65e0c0ef79",
       "ea2729f768fade3a",
       "e85e13a9654ddd6c",
+      "37aa061d01ffa373",
+      "a4397004e06b99d8",
       "31eb236ed458dd4c",
+      "ac025687c5335372",
       "087f74326a6dcf0e",
       "70b37fb4df0b6708",
-      "7e7be59d16b1ab49",
-      "0b12cc65e0c0ef79"
+      "7e7be59d16b1ab49"
     ],
     "daily_diagnostics": {
       "feed_candidates": 153,
       "shortlisted": 2,
-      "focus_total": 22,
-      "focus_stretch": 9,
+      "focus_total": 25,
+      "focus_stretch": 10,
+      "recent_opportunities": 3,
+      "recent_strict": 1,
       "automation": 1,
       "reasons": {
         "qualified": 2,
-        "career_direction": 129,
+        "career_direction": 126,
+        "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "ai_skip": 1,
-        "backend_tier": 9,
-        "mid_level": 11
+        "backend_tier": 10,
+        "mid_level": 12
       }
     },
     "ai_budget": {
@@ -129,8 +136,18 @@
       "unreviewed": 0,
       "daily_total": 2,
       "daily_reviewed": 2,
-      "feed_reviewed": 3
-    }
+      "feed_reviewed": 3,
+      "fresh_total": 3,
+      "fresh_reviewed": 1
+    },
+    "fresh_opportunity_ids": [
+      "a6e9a05b7aade9e4",
+      "7b38941f5f064f03",
+      "0b12cc65e0c0ef79"
+    ],
+    "fresh_daily_ids": [
+      "7b38941f5f064f03"
+    ]
   },
   "jobs": [
     {
