@@ -15,4 +15,6 @@ jobs:
         with:
           node-version: '22'
       - name: Validate PWA
-        run: node tests/ui-smoke.mjs
+        run: |
+          node tests/ui-smoke.mjs
+          node tests/ua-employer-matching.mjs
