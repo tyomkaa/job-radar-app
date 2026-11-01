@@ -19,7 +19,10 @@ const ctx=createContext({
   aiReviewFor:j=>j.id==='fresh-skip'?{verdict:'SKIP'}:null,
   getVisibleJobs:()=>['fallback'],
   render:()=>{},
-  document:{querySelector:()=>null},
+  document:{querySelector:()=>null,createElement:()=>({
+    append:()=>{},replaceChildren:()=>{},hidden:false,
+    textContent:'',className:'',id:''
+  })},
 });
 runInContext(readFileSync('v28-fresh-opportunities.js','utf8'),ctx);
 assert.deepEqual(Array.from(ctx.getVisibleJobs(),x=>x.id),['fresh-check']);
