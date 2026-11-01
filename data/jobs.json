@@ -1,18 +1,18 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-01T21:04:58.890333+00:00",
-    "found": 8069,
-    "accepted": 152,
+    "generated_at": "2026-11-01T22:38:50.008580+00:00",
+    "found": 8071,
+    "accepted": 119,
     "filtered": {
-      "Too much experience required (3+ years)": 317,
-      "Too senior / management": 3623,
-      "Contract: B2B only or UoP not confirmed": 692,
-      "Location: not Warsaw and not remote": 802,
-      "Missing a required language": 34,
-      "Different profession than your CV": 1202,
-      "Too weak a match with your CV": 13,
-      "Could not verify the vacancy page": 1234
+      "Too much experience required (3+ years)": 281,
+      "Too senior / management": 3635,
+      "Contract: B2B only or UoP not confirmed": 675,
+      "Location: not Warsaw and not remote": 932,
+      "Missing a required language": 32,
+      "Different profession than your CV": 1142,
+      "Too weak a match with your CV": 11,
+      "Could not verify the vacancy page": 1244
     },
     "sources": {
       "justjoin.it": {
@@ -25,7 +25,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 4279
+        "fetched": 4284
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -79,7 +79,6 @@
       "c77453e702de8a83",
       "37aa061d01ffa373",
       "a4397004e06b99d8",
-      "b6cc2f47a54f83ac",
       "c87820f8e068db71",
       "31eb236ed458dd4c",
       "ac025687c5335372",
@@ -113,21 +112,21 @@
       "7e7be59d16b1ab49"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 152,
+      "feed_candidates": 119,
       "shortlisted": 2,
-      "focus_total": 25,
+      "focus_total": 24,
       "focus_stretch": 10,
       "recent_opportunities": 3,
       "recent_strict": 1,
       "automation": 1,
       "reasons": {
         "qualified": 2,
-        "career_direction": 125,
+        "career_direction": 93,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "ai_skip": 1,
         "backend_tier": 10,
-        "mid_level": 12
+        "mid_level": 11
       }
     },
     "ai_budget": {
@@ -135,16 +134,16 @@
       "used": 6,
       "limit": 20,
       "remaining": 14,
-      "checked_at_utc": "2026-11-01T21:05:12.505432+00:00"
+      "checked_at_utc": "2026-11-01T22:38:50.506773+00:00"
     },
     "ai_automatic": {
-      "eligible": 4,
-      "new": 1,
+      "eligible": 2,
+      "new": 0,
       "new_daily": 0,
-      "new_focus": 1,
-      "fresh_focus_eligible": 2,
-      "reused": 3,
-      "unreviewed": 1,
+      "new_focus": 0,
+      "fresh_focus_eligible": 0,
+      "reused": 4,
+      "unreviewed": 0,
       "fresh_total": 3,
       "fresh_reviewed": 2,
       "daily_total": 2,
@@ -449,6 +448,106 @@
       "ai_review_fingerprint": "c50b88c09613a15b11f8894c"
     },
     {
+      "id": "e8fb8f8aca57253f",
+      "title": "Junior EPM / BI Engineer (hands-on, utrzymanie i wsparcie systemów)",
+      "company": "FLEXI SOLUTIONS",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-epm-bi-engineer-hands-on-utrzymanie-i-wsparcie-systemow-warszawa-stefana-okrzei-1,oferta,1005142118",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-07T09:06:29.03Z",
+      "fit_score": 74,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Główny obszar pracy to utrzymanie i wsparcie działających systemów EPM, w tym; analiza zgłoszeń klientów (funkcjonalnych i technicznych); współpraca z zespołem i doświadczonym Technical Leadem | What they expect: pierwsze doświadczenie w BI / analizie danych / systemach raportowych; podstawowa znajomość SQL i pracy na danych; praktyczna znajomość MS Excel (praca na danych, analizy, weryfikacja wyników) | What they offer: możliwość rozwoju w różnych kierunkach (utrzymanie, wdrożenia, rozwój systemów); elastyczną formę współpracy (UoP / B2B); pracę zdalną lub hybrydową",
+      "summary_tasks": [
+        "Główny obszar pracy to utrzymanie i wsparcie działających systemów EPM, w tym",
+        "analiza zgłoszeń klientów (funkcjonalnych i technicznych)",
+        "współpraca z zespołem i doświadczonym Technical Leadem"
+      ],
+      "summary_expectations": [
+        "pierwsze doświadczenie w BI / analizie danych / systemach raportowych",
+        "podstawowa znajomość SQL i pracy na danych",
+        "praktyczna znajomość MS Excel (praca na danych, analizy, weryfikacja wyników)"
+      ],
+      "summary_offers": [
+        "możliwość rozwoju w różnych kierunkach (utrzymanie, wdrożenia, rozwój systemów)",
+        "elastyczną formę współpracy (UoP / B2B)",
+        "pracę zdalną lub hybrydową"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel, analytics",
+          "Python & automation: skrypt",
+          "B2B / CRM operations: b2b"
+        ],
+        "concerns": [],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
+    },
+    {
+      "id": "4446b8cbfbc044d2",
+      "title": "Montażysta systemów komputerowych i serwerów (Field Engineer) (M/K)",
+      "company": "Elmark Automatyka S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/montazysta-systemow-komputerowych-i-serwerow-field-engineer-m-k-warszawa-rzeczna-8,oferta,1005167733",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-19T13:59:17.343Z",
+      "fit_score": 73,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Prowadzenie okablowania wewnętrznego z zachowaniem zasad ochrony ESD; Obsługa zgłoszeń serwisowych i procedur RMA we współpracy z producentami; Dokumentacja i współpraca | What they expect: Doświadczenie w montażu, serwisie lub diagnostyce komputerów PC, stacji roboczych lub serwerów; Bardzo dobra znajomość budowy komputera i serwera oraz umiejętność samodzielnego diagnozowania usterek; Praktyczna znajomość instalacji i konfiguracji systemów Windows i Linux | What they offer: Szkolenia techniczne producentów sprzętu / wewnętrzne; Pakiet świadczeń: prywatna opieka medyczna, dopłaty do karty Multisport; Benefity",
+      "summary_tasks": [
+        "Prowadzenie okablowania wewnętrznego z zachowaniem zasad ochrony ESD",
+        "Obsługa zgłoszeń serwisowych i procedur RMA we współpracy z producentami",
+        "Dokumentacja i współpraca"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w montażu, serwisie lub diagnostyce komputerów PC, stacji roboczych lub serwerów",
+        "Bardzo dobra znajomość budowy komputera i serwera oraz umiejętność samodzielnego diagnozowania usterek",
+        "Praktyczna znajomość instalacji i konfiguracji systemów Windows i Linux"
+      ],
+      "summary_offers": [
+        "Szkolenia techniczne producentów sprzętu / wewnętrzne",
+        "Pakiet świadczeń: prywatna opieka medyczna, dopłaty do karty Multisport",
+        "Benefity"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: tcp/ip",
+          "Linux / Git: linux, ubuntu, https",
+          "Python & automation: integracja, skrypt"
+        ],
+        "concerns": [
+          "Mentions Powershell"
+        ],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-20T06:50:22.034110+00:00"
+    },
+    {
       "id": "521e04c05bb1bcca",
       "title": "Młodszy Analityk Biznesowy (k/m)",
       "company": "Polkomtel Sp. z o.o.",
@@ -652,6 +751,54 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
+    },
+    {
+      "id": "8fd03f2789986750",
+      "title": "Junior Specialist Data Base (k/m/x)",
+      "company": "Douglas Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-specialist-data-base-k-m-x-warszawa-zajecza-4,oferta,1005177913",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-23T13:33:54.37Z",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Kompleksowe wprowadzanie danych do SAP i P4y; Obsługa procesu zmian cenowych dla perfumerii w rynkach CE; Raportowanie zmian cenowych Managerowi działu | What they expect: Bardzo dobra znajomość języka angielskiego (min; Znajomość MS Excel na poziomie, który umożliwia swobodne posługiwanie się narzędziem - szczególnie formułą \"wyszukaj pionowo\", \"licz jeżeli\" i tworzenie tabel przestawnych; Umiejętność zarządzania czasem i ustalania priorytetów działania | What they offer: Możliwość rozwoju zawodowego w dynamicznym środowisku retailowym; Pakiet benefitów – prywatną opiekę medyczną, ubezpieczenie na życie, kartę MultiSport oraz program MultiLife, zniżki na produkty, inicjatywy wellbeingowe; Benefity",
+      "summary_tasks": [
+        "Kompleksowe wprowadzanie danych do SAP i P4y",
+        "Obsługa procesu zmian cenowych dla perfumerii w rynkach CE",
+        "Raportowanie zmian cenowych Managerowi działu"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość języka angielskiego (min",
+        "Znajomość MS Excel na poziomie, który umożliwia swobodne posługiwanie się narzędziem - szczególnie formułą \"wyszukaj pionowo\", \"licz jeżeli\" i tworzenie tabel przestawnych",
+        "Umiejętność zarządzania czasem i ustalania priorytetów działania"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju zawodowego w dynamicznym środowisku retailowym",
+        "Pakiet benefitów – prywatną opiekę medyczną, ubezpieczenie na życie, kartę MultiSport oraz program MultiLife, zniżki na produkty, inicjatywy wellbeingowe",
+        "Benefity"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
     },
     {
       "id": "fb26982e00d3067f",
@@ -1263,58 +1410,6 @@
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
-      "id": "b34513c1f585b83a",
-      "title": "Koordynatorka / Koordynator ds. marketingu",
-      "company": "Sotis Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/koordynatorka-koordynator-ds-marketingu-warszawa,oferta,1005149254",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-09T13:20:27.857Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: współtworzenie i realizacja strategii marketingowych; współpraca z zewnętrznymi podmiotami; prowadzenie strony internetowej i social mediów | What they expect: wysoka empatia i umiejętność dostosowania języka komunikacji do specyfiki odbiorców (rodzice, specjaliści, osoby neuroróżnorodne); umiejętność pisania tekstów marketingowych i promocyjnych uwzględniających misję organizacji; bardzo dobra znajomość języka angielskiego | What they offer: ubezpieczenie medyczne i inne benefity; Benefity; Development Center on ASD)",
-      "summary_tasks": [
-        "współtworzenie i realizacja strategii marketingowych",
-        "współpraca z zewnętrznymi podmiotami",
-        "prowadzenie strony internetowej i social mediów"
-      ],
-      "summary_expectations": [
-        "wysoka empatia i umiejętność dostosowania języka komunikacji do specyfiki odbiorców (rodzice, specjaliści, osoby neuroróżnorodne)",
-        "umiejętność pisania tekstów marketingowych i promocyjnych uwzględniających misję organizacji",
-        "bardzo dobra znajomość języka angielskiego"
-      ],
-      "summary_offers": [
-        "ubezpieczenie medyczne i inne benefity",
-        "Benefity",
-        "Development Center on ASD)"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, google analytics, social media",
-          "Web platform (Supabase, PostgreSQL, WordPress): wordpress",
-          "B2B / CRM operations: b2b, crm",
-          "Python & automation: integracja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-10T06:54:38.193347+00:00"
-    },
-    {
       "id": "9b47c578e627c2a3",
       "title": "Młodszy/-a Specjalista/-ka ds. eCommerce",
       "company": "T-Mobile",
@@ -1417,6 +1512,58 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
+    },
+    {
+      "id": "b34513c1f585b83a",
+      "title": "Koordynatorka / Koordynator ds. marketingu",
+      "company": "Sotis Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/koordynatorka-koordynator-ds-marketingu-warszawa,oferta,1005149254",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-10-09T13:20:27.857Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: współtworzenie i realizacja strategii marketingowych; współpraca z zewnętrznymi podmiotami; prowadzenie strony internetowej i social mediów | What they expect: wysoka empatia i umiejętność dostosowania języka komunikacji do specyfiki odbiorców (rodzice, specjaliści, osoby neuroróżnorodne); umiejętność pisania tekstów marketingowych i promocyjnych uwzględniających misję organizacji; bardzo dobra znajomość języka angielskiego | What they offer: ubezpieczenie medyczne i inne benefity; Benefity; Development Center on ASD)",
+      "summary_tasks": [
+        "współtworzenie i realizacja strategii marketingowych",
+        "współpraca z zewnętrznymi podmiotami",
+        "prowadzenie strony internetowej i social mediów"
+      ],
+      "summary_expectations": [
+        "wysoka empatia i umiejętność dostosowania języka komunikacji do specyfiki odbiorców (rodzice, specjaliści, osoby neuroróżnorodne)",
+        "umiejętność pisania tekstów marketingowych i promocyjnych uwzględniających misję organizacji",
+        "bardzo dobra znajomość języka angielskiego"
+      ],
+      "summary_offers": [
+        "ubezpieczenie medyczne i inne benefity",
+        "Benefity",
+        "Development Center on ASD)"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "SEO / digital marketing: seo, google analytics, social media",
+          "Web platform (Supabase, PostgreSQL, WordPress): wordpress",
+          "B2B / CRM operations: b2b, crm",
+          "Python & automation: integracja, skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction"
+        ],
+        "tier_reason": "Capped at 67: Ceiling for this direction.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-10T06:54:38.193347+00:00"
     },
     {
       "id": "433da35d943bf522",
@@ -1638,55 +1785,6 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
-      "id": "4751e85571c86c6c",
-      "title": "Pracownik magazynu kompletacja zamówień (e-commerce)",
-      "company": "LABORATORIUM PANI DOMU sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/pracownik-magazynu-kompletacja-zamowien-e-commerce-warszawa-annopol-4a,oferta,1005169615",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-20T11:31:06.247Z",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: kompletacja zamówień; kontrola wysyłanych towarów do klientów; dbanie o porządek magazynowy | What they expect: zaangażowanie, motywacja do pracy; duża samodzielność i dobra organizacja pracy; umiejętność pracy w zespole | What they offer: stałe wynagrodzenie (31,40 brutto /h + stała premia + stała premia za wynik); pracę w zgranym i młodym zespole; Skupiamy się na oferowaniu praktycznych i sprawdzonych rozwiązań, które pomagają klientom dbać o porządek i komfort w domu",
-      "summary_tasks": [
-        "kompletacja zamówień",
-        "kontrola wysyłanych towarów do klientów",
-        "dbanie o porządek magazynowy"
-      ],
-      "summary_expectations": [
-        "zaangażowanie, motywacja do pracy",
-        "duża samodzielność i dobra organizacja pracy",
-        "umiejętność pracy w zespole"
-      ],
-      "summary_offers": [
-        "stałe wynagrodzenie (31,40 brutto /h + stała premia + stała premia za wynik)",
-        "pracę w zgranym i młodym zespole",
-        "Skupiamy się na oferowaniu praktycznych i sprawdzonych rozwiązań, które pomagają klientom dbać o porządek i komfort w domu"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
       "id": "7e7be59d16b1ab49",
       "title": "Junior Backend Developer",
       "company": "CTHINGS.CO sp. z o.o.",
@@ -1896,7 +1994,6 @@
         "evidence": "work",
         "matches": [
           "Networking / telecom: network, routing, infrastructure",
-          "Linux / Git: linux",
           "B2B / CRM operations: b2b, operations, partner"
         ],
         "concerns": [
@@ -2596,6 +2693,58 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-07T06:55:15.162358+00:00"
+    },
+    {
+      "id": "8f550f2eed5ccd0d",
+      "title": "Specjalista / Specjalistka ds. marketingu",
+      "company": "V-KADRY sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-marketingu-warszawa,oferta,1005134334",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-02T17:21:22.837Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: organizacja eventów, wyjazdów oraz spotkań firmowych - od planowania po koordynację realizacji; wsparcie w prowadzeniu firmowych profili w social mediach; współpraca z zespołem przy realizacji bieżących działań marketingowych | What they expect: doświadczenie w organizacji i koordynacji eventów oraz spotkań firmowych; doskonała organizacja pracy i umiejętność sprawnego koordynowania wielu zadań jednocześnie; doświadczenie we współpracy z agencjami eventowymi, hotelami lub innymi dostawcami usług związanych z organizacją wydarzeń | What they offer: pakiet medyczny; pracę w dynamicznie rozwijającej się firmie z branży grzewczej, o pozycji lidera na rynku; możliwość pracy zdalnej 1 dzień w tygodniu",
+      "summary_tasks": [
+        "organizacja eventów, wyjazdów oraz spotkań firmowych - od planowania po koordynację realizacji",
+        "wsparcie w prowadzeniu firmowych profili w social mediach",
+        "współpraca z zespołem przy realizacji bieżących działań marketingowych"
+      ],
+      "summary_expectations": [
+        "doświadczenie w organizacji i koordynacji eventów oraz spotkań firmowych",
+        "doskonała organizacja pracy i umiejętność sprawnego koordynowania wielu zadań jednocześnie",
+        "doświadczenie we współpracy z agencjami eventowymi, hotelami lub innymi dostawcami usług związanych z organizacją wydarzeń"
+      ],
+      "summary_offers": [
+        "pakiet medyczny",
+        "pracę w dynamicznie rozwijającej się firmie z branży grzewczej, o pozycji lidera na rynku",
+        "możliwość pracy zdalnej 1 dzień w tygodniu"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "SEO / digital marketing: social media",
+          "B2B / CRM operations: partner",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
       "id": "1d36aa1d2e7d8b69",
@@ -3787,6 +3936,58 @@
       "first_found_at": "2026-10-14T06:53:41.723663+00:00"
     },
     {
+      "id": "08a7f35c2d78598d",
+      "title": "IT Business Analyst (C-CLIPS)",
+      "company": "BNP Paribas S.A. Branch Poland",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/it-business-analyst-c-clips-warszawa,oferta,1005189082",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-29T13:05:39.777Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Collaboration with the global team responsible for the overall system roadmap to align local development with long-term strategic goals; Partnership with business stakeholders to analyse complex processes and translate business needs into detailed functional specifications; Designing high-level roadmaps categorized by system components and development streams | What they expect: Experience in a Business Analyst role, preferably within a complex corporate or financial environment; Good presentation skills with the ability to communicate effectively to audiences of various sizes and levels of seniority; A foundational knowledge of, and a willingness to leverage, AI tools | What they offer: Hybrid work mode, 50% working from home within a month; Equivalent for remote work expenses (120 PLN per month); Fully paid private medical care for employee",
+      "summary_tasks": [
+        "Collaboration with the global team responsible for the overall system roadmap to align local development with long-term strategic goals",
+        "Partnership with business stakeholders to analyse complex processes and translate business needs into detailed functional specifications",
+        "Designing high-level roadmaps categorized by system components and development streams"
+      ],
+      "summary_expectations": [
+        "Experience in a Business Analyst role, preferably within a complex corporate or financial environment",
+        "Good presentation skills with the ability to communicate effectively to audiences of various sizes and levels of seniority",
+        "A foundational knowledge of, and a willingness to leverage, AI tools"
+      ],
+      "summary_offers": [
+        "Hybrid work mode, 50% working from home within a month",
+        "Equivalent for remote work expenses (120 PLN per month)",
+        "Fully paid private medical care for employee"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: analytics",
+          "B2B / CRM operations: partner, stakeholder",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
+    },
+    {
       "id": "ff80337af8e39e6e",
       "title": "B2B Systems Administrator",
       "company": "Sofidel Poland Sp. z.o.o.",
@@ -3837,6 +4038,66 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-01T07:54:03.766537+00:00"
+    },
+    {
+      "id": "9223599c2eeade42",
+      "title": "System Analyst | Branża Bankowa",
+      "company": "Edge One Solutions Sp. z o.o",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-system-analyst-branza-bankowa-warszawa-analytics-7b437a51",
+      "apply_url": "https://edge1s.recruitify.ai/job/2f574ae8-6b7e-4fe7-8103-b33e3e0944e9?sourceId=37",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-01T06:40:13.2862834Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters System Analyst | Branża Bankowa Save Apply All offers Warszawa Analytics System Analyst | Branża Bankowa Analytics System Analyst | Branża Bankowa Analytics; Model współpracy Świadczenie usług odbywa się w trybie hybrydowym; Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje | What they expect: Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji; dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange; sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował? | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
+      "summary_tasks": [
+        "Show menu Hide menu Offers Salaries Calculator Companies Geek Favorites History Viewed Saved Matched Chats More Currency #1 Job Board for tech industry in Europe ​ ​ ​ ​ ​ Search Search: Job title, company, keyword Location More filters System Analyst | Branża Bankowa Save Apply All offers Warszawa Analytics System Analyst | Branża Bankowa Analytics System Analyst | Branża Bankowa Analytics",
+        "Model współpracy Świadczenie usług odbywa się w trybie hybrydowym",
+        "Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje"
+      ],
+      "summary_expectations": [
+        "Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji",
+        "dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange",
+        "sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował?"
+      ],
+      "summary_offers": [
+        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
+        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
+        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
+      ],
+      "required_skills": [
+        "MS Office",
+        "UML",
+        "BPMN",
+        "Jira",
+        "Confluence",
+        "SQL"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel, analytics",
+          "B2B / CRM operations: b2b",
+          "Python & automation: api, integration, rest api"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions JAVA"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
     },
     {
       "id": "0b4e19f6fded4eec",
@@ -4089,11 +4350,11 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto; Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego; 38,22 USD/h PL/SQL T-SQL Perl Powershell Python Mid Mid B2B B2B Full-time Full-time New Similar offers Power Media Warszawa Office Office Specjalista ds | What they expect: Wiedza techniczna uzupełniona kreatywnością i ciągłym doskonaleniem swoich umiejętności to idealny zestaw umiejętności na tym stanowisku; WYMAGAMY: Doświadczenia: minimum 3 lata doświadczenia pracy z sieciami lub serwerami, Wykształcenia: mile widziane wykształcenie techniczne, Umiejętności sieciowych: podstawowa wiedza na temat działania sieci, stosu TCP/IP; You get offers only based on your experience, tech stack and preferences work | What they offer: Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach; Szkolenia wewnętrzne; Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)",
+      "summary": "What you'll do: w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto; Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego; 5 047,45 USD/month Simulink Elektryka mechanika Matlab automatyka mechatronika Mid Mid Any Any Full-time Full-time New Similar offers Power Media Warszawa Office Office Specjalista ds | What they expect: Wiedza techniczna uzupełniona kreatywnością i ciągłym doskonaleniem swoich umiejętności to idealny zestaw umiejętności na tym stanowisku; WYMAGAMY: Doświadczenia: minimum 3 lata doświadczenia pracy z sieciami lub serwerami, Wykształcenia: mile widziane wykształcenie techniczne, Umiejętności sieciowych: podstawowa wiedza na temat działania sieci, stosu TCP/IP; You get offers only based on your experience, tech stack and preferences work | What they offer: Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach; Szkolenia wewnętrzne; Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)",
       "summary_tasks": [
         "w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto",
         "Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego",
-        "38,22 USD/h PL/SQL T-SQL Perl Powershell Python Mid Mid B2B B2B Full-time Full-time New Similar offers Power Media Warszawa Office Office Specjalista ds"
+        "5 047,45 USD/month Simulink Elektryka mechanika Matlab automatyka mechatronika Mid Mid Any Any Full-time Full-time New Similar offers Power Media Warszawa Office Office Specjalista ds"
       ],
       "summary_expectations": [
         "Wiedza techniczna uzupełniona kreatywnością i ciągłym doskonaleniem swoich umiejętności to idealny zestaw umiejętności na tym stanowisku",
@@ -4299,13 +4560,13 @@
         "evidence": "work",
         "matches": [
           "B2B / CRM operations: b2b, operations, stakeholder",
-          "Python & automation: python, automation, workflow"
+          "Python & automation: automation, workflow, integration"
         ],
         "concerns": [
           "Ceiling for this direction",
           "Listed as Mid/Regular level",
           "Mentions Azure",
-          "Mentions Kubernetes"
+          "Mentions Powershell"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
         "suggested_cv": "Data & Operations"
@@ -4371,574 +4632,6 @@
       "first_found_at": "2026-10-25T07:48:10.403732+00:00"
     },
     {
-      "id": "4246cae8d315f1d8",
-      "title": "Demand & Supply Analyst / Analityk Popytu i Podaży (k/m)",
-      "company": "Fargotex Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/demand-supply-analyst-analityk-popytu-i-podazy-k-m-warszawa-wiertnicza-159,oferta,1005135239",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-05T07:09:13.953Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie i aktualizacja prognoz popytu; Tworzenie i rozwijanie analiz w Excelu i Power Query; Automatyzacja procesów analitycznych i przepływu informacji w środowisku Microsoft 365 | What they expect: Bardzo dobra znajomość Microsoft Excel; Dobra znajomość Power Query; Znajomość środowiska Microsoft 365 | What they offer: Tryb pracy hybrydowy - praca na początku 5 dni biuro / 0 zdalnie; potem stopniowo do modelu 3 dni biuro / 2 dni zdalnie; Możliwość rozwoju i zdobywania doświadczenia",
-      "summary_tasks": [
-        "Tworzenie i aktualizacja prognoz popytu",
-        "Tworzenie i rozwijanie analiz w Excelu i Power Query",
-        "Automatyzacja procesów analitycznych i przepływu informacji w środowisku Microsoft 365"
-      ],
-      "summary_expectations": [
-        "Bardzo dobra znajomość Microsoft Excel",
-        "Dobra znajomość Power Query",
-        "Znajomość środowiska Microsoft 365"
-      ],
-      "summary_offers": [
-        "Tryb pracy hybrydowy - praca na początku 5 dni biuro / 0 zdalnie",
-        "potem stopniowo do modelu 3 dni biuro / 2 dni zdalnie",
-        "Możliwość rozwoju i zdobywania doświadczenia"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel",
-          "Python & automation: automatyzacja, skrypt",
-          "B2B / CRM operations: b2b"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-09T13:29:10.505687+00:00"
-    },
-    {
-      "id": "b6cc2f47a54f83ac",
-      "title": "Analityk - Specjalista ds. Systemów Marketingu Bezpośredniego (K/M/N)",
-      "company": "RTV EURO AGD",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-specjalista-ds-systemow-marketingu-bezposredniego-k-m-n-warszawa-krakowiakow-42,oferta,1005170229",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-20T13:41:05.767Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Koordynowanie współpracy pomiędzy zespołami IT, CRM oraz dostawcami zewnętrznymi w zakresie rozwoju i utrzymania systemów marketingu bezpośredniego; Planowanie, monitorowanie i realizacja zadań IT wspierających działania CRM oraz kampanie marketingowe; Analiza danych z wykorzystaniem SQL oraz wspieranie rozwoju i automatyzacji narzędzi kampanijnych | What they expect: Doświadczenie w pracy z narzędziami Marketing Automation wykorzystywanymi do realizacji kampanii komunikacyjnych; Dobra znajomość relacyjnych baz danych, swoboda w posługiwaniu się SQL/T-SQL oraz umiejętność pracy na dużych zbiorach danych; Umiejętność organizacji pracy własnej i innych, a także doświadczenie w koordynowaniu działań zespołu, projektów lub grup roboczych | What they offer: Przestrzeń do wdrażania własnych pomysłów i rozwiązań – Twoje decyzje mają znaczenie i realnie wpływają na rozwój obszaru, za który odpowiadasz; Pracę hybrydową 2 dni w tygodniu z biura, 3 dni zdalnie; Benefity, które wspierają zdrowie i codzienny komfort Twój i Twoich Bliskich – prywatna opieka medyczna, karty sportowe, ubezpieczenie na życie",
-      "summary_tasks": [
-        "Koordynowanie współpracy pomiędzy zespołami IT, CRM oraz dostawcami zewnętrznymi w zakresie rozwoju i utrzymania systemów marketingu bezpośredniego",
-        "Planowanie, monitorowanie i realizacja zadań IT wspierających działania CRM oraz kampanie marketingowe",
-        "Analiza danych z wykorzystaniem SQL oraz wspieranie rozwoju i automatyzacji narzędzi kampanijnych"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w pracy z narzędziami Marketing Automation wykorzystywanymi do realizacji kampanii komunikacyjnych",
-        "Dobra znajomość relacyjnych baz danych, swoboda w posługiwaniu się SQL/T-SQL oraz umiejętność pracy na dużych zbiorach danych",
-        "Umiejętność organizacji pracy własnej i innych, a także doświadczenie w koordynowaniu działań zespołu, projektów lub grup roboczych"
-      ],
-      "summary_offers": [
-        "Przestrzeń do wdrażania własnych pomysłów i rozwiązań – Twoje decyzje mają znaczenie i realnie wpływają na rozwój obszaru, za który odpowiadasz",
-        "Pracę hybrydową 2 dni w tygodniu z biura, 3 dni zdalnie",
-        "Benefity, które wspierają zdrowie i codzienny komfort Twój i Twoich Bliskich – prywatna opieka medyczna, karty sportowe, ubezpieczenie na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, analytics",
-          "Python & automation: automation, automatyzacja, skrypt",
-          "B2B / CRM operations: crm"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "682b779129e1d1ae",
-      "title": "Social Media & Community Specialist - Specjalista / Specjalistka Social Media",
-      "company": "RADIO 357 PROSTA SPÓŁKA AKCYJNA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-community-specialist-specjalista-specjalistka-social-media-warszawa,oferta,1005162797",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-16T10:09:13.443Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: współtworzenie i realizacja kreatywnych koncepcji contentowych do social mediów; współpraca z zespołem redakcyjnym, prowadzącymi i gośćmi; współtworzenie strategii i rozwój formatów social media | What they expect: umiejętność tworzenia i rozwijania formatów kreatywnych, szczególnie wideo; umiejętność pracy z ludźmi i budowania dobrych relacji; samodzielność oraz umiejętność pracy w zespole | What they offer: pracę w twórczym środowisku radiowym i eventowym; system hybrydowy, elastyczne godziny pracy; realny wpływ na kształt formatów i komunikacji",
-      "summary_tasks": [
-        "współtworzenie i realizacja kreatywnych koncepcji contentowych do social mediów",
-        "współpraca z zespołem redakcyjnym, prowadzącymi i gośćmi",
-        "współtworzenie strategii i rozwój formatów social media"
-      ],
-      "summary_expectations": [
-        "umiejętność tworzenia i rozwijania formatów kreatywnych, szczególnie wideo",
-        "umiejętność pracy z ludźmi i budowania dobrych relacji",
-        "samodzielność oraz umiejętność pracy w zespole"
-      ],
-      "summary_offers": [
-        "pracę w twórczym środowisku radiowym i eventowym",
-        "system hybrydowy, elastyczne godziny pracy",
-        "realny wpływ na kształt formatów i komunikacji"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: content, social media",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-18T06:53:32.120872+00:00"
-    },
-    {
-      "id": "c97861f4f0f6a0e6",
-      "title": "Adobe Marketing Analyst/Consultant (SONG GN)",
-      "company": "Accenture Strategy & Consulting",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/adobe-marketing-analyst-consultant-song-gn-warszawa,oferta,1005190269",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-30T08:13:50.62Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Design and implement solutions leveraging Adobe Experience Cloud products; Advise clients on best practices for customer journey orchestration, personalization, segmentation, and campaign management; Configure and optimize Adobe Marketing solutions to support business objectives | What they expect: Experience in digital marketing, MarTech consulting, marketing technology, or Adobe; Experience Cloud implementations; Hands-on experience with one or more Adobe | What they offer: Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach; A wide training package (soft, technical,; Private medical care, life insurance",
-      "summary_tasks": [
-        "Design and implement solutions leveraging Adobe Experience Cloud products",
-        "Advise clients on best practices for customer journey orchestration, personalization, segmentation, and campaign management",
-        "Configure and optimize Adobe Marketing solutions to support business objectives"
-      ],
-      "summary_expectations": [
-        "Experience in digital marketing, MarTech consulting, marketing technology, or Adobe",
-        "Experience Cloud implementations",
-        "Hands-on experience with one or more Adobe"
-      ],
-      "summary_offers": [
-        "Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach",
-        "A wide training package (soft, technical,",
-        "Private medical care, life insurance"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: digital marketing",
-          "B2B / CRM operations: partner, stakeholder",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
-    },
-    {
-      "id": "24ad6cba02802b08",
-      "title": "Social Media Specialist",
-      "company": "Orientana sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-specialist-warszawa-lirowa-48,oferta,1005153023",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-12T13:46:26.6Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Przygotowywanie materiałów w formie video wg specyfiki poszczególnych kanałów (Instagram, YT Shorts) we współpracy ze specjalistą ds; Monitorowanie trendów, virali i okazji do real time marketingu oraz proponowanie ich wykorzystania w komunikacji marki; Wyszukiwanie i weryfikowanie twórców pod kątem dopasowania do marki i jej grup docelowych oraz pozyskiwanie ich do współprac afiliacyjnych | What they expect: Doświadczenie w tworzeniu treści na TikToka oraz znajomość formatów i sposobów komunikacji na tej platformie; Umiejętność samodzielnego przygotowania wideo: od pomysłu i scenariusza po nagranie, montaż oraz tekst do publikacji; Swobodę przed kamerą i umiejętność prowadzenia transmisji LIVE, także o charakterze sprzedażowym | What they offer: Po 3-miesięcznym okresie próbnym pracę hybrydową: 2 dni home office i 3 dni w biurze w tygodniu; Pakiet Benefit System (Multisport); dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Przygotowywanie materiałów w formie video wg specyfiki poszczególnych kanałów (Instagram, YT Shorts) we współpracy ze specjalistą ds",
-        "Monitorowanie trendów, virali i okazji do real time marketingu oraz proponowanie ich wykorzystania w komunikacji marki",
-        "Wyszukiwanie i weryfikowanie twórców pod kątem dopasowania do marki i jej grup docelowych oraz pozyskiwanie ich do współprac afiliacyjnych"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w tworzeniu treści na TikToka oraz znajomość formatów i sposobów komunikacji na tej platformie",
-        "Umiejętność samodzielnego przygotowania wideo: od pomysłu i scenariusza po nagranie, montaż oraz tekst do publikacji",
-        "Swobodę przed kamerą i umiejętność prowadzenia transmisji LIVE, także o charakterze sprzedażowym"
-      ],
-      "summary_offers": [
-        "Po 3-miesięcznym okresie próbnym pracę hybrydową: 2 dni home office i 3 dni w biurze w tygodniu",
-        "Pakiet Benefit System (Multisport)",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, social media",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-13T06:57:31.430102+00:00"
-    },
-    {
-      "id": "659c4d1c8c8c3cf7",
-      "title": "Influencer Specialist / Social Media Specialist",
-      "company": "Nice To Fit You",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/influencer-specialist-social-media-specialist-warszawa-posag-7-panien-1a,oferta,1005153631",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-13T06:57:19.793Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Influencer Marketing: kompleksowa obsługa współpracy z influencerami; Od researchu, negocjacji i ustaleń umów, po koordynację działań i analizę ich efektywności (raportowanie wyników, ROI); Zarządzanie Social Media: prowadzenie i rozwój profili marki na platformach Facebook, Instagram i TikTok, zgodnie z przyjętą strategią | What they expect: Minimum 1 rok doświadczenia w pracy na podobnym stanowisku (Social Media Specialist / Influencer Specialist / Content Specialist); Praktyczna znajomość i biegłość w obsłudze platform Facebook, Instagram i TikTok, w tym znajomość ich specyfiki, formatów i trendów; Kreatywność, \"lekkie pióro\" oraz umiejętność tworzenia angażujących treści wizualnych i tekstowych | What they offer: Benefity; Działamy na rynku od 13 lat, oferując swoje usługi w kilkudziesięciu miastach w kraju; Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie",
-      "summary_tasks": [
-        "Influencer Marketing: kompleksowa obsługa współpracy z influencerami",
-        "Od researchu, negocjacji i ustaleń umów, po koordynację działań i analizę ich efektywności (raportowanie wyników, ROI)",
-        "Zarządzanie Social Media: prowadzenie i rozwój profili marki na platformach Facebook, Instagram i TikTok, zgodnie z przyjętą strategią"
-      ],
-      "summary_expectations": [
-        "Minimum 1 rok doświadczenia w pracy na podobnym stanowisku (Social Media Specialist / Influencer Specialist / Content Specialist)",
-        "Praktyczna znajomość i biegłość w obsłudze platform Facebook, Instagram i TikTok, w tym znajomość ich specyfiki, formatów i trendów",
-        "Kreatywność, \"lekkie pióro\" oraz umiejętność tworzenia angażujących treści wizualnych i tekstowych"
-      ],
-      "summary_offers": [
-        "Benefity",
-        "Działamy na rynku od 13 lat, oferując swoje usługi w kilkudziesięciu miastach w kraju",
-        "Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, google analytics, content",
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-14T06:53:41.723663+00:00"
-    },
-    {
-      "id": "c42ff8c175718003",
-      "title": "Marketing Content Officer",
-      "company": "The British School Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/marketing-content-officer-warszawa-boleslawa-limanowskiego-15,oferta,1005181233",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-26T13:19:06.367Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Create inspiring and relevant content to drive engagement from current and prospective families: create engaging video content and capture photography that brings to life the key USP’s and | What they expect: Proficiency in graphic design software: Adobe Creative Suite (InDesign, Photoshop, Illustrator), Canva, or similar tools; Photography skills: ability to take photographs using a smartphone or camera and independently edit and retouch images; Knowledge of video creation and editing tools, such as CapCut, Adobe Premiere Pro, Adobe After Effects, or similar software | What they offer: Private medical care package; Co-financing of the MultiSport card; Professional development opportunities",
-      "summary_tasks": [
-        "Create inspiring and relevant content to drive engagement from current and prospective families: create engaging video content and capture photography that brings to life the key USP’s and"
-      ],
-      "summary_expectations": [
-        "Proficiency in graphic design software: Adobe Creative Suite (InDesign, Photoshop, Illustrator), Canva, or similar tools",
-        "Photography skills: ability to take photographs using a smartphone or camera and independently edit and retouch images",
-        "Knowledge of video creation and editing tools, such as CapCut, Adobe Premiere Pro, Adobe After Effects, or similar software"
-      ],
-      "summary_offers": [
-        "Private medical care package",
-        "Co-financing of the MultiSport card",
-        "Professional development opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: content, digital marketing, social media",
-          "Web platform (Supabase, PostgreSQL, WordPress): cms",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
-    },
-    {
-      "id": "9e47ce13cb840350",
-      "title": "Creative Content & Social Media Specialist",
-      "company": "HARIS sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/creative-content-social-media-specialist-warszawa-krakowskie-przedmiescie-13,oferta,1005157084",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-05T12:50:51.443Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: prowadzenie kanałów social media i zarządzanie kalendarzem publikacji: musisz wiedzieć co publikujemy, gdzie, kiedy i dlaczego; planowanie contentu z wyprzedzeniem: tematy, posty, rolki, Stories, scenariusze i nagrania; nagrywanie i montowanie rolek i krótkich formatów video, robienie dobrych zdjęć ludzi, przestrzeni i wydarzeń oraz tworzenie zdjęć i video z drona | What they expect: doskonałe wyczucie sociali i bycie na bieżąco z tym, jak zmieniają się formaty i zachowania odbiorców; samodzielność w realizacji startegii kontentowych - przejście od pomysłu do publikacji; umiejętność kunsztownego/miłego dla oka odbiorcy fotografowania i nagrywania telefonem oraz aparatem + sprawny montaż video | What they offer: Ciekawą rolę z realnym poczuciem wpływu i możliwościami rozwoju; Dla naszego Klienta - międzynarodowej firmy z ugruntowaną i mocną marką w sektorze usług premium, szukamy osoby, która \"pływa jak ryba w wodzie\" w głębinach social mediów i lubi to!; Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie",
-      "summary_tasks": [
-        "prowadzenie kanałów social media i zarządzanie kalendarzem publikacji: musisz wiedzieć co publikujemy, gdzie, kiedy i dlaczego",
-        "planowanie contentu z wyprzedzeniem: tematy, posty, rolki, Stories, scenariusze i nagrania",
-        "nagrywanie i montowanie rolek i krótkich formatów video, robienie dobrych zdjęć ludzi, przestrzeni i wydarzeń oraz tworzenie zdjęć i video z drona"
-      ],
-      "summary_expectations": [
-        "doskonałe wyczucie sociali i bycie na bieżąco z tym, jak zmieniają się formaty i zachowania odbiorców",
-        "samodzielność w realizacji startegii kontentowych - przejście od pomysłu do publikacji",
-        "umiejętność kunsztownego/miłego dla oka odbiorcy fotografowania i nagrywania telefonem oraz aparatem + sprawny montaż video"
-      ],
-      "summary_offers": [
-        "Ciekawą rolę z realnym poczuciem wpływu i możliwościami rozwoju",
-        "Dla naszego Klienta - międzynarodowej firmy z ugruntowaną i mocną marką w sektorze usług premium, szukamy osoby, która \"pływa jak ryba w wodzie\" w głębinach social mediów i lubi to!",
-        "Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: content, social media",
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-06T06:52:31.617475+00:00"
-    },
-    {
-      "id": "e9bac4e2110c4f31",
-      "title": "Specjalista / Specjalistka ds. social media i grafiki",
-      "company": "FULLPER COSMETIC sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-social-media-i-grafiki-warszawa-aleja-krakowska-202,oferta,1005161558",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-12T11:40:59.717Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie angażujących materiałów wideo (Reels, TikTok ,Instagram) oraz występowanie przed kamerą jako twarz marek; Prowadzenie i zarządzanie kontami w mediach społecznościowych dla każdego z naszych sklepów stacjonarnych i marek; Prowadzenie i rozwój profili w mediach społecznościowych (Instagram, TikTok, Facebook) dla 3 różnych marek na rynku polskim i amerykańskim | What they expect: Bardzo dobra znajomość języka polskiego oraz angielskiego (warunek konieczny do obsługi rynku USA); Umiejętność tworzenia i montażu krótkich formatów wideo (np; Podstawowa znajomość programów graficznych (np | What they offer: Rozwój międzynarodowy; Benefity; elastyczny czas pracy",
-      "summary_tasks": [
-        "Tworzenie angażujących materiałów wideo (Reels, TikTok ,Instagram) oraz występowanie przed kamerą jako twarz marek",
-        "Prowadzenie i zarządzanie kontami w mediach społecznościowych dla każdego z naszych sklepów stacjonarnych i marek",
-        "Prowadzenie i rozwój profili w mediach społecznościowych (Instagram, TikTok, Facebook) dla 3 różnych marek na rynku polskim i amerykańskim"
-      ],
-      "summary_expectations": [
-        "Bardzo dobra znajomość języka polskiego oraz angielskiego (warunek konieczny do obsługi rynku USA)",
-        "Umiejętność tworzenia i montażu krótkich formatów wideo (np",
-        "Podstawowa znajomość programów graficznych (np"
-      ],
-      "summary_offers": [
-        "Rozwój międzynarodowy",
-        "Benefity",
-        "elastyczny czas pracy"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: digital marketing, social media",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-13T06:57:31.430102+00:00"
-    },
-    {
-      "id": "90ba79810f9afad2",
-      "title": "Specjalista / Specjalistka ds. Social Media i komunikacji",
-      "company": "METEO sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-social-media-i-komunikacji-warszawa-tyniecka-15-17,oferta,1005141107",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-06T15:15:30.56Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: planowanie i prowadzenie kampanii komunikacyjnych oraz social media; systematyczne prowadzenie kanałów społecznościowych, w szczególności LinkedIna, a także pozostałych kanałów dopasowanych do odbiorców; tworzenie angażujących treści we współpracy z naszymi ekspertami | What they expect: ma doświadczenie w samodzielnym prowadzeniu komunikacji marki lub projektów; potrafi połączyć strategię z regularną, sprawną realizacją; bardzo dobrze pisze po polsku, a język angielski wykorzystuje swobodnie w pracy | What they offer: współpracę B2B i nie tylko, zdalnie i zadaniowo, w wymiarze ok; premię kwartalną zależną od efektów i realizacji wspólnie ustalonych celów; Naszym atutem jest elastyczność i szybkość działania",
-      "summary_tasks": [
-        "planowanie i prowadzenie kampanii komunikacyjnych oraz social media",
-        "systematyczne prowadzenie kanałów społecznościowych, w szczególności LinkedIna, a także pozostałych kanałów dopasowanych do odbiorców",
-        "tworzenie angażujących treści we współpracy z naszymi ekspertami"
-      ],
-      "summary_expectations": [
-        "ma doświadczenie w samodzielnym prowadzeniu komunikacji marki lub projektów",
-        "potrafi połączyć strategię z regularną, sprawną realizacją",
-        "bardzo dobrze pisze po polsku, a język angielski wykorzystuje swobodnie w pracy"
-      ],
-      "summary_offers": [
-        "współpracę B2B i nie tylko, zdalnie i zadaniowo, w wymiarze ok",
-        "premię kwartalną zależną od efektów i realizacji wspólnie ustalonych celów",
-        "Naszym atutem jest elastyczność i szybkość działania"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: social media",
-          "B2B / CRM operations: b2b, partner",
-          "Python & automation: automatyzacja, integracja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-07T06:55:15.162358+00:00"
-    },
-    {
-      "id": "81968a57017d1bad",
-      "title": "Product Copywriter (E-commerce) k/m",
-      "company": "4FIZJO GROUP SP. Z O.O.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/product-copywriter-e-commerce-k-m-warszawa-daimlera-2,oferta,1005189229",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-29T13:26:57.243Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie angażujących, unikalnych opisów produktów na stronę www oraz platformy marketplace; Optymalizacja treści pod kątem SEO (tworzenie nagłówków, dobór fraz kluczowych i long-tail); Ścisła współpraca z działem graficznym, produktowym oraz obsługą klienta w celu ciągłego ulepszania kart produktów w oparciu o feedback kupujących | What they expect: Lekkie pióro, nienaganna polszczyzna oraz dbałość o zasady stylistyki i interpunkcji; Zmysł marketingowo-sprzedażowy - umiejętność pisania językiem korzyści; Praktyczna znajomość podstaw SEO oraz specyfiki sprzedaży w e-commerce | What they offer: Elastyczne godziny pracy (rozpoczynamy pomiędzy 7.00 a 9.00); Model pracy hybrydowej (elastyczne łączenie pracy zdalnej, biura i wizyt w magazynie) po okresie próbnym; Dofinansowanie karty Multisport i opieki medycznej Medicover",
-      "summary_tasks": [
-        "Tworzenie angażujących, unikalnych opisów produktów na stronę www oraz platformy marketplace",
-        "Optymalizacja treści pod kątem SEO (tworzenie nagłówków, dobór fraz kluczowych i long-tail)",
-        "Ścisła współpraca z działem graficznym, produktowym oraz obsługą klienta w celu ciągłego ulepszania kart produktów w oparciu o feedback kupujących"
-      ],
-      "summary_expectations": [
-        "Lekkie pióro, nienaganna polszczyzna oraz dbałość o zasady stylistyki i interpunkcji",
-        "Zmysł marketingowo-sprzedażowy - umiejętność pisania językiem korzyści",
-        "Praktyczna znajomość podstaw SEO oraz specyfiki sprzedaży w e-commerce"
-      ],
-      "summary_offers": [
-        "Elastyczne godziny pracy (rozpoczynamy pomiędzy 7.00 a 9.00)",
-        "Model pracy hybrydowej (elastyczne łączenie pracy zdalnej, biura i wizyt w magazynie) po okresie próbnym",
-        "Dofinansowanie karty Multisport i opieki medycznej Medicover"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
-    },
-    {
       "id": "185d38ad8d8bf587",
       "title": "Marketing / Specjalista ds. ofert handlowych i marketingu internetowego",
       "company": "HESTIA PODOLAK sp.k.",
@@ -4990,412 +4683,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
-    },
-    {
-      "id": "e368004427c0af49",
-      "title": "Copywriter SEO",
-      "company": "Euro Office",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/copywriter-seo-warszawa,oferta,1005167365",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-19T12:49:41.837Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: pisanie artykułów na blogi firmowe o różnej tematyce; tworzenie tekstów na potrzeby pozycjonowania; przygotowywanie opisów na strony internetowe | What they expect: umiejętność i łatwość tworzenia tekstów; bardzo dobra znajomość języka polskiego (w tym: zasad ortografii, stylistyki i interpunkcji); umiejętność selekcjonowania informacji oraz wykorzystywania ich przy tworzeniu treści | What they offer: pracę hybrydową w nowoczesnym biurze na obrzeżach Warszawy; pracę na podstawie umowy o pracę; elastyczne godziny pracy od poniedziałku do piątku z możliwością częściowej pracy zdalnej",
-      "summary_tasks": [
-        "pisanie artykułów na blogi firmowe o różnej tematyce",
-        "tworzenie tekstów na potrzeby pozycjonowania",
-        "przygotowywanie opisów na strony internetowe"
-      ],
-      "summary_expectations": [
-        "umiejętność i łatwość tworzenia tekstów",
-        "bardzo dobra znajomość języka polskiego (w tym: zasad ortografii, stylistyki i interpunkcji)",
-        "umiejętność selekcjonowania informacji oraz wykorzystywania ich przy tworzeniu treści"
-      ],
-      "summary_offers": [
-        "pracę hybrydową w nowoczesnym biurze na obrzeżach Warszawy",
-        "pracę na podstawie umowy o pracę",
-        "elastyczne godziny pracy od poniedziałku do piątku z możliwością częściowej pracy zdalnej"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-20T06:50:22.034110+00:00"
-    },
-    {
-      "id": "702e479a407c24ae",
-      "title": "Redaktor projektów contentowych",
-      "company": "XYZ MEDIA GROUP SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/redaktor-projektow-contentowych-warszawa-wspolna-61,oferta,1005161509",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-15T17:11:07.657Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Będziesz prowadzić projekty od pomysłu, przez research i realizację, aż po publikację; Czym będziesz się zajmować; Pisaniem artykułów, reportaży i wywiadów oraz tworzeniem cykli tematycznych z różnych branż | What they expect: Masz doświadczenie dziennikarskie w mediach elektronicznych i możesz pokazać portfolio tekstów oraz wywiadów; Swobodnie prowadzisz rozmowy na żywo, panele i debaty; Pracujesz z wideo, a krótkie formaty (TikTok, Instagram, YouTube Shorts) nie są Ci obce | What they offer: Realny wpływ na rozwój oferty branded content i kształt nowego działu; Rozwój kompetencji w zakresie wideo, nowych formatów medialnych i content marketingu; Prywatną opiekę medyczną",
-      "summary_tasks": [
-        "Będziesz prowadzić projekty od pomysłu, przez research i realizację, aż po publikację",
-        "Czym będziesz się zajmować",
-        "Pisaniem artykułów, reportaży i wywiadów oraz tworzeniem cykli tematycznych z różnych branż"
-      ],
-      "summary_expectations": [
-        "Masz doświadczenie dziennikarskie w mediach elektronicznych i możesz pokazać portfolio tekstów oraz wywiadów",
-        "Swobodnie prowadzisz rozmowy na żywo, panele i debaty",
-        "Pracujesz z wideo, a krótkie formaty (TikTok, Instagram, YouTube Shorts) nie są Ci obce"
-      ],
-      "summary_offers": [
-        "Realny wpływ na rozwój oferty branded content i kształt nowego działu",
-        "Rozwój kompetencji w zakresie wideo, nowych formatów medialnych i content marketingu",
-        "Prywatną opiekę medyczną"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: content",
-          "B2B / CRM operations: b2b, partner",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-16T06:52:48.607453+00:00"
-    },
-    {
-      "id": "0caf61e72e717429",
-      "title": "Specjalista /-ka ds. Obsługi Klienta (e-commerce)",
-      "company": "4FIZJO GROUP SP. Z O.O.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ka-ds-obslugi-klienta-e-commerce-warszawa-daimlera-2,oferta,1005177632",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-23T12:48:44.947Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa klientów (e-mail, czat) oraz zamówień B2B, B2C i marketplace (m.in; Rozpatrywanie zwrotów, reklamacji i koordynacja zgłoszeń serwisowych; Ścisła współpraca z magazynem i logistyką | What they expect: Doświadczenie w obsłudze klienta lub w branży e-commerce; Biegła znajomośc języka polskiego (warunek konieczny); Swoboda w obsłudze komputera i systemów online | What they offer: Wynagrodzenie: od 5300 zł brutto na start + comiesięczne premie; Elastyczność: elastyczny czas pracy (pn-pt 7.00-15.00 lub 8.00-16.00) i brak dress code'u; Benefity: prywatna opieka medyczna, dofinansowanie sportu, \"wczasy pod gruszą\" i zniżki na nasze produkty",
-      "summary_tasks": [
-        "Obsługa klientów (e-mail, czat) oraz zamówień B2B, B2C i marketplace (m.in",
-        "Rozpatrywanie zwrotów, reklamacji i koordynacja zgłoszeń serwisowych",
-        "Ścisła współpraca z magazynem i logistyką"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w obsłudze klienta lub w branży e-commerce",
-        "Biegła znajomośc języka polskiego (warunek konieczny)",
-        "Swoboda w obsłudze komputera i systemów online"
-      ],
-      "summary_offers": [
-        "Wynagrodzenie: od 5300 zł brutto na start + comiesięczne premie",
-        "Elastyczność: elastyczny czas pracy (pn-pt 7.00-15.00 lub 8.00-16.00) i brak dress code'u",
-        "Benefity: prywatna opieka medyczna, dofinansowanie sportu, \"wczasy pod gruszą\" i zniżki na nasze produkty"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
-    },
-    {
-      "id": "1a029a99f448b1bc",
-      "title": "Sprzedawca e-commerce - biuro obsługi klienta",
-      "company": "F.H.U. FIS-KOMP ZENON WIĘCIERZEWSKI",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/sprzedawca-e-commerce-biuro-obslugi-klienta-warszawa-wolska-84-86,oferta,1005167787",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-19T14:11:20.41Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa sklepu internetowego; Obsługa klientów i zleceń serwisowych; Pracowitość, odpowiedzialność, obowiązkowość i terminowość | What they expect: Znajomość programów e-commerce -mile widziana znajomość platformy sprzedażowej IdoSell; Znajomość działań social media, e-mail marketing - podstawy optymalizacji pod wyszukiwarki; Znajomość procesu \"picking, packing, shipping\" (kompletowanie, pakowanie, wysyłka) oraz obsługa reklamacji",
-      "summary_tasks": [
-        "Obsługa sklepu internetowego",
-        "Obsługa klientów i zleceń serwisowych",
-        "Pracowitość, odpowiedzialność, obowiązkowość i terminowość"
-      ],
-      "summary_expectations": [
-        "Znajomość programów e-commerce -mile widziana znajomość platformy sprzedażowej IdoSell",
-        "Znajomość działań social media, e-mail marketing - podstawy optymalizacji pod wyszukiwarki",
-        "Znajomość procesu \"picking, packing, shipping\" (kompletowanie, pakowanie, wysyłka) oraz obsługa reklamacji"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: social media",
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-20T06:50:22.034110+00:00"
-    },
-    {
-      "id": "28e2b559a72d333c",
-      "title": "Grafik / Graficzka / Content Designer",
-      "company": "SypialniaPlus",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/grafik-graficzka-content-designer-warszawa-plowiecka-67,oferta,1005169717",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-20T11:48:17.613Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie grafik i krótkich form wideo na Facebooka i Instagrama; Przygotowywanie materiałów do sklepu internetowego: packshotów, wideo produktowych i aranżacji wnętrz; Opracowywanie koncepcji kreatywnych w ścisłej współpracy z działem e-commerce i marketingu | What they expect: Duże wyczucie estetyki: kompozycja, kolor i typografia; Kreatywność, a przy tym logiczne myślenie; Umiejętność montażu w Premiere Pro i/lub After Effects | What they offer: Benefity; prywatna opieka medyczna; ubezpieczenie na życie",
-      "summary_tasks": [
-        "Tworzenie grafik i krótkich form wideo na Facebooka i Instagrama",
-        "Przygotowywanie materiałów do sklepu internetowego: packshotów, wideo produktowych i aranżacji wnętrz",
-        "Opracowywanie koncepcji kreatywnych w ścisłej współpracy z działem e-commerce i marketingu"
-      ],
-      "summary_expectations": [
-        "Duże wyczucie estetyki: kompozycja, kolor i typografia",
-        "Kreatywność, a przy tym logiczne myślenie",
-        "Umiejętność montażu w Premiere Pro i/lub After Effects"
-      ],
-      "summary_offers": [
-        "Benefity",
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "Web platform (Supabase, PostgreSQL, WordPress): html, css",
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "758956cb38c3699f",
-      "title": "Specjalista procesów obsługi klienta (K/M/X)",
-      "company": "E.ON Polska Operations Sp. z o.o",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-procesow-obslugi-klienta-k-m-x-warszawa-jana-iii-sobieskiego-89,oferta,1005134808",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-04T22:00:00Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: kompleksowa obsługa korespondencji od klientów i redagowanie odpowiedzi; wprowadzanie danych oraz zmian do systemu SAP i/lub CRM; weryfikacja i analiza poprawności dokumentów | What they expect: minimum rok doświadczenia w obsłudze klienta; umiejętność pracy w zespole; dobra znajomość MS Office | What they offer: system premiowy oparty o jasne i mierzalne cele – premie rozliczamy co pół roku; opiekę medyczną w LUX MED – dostęp do lekarzy i badań dla Ciebie, z możliwością rozszerzenia pakietu na bliskich; możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach",
-      "summary_tasks": [
-        "kompleksowa obsługa korespondencji od klientów i redagowanie odpowiedzi",
-        "wprowadzanie danych oraz zmian do systemu SAP i/lub CRM",
-        "weryfikacja i analiza poprawności dokumentów"
-      ],
-      "summary_expectations": [
-        "minimum rok doświadczenia w obsłudze klienta",
-        "umiejętność pracy w zespole",
-        "dobra znajomość MS Office"
-      ],
-      "summary_offers": [
-        "system premiowy oparty o jasne i mierzalne cele – premie rozliczamy co pół roku",
-        "opiekę medyczną w LUX MED – dostęp do lekarzy i badań dla Ciebie, z możliwością rozszerzenia pakietu na bliskich",
-        "możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: crm, operations",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-05T06:48:21.138387+00:00"
-    },
-    {
-      "id": "daab058d45e0b6d9",
-      "title": "CMC Analytics Engineer",
-      "company": "SIX Global Services",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/cmc-analytics-engineer-warszawa-przyokopowa-26,oferta,1005175146",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-22T12:54:05.627Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Build and maintain feature pipelines for marketing mix modelling, attribution and personalization models; Own the semantic layer and certified datasets serving the CMC reporting suite and self-service reporting; implement data-quality monitors against the team's governance standards | What they expect: Production experience on Databricks (Unity Catalog, workflows) or a comparable lakehouse platform; Experience building semantic models and certified datasets; Ideally, familiarity with marketing and CRM domain data — campaigns, funnels, opportunity data | What they offer: Access to professional training platforms, technical certifications, conferences, and continuous learning resources; sharing the costs of professional training & courses; remote work opportunities",
-      "summary_tasks": [
-        "Build and maintain feature pipelines for marketing mix modelling, attribution and personalization models",
-        "Own the semantic layer and certified datasets serving the CMC reporting suite and self-service reporting",
-        "implement data-quality monitors against the team's governance standards"
-      ],
-      "summary_expectations": [
-        "Production experience on Databricks (Unity Catalog, workflows) or a comparable lakehouse platform",
-        "Experience building semantic models and certified datasets",
-        "Ideally, familiarity with marketing and CRM domain data — campaigns, funnels, opportunity data"
-      ],
-      "summary_offers": [
-        "Access to professional training platforms, technical certifications, conferences, and continuous learning resources",
-        "sharing the costs of professional training & courses",
-        "remote work opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, reporting, analytics",
-          "Python & automation: python, automation, workflow",
-          "B2B / CRM operations: crm, operations, partner"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
-    },
-    {
-      "id": "7c2317093ed802fa",
-      "title": "Konsultant Prawny i Specjalista ds. Operacyjnych (Sprzedaż i Wdrażanie Klientów)",
-      "company": "LEGAL WINGS sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/konsultant-prawny-i-specjalista-ds-operacyjnych-sprzedaz-i-wdrazanie-klientow-warszawa-zurawia-32-34,oferta,1005171441",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-21T09:21:28.06Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Obsługa przychodzących zapytań internetowych, połączeń telefonicznych oraz klientów odwiedzających biuro; Zarządzanie lejkiem sprzedażowym (Pipeline Ownership); Zarządzanie naszym wewnętrznym systemem CRM | What they expect: Wiedza z zakresu prawa i imigracji (Kluczowe): Udokumentowane doświadczenie (minimum 1 rok) w kancelarii prawnej, usługach korporacyjnych lub bezpośredniej pracy przy legalizacji pobytu i zatrudnienia cudzoziemców w Polsce; Języki: Biegła znajomość języka angielskiego (minimum B2/C1) jest obowiązkowa; Znajomość języka ukraińskiego/rosyjskiego w stopniu komunikatywnym będzie ogromnym atutem",
-      "summary_tasks": [
-        "Obsługa przychodzących zapytań internetowych, połączeń telefonicznych oraz klientów odwiedzających biuro",
-        "Zarządzanie lejkiem sprzedażowym (Pipeline Ownership)",
-        "Zarządzanie naszym wewnętrznym systemem CRM"
-      ],
-      "summary_expectations": [
-        "Wiedza z zakresu prawa i imigracji (Kluczowe): Udokumentowane doświadczenie (minimum 1 rok) w kancelarii prawnej, usługach korporacyjnych lub bezpośredniej pracy przy legalizacji pobytu i zatrudnienia cudzoziemców w Polsce",
-        "Języki: Biegła znajomość języka angielskiego (minimum B2/C1) jest obowiązkowa",
-        "Znajomość języka ukraińskiego/rosyjskiego w stopniu komunikatywnym będzie ogromnym atutem"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: b2b, crm, operations",
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
       "id": "37aa061d01ffa373",
@@ -5508,52 +4795,55 @@
       "first_found_at": "2026-10-23T06:49:48.320742+00:00"
     },
     {
-      "id": "7b49727a5d36670d",
-      "title": "Specjalista ds. CRM",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/modivo-platform-specjalista-ds-crm-warszawa-marketing-ecommerce",
+      "id": "21883eb29b9128f2",
+      "title": "Koordynator / Koordynatorka ds. Digital Marketingu",
+      "company": "ASISTWORK Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/koordynator-koordynatorka-ds-digital-marketingu-warszawa,oferta,1005149574",
       "apply_url": "",
-      "source": "rocketjobs.pl",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
+      "work_mode": "Office",
+      "seniority": "",
       "salary": "",
-      "published_at": "",
+      "published_at": "2026-10-09T14:02:11.61Z",
       "fit_score": 57,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 2,
-      "summary": "What you'll do: Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia; Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów; Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych | What they expect: Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku; Znajomość narzędzi marketing automation; mile widziana znajomość systemu Synerise",
+      "summary": "What you'll do: Koordynowanie bieżącej pracy zespołu: delegowanie zadań, ustalanie priorytetów i monitorowanie postępów; Planowanie i prowadzenie projektów digital marketingowych, od przygotowania założeń po wdrożenie i ocenę efektów; Koordynowanie działań w obszarach performance marketingu, SEO i social media | What they expect: Minimum 2 lata doświadczenia w digital marketingu; Doświadczenie w koordynowaniu pracy zespołu lub projektów oraz umiejętność delegowania zadań i ustalania priorytetów; Praktyczna znajomość performance marketingu, SEO i social media pozwalająca na koordynowanie pracy specjalistów w tych obszarach | What they offer: Możliwość realnego wpływu na rozwój działań marketingowych; Samodzielność i odpowiedzialność za prowadzone projekty; Możliwość dołączenia do ubezpieczenia na życie",
       "summary_tasks": [
-        "Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia",
-        "Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów",
-        "Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych"
+        "Koordynowanie bieżącej pracy zespołu: delegowanie zadań, ustalanie priorytetów i monitorowanie postępów",
+        "Planowanie i prowadzenie projektów digital marketingowych, od przygotowania założeń po wdrożenie i ocenę efektów",
+        "Koordynowanie działań w obszarach performance marketingu, SEO i social media"
       ],
       "summary_expectations": [
-        "Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku",
-        "Znajomość narzędzi marketing automation",
-        "mile widziana znajomość systemu Synerise"
+        "Minimum 2 lata doświadczenia w digital marketingu",
+        "Doświadczenie w koordynowaniu pracy zespołu lub projektów oraz umiejętność delegowania zadań i ustalania priorytetów",
+        "Praktyczna znajomość performance marketingu, SEO i social media pozwalająca na koordynowanie pracy specjalistów w tych obszarach"
       ],
-      "summary_offers": [],
+      "summary_offers": [
+        "Możliwość realnego wpływu na rozwój działań marketingowych",
+        "Samodzielność i odpowiedzialność za prowadzone projekty",
+        "Możliwość dołączenia do ubezpieczenia na życie"
+      ],
       "required_skills": [],
       "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
+        "direction": "Digital Marketing / SEO / Website",
         "evidence": "work",
         "matches": [
-          "B2B / CRM operations: crm",
-          "Python & automation: automation"
+          "SEO / digital marketing: seo, google search console, google analytics",
+          "Python & automation: skrypt"
         ],
         "concerns": [
           "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
+          "Asks for 2 years"
         ],
         "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Data & Operations"
+        "suggested_cv": "Marketing, Web & SEO"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
+      "first_found_at": "2026-10-10T06:54:38.193347+00:00"
     },
     {
       "id": "64817319730d79f7",
@@ -5607,57 +4897,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00"
-    },
-    {
-      "id": "21883eb29b9128f2",
-      "title": "Koordynator / Koordynatorka ds. Digital Marketingu",
-      "company": "ASISTWORK Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/koordynator-koordynatorka-ds-digital-marketingu-warszawa,oferta,1005149574",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-09T14:02:11.61Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Koordynowanie bieżącej pracy zespołu: delegowanie zadań, ustalanie priorytetów i monitorowanie postępów; Planowanie i prowadzenie projektów digital marketingowych, od przygotowania założeń po wdrożenie i ocenę efektów; Koordynowanie działań w obszarach performance marketingu, SEO i social media | What they expect: Minimum 2 lata doświadczenia w digital marketingu; Doświadczenie w koordynowaniu pracy zespołu lub projektów oraz umiejętność delegowania zadań i ustalania priorytetów; Praktyczna znajomość performance marketingu, SEO i social media pozwalająca na koordynowanie pracy specjalistów w tych obszarach | What they offer: Możliwość realnego wpływu na rozwój działań marketingowych; Samodzielność i odpowiedzialność za prowadzone projekty; Możliwość dołączenia do ubezpieczenia na życie",
-      "summary_tasks": [
-        "Koordynowanie bieżącej pracy zespołu: delegowanie zadań, ustalanie priorytetów i monitorowanie postępów",
-        "Planowanie i prowadzenie projektów digital marketingowych, od przygotowania założeń po wdrożenie i ocenę efektów",
-        "Koordynowanie działań w obszarach performance marketingu, SEO i social media"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w digital marketingu",
-        "Doświadczenie w koordynowaniu pracy zespołu lub projektów oraz umiejętność delegowania zadań i ustalania priorytetów",
-        "Praktyczna znajomość performance marketingu, SEO i social media pozwalająca na koordynowanie pracy specjalistów w tych obszarach"
-      ],
-      "summary_offers": [
-        "Możliwość realnego wpływu na rozwój działań marketingowych",
-        "Samodzielność i odpowiedzialność za prowadzone projekty",
-        "Możliwość dołączenia do ubezpieczenia na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, google search console, google analytics",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-10T06:54:38.193347+00:00"
     },
     {
       "id": "ac6520be841d1b49",
@@ -5968,532 +5207,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-18T06:53:32.120872+00:00"
-    },
-    {
-      "id": "c83f15b6c845b203",
-      "title": "E-mail Marketing & Marketing Automation Specialist (Klaviyo / Newsletter / SMS / Copywriting / Shopify / E-commerce)",
-      "company": "PALATINE sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/e-mail-marketing-marketing-automation-specialist-klaviyo-newsletter-sms-copywrit-warszawa,oferta,1005192850",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-31T00:51:57.137Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Prowadzenie całego e-mail marketingu i marketing automation sklepu (także SMS): strategia, kalendarz, wysyłki; Planowanie i wysyłka kampanii i newsletterów: promocje, nowości, święta, Black Friday; Pisanie treści maili (także z pomocą narzędzi AI) i współpraca przy grafikach albo samodzielne projektowanie | What they expect: 2 lata doświadczenia w e-mail marketingu lub marketing automation dla sklepów e-commerce; Bardzo dobra znajomość Klaviyo (flowy, segmenty, testy A/B, raporty) lub podobnego narzędzia; Doświadczenie z integracją z Shopify | What they offer: WYNAGRODZENIE: STAŁA PODSTAWA + PREMIA PROCENTOWA OD PRZYCHODU GENEROWANEGO PRZEZ E-MAIL MARKETING; IM LEPSZE WYNIKI MAILI, TYM WIĘCEJ ZARABIASZ; Tryb pracy: Zdalny , elastyczne godziny",
-      "summary_tasks": [
-        "Prowadzenie całego e-mail marketingu i marketing automation sklepu (także SMS): strategia, kalendarz, wysyłki",
-        "Planowanie i wysyłka kampanii i newsletterów: promocje, nowości, święta, Black Friday",
-        "Pisanie treści maili (także z pomocą narzędzi AI) i współpraca przy grafikach albo samodzielne projektowanie"
-      ],
-      "summary_expectations": [
-        "2 lata doświadczenia w e-mail marketingu lub marketing automation dla sklepów e-commerce",
-        "Bardzo dobra znajomość Klaviyo (flowy, segmenty, testy A/B, raporty) lub podobnego narzędzia",
-        "Doświadczenie z integracją z Shopify"
-      ],
-      "summary_offers": [
-        "WYNAGRODZENIE: STAŁA PODSTAWA + PREMIA PROCENTOWA OD PRZYCHODU GENEROWANEGO PRZEZ E-MAIL MARKETING",
-        "IM LEPSZE WYNIKI MAILI, TYM WIĘCEJ ZARABIASZ",
-        "Tryb pracy: Zdalny , elastyczne godziny"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: b2b",
-          "Python & automation: automation, automatyzacja, integracja",
-          "SEO / digital marketing: seo"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
-    },
-    {
-      "id": "1e5558bd3347377f",
-      "title": "Projektant Instalacje Chłodzenia / Data Center / AI Infrastructure (m/k)",
-      "company": "POLONEZ PLUS Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/projektant-instalacje-chlodzenia-data-center-ai-infrastructure-m-k-warszawa,oferta,1005177059",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-12T13:17:45.343Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Dobór urządzeń i komponentów instalacji, w tym wymienników ciepła, pomp, zbiorników, filtrów, armatury oraz wyposażenia pomocniczego; Tworzenie zestawień materiałowych, przedmiarów oraz wstępnych kosztorysów projektowych; Współpraca z zespołami automatyki, logistyki, produkcji, zakupów i sprzedaży przy realizacji projektów krajowych i międzynarodowych | What they expect: Minimum 2-letnie doświadczenie na podobnym stanowisku albo w zbliżonej roli technicznej; Dobra znajomość programu Autodesk Plant 3D; Znajomość języka angielskiego umożliwiająca swobodną komunikację techniczną oraz pracę z dokumentacją projektową | What they offer: Rozwój kompetencji technicznych i projektowych poprzez udział w projektach R&D, wizytach technicznych oraz uruchomieniach instalacji u klientów; Jasną możliwość rozwoju wraz z organizacją - zarówno w kierunku eksperckim, jak i w stronę samodzielnego prowadzenia projektów, koordynowania zespołów lub rozwoju produktów; Jako Generalny Wykonawca (M&E) oferujemy pełne wsparcie inżynierskie, precyzyjnie dopasowane do indywidualnych wymagań inwestora",
-      "summary_tasks": [
-        "Dobór urządzeń i komponentów instalacji, w tym wymienników ciepła, pomp, zbiorników, filtrów, armatury oraz wyposażenia pomocniczego",
-        "Tworzenie zestawień materiałowych, przedmiarów oraz wstępnych kosztorysów projektowych",
-        "Współpraca z zespołami automatyki, logistyki, produkcji, zakupów i sprzedaży przy realizacji projektów krajowych i międzynarodowych"
-      ],
-      "summary_expectations": [
-        "Minimum 2-letnie doświadczenie na podobnym stanowisku albo w zbliżonej roli technicznej",
-        "Dobra znajomość programu Autodesk Plant 3D",
-        "Znajomość języka angielskiego umożliwiająca swobodną komunikację techniczną oraz pracę z dokumentacją projektową"
-      ],
-      "summary_offers": [
-        "Rozwój kompetencji technicznych i projektowych poprzez udział w projektach R&D, wizytach technicznych oraz uruchomieniach instalacji u klientów",
-        "Jasną możliwość rozwoju wraz z organizacją - zarówno w kierunku eksperckim, jak i w stronę samodzielnego prowadzenia projektów, koordynowania zespołów lub rozwoju produktów",
-        "Jako Generalny Wykonawca (M&E) oferujemy pełne wsparcie inżynierskie, precyzyjnie dopasowane do indywidualnych wymagań inwestora"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: infrastructure",
-          "Linux / Git: https",
-          "Python & automation: skrypt",
-          "B2B / CRM operations: b2b, partner"
-        ],
-        "concerns": [
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
-    },
-    {
-      "id": "9abd8fd3228f8c01",
-      "title": "Specjalist(k)a ds. Social Media i Contentu",
-      "company": "EXORIGO UPOS S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalist-k-a-ds-social-media-i-contentu-warszawa-skierniewicka-10a,oferta,1005170998",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-21T07:31:31.69Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Tworzenie wysokiej jakości treści B2B: artykułów eksperckich na bloga, case studies, opisów produktów i usług, e-booków, whitepaperów; Koordynacja tworzenia filmów video, webinarów czy podcastów z ekspertami firmy; Prowadzenie i rozwijanie profili firmy w mediach społecznościowych (z silnym naciskiem na LinkedIn i YouTube) | What they expect: „Lekkie pióro”, bezbłędna znajomość zasad języka polskiego i umiejętność dopasowania stylu do różnych grup docelowych; Bardzo dobra znajomość języka angielskiego pozwalająca na swobodne tworzenie i tłumaczenie tekstów; Doskonała znajomość specyfiki mediów społecznościowych, w szczególności platform LinkedIn i YouTube | What they offer: Elastyczny model pracy (praca hybrydowa z naszego biura w Warszawie); Pakiet benefitów (prywatna opieka medyczna, karta sportowa, ubezpieczenie na życie, dofinansowanie do nauki języka angielskiego); Wspiera również rozwój przedsiębiorstw i instytucji z takich sektorów jak bankowość, ubezpieczenia, produkcja czy administracja publiczna",
-      "summary_tasks": [
-        "Tworzenie wysokiej jakości treści B2B: artykułów eksperckich na bloga, case studies, opisów produktów i usług, e-booków, whitepaperów",
-        "Koordynacja tworzenia filmów video, webinarów czy podcastów z ekspertami firmy",
-        "Prowadzenie i rozwijanie profili firmy w mediach społecznościowych (z silnym naciskiem na LinkedIn i YouTube)"
-      ],
-      "summary_expectations": [
-        "„Lekkie pióro”, bezbłędna znajomość zasad języka polskiego i umiejętność dopasowania stylu do różnych grup docelowych",
-        "Bardzo dobra znajomość języka angielskiego pozwalająca na swobodne tworzenie i tłumaczenie tekstów",
-        "Doskonała znajomość specyfiki mediów społecznościowych, w szczególności platform LinkedIn i YouTube"
-      ],
-      "summary_offers": [
-        "Elastyczny model pracy (praca hybrydowa z naszego biura w Warszawie)",
-        "Pakiet benefitów (prywatna opieka medyczna, karta sportowa, ubezpieczenie na życie, dofinansowanie do nauki języka angielskiego)",
-        "Wspiera również rozwój przedsiębiorstw i instytucji z takich sektorów jak bankowość, ubezpieczenia, produkcja czy administracja publiczna"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content, social media",
-          "Web platform (Supabase, PostgreSQL, WordPress): wordpress",
-          "B2B / CRM operations: b2b, hubspot, partner",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-22T06:54:54.357396+00:00"
-    },
-    {
-      "id": "03292ae19005254f",
-      "title": "Analityk e-commerce",
-      "company": "HEBE Jeronimo Martins Drogerie i Farmacja",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-e-commerce-warszawa-jozefa-piusa-dziekonskiego-1,oferta,1005132045",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-02T08:13:53.487Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Monitorowanie najważniejszych metryk biznesowych i produktowych oraz przekładanie ich na praktyczne rekomendacje dla zespołów ecommerce, produktowych, contentu, marketingu; Współpraca z inżynierami danych i IT w celu rozwoju zaplecza danych, rozwiązań analitycznych, dokumentacji; Tworzenie przejrzystych dashboardów i raportów wspierających codzienne decyzje biznesowe | What they expect: Minimum 2 lata doświadczenia w obszarze analityki danych dla aplikacji mobilnej i web; Dobra znajomość SQL oraz doświadczenie w pracy z dużymi zbiorami danych ( | What they offer: Elastyczne godziny przyjścia do pracy (8:00 - 10:00); Prywatna opieka medyczna Medicover; Karta Multisport PLUS lub Medicover Sport",
-      "summary_tasks": [
-        "Monitorowanie najważniejszych metryk biznesowych i produktowych oraz przekładanie ich na praktyczne rekomendacje dla zespołów ecommerce, produktowych, contentu, marketingu",
-        "Współpraca z inżynierami danych i IT w celu rozwoju zaplecza danych, rozwiązań analitycznych, dokumentacji",
-        "Tworzenie przejrzystych dashboardów i raportów wspierających codzienne decyzje biznesowe"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w obszarze analityki danych dla aplikacji mobilnej i web",
-        "Dobra znajomość SQL oraz doświadczenie w pracy z dużymi zbiorami danych ("
-      ],
-      "summary_offers": [
-        "Elastyczne godziny przyjścia do pracy (8:00 - 10:00)",
-        "Prywatna opieka medyczna Medicover",
-        "Karta Multisport PLUS lub Medicover Sport"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: google analytics, content",
-          "Python & automation: data pipeline, automatyzacja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level",
-          "Mentions Tableau"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
-    },
-    {
-      "id": "b9ec00e220896b51",
-      "title": "E-commerce Analyst",
-      "company": "TUI Group",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/e-commerce-analyst-warszawa-woloska-22a,oferta,1005147086",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-09T07:17:46.707Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Wspierasz rozwój naszego serwisu internetowego i pomagasz mu rosnąć; Wdrażasz i utrzymujesz kody śledzące w Google Tag Manager, w tym w wariancie serwerowym (server-side GTM); Współpracujesz z zespołami E-commerce i Performance Marketing przy projektowaniu scenariuszy automatyzacji komunikacji | What they expect: 2 lat doświadczenia w analityce internetowej; Doświadczenia w pracy z Google Analytics 4 i Google Tag Managerem; Doświadczenia w projektowaniu i walidacji pomiaru (dokumentacja zdarzeń dla deweloperów, weryfikacja poprawności danych po wdrożeniu) | What they offer: Pracę hybrydową (3 dni w biurze, 2 dni zdalnie); Umowę o pracę z realnymi możliwościami rozwoju; Benefity",
-      "summary_tasks": [
-        "Wspierasz rozwój naszego serwisu internetowego i pomagasz mu rosnąć",
-        "Wdrażasz i utrzymujesz kody śledzące w Google Tag Manager, w tym w wariancie serwerowym (server-side GTM)",
-        "Współpracujesz z zespołami E-commerce i Performance Marketing przy projektowaniu scenariuszy automatyzacji komunikacji"
-      ],
-      "summary_expectations": [
-        "2 lat doświadczenia w analityce internetowej",
-        "Doświadczenia w pracy z Google Analytics 4 i Google Tag Managerem",
-        "Doświadczenia w projektowaniu i walidacji pomiaru (dokumentacja zdarzeń dla deweloperów, weryfikacja poprawności danych po wdrożeniu)"
-      ],
-      "summary_offers": [
-        "Pracę hybrydową (3 dni w biurze, 2 dni zdalnie)",
-        "Umowę o pracę z realnymi możliwościami rozwoju",
-        "Benefity"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, google analytics",
-          "Web platform (Supabase, PostgreSQL, WordPress): html",
-          "Python & automation: automatyzacja, integracja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level",
-          "Mentions JAVA"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-09T13:29:10.505687+00:00"
-    },
-    {
-      "id": "6e906fd23ec2a361",
-      "title": "Specjalista / Specjalistka ds. zakupów e-commerce",
-      "company": "SMYK sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-zakupow-e-commerce-warszawa-domaniewska-48,oferta,1005139994",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-06T11:08:06Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Planowanie sprzedaży, działań promocyjnych oraz zakupów w ramach powierzonej kategorii; Dobór dostawców oraz prowadzenie negocjacji warunków handlowych; Tworzenie oraz obsługa baz danych dostawców i produktów | What they expect: Minimum 2 lata doświadczenia na podobnym stanowisku (preferowana branża e-commerce); Średniozaawansowana znajomość pakietu MS Office (w szczególności programu Excel); Umiejętności analitycznego myślenia | What they offer: Udział w szkoleniach stacjonarnych, językowych i e-learningowych; Możliwość przystąpienia do ubezpieczenia grupowego; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Planowanie sprzedaży, działań promocyjnych oraz zakupów w ramach powierzonej kategorii",
-        "Dobór dostawców oraz prowadzenie negocjacji warunków handlowych",
-        "Tworzenie oraz obsługa baz danych dostawców i produktów"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia na podobnym stanowisku (preferowana branża e-commerce)",
-        "Średniozaawansowana znajomość pakietu MS Office (w szczególności programu Excel)",
-        "Umiejętności analitycznego myślenia"
-      ],
-      "summary_offers": [
-        "Udział w szkoleniach stacjonarnych, językowych i e-learningowych",
-        "Możliwość przystąpienia do ubezpieczenia grupowego",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo",
-          "Python & automation: integracja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-07T06:55:15.162358+00:00"
-    },
-    {
-      "id": "dd5ec753d229bdd2",
-      "title": "Marketing & Communication Specialist",
-      "company": "Empik S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/marketing-communication-specialist-warszawa-marszalkowska-104-122,oferta,1005158000",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-14T12:12:10.713Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Tworzenie i wysyłka komunikacji dotyczącej Empik Ads do reklamodawców; Przygotowywanie cyklicznych newsletterów, komunikatów w panelu sprzedawcy oraz mailingów automatycznych dla reklamodawców; Tworzenie i edycja poradników, artykułów do bazy wiedzy oraz prezentacji edukacyjnych (np | What they expect: Umiejętność pisania zwięzłych, angażujących tekstów B2B (emaile, poradniki, posty); 1-2 lata doświadczenia w marketingu/komunikacji: Np; Umiejętność dbania o szczegóły (brak literówek) oraz \"dowożenia\" powierzonych zadań na czas | What they offer: Możliwość rozwoju w strukturach firmy (awanse, transfery wewnętrzne); Model pracy hybrydowej (4 dni pracy z biura + 1 dzień w trybie home office), nasze biuro jest zlokalizowane w samym centrum miasta przy ul; Elastyczny czas rozpoczęcia pracy pomiędzy 7:00 a 10:00",
-      "summary_tasks": [
-        "Tworzenie i wysyłka komunikacji dotyczącej Empik Ads do reklamodawców",
-        "Przygotowywanie cyklicznych newsletterów, komunikatów w panelu sprzedawcy oraz mailingów automatycznych dla reklamodawców",
-        "Tworzenie i edycja poradników, artykułów do bazy wiedzy oraz prezentacji edukacyjnych (np"
-      ],
-      "summary_expectations": [
-        "Umiejętność pisania zwięzłych, angażujących tekstów B2B (emaile, poradniki, posty)",
-        "1-2 lata doświadczenia w marketingu/komunikacji: Np",
-        "Umiejętność dbania o szczegóły (brak literówek) oraz \"dowożenia\" powierzonych zadań na czas"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju w strukturach firmy (awanse, transfery wewnętrzne)",
-        "Model pracy hybrydowej (4 dni pracy z biura + 1 dzień w trybie home office), nasze biuro jest zlokalizowane w samym centrum miasta przy ul",
-        "Elastyczny czas rozpoczęcia pracy pomiędzy 7:00 a 10:00"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "Web platform (Supabase, PostgreSQL, WordPress): saas, wordpress, cms",
-          "B2B / CRM operations: b2b, crm, partner",
-          "Python & automation: automatyzacja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-15T06:50:45.248377+00:00"
-    },
-    {
-      "id": "fe9d568d9404eb60",
-      "title": "Specjalista ds. Komunikacji CRM (bankowość)",
-      "company": "ASTEK Polska",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-komunikacji-crm-bankowosc-warszawa,oferta,1005168969",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-20T09:24:31.187Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Tworzenie angażującej i spersonalizowanej komunikacji kierowanej do klientów; zarządzanie procesem komunikacyjnym dla wybranych obszarów produktowych; współpraca z partnerami biznesowymi, ekspertami produktowymi, prawnikami oraz agencjami reklamowymi | What they expect: minimum 2 lata doświadczenia w obszarze CRM, komunikacji marketingowej, customer experience lub pokrewnym; doświadczenie w tworzeniu komunikacji kierowanej do klientów; bardzo dobre umiejętności komunikacyjne i interpersonalne | What they offer: 100% praca zdalna; Benefity; Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności",
-      "summary_tasks": [
-        "Tworzenie angażującej i spersonalizowanej komunikacji kierowanej do klientów",
-        "zarządzanie procesem komunikacyjnym dla wybranych obszarów produktowych",
-        "współpraca z partnerami biznesowymi, ekspertami produktowymi, prawnikami oraz agencjami reklamowymi"
-      ],
-      "summary_expectations": [
-        "minimum 2 lata doświadczenia w obszarze CRM, komunikacji marketingowej, customer experience lub pokrewnym",
-        "doświadczenie w tworzeniu komunikacji kierowanej do klientów",
-        "bardzo dobre umiejętności komunikacyjne i interpersonalne"
-      ],
-      "summary_offers": [
-        "100% praca zdalna",
-        "Benefity",
-        "Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: crm, partner",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "4ab7303b3a11d683",
-      "title": "HubSpot & RevOps Specialist",
-      "company": "LeasingTeam Group",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/hubspot-revops-specialist-warszawa,oferta,1005154430",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-13T09:20:47.397Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Automatyzacje: workflow'y nurturing, sekwencje, przypisywanie ownerów; Zarządzanie bazą danych: higiena, deduplikacja, wzbogacanie, importy i standardy jakości danych; Zarządzanie zgodami marketingowymi i subskrypcjami, w tym podział na marketing i non-marketing contacts | What they expect: 2 lat doświadczenia jako administrator HubSpota (Marketing Hub i Sales Hub) w firmie B2B; Rozumienie procesu sprzedaży B2B i doświadczenie w projektowaniu lejków, lifecycle stages i lead scoringu; Doświadczenie w zarządzaniu bazą danych: importy, deduplikacja, higiena i wzbogacanie danych | What they offer: Realny wpływ na rozwój procesów marketingu i sprzedaży w grupie działającej na czterech rynkach; Pakiet benefitów wspierających zdrowie, rozwój i komfort życia; Szukamy osoby, która przejmie kompleksową odpowiedzialność za rozwój i administrację HubSpota w Grupie",
-      "summary_tasks": [
-        "Automatyzacje: workflow'y nurturing, sekwencje, przypisywanie ownerów",
-        "Zarządzanie bazą danych: higiena, deduplikacja, wzbogacanie, importy i standardy jakości danych",
-        "Zarządzanie zgodami marketingowymi i subskrypcjami, w tym podział na marketing i non-marketing contacts"
-      ],
-      "summary_expectations": [
-        "2 lat doświadczenia jako administrator HubSpota (Marketing Hub i Sales Hub) w firmie B2B",
-        "Rozumienie procesu sprzedaży B2B i doświadczenie w projektowaniu lejków, lifecycle stages i lead scoringu",
-        "Doświadczenie w zarządzaniu bazą danych: importy, deduplikacja, higiena i wzbogacanie danych"
-      ],
-      "summary_offers": [
-        "Realny wpływ na rozwój procesów marketingu i sprzedaży w grupie działającej na czterech rynkach",
-        "Pakiet benefitów wspierających zdrowie, rozwój i komfort życia",
-        "Szukamy osoby, która przejmie kompleksową odpowiedzialność za rozwój i administrację HubSpota w Grupie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: b2b, crm, hubspot",
-          "SQL / Excel / reporting: sql",
-          "Python & automation: api, workflow, automatyzacja"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-14T06:53:41.723663+00:00"
-    },
-    {
-      "id": "25a69b5b593f1178",
-      "title": "Analityk/-czka Łańcucha Dostaw [umowa na zastępstwo]",
-      "company": "Castorama Polska Sp. z o.o.",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/castorama-polska-sp-z-o-o--analityk--czka-lancucha-dostaw-umowa-na-zastepstwo--warszawa-logistyka-logistyka-5c71b10c",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "",
-      "fit_score": 56,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: W tej roli będziesz mieć realny wpływ na decyzje biznesowe związane z zapasem, prognozowaniem sprzedaży i efektywnością procesów w łańcuchu dostaw; Będziesz wspierać biznes w podejmowaniu decyzji poprzez analizę danych dotyczących dostępności produktów, poziomu zapasu i jakości prognoz sprzedaży; Zadania, które na Ciebie czekają: monitorowanie dostępności produktów, poziomu zapasu, rotacji | What they expect: Jakie kompetencje są potrzebne w tej roli?; umiejętność analizowania danych, dostrzegania zależności; Mile widziane: doświadczenie w obszarze planowania zapasu, prognozowania sprzedaży lub dostępności produktów, znajomość SAP F&R lub innych systemów wspierających planowanie i uzupełnianie zapasu, praktyczna znajomość Power BI, SAP BO lub podobnych narzędzi raportowych, doświadczenie we współpracy z działami Handlu, Logistyki lub Operacji",
-      "summary_tasks": [
-        "W tej roli będziesz mieć realny wpływ na decyzje biznesowe związane z zapasem, prognozowaniem sprzedaży i efektywnością procesów w łańcuchu dostaw",
-        "Będziesz wspierać biznes w podejmowaniu decyzji poprzez analizę danych dotyczących dostępności produktów, poziomu zapasu i jakości prognoz sprzedaży",
-        "Zadania, które na Ciebie czekają: monitorowanie dostępności produktów, poziomu zapasu, rotacji"
-      ],
-      "summary_expectations": [
-        "Jakie kompetencje są potrzebne w tej roli?",
-        "umiejętność analizowania danych, dostrzegania zależności",
-        "Mile widziane: doświadczenie w obszarze planowania zapasu, prognozowania sprzedaży lub dostępności produktów, znajomość SAP F&R lub innych systemów wspierających planowanie i uzupełnianie zapasu, praktyczna znajomość Power BI, SAP BO lub podobnych narzędzi raportowych, doświadczenie we współpracy z działami Handlu, Logistyki lub Operacji"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
     },
     {
       "id": "ea2729f768fade3a",
@@ -7107,269 +5820,53 @@
       "first_found_at": "2026-10-06T06:52:31.617475+00:00"
     },
     {
-      "id": "6f22c3a614c2e753",
-      "title": "Specjalista ds. Social Media (k/m)",
-      "company": "ASISTWORK Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-social-media-k-m-warszawa,oferta,1005161504",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
+      "id": "8a26859b3820461e",
+      "title": "Kondor+ Technical Consultant / Developer",
+      "company": "Capco",
+      "location": "Poland - Warsaw",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8245993",
+      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8245993",
+      "source": "greenhouse:capco",
+      "contract": "Unknown",
+      "work_mode": "Remote",
+      "seniority": "",
       "salary": "",
-      "published_at": "2026-10-15T16:43:22.773Z",
-      "fit_score": 54,
+      "published_at": "2026-10-22T10:42:15-04:00",
+      "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: Samodzielne prowadzenie i rozwijanie profili marek w social media; Tworzenie content planów oraz zapewnienie regularnej i spójnej komunikacji; Bieżąca komunikacja z odbiorcami oraz dbanie o sprawną obsługę kontaktu w kanałach social media | What they expect: Doświadczenie w samodzielnym prowadzeniu firmowych profili w social media; Bardzo dobra znajomość Facebooka, Meta Business Suite i Meta Ads Manager; Lekkie pióro i umiejętność dostosowania komunikacji do różnych grup odbiorców | What they offer: Współpraca z firmą o mocno ugruntowanej pozycji na rynku; Możliwość dołączenia do pakietu sportowego i prywatnej opieki medycznej na preferencyjnych warunkach; Samodzielność w działaniu i przestrzeń na realizację własnych pomysłów",
+      "summary": "What you'll do: Install, configure and upgrade Kondor+ components across project environments; Analyse and remediate Kondor+ custom developments affected by the target version; Configure technical components and services | What they expect: Develop/modify Kondor custom components where required; Required experience Hands-on Kondor+ technical/development experience; Kondor installation/configuration experience",
       "summary_tasks": [
-        "Samodzielne prowadzenie i rozwijanie profili marek w social media",
-        "Tworzenie content planów oraz zapewnienie regularnej i spójnej komunikacji",
-        "Bieżąca komunikacja z odbiorcami oraz dbanie o sprawną obsługę kontaktu w kanałach social media"
+        "Install, configure and upgrade Kondor+ components across project environments",
+        "Analyse and remediate Kondor+ custom developments affected by the target version",
+        "Configure technical components and services"
       ],
       "summary_expectations": [
-        "Doświadczenie w samodzielnym prowadzeniu firmowych profili w social media",
-        "Bardzo dobra znajomość Facebooka, Meta Business Suite i Meta Ads Manager",
-        "Lekkie pióro i umiejętność dostosowania komunikacji do różnych grup odbiorców"
+        "Develop/modify Kondor custom components where required",
+        "Required experience Hands-on Kondor+ technical/development experience",
+        "Kondor installation/configuration experience"
       ],
-      "summary_offers": [
-        "Współpraca z firmą o mocno ugruntowanej pozycji na rynku",
-        "Możliwość dołączenia do pakietu sportowego i prywatnej opieki medycznej na preferencyjnych warunkach",
-        "Samodzielność w działaniu i przestrzeń na realizację własnych pomysłów"
-      ],
+      "summary_offers": [],
       "required_skills": [],
       "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
         "matches": [
-          "SEO / digital marketing: seo, content, social media",
-          "Python & automation: skrypt"
+          "Python & automation: scripting",
+          "Linux / Git: linux",
+          "SQL / Excel / reporting: sql"
         ],
         "concerns": [
           "Ceiling for this direction",
-          "Listed as Mid/Regular level",
-          "Requires Paid advertising/PPC"
+          "Contract not confirmed yet",
+          "Not a junior role; CV has only project experience here"
         ],
-        "tier_reason": "Capped at 54: Requires Paid advertising/PPC.",
-        "suggested_cv": "Marketing, Web & SEO"
+        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
+        "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
-    },
-    {
-      "id": "f69af62a434039c1",
-      "title": "Specjalista / Specjalistka ds. social media",
-      "company": "Leroy Merlin Polska Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-social-media-warszawa-burakowska-14,oferta,1005136290",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-05T09:53:32.16Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Planowanie, konfiguracja i bieżąca optymalizacja kampanii płatnych w kanałach Social Media (Meta, TikTok, Pinterest, LinkedIn); Zarządzanie strukturą działań reklamowych oraz dbanie o ich efektywną architekturę w poszczególnych platformach; Dbanie o poprawność implementacji zdarzeń (eventów) i jakości danych pochodzących z platform Social Media | What they expect: Masz doświadczenie w planowaniu, prowadzeniu lub koordynowaniu płatnych kampanii w mediach społecznościowych; Posiadasz wysoko rozwinięte umiejętności analizy danych, wyciągania wniosków i rekomendowania działań zwiększających efektywność kampanii; Masz doświadczenie we współpracy z agencjami mediowymi lub domami mediowymi oraz umiejętność oceny i akceptacji mediaplanów | What they offer: Pracę w modelu hybrydowym (3 dni praca w biurze, 2 dni home office); Wynagrodzenie i premie: Twoje wynagrodzenie będzie składało się z podstawy z regularnymi rewizjami oraz premii kwartalnej zależnej od wyników; Kafeterię MyBenefit z możliwością wyboru spośród różnych kategorii (karta MultiSport, kino, teatr, vouchery do hoteli i wiele innych)",
-      "summary_tasks": [
-        "Planowanie, konfiguracja i bieżąca optymalizacja kampanii płatnych w kanałach Social Media (Meta, TikTok, Pinterest, LinkedIn)",
-        "Zarządzanie strukturą działań reklamowych oraz dbanie o ich efektywną architekturę w poszczególnych platformach",
-        "Dbanie o poprawność implementacji zdarzeń (eventów) i jakości danych pochodzących z platform Social Media"
-      ],
-      "summary_expectations": [
-        "Masz doświadczenie w planowaniu, prowadzeniu lub koordynowaniu płatnych kampanii w mediach społecznościowych",
-        "Posiadasz wysoko rozwinięte umiejętności analizy danych, wyciągania wniosków i rekomendowania działań zwiększających efektywność kampanii",
-        "Masz doświadczenie we współpracy z agencjami mediowymi lub domami mediowymi oraz umiejętność oceny i akceptacji mediaplanów"
-      ],
-      "summary_offers": [
-        "Pracę w modelu hybrydowym (3 dni praca w biurze, 2 dni home office)",
-        "Wynagrodzenie i premie: Twoje wynagrodzenie będzie składało się z podstawy z regularnymi rewizjami oraz premii kwartalnej zależnej od wyników",
-        "Kafeterię MyBenefit z możliwością wyboru spośród różnych kategorii (karta MultiSport, kino, teatr, vouchery do hoteli i wiele innych)"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content, social media",
-          "B2B / CRM operations: partner",
-          "Python & automation: integracja, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level",
-          "Requires Paid advertising/PPC"
-        ],
-        "tier_reason": "Capped at 54: Requires Paid advertising/PPC.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-06T06:52:31.617475+00:00"
-    },
-    {
-      "id": "d66b3ddb880bdad2",
-      "title": "Social Media Specialist",
-      "company": "CORMEDIA sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/social-media-specialist-warszawa-grzybowska-12,oferta,1005184667",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-27T16:10:36.393Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie strategii komunikacji w ramach Social Media; Zarządzanie kanałami społecznościowymi klientów; Budowanie zaangażowanej społeczności wokół obsługiwanych marek | What they expect: Doświadczenie w pracy na podobnym stanowisku; Znajomość platform reklamowych (Meta Ads/kampanie na LinkedIn); Wyczucie estetyki i znajomość zasad tworzenia kreacji graficznych w mediach społecznościowych | What they offer: Stabilne zatrudnienie w oparciu o umowę o pracę; Niezbędne narzędzia pracy; Szkolenia i możliwość rozwoju zawodowego",
-      "summary_tasks": [
-        "Tworzenie strategii komunikacji w ramach Social Media",
-        "Zarządzanie kanałami społecznościowymi klientów",
-        "Budowanie zaangażowanej społeczności wokół obsługiwanych marek"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w pracy na podobnym stanowisku",
-        "Znajomość platform reklamowych (Meta Ads/kampanie na LinkedIn)",
-        "Wyczucie estetyki i znajomość zasad tworzenia kreacji graficznych w mediach społecznościowych"
-      ],
-      "summary_offers": [
-        "Stabilne zatrudnienie w oparciu o umowę o pracę",
-        "Niezbędne narzędzia pracy",
-        "Szkolenia i możliwość rozwoju zawodowego"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: social media",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level",
-          "Requires Paid advertising/PPC"
-        ],
-        "tier_reason": "Capped at 54: Requires Paid advertising/PPC.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-28T07:52:46.039623+00:00"
-    },
-    {
-      "id": "7578e30b0ba1946b",
-      "title": "Specjalista ds. Online Marketingu",
-      "company": "Warsaw Presidential Hotel",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-online-marketingu-warszawa,oferta,1005168961",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-20T09:22:47.817Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Planowanie, realizacja i optymalizacja kampanii reklamowych w Google Ads, Meta Ads oraz innych kanałach digital marketingu; Tworzenie, redagowanie i publikowanie treści marketingowych na stronie internetowej hotelu oraz w kanałach cyfrowych; Bieżące zarządzanie stroną internetową hotelu w systemie WordPress, w tym aktualizacja oferty, cen, promocji, pakietów i informacji dla Gości | What they expect: Minimum 2 lata doświadczenia w marketingu online, digital marketingu, e-commerce lub na podobnym stanowisku; Bardzo dobra znajomość Google Ads, Meta Ads, WordPress i Canva; Praktyczna znajomość narzędzi analitycznych i reklamowych wykorzystywanych w marketingu cyfrowym | What they offer: opieka medyczna, karta sportowa, urlop urodzinowy; możliwość rozwoju i awansu; Benefity",
-      "summary_tasks": [
-        "Planowanie, realizacja i optymalizacja kampanii reklamowych w Google Ads, Meta Ads oraz innych kanałach digital marketingu",
-        "Tworzenie, redagowanie i publikowanie treści marketingowych na stronie internetowej hotelu oraz w kanałach cyfrowych",
-        "Bieżące zarządzanie stroną internetową hotelu w systemie WordPress, w tym aktualizacja oferty, cen, promocji, pakietów i informacji dla Gości"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w marketingu online, digital marketingu, e-commerce lub na podobnym stanowisku",
-        "Bardzo dobra znajomość Google Ads, Meta Ads, WordPress i Canva",
-        "Praktyczna znajomość narzędzi analitycznych i reklamowych wykorzystywanych w marketingu cyfrowym"
-      ],
-      "summary_offers": [
-        "opieka medyczna, karta sportowa, urlop urodzinowy",
-        "możliwość rozwoju i awansu",
-        "Benefity"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content, digital marketing",
-          "Web platform (Supabase, PostgreSQL, WordPress): wordpress",
-          "B2B / CRM operations: partner",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level",
-          "Requires Paid advertising/PPC"
-        ],
-        "tier_reason": "Capped at 54: Requires Paid advertising/PPC.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "7fc4ec463b37938a",
-      "title": "Koordynator / Koordynatorka Projektów Marketingowych",
-      "company": "FABRYKA MARKETINGU sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/koordynator-koordynatorka-projektow-marketingowych-warszawa-ratuszowa-11,oferta,1005146343",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-08T13:57:01.777Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Samodzielne prowadzenie projektów – organizacja kampanii reklamowych; Koordynacja pracy pomiędzy Klientami a działami wewnętrznymi (Media, SEO, Content, Kreacja); Prowadzenie spotkań i negocjacji biznesowych | What they expect: Minimum rok doświadczenia na analogicznym lub podobnym stanowisku w domu mediowym, SEM/SEO lub agencji reklamowej; Umiejętność skutecznej komunikacji (pisemnej i werbalnej); Znajomość języka angielskiego w stopniu pozwalającym na swobodną komunikację | What they offer: Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych; Indywidualny budżet szkoleniowy, dzięki któremu będziesz rozwijać swoje kompetencje; Prywatną opiekę medyczną w Lux Med oraz dostęp do wsparcia psychologicznego w Centrum Terapii Dialog",
-      "summary_tasks": [
-        "Samodzielne prowadzenie projektów – organizacja kampanii reklamowych",
-        "Koordynacja pracy pomiędzy Klientami a działami wewnętrznymi (Media, SEO, Content, Kreacja)",
-        "Prowadzenie spotkań i negocjacji biznesowych"
-      ],
-      "summary_expectations": [
-        "Minimum rok doświadczenia na analogicznym lub podobnym stanowisku w domu mediowym, SEM/SEO lub agencji reklamowej",
-        "Umiejętność skutecznej komunikacji (pisemnej i werbalnej)",
-        "Znajomość języka angielskiego w stopniu pozwalającym na swobodną komunikację"
-      ],
-      "summary_offers": [
-        "Rozbudowaną ofertę szkoleń wewnętrznych i zewnętrznych, a także udział w konferencjach branżowych",
-        "Indywidualny budżet szkoleniowy, dzięki któremu będziesz rozwijać swoje kompetencje",
-        "Prywatną opiekę medyczną w Lux Med oraz dostęp do wsparcia psychologicznego w Centrum Terapii Dialog"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "B2B / CRM operations: b2b",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level",
-          "Requires Paid advertising/PPC"
-        ],
-        "tier_reason": "Capped at 54: Requires Paid advertising/PPC.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-09T13:29:10.505687+00:00"
+      "first_found_at": "2026-10-02T06:54:52.032258+00:00"
     },
     {
       "id": "20019da4dde2f05f",
@@ -7427,55 +5924,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-01T17:37:28.080765+00:00"
-    },
-    {
-      "id": "8a26859b3820461e",
-      "title": "Kondor+ Technical Consultant / Developer",
-      "company": "Capco",
-      "location": "Poland - Warsaw",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8245993",
-      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8245993",
-      "source": "greenhouse:capco",
-      "contract": "Unknown",
-      "work_mode": "Remote",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-22T10:42:15-04:00",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Install, configure and upgrade Kondor+ components across project environments; Analyse and remediate Kondor+ custom developments affected by the target version; Configure technical components and services | What they expect: Develop/modify Kondor custom components where required; Required experience Hands-on Kondor+ technical/development experience; Kondor installation/configuration experience",
-      "summary_tasks": [
-        "Install, configure and upgrade Kondor+ components across project environments",
-        "Analyse and remediate Kondor+ custom developments affected by the target version",
-        "Configure technical components and services"
-      ],
-      "summary_expectations": [
-        "Develop/modify Kondor custom components where required",
-        "Required experience Hands-on Kondor+ technical/development experience",
-        "Kondor installation/configuration experience"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: scripting",
-          "Linux / Git: linux",
-          "SQL / Excel / reporting: sql"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Contract not confirmed yet",
-          "Not a junior role; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
-        "suggested_cv": "Automation & Python"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-02T06:54:52.032258+00:00"
     },
     {
       "id": "d458ea12778c50e2",
@@ -7965,215 +6413,6 @@
       "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
-      "id": "aa567375ae89e671",
-      "title": "Analityk / Analityczka ds. Programu Lojalnościowego",
-      "company": "SMYK sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-analityczka-ds-programu-lojalnosciowego-warszawa-domaniewska-48,oferta,1005187796",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-29T09:04:16.973Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Przygotowywanie cyklicznych raportów oraz analiz dotyczących programu lojalnościowego i działań CRM; Tworzenie segmentacji klientów, selekcji i baz danych na potrzeby kampanii marketingowych; Monitorowanie jakości, poprawności i spójności danych oraz wsparcie w utrzymaniu baz CRM | What they expect: Minimum 2 lata doświadczenia w obszarze CRM, programów lojalnościowych, analityki marketingowej lub e-commerce; Bardzo dobra znajomość SQL, MS Excel, języka Python oraz umiejętność pracy z dużymi zbiorami danych; Doświadczenie w przygotowywaniu raportów, analiz i rekomendacji biznesowych | What they offer: Udział w szkoleniach stacjonarnych, językowych i e-learningowych; Możliwość przystąpienia do ubezpieczenia grupowego; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Przygotowywanie cyklicznych raportów oraz analiz dotyczących programu lojalnościowego i działań CRM",
-        "Tworzenie segmentacji klientów, selekcji i baz danych na potrzeby kampanii marketingowych",
-        "Monitorowanie jakości, poprawności i spójności danych oraz wsparcie w utrzymaniu baz CRM"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w obszarze CRM, programów lojalnościowych, analityki marketingowej lub e-commerce",
-        "Bardzo dobra znajomość SQL, MS Excel, języka Python oraz umiejętność pracy z dużymi zbiorami danych",
-        "Doświadczenie w przygotowywaniu raportów, analiz i rekomendacji biznesowych"
-      ],
-      "summary_offers": [
-        "Udział w szkoleniach stacjonarnych, językowych i e-learningowych",
-        "Możliwość przystąpienia do ubezpieczenia grupowego",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel, analytics",
-          "Python & automation: python, automation, automatyzacja",
-          "B2B / CRM operations: crm"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
-    },
-    {
-      "id": "7b757159ec274b51",
-      "title": "Data Analytics Business Coordinator",
-      "company": "YOTTA",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/data-analytics-business-coordinator-warszawa-domaniewska-44a,oferta,1005140856",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-06T13:43:41.9Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Koordynacja działań analitycznych związanych z pomiarem efektywności marketingu oraz oceną ROI kampanii; Współpraca z zespołami YOTTA oraz agencjami mediowymi przy realizacji projektów analitycznych; Zarządzanie backlogiem wybranych projektów analitycznych i wspieranie ich terminowej realizacji | What they expect: Minimum 2 lata doświadczenia w obszarze planowania mediów, marketing analytics, analiz ilościowych lub ekonometrii (MMM); Umiejętność pracy z danymi pochodzącymi z kampanii digitalowych i offline; znajomość wskaźników efektywności marketingowej i mediowej, m.in | What they offer: Oczekiwane godziny rozpoczęcia pracy – elastycznie między godziną 8 a 10; doładowanie środków na platformę benefitową Nais, które możesz przeznaczyć na kartę sportową kulturę lub rozrywkę; możliwość przystąpienia do ubezpieczenia grupowego",
-      "summary_tasks": [
-        "Koordynacja działań analitycznych związanych z pomiarem efektywności marketingu oraz oceną ROI kampanii",
-        "Współpraca z zespołami YOTTA oraz agencjami mediowymi przy realizacji projektów analitycznych",
-        "Zarządzanie backlogiem wybranych projektów analitycznych i wspieranie ich terminowej realizacji"
-      ],
-      "summary_expectations": [
-        "Minimum 2 lata doświadczenia w obszarze planowania mediów, marketing analytics, analiz ilościowych lub ekonometrii (MMM)",
-        "Umiejętność pracy z danymi pochodzącymi z kampanii digitalowych i offline",
-        "znajomość wskaźników efektywności marketingowej i mediowej, m.in"
-      ],
-      "summary_offers": [
-        "Oczekiwane godziny rozpoczęcia pracy – elastycznie między godziną 8 a 10",
-        "doładowanie środków na platformę benefitową Nais, które możesz przeznaczyć na kartę sportową kulturę lub rozrywkę",
-        "możliwość przystąpienia do ubezpieczenia grupowego"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel, analytics",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
-    },
-    {
-      "id": "f4b55679f5eff130",
-      "title": "Specjalista ds. analityki marketingowej (K/M)",
-      "company": "VFM Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-ds-analityki-marketingowej-k-m-warszawa-aleje-jerozolimskie-142b,oferta,1005183723",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-27T12:33:01.977Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Śledzenie i analiza danych z GA4, Google Ads, Meta Ads oraz systemów CRM; Tworzenie analiz biznesowych, modeli danych i dashboardów marketingowo-sprzedażowych; Wykorzystywanie narzędzi sztucznej inteligencji (AI) w celu automatyzacji analizy danych | What they expect: 1-2 lata doświadczenia związanego z optymalizacją i automatyzacją procesów oraz analizą danych; Biegła znajomość Excela / Google Sheets oraz narzędzi do wizualizacji danych; Umiejętność precyzyjnego przekazywania informacji, pracy zespołowej, zaangażowania, komunikatywności | What they offer: Kafeterię benefitów - w tym m.in dofinansowanie do karty sportowej, biletów do kina, bonów zakupowych; Dofinansowanie do prywatnej opieki medycznej; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Śledzenie i analiza danych z GA4, Google Ads, Meta Ads oraz systemów CRM",
-        "Tworzenie analiz biznesowych, modeli danych i dashboardów marketingowo-sprzedażowych",
-        "Wykorzystywanie narzędzi sztucznej inteligencji (AI) w celu automatyzacji analizy danych"
-      ],
-      "summary_expectations": [
-        "1-2 lata doświadczenia związanego z optymalizacją i automatyzacją procesów oraz analizą danych",
-        "Biegła znajomość Excela / Google Sheets oraz narzędzi do wizualizacji danych",
-        "Umiejętność precyzyjnego przekazywania informacji, pracy zespołowej, zaangażowania, komunikatywności"
-      ],
-      "summary_offers": [
-        "Kafeterię benefitów - w tym m.in dofinansowanie do karty sportowej, biletów do kina, bonów zakupowych",
-        "Dofinansowanie do prywatnej opieki medycznej",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: automatyzacja, skrypt",
-          "B2B / CRM operations: crm"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-28T07:52:46.039623+00:00"
-    },
-    {
-      "id": "1018923978b08b1e",
-      "title": "Data Quality and Governance Analyst",
-      "company": "Jones Lang LaSalle & Tétris",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/data-quality-and-governance-analyst-warszawa,oferta,1005162830",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-16T10:16:23.79Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Development and maintenance of the Client Account level Data Governance policies, processes, and data standards; Establishment and development of Client Account data governance and management framework across service lines to ensure the consistency and integrity of the data; Oversight of Master Data Management for critical property data elements | What they expect: Strong experience in client relationship management; Experience in a role of business analyst or similar; Familiarity with database management processes | What they offer: Benefits: Permanent contract, private healthcare, cafeteria system, life insurance, and employee assistance program; Flexible Work Environment; Hybrid model in premium Warsaw Spire workspace with state-of-the-art facilities and metro access, or possibility to work remotely",
-      "summary_tasks": [
-        "Development and maintenance of the Client Account level Data Governance policies, processes, and data standards",
-        "Establishment and development of Client Account data governance and management framework across service lines to ensure the consistency and integrity of the data",
-        "Oversight of Master Data Management for critical property data elements"
-      ],
-      "summary_expectations": [
-        "Strong experience in client relationship management",
-        "Experience in a role of business analyst or similar",
-        "Familiarity with database management processes"
-      ],
-      "summary_offers": [
-        "Benefits: Permanent contract, private healthcare, cafeteria system, life insurance, and employee assistance program",
-        "Flexible Work Environment",
-        "Hybrid model in premium Warsaw Spire workspace with state-of-the-art facilities and metro access, or possibility to work remotely"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel, analytics",
-          "B2B / CRM operations: partner, stakeholder",
-          "Python & automation: integration, skrypt"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires Tableau",
-          "Mentions Tableau"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-18T06:53:32.120872+00:00"
-    },
-    {
       "id": "0b12cc65e0c0ef79",
       "title": "Junior Backend Developer",
       "company": "Soldevelo",
@@ -8235,6 +6474,59 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-01T17:37:28.080765+00:00"
+    },
+    {
+      "id": "8f79d4aa0ce31a57",
+      "title": "Project Developer (m/k/d)",
+      "company": "GOLDBECK SOLAR GmbH",
+      "location": "Poznań, wielkopolskie, Polska",
+      "url": "https://www.pracuj.pl/praca/project-developer-m-k-d-poznan,oferta,1005147259",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-09T07:48:26.38Z",
+      "fit_score": 51,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 1,
+      "summary": "What you'll do: współpraca z zespołami technicznymi, prawnymi oraz partnerami zewnętrznymi; koordynacja wymiany informacji pomiędzy uczestnikami procesu inwestycyjnego; monitorowanie harmonogramów i statusów projektów | What they expect: minimum 1 rok doświadczenia zawodowego w obszarze rozwoju projektów OZE, energetyki lub pokrewnym; podstawowa znajomość procesu deweloperskiego projektów PV i BESS; znajomość podstaw prawa budowlanego, procedur administracyjnych oraz zagadnień środowiskowych | What they offer: prywatny pakiet medyczny i karty sportowe; Jest to praca w modelu zdalnym lub hybrydowym, dająca możliwość udziału w projektach realizowanych na terenie całej Polski; To doskonała okazja do zdobycia praktycznego doświadczenia i rozwoju kariery w dynamicznie rozwijającej się branży OZE",
+      "summary_tasks": [
+        "współpraca z zespołami technicznymi, prawnymi oraz partnerami zewnętrznymi",
+        "koordynacja wymiany informacji pomiędzy uczestnikami procesu inwestycyjnego",
+        "monitorowanie harmonogramów i statusów projektów"
+      ],
+      "summary_expectations": [
+        "minimum 1 rok doświadczenia zawodowego w obszarze rozwoju projektów OZE, energetyki lub pokrewnym",
+        "podstawowa znajomość procesu deweloperskiego projektów PV i BESS",
+        "znajomość podstaw prawa budowlanego, procedur administracyjnych oraz zagadnień środowiskowych"
+      ],
+      "summary_offers": [
+        "prywatny pakiet medyczny i karty sportowe",
+        "Jest to praca w modelu zdalnym lub hybrydowym, dająca możliwość udziału w projektach realizowanych na terenie całej Polski",
+        "To doskonała okazja do zdobycia praktycznego doświadczenia i rozwoju kariery w dynamicznie rozwijającej się branży OZE"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: skrypt",
+          "Linux / Git: https",
+          "SQL / Excel / reporting: excel"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Asks for 1 year; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-01T22:38:50.008580+00:00"
     }
   ]
 }
