@@ -74,4 +74,14 @@ assert(daily.includes('previous verdicts reused across all vacancies'),'AI reuse
 assert(!daily.includes("remaining of '+total+' today"),'Confusing old Daily wording retained');
 assert(focus.includes('function v21FocusBrief()'),'Focus selected vs locally hidden info missing');
 assert(focus.includes('exploratory STRETCH'),'STRETCH clearly labeled as exploratory');
+const ukrainian=read('v27-ukrainian-employers.js');
+assert(html.includes('data-filter="UA_EMPLOYERS"'),'Ukrainian employers tab missing from filters');
+assert(scripts.includes('v27-ukrainian-employers.js'),'Ukrainian employer filter script not loaded');
+assert(serviceWorker.includes("'./v27-ukrainian-employers.js'"),'Ukrainian employer filter missing from offline shell');
+assert(serviceWorker.includes("'./styles-v27-ukrainian-employers.css'"),'Employer styles not cached');
+assert(ukrainian.includes('matchingEmployer')&&ukrainian.includes("activeFilter !== 'UA_EMPLOYERS'"),'Ukrainian employer matching filter not wired');
+assert(ukrainian.includes('v21LocallyEligible(job)'),'Ukrainian employer matches must remain Poland/remote eligible');
+assert(ukrainian.includes('career')&&ukrainian.includes('current feed'),'Career links must be clearly separate from live feed');
+assert(!ukrainian.includes('fetch('),'Employer watchlist must not claim to scrape career sites');
+assert(!ukrainian.includes('localStorage.setItem'),'Employer filter must not mutate private local application data');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
