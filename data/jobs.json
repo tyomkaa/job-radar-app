@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-02T18:31:25.655363+00:00",
-    "found": 6531,
-    "accepted": 88,
+    "generated_at": "2026-11-02T19:24:31.798613+00:00",
+    "found": 6536,
+    "accepted": 91,
     "filtered": {
-      "Too much experience required (3+ years)": 234,
-      "Too senior / management": 3052,
-      "Contract: B2B only or UoP not confirmed": 660,
-      "Location: not Warsaw and not remote": 582,
+      "Too much experience required (3+ years)": 248,
+      "Too senior / management": 3060,
+      "Contract: B2B only or UoP not confirmed": 648,
+      "Location: not Warsaw and not remote": 589,
       "Missing a required language": 27,
-      "Different profession than your CV": 884,
+      "Different profession than your CV": 878,
       "Too weak a match with your CV": 12,
-      "Could not verify the vacancy page": 367,
-      "Other": 625
+      "Could not verify the vacancy page": 357,
+      "Other": 626
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2752
+        "fetched": 2755
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,7 +34,7 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 51
+        "fetched": 50
       },
       "greenhouse:boxinc": {
         "status": "ok",
@@ -68,6 +68,7 @@
     ],
     "focus_job_ids": [
       "144ff8302ff34730",
+      "76d60942905b81b0",
       "a6e9a05b7aade9e4",
       "7b38941f5f064f03",
       "345b73f850f5eb5a",
@@ -91,6 +92,7 @@
       "c77453e702de8a83",
       "a4397004e06b99d8",
       "c87820f8e068db71",
+      "ac025687c5335372",
       "7e6916af33b09655",
       "ad9ed1fa7602a0f6",
       "c614accb5259c41b",
@@ -103,6 +105,7 @@
     ],
     "fresh_opportunity_ids": [
       "144ff8302ff34730",
+      "76d60942905b81b0",
       "a6e9a05b7aade9e4",
       "7b38941f5f064f03",
       "345b73f850f5eb5a",
@@ -118,6 +121,7 @@
       "7b38941f5f064f03"
     ],
     "focus_stretch_ids": [
+      "76d60942905b81b0",
       "e48b5ba58039e515",
       "a34cb2043eee8ac3",
       "ea2729f768fade3a",
@@ -125,26 +129,27 @@
       "b9fecf418ce7efcc",
       "37aa061d01ffa373",
       "a4397004e06b99d8",
+      "ac025687c5335372",
       "087f74326a6dcf0e",
       "7e7be59d16b1ab49",
       "9ecb84e872bb2803"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 88,
+      "feed_candidates": 91,
       "shortlisted": 2,
-      "focus_total": 33,
-      "focus_stretch": 10,
-      "recent_opportunities": 11,
+      "focus_total": 35,
+      "focus_stretch": 12,
+      "recent_opportunities": 12,
       "recent_strict": 1,
       "automation": 1,
       "reasons": {
         "exploratory_only": 7,
         "qualified": 2,
-        "career_direction": 51,
+        "career_direction": 52,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "ai_skip": 1,
-        "backend_tier": 10,
+        "backend_tier": 12,
         "mid_level": 14,
         "hard_prerequisite_unverified": 1
       }
@@ -154,7 +159,7 @@
       "used": 0,
       "limit": 20,
       "remaining": 20,
-      "checked_at_utc": "2026-11-02T18:31:26.480526+00:00"
+      "checked_at_utc": "2026-11-02T19:24:32.396745+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
@@ -164,7 +169,7 @@
       "fresh_focus_eligible": 0,
       "reused": 4,
       "unreviewed": 0,
-      "fresh_total": 11,
+      "fresh_total": 12,
       "fresh_reviewed": 2,
       "daily_total": 2,
       "daily_reviewed": 2,
@@ -335,6 +340,55 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-20T06:50:22.034110+00:00"
+    },
+    {
+      "id": "119ff1ff83879609",
+      "title": "Inżynier Systemów Wbudowanych (k/m/os)",
+      "company": "Krypton Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/inzynier-systemow-wbudowanych-k-m-os-warszawa-kolejowa-1,oferta,1005195836",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-11-02T14:42:27.15Z",
+      "fit_score": 76,
+      "match_level": "STRONG",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Twoje kompetencje techniczne umożliwiają Ci samodzielną realizację zadań z zakresu embedded oraz konstruktywną współpracę z architektami z innych obszarów; Efekty co jakiś czas raportujesz do architektów systemów wbudowanych; Świetnie odnajdujesz się w pracy z systemami kontroli wersji - GIT i zarządzania zadaniami YouTrack | What they expect: Jeżeli opisane wyżej obowiązki nie stanowią dla Ciebie większego wyzwania, ale ich realizacja może być źródłem sporej satysfakcji to jest duża szansa, że spełniasz nasze wymagania; Żeby aplikować na to stanowisko musisz posiadać polskie obywatelstwo; To wymóg związany ze specyfiką projektów, które prowadzimy - współpracujemy z podmiotami administracji publicznej oraz sektorem militarnym | What they offer: Elastyczne godziny, realne wsparcie i przestrzeń do pracy bez chaosu; dofinansowanie szkoleń i kursów; Dziękujemy za zainteresowanie naszą ofertą i poświęcony czas",
+      "summary_tasks": [
+        "Twoje kompetencje techniczne umożliwiają Ci samodzielną realizację zadań z zakresu embedded oraz konstruktywną współpracę z architektami z innych obszarów",
+        "Efekty co jakiś czas raportujesz do architektów systemów wbudowanych",
+        "Świetnie odnajdujesz się w pracy z systemami kontroli wersji - GIT i zarządzania zadaniami YouTrack"
+      ],
+      "summary_expectations": [
+        "Jeżeli opisane wyżej obowiązki nie stanowią dla Ciebie większego wyzwania, ale ich realizacja może być źródłem sporej satysfakcji to jest duża szansa, że spełniasz nasze wymagania",
+        "Żeby aplikować na to stanowisko musisz posiadać polskie obywatelstwo",
+        "To wymóg związany ze specyfiką projektów, które prowadzimy - współpracujemy z podmiotami administracji publicznej oraz sektorem militarnym"
+      ],
+      "summary_offers": [
+        "Elastyczne godziny, realne wsparcie i przestrzeń do pracy bez chaosu",
+        "dofinansowanie szkoleń i kursów",
+        "Dziękujemy za zainteresowanie naszą ofertą i poświęcony czas"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: tcp/ip",
+          "Linux / Git: git",
+          "Python & automation: python, integracja, skrypt"
+        ],
+        "concerns": [],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-02T16:22:57.883646+00:00"
     },
     {
       "id": "8530a0f18b3a2375",
@@ -3965,6 +4019,72 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
+      "id": "76d60942905b81b0",
+      "title": "Python Engineer",
+      "company": "CloudFerro S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/cloudferro-s-a--python-engineer-warszawa-python",
+      "apply_url": "https://cloudferro.traffit.com/public/form/a/85ba47bc0a41a63e44a721c201da28d6755a704b",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-02T17:00:13.4248Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Więcej informacji: www.cloudferro.com Rola: Budujesz kluczowe usługi zarządzane platformy chmurowej (PaaS); Współpraca z Product Managerem w celu wypracowania rozwiązań realizujących wymagania biznesowe; Tworzenie prototypów i proof of concept dla nowych rozwiązań | What they expect: Praktyczna znajomość co najmniej jednego frameworka (FastAPI, Flask, Django); Znajomość zasad projektowania REST API: operacje CRUD, obsługa błędów, walidacja danych, wersjonowanie; Doświadczenie w budowaniu warstwy persystencji w oparciu o SQL (PostgreSQL) i NoSQL (Redis) — modelowanie danych, zarządzanie migracjami | What they offer: dużą swobodę w organizacji pracy, przejrzyste zasady współpracy oraz stabilne formy zatrudnienia z atrakcyjnym wynagrodzeniem; Otrzymasz pakiet socjalny – opiekę medyczną, multisport, ubezpieczenie na życie; Będziesz mieć możliwość korzystania z zajęć językowych",
+      "summary_tasks": [
+        "Więcej informacji: www.cloudferro.com Rola: Budujesz kluczowe usługi zarządzane platformy chmurowej (PaaS)",
+        "Współpraca z Product Managerem w celu wypracowania rozwiązań realizujących wymagania biznesowe",
+        "Tworzenie prototypów i proof of concept dla nowych rozwiązań"
+      ],
+      "summary_expectations": [
+        "Praktyczna znajomość co najmniej jednego frameworka (FastAPI, Flask, Django)",
+        "Znajomość zasad projektowania REST API: operacje CRUD, obsługa błędów, walidacja danych, wersjonowanie",
+        "Doświadczenie w budowaniu warstwy persystencji w oparciu o SQL (PostgreSQL) i NoSQL (Redis) — modelowanie danych, zarządzanie migracjami"
+      ],
+      "summary_offers": [
+        "dużą swobodę w organizacji pracy, przejrzyste zasady współpracy oraz stabilne formy zatrudnienia z atrakcyjnym wynagrodzeniem",
+        "Otrzymasz pakiet socjalny – opiekę medyczną, multisport, ubezpieczenie na życie",
+        "Będziesz mieć możliwość korzystania z zajęć językowych"
+      ],
+      "required_skills": [
+        "Python",
+        "FAST API",
+        "REST API",
+        "PostreSQL",
+        "Kubernetes",
+        "Go",
+        "Linux",
+        "multi-tenant",
+        "Distributed systems",
+        "CI/CD"
+      ],
+      "fit_notes": {
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: python, api, workflow",
+          "Linux / Git: linux, docker, ci/cd",
+          "Web platform (Supabase, PostgreSQL, WordPress): postgresql, multi-tenant, saas",
+          "SQL / Excel / reporting: sql, postgresql"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Kubernetes"
+        ],
+        "tier_reason": "Capped at 54: Requires Kubernetes.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-02T19:24:31.798613+00:00"
+    },
+    {
       "id": "ce58c1c7608a986d",
       "title": "Junior Software Engineer",
       "company": "Accenture",
@@ -4789,6 +4909,58 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "ac025687c5335372",
+      "title": "Analityk Danych sektor energetyczny",
+      "company": "HECKMAN sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-danych-sektor-energetyczny-warszawa-kolumba-43-47,oferta,1005177351",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-23T11:49:05.257Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych; Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy; Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania | What they expect: 2-letnie doświadczenie w analizie danych; Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań; Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników | What they offer: Możliwość rozwoju i awansu; Premie i bonusy za wyniki; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych",
+        "Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy",
+        "Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania"
+      ],
+      "summary_expectations": [
+        "2-letnie doświadczenie w analizie danych",
+        "Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań",
+        "Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju i awansu",
+        "Premie i bonusy za wyniki",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, postgresql",
+          "Python & automation: python, api, automatyzacja"
+        ],
+        "concerns": [
+          "Asks for 2 years; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
     },
     {
       "id": "3873dd8e251d8407",
