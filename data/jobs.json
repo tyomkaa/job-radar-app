@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-02T22:18:07.027680+00:00",
-    "found": 6548,
-    "accepted": 86,
+    "generated_at": "2026-11-02T23:28:37.115231+00:00",
+    "found": 6561,
+    "accepted": 84,
     "filtered": {
-      "Too much experience required (3+ years)": 248,
-      "Too senior / management": 3070,
-      "Contract: B2B only or UoP not confirmed": 648,
-      "Location: not Warsaw and not remote": 594,
+      "Too much experience required (3+ years)": 245,
+      "Too senior / management": 3075,
+      "Contract: B2B only or UoP not confirmed": 635,
+      "Location: not Warsaw and not remote": 619,
       "Missing a required language": 26,
-      "Different profession than your CV": 881,
+      "Different profession than your CV": 888,
       "Too weak a match with your CV": 13,
-      "Could not verify the vacancy page": 358,
-      "Other": 624
+      "Could not verify the vacancy page": 356,
+      "Other": 620
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3250
+        "fetched": 3240
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2763
+        "fetched": 2762
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -38,7 +38,7 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 125
+        "fetched": 131
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -63,7 +63,6 @@
     },
     "version": 1,
     "daily_pick_ids": [
-      "49092f914d716205",
       "7b38941f5f064f03",
       "8588187d8eb61d83"
     ],
@@ -71,7 +70,6 @@
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
-      "49092f914d716205",
       "7b38941f5f064f03",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
@@ -109,7 +107,6 @@
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
-      "49092f914d716205",
       "7b38941f5f064f03",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
@@ -121,7 +118,6 @@
       "a34cb2043eee8ac3"
     ],
     "fresh_daily_ids": [
-      "49092f914d716205",
       "7b38941f5f064f03"
     ],
     "focus_stretch_ids": [
@@ -139,19 +135,20 @@
       "9ecb84e872bb2803"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 86,
-      "shortlisted": 3,
-      "focus_total": 36,
+      "feed_candidates": 84,
+      "shortlisted": 2,
+      "focus_total": 35,
       "focus_stretch": 12,
-      "recent_opportunities": 13,
-      "recent_strict": 2,
+      "recent_opportunities": 12,
+      "recent_strict": 1,
       "automation": 1,
       "reasons": {
         "exploratory_only": 7,
-        "qualified": 3,
-        "career_direction": 46,
+        "qualified": 2,
+        "career_direction": 44,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
+        "management_title": 1,
         "ai_skip": 1,
         "backend_tier": 12,
         "mid_level": 14,
@@ -163,20 +160,20 @@
       "used": 1,
       "limit": 20,
       "remaining": 19,
-      "checked_at_utc": "2026-11-02T22:18:21.727008+00:00"
+      "checked_at_utc": "2026-11-02T23:28:37.531934+00:00"
     },
     "ai_automatic": {
-      "eligible": 3,
-      "new": 1,
-      "new_daily": 1,
+      "eligible": 2,
+      "new": 0,
+      "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 4,
+      "reused": 5,
       "unreviewed": 0,
-      "fresh_total": 13,
-      "fresh_reviewed": 3,
-      "daily_total": 3,
-      "daily_reviewed": 3,
+      "fresh_total": 12,
+      "fresh_reviewed": 2,
+      "daily_total": 2,
+      "daily_reviewed": 2,
       "feed_reviewed": 5
     }
   },
@@ -3385,59 +3382,6 @@
       "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
-      "id": "157ec798a5eecd39",
-      "title": "Business Analyst",
-      "company": "Transition Technologies PSC",
-      "location": "Łódź, Poznań, Wrocław, Białystok, Kielce, Zielona Góra",
-      "url": "https://justjoin.it/job-offer/transition-technologies-psc-business-analyst-lodz-analytics-0ac2ff5a",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ab7dcd516a2b4b96847af92f88fd449c",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-02T07:45:14.2554618Z",
-      "fit_score": 58,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: prowadzenie warsztatów i wywiadów z klientami oraz interesariuszami; przekładanie wymagań biznesowych na rozwiązania w Jira Service Management; projektowanie workflow, formularzy oraz automatyzacji | What they expect: doświadczenie w analizie biznesowej lub systemowej (około 1–2 lata) lub potencjał do rozwoju w tym kierunku; podstawowa znajomość zagadnień; umiejętność zbierania, analizowania i strukturyzowania wymagań | What they offer: elastyczne formy zatrudnienia (; ) oraz elastyczne godziny pracy; benefity i dodatkowe aktywności",
-      "summary_tasks": [
-        "prowadzenie warsztatów i wywiadów z klientami oraz interesariuszami",
-        "przekładanie wymagań biznesowych na rozwiązania w Jira Service Management",
-        "projektowanie workflow, formularzy oraz automatyzacji"
-      ],
-      "summary_expectations": [
-        "doświadczenie w analizie biznesowej lub systemowej (około 1–2 lata) lub potencjał do rozwoju w tym kierunku",
-        "podstawowa znajomość zagadnień",
-        "umiejętność zbierania, analizowania i strukturyzowania wymagań"
-      ],
-      "summary_offers": [
-        "elastyczne formy zatrudnienia (",
-        ") oraz elastyczne godziny pracy",
-        "benefity i dodatkowe aktywności"
-      ],
-      "required_skills": [
-        "ITIL",
-        "ITSM",
-        "Jira"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: workflow, automatyzacja"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00"
-    },
-    {
       "id": "0e2accedc13d26e3",
       "title": "Junior Motion Capture Tools Developer",
       "company": "Bones",
@@ -3650,69 +3594,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-18T06:53:32.120872+00:00"
-    },
-    {
-      "id": "c66977b5e653d373",
-      "title": "Web Analyst  (Hybrid)",
-      "company": "Cheil Poland",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/cheil-poland-web-analyst-hybrid--warszawa-analytics",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=e25d37c0f39749158bb1a5cb66022448",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-02T07:20:30.2232131Z",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Own the analysis of e-commerce performance using Adobe Analytics (Analysis Workspace), from defining questions to delivering actionable insights; Analyze user behavior, conversion funnels and customer journeys to identify friction points, trends and optimization opportunities; Translate business questions from e-commerce, product, UX and marketing teams into analytical requirements and measurement plans | What they expect: Identify and recommend improvements that increase conversion and enhance user experience, and measure their impact; Ensure data quality: monitor tracking, diagnose issues, define tagging requirements and support implementation; Share knowledge with junior analysts | What they offer: Employee benefits package (sports card, lunch card, medical care, dental care, life insurance); Benefits; How about great colleagues and quality of life perks such as flextime, chill rooms and continuous training?",
-      "summary_tasks": [
-        "Own the analysis of e-commerce performance using Adobe Analytics (Analysis Workspace), from defining questions to delivering actionable insights",
-        "Analyze user behavior, conversion funnels and customer journeys to identify friction points, trends and optimization opportunities",
-        "Translate business questions from e-commerce, product, UX and marketing teams into analytical requirements and measurement plans"
-      ],
-      "summary_expectations": [
-        "Identify and recommend improvements that increase conversion and enhance user experience, and measure their impact",
-        "Ensure data quality: monitor tracking, diagnose issues, define tagging requirements and support implementation",
-        "Share knowledge with junior analysts"
-      ],
-      "summary_offers": [
-        "Employee benefits package (sports card, lunch card, medical care, dental care, life insurance)",
-        "Benefits",
-        "How about great colleagues and quality of life perks such as flextime, chill rooms and continuous training?"
-      ],
-      "required_skills": [
-        "Web Analysis",
-        "Google Analytics",
-        "SQL",
-        "Adobe Analytics",
-        "Python",
-        "E-commerce",
-        "Microsoft Office Excel",
-        "BI"
-      ],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: google analytics, content, digital marketing",
-          "B2B / CRM operations: stakeholder",
-          "Python & automation: python, integration"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level",
-          "Mentions Tableau"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T07:39:40.682656+00:00"
     },
     {
       "id": "a34cb2043eee8ac3",
