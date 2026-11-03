@@ -19,3 +19,4 @@ jobs:
           node tests/ui-smoke.mjs
           node tests/ua-employer-matching.mjs
           node tests/fresh-matches-integration.mjs
+          node tests/disputed-ai-skip-integration.mjs

@@ -50,13 +50,26 @@ function v21FocusPriority(job) {
   return score + automation + (exp === 1 ? 0.4 : 0);
 }
 
+
+function v21DisputedAiSkip(job) {
+  if (!job || job.ai_review?.verdict !== 'SKIP') return false;
+  if (!Array.isArray(meta?.ai_disputed_focus_ids) ||
+      !meta.ai_disputed_focus_ids.map(String).includes(String(job.id))) return false;
+  // Locally saved AI decisions always win: the user can reject a listing,
+  // even if the server flags its earlier SKIP as possibly over-strict.
+  const local=typeof aiReviews==='function'?aiReviews():{};
+  if (local[jobKey(job)]?.verdict==='SKIP' ||
+      local['id:'+job.id]?.verdict==='SKIP') return false;
+  return true;
+}
+
 function v21FocusList() {
   const tracker = getTracker();
   if(Array.isArray(meta?.focus_job_ids)){
     const lookup=new Map(jobs.map(j=>[String(j.id),j]));
     return meta.focus_job_ids.map(id=>lookup.get(String(id))).filter(job=>
       job&&!tracker[jobKey(job)]&&v21LocallyEligible(job)&&
-      aiReviewFor(job)?.verdict!=='SKIP'&&
+      (aiReviewFor(job)?.verdict!=='SKIP'||v21DisputedAiSkip(job))&&
       !(typeof dailyFeedback==='function'&&dailyFeedback()[jobKey(job)]));
   }
   const eligible = jobs.filter(j => {
@@ -112,12 +125,15 @@ function v21FocusBrief(){
   const all=Array.isArray(meta?.focus_job_ids)?meta.focus_job_ids.length:v21FocusList().length;
   const visible=v21FocusList();
   const stretch=visible.filter(j=>j.recommendation_tier==='STRETCH').length;
+  const disputed=visible.filter(j=>v21DisputedAiSkip(j)).length;
   host.replaceChildren();
   const heading=document.createElement('strong');
   heading.textContent='Focus: '+visible.length+' to explore · '+Math.max(0,all-visible.length)+' already handled';
   const message=document.createElement('p');
   message.textContent='Server selected '+all+' technically related roles, including promising Mid/Stretch opportunities. '+
-    'Your applied/dismissed vacancies and AI SKIP are hidden. '+
+    'Your applied/dismissed vacancies and ordinary AI SKIP are hidden. '+
+    (disputed?disputed+' disputed AI SKIP verdict'+(disputed===1?'':'s')+
+      ' remain here for manual checking; not ready-to-apply. ':'')+
     (stretch?stretch+' exploratory STRETCH option'+(stretch===1?'':'s')+' need extra verification. ':'')+
     'AI verdicts may have been generated on earlier days; they do not imply a new AI request today.';
   host.append(heading,message);

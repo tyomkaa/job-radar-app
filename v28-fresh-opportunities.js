@@ -9,7 +9,8 @@
     const feedback=typeof dailyFeedback==='function'?dailyFeedback():{};
     return ids.map(id=>byId.get(String(id))).filter(j=>
       j&&!tracker[jobKey(j)]&&!feedback[jobKey(j)]&&
-      (typeof aiReviewFor!=='function'||aiReviewFor(j)?.verdict!=='SKIP'));
+      (typeof aiReviewFor!=='function'||aiReviewFor(j)?.verdict!=='SKIP'||
+       (typeof v21DisputedAiSkip==='function'&&v21DisputedAiSkip(j))));
   }
   const priorVisible=getVisibleJobs;
   getVisibleJobs=function(pinnedId=''){
