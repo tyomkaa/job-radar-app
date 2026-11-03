@@ -14,7 +14,11 @@ const ctx=createContext({
   jobKey:j=>j.id,aiReviewFor:j=>local[j.id]||j.ai_review,
   tierFor:()=> 'APPLY',hasInterestTag:()=>false,recommendCv:()=>null,
   cvDefaultId:()=>'',getVisibleJobs:()=>[],render:()=>{},
-  document:{querySelector:()=>null},
+  document:{
+    querySelector:()=>null,
+    createElement:()=>({id:'',className:'',hidden:false,
+      append:()=>{},replaceChildren:()=>{}}),
+  },
 });
 runInContext(readFileSync('v21-focus-cv.js','utf8'),ctx);
 assert.equal(ctx.v21DisputedAiSkip(job),true);
