@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-03T00:13:00.397284+00:00",
-    "found": 6560,
-    "accepted": 83,
+    "generated_at": "2026-11-03T01:12:40.483904+00:00",
+    "found": 6563,
+    "accepted": 80,
     "filtered": {
-      "Too much experience required (3+ years)": 248,
-      "Too senior / management": 3079,
-      "Contract: B2B only or UoP not confirmed": 633,
-      "Location: not Warsaw and not remote": 618,
+      "Too much experience required (3+ years)": 240,
+      "Too senior / management": 3081,
+      "Contract: B2B only or UoP not confirmed": 630,
+      "Location: not Warsaw and not remote": 592,
       "Missing a required language": 26,
-      "Different profession than your CV": 888,
+      "Different profession than your CV": 878,
       "Too weak a match with your CV": 13,
-      "Could not verify the vacancy page": 352,
-      "Other": 620
+      "Could not verify the vacancy page": 402,
+      "Other": 621
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2761
+        "fetched": 2762
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -72,8 +72,6 @@
       "a6e9a05b7aade9e4",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
-      "8530a0f18b3a2375",
-      "1f01927a4caf727e",
       "b5d941053454bcc7",
       "f87fe97c17e0414f",
       "a34cb2043eee8ac3",
@@ -98,7 +96,6 @@
       "c614accb5259c41b",
       "aa45582950ad53d9",
       "087f74326a6dcf0e",
-      "e8fb8f8aca57253f",
       "bfc8976d02c84eb6",
       "7e7be59d16b1ab49",
       "9ecb84e872bb2803"
@@ -109,8 +106,6 @@
       "a6e9a05b7aade9e4",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
-      "8530a0f18b3a2375",
-      "1f01927a4caf727e",
       "b5d941053454bcc7",
       "f87fe97c17e0414f",
       "a34cb2043eee8ac3"
@@ -131,20 +126,21 @@
       "9ecb84e872bb2803"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 83,
+      "feed_candidates": 80,
       "shortlisted": 2,
-      "focus_total": 35,
+      "focus_total": 32,
       "focus_stretch": 12,
-      "recent_opportunities": 10,
+      "recent_opportunities": 8,
       "recent_strict": 0,
       "automation": 1,
+      "high_scoring_junior_adjacent": 0,
       "reasons": {
-        "exploratory_only": 7,
+        "exploratory_only": 4,
         "qualified": 2,
-        "career_direction": 44,
+        "career_direction": 42,
+        "ai_skip": 3,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
-        "ai_skip": 1,
         "backend_tier": 12,
         "mid_level": 14,
         "hard_prerequisite_unverified": 1
@@ -152,24 +148,24 @@
     },
     "ai_budget": {
       "date_utc": "2026-11-03",
-      "used": 0,
+      "used": 2,
       "limit": 20,
-      "remaining": 20,
-      "checked_at_utc": "2026-11-03T00:13:01.024765+00:00"
+      "remaining": 18,
+      "checked_at_utc": "2026-11-03T01:12:54.589790+00:00"
     },
     "ai_automatic": {
-      "eligible": 2,
-      "new": 0,
-      "new_daily": 0,
+      "eligible": 4,
+      "new": 2,
+      "new_daily": 2,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
       "reused": 4,
       "unreviewed": 0,
-      "fresh_total": 10,
+      "fresh_total": 8,
       "fresh_reviewed": 1,
       "daily_total": 2,
       "daily_reviewed": 2,
-      "feed_reviewed": 4
+      "feed_reviewed": 6
     }
   },
   "jobs": [
@@ -338,55 +334,6 @@
       "first_found_at": "2026-10-20T06:50:22.034110+00:00"
     },
     {
-      "id": "119ff1ff83879609",
-      "title": "Inżynier Systemów Wbudowanych (k/m/os)",
-      "company": "Krypton Polska Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/inzynier-systemow-wbudowanych-k-m-os-warszawa-kolejowa-1,oferta,1005195836",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid, Office",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-11-02T14:42:27.15Z",
-      "fit_score": 76,
-      "match_level": "STRONG",
-      "recommendation_tier": "APPLY",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Twoje kompetencje techniczne umożliwiają Ci samodzielną realizację zadań z zakresu embedded oraz konstruktywną współpracę z architektami z innych obszarów; Efekty co jakiś czas raportujesz do architektów systemów wbudowanych; Świetnie odnajdujesz się w pracy z systemami kontroli wersji - GIT i zarządzania zadaniami YouTrack | What they expect: Jeżeli opisane wyżej obowiązki nie stanowią dla Ciebie większego wyzwania, ale ich realizacja może być źródłem sporej satysfakcji to jest duża szansa, że spełniasz nasze wymagania; Żeby aplikować na to stanowisko musisz posiadać polskie obywatelstwo; To wymóg związany ze specyfiką projektów, które prowadzimy - współpracujemy z podmiotami administracji publicznej oraz sektorem militarnym | What they offer: Elastyczne godziny, realne wsparcie i przestrzeń do pracy bez chaosu; dofinansowanie szkoleń i kursów; Dziękujemy za zainteresowanie naszą ofertą i poświęcony czas",
-      "summary_tasks": [
-        "Twoje kompetencje techniczne umożliwiają Ci samodzielną realizację zadań z zakresu embedded oraz konstruktywną współpracę z architektami z innych obszarów",
-        "Efekty co jakiś czas raportujesz do architektów systemów wbudowanych",
-        "Świetnie odnajdujesz się w pracy z systemami kontroli wersji - GIT i zarządzania zadaniami YouTrack"
-      ],
-      "summary_expectations": [
-        "Jeżeli opisane wyżej obowiązki nie stanowią dla Ciebie większego wyzwania, ale ich realizacja może być źródłem sporej satysfakcji to jest duża szansa, że spełniasz nasze wymagania",
-        "Żeby aplikować na to stanowisko musisz posiadać polskie obywatelstwo",
-        "To wymóg związany ze specyfiką projektów, które prowadzimy - współpracujemy z podmiotami administracji publicznej oraz sektorem militarnym"
-      ],
-      "summary_offers": [
-        "Elastyczne godziny, realne wsparcie i przestrzeń do pracy bez chaosu",
-        "dofinansowanie szkoleń i kursów",
-        "Dziękujemy za zainteresowanie naszą ofertą i poświęcony czas"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: tcp/ip",
-          "Linux / Git: git",
-          "Python & automation: python, integracja, skrypt"
-        ],
-        "concerns": [],
-        "tier_reason": "Strong match with your CV and entry-level requirements.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T16:22:57.883646+00:00"
-    },
-    {
       "id": "8530a0f18b3a2375",
       "title": "Młodszy Analityk Systemowy / Młodsza Analityczka Systemowa",
       "company": "Nekken Consulting Sp. z o.o.",
@@ -432,7 +379,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-01T23:34:52.905531+00:00"
+      "first_found_at": "2026-11-01T23:34:52.905531+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия требует системного анализа и UML/BPMN, что не соответствует профилю кандидата, сосредоточенного на автоматизации и интеграции систем, а не на анализе требований.",
+        "strengths": [
+          "Опыт автоматизации процессов с Python и API",
+          "Навыки работы с SQL/PostgreSQL и интеграции систем",
+          "Практика в SaaS-разработке и DevOps-задачах"
+        ],
+        "gaps": [
+          "Отсутствие опыта в системно-бизнес-анализе и моделировании процессов",
+          "Нет упоминания о UML/BPMN или инструментах моделирования",
+          "Фокус на технической реализации, а не на переводе требований пользователей"
+        ],
+        "verify": "Проверить наличие опыта в анализе требований и моделировании процессов.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "0565d27cf69acc1a33545d1b"
     },
     {
       "id": "e8fb8f8aca57253f",
@@ -480,7 +444,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия не соответствует карьерным целям кандидата, так как требует BI/анализа данных и EPM-системы, а не автоматизации процессов, интеграции систем или AI. Опыт кандидата в Python/автоматизации не связан с BI/отчетностью.",
+        "strengths": [
+          "Наличие Python-проектов с автоматизацией и API-интеграциями",
+          "Опыт работы с SQL/PostgreSQL и данными",
+          "Практические навыки в SaaS-интеграции и системной администрации"
+        ],
+        "gaps": [
+          "Отсутствие подтверждённого опыта в BI-анализе или EPM-системах",
+          "Нет упоминания автоматизации процессов или интеграции систем в требованиях вакансии",
+          "Требуемый фокус на поддержке систем не соответствует профилю кандидата"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии явные требования к автоматизации процессов или интеграции систем, а не только BI/отчетность.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "cb3003f76555fcf6ffb20416"
     },
     {
       "id": "a6e9a05b7aade9e4",
@@ -1357,106 +1338,6 @@
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
-      "id": "1f01927a4caf727e",
-      "title": "Młodsza Specjalistka/ Młodszy Specjalista/ Specjalistka/ Specjalista ds. Systemów Zarządzania (k/m/n)",
-      "company": "Miejskie Przedsiębiorstwo Wodociągów i Kanalizacji w m. st. Warszawie Spółka Akcyjna",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodsza-specjalistka-mlodszy-specjalista-specjalistka-specjalista-ds-systemow-za-warszawa-czerniakowska-124,oferta,1005150854",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-12T07:27:29.967Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: przygotowywanie dokumentów na przegląd zarządzania oraz sporządzanie z niego raportów; aktualizacja mapy procesów we współpracy z właścicielami procesów oraz sporządzanie analiz osiąganych wskaźników w ramach procesów; ZSZ, w tym wdrożeń systemów zarządzania opartych na normach ISO | What they expect: doświadczenie w przeprowadzaniu audytów wewnętrznych wg norm ISO; umiejętności analitycznego myślenia, szczegółowej analizy i weryfikacji danych oraz syntezy i formułowania wniosków w formie pisemnej; umiejętność pracy z danymi w systemach informatycznych | What they offer: wsparcie finansowe szkoleń, studiów oraz w uzyskaniu specjalistycznych uprawnień; prywatną opiekę medyczną (także dla Twoich bliskich), Kartę MultiSport z dofinansowaniem przez pracodawcę oraz grupowe ubezpieczenie na życie; Oprócz pensji zasadniczej oferujemy",
-      "summary_tasks": [
-        "przygotowywanie dokumentów na przegląd zarządzania oraz sporządzanie z niego raportów",
-        "aktualizacja mapy procesów we współpracy z właścicielami procesów oraz sporządzanie analiz osiąganych wskaźników w ramach procesów",
-        "ZSZ, w tym wdrożeń systemów zarządzania opartych na normach ISO"
-      ],
-      "summary_expectations": [
-        "doświadczenie w przeprowadzaniu audytów wewnętrznych wg norm ISO",
-        "umiejętności analitycznego myślenia, szczegółowej analizy i weryfikacji danych oraz syntezy i formułowania wniosków w formie pisemnej",
-        "umiejętność pracy z danymi w systemach informatycznych"
-      ],
-      "summary_offers": [
-        "wsparcie finansowe szkoleń, studiów oraz w uzyskaniu specjalistycznych uprawnień",
-        "prywatną opiekę medyczną (także dla Twoich bliskich), Kartę MultiSport z dofinansowaniem przez pracodawcę oraz grupowe ubezpieczenie na życie",
-        "Oprócz pensji zasadniczej oferujemy"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 68: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
-    },
-    {
-      "id": "88be33324cf81fae",
-      "title": "Junior Marketing & Growth Specialist",
-      "company": "BitPeak Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/junior-marketing-growth-specialist-warszawa-opatowska-2,oferta,1005186373",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-10-28T12:51:38.84Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Support the creation and publication of written, graphical, and video content for the company’s website, LinkedIn, campaigns, and marketing materials; Support Account-Based Marketing activities for selected companies and customer segments; Support content optimization for SEO, readability, and user engagement | What they expect: First professional experience (2 years) in B2B marketing or related area, including internships or student projects; Knowledge of lead generation and nurturing, ABM, marketing automation - curiosity to understand how marketing activities contribute to business growth; Very good writing and editing skills in Polish and English | What they offer: Hybrid work – 2–3 days a week in our Warsaw office, the rest from home; Personalized benefits – medical care, subsidized sports packages, language tuition, new employee referral bonus (up to PLN 15,000) as well as annual bonus; Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie",
-      "summary_tasks": [
-        "Support the creation and publication of written, graphical, and video content for the company’s website, LinkedIn, campaigns, and marketing materials",
-        "Support Account-Based Marketing activities for selected companies and customer segments",
-        "Support content optimization for SEO, readability, and user engagement"
-      ],
-      "summary_expectations": [
-        "First professional experience (2 years) in B2B marketing or related area, including internships or student projects",
-        "Knowledge of lead generation and nurturing, ABM, marketing automation - curiosity to understand how marketing activities contribute to business growth",
-        "Very good writing and editing skills in Polish and English"
-      ],
-      "summary_offers": [
-        "Hybrid work – 2–3 days a week in our Warsaw office, the rest from home",
-        "Personalized benefits – medical care, subsidized sports packages, language tuition, new employee referral bonus (up to PLN 15,000) as well as annual bonus",
-        "Mają one charakter techniczny i nie przesądzają o rodzaju ani warunkach współpracy oferowanej przez podmiot publikujący ogłoszenie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content, social media",
-          "B2B / CRM operations: crm",
-          "Python & automation: automation, integration, skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
-    },
-    {
       "id": "f87fe97c17e0414f",
       "title": "Młodszy Specjalista ds. systemów (k/m)",
       "company": "Life Spot Management sp. z o.o.",
@@ -1808,7 +1689,7 @@
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T08:26:41.0461182Z",
+      "published_at": "2026-11-02T08:26:41.046118Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3158,7 +3039,7 @@
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T14:25:04.0641402Z",
+      "published_at": "2026-11-02T14:25:04.06414Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3214,7 +3095,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T10:50:00.8903639Z",
+      "published_at": "2026-11-02T10:50:00.890363Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3267,7 +3148,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T08:05:07.3042144Z",
+      "published_at": "2026-11-02T08:05:07.304214Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3324,7 +3205,7 @@
       "work_mode": "Office",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-02T10:00:13.6036776Z",
+      "published_at": "2026-11-02T10:00:13.603677Z",
       "fit_score": 57,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3718,7 +3599,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T14:55:06.9834661Z",
+      "published_at": "2026-11-02T14:55:06.983466Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3997,7 +3878,7 @@
       "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T11:05:06.1578072Z",
+      "published_at": "2026-11-02T11:05:06.157807Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -4163,7 +4044,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T13:05:01.7158639Z",
+      "published_at": "2026-11-02T13:05:01.715863Z",
       "fit_score": 53,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
