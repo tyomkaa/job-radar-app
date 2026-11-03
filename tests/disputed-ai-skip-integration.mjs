@@ -9,7 +9,8 @@ const plain={id:'s1',title:'Weak junior BI candidate',company:'Other',
   ai_review:{verdict:'SKIP'},fit_score:64,work_mode:'Hybrid',location:'Warszawa'};
 const local={};
 const ctx=createContext({
-  jobs:[job,plain],meta:{focus_job_ids:['n1','s1'],ai_disputed_focus_ids:['n1']},
+  // No initial render: test only shortlist and decision precedence.
+  jobs:[],meta:{focus_job_ids:['n1','s1'],ai_disputed_focus_ids:['n1']},
   getTracker:()=>({}),dailyFeedback:()=>({}),aiReviews:()=>local,
   jobKey:j=>j.id,aiReviewFor:j=>local[j.id]||j.ai_review,
   tierFor:()=> 'APPLY',hasInterestTag:()=>false,recommendCv:()=>null,
@@ -21,6 +22,7 @@ const ctx=createContext({
   },
 });
 runInContext(readFileSync('v21-focus-cv.js','utf8'),ctx);
+ctx.jobs.push(job, plain);
 assert.equal(ctx.v21DisputedAiSkip(job),true);
 assert.deepEqual(Array.from(ctx.v21FocusList(),x=>x.id),['n1']);
 local.n1={verdict:'SKIP'};
