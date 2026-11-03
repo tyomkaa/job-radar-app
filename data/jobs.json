@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-03T07:39:30.578452+00:00",
-    "found": 6558,
-    "accepted": 80,
+    "generated_at": "2026-11-03T13:17:00.930254+00:00",
+    "found": 6602,
+    "accepted": 89,
     "filtered": {
-      "Too much experience required (3+ years)": 245,
-      "Too senior / management": 3092,
-      "Contract: B2B only or UoP not confirmed": 618,
-      "Location: not Warsaw and not remote": 594,
-      "Missing a required language": 26,
-      "Different profession than your CV": 887,
-      "Too weak a match with your CV": 15,
-      "Could not verify the vacancy page": 383,
-      "Other": 618
+      "Too much experience required (3+ years)": 225,
+      "Too senior / management": 3132,
+      "Contract: B2B only or UoP not confirmed": 592,
+      "Location: not Warsaw and not remote": 601,
+      "Missing a required language": 27,
+      "Different profession than your CV": 881,
+      "Too weak a match with your CV": 16,
+      "Could not verify the vacancy page": 413,
+      "Other": 626
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3249
+        "fetched": 3189
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2752
+        "fetched": 2776
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -46,15 +46,15 @@
       },
       "greenhouse:powerdot": {
         "status": "ok",
-        "fetched": 20
+        "fetched": 22
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 689
+        "fetched": 693
       },
       "lever:adlook": {
         "status": "ok",
-        "fetched": 24
+        "fetched": 25
       },
       "lever:Civitta": {
         "status": "ok",
@@ -67,9 +67,12 @@
       "8588187d8eb61d83"
     ],
     "focus_job_ids": [
+      "99c99c9bfb69d790",
+      "053a6a46a267b4f1",
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
+      "d5dcdb9cc9c730f7",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
       "8530a0f18b3a2375",
@@ -80,18 +83,19 @@
       "ea2729f768fade3a",
       "e85e13a9654ddd6c",
       "7b38941f5f064f03",
-      "01dc41172dccf1b6",
-      "b9fecf418ce7efcc",
+      "0571590fa642456e",
       "f94aeeb62bd01cbf",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
       "22e5639c1c588154",
+      "2c6558ec9adbed41",
       "37aa061d01ffa373",
       "bec76b89843e7de4",
-      "c51bc2ceccd2381e",
+      "c77453e702de8a83",
+      "e93f29183fab3c4b",
       "a4397004e06b99d8",
+      "ae4770037560d53e",
       "c87820f8e068db71",
-      "ac025687c5335372",
       "7e6916af33b09655",
       "ad9ed1fa7602a0f6",
       "c614accb5259c41b",
@@ -106,9 +110,12 @@
       "e8fb8f8aca57253f"
     ],
     "fresh_opportunity_ids": [
+      "99c99c9bfb69d790",
+      "053a6a46a267b4f1",
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
+      "d5dcdb9cc9c730f7",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
       "8530a0f18b3a2375",
@@ -118,60 +125,71 @@
     ],
     "fresh_daily_ids": [],
     "focus_stretch_ids": [
+      "99c99c9bfb69d790",
       "76d60942905b81b0",
       "e48b5ba58039e515",
       "ea2729f768fade3a",
       "e85e13a9654ddd6c",
-      "b9fecf418ce7efcc",
+      "0571590fa642456e",
+      "2c6558ec9adbed41",
       "37aa061d01ffa373",
       "a4397004e06b99d8",
-      "ac025687c5335372",
       "087f74326a6dcf0e",
       "7e7be59d16b1ab49",
       "9ecb84e872bb2803"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 80,
+      "feed_candidates": 89,
       "shortlisted": 2,
-      "focus_total": 33,
+      "focus_total": 37,
       "ai_disputed_focus": 2,
-      "focus_stretch": 11,
-      "recent_opportunities": 9,
+      "focus_stretch": 12,
+      "recent_opportunities": 12,
       "recent_strict": 0,
       "automation": 1,
+      "direction_counts": {
+        "software_adjacent": 9,
+        "automation": 17,
+        "other": 48,
+        "bridge": 5,
+        "network": 5,
+        "systems": 5
+      },
+      "junior_title_candidates": 27,
+      "junior_excluded_by_direction": 12,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "exploratory_only": 5,
         "qualified": 2,
-        "career_direction": 42,
-        "ai_skip": 3,
+        "career_direction": 48,
+        "ai_skip": 4,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
-        "backend_tier": 11,
-        "mid_level": 14,
+        "backend_tier": 12,
+        "mid_level": 15,
         "hard_prerequisite_unverified": 1
       }
     },
     "ai_budget": {
       "date_utc": "2026-11-03",
-      "used": 2,
+      "used": 3,
       "limit": 20,
-      "remaining": 18,
-      "checked_at_utc": "2026-11-03T07:39:31.160141+00:00"
+      "remaining": 17,
+      "checked_at_utc": "2026-11-03T13:17:06.518878+00:00"
     },
     "ai_automatic": {
-      "eligible": 2,
-      "new": 0,
-      "new_daily": 0,
+      "eligible": 3,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
       "reused": 6,
       "unreviewed": 0,
-      "fresh_total": 9,
+      "fresh_total": 12,
       "fresh_reviewed": 2,
       "daily_total": 2,
       "daily_reviewed": 2,
-      "feed_reviewed": 6
+      "feed_reviewed": 7
     }
   },
   "jobs": [
@@ -581,11 +599,11 @@
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
-      "id": "0b7aa29d432f1355",
-      "title": "Junior Specialist – Customer Operations (k/m)",
+      "id": "9f6daff486276eaa",
+      "title": "Junior Specialist – Customer Operations",
       "company": "ArchiDoc S.A.",
       "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-specialist-customer-operations-k-m-warszawa,oferta,1005195997",
+      "url": "https://www.pracuj.pl/praca/junior-specialist-customer-operations-warszawa,oferta,1005195997",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
@@ -628,7 +646,7 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T16:22:57.883646+00:00"
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
       "id": "2dd33848c1257f3e",
@@ -682,54 +700,6 @@
       "first_found_at": "2026-09-13T21:39:14.386217+00:00"
     },
     {
-      "id": "cdbdf6dbfe601e5e",
-      "title": "Młodszy analityk danych / Młodsza analityczka danych",
-      "company": "Orbico Sp. z o.o. oddział Beauty",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-analityk-danych-mlodsza-analityczka-danych-warszawa-salsy-2,oferta,1005177524",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-10-23T12:26:50.837Z",
-      "fit_score": 70,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży; monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich; monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży | What they expect: biegła znajomość programu Excel; umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych; umiejętność współpracy i komunikacji z różnymi zespołami | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; możliwość pracy zdalnej",
-      "summary_tasks": [
-        "analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży",
-        "monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich",
-        "monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży"
-      ],
-      "summary_expectations": [
-        "biegła znajomość programu Excel",
-        "umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych",
-        "umiejętność współpracy i komunikacji z różnymi zespołami"
-      ],
-      "summary_offers": [
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie",
-        "możliwość pracy zdalnej"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
-    },
-    {
       "id": "31bd2ba22d8283b4",
       "title": "Młodszy Analityk / Młodsza Analityczka",
       "company": "SMYK sp. z o.o.",
@@ -778,6 +748,54 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
+    },
+    {
+      "id": "cdbdf6dbfe601e5e",
+      "title": "Młodszy analityk danych / Młodsza analityczka danych",
+      "company": "Orbico Sp. z o.o. oddział Beauty",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-analityk-danych-mlodsza-analityczka-danych-warszawa-salsy-2,oferta,1005177524",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-23T12:26:50.837Z",
+      "fit_score": 70,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży; monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich; monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży | What they expect: biegła znajomość programu Excel; umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych; umiejętność współpracy i komunikacji z różnymi zespołami | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; możliwość pracy zdalnej",
+      "summary_tasks": [
+        "analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży",
+        "monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich",
+        "monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży"
+      ],
+      "summary_expectations": [
+        "biegła znajomość programu Excel",
+        "umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych",
+        "umiejętność współpracy i komunikacji z różnymi zespołami"
+      ],
+      "summary_offers": [
+        "prywatna opieka medyczna",
+        "ubezpieczenie na życie",
+        "możliwość pracy zdalnej"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
     },
     {
       "id": "8fd28842829f3a77",
@@ -831,7 +849,24 @@
       "interest_tags": [
         "automation"
       ],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
+      "first_found_at": "2026-10-31T07:49:11.754981+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия связана с маркетингом, а не с автоматизацией процессов/интеграцией систем, что не соответствует профилю кандидата.",
+        "strengths": [
+          "Опыт автоматизации с Python/Playwright/openpyxl",
+          "Навыки работы с SQL/PostgreSQL и SaaS-интеграцией",
+          "Практика в разработке workflow и системной автоматизации"
+        ],
+        "gaps": [
+          "Отсутствие подтверждённого опыта в маркетинге или CRM-автоматизации",
+          "Вакансия требует 1+ года в маркетинге, что не соответствует текущему профилю",
+          "Нет указания на связь с автоматизацией процессов в маркетинге"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии явные требования к техническим навыкам автоматизации/интеграции систем.",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "33c2458d5d9e47a65e1d47e9"
     },
     {
       "id": "05ab6b6f2514a11e",
@@ -1044,6 +1079,59 @@
       "first_found_at": "2026-10-02T06:54:52.032258+00:00"
     },
     {
+      "id": "99c99c9bfb69d790",
+      "title": "Młodszy Programista / Młodsza Programistka (Python / TypeScript)",
+      "company": "LINKTIS SP Z O O",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-programista-mlodsza-programistka-python-typescript-warszawa-czerniakowska-87a,oferta,1005197640",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-03T11:22:31.863Z",
+      "fit_score": 68,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Projektowanie i tworzenie nowych funkcjonalności – od frontendu, przez backend, po bazę danych; Tworzenie integracji z zewnętrznymi API; Samodzielna realizacja zadań lub współpraca z pozostałymi członkami zespołu, w zależności od projektu | What they expect: Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL; Pierwsze doświadczenia programistyczne zdobyte w pracy, podczas praktyk, własnych projektów lub innych inicjatyw – chętnie zobaczymy Twoje portfolio; Umiejętność świadomego i efektywnego korzystania z narzędzi AI | What they offer: Realny wpływ na rozwój firmowych systemów i wdrażane rozwiązania; Elastyczne godziny pracy, które można dopasować do zajęć na uczelni; Dajemy pracownikom przestrzeń do samodzielności, rozwoju i realnego wpływu na rozwój firmy",
+      "summary_tasks": [
+        "Projektowanie i tworzenie nowych funkcjonalności – od frontendu, przez backend, po bazę danych",
+        "Tworzenie integracji z zewnętrznymi API",
+        "Samodzielna realizacja zadań lub współpraca z pozostałymi członkami zespołu, w zależności od projektu"
+      ],
+      "summary_expectations": [
+        "Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL",
+        "Pierwsze doświadczenia programistyczne zdobyte w pracy, podczas praktyk, własnych projektów lub innych inicjatyw – chętnie zobaczymy Twoje portfolio",
+        "Umiejętność świadomego i efektywnego korzystania z narzędzi AI"
+      ],
+      "summary_offers": [
+        "Realny wpływ na rozwój firmowych systemów i wdrażane rozwiązania",
+        "Elastyczne godziny pracy, które można dopasować do zajęć na uczelni",
+        "Dajemy pracownikom przestrzeń do samodzielności, rozwoju i realnego wpływu na rozwój firmy"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: python, api, integracja",
+          "Linux / Git: git, docker",
+          "Web platform (Supabase, PostgreSQL, WordPress): postgresql, react, typescript",
+          "SQL / Excel / reporting: sql, postgresql"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Mentions JAVA"
+        ],
+        "tier_reason": "Capped at 69: Ceiling for this direction.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
       "id": "1b7c038143efaa91",
       "title": "Junior Marketing Data Analyst",
       "company": "AvaFin",
@@ -1196,6 +1284,59 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-09T13:29:10.505687+00:00"
+    },
+    {
+      "id": "854002e3e2232a62",
+      "title": "Junior Performance Analyst (Customer Operations Team) (k/m)",
+      "company": "Yieldbird Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-performance-analyst-customer-operations-team-k-m-warszawa,oferta,1005189968",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-10-29T23:00:00Z",
+      "fit_score": 68,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Samodzielne prowadzenie klientów – od regularnej komunikacji z klientem i ustalania priorytetów po koordynację działań i dopilnowanie realizacji ustaleń; Analiza danych i performance’u – monitorowanie wskaźników, identyfikowanie trendów i nieprawidłowości oraz szukanie zależności, które mogą wpływać na wyniki; Weryfikacja ustawień emisji reklam (po naszym przeszkoleniu) – w szczególności Google Ad Manager (GAM), Prebid oraz integracji z platformami SSP | What they expect: Umiejętność pracy z danymi liczbowymi, analizowania wyników, dostrzegania zależności i wyciągania logicznych wniosków; Podstawowa znajomość rynku reklamy i orientacja w tym, jak działa ekosystem AdTech; Doświadczenie w samodzielnym prowadzeniu klientów, projektów lub zadań wymagających koordynacji kilku osób czy obszarów | What they offer: Elastyczna forma zatrudnienia - B2B lub; Praca zdalna lub jeśli wolisz w naszym biurze w Warszawie (hybryda); Pakiet benefitów: lekcje języka angielskiego z native speakerem, opieka medyczna (Allianz), karta Multisport, home office bonus",
+      "summary_tasks": [
+        "Samodzielne prowadzenie klientów – od regularnej komunikacji z klientem i ustalania priorytetów po koordynację działań i dopilnowanie realizacji ustaleń",
+        "Analiza danych i performance’u – monitorowanie wskaźników, identyfikowanie trendów i nieprawidłowości oraz szukanie zależności, które mogą wpływać na wyniki",
+        "Weryfikacja ustawień emisji reklam (po naszym przeszkoleniu) – w szczególności Google Ad Manager (GAM), Prebid oraz integracji z platformami SSP"
+      ],
+      "summary_expectations": [
+        "Umiejętność pracy z danymi liczbowymi, analizowania wyników, dostrzegania zależności i wyciągania logicznych wniosków",
+        "Podstawowa znajomość rynku reklamy i orientacja w tym, jak działa ekosystem AdTech",
+        "Doświadczenie w samodzielnym prowadzeniu klientów, projektów lub zadań wymagających koordynacji kilku osób czy obszarów"
+      ],
+      "summary_offers": [
+        "Elastyczna forma zatrudnienia - B2B lub",
+        "Praca zdalna lub jeśli wolisz w naszym biurze w Warszawie (hybryda)",
+        "Pakiet benefitów: lekcje języka angielskiego z native speakerem, opieka medyczna (Allianz), karta Multisport, home office bonus"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations",
+          "SQL / Excel / reporting: excel",
+          "Python & automation: integracja, skrypt",
+          "SEO / digital marketing: seo"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 68: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
       "id": "b5d941053454bcc7",
@@ -1613,18 +1754,78 @@
       "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
-      "id": "c51bc2ceccd2381e",
+      "id": "76de8b7b0ab1dcc4",
+      "title": "Junior Backend Engineer",
+      "company": "Teltonika Poland sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/teltonika-poland-sp-z-o-o--junior-backend-engineer-warszawa-c",
+      "apply_url": "https://career.teltonika.lt/_/j/59CAB029AB/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-03T10:00:13.4905369Z",
+      "fit_score": 61,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 1,
+      "summary": "What you'll do: We are looking for a Junior Backend Software Engineer to create our developers' team in Warsaw, Poland; You will work with the leading networking solutions in the world and master your skills; Our networking devices serve clients in the most complex areas of Industry 4.0, Smart City, and Green Energy | What they expect: 1+ years of experience in C programming; 1+ years of experience working with various API's; Experience in Shell/Python scripting | What they offer: Great opportunities to grow in a strong and rapidly expanding company; Private medical care (Medicover Premium) and Multisport card; Hybrid working model, with arrangements agreed in advance with the line manager",
+      "summary_tasks": [
+        "We are looking for a Junior Backend Software Engineer to create our developers' team in Warsaw, Poland",
+        "You will work with the leading networking solutions in the world and master your skills",
+        "Our networking devices serve clients in the most complex areas of Industry 4.0, Smart City, and Green Energy"
+      ],
+      "summary_expectations": [
+        "1+ years of experience in C programming",
+        "1+ years of experience working with various API's",
+        "Experience in Shell/Python scripting"
+      ],
+      "summary_offers": [
+        "Great opportunities to grow in a strong and rapidly expanding company",
+        "Private medical care (Medicover Premium) and Multisport card",
+        "Hybrid working model, with arrangements agreed in advance with the line manager"
+      ],
+      "required_skills": [
+        "C",
+        "Linux",
+        "Shell Scripting",
+        "Python",
+        "API",
+        "Git",
+        "LUA",
+        "OpenWrt"
+      ],
+      "fit_notes": {
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: python, scripting, api",
+          "Linux / Git: linux, git, version control"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Asks for 1 year; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
+      "id": "cabf4b0dc8d20898",
       "title": "IT Support & Automation Specialist",
       "company": "Tylko",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/tylko-it-support-automation-specialist-warszawa-admin",
+      "url": "https://justjoin.it/job-offer/tylko-it-support-automation-specialist-warszawa-support",
       "apply_url": "https://tylko.recruitee.com/o/it-support-automation-specialist?source=JustJoinIT",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-03T06:40:10.2812329Z",
+      "published_at": "2026-11-03T12:10:07.364352Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -1673,175 +1874,348 @@
       "first_found_at": "2026-10-14T06:53:41.723663+00:00"
     },
     {
-      "id": "01dc41172dccf1b6",
-      "title": "Atlassian Cloud Administrator",
-      "company": "cloudatus",
-      "location": "Gdańsk, Gdynia, Szczecin, Bydgoszcz, Toruń",
-      "url": "https://justjoin.it/job-offer/cloudatus-atlassian-cloud-administrator-gdansk-admin",
-      "apply_url": "",
+      "id": "2c6558ec9adbed41",
+      "title": "Python Web Developer",
+      "company": "Telewizja Puls Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/telewizja-puls-sp-z-o-o--python-web-developer-warszawa-python",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=52ddfa32e65948658ec80a57c6d8aeac",
       "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T11:45:07.8509608Z",
+      "published_at": "2026-11-03T10:25:01.0105781Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
+      "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: Jira, Confluence and Jira Service Management; Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users; including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration | What they expect: Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required; Practical experience as an; Hands-on administration experience with | What they offer: Industry-leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote within Poland",
+      "summary": "What you'll do: programujesz w języku Python, znasz Django i Celery; cechuje Cię wysoka samodzielność w pracy nad powierzonymi zadaniami; Backend: Python 3, Django, Django REST Framework, Celery | What they expect: posiadasz umiejętności analityczne | What they offer: pracę w stabilnej firmie o czołowej pozycji w branży medialnej; elastyczne godziny pracy; pakiet socjalny i medyczny",
       "summary_tasks": [
-        "Jira, Confluence and Jira Service Management",
-        "Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users",
-        "including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration"
+        "programujesz w języku Python, znasz Django i Celery",
+        "cechuje Cię wysoka samodzielność w pracy nad powierzonymi zadaniami",
+        "Backend: Python 3, Django, Django REST Framework, Celery"
       ],
       "summary_expectations": [
-        "Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required",
-        "Practical experience as an",
-        "Hands-on administration experience with"
+        "posiadasz umiejętności analityczne"
       ],
       "summary_offers": [
-        "Industry-leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote within Poland"
+        "pracę w stabilnej firmie o czołowej pozycji w branży medialnej",
+        "elastyczne godziny pracy",
+        "pakiet socjalny i medyczny"
       ],
       "required_skills": [
-        "Atlassian",
-        "Confluence Cloud",
-        "Jira Cloud",
-        "REST API",
-        "Jira Service Management"
+        "Python 3",
+        "Django",
+        "Django Rest Framework",
+        "Celery",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "Git",
+        "Docker"
       ],
       "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
         "matches": [
-          "Networking / telecom: network, troubleshooting, migration",
-          "Python & automation: automation, api, workflow"
+          "Python & automation: python, api, integracja",
+          "Linux / Git: git, docker, ci/cd",
+          "Web platform (Supabase, PostgreSQL, WordPress): postgresql",
+          "SQL / Excel / reporting: postgresql"
         ],
         "concerns": [
-          "Listed as Mid/Regular level",
-          "Mentions Azure"
+          "Ceiling for this direction",
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
+        "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
+      "first_found_at": "2026-10-09T13:29:10.505687+00:00"
     },
     {
-      "id": "9f7fb50c7b7014e5",
-      "title": "Atlassian Cloud Administrator",
-      "company": "cloudatus",
-      "location": "Warszawa, Łódź, Kielce, Poznań, Lublin",
-      "url": "https://justjoin.it/job-offer/cloudatus-atlassian-cloud-administrator-warszawa-admin",
-      "apply_url": "",
+      "id": "053a6a46a267b4f1",
+      "title": "Inżynier Integracji i Automatyzacji Procesów",
+      "company": "Next Technology Professionals",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/next-technology-professionals-inzynier-integracji-i-automatyzacji-procesow-warszawa-python",
+      "apply_url": "https://nexttechnology.traffit.com/public/an/92153acfc087ff45856e87a1a17b49c14163657769673d3d",
       "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T11:40:11.8943738Z",
+      "published_at": "2026-11-03T10:04:32.6884066Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Jira, Confluence and Jira Service Management; Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users; including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration | What they expect: Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required; Practical experience as an; Hands-on administration experience with | What they offer: Industry-leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote within Poland",
+      "summary": "What you'll do: Projektowanie, tworzenie i wdrażanie autorskich skryptów oraz aplikacji wspierających realizację procesów organizacyjnych; Przeprowadzanie weryfikacji, czyszczenia, przekształceń oraz automatycznej agregacji danych; Budowanie dokumentacji technicznej dla realizowanych automatyzacji i wdrożeń | What they expect: bazy danych) oraz budowanie mechanizmów wymiany informacji poprzez API Przeprowadzanie weryfikacji, czyszczenia, przekształceń oraz automatycznej agregacji danych Budowanie dokumentacji technicznej dla realizowanych automatyzacji i wdrożeń Oczekujemy: Biegłej znajomości | What they offer: Elastyczne podejście do organizacji pracy w modelu hybrydowym; Realny wpływ na kształtowanie i usprawnianie wewnętrznych rozwiązań technologicznych; Prywatną opiekę medyczną",
       "summary_tasks": [
-        "Jira, Confluence and Jira Service Management",
-        "Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users",
-        "including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration"
+        "Projektowanie, tworzenie i wdrażanie autorskich skryptów oraz aplikacji wspierających realizację procesów organizacyjnych",
+        "Przeprowadzanie weryfikacji, czyszczenia, przekształceń oraz automatycznej agregacji danych",
+        "Budowanie dokumentacji technicznej dla realizowanych automatyzacji i wdrożeń"
       ],
       "summary_expectations": [
-        "Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required",
-        "Practical experience as an",
-        "Hands-on administration experience with"
+        "bazy danych) oraz budowanie mechanizmów wymiany informacji poprzez API Przeprowadzanie weryfikacji, czyszczenia, przekształceń oraz automatycznej agregacji danych Budowanie dokumentacji technicznej dla realizowanych automatyzacji i wdrożeń Oczekujemy: Biegłej znajomości"
       ],
       "summary_offers": [
-        "Industry-leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote within Poland"
+        "Elastyczne podejście do organizacji pracy w modelu hybrydowym",
+        "Realny wpływ na kształtowanie i usprawnianie wewnętrznych rozwiązań technologicznych",
+        "Prywatną opiekę medyczną"
       ],
       "required_skills": [
-        "Atlassian",
-        "Confluence Cloud",
-        "Jira Cloud",
-        "REST API",
-        "Jira Service Management"
+        "Python",
+        "Relacyjne Bazy Danych",
+        "Nierelacyjne Bazy Danych"
       ],
       "fit_notes": {
-        "direction": "Systems / Application Administration",
+        "direction": "Python / Process / Workflow / AI Automation",
         "evidence": "work",
         "matches": [
-          "Networking / telecom: network, troubleshooting, migration",
-          "Python & automation: automation, api, workflow"
+          "Python & automation: python, api, workflow"
         ],
         "concerns": [
-          "Listed as Mid/Regular level",
-          "Mentions Azure"
+          "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
+        "suggested_cv": "Automation & Python"
       },
-      "interest_tags": [],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
-      "id": "9f9431a481e81905",
-      "title": "Atlassian Cloud Administrator",
-      "company": "cloudatus",
-      "location": "Rzeszów, Kraków, Katowice, Wrocław, Bielsko-Biała",
-      "url": "https://justjoin.it/job-offer/cloudatus-atlassian-cloud-administrator-rzeszow-admin",
-      "apply_url": "",
+      "id": "e93f29183fab3c4b",
+      "title": "Business Automation & AI Specialist",
+      "company": "Tylko",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/tylko-business-automation-ai-specialist-warszawa-ai",
+      "apply_url": "https://tylko.recruitee.com/o/business-automation-ai-specialist-1026?source=JustJoinIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T08:15:06.5324805Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Identify and prioritise automation opportunities across business teams; Analyse existing processes and redesign them to reduce unnecessary manual work; Design, build and maintain automations using n8n, Make, Zapier, APIs and integrations | What they expect: Join Tylko, Where Design Meets Technology Founded in Warsaw, Poland, in 2015, Tylko is redefining how we design, shop for, and experience furniture; a modern, full AI stack, and real space to learn it; we invest in your fluency, not just your inbox What we’re looking for: Proven hands-on experience building | What they offer: One Extra Day Off every month; take care of yourself, not just your inbox; design your dream home, at a dream price",
+      "summary_tasks": [
+        "Identify and prioritise automation opportunities across business teams",
+        "Analyse existing processes and redesign them to reduce unnecessary manual work",
+        "Design, build and maintain automations using n8n, Make, Zapier, APIs and integrations"
+      ],
+      "summary_expectations": [
+        "Join Tylko, Where Design Meets Technology Founded in Warsaw, Poland, in 2015, Tylko is redefining how we design, shop for, and experience furniture",
+        "a modern, full AI stack, and real space to learn it; we invest in your fluency, not just your inbox What we’re looking for: Proven hands-on experience building"
+      ],
+      "summary_offers": [
+        "One Extra Day Off every month",
+        "take care of yourself, not just your inbox",
+        "design your dream home, at a dream price"
+      ],
+      "required_skills": [
+        "Automation Tools",
+        "AI"
+      ],
+      "fit_notes": {
+        "direction": "Python / Process / Workflow / AI Automation",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: python, automation, scripting"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Mentions JAVA"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-10-17T06:26:09.886626+00:00"
+    },
+    {
+      "id": "d5dcdb9cc9c730f7",
+      "title": "Mainframe Engineer (COBOL / DB2 / Telecom)",
+      "company": "Capgemini Polska",
+      "location": "Gdańsk, Wrocław, Poznań, Warszawa, Kraków, Bydgoszcz, Opole, Lublin",
+      "url": "https://justjoin.it/job-offer/capgemini-polska-mainframe-engineer-cobol-db2-telecom--gdansk-other",
+      "apply_url": "https://careers.capgemini.com/job-invite/503358/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T08:45:10.409969Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported; Your role You will be part of a team maintaining and enhancing core mainframe systems supporting key telecom services; The role involves end-to-end delivery responsibility- from understanding business needs to implementation | What they expect: Your profile strong experience with COBOL, JCL, DB2, IMS-DB, TSO/ISPF; Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings | What they offer: private medical care with Medicover with additional packages (e; Access to over 70 training tracks; Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings",
+      "summary_tasks": [
+        "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported",
+        "Your role You will be part of a team maintaining and enhancing core mainframe systems supporting key telecom services",
+        "The role involves end-to-end delivery responsibility- from understanding business needs to implementation"
+      ],
+      "summary_expectations": [
+        "Your profile strong experience with COBOL, JCL, DB2, IMS-DB, TSO/ISPF",
+        "Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings"
+      ],
+      "summary_offers": [
+        "private medical care with Medicover with additional packages (e",
+        "Access to over 70 training tracks",
+        "Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings"
+      ],
+      "required_skills": [
+        "Cobol",
+        "JCL",
+        "DB2",
+        "TSO",
+        "ISPF",
+        "SORT",
+        "changeman",
+        "SPUFI",
+        "Linux",
+        "SDLC"
+      ],
+      "fit_notes": {
+        "direction": "Network / NOC / Telecom",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux",
+          "B2B / CRM operations: operations"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Mentions JAVA"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Network & IT Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
+      "id": "a0109d262df54496",
+      "title": "Operations Analyst",
+      "company": "Transition Technologies MS",
+      "location": "Warszawa, Gdańsk, Wrocław, Kraków, Poznań",
+      "url": "https://justjoin.it/job-offer/transition-technologies-ms-operations-analyst-warszawa-analytics-c809e642",
+      "apply_url": "https://ttms.traffit.com/public/form/a/2155?uid=d6953af2aac5c3d4a3a19d9c3a7a80504764366774474a75363976526d564250413961786f546247",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T11:40:11.8790054Z",
+      "published_at": "2026-11-03T11:10:02.0426187Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Jira, Confluence and Jira Service Management; Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users; including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration | What they expect: Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required; Practical experience as an; Hands-on administration experience with | What they offer: Industry-leading healthcare and comprehensive medical coverage (Luxmed); Flexible working schedule; 100% remote within Poland",
+      "summary": "What you'll do: Own the day-to-day operational layer across all active workstreams by supporting and; Guarantee all data is always updated for any monthly status snapshots and completion reports for the Brilliant & Basics OKR across all teams; Build working relationships with Engineering Managers across all teams | What they expect: Experience with Jira or similar project/issue tracking tools; Nice to Have Familiarity with Microsoft 365 (SharePoint, Teams, Excel), Jira (or similar) and AI tools; Experience in a technology or software delivery environment | What they offer: Possibility to work remote or hybrid (2 days per week from the office); Opportunities for development and promotion; Attractive package of benefits",
       "summary_tasks": [
-        "Jira, Confluence and Jira Service Management",
-        "Translate business requirements into sustainable Atlassian configurations and explain available options clearly to non-technical users",
-        "including request types, forms, custom fields, workflows, queues, customer-facing settings and service-project configuration"
+        "Own the day-to-day operational layer across all active workstreams by supporting and",
+        "Guarantee all data is always updated for any monthly status snapshots and completion reports for the Brilliant & Basics OKR across all teams",
+        "Build working relationships with Engineering Managers across all teams"
       ],
       "summary_expectations": [
-        "Handle standard requests independently and coordinate with internal administrators when broader governance or approval is required",
-        "Practical experience as an",
-        "Hands-on administration experience with"
+        "Experience with Jira or similar project/issue tracking tools",
+        "Nice to Have Familiarity with Microsoft 365 (SharePoint, Teams, Excel), Jira (or similar) and AI tools",
+        "Experience in a technology or software delivery environment"
       ],
       "summary_offers": [
-        "Industry-leading healthcare and comprehensive medical coverage (Luxmed)",
-        "Flexible working schedule",
-        "100% remote within Poland"
+        "Possibility to work remote or hybrid (2 days per week from the office)",
+        "Opportunities for development and promotion",
+        "Attractive package of benefits"
       ],
       "required_skills": [
-        "Atlassian",
-        "Confluence Cloud",
-        "Jira Cloud",
-        "REST API",
-        "Jira Service Management"
+        "Jira",
+        "Microsoft 365"
       ],
       "fit_notes": {
-        "direction": "Systems / Application Administration",
+        "direction": "Operations / CRM / Customer Operations",
         "evidence": "work",
         "matches": [
-          "Networking / telecom: network, troubleshooting, migration",
-          "Python & automation: automation, api, workflow"
+          "B2B / CRM operations: operations, stakeholder",
+          "SQL / Excel / reporting: excel",
+          "Python & automation: automation, workflow"
         ],
         "concerns": [
-          "Listed as Mid/Regular level",
-          "Mentions Azure"
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
+        "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
+      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "ae4770037560d53e",
+      "title": "Big Data Analyst",
+      "company": "Decathlon Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/decathlon-sp-z-o-o--big-data-analyst-warszawa-data-cfd3d177",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ece12959a4ee4e98b184812e7a96f4a3",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T09:00:04.6170612Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: We are looking for an ambitious Big Data Analyst to join our team, help automate business processes, and build modern reports and data workflows; If you have a solid grasp of SQL, hands-on experience with Google Apps Script, and an eagerness to learn Python and extract actionable insights from large datasets | What they expect: If you have a solid grasp of SQL, hands-on experience with Google Apps Script, and an eagerness to learn Python and extract actionable insights from large datasets; NICE-TO-HAVE Familiarity with dbt platform, Familiarity with Google Apps Script OUR OFFER Opportunity to work | What they offer: Unique, sporty work culture; First 3 months stationary work in the office; After 3 months possibility of remote working",
+      "summary_tasks": [
+        "We are looking for an ambitious Big Data Analyst to join our team, help automate business processes, and build modern reports and data workflows",
+        "If you have a solid grasp of SQL, hands-on experience with Google Apps Script, and an eagerness to learn Python and extract actionable insights from large datasets"
+      ],
+      "summary_expectations": [
+        "If you have a solid grasp of SQL, hands-on experience with Google Apps Script, and an eagerness to learn Python and extract actionable insights from large datasets",
+        "NICE-TO-HAVE Familiarity with dbt platform, Familiarity with Google Apps Script OUR OFFER Opportunity to work"
+      ],
+      "summary_offers": [
+        "Unique, sporty work culture",
+        "First 3 months stationary work in the office",
+        "After 3 months possibility of remote working"
+      ],
+      "required_skills": [
+        "SQL",
+        "Google Apps Script",
+        "Data analysis",
+        "Data Manipulation",
+        "Cloud ecosystem",
+        "Databricks",
+        "Python",
+        "dbt platform"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, data analysis, reporting",
+          "Python & automation: python, workflow",
+          "B2B / CRM operations: stakeholder"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-15T06:50:45.248377+00:00"
     },
     {
       "id": "dc48607353d4d5b1",
@@ -2467,6 +2841,56 @@
       "first_found_at": "2026-10-27T07:57:08.931126+00:00"
     },
     {
+      "id": "271b9dc940ac2b55",
+      "title": "Application Support Engineer",
+      "company": "ENVIPCO POLAND sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/application-support-engineer-warszawa-aleje-jerozolimskie-211,oferta,1005197467",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T10:40:37.983Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Kompleksowe prowadzenie powierzonych projektów integracyjnych dla klientów Envipco w UE, we współpracy z zespołem EU; Koordynacja i wsparcie wdrożeń nowych wersji oprogramowania; Przekładanie potrzeb klientów na zadania dla zespołu R&D (np | What they expect: Wykształcenie techniczne (automatyka, informatyka lub pokrewne); Kilkuletnie doświadczenie w technicznym wsparciu związanym z oprogramowaniem; Doświadczenie w obsłudze klienta ( | What they offer: Prywatną opiekę medyczną i kartę sportową; Wraz z dalszym rozwojem naszej działalności szukamy osób, które chcą rozwijać się razem z nami; Envipco oferuje dynamiczne, pełne energii środowisko pracy oraz doskonałe możliwości rozwoju zawodowego",
+      "summary_tasks": [
+        "Kompleksowe prowadzenie powierzonych projektów integracyjnych dla klientów Envipco w UE, we współpracy z zespołem EU",
+        "Koordynacja i wsparcie wdrożeń nowych wersji oprogramowania",
+        "Przekładanie potrzeb klientów na zadania dla zespołu R&D (np"
+      ],
+      "summary_expectations": [
+        "Wykształcenie techniczne (automatyka, informatyka lub pokrewne)",
+        "Kilkuletnie doświadczenie w technicznym wsparciu związanym z oprogramowaniem",
+        "Doświadczenie w obsłudze klienta ("
+      ],
+      "summary_offers": [
+        "Prywatną opiekę medyczną i kartę sportową",
+        "Wraz z dalszym rozwojem naszej działalności szukamy osób, które chcą rozwijać się razem z nami",
+        "Envipco oferuje dynamiczne, pełne energii środowisko pracy oraz doskonałe możliwości rozwoju zawodowego"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux, ubuntu",
+          "Python & automation: python, integracja, skrypt"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
       "id": "280a2e58ebd132a4",
       "title": "Marketing Funds Operations Specialist (m/f/x)",
       "company": "Synergie Poland Sp. z o.o.",
@@ -2621,141 +3045,37 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
-      "id": "cf35566a4f5cad77",
-      "title": "Analityk Biznesowy (K/M)",
-      "company": "ASTEK Polska",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-k-m-warszawa,oferta,1005167677",
+      "id": "caa4b788b9769896",
+      "title": "Warehouse Operations Specialist",
+      "company": "NOMAGIC sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/warehouse-operations-specialist-warszawa-rakowiecka-36,oferta,1005197497",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-10-19T13:44:34.98Z",
+      "published_at": "2026-11-03T10:47:41.707Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Współpraca z zespołami FX Trading, FX Sales oraz IT; Zbieranie, analiza i doprecyzowywanie wymagań biznesowych; Współpraca przy projektowaniu modeli danych | What they expect: Doświadczenie na stanowisku Business Analyst lub Business System Analyst; Doświadczenie w sektorze bankowym lub finansowym; Bardzo dobra znajomość produktów FX (Spot, Forward, Swap) | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności",
+      "summary": "What you'll do: Finding and implementing improvements to warehouse processes on your own initiative; Supporting the buyer with material requests, including spare parts; Tracking shipment statuses and reporting on incoming and ongoing deliveries | What they expect: Experience working in a warehouse; Technical knowledge of machine parts and components; Hands-on experience with ERP and WMS systems | What they offer: Onboarding training and support from the team; Private medical care; Multisport card",
       "summary_tasks": [
-        "Współpraca z zespołami FX Trading, FX Sales oraz IT",
-        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych",
-        "Współpraca przy projektowaniu modeli danych"
+        "Finding and implementing improvements to warehouse processes on your own initiative",
+        "Supporting the buyer with material requests, including spare parts",
+        "Tracking shipment statuses and reporting on incoming and ongoing deliveries"
       ],
       "summary_expectations": [
-        "Doświadczenie na stanowisku Business Analyst lub Business System Analyst",
-        "Doświadczenie w sektorze bankowym lub finansowym",
-        "Bardzo dobra znajomość produktów FX (Spot, Forward, Swap)"
+        "Experience working in a warehouse",
+        "Technical knowledge of machine parts and components",
+        "Hands-on experience with ERP and WMS systems"
       ],
       "summary_offers": [
-        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
-        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
-        "Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: analytics",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-20T06:50:22.034110+00:00"
-    },
-    {
-      "id": "f60f16d1295baab8",
-      "title": "BDM Data Analyst (12-month FTC)",
-      "company": "Linklaters Poland Sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/bdm-data-analyst-12-month-ftc-warszawa-aleja-jana-pawla-ii-22,oferta,1005138776",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-06T07:15:21.287Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Processing, validating and maintaining client, company and contact data; Supporting data quality, governance and privacy compliance; Supporting campaign, mailing and event contact accuracy | What they expect: Have at least 1 year of experience managing CRM data within a professional services environment; Demonstrate strong accuracy and attention to detail; Have strong interpersonal and stakeholder management skills, with the ability to communicate results and required next steps clearly | What they offer: Worldwide travel insurance for business and non-business travel; Benefit Multisport club card or subsidised travel card; Wide range of training opportunities",
-      "summary_tasks": [
-        "Processing, validating and maintaining client, company and contact data",
-        "Supporting data quality, governance and privacy compliance",
-        "Supporting campaign, mailing and event contact accuracy"
-      ],
-      "summary_expectations": [
-        "Have at least 1 year of experience managing CRM data within a professional services environment",
-        "Demonstrate strong accuracy and attention to detail",
-        "Have strong interpersonal and stakeholder management skills, with the ability to communicate results and required next steps clearly"
-      ],
-      "summary_offers": [
-        "Worldwide travel insurance for business and non-business travel",
-        "Benefit Multisport club card or subsidised travel card",
-        "Wide range of training opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: data analysis, reporting, visualization",
-          "Python & automation: integration, skrypt",
-          "B2B / CRM operations: crm, stakeholder"
-        ],
-        "concerns": [
-          "Asks for 1 year; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-07T06:55:15.162358+00:00"
-    },
-    {
-      "id": "20d42951bfc0c886",
-      "title": "Warranty Operations Specialist",
-      "company": "Husqvarna Shared Service Center",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-22T10:46:30.36Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
-      "summary_tasks": [
-        "Support customer type and warranty entitlement validation",
-        "Support product replacement administration",
-        "Support the introduction of new warranty processes, tools and automation"
-      ],
-      "summary_expectations": [
-        "We are looking for someone who",
-        "Is structured, accurate and comfortable working with details",
-        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
-      ],
-      "summary_offers": [
-        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
-        "Hybrid working model – 3 days per week from the office",
-        "remote work opportunities"
+        "Onboarding training and support from the team",
+        "Private medical care",
+        "Multisport card"
       ],
       "required_skills": [],
       "fit_notes": {
@@ -2763,17 +3083,19 @@
         "evidence": "work",
         "matches": [
           "B2B / CRM operations: operations",
-          "Python & automation: automation, skrypt"
+          "SQL / Excel / reporting: reporting, excel",
+          "Python & automation: automation, integration, skrypt"
         ],
         "concerns": [
           "Ceiling for this direction",
-          "Listed as Mid/Regular level"
+          "Listed as Mid/Regular level",
+          "Mentions Snowflake"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
       "id": "1cf08a4afa85f03f",
@@ -2827,6 +3149,57 @@
       "first_found_at": "2026-10-21T06:56:58.643128+00:00"
     },
     {
+      "id": "20d42951bfc0c886",
+      "title": "Warranty Operations Specialist",
+      "company": "Husqvarna Shared Service Center",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-22T10:46:30.36Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
+      "summary_tasks": [
+        "Support customer type and warranty entitlement validation",
+        "Support product replacement administration",
+        "Support the introduction of new warranty processes, tools and automation"
+      ],
+      "summary_expectations": [
+        "We are looking for someone who",
+        "Is structured, accurate and comfortable working with details",
+        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
+      ],
+      "summary_offers": [
+        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
+        "Hybrid working model – 3 days per week from the office",
+        "remote work opportunities"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations",
+          "Python & automation: automation, skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
+    },
+    {
       "id": "cecc3df4c44197bf",
       "title": "Specjalistka / Specjalista ds. Procesów i Obsługi Klienta (PZU Zdrowie)",
       "company": "GRUPA PZU",
@@ -2875,6 +3248,58 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
+      "id": "b7de91324e14cdad",
+      "title": "Analityk / Analityczka Danych Medycznych",
+      "company": "Medicover",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-medycznych-warszawa-aleje-jerozolimskie-96,oferta,1005169593",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-20T11:25:37.633Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań; Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny; Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​ | What they expect: Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy; Minimum rok doświadczenia w pracy na podobnym stanowisku; Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów) | What they offer: Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny; Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań",
+        "Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny",
+        "Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​"
+      ],
+      "summary_expectations": [
+        "Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy",
+        "Minimum rok doświadczenia w pracy na podobnym stanowisku",
+        "Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów)"
+      ],
+      "summary_offers": [
+        "Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny",
+        "Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Asks for 1 year; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
     },
     {
       "id": "c87820f8e068db71",
@@ -2982,56 +3407,56 @@
       "first_found_at": "2026-10-18T06:53:32.120872+00:00"
     },
     {
-      "id": "b7de91324e14cdad",
-      "title": "Analityk / Analityczka Danych Medycznych",
-      "company": "Medicover",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-analityczka-danych-medycznych-warszawa-aleje-jerozolimskie-96,oferta,1005169593",
+      "id": "f60f16d1295baab8",
+      "title": "BDM Data Analyst (12-month FTC)",
+      "company": "Linklaters Poland Sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/bdm-data-analyst-12-month-ftc-warszawa-aleja-jana-pawla-ii-22,oferta,1005138776",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-10-20T11:25:37.633Z",
+      "published_at": "2026-10-06T07:15:21.287Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 1,
-      "summary": "What you'll do: Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań; Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny; Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​ | What they expect: Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy; Minimum rok doświadczenia w pracy na podobnym stanowisku; Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów) | What they offer: Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny; Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów; dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Processing, validating and maintaining client, company and contact data; Supporting data quality, governance and privacy compliance; Supporting campaign, mailing and event contact accuracy | What they expect: Have at least 1 year of experience managing CRM data within a professional services environment; Demonstrate strong accuracy and attention to detail; Have strong interpersonal and stakeholder management skills, with the ability to communicate results and required next steps clearly | What they offer: Worldwide travel insurance for business and non-business travel; Benefit Multisport club card or subsidised travel card; Wide range of training opportunities",
       "summary_tasks": [
-        "Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań",
-        "Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny",
-        "Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​"
+        "Processing, validating and maintaining client, company and contact data",
+        "Supporting data quality, governance and privacy compliance",
+        "Supporting campaign, mailing and event contact accuracy"
       ],
       "summary_expectations": [
-        "Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy",
-        "Minimum rok doświadczenia w pracy na podobnym stanowisku",
-        "Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów)"
+        "Have at least 1 year of experience managing CRM data within a professional services environment",
+        "Demonstrate strong accuracy and attention to detail",
+        "Have strong interpersonal and stakeholder management skills, with the ability to communicate results and required next steps clearly"
       ],
       "summary_offers": [
-        "Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny",
-        "Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów",
-        "dofinansowanie szkoleń i kursów"
+        "Worldwide travel insurance for business and non-business travel",
+        "Benefit Multisport club card or subsidised travel card",
+        "Wide range of training opportunities"
       ],
       "required_skills": [],
       "fit_notes": {
         "direction": "Data / Reporting",
         "evidence": "projects",
         "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
+          "SQL / Excel / reporting: data analysis, reporting, visualization",
+          "Python & automation: integration, skrypt",
+          "B2B / CRM operations: crm, stakeholder"
         ],
         "concerns": [
           "Asks for 1 year; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
+          "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
+      "first_found_at": "2026-10-07T06:55:15.162358+00:00"
     },
     {
       "id": "db9e02cca7e53af9",
@@ -3083,6 +3508,65 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-27T07:57:08.931126+00:00"
+    },
+    {
+      "id": "5f5ec00dd93cfb69",
+      "title": "System Engineer Packet Core",
+      "company": "DCG",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/dcg-system-engineer-packet-core-warszawa-other",
+      "apply_url": "https://dcg.pl/aplikuj,234,pl&offer=7003?_gl=1*1761ltf*_ga*MTI2NDI4NzgyOC4xNzkwMjQ0MTM5*_up*MQ..*_ga_HXY1GLNSM6*czE3OTAyNDQxMzkkbzEkZzEkdDE3OTAyNDQxMzkkajYwJGwwJGgxODAwMDM2OTM3",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T11:05:07.3649948Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Supporting highly complex projects by overseeing development, quality assurance, planning, implementation and maintenance of product releases; Developing and defining strategies for automated planning, integration and delivery, including cross project in; Focusing on harmonized automation | What they expect: Comprehensive knowledge of Packet Data Core systems; Long-standing experience in 2nd or 3rd-level support in Mobile Packet Core systems; Very good experience in both classical and agile cooperation models",
+      "summary_tasks": [
+        "Supporting highly complex projects by overseeing development, quality assurance, planning, implementation and maintenance of product releases",
+        "Developing and defining strategies for automated planning, integration and delivery, including cross project in",
+        "Focusing on harmonized automation"
+      ],
+      "summary_expectations": [
+        "Comprehensive knowledge of Packet Data Core systems",
+        "Long-standing experience in 2nd or 3rd-level support in Mobile Packet Core systems",
+        "Very good experience in both classical and agile cooperation models"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "System Engineering",
+        "Packet Data Core systems",
+        "EPC architecture",
+        "5GC architecture",
+        "2nd-level support",
+        "3rd-level support",
+        "Agile cooperation",
+        "Classical cooperation",
+        "Monitoring systems",
+        "Trace analysis"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: docker",
+          "Python & automation: automation, integration",
+          "B2B / CRM operations: operations"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Mentions Kubernetes"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
       "id": "89cdc7e35ab9efd0",
@@ -3141,47 +3625,47 @@
       "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
-      "id": "02113847cb80766a",
-      "title": "PostgreSQL/MSSQL Database Administrator",
-      "company": "Capgemini Polska",
-      "location": "Warszawa, Opole, Wrocław, Poznań, Kraków, Gdańsk, Katowice",
-      "url": "https://justjoin.it/job-offer/capgemini-polska-postgresql-mssql-database-administrator-warszawa-data",
-      "apply_url": "https://careers.capgemini.com/job/Katowice-PostgreSQLMSSQL-Database-Administrator/1400167933/",
+      "id": "e52200b2595e78df",
+      "title": "IT Business Analyst (C-CLIPS)",
+      "company": "BNP Paribas SA oddział w Polsce",
+      "location": "Warszawa, Kraków",
+      "url": "https://justjoin.it/job-offer/bnp-paribas-sa-oddzial-w-polsce-it-business-analyst-c-clips--warszawa-analytics",
+      "apply_url": "https://bwelcome.hr.bnpparibas/su/d77213c08c2dae5c",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T10:50:00.890363Z",
-      "fit_score": 60,
+      "published_at": "2026-11-03T09:30:06.5461208Z",
+      "fit_score": 59,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported; Your role You’ll be part of a team delivering and supporting enterprise database solutions for clients in the financial sector; But we went one step further by creating our own Capgemini Helpline offering therapeutical support if needed | What they expect: Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings",
+      "summary": "What you'll do: Collaboration with the global team responsible for the overall system roadmap to align local development with long-term strategic goals; Partnership with business stakeholders to analyse complex processes and translate business needs into detailed functional specifications; Designing high-level roadmaps categorized by system components and development streams | What they expect: Experience in a Business Analyst role, preferably within a complex corporate or financial environment; Good presentation skills with the ability to communicate effectively to audiences of various sizes and levels of seniority; A foundational knowledge of, and a willingness to leverage, AI tools | What they offer: Hybrid work mode, 50% working from home within a month; Equivalent for remote work expenses (120 PLN per month); Fully paid private medical care for employee",
       "summary_tasks": [
-        "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported",
-        "Your role You’ll be part of a team delivering and supporting enterprise database solutions for clients in the financial sector",
-        "But we went one step further by creating our own Capgemini Helpline offering therapeutical support if needed"
+        "Collaboration with the global team responsible for the overall system roadmap to align local development with long-term strategic goals",
+        "Partnership with business stakeholders to analyse complex processes and translate business needs into detailed functional specifications",
+        "Designing high-level roadmaps categorized by system components and development streams"
       ],
       "summary_expectations": [
-        "Dive into a world of knowledge with free access to Education First languages platform, TED Talks and Udemy Business materials and trainings"
+        "Experience in a Business Analyst role, preferably within a complex corporate or financial environment",
+        "Good presentation skills with the ability to communicate effectively to audiences of various sizes and levels of seniority",
+        "A foundational knowledge of, and a willingness to leverage, AI tools"
       ],
-      "summary_offers": [],
+      "summary_offers": [
+        "Hybrid work mode, 50% working from home within a month",
+        "Equivalent for remote work expenses (120 PLN per month)",
+        "Fully paid private medical care for employee"
+      ],
       "required_skills": [
-        "MS SQL",
-        "PostgreSQL",
-        "MongoDB",
-        "Oracle",
-        "MySQL",
-        "MariaDB",
-        "DB2"
+        "Analityczne Myślenie",
+        "Analiza Biznesowa"
       ],
       "fit_notes": {
-        "direction": "Data / Reporting",
+        "direction": "Business Analysis",
         "evidence": "projects",
         "matches": [
-          "SQL / Excel / reporting: sql, excel, postgresql",
-          "B2B / CRM operations: operations"
+          "B2B / CRM operations: operations, stakeholder"
         ],
         "concerns": [
           "Not a junior role; CV has only project experience here",
@@ -3191,67 +3675,59 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00"
+      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
-      "id": "0e2accedc13d26e3",
-      "title": "Junior Motion Capture Tools Developer",
-      "company": "Bones",
+      "id": "71326bb2249dd974",
+      "title": "Serwisant IT/Serwisantka IT",
+      "company": "KAMSOFT S.A.",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/bones-junior-motion-capture-tools-developer-warszawa-ux",
-      "apply_url": "",
+      "url": "https://justjoin.it/job-offer/kamsoft-s-a--serwisant-serwisantka-warszawa-admin",
+      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/91458102fdc3407694a1d2c0d90f7660",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Office",
-      "seniority": "junior",
+      "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T10:00:13.603677Z",
-      "fit_score": 57,
+      "published_at": "2026-11-03T10:25:01.0672269Z",
+      "fit_score": 58,
       "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
+      "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Create tools that automate motion capture processing workflows; Build new products and internal tools, and improve existing ones through research, design, experimentation, and testing; Solid programming fundamentals (Python preferred, but we care more about how you think than which language you use) | What they expect: Solid programming fundamentals (Python preferred, but we care more about how you think than which language you use); Curiosity about motion, animation, and the math behind them; Hands-on experience with AI tools | What they offer: Additional quarterly bonuses; Flexible working hours; Individual development budget",
+      "summary": "What you'll do: Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników; Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia | What they expect: Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows; Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych; Doświadczenie w pracy na podobnym stanowisku | What they offer: Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników; Okresowe szkolenia użytkowników",
       "summary_tasks": [
-        "Create tools that automate motion capture processing workflows",
-        "Build new products and internal tools, and improve existing ones through research, design, experimentation, and testing",
-        "Solid programming fundamentals (Python preferred, but we care more about how you think than which language you use)"
+        "Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników",
+        "Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia"
       ],
       "summary_expectations": [
-        "Solid programming fundamentals (Python preferred, but we care more about how you think than which language you use)",
-        "Curiosity about motion, animation, and the math behind them",
-        "Hands-on experience with AI tools"
+        "Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows",
+        "Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych",
+        "Doświadczenie w pracy na podobnym stanowisku"
       ],
       "summary_offers": [
-        "Additional quarterly bonuses",
-        "Flexible working hours",
-        "Individual development budget"
+        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
+        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
+        "Okresowe szkolenia użytkowników"
       ],
       "required_skills": [
-        "Python",
-        "Motion",
-        "Animation",
-        "AI",
-        "Vibe Coding",
-        "Blender",
-        "Maya",
-        "unreal",
-        "Motionbuilder"
+        "SQL",
+        "Windows",
+        "Windows Server",
+        "Helpdesk",
+        "IT Support"
       ],
       "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: python, workflow",
-          "SQL / Excel / reporting: excel"
-        ],
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [],
         "concerns": [
-          "Ceiling for this direction"
+          "Listed as Mid/Regular level"
         ],
-        "tier_reason": "Capped at 69: Ceiling for this direction.",
-        "suggested_cv": "Automation & Python"
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00"
+      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
     },
     {
       "id": "e48b5ba58039e515",
@@ -3527,25 +4003,25 @@
       "first_found_at": "2026-11-02T19:24:31.798613+00:00"
     },
     {
-      "id": "b9fecf418ce7efcc",
+      "id": "0571590fa642456e",
       "title": "Administrator Aplikacji (k/m)",
       "company": "Netia S.A.",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/netia-s-a--administrator-aplikacji-k-m--warszawa-admin-c565785f",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=590e2dea02684cba88957dab4cde1413",
+      "url": "https://justjoin.it/job-offer/netia-s-a--administrator-aplikacji-k-m--warszawa-data",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=693d4bc57d7547769fef834c245d8a1f",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract + B2B",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-02T14:55:06.983466Z",
+      "published_at": "2026-11-03T10:45:01.5241928Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: Opis stanowiska Utrzymanie aplikacji z domeny CRM (środowiska produkcyjne, testowe i developerskie) Utrzymanie aplikacji w technologii Kubernetes w środowiskach chmurowych Google i Microsoft Wgrywanie zmian, konfiguracja, aktualizacja, instalacja nowych środowisk, 2 linia obsługi zgłoszeń dotyczących tych aplikacji, realizacja zleceń operacyjnych, monitoring Praca zmianowa; Automatyzacja procesów utrzymaniowych (CI/CD) Wymagania Płynne poruszanie się po bazach danych, Oracle (priorytet), PostgreSQL (priorytet), MSSQL, MySQL, MongoDB, MariaDB, znajomość języka SQL/PL SQL Obsługa systemów operacyjnych opartych na Unix/Linux Bardzo dobra znajomość poparta kilkuletnim doświadczeniem w pracy z aplikacjami w technologii kubernetes, docker, w tym narzędzi do ich obsługi, np; Gitlab, Helm, ArgoCD, Harbor Doświadczenie w obsłudze aplikacji hostowanych w chmurach Google i MS Znajomość serwerów aplikacyjnych Jboss, Wildfly Monitoring aplikacji poprzez Zabbix, Grafana/Prometheus, LOKI, ElasticSearch/VictoriaLogs Znajomość Jenkins, JIRA Język angielski pozwalający na rozumienie dokumentacji i komunikacji z anglojęzycznym supportem Google, MS Mile widziane: Doświadczenie w obsłudze aplikacji w technologii Kubernetes wystawianych na zewnątrz sieci (komunikacja z WAF) Znajomość architektury i usług dostawców chmur publicznych, z naciskiem na Google Doświadczenie z Keycloak Oferujemy Pracę na odpowiedzialnym stanowisku w największej grupie telekomunikacyjnej w kraju Super atmosferę, przyjazne środowisko pracy, współpracę z osobami otwartymi i chętnie dzielącymi się wiedzą Stabilne zatrudnienie w ramach umowy o pracę lub kontrakt B2B Hybrydowy model pracy (4 dni zdalnie, 1 dzień z biura) Elastyczne godziny pracy (standardowo 8/5 + płatne dyżury) Pracę z najnowszymi technologiami cloud-native Szkolenia i certyfikacje (szczególnie GCP, Kubernetes) Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy) | What they expect: Płynne poruszanie się po bazach danych, Oracle (priorytet), PostgreSQL (priorytet), MSSQL, MySQL, MongoDB, MariaDB, znajomość języka SQL/PL SQL; Bardzo dobra znajomość poparta kilkuletnim doświadczeniem w pracy z aplikacjami w technologii kubernetes, docker, w tym narzędzi do ich obsługi, np; Doświadczenie w obsłudze aplikacji hostowanych w chmurach Google i MS | What they offer: Hybrydowy model pracy (4 dni zdalnie, 1 dzień z biura); Elastyczne godziny pracy (standardowo 8/5 + płatne dyżury); Szkolenia i certyfikacje (szczególnie GCP, Kubernetes)",
+      "summary": "What you'll do: Stanowisko Administrator Aplikacji (k/m) Opis stanowiska Utrzymanie aplikacji z domeny CRM (środowiska produkcyjne, testowe i developerskie) Utrzymanie aplikacji w technologii Kubernetes w środowiskach chmurowych Google i Microsoft Wgrywanie zmian, konfiguracja, aktualizacja, instalacja nowych środowisk, 2 linia obsługi zgłoszeń dotyczących tych aplikacji, realizacja zleceń operacyjnych, monitoring Praca zmianowa; Automatyzacja procesów utrzymaniowych (CI/CD) Wymagania Płynne poruszanie się po bazach danych, Oracle (priorytet), PostgreSQL (priorytet), MSSQL, MySQL, MongoDB, MariaDB, znajomość języka SQL/PL SQL Obsługa systemów operacyjnych opartych na Unix/Linux Bardzo dobra znajomość poparta kilkuletnim doświadczeniem w pracy z aplikacjami w technologii kubernetes, docker, w tym narzędzi do ich obsługi, np; Gitlab, Helm, ArgoCD, Harbor Doświadczenie w obsłudze aplikacji hostowanych w chmurach Google i MS Znajomość serwerów aplikacyjnych Jboss, Wildfly Monitoring aplikacji poprzez Zabbix, Grafana/Prometheus, LOKI, ElasticSearch/VictoriaLogs Znajomość Jenkins, JIRA Język angielski pozwalający na rozumienie dokumentacji i komunikacji z anglojęzycznym supportem Google, MS Mile widziane: Doświadczenie w obsłudze aplikacji w technologii Kubernetes wystawianych na zewnątrz sieci (komunikacja z WAF) Znajomość architektury i usług dostawców chmur publicznych, z naciskiem na Google Doświadczenie z Keycloak Oferujemy Pracę na odpowiedzialnym stanowisku w największej grupie telekomunikacyjnej w kraju Super atmosferę, przyjazne środowisko pracy, współpracę z osobami otwartymi i chętnie dzielącymi się wiedzą Stabilne zatrudnienie w ramach umowy o pracę lub kontrakt B2B Hybrydowy model pracy (4 dni zdalnie, 1 dzień z biura) Elastyczne godziny pracy (standardowo 8/5 + płatne dyżury) Pracę z najnowszymi technologiami cloud-native Szkolenia i certyfikacje (szczególnie GCP, Kubernetes) Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy) | What they expect: Płynne poruszanie się po bazach danych, Oracle (priorytet), PostgreSQL (priorytet), MSSQL, MySQL, MongoDB, MariaDB, znajomość języka SQL/PL SQL; Bardzo dobra znajomość poparta kilkuletnim doświadczeniem w pracy z aplikacjami w technologii kubernetes, docker, w tym narzędzi do ich obsługi, np; Doświadczenie w obsłudze aplikacji hostowanych w chmurach Google i MS | What they offer: Hybrydowy model pracy (4 dni zdalnie, 1 dzień z biura); Elastyczne godziny pracy (standardowo 8/5 + płatne dyżury); Szkolenia i certyfikacje (szczególnie GCP, Kubernetes)",
       "summary_tasks": [
-        "Opis stanowiska Utrzymanie aplikacji z domeny CRM (środowiska produkcyjne, testowe i developerskie) Utrzymanie aplikacji w technologii Kubernetes w środowiskach chmurowych Google i Microsoft Wgrywanie zmian, konfiguracja, aktualizacja, instalacja nowych środowisk, 2 linia obsługi zgłoszeń dotyczących tych aplikacji, realizacja zleceń operacyjnych, monitoring Praca zmianowa",
+        "Stanowisko Administrator Aplikacji (k/m) Opis stanowiska Utrzymanie aplikacji z domeny CRM (środowiska produkcyjne, testowe i developerskie) Utrzymanie aplikacji w technologii Kubernetes w środowiskach chmurowych Google i Microsoft Wgrywanie zmian, konfiguracja, aktualizacja, instalacja nowych środowisk, 2 linia obsługi zgłoszeń dotyczących tych aplikacji, realizacja zleceń operacyjnych, monitoring Praca zmianowa",
         "Automatyzacja procesów utrzymaniowych (CI/CD) Wymagania Płynne poruszanie się po bazach danych, Oracle (priorytet), PostgreSQL (priorytet), MSSQL, MySQL, MongoDB, MariaDB, znajomość języka SQL/PL SQL Obsługa systemów operacyjnych opartych na Unix/Linux Bardzo dobra znajomość poparta kilkuletnim doświadczeniem w pracy z aplikacjami w technologii kubernetes, docker, w tym narzędzi do ich obsługi, np",
         "Gitlab, Helm, ArgoCD, Harbor Doświadczenie w obsłudze aplikacji hostowanych w chmurach Google i MS Znajomość serwerów aplikacyjnych Jboss, Wildfly Monitoring aplikacji poprzez Zabbix, Grafana/Prometheus, LOKI, ElasticSearch/VictoriaLogs Znajomość Jenkins, JIRA Język angielski pozwalający na rozumienie dokumentacji i komunikacji z anglojęzycznym supportem Google, MS Mile widziane: Doświadczenie w obsłudze aplikacji w technologii Kubernetes wystawianych na zewnątrz sieci (komunikacja z WAF) Znajomość architektury i usług dostawców chmur publicznych, z naciskiem na Google Doświadczenie z Keycloak Oferujemy Pracę na odpowiedzialnym stanowisku w największej grupie telekomunikacyjnej w kraju Super atmosferę, przyjazne środowisko pracy, współpracę z osobami otwartymi i chętnie dzielącymi się wiedzą Stabilne zatrudnienie w ramach umowy o pracę lub kontrakt B2B Hybrydowy model pracy (4 dni zdalnie, 1 dzień z biura) Elastyczne godziny pracy (standardowo 8/5 + płatne dyżury) Pracę z najnowszymi technologiami cloud-native Szkolenia i certyfikacje (szczególnie GCP, Kubernetes) Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy)"
       ],
@@ -3560,15 +4036,16 @@
         "Szkolenia i certyfikacje (szczególnie GCP, Kubernetes)"
       ],
       "required_skills": [
-        "SQL",
-        "PL SQL",
-        "MariaDB",
-        "MongoDB",
-        "MySQL",
-        "MsSQL",
-        "PostgreSQL",
         "Oracle",
-        "UNIX/LINUX"
+        "PostgreSQL",
+        "MS SQL",
+        "MongoDB",
+        "MariaDB",
+        "PL/SQL",
+        "Unix",
+        "Linux",
+        "Jenkins",
+        "Jira"
       ],
       "fit_notes": {
         "direction": "Systems / Application Administration",
@@ -3589,6 +4066,134 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-29T07:56:16.155179+00:00"
+    },
+    {
+      "id": "441246616f075111",
+      "title": "Business Data Analyst (m/k)",
+      "company": "Orange Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/orange-polska-business-data-analyst-m-k--warszawa-data",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=817128d59d3043d7bf33ce2a3656dd08",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T09:15:04.1600511Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Przetwarzanie i integracja danych z różnych źródeł (BigQuery, Excel, GCP) w celu tworzenia kompleksowych raportów i wizualizacji; Tworzenie raportów, dashboardów i rekomendacji dla zespołów biznesowych, wspierających decyzje strategiczne; Współpraca z zespołami projektowymi i biznesowymi w ramach agile, dostarczając rozwiązania dopasowane do potrzeb organizacji | What they expect: Doświadczenie na podobnym stanowisku związanym z danymi lub analityką; Doświadczenie z pracy w BigQuery (pisanie i optymalizacja wydajnościowa zapytań); Biegła znajomość SQL (optymalizacja, funkcje analityczne) oraz doświadczenie w pracy z systemami SAS (4GL, SAS Enterprise Guide) | What they offer: Prywatną opiekę medyczną w PZU Zdrowie; Możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach; Preferencyjną ofertę na usługi Orange",
+      "summary_tasks": [
+        "Przetwarzanie i integracja danych z różnych źródeł (BigQuery, Excel, GCP) w celu tworzenia kompleksowych raportów i wizualizacji",
+        "Tworzenie raportów, dashboardów i rekomendacji dla zespołów biznesowych, wspierających decyzje strategiczne",
+        "Współpraca z zespołami projektowymi i biznesowymi w ramach agile, dostarczając rozwiązania dopasowane do potrzeb organizacji"
+      ],
+      "summary_expectations": [
+        "Doświadczenie na podobnym stanowisku związanym z danymi lub analityką",
+        "Doświadczenie z pracy w BigQuery (pisanie i optymalizacja wydajnościowa zapytań)",
+        "Biegła znajomość SQL (optymalizacja, funkcje analityczne) oraz doświadczenie w pracy z systemami SAS (4GL, SAS Enterprise Guide)"
+      ],
+      "summary_offers": [
+        "Prywatną opiekę medyczną w PZU Zdrowie",
+        "Możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach",
+        "Preferencyjną ofertę na usługi Orange"
+      ],
+      "required_skills": [
+        "BigQuery",
+        "SQL",
+        "MS Excel",
+        "Google Cloud Platform",
+        "Python",
+        "Git",
+        "ELT",
+        "ETL",
+        "język angielski",
+        "English"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel",
+          "Python & automation: python, integracja"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires GCP",
+          "Mentions GCP"
+        ],
+        "tier_reason": "Capped at 54: Requires GCP.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-15T06:50:45.248377+00:00"
+    },
+    {
+      "id": "e74e08f49dccc7cc",
+      "title": "Infrastructure Administrator ",
+      "company": "BEST S.A.",
+      "location": "Gdynia, Warszawa, Kraków, Wrocław, Poznań, Łódź, Lublin, Szczecin, Białystok, Gdańsk",
+      "url": "https://justjoin.it/job-offer/best-s-a--infrastructure-administrator--gdynia-admin",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a74a5d1703f343d38bf5fafa7fa047dd",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T08:50:10.7236851Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: bieżące rozwiązywanie zgłoszeń i problemów w zarządzanych obszarach; monitorowanie systemów, zapobieganie i likwidowanie skutków awarii; automatyzacja zadań, centralizacja konfiguracji, standaryzacja dostarczanych środowisk | What they expect: doświadczenie w administracji systemami Windows Server; dobra znajomość Active Directory, GPO, DNS i mechanizmów uwierzytelniania; znajomość Microsoft 365 i Entra ID od strony administracyjnej | What they offer: elastyczne godziny - rozpoczynasz pracę między 7:00 a 10:00; premię roczną zależną od wyniku finansowego spółki i indywidualnej oceny pracy; narzędzia i przestrzeń do rozwoju zawodowego, w tym dostęp do platformy Udemy",
+      "summary_tasks": [
+        "bieżące rozwiązywanie zgłoszeń i problemów w zarządzanych obszarach",
+        "monitorowanie systemów, zapobieganie i likwidowanie skutków awarii",
+        "automatyzacja zadań, centralizacja konfiguracji, standaryzacja dostarczanych środowisk"
+      ],
+      "summary_expectations": [
+        "doświadczenie w administracji systemami Windows Server",
+        "dobra znajomość Active Directory, GPO, DNS i mechanizmów uwierzytelniania",
+        "znajomość Microsoft 365 i Entra ID od strony administracyjnej"
+      ],
+      "summary_offers": [
+        "elastyczne godziny - rozpoczynasz pracę między 7:00 a 10:00",
+        "premię roczną zależną od wyniku finansowego spółki i indywidualnej oceny pracy",
+        "narzędzia i przestrzeń do rozwoju zawodowego, w tym dostęp do platformy Udemy"
+      ],
+      "required_skills": [
+        "Windows Server",
+        "Microsoft 365",
+        "Ansible",
+        "Powershell",
+        "Azure",
+        "Zabbix",
+        "VMware",
+        "Active Directory",
+        "GPO"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: tcp/ip, routing, infrastructure",
+          "Linux / Git: terraform, powershell",
+          "Python & automation: automatyzacja, skrypt"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Requires Azure",
+          "Mentions AWS",
+          "Mentions Azure"
+        ],
+        "tier_reason": "Capped at 54: Requires Azure.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-17T06:26:09.886626+00:00"
     },
     {
       "id": "a4397004e06b99d8",
@@ -3699,6 +4304,59 @@
       "first_found_at": "2026-10-06T06:52:31.617475+00:00"
     },
     {
+      "id": "e85e13a9654ddd6c",
+      "title": "IDT Marketing Business Analyst CRM (f/m)",
+      "company": "British American Tobacco",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/idt-marketing-business-analyst-crm-f-m-warszawa-krakowiakow-48,oferta,1005183708",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-10-27T12:30:06.637Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Ensuring the right implementation and system integration of CRM systems (ie Salesforce, Hubspot), Surveys (Qualtrics and similar tools) and IAM solutions in scope as per the definition of; Manage global, regional and local vendors; Do business analysis activities to support the deployment of global / regional / local solutions as per project and BAU setup | What they expect: Manage global, regional and local vendors; Coordinate and orchestrate their tasks and the contracted services provided by them; Ensure compliance with global Digital Marketing Technology policies and standards | What they offer: We offer a market leading annual performance bonus (subject to eligibility); Our range of benefits varies by country and includes diverse health plans, initiatives for work-life balance, transportation support, and a flexible holiday plan with additional incentives; Seize the opportunity and own your development",
+      "summary_tasks": [
+        "Ensuring the right implementation and system integration of CRM systems (ie Salesforce, Hubspot), Surveys (Qualtrics and similar tools) and IAM solutions in scope as per the definition of",
+        "Manage global, regional and local vendors",
+        "Do business analysis activities to support the deployment of global / regional / local solutions as per project and BAU setup"
+      ],
+      "summary_expectations": [
+        "Manage global, regional and local vendors",
+        "Coordinate and orchestrate their tasks and the contracted services provided by them",
+        "Ensure compliance with global Digital Marketing Technology policies and standards"
+      ],
+      "summary_offers": [
+        "We offer a market leading annual performance bonus (subject to eligibility)",
+        "Our range of benefits varies by country and includes diverse health plans, initiatives for work-life balance, transportation support, and a flexible holiday plan with additional incentives",
+        "Seize the opportunity and own your development"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: analytics",
+          "B2B / CRM operations: crm, hubspot",
+          "Python & automation: integration, skrypt"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Salesforce"
+        ],
+        "tier_reason": "Capped at 54: Requires Salesforce.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-28T07:52:46.039623+00:00"
+    },
+    {
       "id": "5400825e29c33fca",
       "title": "Specjalista / Specjalistka ds. Marketingu i PR",
       "company": "Teatr Capitol - Scena Capitol Sp.z. o.o.",
@@ -3753,57 +4411,59 @@
       "first_found_at": "2026-10-13T06:57:31.430102+00:00"
     },
     {
-      "id": "e85e13a9654ddd6c",
-      "title": "IDT Marketing Business Analyst CRM (f/m)",
-      "company": "British American Tobacco",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/idt-marketing-business-analyst-crm-f-m-warszawa-krakowiakow-48,oferta,1005183708",
-      "apply_url": "",
-      "source": "pracuj.pl",
+      "id": "30a43a837d61ca3d",
+      "title": "Analityk Systemów Informatycznych (ds. Provisioningu) (k/m)",
+      "company": "Netia S.A.",
+      "location": "Warszawa, Wrocław",
+      "url": "https://justjoin.it/job-offer/polkomtel-sp-z-o-o--analityk-systemow-informatycznych-ds-provisioningu-k-m--warszawa-analytics",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=20f45b137bc04a0680b5620d90a7e243",
+      "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
-      "seniority": "junior, mid",
+      "seniority": "mid",
       "salary": "",
-      "published_at": "2026-10-27T12:30:06.637Z",
+      "published_at": "2026-11-03T08:05:06.417802Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: Ensuring the right implementation and system integration of CRM systems (ie Salesforce, Hubspot), Surveys (Qualtrics and similar tools) and IAM solutions in scope as per the definition of; Manage global, regional and local vendors; Do business analysis activities to support the deployment of global / regional / local solutions as per project and BAU setup | What they expect: Manage global, regional and local vendors; Coordinate and orchestrate their tasks and the contracted services provided by them; Ensure compliance with global Digital Marketing Technology policies and standards | What they offer: We offer a market leading annual performance bonus (subject to eligibility); Our range of benefits varies by country and includes diverse health plans, initiatives for work-life balance, transportation support, and a flexible holiday plan with additional incentives; Seize the opportunity and own your development",
-      "summary_tasks": [
-        "Ensuring the right implementation and system integration of CRM systems (ie Salesforce, Hubspot), Surveys (Qualtrics and similar tools) and IAM solutions in scope as per the definition of",
-        "Manage global, regional and local vendors",
-        "Do business analysis activities to support the deployment of global / regional / local solutions as per project and BAU setup"
-      ],
+      "summary": "What they expect: Doświadczenie w projektach związanych z rozwojem systemów informatycznych; Znajomość relacyjnych baz danych oraz języka SQL; Praktyczna znajomość języka Java, w tym umiejętność tworzenia i analizy kodu, aplikacji | What they offer: Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju; Dostęp do platformy szkoleniowej; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie i inne)",
+      "summary_tasks": [],
       "summary_expectations": [
-        "Manage global, regional and local vendors",
-        "Coordinate and orchestrate their tasks and the contracted services provided by them",
-        "Ensure compliance with global Digital Marketing Technology policies and standards"
+        "Doświadczenie w projektach związanych z rozwojem systemów informatycznych",
+        "Znajomość relacyjnych baz danych oraz języka SQL",
+        "Praktyczna znajomość języka Java, w tym umiejętność tworzenia i analizy kodu, aplikacji"
       ],
       "summary_offers": [
-        "We offer a market leading annual performance bonus (subject to eligibility)",
-        "Our range of benefits varies by country and includes diverse health plans, initiatives for work-life balance, transportation support, and a flexible holiday plan with additional incentives",
-        "Seize the opportunity and own your development"
+        "Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju",
+        "Dostęp do platformy szkoleniowej",
+        "Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie i inne)"
       ],
-      "required_skills": [],
+      "required_skills": [
+        "SQL",
+        "GitLab",
+        "Java",
+        "Jenkins",
+        "Integracja REST/SOAP",
+        "Linux/Unix"
+      ],
       "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
         "matches": [
-          "SQL / Excel / reporting: analytics",
-          "B2B / CRM operations: crm, hubspot",
-          "Python & automation: integration, skrypt"
+          "Linux / Git: linux",
+          "Python & automation: integracja"
         ],
         "concerns": [
-          "Not a junior role; CV has only project experience here",
           "Listed as Mid/Regular level",
-          "Requires Salesforce"
+          "Requires Java",
+          "Mentions JAVA"
         ],
-        "tier_reason": "Capped at 54: Requires Salesforce.",
-        "suggested_cv": "Data & Operations"
+        "tier_reason": "Capped at 54: Requires Java.",
+        "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-28T07:52:46.039623+00:00"
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
       "id": "fc43a7c53bbe4f79",
@@ -3861,224 +4521,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-29T07:56:16.155179+00:00"
-    },
-    {
-      "id": "aa14439a34a140cb",
-      "title": "Infrastructure Engineer",
-      "company": "Antal Sp. z o.o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/antal-sp-z-o-o--infrastructure-engineer-warszawa-admin",
-      "apply_url": "https://antalpl.traffit.com/public/form/a/e62ee238e867f09868ed413157a2e3ff4e37616f4b496f3d?source=justjoin.it",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-02T11:05:06.157807Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Udział w projektach migracji, transformacji i carve-out infrastruktury IT; Współpraca z zespołami Cloud, Network, Security i Application; Doświadczenie z rozwiązaniami backupowymi i monitoringiem | What they expect: Bardzo dobra znajomość środowiska Microsoft Windows Server; Doświadczenie w administracji Active Directory oraz usługami infrastrukturalnymi Microsoft; Znajomość VMware, Hyper-V lub Proxmox",
-      "summary_tasks": [
-        "Udział w projektach migracji, transformacji i carve-out infrastruktury IT",
-        "Współpraca z zespołami Cloud, Network, Security i Application",
-        "Doświadczenie z rozwiązaniami backupowymi i monitoringiem"
-      ],
-      "summary_expectations": [
-        "Bardzo dobra znajomość środowiska Microsoft Windows Server",
-        "Doświadczenie w administracji Active Directory oraz usługami infrastrukturalnymi Microsoft",
-        "Znajomość VMware, Hyper-V lub Proxmox"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "Windows Administration",
-        "Active Directory",
-        "DNS",
-        "MS Windows Server",
-        "Cloud",
-        "VMware",
-        "Hyper-V"
-      ],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: network, infrastructure",
-          "Linux / Git: powershell",
-          "Python & automation: automatyzacja"
-        ],
-        "concerns": [
-          "Listed as Mid/Regular level",
-          "Requires Azure",
-          "Mentions Azure"
-        ],
-        "tier_reason": "Capped at 54: Requires Azure.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
-    },
-    {
-      "id": "4823fd04029716a6",
-      "title": "Specjalista / Specjalistka ds. Analiz i Rozliczeń Prowizyjnych",
-      "company": "E100 International Trade Sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-analiz-i-rozliczen-prowizyjnych-warszawa-pory-78,oferta,1005180089",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-26T10:15:21.273Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Wdrażanie i utrzymywanie systemu motywacyjnego dla pracowników, w tym systemu KPI i premiowania; Monitorowanie zasad naliczania wynagrodzeń zmiennych oraz ich aktualizacja w przypadku zmian; Terminowe i prawidłowe naliczanie wynagrodzeń prowizyjnych i premiowych zgodnie z obowiązującą metodologią | What they expect: Doświadczenie w pracy z obliczeniami, analizą danych i raportowaniem; Znajomość programu Excel oraz Power BI; Doświadczenie w pracy ze wskaźnikami KPI oraz systemami premiowymi i prowizyjnymi | What they offer: Szeroki pakiet benefitów: prywatna opieka medyczna, karta Multisport, platforma do nauki języków obcych i inne korzyści; Możliwość rozwoju i podnoszenia kwalifikacji zawodowych: szkolenie wewnętrzne i zewnętrzne; Bezpłatne sesje z trenerem rozwoju osobistego",
-      "summary_tasks": [
-        "Wdrażanie i utrzymywanie systemu motywacyjnego dla pracowników, w tym systemu KPI i premiowania",
-        "Monitorowanie zasad naliczania wynagrodzeń zmiennych oraz ich aktualizacja w przypadku zmian",
-        "Terminowe i prawidłowe naliczanie wynagrodzeń prowizyjnych i premiowych zgodnie z obowiązującą metodologią"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w pracy z obliczeniami, analizą danych i raportowaniem",
-        "Znajomość programu Excel oraz Power BI",
-        "Doświadczenie w pracy ze wskaźnikami KPI oraz systemami premiowymi i prowizyjnymi"
-      ],
-      "summary_offers": [
-        "Szeroki pakiet benefitów: prywatna opieka medyczna, karta Multisport, platforma do nauki języków obcych i inne korzyści",
-        "Możliwość rozwoju i podnoszenia kwalifikacji zawodowych: szkolenie wewnętrzne i zewnętrzne",
-        "Bezpłatne sesje z trenerem rozwoju osobistego"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires Power BI",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 54: Requires Power BI.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
-    },
-    {
-      "id": "aa56f2d91b5a98bd",
-      "title": "Business Processes Specialist",
-      "company": "CodeTwo - HRejterzy",
-      "location": "Wrocław, Jelenia Góra",
-      "url": "https://justjoin.it/job-offer/codetwo---hrejterzy-business-processes-specialist-wroclaw-analytics-d4195471",
-      "apply_url": "https://codetwo.recruitee.com/o/business-processes-specialist-specjalista-ka-ds-procesow-biznesowych",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-02T13:21:25.1774549Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Tworzeniem i utrzymaniem dokumentacji związanej z procesami biznesowymi, w tym: polityk, procedur, instrukcji; Przynajmniej rocznego doświadczenia w pracy na stanowisku o podobnym zakresie obowiązków; Bardzo dobrych umiejętności organizacji pracy własnej, zarządzania czasem, utrzymania porządku, priorytetyzacji i zamykania zadań | What they expect: Przynajmniej rocznego doświadczenia w pracy na stanowisku o podobnym zakresie obowiązków; Bardzo dobrych umiejętności organizacji pracy własnej, zarządzania czasem, utrzymania porządku, priorytetyzacji i zamykania zadań; Bardzo dobrych umiejętności związanych z pracą nad procesami biznesowymi | What they offer: Możliwość rozwoju, ciągłego poszerzania i doskonalenia swoich kompetencji; Możliwość wyboru pomiędzy pracą zdalną, pracą hybrydową lub stacjonarną, we Wrocławiu lub Jeleniej Górze; Dopłatę do karty sportowej, grupowego ubezpieczenia pracowniczego, pakietu medycznego, darmowe polskie jabłka, kolumbijskie banany i cukierki, imprezy integracyjne, pizzadays",
-      "summary_tasks": [
-        "Tworzeniem i utrzymaniem dokumentacji związanej z procesami biznesowymi, w tym: polityk, procedur, instrukcji",
-        "Przynajmniej rocznego doświadczenia w pracy na stanowisku o podobnym zakresie obowiązków",
-        "Bardzo dobrych umiejętności organizacji pracy własnej, zarządzania czasem, utrzymania porządku, priorytetyzacji i zamykania zadań"
-      ],
-      "summary_expectations": [
-        "Przynajmniej rocznego doświadczenia w pracy na stanowisku o podobnym zakresie obowiązków",
-        "Bardzo dobrych umiejętności organizacji pracy własnej, zarządzania czasem, utrzymania porządku, priorytetyzacji i zamykania zadań",
-        "Bardzo dobrych umiejętności związanych z pracą nad procesami biznesowymi"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju, ciągłego poszerzania i doskonalenia swoich kompetencji",
-        "Możliwość wyboru pomiędzy pracą zdalną, pracą hybrydową lub stacjonarną, we Wrocławiu lub Jeleniej Górze",
-        "Dopłatę do karty sportowej, grupowego ubezpieczenia pracowniczego, pakietu medycznego, darmowe polskie jabłka, kolumbijskie banany i cukierki, imprezy integracyjne, pizzadays"
-      ],
-      "required_skills": [
-        "Optymalizacja Procesów Biznesowych",
-        "Procesy biznesowe",
-        "Microsoft 365",
-        "Analityka"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: automatyzacja"
-        ],
-        "concerns": [
-          "Asks for 1 year; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Azure"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
-    },
-    {
-      "id": "bcbf53d450f71579",
-      "title": "Business Process Design Specialist | Branża Bankowa",
-      "company": "Edge One Solutions Sp. z o.o",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-business-process-design-specialist-branza-bankowa-warszawa-analytics",
-      "apply_url": "https://edge1s.recruitify.ai/job/7567e42b-9b0a-406e-9701-0565307b0c74?sourceId=37",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-02T13:05:01.715863Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Procesy biznesowe są związane z rynkiem kapitałowym i w ramach tych procesów realizowana jest obsługa dużych inwestorów instytucjonalnych, takich jak fundusze inwestycyjne i emerytalne; Tryb pracy Świadczenie usług odbywa się w trybie hybrydowym (4 razy w miesiącu z biura Klienta w Warszawie) Realizację projektu ułatwi Ci Doświadczenie w migracji procesów biznesowych na nowy system bazodanowy Znajomość procesów biznesowych związanych z rynkiem kapitałowym Doświadczenie w obsłudze procesów związanych z inwestorami instytucjonalnymi, w tym funduszami inwestycyjnymi i emerytalnymi Umiejętność eliminacji i optymalizacji procesów operacyjnych Twój wkład do projektu Wsparcie projektu migracji procesów biznesowych na nowy system bazodanowy Praca z procesami biznesowymi związanymi z rynkiem kapitałowy Wsparcie procesów dotyczących obsługi dużych inwestorów instytucjonalnych, w tym funduszy inwestycyjnych i emerytalnych Analiza istniejących procesów operacyjnych Identyfikacja obszarów wymagających zmian Eliminacja zbędnych procesów; Zyskujesz indywidualne wsparcie Service Delivery Managera , który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje | What they expect: Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji; dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange; prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował? | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary; które rozwijają i łączą ludzi; prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne",
-      "summary_tasks": [
-        "Procesy biznesowe są związane z rynkiem kapitałowym i w ramach tych procesów realizowana jest obsługa dużych inwestorów instytucjonalnych, takich jak fundusze inwestycyjne i emerytalne",
-        "Tryb pracy Świadczenie usług odbywa się w trybie hybrydowym (4 razy w miesiącu z biura Klienta w Warszawie) Realizację projektu ułatwi Ci Doświadczenie w migracji procesów biznesowych na nowy system bazodanowy Znajomość procesów biznesowych związanych z rynkiem kapitałowym Doświadczenie w obsłudze procesów związanych z inwestorami instytucjonalnymi, w tym funduszami inwestycyjnymi i emerytalnymi Umiejętność eliminacji i optymalizacji procesów operacyjnych Twój wkład do projektu Wsparcie projektu migracji procesów biznesowych na nowy system bazodanowy Praca z procesami biznesowymi związanymi z rynkiem kapitałowy Wsparcie procesów dotyczących obsługi dużych inwestorów instytucjonalnych, w tym funduszy inwestycyjnych i emerytalnych Analiza istniejących procesów operacyjnych Identyfikacja obszarów wymagających zmian Eliminacja zbędnych procesów",
-        "Zyskujesz indywidualne wsparcie Service Delivery Managera , który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje"
-      ],
-      "summary_expectations": [
-        "Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji",
-        "dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange",
-        "prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował?"
-      ],
-      "summary_offers": [
-        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary",
-        "które rozwijają i łączą ludzi",
-        "prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne"
-      ],
-      "required_skills": [
-        "Migracja procesów",
-        "Rynek kapitałowy",
-        "Procesy biznesowe"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-04T06:45:12.319854+00:00"
     },
     {
       "id": "4c6095fe530f8599",
@@ -4178,6 +4620,66 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-02T06:54:52.032258+00:00"
+    },
+    {
+      "id": "3b4f3e6d960f2486",
+      "title": "IT Business Analyst (FinTech)",
+      "company": "CodeTalent",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/codetalent-it-business-analyst-fintech--warszawa-analytics",
+      "apply_url": "https://aplikuj.hrappka.pl/oferta/IT-Business-Analyst-FinTech/196213",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T08:05:05.617897Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji); Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań; Prowadzenie i bieżące utrzymanie dokumentacji projektowej | What they expect: 2 lata doświadczenia; na stanowisku Analityka Biznesowego IT ( | What they offer: Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe; Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy; Prywatna opieka medyczna i dofinansowanie karty sportowej",
+      "summary_tasks": [
+        "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych (prowadzenie warsztatów z interesariuszami, tworzenie User Stories i kryteriów akceptacji)",
+        "Współpraca z zespołem UX oraz biznesem przy prototypowaniu rozwiązań",
+        "Prowadzenie i bieżące utrzymanie dokumentacji projektowej"
+      ],
+      "summary_expectations": [
+        "2 lata doświadczenia",
+        "na stanowisku Analityka Biznesowego IT ("
+      ],
+      "summary_offers": [
+        "Atrakcyjny system premiowy oraz jasne, przejrzyste cele i cele rozwojowe",
+        "Praca hybrydowa w nowoczesnym biurze w Warszawie z elastycznym czasem pracy",
+        "Prywatna opieka medyczna i dofinansowanie karty sportowej"
+      ],
+      "required_skills": [
+        "REST API",
+        "Swagger",
+        "BPMN",
+        "Figma",
+        "MIRO",
+        "Jira",
+        "Scrum"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql",
+          "B2B / CRM operations: crm",
+          "Python & automation: api, automatyzacja, rest api"
+        ],
+        "concerns": [
+          "Asks for 2 years; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-04T10:30:52.239895+00:00"
     },
     {
       "id": "520c6c959ded4992",
@@ -4339,58 +4841,6 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "ac025687c5335372",
-      "title": "Analityk Danych sektor energetyczny",
-      "company": "HECKMAN sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-danych-sektor-energetyczny-warszawa-kolumba-43-47,oferta,1005177351",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid, Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-23T11:49:05.257Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych; Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy; Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania | What they expect: 2-letnie doświadczenie w analizie danych; Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań; Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników | What they offer: Możliwość rozwoju i awansu; Premie i bonusy za wyniki; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych",
-        "Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy",
-        "Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania"
-      ],
-      "summary_expectations": [
-        "2-letnie doświadczenie w analizie danych",
-        "Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań",
-        "Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników"
-      ],
-      "summary_offers": [
-        "Możliwość rozwoju i awansu",
-        "Premie i bonusy za wyniki",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, postgresql",
-          "Python & automation: python, api, automatyzacja"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
-    },
-    {
       "id": "3873dd8e251d8407",
       "title": "Business Analyst",
       "company": "YOUR ITEAMS sp. z o.o.",
@@ -4441,6 +4891,121 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
+      "id": "95dee4c5f8f86e3c",
+      "title": "Data Modeler (m/k/os)",
+      "company": "DOZ S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/doz-s-a--data-modeler-m-k-os--warszawa-data",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=27f9cf32eaf04a8fa816b7def63892ee",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T07:50:02.0022125Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Projektowanie i implementacja złożonych modeli analitycznych i raportów w Power BI zgodnie z potrzebami biznesu; Zarządzanie środowiskiem Power BI: monitorowanie wydajności, uprawnienia użytkowników, bezpieczeństwo danych; Automatyzacja procesów raportowania w celu ograniczenia pracy manualnej | What they expect: 2 lata doświadczenia w tworzeniu modeli danych i raportów w Power BI; Bardzo dobra znajomość DAX oraz Power Query (M); Znajomość zasad modelowania wymiarowego (schemat gwiazdy, tabele faktów i wymiarów) | What they offer: 🔏możliwość dołączenia do dobrego ubezpieczenia grupowego na preferencyjnych warunkach, które zapewni poczucie bezpieczeństwa Tobie i Twoim bliskim; 🩺prywatną opiekę medyczną dzięki, której będziesz miał możliwość skonsultowania się ze specjalistami na trenie całego kraju; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Projektowanie i implementacja złożonych modeli analitycznych i raportów w Power BI zgodnie z potrzebami biznesu",
+        "Zarządzanie środowiskiem Power BI: monitorowanie wydajności, uprawnienia użytkowników, bezpieczeństwo danych",
+        "Automatyzacja procesów raportowania w celu ograniczenia pracy manualnej"
+      ],
+      "summary_expectations": [
+        "2 lata doświadczenia w tworzeniu modeli danych i raportów w Power BI",
+        "Bardzo dobra znajomość DAX oraz Power Query (M)",
+        "Znajomość zasad modelowania wymiarowego (schemat gwiazdy, tabele faktów i wymiarów)"
+      ],
+      "summary_offers": [
+        "🔏możliwość dołączenia do dobrego ubezpieczenia grupowego na preferencyjnych warunkach, które zapewni poczucie bezpieczeństwa Tobie i Twoim bliskim",
+        "🩺prywatną opiekę medyczną dzięki, której będziesz miał możliwość skonsultowania się ze specjalistami na trenie całego kraju",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL",
+        "Databricks",
+        "LakeHouse",
+        "RLS"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql",
+          "Python & automation: automatyzacja, integracja"
+        ],
+        "concerns": [
+          "Asks for 2 years; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Power BI",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
+      "id": "967d08feb383a09b",
+      "title": "Analityk Biznesowy ",
+      "company": "ASTEK Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/astek-polska-analityk-biznesowy--warszawa-analytics",
+      "apply_url": "https://astek.pl",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-03T10:55:03.4712271Z",
+      "fit_score": 50,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Swobodnie współpracujesz zarówno z interesariuszami biznesowymi, jak i zespołami IT; Komunikujesz się w języku angielskim na poziomie umożliwiającym codzienną współpracę w środowisku międzynarodowym; Doświadczenie w tworzeniu raportów i dashboardów przy użyciu Power BI | What they expect: Osoba na tym stanowisku będzie odpowiadać za analizę wymagań biznesowych oraz rozwój rozwiązań wspierających elektroniczny handel walutami (FX); Poszukujemy osoby z doświadczeniem analitycznym w sektorze finansowym oraz dobrą znajomością rynku FX; Sprawdzisz się w tej roli, jeżeli: Posiadasz doświadczenie na stanowisku Analityka Biznesowego lub Analityka Biznesowo-Systemowego | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
+      "summary_tasks": [
+        "Swobodnie współpracujesz zarówno z interesariuszami biznesowymi, jak i zespołami IT",
+        "Komunikujesz się w języku angielskim na poziomie umożliwiającym codzienną współpracę w środowisku międzynarodowym",
+        "Doświadczenie w tworzeniu raportów i dashboardów przy użyciu Power BI"
+      ],
+      "summary_expectations": [
+        "Osoba na tym stanowisku będzie odpowiadać za analizę wymagań biznesowych oraz rozwój rozwiązań wspierających elektroniczny handel walutami (FX)",
+        "Poszukujemy osoby z doświadczeniem analitycznym w sektorze finansowym oraz dobrą znajomością rynku FX",
+        "Sprawdzisz się w tej roli, jeżeli: Posiadasz doświadczenie na stanowisku Analityka Biznesowego lub Analityka Biznesowo-Systemowego"
+      ],
+      "summary_offers": [
+        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
+        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
+        "Znasz kogoś, kogo zainteresuje ta oferta?"
+      ],
+      "required_skills": [
+        "Business Analysis",
+        "FX",
+        "financial markets",
+        "Requirements gathering"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     }
   ]
 }
