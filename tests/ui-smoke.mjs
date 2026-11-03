@@ -62,6 +62,7 @@ assert(draft.includes('expectations_employer'),'Employer expectations template m
 // independently refill Daily Picks from the broad accepted feed.
 assert(daily.includes('meta?.daily_pick_ids'),'Canonical server Daily Picks missing');
 assert(daily.includes('jobRadarDailySnapshotV3'),'Old local snapshot could override server selection');
+assert(daily.includes('feed_revision:dailyFeedRevision()'), 'New feed must invalidate stale same-day snapshot');
 const focus=read('v21-focus-cv.js');
 assert(focus.includes('meta?.focus_job_ids'),'Focus does not use server relevance list');
 assert(focus.includes("aiReviewFor(job)?.verdict!=='SKIP'"),'AI SKIP still visible in Focus');

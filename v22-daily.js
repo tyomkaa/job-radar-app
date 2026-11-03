@@ -3,16 +3,22 @@
 const DAILY_FEEDBACK_KEY='jobRadarDailyFeedbackV1';
 const DAILY_SNAPSHOT_KEY='jobRadarDailySnapshotV3';
 function dailyFeedDay(){return meta?.generated_at?localDateKey(meta.generated_at):today()}
+function dailyFeedRevision(){return String(meta?.generated_at||'')}
 function dailySnapshot(){
   try{
     const value=JSON.parse(localStorage.getItem(DAILY_SNAPSHOT_KEY)||'null');
-    return value&&value.day===dailyFeedDay()&&Array.isArray(value.keys)?value:null;
+    if(!value||value.day!==dailyFeedDay()||!Array.isArray(value.keys))return null;
+    // Same date is not the same feed: a manual/scheduled regeneration can
+    // change server Daily IDs while the date remains unchanged.
+    if(Array.isArray(meta?.daily_pick_ids)&&value.feed_revision!==dailyFeedRevision())return null;
+    return value;
   }catch{return null}
 }
 function dailySaveSnapshot(selected){
   if(!jobs.length)return;
   try{localStorage.setItem(DAILY_SNAPSHOT_KEY,JSON.stringify({
-    day:dailyFeedDay(),keys:selected.map(x=>jobKey(x.job)),created_at:new Date().toISOString()
+    day:dailyFeedDay(),feed_revision:dailyFeedRevision(),
+    keys:selected.map(x=>jobKey(x.job)),created_at:new Date().toISOString()
   }))}catch{}
 }
 function dailyTechnicalScope(job){
@@ -69,7 +75,8 @@ function dailyRecommendations(){
     }).filter(Boolean);
     if(!snapshot){
       try{localStorage.setItem(DAILY_SNAPSHOT_KEY,JSON.stringify({
-        day:dailyFeedDay(),keys,created_at:new Date().toISOString(),source:'server'
+        day:dailyFeedDay(),feed_revision:dailyFeedRevision(),
+        keys,created_at:new Date().toISOString(),source:'server'
       }))}catch{}
     }
     const lookup=new Map(jobs.map(j=>[jobKey(j),j]));

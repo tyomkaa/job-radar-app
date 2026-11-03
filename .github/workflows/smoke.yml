@@ -20,3 +20,4 @@ jobs:
           node tests/ua-employer-matching.mjs
           node tests/compact-filters-integration.mjs
           node tests/disputed-ai-skip-integration.mjs
+          node tests/daily-feed-revision-integration.mjs
