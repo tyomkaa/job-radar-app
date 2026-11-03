@@ -1,18 +1,18 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-02T23:28:37.115231+00:00",
-    "found": 6561,
-    "accepted": 84,
+    "generated_at": "2026-11-03T00:13:00.397284+00:00",
+    "found": 6560,
+    "accepted": 83,
     "filtered": {
-      "Too much experience required (3+ years)": 245,
-      "Too senior / management": 3075,
-      "Contract: B2B only or UoP not confirmed": 635,
-      "Location: not Warsaw and not remote": 619,
+      "Too much experience required (3+ years)": 248,
+      "Too senior / management": 3079,
+      "Contract: B2B only or UoP not confirmed": 633,
+      "Location: not Warsaw and not remote": 618,
       "Missing a required language": 26,
       "Different profession than your CV": 888,
       "Too weak a match with your CV": 13,
-      "Could not verify the vacancy page": 356,
+      "Could not verify the vacancy page": 352,
       "Other": 620
     },
     "sources": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2762
+        "fetched": 2761
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -70,10 +70,8 @@
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
-      "7b38941f5f064f03",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
-      "f94aeeb62bd01cbf",
       "8530a0f18b3a2375",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
@@ -82,8 +80,10 @@
       "dc48607353d4d5b1",
       "ea2729f768fade3a",
       "e85e13a9654ddd6c",
+      "7b38941f5f064f03",
       "01dc41172dccf1b6",
       "b9fecf418ce7efcc",
+      "f94aeeb62bd01cbf",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
       "22e5639c1c588154",
@@ -107,19 +107,15 @@
       "144ff8302ff34730",
       "76d60942905b81b0",
       "a6e9a05b7aade9e4",
-      "7b38941f5f064f03",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
-      "f94aeeb62bd01cbf",
       "8530a0f18b3a2375",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
       "f87fe97c17e0414f",
       "a34cb2043eee8ac3"
     ],
-    "fresh_daily_ids": [
-      "7b38941f5f064f03"
-    ],
+    "fresh_daily_ids": [],
     "focus_stretch_ids": [
       "76d60942905b81b0",
       "e48b5ba58039e515",
@@ -135,12 +131,12 @@
       "9ecb84e872bb2803"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 84,
+      "feed_candidates": 83,
       "shortlisted": 2,
       "focus_total": 35,
       "focus_stretch": 12,
-      "recent_opportunities": 12,
-      "recent_strict": 1,
+      "recent_opportunities": 10,
+      "recent_strict": 0,
       "automation": 1,
       "reasons": {
         "exploratory_only": 7,
@@ -148,7 +144,6 @@
         "career_direction": 44,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
-        "management_title": 1,
         "ai_skip": 1,
         "backend_tier": 12,
         "mid_level": 14,
@@ -156,11 +151,11 @@
       }
     },
     "ai_budget": {
-      "date_utc": "2026-11-02",
-      "used": 1,
+      "date_utc": "2026-11-03",
+      "used": 0,
       "limit": 20,
-      "remaining": 19,
-      "checked_at_utc": "2026-11-02T23:28:37.531934+00:00"
+      "remaining": 20,
+      "checked_at_utc": "2026-11-03T00:13:01.024765+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
@@ -168,13 +163,13 @@
       "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 5,
+      "reused": 4,
       "unreviewed": 0,
-      "fresh_total": 12,
-      "fresh_reviewed": 2,
+      "fresh_total": 10,
+      "fresh_reviewed": 1,
       "daily_total": 2,
       "daily_reviewed": 2,
-      "feed_reviewed": 5
+      "feed_reviewed": 4
     }
   },
   "jobs": [
@@ -1509,70 +1504,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-02T01:13:20.568059+00:00"
-    },
-    {
-      "id": "49092f914d716205",
-      "title": "Lider Zespołu Operacji IT i Wsparcia Użytkowników",
-      "company": "HRK S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/lider-zespolu-operacji-it-i-wsparcia-uzytkownikow-warszawa,oferta,1005192198",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-30T14:08:02.973Z",
-      "fit_score": 65,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Zarządzanie pracą zespołu specjalistów IT oraz dbanie o rozwój kompetencji pracowników; Organizacja, koordynacja i nadzór nad realizacją zgłoszeń oraz bieżącym wsparciem użytkowników systemu Teta; Parametryzacja i rozwój systemu Teta oraz wdrażanie usprawnień i automatyzacji procesów | What they expect: Doświadczenie w pracy z systemem kadrowo-płacowym Teta; Doświadczenie w zarządzaniu lub koordynowaniu pracy zespołu; Bardzo dobra znajomość SQL oraz umiejętność pracy z bazami danych | What they offer: Oferujemy bogaty pakiet benefitów pozapłacowych, w tym kartę Multisport Plus, Prywatną opiekę medyczną, Ubezpieczenie na życie czy Pożyczki z ZFŚS; Pracujemy w elastycznym systemie — możesz rozpocząć dzień pracy między 8:00 a 9:00; Dbamy o rozwój poprzez szkolenia wewnętrzne, a także szkolenia zewnętrzne oraz pełny dostęp do platformy szkoleniowej Dolineo",
-      "summary_tasks": [
-        "Zarządzanie pracą zespołu specjalistów IT oraz dbanie o rozwój kompetencji pracowników",
-        "Organizacja, koordynacja i nadzór nad realizacją zgłoszeń oraz bieżącym wsparciem użytkowników systemu Teta",
-        "Parametryzacja i rozwój systemu Teta oraz wdrażanie usprawnień i automatyzacji procesów"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w pracy z systemem kadrowo-płacowym Teta",
-        "Doświadczenie w zarządzaniu lub koordynowaniu pracy zespołu",
-        "Bardzo dobra znajomość SQL oraz umiejętność pracy z bazami danych"
-      ],
-      "summary_offers": [
-        "Oferujemy bogaty pakiet benefitów pozapłacowych, w tym kartę Multisport Plus, Prywatną opiekę medyczną, Ubezpieczenie na życie czy Pożyczki z ZFŚS",
-        "Pracujemy w elastycznym systemie — możesz rozpocząć dzień pracy między 8:00 a 9:00",
-        "Dbamy o rozwój poprzez szkolenia wewnętrzne, a także szkolenia zewnętrzne oraz pełny dostęp do platformy szkoleniowej Dolineo"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Python & automation: automatyzacja, skrypt"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T22:18:07.027680+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия требует управления командой IT и работы с системой Teta, что частично соответствует опыту кандидата. Однако отсутствует подтверждение формального опыта руководства командой, только проектное лидерство. Требование к SQL и Teta есть, но глубина знаний не полностью проверена.",
-        "strengths": [
-          "Опыт работы с системой Teta и автоматизацией процессов",
-          "Навыки SQL/PostgreSQL и данных",
-          "Проектное лидерство в автоматизации и SaaS-интеграциях"
-        ],
-        "gaps": [
-          "Нет подтвержденного опыта управления командой, только проектное лидерство",
-          "Не указано прямое участие в HR-системах, кроме Teta",
-          "Отсутствие упоминания о координации технического поддержки пользователей"
-        ],
-        "verify": "Проверить, считается ли проектное лидерство в автоматизации управлением командой в контексте вакансии. Уточнить уровень вовлеченности в Teta и HR-процессы.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "ceb341d4762e86e67ef47eb5"
     },
     {
       "id": "054988ec9f909663",
