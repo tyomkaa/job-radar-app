@@ -763,7 +763,10 @@ document.addEventListener('keydown', event => {
 
 document.querySelectorAll('.filter').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
-  button.classList.add('active'); activeFilter = button.dataset.filter; render();
+  button.classList.add('active'); activeFilter = button.dataset.filter;
+  const optional = document.querySelector('#extraFilters');
+  if (optional && !optional.contains(button)) optional.open = false;
+  render();
 }));
 document.querySelector('#sortSelect').addEventListener('change', e => { sortMode = e.target.value; render(); });
 document.querySelector('#refreshBtn').addEventListener('click', () => loadJobs(false, captureViewportAnchor()));

@@ -84,12 +84,20 @@ assert(ukrainian.includes('v21LocallyEligible(job)'),'Ukrainian employer matches
 assert(ukrainian.includes('career')&&ukrainian.includes('current feed'),'Career links must be clearly separate from live feed');
 assert(!ukrainian.includes('fetch('),'Employer watchlist must not claim to scrape career sites');
 assert(!ukrainian.includes('localStorage.setItem'),'Employer filter must not mutate private local application data');
-const fresh=read('v28-fresh-opportunities.js');
-assert(html.includes('data-filter="FRESH"'),'New matches tab not wired');
-assert(scripts.includes('v28-fresh-opportunities.js'),'Fresh listing JS not loaded');
-assert(serviceWorker.includes("'./v28-fresh-opportunities.js'"),'Fresh JS missing in PWA offline cache');
-assert(serviceWorker.includes("'./styles-v28-fresh-opportunities.css'"),'Fresh CSS missing in PWA offline cache');
-assert(fresh.includes("meta?.fresh_opportunity_ids")&&fresh.includes("activeFilter!=='FRESH'"),'Fresh tab must consume server-curated matches');
-assert(fresh.includes("getTracker()")&&fresh.includes("dailyFeedback()")&&fresh.includes("aiReviewFor(j)?.verdict!=='SKIP'"),'Fresh tab must respect device feedback and AI SKIP');
-assert(fresh.includes("within the last 2 days"),'Clarify first-discovered, not employer-posted date');
+// Four visible job views and no redundant New Matches tab.
+const primary=html.match(/<div class="primary-filters"[\s\S]*?<\/div>/)?.[0]||'';
+const secondary=html.match(/<details class="extra-filters"[\s\S]*?<\/details>/)?.[0]||'';
+assert.deepEqual([...primary.matchAll(/data-filter="([^"]+)"/g)].map(x=>x[1]),
+  ['DAILY','FOCUS','ALL','UNSEEN'], 'Exactly four main tabs expected');
+for(const filter of ['UA_EMPLOYERS','TODAY','APPLY','POSSIBLE','STRETCH','AUTOMATION',
+ 'QUEUE','SAVED','APPLIED','REPLIED']){
+  assert(secondary.includes('data-filter="'+filter+'"'), 'Missing optional filter '+filter);
+}
+assert(secondary.includes('<summary>More filters</summary>'));
+assert(!html.includes('data-filter="FRESH"'), 'New Matches tab must be removed');
+assert(!scripts.includes('v28-fresh-opportunities.js'), 'Unused New Matches JS still loaded');
+assert(!styles.includes('styles-v28-fresh-opportunities.css'));
+assert(!serviceWorker.includes("'./v28-fresh-opportunities.js'"), 'Unused New Matches JS still cached');
+assert(serviceWorker.includes("'./styles-v29-compact-filters.css'"), 'New filter styles not cached');
+assert(read('app-v12.js').includes("!optional.contains(button)"), 'Core tab must collapse optional menu');
 console.log('Job Radar v0.7 smoke: script syntax, assets, cache, CV / Prepare / AI integration checks passed');
