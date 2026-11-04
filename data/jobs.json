@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T16:26:17.460212+00:00",
-    "found": 6956,
-    "accepted": 102,
+    "generated_at": "2026-11-04T17:31:16.036529+00:00",
+    "found": 6958,
+    "accepted": 108,
     "filtered": {
       "Too much experience required (3+ years)": 249,
-      "Too senior / management": 3167,
-      "Contract: B2B only or UoP not confirmed": 646,
-      "Location: not Warsaw and not remote": 594,
-      "Missing a required language": 28,
-      "Different profession than your CV": 904,
+      "Too senior / management": 3150,
+      "Contract: B2B only or UoP not confirmed": 653,
+      "Location: not Warsaw and not remote": 617,
+      "Missing a required language": 31,
+      "Different profession than your CV": 915,
       "Too weak a match with your CV": 14,
-      "Could not verify the vacancy page": 424,
-      "Other": 828
+      "Could not verify the vacancy page": 392,
+      "Other": 829
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3160
+        "fetched": 3157
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,7 +34,7 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 51
+        "fetched": 50
       },
       "greenhouse:boxinc": {
         "status": "ok",
@@ -62,9 +62,15 @@
       }
     },
     "version": 1,
-    "daily_pick_ids": [],
+    "daily_pick_ids": [
+      "8ff570771db22c77"
+    ],
+    "daily_review_ids": [
+      "8ff570771db22c77"
+    ],
     "focus_job_ids": [
       "144ff8302ff34730",
+      "3c7b4570180cb025",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
       "8ff570771db22c77",
@@ -111,6 +117,7 @@
     ],
     "fresh_opportunity_ids": [
       "144ff8302ff34730",
+      "3c7b4570180cb025",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
       "8ff570771db22c77",
@@ -119,7 +126,9 @@
       "b5d941053454bcc7",
       "f87fe97c17e0414f"
     ],
-    "fresh_daily_ids": [],
+    "fresh_daily_ids": [
+      "8ff570771db22c77"
+    ],
     "focus_stretch_ids": [
       "e48b5ba58039e515",
       "ea2729f768fade3a",
@@ -133,44 +142,45 @@
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 102,
-      "shortlisted": 0,
-      "focus_total": 37,
+      "feed_candidates": 108,
+      "shortlisted": 1,
+      "daily_review_only": 1,
+      "focus_total": 38,
       "ai_disputed_focus": 5,
       "focus_stretch": 10,
-      "recent_opportunities": 8,
-      "recent_strict": 0,
-      "fresh_feed_candidates": 24,
+      "recent_opportunities": 9,
+      "recent_strict": 1,
+      "fresh_feed_candidates": 29,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "ai_skip": 1,
-        "career_direction": 16,
+        "career_direction": 20,
         "exploratory_only": 4,
-        "mid_level": 1,
+        "mid_level": 2,
         "backend_tier": 1
       },
       "automation": 0,
       "direction_counts": {
         "software_adjacent": 13,
-        "automation": 12,
-        "other": 64,
+        "automation": 13,
+        "other": 69,
         "bridge": 4,
         "network": 5,
         "systems": 4
       },
-      "junior_title_candidates": 32,
-      "junior_excluded_by_direction": 15,
-      "high_scoring_junior_adjacent": 0,
+      "junior_title_candidates": 36,
+      "junior_excluded_by_direction": 19,
+      "high_scoring_junior_adjacent": 1,
       "reasons": {
         "hard_prerequisite_unverified": 3,
         "exploratory_only": 6,
         "old_discovery_focus_only": 2,
-        "career_direction": 64,
-        "ai_skip": 5,
+        "career_direction": 69,
+        "ai_conflict_check": 1,
+        "ai_skip": 4,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "backend_tier": 10,
-        "mid_level": 10
+        "mid_level": 11
       }
     },
     "ai_budget": {
@@ -178,20 +188,20 @@
       "used": 2,
       "limit": 20,
       "remaining": 18,
-      "checked_at_utc": "2026-11-04T16:26:25.381863+00:00"
+      "checked_at_utc": "2026-11-04T17:31:16.749166+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
-      "new": 1,
-      "new_daily": 1,
+      "new": 0,
+      "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 6,
+      "reused": 7,
       "unreviewed": 0,
-      "fresh_total": 8,
+      "fresh_total": 9,
       "fresh_reviewed": 1,
-      "daily_total": 0,
-      "daily_reviewed": 0,
+      "daily_total": 1,
+      "daily_reviewed": 1,
       "feed_reviewed": 7
     }
   },
@@ -988,6 +998,54 @@
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
+      "id": "75260c9f4ce2a849",
+      "title": "Młodszy Specjalista ds. obróbki ofert i wprowadzania danych",
+      "company": "HESTIA PODOLAK sp.k.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-ds-obrobki-ofert-i-wprowadzania-danych-warszawa-polczynska-108,oferta,1005194753",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-02T11:28:23.03Z",
+      "fit_score": 70,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień; Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek; Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek | What they expect: Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF; Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych; Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem | What they offer: stabilne warunki zatrudnienia; kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start; wynagrodzenie zasadnicze i premię uznaniową",
+      "summary_tasks": [
+        "Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień",
+        "Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek",
+        "Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek"
+      ],
+      "summary_expectations": [
+        "Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF",
+        "Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych",
+        "Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem"
+      ],
+      "summary_offers": [
+        "stabilne warunki zatrudnienia",
+        "kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start",
+        "wynagrodzenie zasadnicze i premię uznaniową"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
+    },
+    {
       "id": "05ab6b6f2514a11e",
       "title": "Business Analyst - TPRM",
       "company": "Capco",
@@ -1753,6 +1811,158 @@
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
     },
     {
+      "id": "afb078711f9a6eaa",
+      "title": "Młodszy specjalista / Młodsza specjalistka ds. Social Media i influencer marketingu",
+      "company": "UPUN sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-social-media-i-influencer-marketingu-warszawa,oferta,1005201490",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-04T14:39:34.033Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Budowanie i utrzymywanie relacji z influencerami współpracującymi z markami z portfolio UPUN sp; Koordynowanie realizacji kampanii influencerskich oraz monitorowanie terminowego wykonania ustalonych działań na platformach TikTok Shop, Instagram; Współpraca z zespołem marketingu przy planowaniu aktywności w mediach społecznościowych dla wszystkich marek dystrybutora | What they expect: Znajomość mediów społecznościowych i podstawowych zasad komunikacji marketingowej w kanałach digital; Zdolność budowania relacji i prowadzenia rozmów z influencerami w sposób profesjonalny i partnerski; Umiejętność dobrej organizacji pracy, pilnowania terminów i realizacji ustaleń z partnerami | What they offer: Stabilne zatrudnienie w oparciu o umowę o pracę lub elastyczną współpracę w modelu B2B; Przyjazna atmosfera, otwarta komunikacja oraz możliwości rozwoju kompetencji w obszarze social media i influencer marketingu; Jednocześnie pozostajemy firmą, w której liczy się atmosfera, wzajemne wsparcie i możliwość rozwoju, szczególnie dla osób rozpoczynających swoją przygodę w branży",
+      "summary_tasks": [
+        "Budowanie i utrzymywanie relacji z influencerami współpracującymi z markami z portfolio UPUN sp",
+        "Koordynowanie realizacji kampanii influencerskich oraz monitorowanie terminowego wykonania ustalonych działań na platformach TikTok Shop, Instagram",
+        "Współpraca z zespołem marketingu przy planowaniu aktywności w mediach społecznościowych dla wszystkich marek dystrybutora"
+      ],
+      "summary_expectations": [
+        "Znajomość mediów społecznościowych i podstawowych zasad komunikacji marketingowej w kanałach digital",
+        "Zdolność budowania relacji i prowadzenia rozmów z influencerami w sposób profesjonalny i partnerski",
+        "Umiejętność dobrej organizacji pracy, pilnowania terminów i realizacji ustaleń z partnerami"
+      ],
+      "summary_offers": [
+        "Stabilne zatrudnienie w oparciu o umowę o pracę lub elastyczną współpracę w modelu B2B",
+        "Przyjazna atmosfera, otwarta komunikacja oraz możliwości rozwoju kompetencji w obszarze social media i influencer marketingu",
+        "Jednocześnie pozostajemy firmą, w której liczy się atmosfera, wzajemne wsparcie i możliwość rozwoju, szczególnie dla osób rozpoczynających swoją przygodę w branży"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "SEO / digital marketing: social media",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction"
+        ],
+        "tier_reason": "Capped at 67: Ceiling for this direction.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T17:31:16.036529+00:00"
+    },
+    {
+      "id": "d74be4981374bbdb",
+      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. obsługi klienta e-commerce",
+      "company": "Lagardere Travel Retail",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-obslugi-klienta-e-commerce-warszawa,oferta,1005197204",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-03T10:00:10.8Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Koordynowanie postępowań reklamacyjnych oraz zwrotów; Tworzenie raportów sprzedażowych; Współpraca z innymi działami w firmie | What they expect: Umiejętność komunikacji w kontaktach z klientem; Podstawowa znajomość programu Excel; Komunikatywna znajomość języka angielskiego | What they offer: Zatrudnienie na podstawie umowy o pracę (wynagrodzenie: podstawa + atrakcyjny system premiowania) lub umowy zlecenie; Prywatna opieka medyczna Medicover, dofinansowanie do karty Benefit Systems lub Medicover Sport, bezpłatne ubezpieczenie na życie NN; Szkolenia specjalistyczne i narzędziowe",
+      "summary_tasks": [
+        "Koordynowanie postępowań reklamacyjnych oraz zwrotów",
+        "Tworzenie raportów sprzedażowych",
+        "Współpraca z innymi działami w firmie"
+      ],
+      "summary_expectations": [
+        "Umiejętność komunikacji w kontaktach z klientem",
+        "Podstawowa znajomość programu Excel",
+        "Komunikatywna znajomość języka angielskiego"
+      ],
+      "summary_offers": [
+        "Zatrudnienie na podstawie umowy o pracę (wynagrodzenie: podstawa + atrakcyjny system premiowania) lub umowy zlecenie",
+        "Prywatna opieka medyczna Medicover, dofinansowanie do karty Benefit Systems lub Medicover Sport, bezpłatne ubezpieczenie na życie NN",
+        "Szkolenia specjalistyczne i narzędziowe"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "SEO / digital marketing: seo",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction"
+        ],
+        "tier_reason": "Capped at 67: Ceiling for this direction.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
+    },
+    {
+      "id": "c41d693450133238",
+      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. Produktu i Content Marketingu",
+      "company": "Grupa Bemo",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-produktu-i-content-marketingu-warszawa-szyszkowa-34,oferta,1005195783",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior, mid",
+      "salary": "",
+      "published_at": "2026-11-02T14:31:03.483Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: tworzenie i redagowanie treści marketingowych, m.in; tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej; współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych | What they expect: doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych; lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści; umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; ubezpieczenie na życie",
+      "summary_tasks": [
+        "tworzenie i redagowanie treści marketingowych, m.in",
+        "tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej",
+        "współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych"
+      ],
+      "summary_expectations": [
+        "doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych",
+        "lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści",
+        "umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych",
+        "prywatna opieka medyczna",
+        "ubezpieczenie na życie"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "SEO / digital marketing: seo, content",
+          "Web platform (Supabase, PostgreSQL, WordPress): cms",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 67: Ceiling for this direction.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
+    },
+    {
       "id": "f87fe97c17e0414f",
       "title": "Młodszy Specjalista ds. systemów (k/m)",
       "company": "Life Spot Management sp. z o.o.",
@@ -2053,6 +2263,62 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+    },
+    {
+      "id": "3c7b4570180cb025",
+      "title": "Python Engineer",
+      "company": "BackDoor Systems",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/backdoor-systems-python-engineer-warszawa-python",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T17:00:09.7200134Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Oczekiwania bardzo dobra znajomość Pythona; Frontend: React, współpraca z warstwą backendową, dbałość o użyteczność i spójność tworzonych funkcji; Najważniejsze jest mocne zaplecze Pythonowe, samodzielność i gotowość do rozwijania się również w pozostałych obszarach | What they expect: Oczekiwania bardzo dobra znajomość Pythona; Nie wymagamy, aby kandydat/kandydatka był/była ekspertem we wszystkich wymienionych technologiach; Mile widziane doświadczenie komercyjne z Odoo, znajomość Django lub FastAPI, znajomość Reacta, doświadczenie w projektowaniu i integrowaniu API, znajomość n8n lub innych narzędzi do automatyzacji, doświadczenie z rozwiązaniami wykorzystującymi AI, umiejętność pisania testów automatycznych, doświadczenie w pracy z systemami biznesowymi, znajomość Docker, Git i relacyjnych baz danych | What they offer: realny wpływ na kierunek rozwoju produktów i systemów; dużą samodzielność w realizacji zadań; możliwość rozwoju w obszarach Odoo, Django, FastAPI, React, n8n oraz testów",
+      "summary_tasks": [
+        "Oczekiwania bardzo dobra znajomość Pythona",
+        "Frontend: React, współpraca z warstwą backendową, dbałość o użyteczność i spójność tworzonych funkcji",
+        "Najważniejsze jest mocne zaplecze Pythonowe, samodzielność i gotowość do rozwijania się również w pozostałych obszarach"
+      ],
+      "summary_expectations": [
+        "Oczekiwania bardzo dobra znajomość Pythona",
+        "Nie wymagamy, aby kandydat/kandydatka był/była ekspertem we wszystkich wymienionych technologiach",
+        "Mile widziane doświadczenie komercyjne z Odoo, znajomość Django lub FastAPI, znajomość Reacta, doświadczenie w projektowaniu i integrowaniu API, znajomość n8n lub innych narzędzi do automatyzacji, doświadczenie z rozwiązaniami wykorzystującymi AI, umiejętność pisania testów automatycznych, doświadczenie w pracy z systemami biznesowymi, znajomość Docker, Git i relacyjnych baz danych"
+      ],
+      "summary_offers": [
+        "realny wpływ na kierunek rozwoju produktów i systemów",
+        "dużą samodzielność w realizacji zadań",
+        "możliwość rozwoju w obszarach Odoo, Django, FastAPI, React, n8n oraz testów"
+      ],
+      "required_skills": [
+        "Python",
+        "Celery",
+        "Diango",
+        "React",
+        "FAST API"
+      ],
+      "fit_notes": {
+        "direction": "Python / Process / Workflow / AI Automation",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: python, api, automatyzacja",
+          "Linux / Git: git, docker"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T17:31:16.036529+00:00"
     },
     {
       "id": "e52a4995c93bc77c",
@@ -3774,6 +4040,63 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
+    },
+    {
+      "id": "9510990b433c9e8c",
+      "title": "Specjalista / Specjalistka ds. bezpieczeństwa aplikacji",
+      "company": "BackDoor Systems",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/backdoor-systems-specjalista-specjalistka-ds-bezpieczenstwa-aplikacji-warszawa-security",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T16:50:06.2091945Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Będziesz sprawdzać zabezpieczenia, analizować potencjalne słabości i współpracować z programistami oraz DevOpsem przy ich usuwaniu; Nasze aplikacje wykorzystują Python, Django, PostgreSQL, Redis i React; Współpracować z programistami przy usuwaniu problemów i sprawdzać skuteczność zmian | What they expect: Praktycznego doświadczenia w sprawdzaniu bezpieczeństwa aplikacji internetowych lub API; Znajomości typowych zagrożeń, takich jak błędy kontroli dostępu, SQL injection czy XSS; Umiejętności korzystania z narzędzi do testowania bezpieczeństwa, np | What they offer: Wpływ na bezpieczeństwo aplikacji i sposób ich rozwijania; Samodzielność i przestrzeń na proponowanie usprawnień; Możliwość rozwijania umiejętności technicznych i programistycznych",
+      "summary_tasks": [
+        "Będziesz sprawdzać zabezpieczenia, analizować potencjalne słabości i współpracować z programistami oraz DevOpsem przy ich usuwaniu",
+        "Nasze aplikacje wykorzystują Python, Django, PostgreSQL, Redis i React",
+        "Współpracować z programistami przy usuwaniu problemów i sprawdzać skuteczność zmian"
+      ],
+      "summary_expectations": [
+        "Praktycznego doświadczenia w sprawdzaniu bezpieczeństwa aplikacji internetowych lub API",
+        "Znajomości typowych zagrożeń, takich jak błędy kontroli dostępu, SQL injection czy XSS",
+        "Umiejętności korzystania z narzędzi do testowania bezpieczeństwa, np"
+      ],
+      "summary_offers": [
+        "Wpływ na bezpieczeństwo aplikacji i sposób ich rozwijania",
+        "Samodzielność i przestrzeń na proponowanie usprawnień",
+        "Możliwość rozwijania umiejętności technicznych i programistycznych"
+      ],
+      "required_skills": [
+        "Django",
+        "React",
+        "Python",
+        "Redis",
+        "Codex",
+        "Git"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux, git, docker",
+          "Python & automation: python, api, automatyzacja"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
     },
     {
       "id": "e43cc7aa98f328e2",
