@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T18:27:50.514234+00:00",
-    "found": 6955,
-    "accepted": 108,
+    "generated_at": "2026-11-04T20:07:33.931866+00:00",
+    "found": 6952,
+    "accepted": 105,
     "filtered": {
       "Too much experience required (3+ years)": 242,
-      "Too senior / management": 3126,
-      "Contract: B2B only or UoP not confirmed": 658,
-      "Location: not Warsaw and not remote": 635,
+      "Too senior / management": 3131,
+      "Contract: B2B only or UoP not confirmed": 659,
+      "Location: not Warsaw and not remote": 633,
       "Missing a required language": 31,
-      "Different profession than your CV": 917,
+      "Different profession than your CV": 916,
       "Too weak a match with your CV": 14,
-      "Could not verify the vacancy page": 398,
-      "Other": 826
+      "Could not verify the vacancy page": 396,
+      "Other": 825
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3154
+        "fetched": 3151
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -38,7 +38,7 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 134
+        "fetched": 135
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 681
+        "fetched": 680
       },
       "lever:adlook": {
         "status": "ok",
@@ -142,7 +142,7 @@
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 108,
+      "feed_candidates": 105,
       "shortlisted": 1,
       "daily_review_only": 1,
       "focus_total": 38,
@@ -150,10 +150,10 @@
       "focus_stretch": 10,
       "recent_opportunities": 9,
       "recent_strict": 1,
-      "fresh_feed_candidates": 29,
+      "fresh_feed_candidates": 27,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 20,
+        "career_direction": 18,
         "exploratory_only": 4,
         "mid_level": 2,
         "backend_tier": 1
@@ -162,19 +162,19 @@
       "direction_counts": {
         "software_adjacent": 13,
         "automation": 13,
-        "other": 69,
+        "other": 66,
         "bridge": 4,
         "network": 5,
         "systems": 4
       },
-      "junior_title_candidates": 36,
-      "junior_excluded_by_direction": 19,
+      "junior_title_candidates": 35,
+      "junior_excluded_by_direction": 18,
       "high_scoring_junior_adjacent": 1,
       "reasons": {
         "hard_prerequisite_unverified": 3,
         "exploratory_only": 6,
         "old_discovery_focus_only": 2,
-        "career_direction": 69,
+        "career_direction": 66,
         "ai_conflict_check": 1,
         "ai_skip": 4,
         "remote_needs_confirmation": 1,
@@ -188,7 +188,7 @@
       "used": 2,
       "limit": 20,
       "remaining": 18,
-      "checked_at_utc": "2026-11-04T18:27:51.068681+00:00"
+      "checked_at_utc": "2026-11-04T20:07:34.434254+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
@@ -1761,56 +1761,6 @@
       "first_found_at": "2026-10-29T07:56:16.155179+00:00"
     },
     {
-      "id": "bd32ef3660ccdc91",
-      "title": "Asystent Działu Projektowego ds. Analizy Danych (k/m/n)",
-      "company": "SAFEGE ODDZIAŁ W POLSCE",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/asystent-dzialu-projektowego-ds-analizy-danych-k-m-n-warszawa,oferta,1005199900",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-04T09:24:59.757Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie oraz administracja bazami danych w programie Microsoft Excel; monitorowanie poprawności i spójności danych; współpraca z zespołami projektowymi oraz pozostałymi działami firmy w zakresie wymiany informacji | What they expect: bardzo dobra znajomość programu Microsoft Excel, w szczególności tabel przestawnych oraz funkcji analitycznych; umiejętność pracy z dużymi zbiorami danych; rozwinięte zdolności analityczne i umiejętność wyciągania wniosków | What they offer: możliwość zdobywania doświadczenia i rozwoju zawodowego w obszarze analiz danych oraz zarządzania projektami; pakiet benefitów pozapłacowych (zgodnie z polityką firmy); Nasza działalność związana jest ze zrównoważonym rozwojem obejmując sektory: budownictwa, przemysłu, transportu, ochrony środowiska, czy energetyki",
-      "summary_tasks": [
-        "tworzenie oraz administracja bazami danych w programie Microsoft Excel",
-        "monitorowanie poprawności i spójności danych",
-        "współpraca z zespołami projektowymi oraz pozostałymi działami firmy w zakresie wymiany informacji"
-      ],
-      "summary_expectations": [
-        "bardzo dobra znajomość programu Microsoft Excel, w szczególności tabel przestawnych oraz funkcji analitycznych",
-        "umiejętność pracy z dużymi zbiorami danych",
-        "rozwinięte zdolności analityczne i umiejętność wyciągania wniosków"
-      ],
-      "summary_offers": [
-        "możliwość zdobywania doświadczenia i rozwoju zawodowego w obszarze analiz danych oraz zarządzania projektami",
-        "pakiet benefitów pozapłacowych (zgodnie z polityką firmy)",
-        "Nasza działalność związana jest ze zrównoważonym rozwojem obejmując sektory: budownictwa, przemysłu, transportu, ochrony środowiska, czy energetyki"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "afb078711f9a6eaa",
       "title": "Młodszy specjalista / Młodsza specjalistka ds. Social Media i influencer marketingu",
       "company": "UPUN sp. z o.o.",
@@ -2481,56 +2431,6 @@
         "matches": [
           "SQL / Excel / reporting: analytics",
           "Python & automation: api, integracja"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "029b79456c28ac9b",
-      "title": "Analityk Biznesowy",
-      "company": "ALGOTEQUE SERVICES",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/algoteque-services-analityk-biznesowy-warszawa-analytics",
-      "apply_url": "https://www.jobposting.pro/emploi-2730144-179",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T08:30:11.8910751Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: ALGOTEQUE to firma doradcza IT, która wspiera startupy, średnie i duże przedsiębiorstwa w tworzeniu i wdrażaniu innowacyjnych technologii; Współpraca z ekspertami biznesowymi, architektami, programistami i testerami; Doświadczenie we współpracy z zespołami IT | What they expect: Doświadczenie w analizie biznesowej lub biznesowo-systemowej; Umiejętność modelowania procesów biznesowych; Znajomość BPMN, UML lub podobnych notacji",
-      "summary_tasks": [
-        "ALGOTEQUE to firma doradcza IT, która wspiera startupy, średnie i duże przedsiębiorstwa w tworzeniu i wdrażaniu innowacyjnych technologii",
-        "Współpraca z ekspertami biznesowymi, architektami, programistami i testerami",
-        "Doświadczenie we współpracy z zespołami IT"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w analizie biznesowej lub biznesowo-systemowej",
-        "Umiejętność modelowania procesów biznesowych",
-        "Znajomość BPMN, UML lub podobnych notacji"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "BPMN",
-        "UML",
-        "Business Analysis"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: automatyzacja, integracja"
         ],
         "concerns": [
           "Not a junior role; CV has only project experience here",
@@ -3425,57 +3325,6 @@
       "first_found_at": "2026-10-20T06:50:22.034110+00:00"
     },
     {
-      "id": "aed0530047cf6455",
-      "title": "Specjalista / Specjalistka ds. Operacji",
-      "company": "KernTerminal",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-operacji-warszawa-szyszkowa-35-37,oferta,1005200015",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T09:43:05.147Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Współpraca z partnerami operacyjnymi: koordynowanie bieżących działań i wspólne rozwiązywanie problemów, tak aby procesy przebiegały płynnie; Monitorowanie terminowości realizacji założonych celów, weryfikacja przychodów do kosztów oraz wykrywanie i sygnalizowanie problemów; Obsługa zgłoszeń w Jira: tworzenie, rejestrowanie, prowadzenie i aktualizowanie zgłoszeń | What they expect: Minimum rok doświadczenia w logistyce, operacjach lub podobnym obszarze; Dobra znajomość Excela: tabele przestawne i formuły wyszukiwania (WYSZUKAJ.PIONOWO / X.WYSZUKAJ); Znajomość języka angielskiego na poziomie B1 | What they offer: Umowę o pracę w pełnym wymiarze czasu pracy; Pracę w siedzibie firmy w Warszawie (Włochy); Jesteśmy prężnie rozwijającą się firmą produkcyjną o globalnym zasięgu",
-      "summary_tasks": [
-        "Współpraca z partnerami operacyjnymi: koordynowanie bieżących działań i wspólne rozwiązywanie problemów, tak aby procesy przebiegały płynnie",
-        "Monitorowanie terminowości realizacji założonych celów, weryfikacja przychodów do kosztów oraz wykrywanie i sygnalizowanie problemów",
-        "Obsługa zgłoszeń w Jira: tworzenie, rejestrowanie, prowadzenie i aktualizowanie zgłoszeń"
-      ],
-      "summary_expectations": [
-        "Minimum rok doświadczenia w logistyce, operacjach lub podobnym obszarze",
-        "Dobra znajomość Excela: tabele przestawne i formuły wyszukiwania (WYSZUKAJ.PIONOWO / X.WYSZUKAJ)",
-        "Znajomość języka angielskiego na poziomie B1"
-      ],
-      "summary_offers": [
-        "Umowę o pracę w pełnym wymiarze czasu pracy",
-        "Pracę w siedzibie firmy w Warszawie (Włochy)",
-        "Jesteśmy prężnie rozwijającą się firmą produkcyjną o globalnym zasięgu"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "caa4b788b9769896",
       "title": "Warehouse Operations Specialist",
       "company": "NOMAGIC sp. z o.o.",
@@ -3527,6 +3376,57 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
+      "id": "aed0530047cf6455",
+      "title": "Specjalista / Specjalistka ds. Operacji",
+      "company": "KernTerminal",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-operacji-warszawa-szyszkowa-35-37,oferta,1005200015",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T09:43:05.147Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Współpraca z partnerami operacyjnymi: koordynowanie bieżących działań i wspólne rozwiązywanie problemów, tak aby procesy przebiegały płynnie; Monitorowanie terminowości realizacji założonych celów, weryfikacja przychodów do kosztów oraz wykrywanie i sygnalizowanie problemów; Obsługa zgłoszeń w Jira: tworzenie, rejestrowanie, prowadzenie i aktualizowanie zgłoszeń | What they expect: Minimum rok doświadczenia w logistyce, operacjach lub podobnym obszarze; Dobra znajomość Excela: tabele przestawne i formuły wyszukiwania (WYSZUKAJ.PIONOWO / X.WYSZUKAJ); Znajomość języka angielskiego na poziomie B1 | What they offer: Umowę o pracę w pełnym wymiarze czasu pracy; Pracę w siedzibie firmy w Warszawie (Włochy); Jesteśmy prężnie rozwijającą się firmą produkcyjną o globalnym zasięgu",
+      "summary_tasks": [
+        "Współpraca z partnerami operacyjnymi: koordynowanie bieżących działań i wspólne rozwiązywanie problemów, tak aby procesy przebiegały płynnie",
+        "Monitorowanie terminowości realizacji założonych celów, weryfikacja przychodów do kosztów oraz wykrywanie i sygnalizowanie problemów",
+        "Obsługa zgłoszeń w Jira: tworzenie, rejestrowanie, prowadzenie i aktualizowanie zgłoszeń"
+      ],
+      "summary_expectations": [
+        "Minimum rok doświadczenia w logistyce, operacjach lub podobnym obszarze",
+        "Dobra znajomość Excela: tabele przestawne i formuły wyszukiwania (WYSZUKAJ.PIONOWO / X.WYSZUKAJ)",
+        "Znajomość języka angielskiego na poziomie B1"
+      ],
+      "summary_offers": [
+        "Umowę o pracę w pełnym wymiarze czasu pracy",
+        "Pracę w siedzibie firmy w Warszawie (Włochy)",
+        "Jesteśmy prężnie rozwijającą się firmą produkcyjną o globalnym zasięgu"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
     },
     {
       "id": "1cf08a4afa85f03f",
@@ -5307,53 +5207,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-11T06:49:06.945680+00:00"
-    },
-    {
-      "id": "5ba465aa33a0adfd",
-      "title": "Młodszy Analityk AML/KYC (K/M)",
-      "company": "ASTEK Polska",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/astek-polska-mlodszy-analityk-aml-kyc-k-m--warszawa-bankowosc-analiza-ryzyko",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Unknown",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "junior",
-      "salary": "40 - 60 PLN/godz.",
-      "published_at": "",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center; UZ Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego | What they expect: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach; Nr ref AO24616 Wymagane umiejętności AML KYC Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 40 | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
-      "summary_tasks": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center",
-        "UZ Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego"
-      ],
-      "summary_expectations": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach",
-        "Nr ref AO24616 Wymagane umiejętności AML KYC Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 40"
-      ],
-      "summary_offers": [
-        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
-        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
-        "Znasz kogoś, kogo zainteresuje ta oferta?"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [],
-        "concerns": [
-          "Contract not confirmed yet"
-        ],
-        "tier_reason": "Capped at 69: Contract not confirmed yet.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
     },
     {
       "id": "4c6095fe530f8599",
