@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T21:45:20.936533+00:00",
-    "found": 6955,
+    "generated_at": "2026-11-04T22:26:31.047992+00:00",
+    "found": 6951,
     "accepted": 81,
     "filtered": {
-      "Too much experience required (3+ years)": 241,
-      "Too senior / management": 3125,
-      "Contract: B2B only or UoP not confirmed": 659,
-      "Location: not Warsaw and not remote": 635,
+      "Too much experience required (3+ years)": 243,
+      "Too senior / management": 3123,
+      "Contract: B2B only or UoP not confirmed": 662,
+      "Location: not Warsaw and not remote": 639,
       "Missing a required language": 31,
-      "Different profession than your CV": 938,
+      "Different profession than your CV": 935,
       "Too weak a match with your CV": 20,
-      "Could not verify the vacancy page": 390,
-      "Other": 835
+      "Could not verify the vacancy page": 377,
+      "Other": 840
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3153
+        "fetched": 3149
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,11 +34,11 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 51
+        "fetched": 50
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 135
+        "fetched": 134
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 680
+        "fetched": 682
       },
       "lever:adlook": {
         "status": "ok",
@@ -62,14 +62,16 @@
       }
     },
     "version": 1,
-    "daily_pick_ids": [],
+    "daily_pick_ids": [
+      "f87fe97c17e0414f"
+    ],
     "daily_review_ids": [],
     "focus_job_ids": [
       "3c7b4570180cb025",
       "144ff8302ff34730",
+      "f87fe97c17e0414f",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "f87fe97c17e0414f",
       "de7ce96492d15e28",
       "dc48607353d4d5b1",
       "ea2729f768fade3a",
@@ -104,12 +106,14 @@
     "fresh_opportunity_ids": [
       "3c7b4570180cb025",
       "144ff8302ff34730",
+      "f87fe97c17e0414f",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "f87fe97c17e0414f",
       "de7ce96492d15e28"
     ],
-    "fresh_daily_ids": [],
+    "fresh_daily_ids": [
+      "f87fe97c17e0414f"
+    ],
     "focus_stretch_ids": [
       "144ff8302ff34730",
       "e48b5ba58039e515",
@@ -125,29 +129,28 @@
     ],
     "daily_diagnostics": {
       "feed_candidates": 81,
-      "shortlisted": 0,
+      "shortlisted": 1,
       "daily_review_only": 0,
       "focus_total": 31,
       "ai_disputed_focus": 2,
       "focus_stretch": 11,
       "recent_opportunities": 6,
-      "recent_strict": 0,
+      "recent_strict": 1,
       "fresh_feed_candidates": 14,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
         "career_direction": 8,
-        "exploratory_only": 1,
         "mid_level": 1,
         "backend_tier": 3
       },
       "automation": 0,
       "direction_counts": {
-        "software_adjacent": 9,
+        "software_adjacent": 8,
         "automation": 13,
         "bridge": 4,
         "other": 47,
         "network": 4,
-        "systems": 4
+        "systems": 5
       },
       "junior_title_candidates": 26,
       "junior_excluded_by_direction": 13,
@@ -155,34 +158,35 @@
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
-        "exploratory_only": 2,
+        "exploratory_only": 1,
         "ai_skip": 4,
         "career_direction": 47,
         "remote_needs_confirmation": 1,
+        "qualified": 1,
         "mid_level": 11,
         "backend_tier": 12
       }
     },
     "ai_budget": {
       "date_utc": "2026-11-04",
-      "used": 2,
+      "used": 3,
       "limit": 20,
-      "remaining": 18,
-      "checked_at_utc": "2026-11-04T21:45:21.370683+00:00"
+      "remaining": 17,
+      "checked_at_utc": "2026-11-04T22:26:38.097165+00:00"
     },
     "ai_automatic": {
-      "eligible": 0,
-      "new": 0,
-      "new_daily": 0,
+      "eligible": 1,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
       "reused": 6,
       "unreviewed": 0,
       "fresh_total": 6,
-      "fresh_reviewed": 0,
-      "daily_total": 0,
-      "daily_reviewed": 0,
-      "feed_reviewed": 6
+      "fresh_reviewed": 1,
+      "daily_total": 1,
+      "daily_reviewed": 1,
+      "feed_reviewed": 7
     }
   },
   "jobs": [
@@ -891,7 +895,23 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
+      "first_found_at": "2026-11-02T01:13:20.568059+00:00",
+      "ai_review": {
+        "verdict": "APPLY",
+        "explanation": "Вакансия соответствует требованиям: уровень junior, 0 лет опыта, локация Warsaw/hybrid. Кандидат имеет опыт Python-автоматизации, SQL/PostgreSQL и системной интеграции, соответствующий задачам.",
+        "strengths": [
+          "Python-автоматизация и интеграция API",
+          "Опыт работы с SQL/PostgreSQL и данными",
+          "Системная интеграция и документирование решений"
+        ],
+        "gaps": [
+          "Нет упоминания о специфических инструментах из описания вакансии",
+          "Опыт freelance-разработки может превышать уровень junior"
+        ],
+        "verify": "Проверить соответствие задач вакансии (работа с данными, SQL, документирование) и наличия требуемых навыков у кандидата.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "ee94e12e46bb4df5162bf5d2"
     },
     {
       "id": "8530a0f18b3a2375",
@@ -1528,60 +1548,6 @@
       "first_found_at": "2026-10-11T06:49:06.945680+00:00"
     },
     {
-      "id": "dc48607353d4d5b1",
-      "title": "Data Analyst - Automation & Innovation Department",
-      "company": "T-Mobile",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/data-analyst-automation-innovation-department-warszawa-marynarska-12,oferta,1005185997",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-28T11:28:05.41Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance; Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities; Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs | What they expect: 1+ year of experience in a data analytics or data engineering role; Experience working with large and complex datasets; Advanced SQL skills and hands-on experience with data analysis | What they offer: Benefits; sharing the costs of professional training & courses; remote work opportunities",
-      "summary_tasks": [
-        "Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance",
-        "Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities",
-        "Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs"
-      ],
-      "summary_expectations": [
-        "1+ year of experience in a data analytics or data engineering role",
-        "Experience working with large and complex datasets",
-        "Advanced SQL skills and hands-on experience with data analysis"
-      ],
-      "summary_offers": [
-        "Benefits",
-        "sharing the costs of professional training & courses",
-        "remote work opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, data analysis, analytics",
-          "Python & automation: automation",
-          "B2B / CRM operations: operations"
-        ],
-        "concerns": [
-          "Asks for 1 year; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
-    },
-    {
       "id": "c77453e702de8a83",
       "title": "IT Support & Automation Specialist",
       "company": "Tylko",
@@ -1788,6 +1754,60 @@
         "automation"
       ],
       "first_found_at": "2026-10-09T13:29:10.505687+00:00"
+    },
+    {
+      "id": "dc48607353d4d5b1",
+      "title": "Data Analyst - Automation & Innovation Department",
+      "company": "T-Mobile",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/data-analyst-automation-innovation-department-warszawa-marynarska-12,oferta,1005185997",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-28T11:28:05.41Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance; Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities; Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs | What they expect: 1+ year of experience in a data analytics or data engineering role; Experience working with large and complex datasets; Advanced SQL skills and hands-on experience with data analysis | What they offer: Benefits; sharing the costs of professional training & courses; remote work opportunities",
+      "summary_tasks": [
+        "Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance",
+        "Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities",
+        "Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs"
+      ],
+      "summary_expectations": [
+        "1+ year of experience in a data analytics or data engineering role",
+        "Experience working with large and complex datasets",
+        "Advanced SQL skills and hands-on experience with data analysis"
+      ],
+      "summary_offers": [
+        "Benefits",
+        "sharing the costs of professional training & courses",
+        "remote work opportunities"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, data analysis, analytics",
+          "Python & automation: automation",
+          "B2B / CRM operations: operations"
+        ],
+        "concerns": [
+          "Asks for 1 year; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
     },
     {
       "id": "22e5639c1c588154",
