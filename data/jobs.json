@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T11:30:09.598434+00:00",
-    "found": 6916,
-    "accepted": 104,
+    "generated_at": "2026-11-04T16:26:17.460212+00:00",
+    "found": 6956,
+    "accepted": 102,
     "filtered": {
-      "Too much experience required (3+ years)": 230,
-      "Too senior / management": 3172,
-      "Contract: B2B only or UoP not confirmed": 583,
-      "Location: not Warsaw and not remote": 617,
-      "Missing a required language": 29,
-      "Different profession than your CV": 920,
-      "Too weak a match with your CV": 12,
-      "Could not verify the vacancy page": 416,
-      "Other": 833
+      "Too much experience required (3+ years)": 249,
+      "Too senior / management": 3167,
+      "Contract: B2B only or UoP not confirmed": 646,
+      "Location: not Warsaw and not remote": 594,
+      "Missing a required language": 28,
+      "Different profession than your CV": 904,
+      "Too weak a match with your CV": 14,
+      "Could not verify the vacancy page": 424,
+      "Other": 828
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3307
+        "fetched": 3312
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3120
+        "fetched": 3160
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,11 +34,11 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 50
+        "fetched": 51
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 136
+        "fetched": 134
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -50,15 +50,15 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 693
+        "fetched": 681
       },
       "lever:adlook": {
         "status": "ok",
-        "fetched": 25
+        "fetched": 26
       },
       "lever:Civitta": {
         "status": "ok",
-        "fetched": 76
+        "fetched": 79
       }
     },
     "version": 1,
@@ -67,7 +67,7 @@
       "144ff8302ff34730",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "c3aecb8201f73067",
+      "8ff570771db22c77",
       "de7ce96492d15e28",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
@@ -77,7 +77,6 @@
       "a6e9a05b7aade9e4",
       "8fd28842829f3a77",
       "e85e13a9654ddd6c",
-      "529fdb6e90e15b76",
       "7b38941f5f064f03",
       "345b73f850f5eb5a",
       "f94aeeb62bd01cbf",
@@ -104,8 +103,8 @@
       "31eb236ed458dd4c"
     ],
     "ai_disputed_focus_ids": [
+      "8ff570771db22c77",
       "8fd28842829f3a77",
-      "529fdb6e90e15b76",
       "7b38941f5f064f03",
       "8530a0f18b3a2375",
       "e8fb8f8aca57253f"
@@ -114,7 +113,7 @@
       "144ff8302ff34730",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "c3aecb8201f73067",
+      "8ff570771db22c77",
       "de7ce96492d15e28",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
@@ -134,9 +133,9 @@
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 104,
+      "feed_candidates": 102,
       "shortlisted": 0,
-      "focus_total": 38,
+      "focus_total": 37,
       "ai_disputed_focus": 5,
       "focus_stretch": 10,
       "recent_opportunities": 8,
@@ -144,134 +143,59 @@
       "fresh_feed_candidates": 24,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
+        "ai_skip": 1,
         "career_direction": 16,
-        "exploratory_only": 5,
+        "exploratory_only": 4,
         "mid_level": 1,
         "backend_tier": 1
       },
       "automation": 0,
       "direction_counts": {
-        "network": 6,
         "software_adjacent": 13,
-        "automation": 13,
+        "automation": 12,
         "other": 64,
         "bridge": 4,
+        "network": 5,
         "systems": 4
       },
-      "junior_title_candidates": 35,
-      "junior_excluded_by_direction": 17,
+      "junior_title_candidates": 32,
+      "junior_excluded_by_direction": 15,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
-        "ai_skip": 5,
         "hard_prerequisite_unverified": 3,
-        "exploratory_only": 7,
+        "exploratory_only": 6,
         "old_discovery_focus_only": 2,
         "career_direction": 64,
+        "ai_skip": 5,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "backend_tier": 10,
-        "mid_level": 11
+        "mid_level": 10
       }
     },
     "ai_budget": {
       "date_utc": "2026-11-04",
-      "used": 1,
+      "used": 2,
       "limit": 20,
-      "remaining": 19,
-      "checked_at_utc": "2026-11-04T11:30:10.238113+00:00"
+      "remaining": 18,
+      "checked_at_utc": "2026-11-04T16:26:25.381863+00:00"
     },
     "ai_automatic": {
-      "eligible": 0,
-      "new": 0,
-      "new_daily": 0,
+      "eligible": 1,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 7,
+      "reused": 6,
       "unreviewed": 0,
       "fresh_total": 8,
-      "fresh_reviewed": 0,
+      "fresh_reviewed": 1,
       "daily_total": 0,
       "daily_reviewed": 0,
       "feed_reviewed": 7
     }
   },
   "jobs": [
-    {
-      "id": "529fdb6e90e15b76",
-      "title": "Młodszy Administrator / Młodsza Administratorka Sieci i Systemów LAN",
-      "company": "e-point SA",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/e-point-sa-mlodszy-administrator-mlodsza-administratorka-sieci-i-systemow-lan-warszawa-admin",
-      "apply_url": "https://workate.pl/oferty-pracy/e-point/modszy-administrator-sieci-i-systemow-lan-bvwzmerx",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-03T13:00:00.573767Z",
-      "fit_score": 82,
-      "match_level": "STRONG",
-      "recommendation_tier": "APPLY",
-      "experience_required_years": 0,
-      "summary": "What you'll do: to fundament współpracy, komunikacji i realizacji projektów; TWOJE ZADANIA Przygotowywanie i konfigurowanie laptopów dla pracowników; Zarządzanie kontami użytkowników oraz uprawnieniami dostępu | What they expect: Podstawowa znajomość systemów Windows i Linux; Umiejętność samodzielnego diagnozowania i rozwiązywania problemów technicznych; Znajomość języka angielskiego pozwalająca na korzystanie z dokumentacji technicznej | What they offer: Pracę na ½ etatu (około 20 godzin tygodniowo); Możliwość współpracy na podstawie umowy o pracę, umowy zlecenia lub B2B – w zależności od preferencji; Pracę stacjonarną w naszym biurze",
-      "summary_tasks": [
-        "to fundament współpracy, komunikacji i realizacji projektów",
-        "TWOJE ZADANIA Przygotowywanie i konfigurowanie laptopów dla pracowników",
-        "Zarządzanie kontami użytkowników oraz uprawnieniami dostępu"
-      ],
-      "summary_expectations": [
-        "Podstawowa znajomość systemów Windows i Linux",
-        "Umiejętność samodzielnego diagnozowania i rozwiązywania problemów technicznych",
-        "Znajomość języka angielskiego pozwalająca na korzystanie z dokumentacji technicznej"
-      ],
-      "summary_offers": [
-        "Pracę na ½ etatu (około 20 godzin tygodniowo)",
-        "Możliwość współpracy na podstawie umowy o pracę, umowy zlecenia lub B2B – w zależności od preferencji",
-        "Pracę stacjonarną w naszym biurze"
-      ],
-      "required_skills": [
-        "Helpdesk",
-        "Windows",
-        "Linux",
-        "LAN",
-        "WAN",
-        "TCP/IP",
-        "Hardware",
-        "Google Workspace",
-        "Jira",
-        "IT Security"
-      ],
-      "fit_notes": {
-        "direction": "Network / NOC / Telecom",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: tcp/ip",
-          "Linux / Git: linux"
-        ],
-        "concerns": [],
-        "tier_reason": "Strong match with your CV and entry-level requirements.",
-        "suggested_cv": "Network & IT Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-30T07:50:33.935003+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия требует системного администрирования и поддержки, а не автоматизации процессов или интеграции систем. Кандидат не имеет подтверждённого опыта в управлении сетями/системами, только техническую поддержку и разработку автоматизаций.",
-        "strengths": [
-          "Имеет опыт автоматизации процессов и работы с API",
-          "Знает Python, SQL, Linux/Windows",
-          "Участвовал в SaaS-проектах и интеграции систем"
-        ],
-        "gaps": [
-          "Нет подтверждённого опыта в системном администрировании или сетях",
-          "Вакансия не связана с автоматизацией процессов или AI",
-          "Требуется только базовая техническая поддержка, а не разработка"
-        ],
-        "verify": "Проверить, есть ли в описании вакансии требования к автоматизации, интеграции систем или AI. В данном случае — нет.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "eac62c966b169f62511261b9"
-    },
     {
       "id": "99c99c9bfb69d790",
       "title": "Młodszy Programista / Młodsza Programistka (Python / TypeScript)",
@@ -533,7 +457,24 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
+      "first_found_at": "2026-11-04T11:30:09.598434+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия на позицию менеджера проектов, а не разработчика/интегратора систем. Требуется управление проектами, координация между отделами, а не техническая реализация автоматизаций или интеграций.",
+        "strengths": [
+          "Локация и формат соответствуют требованиям",
+          "Нет ограничений по B2B-модели",
+          "Отсутствие требований к senior/lead-роли"
+        ],
+        "gaps": [
+          "Отсутствие технических требований (Python, автоматизация, интеграции)",
+          "Позиция фокусируется на управлении проектами, а не на технической реализации",
+          "Нет указаний на работу с системами/сетями/данными"
+        ],
+        "verify": "Проверка соответствия профессии и технических требований вакансии",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "b3879f6c8eeb952ca37ce9ad"
     },
     {
       "id": "8530a0f18b3a2375",
@@ -1047,54 +988,6 @@
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
-      "id": "75260c9f4ce2a849",
-      "title": "Młodszy Specjalista ds. obróbki ofert i wprowadzania danych",
-      "company": "HESTIA PODOLAK sp.k.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-ds-obrobki-ofert-i-wprowadzania-danych-warszawa-polczynska-108,oferta,1005194753",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-02T11:28:23.03Z",
-      "fit_score": 70,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień; Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek; Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek | What they expect: Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF; Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych; Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem | What they offer: stabilne warunki zatrudnienia; kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start; wynagrodzenie zasadnicze i premię uznaniową",
-      "summary_tasks": [
-        "Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień",
-        "Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek",
-        "Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek"
-      ],
-      "summary_expectations": [
-        "Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF",
-        "Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych",
-        "Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem"
-      ],
-      "summary_offers": [
-        "stabilne warunki zatrudnienia",
-        "kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start",
-        "wynagrodzenie zasadnicze i premię uznaniową"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "05ab6b6f2514a11e",
       "title": "Business Analyst - TPRM",
       "company": "Capco",
@@ -1564,56 +1457,6 @@
       "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
-      "id": "c3aecb8201f73067",
-      "title": "Młodszy/a specjalista/-ka ds. monitoringu systemów IT",
-      "company": "T-Mobile",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-monitoringu-systemow-it-warszawa-marynarska-12,oferta,1005177444",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-10-23T12:08:02.527Z",
-      "fit_score": 68,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Monitorowanie sieci T-Mobile Polska w trybie 24/7/365; Troubleshooting oraz obsługa zgłoszeń klientów wewnętrznych T-Mobile Polska; Koordynacja usuwania awarii | What they expect: Ogólna znajomość architektury i infrastruktury telekomunikacyjnej; Znajomość systemów monitoringu (Zabbix, Dynatrace); Znajomość protokołów sieciowych i internetowych | What they offer: Benefity; prywatna opieka medyczna; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Monitorowanie sieci T-Mobile Polska w trybie 24/7/365",
-        "Troubleshooting oraz obsługa zgłoszeń klientów wewnętrznych T-Mobile Polska",
-        "Koordynacja usuwania awarii"
-      ],
-      "summary_expectations": [
-        "Ogólna znajomość architektury i infrastruktury telekomunikacyjnej",
-        "Znajomość systemów monitoringu (Zabbix, Dynatrace)",
-        "Znajomość protokołów sieciowych i internetowych"
-      ],
-      "summary_offers": [
-        "Benefity",
-        "prywatna opieka medyczna",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: troubleshooting",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 68: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "b5d941053454bcc7",
       "title": "Junior IT Support",
       "company": "Dolfi 1920 Sp. z. o.o.",
@@ -1910,108 +1753,6 @@
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
     },
     {
-      "id": "d74be4981374bbdb",
-      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. obsługi klienta e-commerce",
-      "company": "Lagardere Travel Retail",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-obslugi-klienta-e-commerce-warszawa,oferta,1005197204",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-03T10:00:10.8Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Koordynowanie postępowań reklamacyjnych oraz zwrotów; Tworzenie raportów sprzedażowych; Współpraca z innymi działami w firmie | What they expect: Umiejętność komunikacji w kontaktach z klientem; Podstawowa znajomość programu Excel; Komunikatywna znajomość języka angielskiego | What they offer: Zatrudnienie na podstawie umowy o pracę (wynagrodzenie: podstawa + atrakcyjny system premiowania) lub umowy zlecenie; Prywatna opieka medyczna Medicover, dofinansowanie do karty Benefit Systems lub Medicover Sport, bezpłatne ubezpieczenie na życie NN; Szkolenia specjalistyczne i narzędziowe",
-      "summary_tasks": [
-        "Koordynowanie postępowań reklamacyjnych oraz zwrotów",
-        "Tworzenie raportów sprzedażowych",
-        "Współpraca z innymi działami w firmie"
-      ],
-      "summary_expectations": [
-        "Umiejętność komunikacji w kontaktach z klientem",
-        "Podstawowa znajomość programu Excel",
-        "Komunikatywna znajomość języka angielskiego"
-      ],
-      "summary_offers": [
-        "Zatrudnienie na podstawie umowy o pracę (wynagrodzenie: podstawa + atrakcyjny system premiowania) lub umowy zlecenie",
-        "Prywatna opieka medyczna Medicover, dofinansowanie do karty Benefit Systems lub Medicover Sport, bezpłatne ubezpieczenie na życie NN",
-        "Szkolenia specjalistyczne i narzędziowe"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
-      "id": "c41d693450133238",
-      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. Produktu i Content Marketingu",
-      "company": "Grupa Bemo",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-produktu-i-content-marketingu-warszawa-szyszkowa-34,oferta,1005195783",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-11-02T14:31:03.483Z",
-      "fit_score": 67,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie i redagowanie treści marketingowych, m.in; tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej; współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych | What they expect: doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych; lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści; umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; ubezpieczenie na życie",
-      "summary_tasks": [
-        "tworzenie i redagowanie treści marketingowych, m.in",
-        "tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej",
-        "współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych"
-      ],
-      "summary_expectations": [
-        "doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych",
-        "lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści",
-        "umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób"
-      ],
-      "summary_offers": [
-        "dofinansowanie zajęć sportowych",
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "Web platform (Supabase, PostgreSQL, WordPress): cms",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "f87fe97c17e0414f",
       "title": "Młodszy Specjalista ds. systemów (k/m)",
       "company": "Life Spot Management sp. z o.o.",
@@ -2164,6 +1905,53 @@
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
     },
     {
+      "id": "8c2d0c69daa145e0",
+      "title": "Młodszy Analityk AML/KYC (K/M)",
+      "company": "ASTEK Polska",
+      "location": "Warszawa, Poland",
+      "url": "https://rocketjobs.pl/oferta-pracy/astek-polska-mlodszy-analityk-aml-kyc-k-m--warszawa-bankowosc-analiza-ryzyko-364e7ec8",
+      "apply_url": "",
+      "source": "rocketjobs.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "junior",
+      "salary": "5 500 - 7 500 PLN/mies.",
+      "published_at": "",
+      "fit_score": 63,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center; UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego | What they expect: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach; Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500 | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
+      "summary_tasks": [
+        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
+        "Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center",
+        "UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego"
+      ],
+      "summary_expectations": [
+        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
+        "bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach",
+        "Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500"
+      ],
+      "summary_offers": [
+        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
+        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
+        "Znasz kogoś, kogo zainteresuje ta oferta?"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
+    },
+    {
       "id": "7e7be59d16b1ab49",
       "title": "Junior Backend Developer",
       "company": "CTHINGS.CO sp. z o.o.",
@@ -2217,63 +2005,112 @@
       "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
-      "id": "cabf4b0dc8d20898",
-      "title": "IT Support & Automation Specialist",
-      "company": "Tylko",
+      "id": "6cfdc128f0dfb9b0",
+      "title": "Junior Growth Analyst",
+      "company": "CANAL+ Polska S.A.",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/tylko-it-support-automation-specialist-warszawa-support",
-      "apply_url": "https://tylko.recruitee.com/o/it-support-automation-specialist?source=JustJoinIT",
+      "url": "https://justjoin.it/job-offer/canal-polska-s-a--junior-growth-analyst-warszawa-analytics",
+      "apply_url": "https://joinus.canalplus.com/job-invite/12439/",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-04T14:05:12.230538Z",
+      "fit_score": 62,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Do zespołu Digital Growth szukamy osobę na stanowisko: Junior Growth Analyst Lubisz odkrywać, co naprawdę wpływa na decyzje zakupowe użytkowników?; Dołączając do nas, będziesz mieć realny wpływ na rozwój jednej z najpopularniejszych platform streamingowych w Polsce | What they expect: roku doświadczenia na podobnym stanowisku; Excel, Amplitude, czy GA4) oraz narzędzi do testów A/B, mile widziana znajomość podstaw SQL; otwartości, ciekawości oraz naturalnej potrzeby zadawania pytań i szukania odpowiedzi w danych; samodzielności i | What they offer: możliwość rozwoju i awansu w ramach struktur CANAL+; bogaty pakiet benefitów, m.in; prywatną opiekę medyczną, pakiet Multisport, dostęp do oferty CANAL+, sesje masażu i zajęcia sportowe w biurze: joga, pilates i turnieje ping-ponga 🏓",
+      "summary_tasks": [
+        "Do zespołu Digital Growth szukamy osobę na stanowisko: Junior Growth Analyst Lubisz odkrywać, co naprawdę wpływa na decyzje zakupowe użytkowników?",
+        "Dołączając do nas, będziesz mieć realny wpływ na rozwój jednej z najpopularniejszych platform streamingowych w Polsce"
+      ],
+      "summary_expectations": [
+        "roku doświadczenia na podobnym stanowisku",
+        "Excel, Amplitude, czy GA4) oraz narzędzi do testów A/B, mile widziana znajomość podstaw SQL; otwartości, ciekawości oraz naturalnej potrzeby zadawania pytań i szukania odpowiedzi w danych; samodzielności i"
+      ],
+      "summary_offers": [
+        "możliwość rozwoju i awansu w ramach struktur CANAL+",
+        "bogaty pakiet benefitów, m.in",
+        "prywatną opiekę medyczną, pakiet Multisport, dostęp do oferty CANAL+, sesje masażu i zajęcia sportowe w biurze: joga, pilates i turnieje ping-ponga 🏓"
+      ],
+      "required_skills": [
+        "Testy A/B",
+        "Analiza Biznesowa"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel"
+        ],
+        "concerns": [
+          "Asks for 1 year; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+    },
+    {
+      "id": "e52a4995c93bc77c",
+      "title": "Wordpress Web Developer",
+      "company": "COPUZ Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/copuz-sp-z-o-o--wordpress-web-developer-warszawa-php",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-03T12:10:07.364352Z",
+      "published_at": "2026-11-04T12:05:11.012809Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Own complex L2 issues across hardware, software and networks as the team's escalation point; Step in on L1 requests as backup when needed, staying hands-on in everyday support; Automate provisioning and de-provisioning across onboarding and offboarding workflows | What they expect: Join Tylko, Where Design Meets Technology Founded in Warsaw, Poland, in 2015, Tylko is redefining how we design, shop for, and experience furniture; a modern, full AI stack, and real space to learn it; we invest in your fluency, not just your inbox What we’re looking for: Solid experience in L1; PowerShell or Python) to automate admin tasks Experience designing self-service processes or user-facing knowledge bases Fluent Polish | What they offer: One Extra Day Off every month; take care of yourself, not just your inbox; design your dream home, at a dream price",
+      "experience_required_years": 1,
+      "summary": "What you'll do: 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?; Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe; 🤖 Praktyczną pracę z AI i nowymi technologiami Poznasz narzędzia usprawniające research, planowanie, tworzenie i analizowanie komunikacji | What they expect: doświadczenie w komercyjnych projektach (min; dobra znajomość WordPressa (motywy, ACF, hooks/filters, security); praktyczna znajomość kreatorów stron (np | What they offer: Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy; Czytelną perspektywę rozwoju; Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych",
       "summary_tasks": [
-        "Own complex L2 issues across hardware, software and networks as the team's escalation point",
-        "Step in on L1 requests as backup when needed, staying hands-on in everyday support",
-        "Automate provisioning and de-provisioning across onboarding and offboarding workflows"
+        "🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?",
+        "Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe",
+        "🤖 Praktyczną pracę z AI i nowymi technologiami Poznasz narzędzia usprawniające research, planowanie, tworzenie i analizowanie komunikacji"
       ],
       "summary_expectations": [
-        "Join Tylko, Where Design Meets Technology Founded in Warsaw, Poland, in 2015, Tylko is redefining how we design, shop for, and experience furniture",
-        "a modern, full AI stack, and real space to learn it; we invest in your fluency, not just your inbox What we’re looking for: Solid experience in L1",
-        "PowerShell or Python) to automate admin tasks Experience designing self-service processes or user-facing knowledge bases Fluent Polish"
+        "doświadczenie w komercyjnych projektach (min",
+        "dobra znajomość WordPressa (motywy, ACF, hooks/filters, security)",
+        "praktyczna znajomość kreatorów stron (np"
       ],
       "summary_offers": [
-        "One Extra Day Off every month",
-        "take care of yourself, not just your inbox",
-        "design your dream home, at a dream price"
+        "Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy",
+        "Czytelną perspektywę rozwoju",
+        "Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych"
       ],
       "required_skills": [
-        "IT Support",
-        "Troubleshooting",
-        "Automation Tools",
-        "integration",
-        "Scripting",
-        "SaaS"
+        "PHP",
+        "WordPress",
+        "HTML",
+        "MySQL",
+        "JS",
+        "CSS"
       ],
       "fit_notes": {
-        "direction": "Python / Process / Workflow / AI Automation",
+        "direction": "Digital Marketing / SEO / Website",
         "evidence": "work",
         "matches": [
-          "Python & automation: python, automation, scripting",
-          "Linux / Git: powershell"
+          "SEO / digital marketing: seo, digital marketing",
+          "Web platform (Supabase, PostgreSQL, WordPress): html, css, wordpress"
         ],
         "concerns": [
+          "Ceiling for this direction",
           "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Automation & Python"
+        "suggested_cv": "Marketing, Web & SEO"
       },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-10-14T06:53:41.723663+00:00"
+      "interest_tags": [],
+      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
       "id": "3054ae5fba88e446",
@@ -3626,6 +3463,59 @@
       "first_found_at": "2026-10-08T06:51:19.640855+00:00"
     },
     {
+      "id": "7e400beb53b465e7",
+      "title": "Mid Data Analyst (Campaigns Planning)",
+      "company": "Allegro",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mid-data-analyst-campaigns-planning-warszawa-zelazna-51-53,oferta,1005163760",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-16T13:10:21.95Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Będziesz współpracować z managerami i zespołami biznesowymi, dostarczając dane, rekomendacje oraz bieżące wsparcie analityczne; Będziesz rozwijać i optymalizować procesy oraz narzędzia wspierające przygotowanie i realizację kampanii; Będziesz monitorować kluczowe wskaźniki efektywności (KPI), analizować ich zmiany oraz identyfikować obszary wymagające poprawy | What they expect: Doświadczenie w analizie dużych wolumenów danych w środowisku e-commerce; Umiejętność identyfikowania problemów, wyciągania trafnych wniosków i proponowania rozwiązań; Umiejętność realizacji powtarzalnych zadań i procesów z dbałością o dokładność, terminowość i jakość | What they offer: Elastyczne godziny pracy w modelu hybrydowym (4/1) - nasze godziny pracy mogą zaczynać się między 7:00 a 10:00; Mamy też do wykorzystania 30 dni okazjonalnej pracy zdalnej; Roczną premię uzależnioną od Twojej oceny rocznej i wyników firmy",
+      "summary_tasks": [
+        "Będziesz współpracować z managerami i zespołami biznesowymi, dostarczając dane, rekomendacje oraz bieżące wsparcie analityczne",
+        "Będziesz rozwijać i optymalizować procesy oraz narzędzia wspierające przygotowanie i realizację kampanii",
+        "Będziesz monitorować kluczowe wskaźniki efektywności (KPI), analizować ich zmiany oraz identyfikować obszary wymagające poprawy"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w analizie dużych wolumenów danych w środowisku e-commerce",
+        "Umiejętność identyfikowania problemów, wyciągania trafnych wniosków i proponowania rozwiązań",
+        "Umiejętność realizacji powtarzalnych zadań i procesów z dbałością o dokładność, terminowość i jakość"
+      ],
+      "summary_offers": [
+        "Elastyczne godziny pracy w modelu hybrydowym (4/1) - nasze godziny pracy mogą zaczynać się między 7:00 a 10:00",
+        "Mamy też do wykorzystania 30 dni okazjonalnej pracy zdalnej",
+        "Roczną premię uzależnioną od Twojej oceny rocznej i wyników firmy"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, analytics",
+          "Python & automation: python, automatyzacja, skrypt"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Mentions GCP",
+          "Mentions Kubernetes"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-18T06:53:32.120872+00:00"
+    },
+    {
       "id": "b7de91324e14cdad",
       "title": "Analityk / Analityczka Danych Medycznych",
       "company": "Medicover",
@@ -3729,59 +3619,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-14T06:53:41.723663+00:00"
-    },
-    {
-      "id": "7e400beb53b465e7",
-      "title": "Mid Data Analyst (Campaigns Planning)",
-      "company": "Allegro",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mid-data-analyst-campaigns-planning-warszawa-zelazna-51-53,oferta,1005163760",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-16T13:10:21.95Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Będziesz współpracować z managerami i zespołami biznesowymi, dostarczając dane, rekomendacje oraz bieżące wsparcie analityczne; Będziesz rozwijać i optymalizować procesy oraz narzędzia wspierające przygotowanie i realizację kampanii; Będziesz monitorować kluczowe wskaźniki efektywności (KPI), analizować ich zmiany oraz identyfikować obszary wymagające poprawy | What they expect: Doświadczenie w analizie dużych wolumenów danych w środowisku e-commerce; Umiejętność identyfikowania problemów, wyciągania trafnych wniosków i proponowania rozwiązań; Umiejętność realizacji powtarzalnych zadań i procesów z dbałością o dokładność, terminowość i jakość | What they offer: Elastyczne godziny pracy w modelu hybrydowym (4/1) - nasze godziny pracy mogą zaczynać się między 7:00 a 10:00; Mamy też do wykorzystania 30 dni okazjonalnej pracy zdalnej; Roczną premię uzależnioną od Twojej oceny rocznej i wyników firmy",
-      "summary_tasks": [
-        "Będziesz współpracować z managerami i zespołami biznesowymi, dostarczając dane, rekomendacje oraz bieżące wsparcie analityczne",
-        "Będziesz rozwijać i optymalizować procesy oraz narzędzia wspierające przygotowanie i realizację kampanii",
-        "Będziesz monitorować kluczowe wskaźniki efektywności (KPI), analizować ich zmiany oraz identyfikować obszary wymagające poprawy"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w analizie dużych wolumenów danych w środowisku e-commerce",
-        "Umiejętność identyfikowania problemów, wyciągania trafnych wniosków i proponowania rozwiązań",
-        "Umiejętność realizacji powtarzalnych zadań i procesów z dbałością o dokładność, terminowość i jakość"
-      ],
-      "summary_offers": [
-        "Elastyczne godziny pracy w modelu hybrydowym (4/1) - nasze godziny pracy mogą zaczynać się między 7:00 a 10:00",
-        "Mamy też do wykorzystania 30 dni okazjonalnej pracy zdalnej",
-        "Roczną premię uzależnioną od Twojej oceny rocznej i wyników firmy"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, analytics",
-          "Python & automation: python, automatyzacja, skrypt"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Mentions GCP",
-          "Mentions Kubernetes"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-18T06:53:32.120872+00:00"
     },
     {
       "id": "f60f16d1295baab8",
@@ -3939,6 +3776,60 @@
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
+      "id": "e43cc7aa98f328e2",
+      "title": "Inżynier Testów i Walidacji (Embedded Systems)",
+      "company": "Creotech Instruments S.A.",
+      "location": "Warszawa, Piaseczno",
+      "url": "https://justjoin.it/job-offer/creotech-instruments-s-a--inzynier-testow-i-walidacji-embedded-systems--warszawa-python",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5623da51d2e846e1a7d335a0937c034a",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T13:00:18.0259019Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: weryfikacja współpracy elektroniki z oprogramowaniem wbudowanym; automatyzacja testów oraz pomiarów; umiejętność tworzenia skryptów testowych i automatyzacji pomiarów w Pythonie | What they expect: wykształcenie wyższe techniczne; znajomość elektroniki analogowej i cyfrowej; umiejętność czytania schematów, dokumentacji technicznej oraz specyfikacji układów scalonych; doświadczenie w pracy z mikrokontrolerami lub systemami embedded",
+      "summary_tasks": [
+        "weryfikacja współpracy elektroniki z oprogramowaniem wbudowanym",
+        "automatyzacja testów oraz pomiarów",
+        "umiejętność tworzenia skryptów testowych i automatyzacji pomiarów w Pythonie"
+      ],
+      "summary_expectations": [
+        "wykształcenie wyższe techniczne",
+        "znajomość elektroniki analogowej i cyfrowej",
+        "umiejętność czytania schematów, dokumentacji technicznej oraz specyfikacji układów scalonych",
+        "doświadczenie w pracy z mikrokontrolerami lub systemami embedded"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Dokumentacja techniczna",
+        "wykształcenie wyższe techniczne",
+        "elektronika analogowa",
+        "Elektronika Cyfrowa",
+        "Linux",
+        "Python"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux",
+          "Python & automation: python, automatyzacja, integracja"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+    },
+    {
       "id": "1ffc61b864f95f6d",
       "title": "Product Engineer, Derivatives Operations",
       "company": "SimCorp",
@@ -3997,55 +3888,56 @@
       "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
-      "id": "83d14af3dfe7874c",
-      "title": "Business Technology Consultant",
-      "company": "Capgemini Polska",
+      "id": "94ff5f7396dfba88",
+      "title": "Serwisant IT/Serwisantka IT",
+      "company": "KAMSOFT S.A.",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/capgemini-polska-business-technology-consultant-warszawa-pm",
-      "apply_url": "https://careers.capgemini.com/job/Warszawa-Business-Technology-Consultant/1273893101/",
+      "url": "https://justjoin.it/job-offer/kamsoft-s-a--serwisant-serwisantka-warszawa-support",
+      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/91458102fdc3407694a1d2c0d90f7660",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
+      "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-03T14:05:09.438985Z",
-      "fit_score": 60,
+      "published_at": "2026-11-04T11:40:05.8590837Z",
+      "fit_score": 58,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Advise senior management of international clients across industries, focusing on strategic; YOUR PROFILE Strong IT/technology project management experience; Motivated, reliable, and eager to learn with strong analytical and problem-solving skills | What they expect: YOUR PROFILE Strong IT/technology project management experience; Motivated, reliable, and eager to learn with strong analytical and problem-solving skills; Strong communication skills, team spirit, and confident presence",
+      "summary": "What you'll do: Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników; Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia | What they expect: Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows; Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych; Doświadczenie w pracy na podobnym stanowisku | What they offer: Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników; Okresowe szkolenia użytkowników",
       "summary_tasks": [
-        "Advise senior management of international clients across industries, focusing on strategic",
-        "YOUR PROFILE Strong IT/technology project management experience",
-        "Motivated, reliable, and eager to learn with strong analytical and problem-solving skills"
+        "Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników",
+        "Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia"
       ],
       "summary_expectations": [
-        "YOUR PROFILE Strong IT/technology project management experience",
-        "Motivated, reliable, and eager to learn with strong analytical and problem-solving skills",
-        "Strong communication skills, team spirit, and confident presence"
+        "Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows",
+        "Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych",
+        "Doświadczenie w pracy na podobnym stanowisku"
       ],
-      "summary_offers": [],
+      "summary_offers": [
+        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
+        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
+        "Okresowe szkolenia użytkowników"
+      ],
       "required_skills": [
-        "Project Management",
-        "Agile",
-        "Analytical Thinking"
+        "SQL",
+        "Windows",
+        "Windows Server",
+        "Helpdesk",
+        "IT Support"
       ],
       "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel",
-          "B2B / CRM operations: operations"
-        ],
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [],
         "concerns": [
-          "Not a junior role; CV has only project experience here",
           "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
+        "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
+      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
     },
     {
       "id": "846a735fe438d100",
@@ -4162,6 +4054,59 @@
       "first_found_at": "2026-10-21T06:56:58.643128+00:00"
     },
     {
+      "id": "53f2fc92f047e29c",
+      "title": "Informatyk / Informatyczka w Sektorowym Zespole Reagowania na Incydenty Bezpieczeństwa Komputerowego (CSIRT INFRASTRUKTURA), Biuro Zarządzania Kryzysowego",
+      "company": "Ministerstwo Infrastruktury",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/informatyk-informatyczka-w-sektorowym-zespole-reagowania-na-incydenty-bezpieczen-warszawa-pulawska-125,oferta,1005200723",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T11:45:38.82Z",
+      "fit_score": 57,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Przyjmuje, weryfikuje, rejestruje i klasyfikuje zgłoszenia wczesnych ostrzeżeń, incydentów; Przekazuje, dokumentuje i wymienia informacje o incydentach, cyberzagrożeniach i podatnościach z właściwymi CSIRT oraz podmiotami z obsługiwanych przez CSIRT sektorów; Analizuje zgłoszenia oraz dane z systemów monitorujących, źródeł threat intelligence i narzędzi CSIRT-u sektorowego | What they expect: Posiadanie poświadczenia bezpieczeństwa do klauzuli POUFNE lub wyższej lub gotowość do poddania się procedurze weryfikacyjnej upoważniającej do dostępu do informacji niejawnych, zgodnie z przepisami ustawy o ochronie informacji niejawnych; Posiadanie obywatelstwa polskiego; Doświadczenie zawodowe co najmniej 2 lata w obszarze informatyki lub telekomunikacji; Znajomość języka angielskiego na poziomie B1 - średnio zaawansowany; Znajomość przepisów ustawy o krajowym systemie cyberbezpieczeństwa | What they offer: stabilną pracę w elastycznych godzinach (rozpoczynanie pracy w godz; możliwość częściowej pracy zdalnej; bogaty pakiet szkoleń, refundację nauki języka obcego i studiów podyplomowych",
+      "summary_tasks": [
+        "Przyjmuje, weryfikuje, rejestruje i klasyfikuje zgłoszenia wczesnych ostrzeżeń, incydentów",
+        "Przekazuje, dokumentuje i wymienia informacje o incydentach, cyberzagrożeniach i podatnościach z właściwymi CSIRT oraz podmiotami z obsługiwanych przez CSIRT sektorów",
+        "Analizuje zgłoszenia oraz dane z systemów monitorujących, źródeł threat intelligence i narzędzi CSIRT-u sektorowego"
+      ],
+      "summary_expectations": [
+        "Posiadanie poświadczenia bezpieczeństwa do klauzuli POUFNE lub wyższej lub gotowość do poddania się procedurze weryfikacyjnej upoważniającej do dostępu do informacji niejawnych, zgodnie z przepisami ustawy o ochronie informacji niejawnych",
+        "Posiadanie obywatelstwa polskiego",
+        "Doświadczenie zawodowe co najmniej 2 lata w obszarze informatyki lub telekomunikacji",
+        "Znajomość języka angielskiego na poziomie B1 - średnio zaawansowany",
+        "Znajomość przepisów ustawy o krajowym systemie cyberbezpieczeństwa"
+      ],
+      "summary_offers": [
+        "stabilną pracę w elastycznych godzinach (rozpoczynanie pracy w godz",
+        "możliwość częściowej pracy zdalnej",
+        "bogaty pakiet szkoleń, refundację nauki języka obcego i studiów podyplomowych"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux, git, docker",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Asks for 2 years",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 57: Asks for 2 years.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
+    },
+    {
       "id": "e48b5ba58039e515",
       "title": "Specjalista - administrator systemów IT (K/M)",
       "company": "NASK",
@@ -4263,6 +4208,54 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-23T06:49:48.320742+00:00"
+    },
+    {
+      "id": "7b49727a5d36670d",
+      "title": "Specjalista ds. CRM",
+      "company": "MODIVO PLATFORM",
+      "location": "Warszawa, Poland",
+      "url": "https://rocketjobs.pl/oferta-pracy/modivo-platform-specjalista-ds-crm-warszawa-marketing-ecommerce",
+      "apply_url": "",
+      "source": "rocketjobs.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "",
+      "fit_score": 57,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia; Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów; Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych | What they expect: Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku; Znajomość narzędzi marketing automation; mile widziana znajomość systemu Synerise",
+      "summary_tasks": [
+        "Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia",
+        "Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów",
+        "Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych"
+      ],
+      "summary_expectations": [
+        "Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku",
+        "Znajomość narzędzi marketing automation",
+        "mile widziana znajomość systemu Synerise"
+      ],
+      "summary_offers": [],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: crm",
+          "Python & automation: automation"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Asks for 2 years",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 57: Asks for 2 years.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
     },
     {
       "id": "7d6474541ea9b439",
@@ -4535,48 +4528,55 @@
       "first_found_at": "2026-10-12T06:53:42.282527+00:00"
     },
     {
-      "id": "94dc01641bfcf666",
-      "title": "Młodszy Analityk SQL/BI (k/m)",
-      "company": "MODIVO PLATFORM",
+      "id": "f33bc6d88142fe09",
+      "title": "Junior Analyst (M/F/D)",
+      "company": "DSV",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/modivo-platform-mlodszy-analityk-sql-bi-k-m--warszawa-data",
-      "apply_url": "https://career.modivoplatform.com/offer/7480/mlodszy-analityk-sql-bi",
+      "url": "https://justjoin.it/job-offer/dsv-junior-analyst-m-f-d--warszawa-analytics",
+      "apply_url": "https://jobs.dsv.com/job-invite/125175/",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-03T14:05:07.942997Z",
+      "published_at": "2026-11-04T14:05:14.3253784Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej; rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe; wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem | What they expect: umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI; tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query; przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python; Work closely with business analysts and other teams to design reports that truly meet client needs; Co-create and customize reporting tools that support decision-making | What they expect: Contribute to both internal and external projects, gaining broad exposure and experience; What we’re looking for: Strong analytical skills and a problem-solving mindset; Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; Sharing the costs of professional training & courses",
       "summary_tasks": [
-        "tworzenie, rozwijanie i utrzymywanie dashboardów oraz raportów w Power BI na potrzeby zespołu PIM oraz kadry menedżerskiej",
-        "rozwijanie istniejących raportów oraz tworzenie nowych rozwiązań odpowiadających na konkretne potrzeby biznesowe",
-        "wspieranie zespołu w automatyzacji powtarzalnych zadań związanych z danymi i raportowaniem"
+        "Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python",
+        "Work closely with business analysts and other teams to design reports that truly meet client needs",
+        "Co-create and customize reporting tools that support decision-making"
       ],
       "summary_expectations": [
-        "umiejętność łączenia danych z kilku tabel, filtrowania, agregowania i pracy z bardziej złożonymi zapytaniami, znajomość Power BI",
-        "tworzenie raportów, praca z modelem danych, podstawy DAX i wizualizacji, znajomość Power Query",
-        "przygotowywanie, czyszczenie i transformowanie danych, bardzo dobra znajomość Excela i swobodne korzystanie z funkcji, tabel przestawnych"
+        "Contribute to both internal and external projects, gaining broad exposure and experience",
+        "What we’re looking for: Strong analytical skills and a problem-solving mindset",
+        "Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation"
       ],
-      "summary_offers": [],
+      "summary_offers": [
+        "Employment based on an employment contract, along with a comprehensive benefits package",
+        "Training and development programs, as well as access to an e-learning platform",
+        "Sharing the costs of professional training & courses"
+      ],
       "required_skills": [
-        "SQL",
-        "BI",
-        "MS Excel"
+        "Python",
+        "Pandas",
+        "NumPy",
+        "MS Excel",
+        "VBA",
+        "Power Query",
+        "Power BI"
       ],
       "fit_notes": {
         "direction": "Data / Reporting",
         "evidence": "projects",
         "matches": [
-          "SQL / Excel / reporting: sql, excel",
-          "Python & automation: automatyzacja"
+          "SQL / Excel / reporting: reporting, excel",
+          "Python & automation: python, integration"
         ],
         "concerns": [
-          "Asks for 1 year; CV has only project experience here",
           "Requires Power BI",
           "Mentions Power Bi"
         ],
@@ -4584,68 +4584,7 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-09-01T18:13:56.433414+00:00"
-    },
-    {
-      "id": "1f7957a216cad812",
-      "title": "Business Data Analyst (m/k)",
-      "company": "Orange Polska",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/orange-polska-business-data-analyst-m-k--warszawa-analytics",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=817128d59d3043d7bf33ce2a3656dd08",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-03T13:33:52.586951Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Przetwarzanie i integracja danych z różnych źródeł (BigQuery, Excel, GCP) w celu tworzenia kompleksowych raportów i wizualizacji; Tworzenie raportów, dashboardów i rekomendacji dla zespołów biznesowych, wspierających decyzje strategiczne; Współpraca z zespołami projektowymi i biznesowymi w ramach agile, dostarczając rozwiązania dopasowane do potrzeb organizacji | What they expect: Doświadczenie na podobnym stanowisku związanym z danymi lub analityką; Doświadczenie z pracy w BigQuery (pisanie i optymalizacja wydajnościowa zapytań); Biegła znajomość SQL (optymalizacja, funkcje analityczne) oraz doświadczenie w pracy z systemami SAS (4GL, SAS Enterprise Guide) | What they offer: Prywatną opiekę medyczną w PZU Zdrowie; Możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach; Preferencyjną ofertę na usługi Orange",
-      "summary_tasks": [
-        "Przetwarzanie i integracja danych z różnych źródeł (BigQuery, Excel, GCP) w celu tworzenia kompleksowych raportów i wizualizacji",
-        "Tworzenie raportów, dashboardów i rekomendacji dla zespołów biznesowych, wspierających decyzje strategiczne",
-        "Współpraca z zespołami projektowymi i biznesowymi w ramach agile, dostarczając rozwiązania dopasowane do potrzeb organizacji"
-      ],
-      "summary_expectations": [
-        "Doświadczenie na podobnym stanowisku związanym z danymi lub analityką",
-        "Doświadczenie z pracy w BigQuery (pisanie i optymalizacja wydajnościowa zapytań)",
-        "Biegła znajomość SQL (optymalizacja, funkcje analityczne) oraz doświadczenie w pracy z systemami SAS (4GL, SAS Enterprise Guide)"
-      ],
-      "summary_offers": [
-        "Prywatną opiekę medyczną w PZU Zdrowie",
-        "Możliwość dołączenia do ubezpieczenia grupowego na preferencyjnych warunkach",
-        "Preferencyjną ofertę na usługi Orange"
-      ],
-      "required_skills": [
-        "SQL",
-        "Google Cloud Platform",
-        "Python",
-        "BigQuery",
-        "Excel",
-        "Git",
-        "ETL/ELT"
-      ],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel",
-          "Python & automation: python, integracja"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires GCP",
-          "Mentions GCP"
-        ],
-        "tier_reason": "Capped at 54: Requires GCP.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-15T06:50:45.248377+00:00"
+      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
     },
     {
       "id": "a4397004e06b99d8",
@@ -4809,6 +4748,59 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-06T06:52:31.617475+00:00"
+    },
+    {
+      "id": "60b7211459d5691f",
+      "title": "Business & Data Analyst",
+      "company": "BALAGAN sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/business-data-analyst-warszawa-stepinska-22-30,oferta,1005201343",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T13:53:44.957Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI; Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu; Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji | What they expect: Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG; Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych; Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju",
+      "summary_tasks": [
+        "Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI",
+        "Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu",
+        "Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG",
+        "Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych",
+        "Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych",
+        "prywatna opieka medyczna",
+        "Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel, analytics",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Power BI",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 54: Requires Power BI.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
     },
     {
       "id": "5400825e29c33fca",
@@ -5032,65 +5024,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-11T06:49:06.945680+00:00"
-    },
-    {
-      "id": "1a20b1b15b38c829",
-      "title": "Android Software Engineer | Branża e-commerce",
-      "company": "Edge One Solutions Sp. z o.o",
-      "location": "Poznań, Warszawa",
-      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-android-software-engineer-branza-e-commerce-poznan-mobile",
-      "apply_url": "https://edge1s.recruitify.ai/job/8d9b3c97-a345-427a-8e5d-5bbc3b798ad0?sourceId=37",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-03T15:05:14.948738Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Zespoły technologiczne pracują w środowisku Agile, wykorzystując nowoczesne technologie do tworzenia skalowalnych i wysokowydajnych systemów; Rola obejmuje tworzenie nowych modułów wspierających kluczowe funkcjonalności komercyjne oraz rozwój skalowalnych i wydajnych rozwiązań mobilnych; Model współpracy Zdalny z wizytami 2 razy na kwartał w biurze klienta w Poznaniu lub Warszawie | What they expect: Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji; Realizację projektu ułatwi Ci Bardzo dobra znajomość Kotlin oraz frameworka Jetpack Compose; Bardzo dobra znajomość Android SDK i doświadczenie w natywnym tworzeniu aplikacji Android | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
-      "summary_tasks": [
-        "Zespoły technologiczne pracują w środowisku Agile, wykorzystując nowoczesne technologie do tworzenia skalowalnych i wysokowydajnych systemów",
-        "Rola obejmuje tworzenie nowych modułów wspierających kluczowe funkcjonalności komercyjne oraz rozwój skalowalnych i wydajnych rozwiązań mobilnych",
-        "Model współpracy Zdalny z wizytami 2 razy na kwartał w biurze klienta w Poznaniu lub Warszawie"
-      ],
-      "summary_expectations": [
-        "Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji",
-        "Realizację projektu ułatwi Ci Bardzo dobra znajomość Kotlin oraz frameworka Jetpack Compose",
-        "Bardzo dobra znajomość Android SDK i doświadczenie w natywnym tworzeniu aplikacji Android"
-      ],
-      "summary_offers": [
-        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
-        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
-        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
-      ],
-      "required_skills": [
-        "Kotlin",
-        "Jetpack Compose",
-        "Andoid SDK",
-        "Android",
-        "Gradle",
-        "CI/CD"
-      ],
-      "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: integration",
-          "Linux / Git: github, ci/cd"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Automation & Python"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
       "id": "4c6095fe530f8599",
@@ -5396,56 +5329,107 @@
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
     },
     {
-      "id": "3873dd8e251d8407",
-      "title": "Business Analyst",
-      "company": "YOUR ITEAMS sp. z o.o.",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/business-analyst-warszawa,oferta,1005138113",
+      "id": "3ecb8673caf39828",
+      "title": "Specjalista / Specjalistka ds. Analizy Danych w Obszarze Reklamacji",
+      "company": "Bank Pekao",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-analizy-danych-w-obszarze-reklamacji-warszawa-zubra-1,oferta,1005192632",
       "apply_url": "",
       "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid, Office",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-10-05T14:23:09.12Z",
+      "published_at": "2026-10-30T15:58:56.16Z",
       "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 2,
-      "summary": "What you'll do: Analyse business requirements and business processes to derive solution specifications; Prepare analyses, functional specifications and project documentation for data and reporting solutions; Collaborate with business users to define requirements for data and reporting solutions | What they expect: Minimum two years of experience in business or system analysis within data, data warehousing or BI domains; Proficiency in SQL sufficient for independent data analysis; Experience working with large data volumes | What they offer: Luxmed Gold Extended medical care and Multisport Plus benefit; Benefits; remote work opportunities",
+      "summary": "What you'll do: Szukamy osoby, która potrafi zamieniać dane w wiedzę, a wiedzę w konkretne działania; W tej roli będziesz łączyć analizę danych z analizą procesów, identyfikować zależności i docierać do przyczyn obserwowanych wyników; Liczymy na samodzielność, dociekliwość i umiejętność spojrzenia na problem z różnych perspektyw | What they expect: Masz wykształcenie wyższe oraz minimum 2 lata doświadczenia na podobnym stanowisku; Masz praktyczne doświadczenie w przygotowywaniu, łączeniu, analizowaniu i wizualizowaniu danych pochodzących z różnych źródeł; Potrafisz oceniać strukturę i jakość danych, identyfikować zależności oraz docierać do przyczyn obserwowanych wyników | What they offer: Premię uzależnioną od wyników i zaangażowania; Prywatną opiekę medyczną dla Ciebie i Twojej rodziny na preferencyjnych warunkach; Kartę MultiSport i Ubezpieczenie Grupowe na korzystnych warunkach",
       "summary_tasks": [
-        "Analyse business requirements and business processes to derive solution specifications",
-        "Prepare analyses, functional specifications and project documentation for data and reporting solutions",
-        "Collaborate with business users to define requirements for data and reporting solutions"
+        "Szukamy osoby, która potrafi zamieniać dane w wiedzę, a wiedzę w konkretne działania",
+        "W tej roli będziesz łączyć analizę danych z analizą procesów, identyfikować zależności i docierać do przyczyn obserwowanych wyników",
+        "Liczymy na samodzielność, dociekliwość i umiejętność spojrzenia na problem z różnych perspektyw"
       ],
       "summary_expectations": [
-        "Minimum two years of experience in business or system analysis within data, data warehousing or BI domains",
-        "Proficiency in SQL sufficient for independent data analysis",
-        "Experience working with large data volumes"
+        "Masz wykształcenie wyższe oraz minimum 2 lata doświadczenia na podobnym stanowisku",
+        "Masz praktyczne doświadczenie w przygotowywaniu, łączeniu, analizowaniu i wizualizowaniu danych pochodzących z różnych źródeł",
+        "Potrafisz oceniać strukturę i jakość danych, identyfikować zależności oraz docierać do przyczyn obserwowanych wyników"
       ],
       "summary_offers": [
-        "Luxmed Gold Extended medical care and Multisport Plus benefit",
-        "Benefits",
-        "remote work opportunities"
+        "Premię uzależnioną od wyników i zaangażowania",
+        "Prywatną opiekę medyczną dla Ciebie i Twojej rodziny na preferencyjnych warunkach",
+        "Kartę MultiSport i Ubezpieczenie Grupowe na korzystnych warunkach"
       ],
       "required_skills": [],
       "fit_notes": {
-        "direction": "Business Analysis",
+        "direction": "Data / Reporting",
         "evidence": "projects",
         "matches": [
-          "SQL / Excel / reporting: sql, data analysis, reporting",
-          "Python & automation: integration, skrypt"
+          "SQL / Excel / reporting: sql",
+          "Python & automation: automatyzacja, skrypt"
         ],
         "concerns": [
           "Asks for 2 years; CV has only project experience here",
           "Listed as Mid/Regular level",
+          "Requires Power BI",
           "Mentions Power Bi"
         ],
         "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
+    },
+    {
+      "id": "a6042b19f31539e7",
+      "title": "Data Entry Clerk (EU public)",
+      "company": "Britenet",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/britenet-data-entry-clerk-eu-public--warszawa-data-5b4f5f8b",
+      "apply_url": "https://britenet.eu/job-offer-external/data-entry-clerk-eu-public/justjoinit",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-04T11:40:58.710673Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: We are looking for a detail-oriented and well-organised Data Entry Clerk to support a project for Frontex; Good knowledge of MS Office and office automation tools; Managing correspondence and maintaining correspondence registers | What they expect: Higher education (minimum Bachelor's degree); Very good knowledge of SharePoint and platform-specific tools; Experience in preparing and distributing system or project documentation; Good knowledge of MS Office and office automation tools",
+      "summary_tasks": [
+        "We are looking for a detail-oriented and well-organised Data Entry Clerk to support a project for Frontex",
+        "Good knowledge of MS Office and office automation tools",
+        "Managing correspondence and maintaining correspondence registers"
+      ],
+      "summary_expectations": [
+        "Higher education (minimum Bachelor's degree)",
+        "Very good knowledge of SharePoint and platform-specific tools",
+        "Experience in preparing and distributing system or project documentation",
+        "Good knowledge of MS Office and office automation tools"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "SharePoint"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel",
+          "Python & automation: automation, scripting",
+          "B2B / CRM operations: operations, stakeholder"
+        ],
+        "concerns": [
+          "Asks for 2 years; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
       "id": "31eb236ed458dd4c",
@@ -5617,125 +5601,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-03T06:51:48.379452+00:00"
-    },
-    {
-      "id": "7c5f41aa42e74bad",
-      "title": "Agentic Data Governance Specialist (AI&Data)",
-      "company": "Accenture",
-      "location": "Kraków, Warszawa",
-      "url": "https://justjoin.it/job-offer/accenture-agentic-data-governance-specialist-ai-data--krakow-data-e29ab361",
-      "apply_url": "https://www.accenture.com/pl-en/careers/jobdetails?id=R00337227_en&title=Agentic+Data+Governance+Specialist+%28AI%26Data%29",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-03T13:05:01.698547Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: and we embed it into everything we do and for everyone we work with; Clicking apply I hereby express my consent to process my personal data included in my job offer by Accenture Sp; or any other entity of the Accenture group for recruitment purposes, and that it is a data controller within the meaning of GDPR | What they expect: Gain experience across advisory, delivery, and strategy while collaborating with multidisciplinary teams; Experience with modern Data Governance and AI Governance practices; Understanding of knowledge graphs, ontologies, and semantic concepts in enterprise AI environments | What they offer: Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach; A wide training package (soft, technical,; Private medical care, life insurance",
-      "summary_tasks": [
-        "and we embed it into everything we do and for everyone we work with",
-        "Clicking apply I hereby express my consent to process my personal data included in my job offer by Accenture Sp",
-        "or any other entity of the Accenture group for recruitment purposes, and that it is a data controller within the meaning of GDPR"
-      ],
-      "summary_expectations": [
-        "Gain experience across advisory, delivery, and strategy while collaborating with multidisciplinary teams",
-        "Experience with modern Data Governance and AI Governance practices",
-        "Understanding of knowledge graphs, ontologies, and semantic concepts in enterprise AI environments"
-      ],
-      "summary_offers": [
-        "Individual support of a People Lead and a specific path of professional development, as well as the possibility of a session with a Coach",
-        "A wide training package (soft, technical,",
-        "Private medical care, life insurance"
-      ],
-      "required_skills": [
-        "AI",
-        "Data",
-        "Snowflake",
-        "RDF",
-        "OWL",
-        "data governance",
-        "Cloud"
-      ],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: analytics",
-          "B2B / CRM operations: operations, stakeholder"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires Snowflake",
-          "Mentions Snowflake"
-        ],
-        "tier_reason": "Capped at 54: Requires Snowflake.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
-    },
-    {
-      "id": "841b1fdc4cb7b72b",
-      "title": "Image/Payload Processing Engineer",
-      "company": "Creotech Instruments S.A.",
-      "location": "Kraków",
-      "url": "https://justjoin.it/job-offer/creotech-instruments-s-a--image-payload-processing-engineer-krakow-python",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=d52b3539e8ad45a2b347e1f39b5bcdbf",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-03T14:00:09.702095Z",
-      "fit_score": 51,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Design, develop, and maintain software applications for diverse domains, including space-related projects (e.g., Payload Processors); Write clean, efficient, and well-documented code using Python and other relevant technologies; Participate in research and development initiatives related to space technologies, staying abreast of modern advancements | What they expect: Bachelor’s degree in a relevant field (e.g., Remote Sensing, Geomatics, Optics, Physics); Requirements (fundamental); 2+ years of relevant professional experience in Remote Sensing, Geomatics, Optics, Physics, or a related field; Equivalent relevant professional experience may be considered in lieu of a degree | What they offer: Work in a friendly, well-coordinated team of enthusiasts; Attractive salary and benefits package (e.g., private medical care, sports card); Opportunities for professional development and participation in innovative projects",
-      "summary_tasks": [
-        "Design, develop, and maintain software applications for diverse domains, including space-related projects (e.g., Payload Processors)",
-        "Write clean, efficient, and well-documented code using Python and other relevant technologies",
-        "Participate in research and development initiatives related to space technologies, staying abreast of modern advancements"
-      ],
-      "summary_expectations": [
-        "Bachelor’s degree in a relevant field (e.g., Remote Sensing, Geomatics, Optics, Physics)",
-        "Requirements (fundamental)",
-        "2+ years of relevant professional experience in Remote Sensing, Geomatics, Optics, Physics, or a related field",
-        "Equivalent relevant professional experience may be considered in lieu of a degree"
-      ],
-      "summary_offers": [
-        "Work in a friendly, well-coordinated team of enthusiasts",
-        "Attractive salary and benefits package (e.g., private medical care, sports card)",
-        "Opportunities for professional development and participation in innovative projects"
-      ],
-      "required_skills": [
-        "Python",
-        "RAW to L2A",
-        "Data & Vision",
-        "Git",
-        "Linux"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: python, automation, scripting"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires C++"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     }
   ]
 }
