@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T20:55:26.699862+00:00",
-    "found": 6953,
-    "accepted": 78,
+    "generated_at": "2026-11-04T21:45:20.936533+00:00",
+    "found": 6955,
+    "accepted": 81,
     "filtered": {
       "Too much experience required (3+ years)": 241,
-      "Too senior / management": 3124,
-      "Contract: B2B only or UoP not confirmed": 660,
-      "Location: not Warsaw and not remote": 636,
+      "Too senior / management": 3125,
+      "Contract: B2B only or UoP not confirmed": 659,
+      "Location: not Warsaw and not remote": 635,
       "Missing a required language": 31,
-      "Different profession than your CV": 941,
-      "Too weak a match with your CV": 19,
-      "Could not verify the vacancy page": 394,
-      "Other": 829
+      "Different profession than your CV": 938,
+      "Too weak a match with your CV": 20,
+      "Could not verify the vacancy page": 390,
+      "Other": 835
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3152
+        "fetched": 3153
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,7 +34,7 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 50
+        "fetched": 51
       },
       "greenhouse:boxinc": {
         "status": "ok",
@@ -69,6 +69,7 @@
       "144ff8302ff34730",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
+      "f87fe97c17e0414f",
       "de7ce96492d15e28",
       "dc48607353d4d5b1",
       "ea2729f768fade3a",
@@ -91,6 +92,7 @@
       "c614accb5259c41b",
       "054988ec9f909663",
       "087f74326a6dcf0e",
+      "bfc8976d02c84eb6",
       "7e7be59d16b1ab49",
       "9ecb84e872bb2803",
       "31eb236ed458dd4c"
@@ -104,10 +106,12 @@
       "144ff8302ff34730",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
+      "f87fe97c17e0414f",
       "de7ce96492d15e28"
     ],
     "fresh_daily_ids": [],
     "focus_stretch_ids": [
+      "144ff8302ff34730",
       "e48b5ba58039e515",
       "de7ce96492d15e28",
       "ea2729f768fade3a",
@@ -120,41 +124,43 @@
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 78,
+      "feed_candidates": 81,
       "shortlisted": 0,
       "daily_review_only": 0,
-      "focus_total": 29,
+      "focus_total": 31,
       "ai_disputed_focus": 2,
-      "focus_stretch": 10,
-      "recent_opportunities": 5,
+      "focus_stretch": 11,
+      "recent_opportunities": 6,
       "recent_strict": 0,
-      "fresh_feed_candidates": 13,
+      "fresh_feed_candidates": 14,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
         "career_direction": 8,
-        "mid_level": 2,
-        "backend_tier": 2
+        "exploratory_only": 1,
+        "mid_level": 1,
+        "backend_tier": 3
       },
       "automation": 0,
       "direction_counts": {
-        "software_adjacent": 7,
+        "software_adjacent": 9,
         "automation": 13,
         "bridge": 4,
-        "other": 46,
+        "other": 47,
         "network": 4,
         "systems": 4
       },
-      "junior_title_candidates": 24,
+      "junior_title_candidates": 26,
       "junior_excluded_by_direction": 13,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
+        "exploratory_only": 2,
         "ai_skip": 4,
-        "career_direction": 46,
+        "career_direction": 47,
         "remote_needs_confirmation": 1,
-        "mid_level": 12,
-        "backend_tier": 11
+        "mid_level": 11,
+        "backend_tier": 12
       }
     },
     "ai_budget": {
@@ -162,7 +168,7 @@
       "used": 2,
       "limit": 20,
       "remaining": 18,
-      "checked_at_utc": "2026-11-04T20:55:27.263940+00:00"
+      "checked_at_utc": "2026-11-04T21:45:21.370683+00:00"
     },
     "ai_automatic": {
       "eligible": 0,
@@ -172,7 +178,7 @@
       "fresh_focus_eligible": 0,
       "reused": 6,
       "unreviewed": 0,
-      "fresh_total": 5,
+      "fresh_total": 6,
       "fresh_reviewed": 0,
       "daily_total": 0,
       "daily_reviewed": 0,
@@ -295,6 +301,54 @@
         "suggested_cv": "Automation"
       },
       "ai_review_fingerprint": "b9a21b67a10da9794e849cfe"
+    },
+    {
+      "id": "bfc8976d02c84eb6",
+      "title": "Junior IT Consultant",
+      "company": "Hylogic sp. z o.o.",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-it-consultant-warszawa-postepu-17a,oferta,1005166253",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-19T10:09:16.197Z",
+      "fit_score": 71,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Collaborating with our clients to improve the efficiency of their supply chains through world-class IT systems; Analyzing customer needs and supporting the implementation of IT solutions in the supply chain and planning areas; Spending about half your time engaging with clients to understand their needs, and the other half developing and refining solutions | What they expect: IT skills: Basic knowledge allowing you to complete tasks and develop solutions (e.g., programming, databases, integration, AI/ML, Python, SQL); Now, we do not expect you to already have a complete set of skills; Strong analytical and problem-solving skills, self-confidence, and ownership | What they offer: Ongoing learning and development opportunities in an international environment; Private medical care and sports card; Development opportunities we offer",
+      "summary_tasks": [
+        "Collaborating with our clients to improve the efficiency of their supply chains through world-class IT systems",
+        "Analyzing customer needs and supporting the implementation of IT solutions in the supply chain and planning areas",
+        "Spending about half your time engaging with clients to understand their needs, and the other half developing and refining solutions"
+      ],
+      "summary_expectations": [
+        "IT skills: Basic knowledge allowing you to complete tasks and develop solutions (e.g., programming, databases, integration, AI/ML, Python, SQL)",
+        "Now, we do not expect you to already have a complete set of skills",
+        "Strong analytical and problem-solving skills, self-confidence, and ownership"
+      ],
+      "summary_offers": [
+        "Ongoing learning and development opportunities in an international environment",
+        "Private medical care and sports card",
+        "Development opportunities we offer"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: python, integration",
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
       "id": "8fd28842829f3a77",
@@ -791,6 +845,53 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+    },
+    {
+      "id": "f87fe97c17e0414f",
+      "title": "Młodszy Specjalista ds. systemów (k/m)",
+      "company": "Life Spot Management sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-ds-systemow-k-m-warszawa-mokotowska-1,oferta,1005183340",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-27T11:29:07.08Z",
+      "fit_score": 65,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: współpraca przy rozwoju i konfiguracji systemu; praca z danymi oraz tworzenie prostych zapytań SQL; dokumentowanie rozwiązań oraz tworzenie instrukcji dla użytkowników | What they expect: podstawowej znajomości SQL lub chęci szybkiego nauczenia się pracy z bazami danych; umiejętności logicznego i analitycznego myślenia; komunikatywności i umiejętności współpracy z użytkownikami biznesowymi | What they offer: możliwości rozwoju merytorycznego i awansu wewnątrz struktur organizacji; Poszukujemy osoby, która dołączy do zespołu odpowiedzialnego za rozwój i bieżące wsparcie systemu Yardi Voyager oraz innych systemów w LifeSpot; W związku z rozwojem działu operacyjnego poszukujemy kandydatów nastawionych na poszerzenie swoich kompetencji",
+      "summary_tasks": [
+        "współpraca przy rozwoju i konfiguracji systemu",
+        "praca z danymi oraz tworzenie prostych zapytań SQL",
+        "dokumentowanie rozwiązań oraz tworzenie instrukcji dla użytkowników"
+      ],
+      "summary_expectations": [
+        "podstawowej znajomości SQL lub chęci szybkiego nauczenia się pracy z bazami danych",
+        "umiejętności logicznego i analitycznego myślenia",
+        "komunikatywności i umiejętności współpracy z użytkownikami biznesowymi"
+      ],
+      "summary_offers": [
+        "możliwości rozwoju merytorycznego i awansu wewnątrz struktur organizacji",
+        "Poszukujemy osoby, która dołączy do zespołu odpowiedzialnego za rozwój i bieżące wsparcie systemu Yardi Voyager oraz innych systemów w LifeSpot",
+        "W związku z rozwojem działu operacyjnego poszukujemy kandydatów nastawionych na poszerzenie swoich kompetencji"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
     },
     {
       "id": "8530a0f18b3a2375",
@@ -1617,18 +1718,19 @@
       ],
       "required_skills": [],
       "fit_notes": {
-        "direction": "Python / Process / Workflow / AI Automation",
+        "direction": "Systems / Application Administration",
         "evidence": "work",
         "matches": [
-          "Python & automation: automation, scripting, workflow",
+          "Networking / telecom: infrastructure",
           "Linux / Git: powershell",
+          "Python & automation: automation, scripting, workflow",
           "SQL / Excel / reporting: sql, microsoft sql server"
         ],
         "concerns": [
           "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Automation & Python"
+        "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [
         "automation"
@@ -2441,6 +2543,60 @@
       "first_found_at": "2026-10-01T06:55:02.951492+00:00"
     },
     {
+      "id": "94ff5f7396dfba88",
+      "title": "Serwisant IT/Serwisantka IT",
+      "company": "KAMSOFT S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/kamsoft-s-a--serwisant-serwisantka-warszawa-support",
+      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/91458102fdc3407694a1d2c0d90f7660",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T11:40:05.8590837Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników; Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia | What they expect: Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows; Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych; Doświadczenie w pracy na podobnym stanowisku | What they offer: Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników; Okresowe szkolenia użytkowników",
+      "summary_tasks": [
+        "Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników",
+        "Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows",
+        "Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych",
+        "Doświadczenie w pracy na podobnym stanowisku"
+      ],
+      "summary_offers": [
+        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
+        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
+        "Okresowe szkolenia użytkowników"
+      ],
+      "required_skills": [
+        "SQL",
+        "Windows",
+        "Windows Server",
+        "Helpdesk",
+        "IT Support"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
       "id": "1ffc61b864f95f6d",
       "title": "Product Engineer, Derivatives Operations",
       "company": "SimCorp",
@@ -2655,57 +2811,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-22T06:54:54.357396+00:00"
-    },
-    {
-      "id": "144ff8302ff34730",
-      "title": "Administrator/ka Aplikacji i Automatyzacji AI",
-      "company": "Iglotex Centrum Partnerstwa Biznesowego",
-      "location": "Wrocław, dolnośląskie, Polska",
-      "url": "https://www.pracuj.pl/praca/administrator-ka-aplikacji-i-automatyzacji-ai-wroclaw,oferta,1005195867",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-02T14:47:52.253Z",
-      "fit_score": 58,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie i rozwój aplikacji wspierających procesy biznesowe oraz automatyzacji procesów firmowych; monitorowanie nowych trendów i możliwości wykorzystania AI w organizacji; współpraca z użytkownikami biznesowymi przy identyfikacji obszarów wymagających automatyzacji | What they expect: doświadczenie w tworzeniu aplikacji biznesowych; znajomość narzędzi sztucznej inteligencji (np; umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania problemów biznesowych | What they offer: możliwość rozwoju zawodowego; pracę zdalną w godzinach 8:00-16:00; możliwość skorzystania z pakietu prywatnej opieki medycznej",
-      "summary_tasks": [
-        "tworzenie i rozwój aplikacji wspierających procesy biznesowe oraz automatyzacji procesów firmowych",
-        "monitorowanie nowych trendów i możliwości wykorzystania AI w organizacji",
-        "współpraca z użytkownikami biznesowymi przy identyfikacji obszarów wymagających automatyzacji"
-      ],
-      "summary_expectations": [
-        "doświadczenie w tworzeniu aplikacji biznesowych",
-        "znajomość narzędzi sztucznej inteligencji (np",
-        "umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania problemów biznesowych"
-      ],
-      "summary_offers": [
-        "możliwość rozwoju zawodowego",
-        "pracę zdalną w godzinach 8:00-16:00",
-        "możliwość skorzystania z pakietu prywatnej opieki medycznej"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Python & automation: automatyzacja"
-        ],
-        "concerns": [
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-11-02T16:22:57.883646+00:00"
     },
     {
       "id": "271b9dc940ac2b55",
@@ -2954,6 +3059,57 @@
       "first_found_at": "2026-10-21T06:56:58.643128+00:00"
     },
     {
+      "id": "144ff8302ff34730",
+      "title": "Administrator/ka Aplikacji i Automatyzacji AI",
+      "company": "Iglotex Centrum Partnerstwa Biznesowego",
+      "location": "Wrocław, dolnośląskie, Polska",
+      "url": "https://www.pracuj.pl/praca/administrator-ka-aplikacji-i-automatyzacji-ai-wroclaw,oferta,1005195867",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-02T14:47:52.253Z",
+      "fit_score": 57,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: tworzenie i rozwój aplikacji wspierających procesy biznesowe oraz automatyzacji procesów firmowych; monitorowanie nowych trendów i możliwości wykorzystania AI w organizacji; współpraca z użytkownikami biznesowymi przy identyfikacji obszarów wymagających automatyzacji | What they expect: doświadczenie w tworzeniu aplikacji biznesowych; znajomość narzędzi sztucznej inteligencji (np; umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania problemów biznesowych | What they offer: możliwość rozwoju zawodowego; pracę zdalną w godzinach 8:00-16:00; możliwość skorzystania z pakietu prywatnej opieki medycznej",
+      "summary_tasks": [
+        "tworzenie i rozwój aplikacji wspierających procesy biznesowe oraz automatyzacji procesów firmowych",
+        "monitorowanie nowych trendów i możliwości wykorzystania AI w organizacji",
+        "współpraca z użytkownikami biznesowymi przy identyfikacji obszarów wymagających automatyzacji"
+      ],
+      "summary_expectations": [
+        "doświadczenie w tworzeniu aplikacji biznesowych",
+        "znajomość narzędzi sztucznej inteligencji (np",
+        "umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania problemów biznesowych"
+      ],
+      "summary_offers": [
+        "możliwość rozwoju zawodowego",
+        "pracę zdalną w godzinach 8:00-16:00",
+        "możliwość skorzystania z pakietu prywatnej opieki medycznej"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: automatyzacja"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-11-02T16:22:57.883646+00:00"
+    },
+    {
       "id": "e48b5ba58039e515",
       "title": "Specjalista - administrator systemów IT (K/M)",
       "company": "NASK",
@@ -3039,7 +3195,8 @@
         "direction": "Systems / Application Administration",
         "evidence": "work",
         "matches": [
-          "Networking / telecom: tcp/ip"
+          "Networking / telecom: tcp/ip",
+          "SQL / Excel / reporting: sql, microsoft sql server"
         ],
         "concerns": [
           "Asks for 2 years",
