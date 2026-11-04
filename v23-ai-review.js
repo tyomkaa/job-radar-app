@@ -159,7 +159,9 @@ dailyScore=function(job){
 };
 const _v23DailyRecommendations=dailyRecommendations;
 dailyRecommendations=function(){
-  return _v23DailyRecommendations().filter(x=>aiReviewFor(x.job)?.verdict!=='SKIP');
+  return _v23DailyRecommendations().filter(x=>
+    aiReviewFor(x.job)?.verdict!=='SKIP' ||
+    (typeof dailyNeedsManualCheck==='function'&&dailyNeedsManualCheck(x.job)));
 };
 const _v23Render=render;
 render=function(options={}){

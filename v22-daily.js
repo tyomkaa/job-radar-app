@@ -63,6 +63,21 @@ function dailyScore(j){
   const bigCompany=DAILY_FAVORITES.some(name=>new RegExp('(^|[^a-z])'+name+'([^a-z]|$)','i').test(company));
   return Number(j.fit_score||0)+interest.boost+(bigCompany?6:0)-dailyPenalty(j)-otherPenalty;
 }
+// A server-approved AI career disagreement is a CHECK, not a ready-to-apply
+// vacancy. A user-saved local SKIP always overrides the server's review queue.
+function dailyNeedsManualCheck(job){
+  if(!job || !Array.isArray(meta?.daily_review_ids) ||
+      !meta.daily_review_ids.map(String).includes(String(job.id)))return false;
+  if(job.ai_review?.verdict!=='SKIP')return false;
+  const overrides=typeof aiReviews==='function'?aiReviews():{};
+  const explicit=overrides[jobKey(job)]||overrides['id:'+job.id];
+  return explicit?.verdict!=='SKIP';
+}
+function dailyAiAllowed(job){
+  const review=typeof aiReviewFor==='function'?aiReviewFor(job):job?.ai_review;
+  return review?.verdict!=='SKIP'||dailyNeedsManualCheck(job);
+}
+
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
   // The backend is the sole recommendation authority for new feeds.
@@ -81,7 +96,7 @@ function dailyRecommendations(){
     }
     const lookup=new Map(jobs.map(j=>[jobKey(j),j]));
     return keys.map(key=>lookup.get(key)).filter(j=>
-      j&&!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&aiReviewFor(j)?.verdict!=='SKIP')
+      j&&!feedback[jobKey(j)]&&!tracker[jobKey(j)]&&dailyAiAllowed(j))
       .map(j=>({job:j,score:dailyScore(j),focus:dailyClassify(j)}));
   }
   const snapshot=dailySnapshot();
@@ -123,13 +138,14 @@ function dailySelectionProgress(){
   const source=Array.isArray(meta?.daily_pick_ids)?meta.daily_pick_ids.map(id=>
     jobs.find(j=>String(j.id)===String(id))).filter(Boolean).map(j=>jobKey(j)):[];
   const keys=stored?.keys||source;
-  const counts={total:keys.length,ready:0,applied:0,dismissed:0,aiSkipped:0,missing:0,newlyFound:0};
+  const counts={total:keys.length,ready:0,reviewOnly:0,applied:0,dismissed:0,aiSkipped:0,missing:0,newlyFound:0};
   for(const key of keys){
     const job=byKey.get(key);
     if(!job){counts.missing++;continue;}
     if(isFirstFoundToday(job))counts.newlyFound++;
     if(tracker[key])counts.applied++;
     else if(feedback[key])counts.dismissed++;
+    else if(dailyNeedsManualCheck(job))counts.reviewOnly++;
     else if(aiReviewFor(job)?.verdict==='SKIP')counts.aiSkipped++;
     else counts.ready++;
   }
@@ -188,11 +204,13 @@ function dailyDecorate(){
   const kicker=document.createElement('div');kicker.className='daily-kicker';
   kicker.textContent='YOUR DAILY RECOMMENDATIONS';
   const heading=document.createElement('h2');
-  heading.textContent=progress.ready+' to review · '+handled+' already handled';
+  heading.textContent=progress.ready+' ready to review · '+progress.reviewOnly+
+    ' require manual CHECK · '+handled+' already handled';
   const description=document.createElement('p');
   description.textContent='Server selected '+progress.total+' of '+n+' accepted vacancies. '+
     progress.newlyFound+' newly found today; others are still-active carryovers. '+
-    auto+' automation-first options remain in your list.';
+    auto+' automation-first options remain in your list. '+
+    (progress.reviewOnly?'CHECK items have a disputed AI SKIP: verify the profession before applying. ':'');
   const note=document.createElement('small');
   note.textContent='Daily Picks is your fixed shortlist, not all jobs newly published today. '+
     (parts.length?'Hidden on this device: '+parts.join(', ')+'. ':'')+
@@ -222,7 +240,10 @@ function dailyDecorate(){
     const other=/network|networking|sieci|telekom|telecom|noc/i.test(title)?'Career direction: networks / telecom':
       /administrator|system/i.test(title)?'Career direction: IT systems (verify requirements)':'Related CV direction — review your interest';
     const label=info.direction==='automation'?'Career direction: AI / workflow automation':info.direction==='bridge'?'Career direction: transition into automation':other;
-    wrap.innerHTML='<div class="daily-explain">'+esc(label)+'</div><button class="daily-dismiss" type="button">Not for me</button>';
+    const needsCheck=dailyNeedsManualCheck(job);
+    wrap.innerHTML='<div class="daily-explain">'+
+      (needsCheck?'<strong>CHECK · AI career disagreement — not ready-to-apply</strong> · ':'')+
+      esc(label)+'</div><button class="daily-dismiss" type="button">Not for me</button>';
     wrap.querySelector('button').addEventListener('click',()=>{
       const reason=window.prompt('Why not?\n1 — Not my career direction\n2 — Not interested in the duties\n3 — Requirements too advanced\n4 — Not interested in the company\n5 — Other\nEnter 1–5 (Cancel to keep):','1');
       if(reason===null)return;

@@ -6,7 +6,7 @@ import {createContext,runInContext} from 'node:vm';
 const code=readFileSync('v22-daily.js','utf8');
 const prefix=code.slice(code.indexOf("const DAILY_FEEDBACK_KEY="),
                         code.indexOf("function dailyTechnicalScope"));
-const selection=code.slice(code.indexOf("function dailyRecommendations(){"),
+const selection=code.slice(code.indexOf("// A server-approved AI career disagreement"),
                            code.indexOf("const _dailyVisible="));
 assert(prefix.includes('feed_revision:dailyFeedRevision()'));
 assert(selection.includes('const snapshot=dailySnapshot()'));
