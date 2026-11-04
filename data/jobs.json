@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T23:07:40.258666+00:00",
-    "found": 6951,
-    "accepted": 84,
+    "generated_at": "2026-11-04T23:43:49.761548+00:00",
+    "found": 6888,
+    "accepted": 82,
     "filtered": {
-      "Too much experience required (3+ years)": 246,
-      "Too senior / management": 3120,
-      "Contract: B2B only or UoP not confirmed": 661,
-      "Location: not Warsaw and not remote": 642,
+      "Too much experience required (3+ years)": 244,
+      "Too senior / management": 3094,
+      "Contract: B2B only or UoP not confirmed": 647,
+      "Location: not Warsaw and not remote": 639,
       "Missing a required language": 31,
-      "Different profession than your CV": 936,
-      "Too weak a match with your CV": 21,
-      "Could not verify the vacancy page": 36,
-      "Other": 1174
+      "Different profession than your CV": 939,
+      "Too weak a match with your CV": 22,
+      "Could not verify the vacancy page": 372,
+      "Other": 818
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3312
+        "fetched": 3263
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3148
+        "fetched": 3102
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -63,13 +63,15 @@
     },
     "version": 1,
     "daily_pick_ids": [
-      "f87fe97c17e0414f"
+      "f87fe97c17e0414f",
+      "f7185f8d0799ee41"
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
       "3c7b4570180cb025",
       "144ff8302ff34730",
       "f87fe97c17e0414f",
+      "f7185f8d0799ee41",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
       "de7ce96492d15e28",
@@ -91,12 +93,10 @@
       "c87820f8e068db71",
       "3054ae5fba88e446",
       "ad9ed1fa7602a0f6",
-      "c614accb5259c41b",
       "054988ec9f909663",
       "087f74326a6dcf0e",
       "bfc8976d02c84eb6",
       "7e7be59d16b1ab49",
-      "9ecb84e872bb2803",
       "31eb236ed458dd4c"
     ],
     "ai_disputed_focus_ids": [
@@ -107,12 +107,14 @@
       "3c7b4570180cb025",
       "144ff8302ff34730",
       "f87fe97c17e0414f",
+      "f7185f8d0799ee41",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
       "de7ce96492d15e28"
     ],
     "fresh_daily_ids": [
-      "f87fe97c17e0414f"
+      "f87fe97c17e0414f",
+      "f7185f8d0799ee41"
     ],
     "focus_stretch_ids": [
       "144ff8302ff34730",
@@ -124,69 +126,68 @@
       "b7a0fe5bc48e0b02",
       "087f74326a6dcf0e",
       "7e7be59d16b1ab49",
-      "9ecb84e872bb2803",
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 84,
-      "shortlisted": 1,
+      "feed_candidates": 82,
+      "shortlisted": 2,
       "daily_review_only": 0,
-      "focus_total": 31,
+      "focus_total": 30,
       "ai_disputed_focus": 2,
-      "focus_stretch": 11,
-      "recent_opportunities": 6,
-      "recent_strict": 1,
+      "focus_stretch": 10,
+      "recent_opportunities": 7,
+      "recent_strict": 2,
       "fresh_feed_candidates": 15,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 9,
+        "career_direction": 8,
         "mid_level": 1,
         "backend_tier": 3
       },
       "automation": 0,
       "direction_counts": {
-        "software_adjacent": 8,
+        "software_adjacent": 7,
         "automation": 13,
         "bridge": 4,
-        "other": 50,
-        "network": 4,
-        "systems": 5
+        "other": 49,
+        "network": 3,
+        "systems": 6
       },
-      "junior_title_candidates": 28,
-      "junior_excluded_by_direction": 15,
+      "junior_title_candidates": 27,
+      "junior_excluded_by_direction": 14,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
         "exploratory_only": 1,
         "ai_skip": 4,
-        "career_direction": 50,
+        "career_direction": 49,
         "remote_needs_confirmation": 1,
-        "qualified": 1,
-        "mid_level": 11,
-        "backend_tier": 12
+        "qualified": 2,
+        "mid_level": 10,
+        "backend_tier": 11
       }
     },
     "ai_budget": {
       "date_utc": "2026-11-04",
-      "used": 3,
+      "used": 4,
       "limit": 20,
-      "remaining": 17,
-      "checked_at_utc": "2026-11-04T23:07:40.841336+00:00"
+      "remaining": 16,
+      "checked_at_utc": "2026-11-04T23:43:57.476254+00:00"
     },
     "ai_automatic": {
-      "eligible": 1,
-      "new": 0,
-      "new_daily": 0,
+      "eligible": 2,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
       "reused": 7,
       "unreviewed": 0,
-      "fresh_total": 6,
-      "fresh_reviewed": 1,
-      "daily_total": 1,
-      "daily_reviewed": 1,
-      "feed_reviewed": 7
+      "fresh_total": 7,
+      "fresh_reviewed": 2,
+      "daily_total": 2,
+      "daily_reviewed": 2,
+      "feed_reviewed": 8
     }
   },
   "jobs": [
@@ -1429,7 +1430,24 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-04T23:07:40.258666+00:00"
+      "first_found_at": "2026-11-04T23:07:40.258666+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует навыков в области IT-поддержки, документации и Microsoft-экосистемы, в то время как кандидат фокусируется на автоматизации, SaaS и сетевых инженерных задачах. Нет прямого соответствия ключевым требованиям вакансии.",
+        "strengths": [
+          "Опыт в сетевых инженерных задачах (Huawei, DNS/DHCP)",
+          "Навыки Python/автоматизации и SaaS-интеграции",
+          "Знание SQL/PostgreSQL и Linux/Docker"
+        ],
+        "gaps": [
+          "Отсутствие опыта с Active Directory, Microsoft 365/Intune",
+          "Фокус на автоматизацию/разработку, а не на IT-поддержку/документацию",
+          "Нет упоминания о подготовке аналитических отчетов"
+        ],
+        "verify": "Проверить, есть ли в портфолио примеры работы с Microsoft-системами или документацией. Уточнить, насколько опыт в SaaS-интеграции соответствует требованиям IT-поддержки.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "6f619e2dee51332dbd599ed3"
     },
     {
       "id": "6cfdc128f0dfb9b0",
@@ -2053,54 +2071,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-01T23:34:52.905531+00:00"
-    },
-    {
-      "id": "c614accb5259c41b",
-      "title": "Specjalistka / Specjalista ds. telekomunikacji",
-      "company": "PGE Energia Odnawialna S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/specjalistka-specjalista-ds-telekomunikacji-warszawa,oferta,1005137266",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-05T11:49:20.753Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Zarządzanie i monitorowanie infrastruktury sieciowej oraz konfiguracja urządzeń, m; Udział w tworzeniu strategii rozwoju obszaru IT i telekomunikacji oraz planowaniu i nadzorowaniu budżetu, inwestycji i procesów zakupowych; Nadzorowanie usług świadczonych przez dostawców zewnętrznych oraz koordynowanie obsługi awarii systemów, urządzeń i łączy telekomunikacyjnych | What they expect: Wykształcenie wyższe informatyczne, preferowane kierunki związane z informatyką, telekomunikacją, bezpieczeństwem IT, cyberbezpieczeństwem; Minimum 1 rok doświadczenia zawodowego w bezpieczeństwie IT/cyberbezpieczeństwie/telekomunikacji; Znajomość sieci komputerowych LAN/WAN/VPN w tym konfiguracji urządzeń sieciowych (bramy sieciowe, routery, przełączniki); Znajomość systemów SCADA, ICT i OT | What they offer: System wynagrodzeń uwzględniający czytelny system premiowy; Prywatną opiekę medyczną; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Zarządzanie i monitorowanie infrastruktury sieciowej oraz konfiguracja urządzeń, m",
-        "Udział w tworzeniu strategii rozwoju obszaru IT i telekomunikacji oraz planowaniu i nadzorowaniu budżetu, inwestycji i procesów zakupowych",
-        "Nadzorowanie usług świadczonych przez dostawców zewnętrznych oraz koordynowanie obsługi awarii systemów, urządzeń i łączy telekomunikacyjnych"
-      ],
-      "summary_expectations": [
-        "Wykształcenie wyższe informatyczne, preferowane kierunki związane z informatyką, telekomunikacją, bezpieczeństwem IT, cyberbezpieczeństwem",
-        "Minimum 1 rok doświadczenia zawodowego w bezpieczeństwie IT/cyberbezpieczeństwie/telekomunikacji",
-        "Znajomość sieci komputerowych LAN/WAN/VPN w tym konfiguracji urządzeń sieciowych (bramy sieciowe, routery, przełączniki)",
-        "Znajomość systemów SCADA, ICT i OT"
-      ],
-      "summary_offers": [
-        "System wynagrodzeń uwzględniający czytelny system premiowy",
-        "Prywatną opiekę medyczną",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Network / NOC / Telecom",
-        "evidence": "work",
-        "matches": [],
-        "concerns": [
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Network & IT Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
       "id": "26e9a261ae323a3e",
@@ -3813,57 +3783,6 @@
         "automation"
       ],
       "first_found_at": "2026-10-09T13:29:10.505687+00:00"
-    },
-    {
-      "id": "9ecb84e872bb2803",
-      "title": "Junior Systems Support Engineer (AI Infrastructure)",
-      "company": "ALTEN Polska",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-systems-support-engineer-ai-infrastructure-warszawa,oferta,1005137417",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-10-05T12:10:07.283Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Wsparcie pierwszej linii / punkt eskalacyjny: Pełnienie roli głównego punktu eskalacji dla zautomatyzowanych procesów wdrożeniowych (deployment pipelines) oraz skryptów instalacyjnych; Obsługa i triage zgłoszeń wdrożeniowych; Monitorowanie, analizowanie oraz zarządzanie zgłoszeniami powstającymi podczas procesów uruchamiania i konfiguracji sprzętu oraz oprogramowania | What they expect: Linux (Ubuntu/RHEL/CentOS); Serwery, BIOS, BMC/IPMI, NIC, Switches; Experience w Data Center lub AI Infrastructure | What they offer: Oferujemy umowę o pracę na pełen etat; model pracy – hybrydowy/zdalny/stacjonarny (każdorazowo do uzupełnienia w zależności od roli); Oferujemy również współpracę na podstawie B2B lub umowy zlecenia (UZ)",
-      "summary_tasks": [
-        "Wsparcie pierwszej linii / punkt eskalacyjny: Pełnienie roli głównego punktu eskalacji dla zautomatyzowanych procesów wdrożeniowych (deployment pipelines) oraz skryptów instalacyjnych",
-        "Obsługa i triage zgłoszeń wdrożeniowych",
-        "Monitorowanie, analizowanie oraz zarządzanie zgłoszeniami powstającymi podczas procesów uruchamiania i konfiguracji sprzętu oraz oprogramowania"
-      ],
-      "summary_expectations": [
-        "Linux (Ubuntu/RHEL/CentOS)",
-        "Serwery, BIOS, BMC/IPMI, NIC, Switches",
-        "Experience w Data Center lub AI Infrastructure"
-      ],
-      "summary_offers": [
-        "Oferujemy umowę o pracę na pełen etat",
-        "model pracy – hybrydowy/zdalny/stacjonarny (każdorazowo do uzupełnienia w zależności od roli)",
-        "Oferujemy również współpracę na podstawie B2B lub umowy zlecenia (UZ)"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: infrastructure",
-          "Linux / Git: linux, ubuntu",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Requires Kubernetes"
-        ],
-        "tier_reason": "Capped at 54: Requires Kubernetes.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-06T06:52:31.617475+00:00"
     },
     {
       "id": "e85e13a9654ddd6c",
