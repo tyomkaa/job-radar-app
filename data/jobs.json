@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-03T22:43:51.476175+00:00",
-    "found": 6571,
+    "generated_at": "2026-11-04T00:03:38.286644+00:00",
+    "found": 6575,
     "accepted": 99,
     "filtered": {
-      "Too much experience required (3+ years)": 219,
+      "Too much experience required (3+ years)": 221,
       "Too senior / management": 3134,
       "Contract: B2B only or UoP not confirmed": 584,
-      "Location: not Warsaw and not remote": 610,
+      "Location: not Warsaw and not remote": 640,
       "Missing a required language": 31,
-      "Different profession than your CV": 856,
+      "Different profession than your CV": 855,
       "Too weak a match with your CV": 16,
-      "Could not verify the vacancy page": 400,
-      "Other": 622
+      "Could not verify the vacancy page": 370,
+      "Other": 625
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3249
+        "fetched": 3238
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 2800
+        "fetched": 2796
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -38,7 +38,7 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 133
+        "fetched": 136
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 692
+        "fetched": 693
       },
       "lever:adlook": {
         "status": "ok",
@@ -62,29 +62,25 @@
       }
     },
     "version": 1,
-    "daily_pick_ids": [
-      "99c99c9bfb69d790",
-      "7b38941f5f064f03"
-    ],
+    "daily_pick_ids": [],
     "focus_job_ids": [
       "053a6a46a267b4f1",
       "144ff8302ff34730",
-      "a6e9a05b7aade9e4",
       "d5dcdb9cc9c730f7",
-      "345b73f850f5eb5a",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "8530a0f18b3a2375",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
       "f87fe97c17e0414f",
       "dc48607353d4d5b1",
       "ea2729f768fade3a",
+      "a6e9a05b7aade9e4",
       "e85e13a9654ddd6c",
       "529fdb6e90e15b76",
-      "7b38941f5f064f03",
+      "345b73f850f5eb5a",
       "0571590fa642456e",
       "f94aeeb62bd01cbf",
+      "8530a0f18b3a2375",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
       "22e5639c1c588154",
@@ -101,6 +97,7 @@
       "ad9ed1fa7602a0f6",
       "ae40df32e450e376",
       "c614accb5259c41b",
+      "054988ec9f909663",
       "087f74326a6dcf0e",
       "e8fb8f8aca57253f",
       "bfc8976d02c84eb6",
@@ -108,26 +105,21 @@
       "9ecb84e872bb2803"
     ],
     "ai_disputed_focus_ids": [
-      "8530a0f18b3a2375",
       "529fdb6e90e15b76",
+      "8530a0f18b3a2375",
       "e8fb8f8aca57253f"
     ],
     "fresh_opportunity_ids": [
       "053a6a46a267b4f1",
       "144ff8302ff34730",
-      "a6e9a05b7aade9e4",
       "d5dcdb9cc9c730f7",
-      "345b73f850f5eb5a",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "8530a0f18b3a2375",
       "1f01927a4caf727e",
       "b5d941053454bcc7",
       "f87fe97c17e0414f"
     ],
-    "fresh_daily_ids": [
-      "99c99c9bfb69d790"
-    ],
+    "fresh_daily_ids": [],
     "focus_stretch_ids": [
       "e48b5ba58039e515",
       "ea2729f768fade3a",
@@ -143,12 +135,12 @@
     ],
     "daily_diagnostics": {
       "feed_candidates": 99,
-      "shortlisted": 2,
+      "shortlisted": 0,
       "focus_total": 39,
       "ai_disputed_focus": 3,
       "focus_stretch": 11,
-      "recent_opportunities": 11,
-      "recent_strict": 1,
+      "recent_opportunities": 8,
+      "recent_strict": 0,
       "automation": 0,
       "direction_counts": {
         "network": 7,
@@ -160,40 +152,39 @@
       },
       "junior_title_candidates": 30,
       "junior_excluded_by_direction": 14,
-      "high_scoring_junior_adjacent": 1,
+      "high_scoring_junior_adjacent": 0,
       "reasons": {
         "ai_skip": 5,
-        "qualified": 2,
+        "hard_prerequisite_unverified": 3,
         "exploratory_only": 5,
-        "old_discovery_focus_only": 1,
+        "old_discovery_focus_only": 2,
         "career_direction": 56,
         "remote_needs_confirmation": 1,
         "contract_unverified": 1,
         "backend_tier": 11,
-        "mid_level": 16,
-        "hard_prerequisite_unverified": 1
+        "mid_level": 15
       }
     },
     "ai_budget": {
-      "date_utc": "2026-11-03",
-      "used": 5,
+      "date_utc": "2026-11-04",
+      "used": 1,
       "limit": 20,
-      "remaining": 15,
-      "checked_at_utc": "2026-11-03T22:44:05.504313+00:00"
+      "remaining": 19,
+      "checked_at_utc": "2026-11-04T00:03:47.297857+00:00"
     },
     "ai_automatic": {
-      "eligible": 3,
-      "new": 2,
-      "new_daily": 2,
+      "eligible": 1,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 7,
+      "reused": 6,
       "unreviewed": 0,
-      "fresh_total": 11,
-      "fresh_reviewed": 3,
-      "daily_total": 2,
-      "daily_reviewed": 2,
-      "feed_reviewed": 9
+      "fresh_total": 8,
+      "fresh_reviewed": 0,
+      "daily_total": 0,
+      "daily_reviewed": 0,
+      "feed_reviewed": 7
     }
   },
   "jobs": [
@@ -290,15 +281,16 @@
       "match_level": "STRONG",
       "recommendation_tier": "APPLY",
       "experience_required_years": 0,
-      "summary": "What you'll do: Projektowanie i tworzenie nowych funkcjonalności – od frontendu, przez backend, po bazę danych; Tworzenie integracji z zewnętrznymi API; Samodzielna realizacja zadań lub współpraca z pozostałymi członkami zespołu, w zależności od projektu | What they expect: Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL; Pierwsze doświadczenia programistyczne zdobyte w pracy, podczas praktyk, własnych projektów lub innych inicjatyw – chętnie zobaczymy Twoje portfolio; Umiejętność świadomego i efektywnego korzystania z narzędzi AI | What they offer: Realny wpływ na rozwój firmowych systemów i wdrażane rozwiązania; Elastyczne godziny pracy, które można dopasować do zajęć na uczelni; Dajemy pracownikom przestrzeń do samodzielności, rozwoju i realnego wpływu na rozwój firmy",
+      "summary": "What you'll do: Projektowanie i tworzenie nowych funkcjonalności – od frontendu, przez backend, po bazę danych; Tworzenie integracji z zewnętrznymi API; Samodzielna realizacja zadań lub współpraca z pozostałymi członkami zespołu, w zależności od projektu | What they expect: Student/ka ostatnich lat studiów (informatyka, analiza danych lub kierunki pokrewne); Pierwsze doświadczenia programistyczne zdobyte w pracy, podczas praktyk, własnych projektów lub innych inicjatyw – chętnie zobaczymy Twoje portfolio; Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL; Umiejętność świadomego i efektywnego korzystania z narzędzi AI | What they offer: Realny wpływ na rozwój firmowych systemów i wdrażane rozwiązania; Elastyczne godziny pracy, które można dopasować do zajęć na uczelni; Dajemy pracownikom przestrzeń do samodzielności, rozwoju i realnego wpływu na rozwój firmy",
       "summary_tasks": [
         "Projektowanie i tworzenie nowych funkcjonalności – od frontendu, przez backend, po bazę danych",
         "Tworzenie integracji z zewnętrznymi API",
         "Samodzielna realizacja zadań lub współpraca z pozostałymi członkami zespołu, w zależności od projektu"
       ],
       "summary_expectations": [
-        "Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL",
+        "Student/ka ostatnich lat studiów (informatyka, analiza danych lub kierunki pokrewne)",
         "Pierwsze doświadczenia programistyczne zdobyte w pracy, podczas praktyk, własnych projektów lub innych inicjatyw – chętnie zobaczymy Twoje portfolio",
+        "Znajomość Pythona i/lub TypeScriptu/JavaScriptu oraz podstaw SQL",
         "Umiejętność świadomego i efektywnego korzystania z narzędzi AI"
       ],
       "summary_offers": [
@@ -321,24 +313,7 @@
         "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-03T13:17:00.930254+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Кандидат соответствует требованиям вакансии: знание Python, SQL, опыт автоматизации и интеграций. Нет ограничений по локации (Warsaw office). Отсутствие 3+ лет коммерческого опыта не противоречит требованиям junior.",
-        "strengths": [
-          "Опыт автоматизации (Playwright, openpyxl, GitHub Actions)",
-          "Работа с SQL/PostgreSQL и интеграция API",
-          "Проекты в SaaS и сетевой инженерии"
-        ],
-        "gaps": [
-          "Нет подтверждённого коммерческого опыта разработчика (только freelance и проекты)",
-          "Отсутствие TypeScript в описании профиля",
-          "Нет упоминания о работе с AI-инструментами в текущем CV"
-        ],
-        "verify": "Проверить наличие проектов с Python/SQL в портфолио и соответствие требованиям по локации.",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "3669504c0d6f459e54715d57"
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
       "id": "f94aeeb62bd01cbf",
@@ -1083,13 +1058,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa operacyjna - konfigurowanie, wykonywanie prac serwisowych, pomiary parametrów łączy, obsługa zdarzeń i awarii sieci teletransmisyjnej LTE450; Monitorowanie jakości usług w systemach teletransmisyjnych zgodnie z rekomendacjami i standardami telekomunikacyjnymi; Współpraca z dostawcami sprzętu, rozwiązań i usług | What they expect: Znajomość działania sieci telekomunikacyjnej; Znajomość standardów telekomunikacyjnych i modelu OSI; Umiejętność pracy pod presją czasu | What they offer: Szerokie możliwości rozwoju — szkolenia, projekty i wyzwania, które pozwolą Ci rosnąć każdego dnia; Konkurencyjne wynagrodzenie oraz przejrzysty system premiowy, który docenia zaangażowanie; Dofinansowanie do karty sportowej oraz biletów na wydarzenia — kafeteryjny system benefitów dla Pracowników i Pracowniczek",
+      "summary": "What you'll do: Obsługa operacyjna - konfigurowanie, wykonywanie prac serwisowych, pomiary parametrów łączy, obsługa zdarzeń i awarii sieci teletransmisyjnej LTE450; Monitorowanie jakości usług w systemach teletransmisyjnych zgodnie z rekomendacjami i standardami telekomunikacyjnymi; Współpraca z dostawcami sprzętu, rozwiązań i usług | What they expect: Wykształcenie wyższe lub w trakcie studiów (w obszarze telekomunikacji lub pokrewnym); Znajomość działania sieci telekomunikacyjnej; Znajomość standardów telekomunikacyjnych i modelu OSI; Umiejętność pracy pod presją czasu | What they offer: Szerokie możliwości rozwoju — szkolenia, projekty i wyzwania, które pozwolą Ci rosnąć każdego dnia; Konkurencyjne wynagrodzenie oraz przejrzysty system premiowy, który docenia zaangażowanie; Dofinansowanie do karty sportowej oraz biletów na wydarzenia — kafeteryjny system benefitów dla Pracowników i Pracowniczek",
       "summary_tasks": [
         "Obsługa operacyjna - konfigurowanie, wykonywanie prac serwisowych, pomiary parametrów łączy, obsługa zdarzeń i awarii sieci teletransmisyjnej LTE450",
         "Monitorowanie jakości usług w systemach teletransmisyjnych zgodnie z rekomendacjami i standardami telekomunikacyjnymi",
         "Współpraca z dostawcami sprzętu, rozwiązań i usług"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe lub w trakcie studiów (w obszarze telekomunikacji lub pokrewnym)",
         "Znajomość działania sieci telekomunikacyjnej",
         "Znajomość standardów telekomunikacyjnych i modelu OSI",
         "Umiejętność pracy pod presją czasu"
@@ -1111,22 +1087,22 @@
       "interest_tags": [],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00",
       "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия фокусируется на операционной поддержке сетей teletransmisyjnych, что не соответствует профилю автоматизации/интеграции систем. Требования не упоминают Python, AI или автоматизацию, но есть опыт в сетях и SQL. Необходимо уточнить, есть ли в роли технические аспекты, близкие к профилю.",
+        "verdict": "SKIP",
+        "explanation": "Вакансия фокусируется на операционной поддержке сетей передачи данных, а не на автоматизации, интеграции систем или Python-проектах. Требования не соответствуют профилю кандидата.",
         "strengths": [
-          "Опыт в сетях и телекоммуникациях (Huawei)",
-          "Знание SQL/PostgreSQL и данных",
-          "Фриланс-проекты с SaaS и DevOps"
+          "Опыт автоматизации Python (Playwright, openpyxl, GitHub Actions)",
+          "Свободное владение SQL/PostgreSQL и SaaS-интеграцией",
+          "Проекты по автоматизации форм-к-лидам и обработке данных"
         ],
         "gaps": [
-          "Отсутствие прямого опыта автоматизации/интеграции систем в вакансии",
-          "Требования не связаны с Python/AI, но есть навыки в этих областях",
-          "Роль ориентирована на операционную работу, а не на разработку"
+          "Отсутствие прямого опыта в операционной поддержке сетей LTE450",
+          "Нет упоминания о знании стандартов телекоммуникационных сетей в резюме",
+          "Фокус на сетевом инженеринге, а не на автоматизации процессов"
         ],
-        "verify": "Уточнить, включает ли вакансия технические задачи по автоматизации/интеграции систем или только операционные сетевые процессы.",
+        "verify": "Проверено соответствие требований вакансии и профиля кандидата. Роль не соответствует карьерным приоритетам в автоматизации и интеграции систем.",
         "suggested_cv": "General"
       },
-      "ai_review_fingerprint": "e3296ae8d2621f6c9286eaac"
+      "ai_review_fingerprint": "546721a6bcdc745954e1dffe"
     },
     {
       "id": "1105ef13c6b0ad22",
@@ -1396,13 +1372,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie cyklicznych raportów monitorujących rynek detaliczny na bazie danych NielsenIQ/CMR oraz innych dostępnych źródeł danych; wspieranie użytkowników w zakresie interpretacji danych rynkowych oraz obsługi narzędzi analitycznych; monitorowanie trendów rynkowych i działań konkurencji | What they expect: doświadczenie zawodowe lub pierwsze doświadczenia w obszarze analiz danych, badań rynku, sprzedaży, marketingu lub pokrewnych; umiejętność analitycznego myślenia oraz wyciągania wniosków na podstawie danych; bardzo dobra znajomość pakietu MS Office, w szczególności MS Excel i PowerPoint | What they offer: szeroki zakres szkoleń skierowany na rozwój osobisty; 1 dzień pracy zdalnej w tygodniu (HO); opiekę medyczną w sieci Luxmed, dofinansowanie karty MultiSport, dodatkowe ubezpieczenie na życie",
+      "summary": "What you'll do: tworzenie cyklicznych raportów monitorujących rynek detaliczny na bazie danych NielsenIQ/CMR oraz innych dostępnych źródeł danych; wspieranie użytkowników w zakresie interpretacji danych rynkowych oraz obsługi narzędzi analitycznych; monitorowanie trendów rynkowych i działań konkurencji | What they expect: wykształcenie wyższe lub w trakcie studiów, preferowane kierunki: ekonomia, statystyka, matematyka, zarządzanie lub pokrewne; doświadczenie zawodowe lub pierwsze doświadczenia w obszarze analiz danych, badań rynku, sprzedaży, marketingu lub pokrewnych; umiejętność analitycznego myślenia oraz wyciągania wniosków na podstawie danych; bardzo dobra znajomość pakietu MS Office, w szczególności MS Excel i PowerPoint | What they offer: szeroki zakres szkoleń skierowany na rozwój osobisty; 1 dzień pracy zdalnej w tygodniu (HO); opiekę medyczną w sieci Luxmed, dofinansowanie karty MultiSport, dodatkowe ubezpieczenie na życie",
       "summary_tasks": [
         "tworzenie cyklicznych raportów monitorujących rynek detaliczny na bazie danych NielsenIQ/CMR oraz innych dostępnych źródeł danych",
         "wspieranie użytkowników w zakresie interpretacji danych rynkowych oraz obsługi narzędzi analitycznych",
         "monitorowanie trendów rynkowych i działań konkurencji"
       ],
       "summary_expectations": [
+        "wykształcenie wyższe lub w trakcie studiów, preferowane kierunki: ekonomia, statystyka, matematyka, zarządzanie lub pokrewne",
         "doświadczenie zawodowe lub pierwsze doświadczenia w obszarze analiz danych, badań rynku, sprzedaży, marketingu lub pokrewnych",
         "umiejętność analitycznego myślenia oraz wyciągania wniosków na podstawie danych",
         "bardzo dobra znajomość pakietu MS Office, w szczególności MS Excel i PowerPoint"
@@ -1794,15 +1771,15 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 2,
-      "summary": "What you'll do: Administracja i konfiguracja aplikacyjna systemów Pivotal CRM i Webcon BPS; Zarządzanie dostępami i uprawnieniami użytkowników; Weryfikacja zgłoszeń dotyczących SAP i koordynacja ich obsługi z dostawcą utrzymującym system | What they expect: 2 lata doświadczenia w IT, analizie, wsparciu użytkowników lub jako key user; wykształcenie wyższe lub w trakcie (informatyka, ekonomia, zarządzanie lub pokrewne); znajomość procesów biznesowych i logiki działania systemów – bez programowania | What they offer: Atrakcyjne wynagrodzenie miesięczne oraz system premiowy; Możliwość uczestnictwa w szkoleniach organizowanych lub dofinansowywanych przez firmę; Pakiet opieki medycznej Medicover",
+      "summary": "What you'll do: Administracja i konfiguracja aplikacyjna systemów Pivotal CRM i Webcon BPS; Zarządzanie dostępami i uprawnieniami użytkowników; Weryfikacja zgłoszeń dotyczących SAP i koordynacja ich obsługi z dostawcą utrzymującym system | What they expect: wykształcenie wyższe lub w trakcie (informatyka, ekonomia, zarządzanie lub pokrewne); 2 lata doświadczenia w IT, analizie, wsparciu użytkowników lub jako key user; znajomość procesów biznesowych i logiki działania systemów – bez programowania | What they offer: Atrakcyjne wynagrodzenie miesięczne oraz system premiowy; Możliwość uczestnictwa w szkoleniach organizowanych lub dofinansowywanych przez firmę; Pakiet opieki medycznej Medicover",
       "summary_tasks": [
         "Administracja i konfiguracja aplikacyjna systemów Pivotal CRM i Webcon BPS",
         "Zarządzanie dostępami i uprawnieniami użytkowników",
         "Weryfikacja zgłoszeń dotyczących SAP i koordynacja ich obsługi z dostawcą utrzymującym system"
       ],
       "summary_expectations": [
-        "2 lata doświadczenia w IT, analizie, wsparciu użytkowników lub jako key user",
         "wykształcenie wyższe lub w trakcie (informatyka, ekonomia, zarządzanie lub pokrewne)",
+        "2 lata doświadczenia w IT, analizie, wsparciu użytkowników lub jako key user",
         "znajomość procesów biznesowych i logiki działania systemów – bez programowania"
       ],
       "summary_offers": [
@@ -1825,24 +1802,7 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Роль требует администрирования бизнес-систем без программирования, в то время как кандидат специализируется на Python/автоматизации и интеграции систем, что не соответствует требованиям.",
-        "strengths": [
-          "Опыт автоматизации Python/Playwright и API-интеграции",
-          "Навыки SQL/PostgreSQL и работы с SaaS-платформами",
-          "Профессиональный опыт в сетевой инженерии и системной администрации"
-        ],
-        "gaps": [
-          "Отсутствие опыта в администрировании Pivotal CRM/Webcon BPS",
-          "Отсутствие требуемого 2-летнего опыта в IT/анализе/поддержке пользователей",
-          "Фокус на технической разработке, а не на бизнес-процессах"
-        ],
-        "verify": "Проверить, есть ли в портфолио кандидата проекты по администрированию бизнес-систем без программирования.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "de89852c0cc99d85d1599fd6"
+      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
       "id": "7e7be59d16b1ab49",
@@ -2033,13 +1993,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: programujesz w języku Python, znasz Django i Celery; cechuje Cię wysoka samodzielność w pracy nad powierzonymi zadaniami; Backend: Python 3, Django, Django REST Framework, Celery | What they expect: posiadasz umiejętności analityczne | What they offer: pracę w stabilnej firmie o czołowej pozycji w branży medialnej; elastyczne godziny pracy; pakiet socjalny i medyczny",
+      "summary": "What you'll do: programujesz w języku Python, znasz Django i Celery; cechuje Cię wysoka samodzielność w pracy nad powierzonymi zadaniami; Backend: Python 3, Django, Django REST Framework, Celery | What they expect: posiadasz wykształcenie wyższe kierunkowe lub jesteś w trakcie studiów A dodatkowo miło będzie, jeżeli; posiadasz umiejętności analityczne | What they offer: pracę w stabilnej firmie o czołowej pozycji w branży medialnej; elastyczne godziny pracy; pakiet socjalny i medyczny",
       "summary_tasks": [
         "programujesz w języku Python, znasz Django i Celery",
         "cechuje Cię wysoka samodzielność w pracy nad powierzonymi zadaniami",
         "Backend: Python 3, Django, Django REST Framework, Celery"
       ],
       "summary_expectations": [
+        "posiadasz wykształcenie wyższe kierunkowe lub jesteś w trakcie studiów A dodatkowo miło będzie, jeżeli",
         "posiadasz umiejętności analityczne"
       ],
       "summary_offers": [
@@ -2800,13 +2761,15 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Administruje, utrzymuje, monitoruje systemy teleinformatyczne MSZ; Koordynuje prace związane z zapewnieniem funkcjonowania administrowanych systemów w sytuacjach realizacji wdrożeń, aktualizacji i występowania awarii; we współpracy z pozostałymi administratorami | What they expect: Znajomość języka angielskiego na poziomie B1; Znajomość aktów prawnych: Prawo zamówień publicznych; Umiejętność: współpracy | What they offer: elastyczny czas pracy (możliwość rozpoczęcia pracy między 7:00 a 10:00); dofinansowanie do żłobka i przedszkola*; wsparcie finansowe rozwoju zawodowego (szkolenia, kursy językowe)",
+      "summary": "What you'll do: Administruje, utrzymuje, monitoruje systemy teleinformatyczne MSZ; Koordynuje prace związane z zapewnieniem funkcjonowania administrowanych systemów w sytuacjach realizacji wdrożeń, aktualizacji i występowania awarii; we współpracy z pozostałymi administratorami | What they expect: Poświadczenie bezpieczeństwa upoważniające do dostępu do informacji niejawnych oznaczonych klauzulą „tajne”, „UE i NATO Secret” lub zgoda na poddanie się postępowaniu sprawdzającemu; Posiadanie obywatelstwa polskiego; Znajomość języka angielskiego na poziomie B1; Znajomość aktów prawnych: Prawo zamówień publicznych; Umiejętność: współpracy | What they offer: elastyczny czas pracy (możliwość rozpoczęcia pracy między 7:00 a 10:00); dofinansowanie do żłobka i przedszkola*; wsparcie finansowe rozwoju zawodowego (szkolenia, kursy językowe)",
       "summary_tasks": [
         "Administruje, utrzymuje, monitoruje systemy teleinformatyczne MSZ",
         "Koordynuje prace związane z zapewnieniem funkcjonowania administrowanych systemów w sytuacjach realizacji wdrożeń, aktualizacji i występowania awarii",
         "we współpracy z pozostałymi administratorami"
       ],
       "summary_expectations": [
+        "Poświadczenie bezpieczeństwa upoważniające do dostępu do informacji niejawnych oznaczonych klauzulą „tajne”, „UE i NATO Secret” lub zgoda na poddanie się postępowaniu sprawdzającemu",
+        "Posiadanie obywatelstwa polskiego",
         "Znajomość języka angielskiego na poziomie B1",
         "Znajomość aktów prawnych: Prawo zamówień publicznych",
         "Umiejętność: współpracy"
@@ -2900,16 +2863,16 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Konfiguracja sieci LAN/WAN; Administracja systemami Windows, Linux oraz Active Directory; Analiza logów i wsparcie incydentów bezpieczeństwa | What they expect: Podstawowa wiedza z zakresu sieci i systemów; Umiejętność pracy zespołowej; Ustawowe: obywatelstwo polskie, wykształcenie minimum średnie, korzystanie z pełni praw publicznych, niekaralność | What they offer: Dofinansowanie szkoleń i kursów; Benefity; prywatna opieka medyczna",
+      "summary": "What you'll do: Konfiguracja sieci LAN/WAN; Administracja systemami Windows, Linux oraz Active Directory; Analiza logów i wsparcie incydentów bezpieczeństwa | What they expect: Ustawowe: obywatelstwo polskie, wykształcenie minimum średnie, korzystanie z pełni praw publicznych, niekaralność; Podstawowa wiedza z zakresu sieci i systemów; Umiejętność pracy zespołowej | What they offer: Dofinansowanie szkoleń i kursów; Benefity; prywatna opieka medyczna",
       "summary_tasks": [
         "Konfiguracja sieci LAN/WAN",
         "Administracja systemami Windows, Linux oraz Active Directory",
         "Analiza logów i wsparcie incydentów bezpieczeństwa"
       ],
       "summary_expectations": [
+        "Ustawowe: obywatelstwo polskie, wykształcenie minimum średnie, korzystanie z pełni praw publicznych, niekaralność",
         "Podstawowa wiedza z zakresu sieci i systemów",
-        "Umiejętność pracy zespołowej",
-        "Ustawowe: obywatelstwo polskie, wykształcenie minimum średnie, korzystanie z pełni praw publicznych, niekaralność"
+        "Umiejętność pracy zespołowej"
       ],
       "summary_offers": [
         "Dofinansowanie szkoleń i kursów",
@@ -2950,13 +2913,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 1,
-      "summary": "What you'll do: Zarządzanie i monitorowanie infrastruktury sieciowej oraz konfiguracja urządzeń, m; Udział w tworzeniu strategii rozwoju obszaru IT i telekomunikacji oraz planowaniu i nadzorowaniu budżetu, inwestycji i procesów zakupowych; Nadzorowanie usług świadczonych przez dostawców zewnętrznych oraz koordynowanie obsługi awarii systemów, urządzeń i łączy telekomunikacyjnych | What they expect: Minimum 1 rok doświadczenia zawodowego w bezpieczeństwie IT/cyberbezpieczeństwie/telekomunikacji; Znajomość sieci komputerowych LAN/WAN/VPN w tym konfiguracji urządzeń sieciowych (bramy sieciowe, routery, przełączniki); Znajomość systemów SCADA, ICT i OT | What they offer: System wynagrodzeń uwzględniający czytelny system premiowy; Prywatną opiekę medyczną; dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Zarządzanie i monitorowanie infrastruktury sieciowej oraz konfiguracja urządzeń, m; Udział w tworzeniu strategii rozwoju obszaru IT i telekomunikacji oraz planowaniu i nadzorowaniu budżetu, inwestycji i procesów zakupowych; Nadzorowanie usług świadczonych przez dostawców zewnętrznych oraz koordynowanie obsługi awarii systemów, urządzeń i łączy telekomunikacyjnych | What they expect: Wykształcenie wyższe informatyczne, preferowane kierunki związane z informatyką, telekomunikacją, bezpieczeństwem IT, cyberbezpieczeństwem; Minimum 1 rok doświadczenia zawodowego w bezpieczeństwie IT/cyberbezpieczeństwie/telekomunikacji; Znajomość sieci komputerowych LAN/WAN/VPN w tym konfiguracji urządzeń sieciowych (bramy sieciowe, routery, przełączniki); Znajomość systemów SCADA, ICT i OT | What they offer: System wynagrodzeń uwzględniający czytelny system premiowy; Prywatną opiekę medyczną; dofinansowanie szkoleń i kursów",
       "summary_tasks": [
         "Zarządzanie i monitorowanie infrastruktury sieciowej oraz konfiguracja urządzeń, m",
         "Udział w tworzeniu strategii rozwoju obszaru IT i telekomunikacji oraz planowaniu i nadzorowaniu budżetu, inwestycji i procesów zakupowych",
         "Nadzorowanie usług świadczonych przez dostawców zewnętrznych oraz koordynowanie obsługi awarii systemów, urządzeń i łączy telekomunikacyjnych"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe informatyczne, preferowane kierunki związane z informatyką, telekomunikacją, bezpieczeństwem IT, cyberbezpieczeństwem",
         "Minimum 1 rok doświadczenia zawodowego w bezpieczeństwie IT/cyberbezpieczeństwie/telekomunikacji",
         "Znajomość sieci komputerowych LAN/WAN/VPN w tym konfiguracji urządzeń sieciowych (bramy sieciowe, routery, przełączniki)",
         "Znajomość systemów SCADA, ICT i OT"
@@ -3203,13 +3167,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Gromadzenie, przetwarzanie i analiza danych z różnych źródeł (np; Tworzenie raportów, zestawień i dashboardów wspierających działania biznesowe, administracyjne, naukowe i dydaktyczne; Współpraca z zespołami wewnętrznymi oraz dostawcami zewnętrznych systemów IT | What they expect: Praktyczna znajomość narzędzi do analizy danych; Umiejętność analitycznego myślenia i wyciągania wniosków z danych; Komunikatywność i umiejętność współpracy w zespole | What they offer: Zniżki na studia z oferty Uniwersytetu Vizja; Dofinansowanie do prywatnej opieki medycznej i pakietu sportowego; Rozwój zawodowy i możliwość podnoszenia kwalifikacji",
+      "summary": "What you'll do: Gromadzenie, przetwarzanie i analiza danych z różnych źródeł (np; Tworzenie raportów, zestawień i dashboardów wspierających działania biznesowe, administracyjne, naukowe i dydaktyczne; Współpraca z zespołami wewnętrznymi oraz dostawcami zewnętrznych systemów IT | What they expect: Wykształcenie wyższe (preferowane kierunki: informatyka, matematyka, ekonomia, analiza danych, lub pokrewne) lub w trakcie studiów; Praktyczna znajomość narzędzi do analizy danych; Umiejętność analitycznego myślenia i wyciągania wniosków z danych; Komunikatywność i umiejętność współpracy w zespole | What they offer: Zniżki na studia z oferty Uniwersytetu Vizja; Dofinansowanie do prywatnej opieki medycznej i pakietu sportowego; Rozwój zawodowy i możliwość podnoszenia kwalifikacji",
       "summary_tasks": [
         "Gromadzenie, przetwarzanie i analiza danych z różnych źródeł (np",
         "Tworzenie raportów, zestawień i dashboardów wspierających działania biznesowe, administracyjne, naukowe i dydaktyczne",
         "Współpraca z zespołami wewnętrznymi oraz dostawcami zewnętrznych systemów IT"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe (preferowane kierunki: informatyka, matematyka, ekonomia, analiza danych, lub pokrewne) lub w trakcie studiów",
         "Praktyczna znajomość narzędzi do analizy danych",
         "Umiejętność analitycznego myślenia i wyciągania wniosków z danych",
         "Komunikatywność i umiejętność współpracy w zespole"
@@ -3254,13 +3219,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Współpraca z zespołami FX Trading, FX Sales oraz IT; Zbieranie, analiza i doprecyzowywanie wymagań biznesowych; Współpraca przy projektowaniu modeli danych | What they expect: Doświadczenie na stanowisku Business Analyst lub Business System Analyst; Doświadczenie w sektorze bankowym lub finansowym; Bardzo dobra znajomość produktów FX (Spot, Forward, Swap) | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności",
+      "summary": "What you'll do: Współpraca z zespołami FX Trading, FX Sales oraz IT; Zbieranie, analiza i doprecyzowywanie wymagań biznesowych; Współpraca przy projektowaniu modeli danych | What they expect: Posiadane wykształcenie wyższe; Doświadczenie na stanowisku Business Analyst lub Business System Analyst; Doświadczenie w sektorze bankowym lub finansowym; Bardzo dobra znajomość produktów FX (Spot, Forward, Swap) | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Grupa Astek od momentu powstania opiera swój rozwój na kulturze przedsiębiorczości i innowacyjności",
       "summary_tasks": [
         "Współpraca z zespołami FX Trading, FX Sales oraz IT",
         "Zbieranie, analiza i doprecyzowywanie wymagań biznesowych",
         "Współpraca przy projektowaniu modeli danych"
       ],
       "summary_expectations": [
+        "Posiadane wykształcenie wyższe",
         "Doświadczenie na stanowisku Business Analyst lub Business System Analyst",
         "Doświadczenie w sektorze bankowym lub finansowym",
         "Bardzo dobra znajomość produktów FX (Spot, Forward, Swap)"
@@ -3359,13 +3325,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa procesów rozliczeniowych związanych z działalnością handlową w branży energetycznej; Codzienna współpraca z traderami, działem prawnym, księgowością i kontrahentami; Obsługa i kontrola procesu obiegu dokumentacji, wraz z jej pozyskiwaniem | What they expect: Znajomość języka angielskiego odpowiednia do pracy operacyjnej oraz tworzenia dokumentacji; Zaawansowana znajomość pakietu MS Office (Excel, Word), mile widziana znajomość Python; Umiejętność pracy pod presją czasu | What they offer: Możliwość pracy i rozwoju w dynamicznie rozwijającej się firmie z branży energetycznej; Prywatną opiekę medyczną dla Ciebie i Twojej rodziny na preferencyjnych warunkach; Kartę Multisport i ubezpieczenie grupowe na korzystnych warunkach",
+      "summary": "What you'll do: Obsługa procesów rozliczeniowych związanych z działalnością handlową w branży energetycznej; Codzienna współpraca z traderami, działem prawnym, księgowością i kontrahentami; Obsługa i kontrola procesu obiegu dokumentacji, wraz z jej pozyskiwaniem | What they expect: Wykształcenie wyższe (lub w trakcie studiów) preferowane kierunki zwłaszcza: Ekonomia, Prawo, Finanse i Rachunkowość; Znajomość języka angielskiego odpowiednia do pracy operacyjnej oraz tworzenia dokumentacji; Zaawansowana znajomość pakietu MS Office (Excel, Word), mile widziana znajomość Python; Umiejętność pracy pod presją czasu | What they offer: Możliwość pracy i rozwoju w dynamicznie rozwijającej się firmie z branży energetycznej; Prywatną opiekę medyczną dla Ciebie i Twojej rodziny na preferencyjnych warunkach; Kartę Multisport i ubezpieczenie grupowe na korzystnych warunkach",
       "summary_tasks": [
         "Obsługa procesów rozliczeniowych związanych z działalnością handlową w branży energetycznej",
         "Codzienna współpraca z traderami, działem prawnym, księgowością i kontrahentami",
         "Obsługa i kontrola procesu obiegu dokumentacji, wraz z jej pozyskiwaniem"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe (lub w trakcie studiów) preferowane kierunki zwłaszcza: Ekonomia, Prawo, Finanse i Rachunkowość",
         "Znajomość języka angielskiego odpowiednia do pracy operacyjnej oraz tworzenia dokumentacji",
         "Zaawansowana znajomość pakietu MS Office (Excel, Word), mile widziana znajomość Python",
         "Umiejętność pracy pod presją czasu"
@@ -3511,13 +3478,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 1,
-      "summary": "What you'll do: Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań; Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny; Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​ | What they expect: Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy; Minimum rok doświadczenia w pracy na podobnym stanowisku; Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów) | What they offer: Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny; Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów; dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań; Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny; Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​ | What they expect: Wykształcenie wyższe – licencjat; Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy; Minimum rok doświadczenia w pracy na podobnym stanowisku; Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów) | What they offer: Prywatną opiekę medyczną Medicover dla Ciebie i Twojej rodziny; Szerokie możliwości rozwoju dzięki dostępowi do platformy e-learningowej z bogatą ofertą szkoleń i warsztatów; dofinansowanie szkoleń i kursów",
       "summary_tasks": [
         "Analiza danych medycznych Grupy Medicover w celu przygotowania raportów a także proponowanie adekwatnych działań",
         "Monitorowanie wdrożonych projektów, poszukiwanie i rekomendowanie usprawnień w systemach i narzędziach używanych przez zespół medyczny",
         "Prowadzenie innych projektów na zlecenie Corporate Medical Audit and Clinical Governance Director​"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe – licencjat",
         "Znajomość języka angielskiego na poziomie minimum B2 – wymóg niezbędny ze względu na międzynarodowe środowisko pracy",
         "Minimum rok doświadczenia w pracy na podobnym stanowisku",
         "Doświadczenie w projektach prowadzonych w metodykach Agile (koncepcje user stories, codzienne spotkania, planowanie sprintów)"
@@ -3874,13 +3842,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Supporting highly complex projects by overseeing development, quality assurance, planning, implementation and maintenance of product releases; Developing and defining strategies for automated planning, integration and delivery, including cross project in; Focusing on harmonized automation | What they expect: Comprehensive knowledge of Packet Data Core systems; Long-standing experience in 2nd or 3rd-level support in Mobile Packet Core systems; Very good experience in both classical and agile cooperation models",
+      "summary": "What you'll do: Supporting highly complex projects by overseeing development, quality assurance, planning, implementation and maintenance of product releases; Developing and defining strategies for automated planning, integration and delivery, including cross project in; Focusing on harmonized automation | What they expect: University degree with focus on computer science or comparable qualification, with several years of professional experience in a Telco environment (system engineering and/or operations); Comprehensive knowledge of Packet Data Core systems; Long-standing experience in 2nd or 3rd-level support in Mobile Packet Core systems; Very good experience in both classical and agile cooperation models",
       "summary_tasks": [
         "Supporting highly complex projects by overseeing development, quality assurance, planning, implementation and maintenance of product releases",
         "Developing and defining strategies for automated planning, integration and delivery, including cross project in",
         "Focusing on harmonized automation"
       ],
       "summary_expectations": [
+        "University degree with focus on computer science or comparable qualification, with several years of professional experience in a Telco environment (system engineering and/or operations)",
         "Comprehensive knowledge of Packet Data Core systems",
         "Long-standing experience in 2nd or 3rd-level support in Mobile Packet Core systems",
         "Very good experience in both classical and agile cooperation models"
@@ -4489,13 +4458,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What you'll do: Automatyzacja cyklicznych analiz, raportów, kontroli jakości danych i czynności manualnych; Tworzenie modeli danych i mechanizmów monitorowania dla procesów inwestycyjnych, kosztowych i jakościowych; Przekładanie potrzeb biznesowych na wymagania dotyczące danych, raportów, aplikacji i automatyzacji | What they expect: Bardzo dobra znajomość SQL oraz umiejętność samodzielnego tworzenia i optymalizacji zapytań; Bardzo dobra znajomość Power BI, w tym Power Query, modelowania danych, tworzenia miar i projektowania dashboardów; Bardzo dobra znajomość Microsoft Excel, w szczególności pracy z dużymi zbiorami danych i narzędzi analitycznych | What they offer: Dostęp do platformy szkoleniowej, gdzie z pewnością znajdziesz coś dla siebie; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy); dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Automatyzacja cyklicznych analiz, raportów, kontroli jakości danych i czynności manualnych; Tworzenie modeli danych i mechanizmów monitorowania dla procesów inwestycyjnych, kosztowych i jakościowych; Przekładanie potrzeb biznesowych na wymagania dotyczące danych, raportów, aplikacji i automatyzacji | What they expect: Wykształcenie wyższe informatyczne, techniczne, matematyczne, ekonomiczne, analityczne lub pokrewne; Bardzo dobra znajomość SQL oraz umiejętność samodzielnego tworzenia i optymalizacji zapytań; Bardzo dobra znajomość Power BI, w tym Power Query, modelowania danych, tworzenia miar i projektowania dashboardów; Bardzo dobra znajomość Microsoft Excel, w szczególności pracy z dużymi zbiorami danych i narzędzi analitycznych | What they offer: Dostęp do platformy szkoleniowej, gdzie z pewnością znajdziesz coś dla siebie; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie, liczne oferty pracownicze dedykowane pracownikom Grupy); dofinansowanie szkoleń i kursów",
       "summary_tasks": [
         "Automatyzacja cyklicznych analiz, raportów, kontroli jakości danych i czynności manualnych",
         "Tworzenie modeli danych i mechanizmów monitorowania dla procesów inwestycyjnych, kosztowych i jakościowych",
         "Przekładanie potrzeb biznesowych na wymagania dotyczące danych, raportów, aplikacji i automatyzacji"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe informatyczne, techniczne, matematyczne, ekonomiczne, analityczne lub pokrewne",
         "Bardzo dobra znajomość SQL oraz umiejętność samodzielnego tworzenia i optymalizacji zapytań",
         "Bardzo dobra znajomość Power BI, w tym Power Query, modelowania danych, tworzenia miar i projektowania dashboardów",
         "Bardzo dobra znajomość Microsoft Excel, w szczególności pracy z dużymi zbiorami danych i narzędzi analitycznych"
@@ -4651,13 +4621,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 2,
-      "summary": "What you'll do: planowanie, realizowanie i koordynowanie kampanii marketingowych spektakli wystawianych w całej Polsce; współpraca z zespołem graficznym i działem sprzedaży przy realizacji działań wspierających sprzedaż; nawiązywanie i utrzymywanie partnerskich współprac marketingowych z lokalnymi mediami w różnych kanałach | What they expect: minimum 1 - 2 lata doświadczenia na podobnym stanowisku - warunek konieczny; umiejętność tworzenia strategii marketingowych oraz planowania działań promocyjnych; znajomość narzędzi analitycznych i reklamowych, w szczególności Meta, Google Ads i TikTok Ads | What they offer: pracę w największym teatrze prywatnym w Polsce; realny wpływ na komunikację największej sceny teatralnej w kraju; udział w wydarzeniach teatralnych, premierach, przedpremierach i codziennym życiu kulturalnym Teatru",
+      "summary": "What you'll do: planowanie, realizowanie i koordynowanie kampanii marketingowych spektakli wystawianych w całej Polsce; współpraca z zespołem graficznym i działem sprzedaży przy realizacji działań wspierających sprzedaż; nawiązywanie i utrzymywanie partnerskich współprac marketingowych z lokalnymi mediami w różnych kanałach | What they expect: wykształcenie wyższe; minimum 1 - 2 lata doświadczenia na podobnym stanowisku - warunek konieczny; umiejętność tworzenia strategii marketingowych oraz planowania działań promocyjnych; znajomość narzędzi analitycznych i reklamowych, w szczególności Meta, Google Ads i TikTok Ads | What they offer: pracę w największym teatrze prywatnym w Polsce; realny wpływ na komunikację największej sceny teatralnej w kraju; udział w wydarzeniach teatralnych, premierach, przedpremierach i codziennym życiu kulturalnym Teatru",
       "summary_tasks": [
         "planowanie, realizowanie i koordynowanie kampanii marketingowych spektakli wystawianych w całej Polsce",
         "współpraca z zespołem graficznym i działem sprzedaży przy realizacji działań wspierających sprzedaż",
         "nawiązywanie i utrzymywanie partnerskich współprac marketingowych z lokalnymi mediami w różnych kanałach"
       ],
       "summary_expectations": [
+        "wykształcenie wyższe",
         "minimum 1 - 2 lata doświadczenia na podobnym stanowisku - warunek konieczny",
         "umiejętność tworzenia strategii marketingowych oraz planowania działań promocyjnych",
         "znajomość narzędzi analitycznych i reklamowych, w szczególności Meta, Google Ads i TikTok Ads"
@@ -4758,9 +4729,10 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 0,
-      "summary": "What they expect: Doświadczenie w projektach związanych z rozwojem systemów informatycznych; Znajomość relacyjnych baz danych oraz języka SQL; Praktyczna znajomość języka Java, w tym umiejętność tworzenia i analizy kodu, aplikacji | What they offer: Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju; Dostęp do platformy szkoleniowej; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie i inne)",
+      "summary": "What they expect: Wykształcenie wyższe informatyczne, telekomunikacyjne lub pokrewne; Doświadczenie w projektach związanych z rozwojem systemów informatycznych; Znajomość relacyjnych baz danych oraz języka SQL; Praktyczna znajomość języka Java, w tym umiejętność tworzenia i analizy kodu, aplikacji | What they offer: Pracę na odpowiedzialnym stanowisku w największej grupie kapitałowej w kraju; Dostęp do platformy szkoleniowej; Pakiet benefitów (karta Multisport, opieka medyczna w LuxMed, ubezpieczenie na życie i inne)",
       "summary_tasks": [],
       "summary_expectations": [
+        "Wykształcenie wyższe informatyczne, telekomunikacyjne lub pokrewne",
         "Doświadczenie w projektach związanych z rozwojem systemów informatycznych",
         "Znajomość relacyjnych baz danych oraz języka SQL",
         "Praktyczna znajomość języka Java, w tym umiejętność tworzenia i analizy kodu, aplikacji"
@@ -5247,13 +5219,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 2,
-      "summary": "What you'll do: Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych; Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy; Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania | What they expect: 2-letnie doświadczenie w analizie danych; Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań; Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników | What they offer: Możliwość rozwoju i awansu; Premie i bonusy za wyniki; dofinansowanie szkoleń i kursów",
+      "summary": "What you'll do: Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych; Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy; Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania | What they expect: Wykształcenie wyższe (np; 2-letnie doświadczenie w analizie danych; Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań; Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników | What they offer: Możliwość rozwoju i awansu; Premie i bonusy za wyniki; dofinansowanie szkoleń i kursów",
       "summary_tasks": [
         "Rozwój i utrzymanie bazy PostgreSQL – modyfikowanie struktury, optymalizacja zapytań, dbałość o jakość danych",
         "Automatyczne pobieranie dużych wolumenów danych z zewnętrznych źródeł i zasilanie nimi bazy",
         "Wykorzystywanie narzędzi AI do przyspieszania analiz, budowania modeli predykcyjnych oraz automatyzacji procesów i raportowania"
       ],
       "summary_expectations": [
+        "Wykształcenie wyższe (np",
         "2-letnie doświadczenie w analizie danych",
         "Zaawansowana znajomość SQL (preferowany PostgreSQL), w tym modyfikowanie struktury bazy i optymalizacja zapytań",
         "Praktyczne, codzienne wykorzystywanie AI wraz z umiejętnością krytycznej weryfikacji jego wyników"
@@ -5473,13 +5446,14 @@
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
       "experience_required_years": 2,
-      "summary": "What you'll do: Design, develop, and maintain software applications for diverse domains, including space-related projects (e.g., Payload Processors); Write clean, efficient, and well-documented code using Python and other relevant technologies; Participate in research and development initiatives related to space technologies, staying abreast of modern advancements | What they expect: Requirements (fundamental); 2+ years of relevant professional experience in Remote Sensing, Geomatics, Optics, Physics, or a related field; Equivalent relevant professional experience may be considered in lieu of a degree | What they offer: Work in a friendly, well-coordinated team of enthusiasts; Attractive salary and benefits package (e.g., private medical care, sports card); Opportunities for professional development and participation in innovative projects",
+      "summary": "What you'll do: Design, develop, and maintain software applications for diverse domains, including space-related projects (e.g., Payload Processors); Write clean, efficient, and well-documented code using Python and other relevant technologies; Participate in research and development initiatives related to space technologies, staying abreast of modern advancements | What they expect: Bachelor’s degree in a relevant field (e.g., Remote Sensing, Geomatics, Optics, Physics); Requirements (fundamental); 2+ years of relevant professional experience in Remote Sensing, Geomatics, Optics, Physics, or a related field; Equivalent relevant professional experience may be considered in lieu of a degree | What they offer: Work in a friendly, well-coordinated team of enthusiasts; Attractive salary and benefits package (e.g., private medical care, sports card); Opportunities for professional development and participation in innovative projects",
       "summary_tasks": [
         "Design, develop, and maintain software applications for diverse domains, including space-related projects (e.g., Payload Processors)",
         "Write clean, efficient, and well-documented code using Python and other relevant technologies",
         "Participate in research and development initiatives related to space technologies, staying abreast of modern advancements"
       ],
       "summary_expectations": [
+        "Bachelor’s degree in a relevant field (e.g., Remote Sensing, Geomatics, Optics, Physics)",
         "Requirements (fundamental)",
         "2+ years of relevant professional experience in Remote Sensing, Geomatics, Optics, Physics, or a related field",
         "Equivalent relevant professional experience may be considered in lieu of a degree"
