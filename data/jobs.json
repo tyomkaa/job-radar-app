@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T22:26:31.047992+00:00",
+    "generated_at": "2026-11-04T23:07:40.258666+00:00",
     "found": 6951,
-    "accepted": 81,
+    "accepted": 84,
     "filtered": {
-      "Too much experience required (3+ years)": 243,
-      "Too senior / management": 3123,
-      "Contract: B2B only or UoP not confirmed": 662,
-      "Location: not Warsaw and not remote": 639,
+      "Too much experience required (3+ years)": 246,
+      "Too senior / management": 3120,
+      "Contract: B2B only or UoP not confirmed": 661,
+      "Location: not Warsaw and not remote": 642,
       "Missing a required language": 31,
-      "Different profession than your CV": 935,
-      "Too weak a match with your CV": 20,
-      "Could not verify the vacancy page": 377,
-      "Other": 840
+      "Different profession than your CV": 936,
+      "Too weak a match with your CV": 21,
+      "Could not verify the vacancy page": 36,
+      "Other": 1174
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3149
+        "fetched": 3148
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -38,7 +38,7 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 134
+        "fetched": 135
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -128,7 +128,7 @@
       "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 81,
+      "feed_candidates": 84,
       "shortlisted": 1,
       "daily_review_only": 0,
       "focus_total": 31,
@@ -136,10 +136,10 @@
       "focus_stretch": 11,
       "recent_opportunities": 6,
       "recent_strict": 1,
-      "fresh_feed_candidates": 14,
+      "fresh_feed_candidates": 15,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 8,
+        "career_direction": 9,
         "mid_level": 1,
         "backend_tier": 3
       },
@@ -148,19 +148,19 @@
         "software_adjacent": 8,
         "automation": 13,
         "bridge": 4,
-        "other": 47,
+        "other": 50,
         "network": 4,
         "systems": 5
       },
-      "junior_title_candidates": 26,
-      "junior_excluded_by_direction": 13,
+      "junior_title_candidates": 28,
+      "junior_excluded_by_direction": 15,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
         "exploratory_only": 1,
         "ai_skip": 4,
-        "career_direction": 47,
+        "career_direction": 50,
         "remote_needs_confirmation": 1,
         "qualified": 1,
         "mid_level": 11,
@@ -172,15 +172,15 @@
       "used": 3,
       "limit": 20,
       "remaining": 17,
-      "checked_at_utc": "2026-11-04T22:26:38.097165+00:00"
+      "checked_at_utc": "2026-11-04T23:07:40.841336+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
-      "new": 1,
-      "new_daily": 1,
+      "new": 0,
+      "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 6,
+      "reused": 7,
       "unreviewed": 0,
       "fresh_total": 6,
       "fresh_reviewed": 1,
@@ -750,6 +750,59 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-29T07:56:16.155179+00:00"
+    },
+    {
+      "id": "7e747191525e5af9",
+      "title": "Oracle Cloud Junior Consultant",
+      "company": "Accenture",
+      "location": "Katowice, Łódź, Warszawa, Kraków, Szczecin, Wrocław",
+      "url": "https://justjoin.it/job-offer/accenture-oracle-cloud-junior-consultant-katowice-erp",
+      "apply_url": "https://www.accenture.com/pl-en/careers/jobdetails?id=14667597_en&title=Oracle+Cloud+Junior+Consultant",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-04T10:05:11.7263129Z",
+      "fit_score": 66,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 1,
+      "summary": "What you'll do: THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies; Stay up to date with emerging Automation technologies and best practices, enthusiastic about professional growth WHAT’S IN IT FOR YOU?; Continuous learning and development opportunities within a dynamic and forward-thinking environment | What they expect: Qualification HERE’S WHAT YOU’LL NEED University degree in Computer Science or a related field; THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies; Work on innovative projects that encourage constant progress and skill enhancement; Minimum of 1 year of experience in IT | What they offer: and development opportunities within a dynamic and forward-thinking environment; Flexible, hybrid work arrangement; Private medical care and life insurance",
+      "summary_tasks": [
+        "THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies",
+        "Stay up to date with emerging Automation technologies and best practices, enthusiastic about professional growth WHAT’S IN IT FOR YOU?",
+        "Continuous learning and development opportunities within a dynamic and forward-thinking environment"
+      ],
+      "summary_expectations": [
+        "Qualification HERE’S WHAT YOU’LL NEED University degree in Computer Science or a related field",
+        "THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies",
+        "Work on innovative projects that encourage constant progress and skill enhancement",
+        "Minimum of 1 year of experience in IT"
+      ],
+      "summary_offers": [
+        "and development opportunities within a dynamic and forward-thinking environment",
+        "Flexible, hybrid work arrangement",
+        "Private medical care and life insurance"
+      ],
+      "required_skills": [
+        "Oracle",
+        "AI Agents",
+        "OIC",
+        "Analytical Thinking"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: automation"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
       "id": "8b8a8fc6e71dac95",
@@ -1332,6 +1385,51 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
+    },
+    {
+      "id": "f7185f8d0799ee41",
+      "title": "Młodszy Informatyk (k/m)",
+      "company": "\"WARS\" S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-informatyk-k-m-warszawa-aleje-jerozolimskie-56c,oferta,1005181375",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-26T13:44:18.417Z",
+      "fit_score": 62,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Prowadzenie ewidencji sprzętu IT; Tworzenie i aktualizowanie dokumentacji technicznej systemów; Współpraca z zespołem IT przy realizacji bieżących zadań i wdrażaniu nowych rozwiązań | What they expect: Znajomość zagadnień związanych z budową i funkcjonowaniem sieci informatycznych, w tym DNS i DHCP; Znajomość systemów i narzędzi, takich jak Active Directory, systemy pocztowe, Microsoft 365 oraz Microsoft Intune; Umiejętność przygotowywania analiz i raportów dotyczących funkcjonowania systemów informatycznych | What they offer: Możliwość rozwoju zawodowego i udziału w szkoleniach specjalistycznych; Atrakcyjny pakiet benefitów, w tym: dofinansowanie do biletów miesięcznych, ubezpieczenie grupowe, możliwość zakupu karty MultiSport; Za sprawnym funkcjonowaniem naszej organizacji stoi wiele zespołów i specjalistów, w tym obszar IT, który wspiera codzienną pracę firmy i rozwój jej infrastruktury technologicznej",
+      "summary_tasks": [
+        "Prowadzenie ewidencji sprzętu IT",
+        "Tworzenie i aktualizowanie dokumentacji technicznej systemów",
+        "Współpraca z zespołem IT przy realizacji bieżących zadań i wdrażaniu nowych rozwiązań"
+      ],
+      "summary_expectations": [
+        "Znajomość zagadnień związanych z budową i funkcjonowaniem sieci informatycznych, w tym DNS i DHCP",
+        "Znajomość systemów i narzędzi, takich jak Active Directory, systemy pocztowe, Microsoft 365 oraz Microsoft Intune",
+        "Umiejętność przygotowywania analiz i raportów dotyczących funkcjonowania systemów informatycznych"
+      ],
+      "summary_offers": [
+        "Możliwość rozwoju zawodowego i udziału w szkoleniach specjalistycznych",
+        "Atrakcyjny pakiet benefitów, w tym: dofinansowanie do biletów miesięcznych, ubezpieczenie grupowe, możliwość zakupu karty MultiSport",
+        "Za sprawnym funkcjonowaniem naszej organizacji stoi wiele zespołów i specjalistów, w tym obszar IT, który wspiera codzienną pracę firmy i rozwój jej infrastruktury technologicznej"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T23:07:40.258666+00:00"
     },
     {
       "id": "6cfdc128f0dfb9b0",
@@ -3601,6 +3699,65 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+    },
+    {
+      "id": "d16cd15bc9d3f854",
+      "title": "Associate Technical Consultant (Entry-Level)",
+      "company": "Veeva Systems",
+      "location": "Warszawa, Wrocław, Kraków",
+      "url": "https://justjoin.it/job-offer/veeva-systems-associate-technical-consultant-entry-level--warszawa-support",
+      "apply_url": "https://careers.veeva.com/job/6ff937b5-3d27-4401-8019-951d2ceaced6/associate-technical-consultant-entry-level-consulting-warsaw-poland/?lever-source=JustJoinIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-04T11:05:00.6234465Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform; Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients; Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team | What they expect: Bachelor's degree in engineering, computer science, or related field with strong technical background; Demonstrated experience in Object-Oriented Programming; Excellent technical storytelling skills; Strong critical thinking skills and proven track record of academic performance",
+      "summary_tasks": [
+        "Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform",
+        "Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients",
+        "Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team"
+      ],
+      "summary_expectations": [
+        "Bachelor's degree in engineering, computer science, or related field with strong technical background",
+        "Demonstrated experience in Object-Oriented Programming",
+        "Excellent technical storytelling skills",
+        "Strong critical thinking skills and proven track record of academic performance"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Excel",
+        "Time Management",
+        "Customer Support",
+        "Critical thinking",
+        "Programming",
+        "Salesforce",
+        "Technical consulting",
+        "Problem Solving"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: migration",
+          "Python & automation: workflow, integration",
+          "B2B / CRM operations: customer support",
+          "SQL / Excel / reporting: excel"
+        ],
+        "concerns": [
+          "Requires Salesforce",
+          "Mentions JAVA"
+        ],
+        "tier_reason": "Capped at 54: Requires Salesforce.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
       "id": "a4397004e06b99d8",
