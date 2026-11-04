@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T17:31:16.036529+00:00",
-    "found": 6958,
+    "generated_at": "2026-11-04T18:27:50.514234+00:00",
+    "found": 6955,
     "accepted": 108,
     "filtered": {
-      "Too much experience required (3+ years)": 249,
-      "Too senior / management": 3150,
-      "Contract: B2B only or UoP not confirmed": 653,
-      "Location: not Warsaw and not remote": 617,
+      "Too much experience required (3+ years)": 242,
+      "Too senior / management": 3126,
+      "Contract: B2B only or UoP not confirmed": 658,
+      "Location: not Warsaw and not remote": 635,
       "Missing a required language": 31,
-      "Different profession than your CV": 915,
+      "Different profession than your CV": 917,
       "Too weak a match with your CV": 14,
-      "Could not verify the vacancy page": 392,
-      "Other": 829
+      "Could not verify the vacancy page": 398,
+      "Other": 826
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3157
+        "fetched": 3154
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -188,7 +188,7 @@
       "used": 2,
       "limit": 20,
       "remaining": 18,
-      "checked_at_utc": "2026-11-04T17:31:16.749166+00:00"
+      "checked_at_utc": "2026-11-04T18:27:51.068681+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
@@ -2113,53 +2113,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
-      "id": "8c2d0c69daa145e0",
-      "title": "Młodszy Analityk AML/KYC (K/M)",
-      "company": "ASTEK Polska",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/astek-polska-mlodszy-analityk-aml-kyc-k-m--warszawa-bankowosc-analiza-ryzyko-364e7ec8",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "junior",
-      "salary": "5 500 - 7 500 PLN/mies.",
-      "published_at": "",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center; UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego | What they expect: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach; Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500 | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
-      "summary_tasks": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center",
-        "UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego"
-      ],
-      "summary_expectations": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach",
-        "Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500"
-      ],
-      "summary_offers": [
-        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
-        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
-        "Znasz kogoś, kogo zainteresuje ta oferta?"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
     },
     {
       "id": "7e7be59d16b1ab49",
@@ -4211,6 +4164,61 @@
       "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
+      "id": "262ac3c7b9d945f9",
+      "title": "Business Analyst",
+      "company": "Sollers Consulting",
+      "location": "Białystok, Gdańsk, Kraków, Lublin, Łódź, Poznań, Warszawa, Szczecin, Wrocław, Bydgoszcz, Katowice, Rzeszów",
+      "url": "https://justjoin.it/job-offer/sollers-consulting-business-analyst-bialystok-analytics",
+      "apply_url": "https://sollers.com/en/careers/business-analyst-3/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T17:35:10.5900212Z",
+      "fit_score": 59,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: from requirements analysis, through testing to creating new solutions; You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies; Conduct business analysis, define functional requirements, and test developed solutions and support UATs | What they expect: At least a bachelor’s degree, preferably in finance, business, economics, IT, or similar fields; analysis, through testing to creating new solutions – is done with passion and high-quality assurance; Conduct business analysis, define functional requirements, and test developed solutions and support UATs; About the requirements | What they offer: Benefits & Perks; Our team is the heart of our company; That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable",
+      "summary_tasks": [
+        "from requirements analysis, through testing to creating new solutions",
+        "You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies",
+        "Conduct business analysis, define functional requirements, and test developed solutions and support UATs"
+      ],
+      "summary_expectations": [
+        "At least a bachelor’s degree, preferably in finance, business, economics, IT, or similar fields",
+        "analysis, through testing to creating new solutions – is done with passion and high-quality assurance",
+        "Conduct business analysis, define functional requirements, and test developed solutions and support UATs",
+        "About the requirements"
+      ],
+      "summary_offers": [
+        "Benefits & Perks",
+        "Our team is the heart of our company",
+        "That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable"
+      ],
+      "required_skills": [
+        "Analiza Biznesowa",
+        "analiza",
+        "Zarządzanie zespołem"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-11T06:49:06.945680+00:00"
+    },
+    {
       "id": "94ff5f7396dfba88",
       "title": "Serwisant IT/Serwisantka IT",
       "company": "KAMSOFT S.A.",
@@ -4531,54 +4539,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-23T06:49:48.320742+00:00"
-    },
-    {
-      "id": "7b49727a5d36670d",
-      "title": "Specjalista ds. CRM",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/modivo-platform-specjalista-ds-crm-warszawa-marketing-ecommerce",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia; Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów; Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych | What they expect: Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku; Znajomość narzędzi marketing automation; mile widziana znajomość systemu Synerise",
-      "summary_tasks": [
-        "Realizacja kampanii CRM w kanałach e-mail, SMS, MMS i web push – przygotowywanie treści i projektów, koordynacja pozyskiwania niezbędnych materiałów, przekazywanie ich do wdrożenia",
-        "Planowanie i wdrażanie personalizacji komunikacji kierowanej do klientów",
-        "Współpraca przy planowaniu, wdrażaniu i optymalizacji scenariuszy automatycznych"
-      ],
-      "summary_expectations": [
-        "Jakie są nasze oczekiwania: Minimum 1–2 lata doświadczenia na podobnym stanowisku",
-        "Znajomość narzędzi marketing automation",
-        "mile widziana znajomość systemu Synerise"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: crm",
-          "Python & automation: automation"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 2 years",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 57: Asks for 2 years.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
     },
     {
       "id": "7d6474541ea9b439",
@@ -5073,59 +5033,6 @@
       "first_found_at": "2026-10-06T06:52:31.617475+00:00"
     },
     {
-      "id": "60b7211459d5691f",
-      "title": "Business & Data Analyst",
-      "company": "BALAGAN sp. z o.o.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/business-data-analyst-warszawa-stepinska-22-30,oferta,1005201343",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T13:53:44.957Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI; Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu; Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji | What they expect: Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG; Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych; Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju",
-      "summary_tasks": [
-        "Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI",
-        "Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu",
-        "Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG",
-        "Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych",
-        "Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych"
-      ],
-      "summary_offers": [
-        "dofinansowanie zajęć sportowych",
-        "prywatna opieka medyczna",
-        "Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel, analytics",
-          "Python & automation: skrypt"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires Power BI",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 54: Requires Power BI.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
-    },
-    {
       "id": "5400825e29c33fca",
       "title": "Specjalista / Specjalistka ds. Marketingu i PR",
       "company": "Teatr Capitol - Scena Capitol Sp.z. o.o.",
@@ -5232,6 +5139,59 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
+    },
+    {
+      "id": "60b7211459d5691f",
+      "title": "Business & Data Analyst",
+      "company": "BALAGAN sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/business-data-analyst-warszawa-stepinska-22-30,oferta,1005201343",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-04T13:53:44.957Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI; Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu; Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji | What they expect: Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG; Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych; Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju",
+      "summary_tasks": [
+        "Budowanie i utrzymywanie narzędzi decyzyjnych: modele OTB, rolling forecast, planowanie zakupów, zarządzanie zapasem, pricing, promocje — w Excelu i Power BI",
+        "Cotygodniowe i miesięczne raporty dla Head of Product & Merchandise Planning oraz Collection Manager — sprzedaż, stock, marża, ryzyka OOS, realizacja budżetu",
+        "Rekomendacje zakupowe: miesięczna rewizja portfela zamówień, baza estymacji do producentów, scenariusze domówień i anulacji"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w analityce sprzedaży, planowaniu zakupów lub kontrolingu — najlepiej w branży fashion, retail lub FMCG",
+        "Umiejętność samodzielnego budowania modeli planistycznych i forecastingowych",
+        "Analityczny sposób myślenia połączony z umiejętnością formułowania konkretnych rekomendacji biznesowych"
+      ],
+      "summary_offers": [
+        "dofinansowanie zajęć sportowych",
+        "prywatna opieka medyczna",
+        "Stawiamy na uczciwe warunki, życzliwą atmosferę i przestrzeń do rozwoju"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel, analytics",
+          "Python & automation: skrypt"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Power BI",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 54: Requires Power BI.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
     },
     {
       "id": "fbc681c3cd3581c5",
@@ -5347,6 +5307,53 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-11T06:49:06.945680+00:00"
+    },
+    {
+      "id": "5ba465aa33a0adfd",
+      "title": "Młodszy Analityk AML/KYC (K/M)",
+      "company": "ASTEK Polska",
+      "location": "Warszawa, Poland",
+      "url": "https://rocketjobs.pl/oferta-pracy/astek-polska-mlodszy-analityk-aml-kyc-k-m--warszawa-bankowosc-analiza-ryzyko",
+      "apply_url": "",
+      "source": "rocketjobs.pl",
+      "contract": "Unknown",
+      "work_mode": "Remote, Hybrid",
+      "seniority": "junior",
+      "salary": "40 - 60 PLN/godz.",
+      "published_at": "",
+      "fit_score": 53,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center; UZ Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego | What they expect: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach; Nr ref AO24616 Wymagane umiejętności AML KYC Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 40 | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
+      "summary_tasks": [
+        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
+        "Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center",
+        "UZ Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego"
+      ],
+      "summary_expectations": [
+        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
+        "bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach",
+        "Nr ref AO24616 Wymagane umiejętności AML KYC Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 40"
+      ],
+      "summary_offers": [
+        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
+        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
+        "Znasz kogoś, kogo zainteresuje ta oferta?"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Contract not confirmed yet"
+        ],
+        "tier_reason": "Capped at 69: Contract not confirmed yet.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
     },
     {
       "id": "4c6095fe530f8599",
