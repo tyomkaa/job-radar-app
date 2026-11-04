@@ -21,3 +21,4 @@ jobs:
           node tests/compact-filters-integration.mjs
           node tests/disputed-ai-skip-integration.mjs
           node tests/daily-feed-revision-integration.mjs
+          node tests/daily-ai-conflict-check-integration.mjs
