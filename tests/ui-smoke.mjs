@@ -69,7 +69,9 @@ assert(focus.includes("aiReviewFor(job)?.verdict!=='SKIP'"),'AI SKIP still visib
 assert(daily.includes('daily_diagnostics'),'Reason breakdown for shortlist missing');
 // Prevent misleading "one remaining of three" and double-counted AI.
 assert(daily.includes('function dailySelectionProgress()'),'Daily must count local applied/dismissed/AI SKIP');
-assert(daily.includes("' to review · '"),'Visible Daily progress wording missing');
+assert(daily.includes("' ready to review · '") &&
+       daily.includes("' require manual CHECK · '"),
+       'Daily must distinguish ready candidates from AI career disputes');
 assert(daily.includes('newly found today'),'Fresh vs carryover distinction missing');
 assert(daily.includes('previous verdicts reused across all vacancies'),'AI reuse explanation missing');
 assert(!daily.includes("remaining of '+total+' today"),'Confusing old Daily wording retained');
