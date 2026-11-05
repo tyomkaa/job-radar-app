@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-05T10:48:53.590930+00:00",
-    "found": 6943,
-    "accepted": 76,
+    "generated_at": "2026-11-05T14:19:33.310514+00:00",
+    "found": 6996,
+    "accepted": 74,
     "filtered": {
-      "Too much experience required (3+ years)": 220,
-      "Too senior / management": 3137,
-      "Contract: B2B only or UoP not confirmed": 705,
-      "Location: not Warsaw and not remote": 610,
-      "Missing a required language": 36,
-      "Different profession than your CV": 908,
-      "Too weak a match with your CV": 36,
-      "Could not verify the vacancy page": 401,
-      "Other": 814
+      "Too much experience required (3+ years)": 210,
+      "Too senior / management": 3269,
+      "Contract: B2B only or UoP not confirmed": 613,
+      "Location: not Warsaw and not remote": 598,
+      "Missing a required language": 34,
+      "Different profession than your CV": 929,
+      "Too weak a match with your CV": 30,
+      "Could not verify the vacancy page": 424,
+      "Other": 815
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3266
+        "fetched": 3293
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3142
+        "fetched": 3183
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,7 +34,7 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 56
+        "fetched": 50
       },
       "greenhouse:boxinc": {
         "status": "ok",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 680
+        "fetched": 686
       },
       "lever:adlook": {
         "status": "ok",
@@ -58,7 +58,7 @@
       },
       "lever:Civitta": {
         "status": "ok",
-        "fetched": 79
+        "fetched": 78
       }
     },
     "version": 1,
@@ -80,6 +80,7 @@
       "f87fe97c17e0414f",
       "345b73f850f5eb5a",
       "e48b5ba58039e515",
+      "157ec798a5eecd39",
       "de7ce96492d15e28",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
@@ -123,39 +124,39 @@
       "7e7be59d16b1ab49"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 76,
+      "feed_candidates": 74,
       "shortlisted": 2,
       "daily_review_only": 0,
-      "focus_total": 29,
+      "focus_total": 30,
       "ai_disputed_focus": 2,
       "focus_stretch": 9,
       "recent_opportunities": 4,
       "recent_strict": 1,
-      "fresh_feed_candidates": 13,
+      "fresh_feed_candidates": 14,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 9,
+        "career_direction": 10,
         "mid_level": 1,
         "backend_tier": 1
       },
       "automation": 0,
       "direction_counts": {
-        "software_adjacent": 6,
+        "software_adjacent": 7,
         "automation": 13,
         "bridge": 4,
-        "other": 44,
+        "other": 41,
         "network": 3,
         "systems": 6
       },
-      "junior_title_candidates": 27,
-      "junior_excluded_by_direction": 14,
+      "junior_title_candidates": 24,
+      "junior_excluded_by_direction": 11,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
-        "exploratory_only": 1,
+        "exploratory_only": 2,
         "ai_skip": 4,
-        "career_direction": 44,
+        "career_direction": 41,
         "remote_needs_confirmation": 1,
         "qualified": 2,
         "mid_level": 10,
@@ -167,7 +168,7 @@
       "used": 0,
       "limit": 20,
       "remaining": 20,
-      "checked_at_utc": "2026-11-05T10:48:54.322879+00:00"
+      "checked_at_utc": "2026-11-05T14:19:34.217493+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
@@ -745,59 +746,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-29T07:56:16.155179+00:00"
-    },
-    {
-      "id": "7e747191525e5af9",
-      "title": "Oracle Cloud Junior Consultant",
-      "company": "Accenture",
-      "location": "Katowice, Łódź, Warszawa, Kraków, Szczecin, Wrocław",
-      "url": "https://justjoin.it/job-offer/accenture-oracle-cloud-junior-consultant-katowice-erp",
-      "apply_url": "https://www.accenture.com/pl-en/careers/jobdetails?id=14667597_en&title=Oracle+Cloud+Junior+Consultant",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-04T10:05:11.726312Z",
-      "fit_score": 66,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies; Stay up to date with emerging Automation technologies and best practices, enthusiastic about professional growth WHAT’S IN IT FOR YOU?; Continuous learning and development opportunities within a dynamic and forward-thinking environment | What they expect: Qualification HERE’S WHAT YOU’LL NEED University degree in Computer Science or a related field; THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies; Work on innovative projects that encourage constant progress and skill enhancement; Minimum of 1 year of experience in IT | What they offer: and development opportunities within a dynamic and forward-thinking environment; Flexible, hybrid work arrangement; Private medical care and life insurance",
-      "summary_tasks": [
-        "THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies",
-        "Stay up to date with emerging Automation technologies and best practices, enthusiastic about professional growth WHAT’S IN IT FOR YOU?",
-        "Continuous learning and development opportunities within a dynamic and forward-thinking environment"
-      ],
-      "summary_expectations": [
-        "Qualification HERE’S WHAT YOU’LL NEED University degree in Computer Science or a related field",
-        "THE WORK Proactive in skill enhancement , design and implement AI and Automation solutions for clients using Oracle cloud technologies",
-        "Work on innovative projects that encourage constant progress and skill enhancement",
-        "Minimum of 1 year of experience in IT"
-      ],
-      "summary_offers": [
-        "and development opportunities within a dynamic and forward-thinking environment",
-        "Flexible, hybrid work arrangement",
-        "Private medical care and life insurance"
-      ],
-      "required_skills": [
-        "Oracle",
-        "AI Agents",
-        "OIC",
-        "Analytical Thinking"
-      ],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Python & automation: automation"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
       "id": "8b8a8fc6e71dac95",
@@ -1444,56 +1392,6 @@
       "ai_review_fingerprint": "6f619e2dee51332dbd599ed3"
     },
     {
-      "id": "6cfdc128f0dfb9b0",
-      "title": "Junior Growth Analyst",
-      "company": "CANAL+ Polska S.A.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/canal-polska-s-a--junior-growth-analyst-warszawa-analytics",
-      "apply_url": "https://joinus.canalplus.com/job-invite/12439/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-04T14:05:12.230538Z",
-      "fit_score": 62,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Do zespołu Digital Growth szukamy osobę na stanowisko: Junior Growth Analyst Lubisz odkrywać, co naprawdę wpływa na decyzje zakupowe użytkowników?; Dołączając do nas, będziesz mieć realny wpływ na rozwój jednej z najpopularniejszych platform streamingowych w Polsce | What they expect: roku doświadczenia na podobnym stanowisku; Excel, Amplitude, czy GA4) oraz narzędzi do testów A/B, mile widziana znajomość podstaw SQL; otwartości, ciekawości oraz naturalnej potrzeby zadawania pytań i szukania odpowiedzi w danych; samodzielności i | What they offer: możliwość rozwoju i awansu w ramach struktur CANAL+; bogaty pakiet benefitów, m.in; prywatną opiekę medyczną, pakiet Multisport, dostęp do oferty CANAL+, sesje masażu i zajęcia sportowe w biurze: joga, pilates i turnieje ping-ponga 🏓",
-      "summary_tasks": [
-        "Do zespołu Digital Growth szukamy osobę na stanowisko: Junior Growth Analyst Lubisz odkrywać, co naprawdę wpływa na decyzje zakupowe użytkowników?",
-        "Dołączając do nas, będziesz mieć realny wpływ na rozwój jednej z najpopularniejszych platform streamingowych w Polsce"
-      ],
-      "summary_expectations": [
-        "roku doświadczenia na podobnym stanowisku",
-        "Excel, Amplitude, czy GA4) oraz narzędzi do testów A/B, mile widziana znajomość podstaw SQL; otwartości, ciekawości oraz naturalnej potrzeby zadawania pytań i szukania odpowiedzi w danych; samodzielności i"
-      ],
-      "summary_offers": [
-        "możliwość rozwoju i awansu w ramach struktur CANAL+",
-        "bogaty pakiet benefitów, m.in",
-        "prywatną opiekę medyczną, pakiet Multisport, dostęp do oferty CANAL+, sesje masażu i zajęcia sportowe w biurze: joga, pilates i turnieje ping-ponga 🏓"
-      ],
-      "required_skills": [
-        "Testy A/B",
-        "Analiza Biznesowa"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, excel"
-        ],
-        "concerns": [
-          "Asks for 1 year; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
-    },
-    {
       "id": "3c7b4570180cb025",
       "title": "Python Engineer",
       "company": "BackDoor Systems",
@@ -1550,6 +1448,66 @@
       "first_found_at": "2026-11-04T17:31:16.036529+00:00"
     },
     {
+      "id": "a86932282dd7319f",
+      "title": "Backend Developer (M/F/D)",
+      "company": "DSV",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/dsv-backend-developer-m-f-d--warszawa-java",
+      "apply_url": "https://jobs.dsv.com/job/Warsaw-Backend-Developer-%28MFD%29-Maso-02-677/1417155733/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T11:05:12.7676325Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Design, develop, and maintain backend applications supporting customs and logistics processes; Develop and maintain REST APIs and event-driven solutions; Participate in the design and implementation of cloud-based solutions | What they expect: Experience in backend development using Kotlin; Experience with system integrations and API-based communication; Knowledge of cloud technologies and modern software architecture principles | What they offer: Training and development programs, as well as access to an e-learning platform; Onboarding program with the support of a dedicated Buddy; Benefits",
+      "summary_tasks": [
+        "Design, develop, and maintain backend applications supporting customs and logistics processes",
+        "Develop and maintain REST APIs and event-driven solutions",
+        "Participate in the design and implementation of cloud-based solutions"
+      ],
+      "summary_expectations": [
+        "Experience in backend development using Kotlin",
+        "Experience with system integrations and API-based communication",
+        "Knowledge of cloud technologies and modern software architecture principles"
+      ],
+      "summary_offers": [
+        "Training and development programs, as well as access to an e-learning platform",
+        "Onboarding program with the support of a dedicated Buddy",
+        "Benefits"
+      ],
+      "required_skills": [
+        "Kotlin",
+        "SQL",
+        "API",
+        "Cloud",
+        "Git"
+      ],
+      "fit_notes": {
+        "direction": "Junior Software Development (stretch)",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: api, integration, rest api",
+          "Linux / Git: git",
+          "Web platform (Supabase, PostgreSQL, WordPress): rest api",
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-22T06:54:54.357396+00:00"
+    },
+    {
       "id": "46b33a126a6891ed",
       "title": "Administrator Sieci",
       "company": "Axabee",
@@ -1594,63 +1552,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-08T06:51:19.640855+00:00"
-    },
-    {
-      "id": "e52a4995c93bc77c",
-      "title": "Wordpress Web Developer",
-      "company": "COPUZ Sp. z o.o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/copuz-sp-z-o-o--wordpress-web-developer-warszawa-php",
-      "apply_url": "",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T12:05:11.012809Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: 🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?; Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe; 🤖 Praktyczną pracę z AI i nowymi technologiami Poznasz narzędzia usprawniające research, planowanie, tworzenie i analizowanie komunikacji | What they expect: doświadczenie w komercyjnych projektach (min; dobra znajomość WordPressa (motywy, ACF, hooks/filters, security); praktyczna znajomość kreatorów stron (np | What they offer: Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy; Czytelną perspektywę rozwoju; Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych",
-      "summary_tasks": [
-        "🚀 Dołącz do COPUZ jako WordPress Web Developer/ka WordPress to dla Ciebie coś więcej niż instalacja motywu?",
-        "Twoje zadania tworzenie stron WordPress na podstawie projektów Figma/Adobe",
-        "🤖 Praktyczną pracę z AI i nowymi technologiami Poznasz narzędzia usprawniające research, planowanie, tworzenie i analizowanie komunikacji"
-      ],
-      "summary_expectations": [
-        "doświadczenie w komercyjnych projektach (min",
-        "dobra znajomość WordPressa (motywy, ACF, hooks/filters, security)",
-        "praktyczna znajomość kreatorów stron (np"
-      ],
-      "summary_offers": [
-        "Podczas Rozwojowych Spotkań Czwartkowych dzielimy się wiedzą i testujemy nowe rozwiązania - najczęściej przy pizzy",
-        "Czytelną perspektywę rozwoju",
-        "Oferujemy spotkania rozwojowe, udział w szkoleniach, warsztatach i konferencjach branżowych"
-      ],
-      "required_skills": [
-        "PHP",
-        "WordPress",
-        "HTML",
-        "MySQL",
-        "JS",
-        "CSS"
-      ],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "Web platform (Supabase, PostgreSQL, WordPress): html, css, wordpress"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-10T16:33:22.054709+00:00"
     },
     {
       "id": "c77453e702de8a83",
@@ -2260,6 +2161,57 @@
       "first_found_at": "2026-11-01T07:54:03.766537+00:00"
     },
     {
+      "id": "20d42951bfc0c886",
+      "title": "Warranty Operations Specialist",
+      "company": "Husqvarna Shared Service Center",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-22T10:46:30.36Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
+      "summary_tasks": [
+        "Support customer type and warranty entitlement validation",
+        "Support product replacement administration",
+        "Support the introduction of new warranty processes, tools and automation"
+      ],
+      "summary_expectations": [
+        "We are looking for someone who",
+        "Is structured, accurate and comfortable working with details",
+        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
+      ],
+      "summary_offers": [
+        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
+        "Hybrid working model – 3 days per week from the office",
+        "remote work opportunities"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations",
+          "Python & automation: automation"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
+    },
+    {
       "id": "caa4b788b9769896",
       "title": "Warehouse Operations Specialist",
       "company": "NOMAGIC sp. z o.o.",
@@ -2359,57 +2311,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
-      "id": "20d42951bfc0c886",
-      "title": "Warranty Operations Specialist",
-      "company": "Husqvarna Shared Service Center",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-22T10:46:30.36Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
-      "summary_tasks": [
-        "Support customer type and warranty entitlement validation",
-        "Support product replacement administration",
-        "Support the introduction of new warranty processes, tools and automation"
-      ],
-      "summary_expectations": [
-        "We are looking for someone who",
-        "Is structured, accurate and comfortable working with details",
-        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
-      ],
-      "summary_offers": [
-        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
-        "Hybrid working model – 3 days per week from the office",
-        "remote work opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: operations",
-          "Python & automation: automation"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
     },
     {
       "id": "1cf08a4afa85f03f",
@@ -2566,49 +2467,107 @@
       "first_found_at": "2026-10-07T06:55:15.162358+00:00"
     },
     {
-      "id": "e43cc7aa98f328e2",
-      "title": "Inżynier Testów i Walidacji (Embedded Systems)",
-      "company": "Creotech Instruments S.A.",
-      "location": "Warszawa, Piaseczno",
-      "url": "https://justjoin.it/job-offer/creotech-instruments-s-a--inzynier-testow-i-walidacji-embedded-systems--warszawa-python",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5623da51d2e846e1a7d335a0937c034a",
+      "id": "6356f2dd7d556609",
+      "title": "Website Building Specialist (Europe)",
+      "company": "Leap Tools Inc.",
+      "location": "Wrocław, Bucharest, Prague, Vilnius, Kyiv",
+      "url": "https://justjoin.it/job-offer/leap-tools-inc--website-building-specialist-europe--wroclaw-html",
+      "apply_url": "https://jobs.gem.com/leap-tools/am9icG9zdDqd3Wl6Fgpk4WalNMnor1Wx?utm_source=GemLink&utm_medium=c291cmNlOuv4HcSjgJnzy0A0_Km2dZw",
       "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T13:00:18.025901Z",
+      "published_at": "2026-11-05T13:30:13.5502199Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: weryfikacja współpracy elektroniki z oprogramowaniem wbudowanym; automatyzacja testów oraz pomiarów; umiejętność tworzenia skryptów testowych i automatyzacji pomiarów w Pythonie | What they expect: wykształcenie wyższe techniczne; znajomość elektroniki analogowej i cyfrowej; umiejętność czytania schematów, dokumentacji technicznej oraz specyfikacji układów scalonych; doświadczenie w pracy z mikrokontrolerami lub systemami embedded",
+      "summary": "What you'll do: Proven experience developing websites using WordPress; Experience with WordPress themes and plugins, including custom development and troubleshooting; Strong problem-solving skills and ability to troubleshoot issues effectively | What they expect: We’re looking for someone with: Proven experience developing websites using WordPress; Experience with WordPress themes and plugins, including custom development and troubleshooting; Solid knowledge of HTML, CSS, JavaScript,",
       "summary_tasks": [
-        "weryfikacja współpracy elektroniki z oprogramowaniem wbudowanym",
-        "automatyzacja testów oraz pomiarów",
-        "umiejętność tworzenia skryptów testowych i automatyzacji pomiarów w Pythonie"
+        "Proven experience developing websites using WordPress",
+        "Experience with WordPress themes and plugins, including custom development and troubleshooting",
+        "Strong problem-solving skills and ability to troubleshoot issues effectively"
       ],
       "summary_expectations": [
-        "wykształcenie wyższe techniczne",
-        "znajomość elektroniki analogowej i cyfrowej",
-        "umiejętność czytania schematów, dokumentacji technicznej oraz specyfikacji układów scalonych",
-        "doświadczenie w pracy z mikrokontrolerami lub systemami embedded"
+        "We’re looking for someone with: Proven experience developing websites using WordPress",
+        "Experience with WordPress themes and plugins, including custom development and troubleshooting",
+        "Solid knowledge of HTML, CSS, JavaScript,"
       ],
       "summary_offers": [],
       "required_skills": [
-        "Dokumentacja techniczna",
-        "wykształcenie wyższe techniczne",
-        "elektronika analogowa",
-        "Elektronika Cyfrowa",
-        "Linux",
-        "Python"
+        "WordPress",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Responsive Web Design",
+        "Figma",
+        "Adobe Creative Suite"
+      ],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "Web platform (Supabase, PostgreSQL, WordPress): html, css, wordpress"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00"
+    },
+    {
+      "id": "0b4e19f6fded4eec",
+      "title": "IT Operation Specialist",
+      "company": "Nordea",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/nordea-it-operation-specialist-warszawa-support",
+      "apply_url": "https://careers.nordea.com/job/Warszawa-IT-Operation-Specialist-02-460/1449417633/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T13:15:12.1441933Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: You will perform initial troubleshooting and handle incident tickets as effectively as possible; About this opportunity You’ll join Control Center, the new unit which monitors Nordea IT Services and ensures that all systems are running smoothly; As a part of Control Center, you will also perform troubleshooting on various systems and platforms | What they expect: Present excellent teamwork skills and communication/information sharing; Present excellent verbal and written communication skills; Your experience and background | What they offer: are driven by many different factors; For some, it’s to take their career to the next level; Hybrid working model",
+      "summary_tasks": [
+        "You will perform initial troubleshooting and handle incident tickets as effectively as possible",
+        "About this opportunity You’ll join Control Center, the new unit which monitors Nordea IT Services and ensures that all systems are running smoothly",
+        "As a part of Control Center, you will also perform troubleshooting on various systems and platforms"
+      ],
+      "summary_expectations": [
+        "Present excellent teamwork skills and communication/information sharing",
+        "Present excellent verbal and written communication skills",
+        "Your experience and background"
+      ],
+      "summary_offers": [
+        "are driven by many different factors",
+        "For some, it’s to take their career to the next level",
+        "Hybrid working model"
+      ],
+      "required_skills": [
+        "ITIL",
+        "ITSM",
+        "TCP/IP",
+        "Windows",
+        "Linux"
       ],
       "fit_notes": {
         "direction": "Systems / Application Administration",
         "evidence": "work",
         "matches": [
+          "Networking / telecom: tcp/ip, troubleshooting",
           "Linux / Git: linux",
-          "Python & automation: python, automatyzacja, skrypt"
+          "SQL / Excel / reporting: excel"
         ],
         "concerns": [
           "Listed as Mid/Regular level"
@@ -2617,169 +2576,123 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
     },
     {
-      "id": "94ff5f7396dfba88",
-      "title": "Serwisant IT/Serwisantka IT",
-      "company": "KAMSOFT S.A.",
+      "id": "0d4db06f7103494a",
+      "title": "System Engineer",
+      "company": "Red Global",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/kamsoft-s-a--serwisant-serwisantka-warszawa-support",
-      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/91458102fdc3407694a1d2c0d90f7660",
+      "url": "https://justjoin.it/job-offer/red-global-system-engineer-warszawa-admin-d003cf13",
+      "apply_url": "",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T12:50:09.1355239Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Manage, maintain, and enhance enterprise server operating systems and core platform services; Monitor OS health, performance, capacity, and security baseline metrics, taking proactive remediation actions; Install, configure, patch, and harden server environments in line with corporate compliance and security policies | What they expect: We are looking for a skilled Windows Systems Engineer; Skills Required: Solid, hands-on experience in enterprise Windows Server administration, OS hardening, patch management, and lifecycle support; Experience with scripting and automation (e.g., PowerShell) to streamline recurring administrative workflows",
+      "summary_tasks": [
+        "Manage, maintain, and enhance enterprise server operating systems and core platform services",
+        "Monitor OS health, performance, capacity, and security baseline metrics, taking proactive remediation actions",
+        "Install, configure, patch, and harden server environments in line with corporate compliance and security policies"
+      ],
+      "summary_expectations": [
+        "We are looking for a skilled Windows Systems Engineer",
+        "Skills Required: Solid, hands-on experience in enterprise Windows Server administration, OS hardening, patch management, and lifecycle support",
+        "Experience with scripting and automation (e.g., PowerShell) to streamline recurring administrative workflows"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Active Directory",
+        "Windows Server",
+        "Hybrid Cloud",
+        "Systems Engineering",
+        "System hardening",
+        "Power Shell"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: powershell",
+          "Python & automation: automation, scripting, workflow"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-05T14:19:33.310514+00:00"
+    },
+    {
+      "id": "f3ea9c378deb227a",
+      "title": "Specjalista ds. Rozwoju Architektury IT (K/M)",
+      "company": "POLSKIE PORTY LOTNICZE SPÓŁKA AKCYJNA",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/polskie-porty-lotnicze-spolka-akcyjna-specjalista-ds-rozwoju-architektury-it-k-m--warszawa-architecture",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=dabbd45b9d3542f6a3008305be07c656",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T11:40:05.859083Z",
+      "published_at": "2026-11-05T10:35:04.553512Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników; Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia | What they expect: Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows; Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych; Doświadczenie w pracy na podobnym stanowisku | What they offer: Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników; Okresowe szkolenia użytkowników",
+      "summary": "What you'll do: Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania?; 98/26 Kluczowe zadania, które dla Ciebie przygotowaliśmy: Projektowanie i wdrażanie nowych rozwiązań teleinformatycznych Instalacja i konfiguracja serwerów i systemów informatycznych w środowiskach R&D Administracja i monitoring infrastruktury on-prem/cloud środowisk R&D Tworzenie dokumentacji technicznej wdrażanych i rozwijanych systemów Diagnozowanie i usuwanie usterek; Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne | What they expect: Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne; preferowane w takich obszarach jak informatyka, cyberbezpieczeństwo, telekomunikacja, elektronika i pokrewne Minimum 4 letnie doświadczenie zawodowe w obszarze projektowania i wdrażania systemów IT Wiedzę w zakresie: uwierzytelniania, autoryzacji; Ukończenie testu kompetencyjnego jest integralną częścią naboru i warunkiem koniecznym do rozpatrzenia aplikacji w kolejnym etapie; W przypadku zaproszenia do kolejnego etapu rekrutacji (po spotkaniach rekrutacyjnych) wymagane będzie przedstawienie dokumentów poświadczających wykształcenie, kwalifikacje zawodowe | What they offer: Ubezpieczenie grupowe na preferencyjnych warunkach; Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina; Szukamy właśnie Ciebie, jeśli posiadasz",
       "summary_tasks": [
-        "Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników",
-        "Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia"
+        "Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania?",
+        "98/26 Kluczowe zadania, które dla Ciebie przygotowaliśmy: Projektowanie i wdrażanie nowych rozwiązań teleinformatycznych Instalacja i konfiguracja serwerów i systemów informatycznych w środowiskach R&D Administracja i monitoring infrastruktury on-prem/cloud środowisk R&D Tworzenie dokumentacji technicznej wdrażanych i rozwijanych systemów Diagnozowanie i usuwanie usterek",
+        "Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne"
       ],
       "summary_expectations": [
-        "Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows",
-        "Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych",
-        "Doświadczenie w pracy na podobnym stanowisku"
+        "Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne",
+        "preferowane w takich obszarach jak informatyka, cyberbezpieczeństwo, telekomunikacja, elektronika i pokrewne Minimum 4 letnie doświadczenie zawodowe w obszarze projektowania i wdrażania systemów IT Wiedzę w zakresie: uwierzytelniania, autoryzacji",
+        "Ukończenie testu kompetencyjnego jest integralną częścią naboru i warunkiem koniecznym do rozpatrzenia aplikacji w kolejnym etapie",
+        "W przypadku zaproszenia do kolejnego etapu rekrutacji (po spotkaniach rekrutacyjnych) wymagane będzie przedstawienie dokumentów poświadczających wykształcenie, kwalifikacje zawodowe"
       ],
       "summary_offers": [
-        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
-        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
-        "Okresowe szkolenia użytkowników"
+        "Ubezpieczenie grupowe na preferencyjnych warunkach",
+        "Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina",
+        "Szukamy właśnie Ciebie, jeśli posiadasz"
       ],
       "required_skills": [
-        "SQL",
+        "Architecture",
+        "Linux",
         "Windows",
-        "Windows Server",
-        "Helpdesk",
-        "IT Support"
+        "TCP/IP",
+        "VMware",
+        "Jenkins",
+        "Ansible",
+        "Git",
+        "Prometheus",
+        "Grafana"
       ],
       "fit_notes": {
         "direction": "Systems / Application Administration",
         "evidence": "work",
         "matches": [
-          "SQL / Excel / reporting: sql"
+          "Networking / telecom: tcp/ip",
+          "Linux / Git: linux, git"
         ],
         "concerns": [
-          "Listed as Mid/Regular level"
+          "Listed as Mid/Regular level",
+          "Mentions Ansible"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
-    },
-    {
-      "id": "220d69ace5a860db",
-      "title": "Business Analyst",
-      "company": "Edge One Solutions Sp. z o.o",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-business-analyst-warszawa-analytics-eb4f5c99",
-      "apply_url": "https://edge1s.recruitify.ai/job/ec04f95e-10a6-4bfa-b475-c1bd9b0203c5?sourceId=37",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T11:05:02.81467Z",
-      "fit_score": 59,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Doświadczenie zdobyte w ciągu ostatnich 3 lat w zakresie: tworzenia dokumentacji produktowej, w tym regulacji wewnętrznych; Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje | What they expect: mi regulacyjnymi oraz wymaganiami KIR; Uzgadnianie, analiza i walidacja wymagań biznesowych oraz systemowych; Zarządzanie wymaganiami i dokumentacją oraz dbanie o ich aktualność, jakość i spójność | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne (HearMe); Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
-      "summary_tasks": [
-        "Doświadczenie zdobyte w ciągu ostatnich 3 lat w zakresie: tworzenia dokumentacji produktowej, w tym regulacji wewnętrznych",
-        "Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje"
-      ],
-      "summary_expectations": [
-        "mi regulacyjnymi oraz wymaganiami KIR",
-        "Uzgadnianie, analiza i walidacja wymagań biznesowych oraz systemowych",
-        "Zarządzanie wymaganiami i dokumentacją oraz dbanie o ich aktualność, jakość i spójność"
-      ],
-      "summary_offers": [
-        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
-        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i wsparcie psychologiczne (HearMe)",
-        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
-      ],
-      "required_skills": [
-        "Business Analysis",
-        "SEPA",
-        "VoP",
-        "Analytics"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: analytics"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-15T14:50:40.349611+00:00"
-    },
-    {
-      "id": "deb283b852ac52dc",
-      "title": "Business Analyst | bankowość",
-      "company": "Edge One Solutions Sp. z o.o",
-      "location": "Warszawa, Katowice, Wrocław, Szczecin, Bydgoszcz",
-      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-business-analyst-bankowosc-warszawa-analytics",
-      "apply_url": "https://edge1s.recruitify.ai/job/8bf3e077-b617-4bcb-aeed-24986fa1d4d3?sourceId=37",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-04T10:30:11.870094Z",
-      "fit_score": 59,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Osoba na tym stanowisku będzie ściśle współpracować z biznesem, architektami oraz zespołami IT, wspierając rozwój nowoczesnych rozwiązań finansowych; 2 dni w tygodniu praca z jednego z biur Klienta (Warszawa, Katowice, Wrocław, Szczecin, Bydgoszcz, Łódź, Kraków, Kraków, Lublin, Gdańsk, Poznań) Realizację projektu ułatwi Ci Doświadczenie w analizie biznesowej zdobyte w sektorze bankowym, fintech lub usług finansowych Praktyczna umiejętność zbierania, analizowania i dokumentowania wymagań biznesowych Doświadczenie w tworzeniu User Stories, kryteriów akceptacji; Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje | What they expect: Doświadczenie w analizie biznesowej zdobyte w sektorze bankowym, fintech lub usług finansowych; Praktyczna umiejętność zbierania, analizowania i dokumentowania wymagań biznesowych; Doświadczenie w tworzeniu User Stories, kryteriów akceptacji oraz opisywaniu procesów biznesowych | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
-      "summary_tasks": [
-        "Osoba na tym stanowisku będzie ściśle współpracować z biznesem, architektami oraz zespołami IT, wspierając rozwój nowoczesnych rozwiązań finansowych",
-        "2 dni w tygodniu praca z jednego z biur Klienta (Warszawa, Katowice, Wrocław, Szczecin, Bydgoszcz, Łódź, Kraków, Kraków, Lublin, Gdańsk, Poznań) Realizację projektu ułatwi Ci Doświadczenie w analizie biznesowej zdobyte w sektorze bankowym, fintech lub usług finansowych Praktyczna umiejętność zbierania, analizowania i dokumentowania wymagań biznesowych Doświadczenie w tworzeniu User Stories, kryteriów akceptacji",
-        "Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w analizie biznesowej zdobyte w sektorze bankowym, fintech lub usług finansowych",
-        "Praktyczna umiejętność zbierania, analizowania i dokumentowania wymagań biznesowych",
-        "Doświadczenie w tworzeniu User Stories, kryteriów akceptacji oraz opisywaniu procesów biznesowych"
-      ],
-      "summary_offers": [
-        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
-        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
-        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
-      ],
-      "required_skills": [
-        "Analytics",
-        "Business Analysis",
-        "KYC"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: analytics"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-21T06:56:58.643128+00:00"
+      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
       "id": "7e7be59d16b1ab49",
@@ -3375,124 +3288,6 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
-      "id": "f33bc6d88142fe09",
-      "title": "Junior Analyst (M/F/D)",
-      "company": "DSV",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/dsv-junior-analyst-m-f-d--warszawa-analytics",
-      "apply_url": "https://jobs.dsv.com/job-invite/125175/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-04T14:05:14.325378Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python; Work closely with business analysts and other teams to design reports that truly meet client needs; Co-create and customize reporting tools that support decision-making | What they expect: Contribute to both internal and external projects, gaining broad exposure and experience; What we’re looking for: Strong analytical skills and a problem-solving mindset; Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; Sharing the costs of professional training & courses",
-      "summary_tasks": [
-        "Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python",
-        "Work closely with business analysts and other teams to design reports that truly meet client needs",
-        "Co-create and customize reporting tools that support decision-making"
-      ],
-      "summary_expectations": [
-        "Contribute to both internal and external projects, gaining broad exposure and experience",
-        "What we’re looking for: Strong analytical skills and a problem-solving mindset",
-        "Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation"
-      ],
-      "summary_offers": [
-        "Employment based on an employment contract, along with a comprehensive benefits package",
-        "Training and development programs, as well as access to an e-learning platform",
-        "Sharing the costs of professional training & courses"
-      ],
-      "required_skills": [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "MS Excel",
-        "VBA",
-        "Power Query",
-        "Power BI"
-      ],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: reporting, excel",
-          "Python & automation: python"
-        ],
-        "concerns": [
-          "Requires Power BI",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 54: Requires Power BI.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
-    },
-    {
-      "id": "d16cd15bc9d3f854",
-      "title": "Associate Technical Consultant (Entry-Level)",
-      "company": "Veeva Systems",
-      "location": "Warszawa, Wrocław, Kraków",
-      "url": "https://justjoin.it/job-offer/veeva-systems-associate-technical-consultant-entry-level--warszawa-support",
-      "apply_url": "https://careers.veeva.com/job/6ff937b5-3d27-4401-8019-951d2ceaced6/associate-technical-consultant-entry-level-consulting-warsaw-poland/?lever-source=JustJoinIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-04T11:05:00.6234465Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform; Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients; Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team | What they expect: Bachelor's degree in engineering, computer science, or related field with strong technical background; Demonstrated experience in Object-Oriented Programming; Excellent technical storytelling skills; Strong critical thinking skills and proven track record of academic performance",
-      "summary_tasks": [
-        "Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform",
-        "Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients",
-        "Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team"
-      ],
-      "summary_expectations": [
-        "Bachelor's degree in engineering, computer science, or related field with strong technical background",
-        "Demonstrated experience in Object-Oriented Programming",
-        "Excellent technical storytelling skills",
-        "Strong critical thinking skills and proven track record of academic performance"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "Excel",
-        "Time Management",
-        "Customer Support",
-        "Critical thinking",
-        "Programming",
-        "Salesforce",
-        "Technical consulting",
-        "Problem Solving"
-      ],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: migration",
-          "Python & automation: workflow, integration",
-          "B2B / CRM operations: customer support",
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [
-          "Requires Salesforce",
-          "Mentions JAVA"
-        ],
-        "tier_reason": "Capped at 54: Requires Salesforce.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00"
-    },
-    {
       "id": "a4397004e06b99d8",
       "title": "Analityk Danych i Automatyzacji Procesów (k/m)",
       "company": "Polkomtel Sp. z o.o.",
@@ -3598,6 +3393,66 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
+    },
+    {
+      "id": "fce6e79dc44efcbb",
+      "title": "Service Infrastructure Engineer",
+      "company": "Orange Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/orange-polska-service-infrastructure-engineer-warszawa-support",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=1c23cb1cf9a24f6e9921ecdbd0a89a1a",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T11:40:02.4028516Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Manage user accounts and access rights across the platform environments and the shared applications the business relies on (e.g; Support incident response coordination on P1 / P2 under the guidance of the Team Lead; keeping users informed and helping bring the right development and infrastructure teams together | What they expect: Basic knowledge of Linux systems, containerization (Docker), configuration management (Ansible, Puppet), and scripting (PowerShell); Bachelor's degree in IT or equivalent experience; Good written communication skills and ability to empathize with users | What they offer: Hybrid work model (2 days from the office / 3 days from home); Private medical care with PZU Zdrowie; Option to join group insurance on preferential terms",
+      "summary_tasks": [
+        "Manage user accounts and access rights across the platform environments and the shared applications the business relies on (e.g",
+        "Support incident response coordination on P1 / P2 under the guidance of the Team Lead",
+        "keeping users informed and helping bring the right development and infrastructure teams together"
+      ],
+      "summary_expectations": [
+        "Basic knowledge of Linux systems, containerization (Docker), configuration management (Ansible, Puppet), and scripting (PowerShell)",
+        "Bachelor's degree in IT or equivalent experience",
+        "Good written communication skills and ability to empathize with users"
+      ],
+      "summary_offers": [
+        "Hybrid work model (2 days from the office / 3 days from home)",
+        "Private medical care with PZU Zdrowie",
+        "Option to join group insurance on preferential terms"
+      ],
+      "required_skills": [
+        "Linux",
+        "Powershell",
+        "Active Directory",
+        "Docker",
+        "ServiceNow",
+        "Ansible"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: infrastructure, configuration",
+          "Linux / Git: linux, docker, powershell",
+          "Python & automation: scripting"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Requires ServiceNow",
+          "Mentions Ansible"
+        ],
+        "tier_reason": "Capped at 54: Requires ServiceNow.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
       "id": "5f59394ea99d6706",
@@ -4150,6 +4005,64 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-15T14:50:40.349611+00:00"
+    },
+    {
+      "id": "17cf677c1cf5c645",
+      "title": "Analityk Systemowy – Hurtownie Danych (m/k/os.)",
+      "company": "Asseco Poland S.A.",
+      "location": "Warszawa, Rzeszów, Łódź, Kraków",
+      "url": "https://justjoin.it/job-offer/asseco-poland-s-a--analityk-systemowy---hurtownie-danych-m-k-os--warszawa-analytics",
+      "apply_url": "https://praca.asseco.pl/Oferta/668ff7ff-72f1-4587-9ff2-a57e06620d9f",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T13:05:12.1133953Z",
+      "fit_score": 50,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Lokalizacja: Warszawa, Rzeszów, Łódź, Kraków Forma pracy: hybrydowa Rekrutacja: zdalna (rozmowa → spotkanie → decyzja) Czym będziesz się zajmować?; swoboda w rozmowie z klientem i prowadzeniu warsztatów; współpracę z doświadczonym zespołem analityków i developerów | What they expect: zbierać i doprecyzowywać wymagania biznesowe i systemowe; weryfikować, czy finalne rozwiązanie rzeczywiście odpowiada wymaganiom klienta; „Musimy dostosować system do nowych wymagań.” | What they offer: pracę hybrydową (3 dni w biurze/ 2 dni zdalnie); szkolenia i certyfikacje; premie za stand-by",
+      "summary_tasks": [
+        "Lokalizacja: Warszawa, Rzeszów, Łódź, Kraków Forma pracy: hybrydowa Rekrutacja: zdalna (rozmowa → spotkanie → decyzja) Czym będziesz się zajmować?",
+        "swoboda w rozmowie z klientem i prowadzeniu warsztatów",
+        "współpracę z doświadczonym zespołem analityków i developerów"
+      ],
+      "summary_expectations": [
+        "zbierać i doprecyzowywać wymagania biznesowe i systemowe",
+        "weryfikować, czy finalne rozwiązanie rzeczywiście odpowiada wymaganiom klienta",
+        "„Musimy dostosować system do nowych wymagań.”"
+      ],
+      "summary_offers": [
+        "pracę hybrydową (3 dni w biurze/ 2 dni zdalnie)",
+        "szkolenia i certyfikacje",
+        "premie za stand-by"
+      ],
+      "required_skills": [
+        "SQL",
+        "Oracle",
+        "PostgreSQL",
+        "ETL",
+        "ELT",
+        "Qlik Sense"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, postgresql"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Qlik"
+        ],
+        "tier_reason": "Capped at 54: Requires Qlik.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00"
     }
   ]
 }
