@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-04T23:43:49.761548+00:00",
-    "found": 6888,
+    "generated_at": "2026-11-05T07:41:13.670255+00:00",
+    "found": 6879,
     "accepted": 82,
     "filtered": {
-      "Too much experience required (3+ years)": 244,
-      "Too senior / management": 3094,
-      "Contract: B2B only or UoP not confirmed": 647,
-      "Location: not Warsaw and not remote": 639,
-      "Missing a required language": 31,
-      "Different profession than your CV": 939,
-      "Too weak a match with your CV": 22,
-      "Could not verify the vacancy page": 372,
-      "Other": 818
+      "Too much experience required (3+ years)": 233,
+      "Too senior / management": 3105,
+      "Contract: B2B only or UoP not confirmed": 664,
+      "Location: not Warsaw and not remote": 591,
+      "Missing a required language": 33,
+      "Different profession than your CV": 916,
+      "Too weak a match with your CV": 20,
+      "Could not verify the vacancy page": 426,
+      "Other": 809
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3263
+        "fetched": 3262
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3102
+        "fetched": 3107
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 682
+        "fetched": 680
       },
       "lever:adlook": {
         "status": "ok",
@@ -63,25 +63,23 @@
     },
     "version": 1,
     "daily_pick_ids": [
-      "f87fe97c17e0414f",
-      "f7185f8d0799ee41"
+      "f7185f8d0799ee41",
+      "f87fe97c17e0414f"
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
       "3c7b4570180cb025",
-      "144ff8302ff34730",
-      "f87fe97c17e0414f",
       "f7185f8d0799ee41",
-      "e48b5ba58039e515",
       "99c99c9bfb69d790",
-      "de7ce96492d15e28",
       "dc48607353d4d5b1",
-      "ea2729f768fade3a",
+      "144ff8302ff34730",
       "8fd28842829f3a77",
       "a6e9a05b7aade9e4",
-      "e85e13a9654ddd6c",
       "7b38941f5f064f03",
+      "f87fe97c17e0414f",
       "345b73f850f5eb5a",
+      "e48b5ba58039e515",
+      "de7ce96492d15e28",
       "8588187d8eb61d83",
       "171cf83e4979acf8",
       "22e5639c1c588154",
@@ -90,8 +88,11 @@
       "c77453e702de8a83",
       "a4397004e06b99d8",
       "b7a0fe5bc48e0b02",
+      "ea2729f768fade3a",
       "c87820f8e068db71",
+      "e85e13a9654ddd6c",
       "3054ae5fba88e446",
+      "46b33a126a6891ed",
       "ad9ed1fa7602a0f6",
       "054988ec9f909663",
       "087f74326a6dcf0e",
@@ -105,25 +106,20 @@
     ],
     "fresh_opportunity_ids": [
       "3c7b4570180cb025",
-      "144ff8302ff34730",
-      "f87fe97c17e0414f",
       "f7185f8d0799ee41",
-      "e48b5ba58039e515",
-      "99c99c9bfb69d790",
-      "de7ce96492d15e28"
+      "99c99c9bfb69d790"
     ],
     "fresh_daily_ids": [
-      "f87fe97c17e0414f",
       "f7185f8d0799ee41"
     ],
     "focus_stretch_ids": [
       "144ff8302ff34730",
       "e48b5ba58039e515",
       "de7ce96492d15e28",
-      "ea2729f768fade3a",
-      "e85e13a9654ddd6c",
       "a4397004e06b99d8",
       "b7a0fe5bc48e0b02",
+      "ea2729f768fade3a",
+      "e85e13a9654ddd6c",
       "087f74326a6dcf0e",
       "7e7be59d16b1ab49",
       "31eb236ed458dd4c"
@@ -132,59 +128,58 @@
       "feed_candidates": 82,
       "shortlisted": 2,
       "daily_review_only": 0,
-      "focus_total": 30,
+      "focus_total": 31,
       "ai_disputed_focus": 2,
       "focus_stretch": 10,
-      "recent_opportunities": 7,
-      "recent_strict": 2,
-      "fresh_feed_candidates": 15,
+      "recent_opportunities": 3,
+      "recent_strict": 1,
+      "fresh_feed_candidates": 9,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 8,
-        "mid_level": 1,
-        "backend_tier": 3
+        "career_direction": 6,
+        "mid_level": 1
       },
       "automation": 0,
       "direction_counts": {
         "software_adjacent": 7,
         "automation": 13,
         "bridge": 4,
-        "other": 49,
-        "network": 3,
+        "other": 48,
+        "network": 4,
         "systems": 6
       },
-      "junior_title_candidates": 27,
-      "junior_excluded_by_direction": 14,
+      "junior_title_candidates": 25,
+      "junior_excluded_by_direction": 12,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "hard_prerequisite_unverified": 2,
         "old_discovery_focus_only": 2,
         "exploratory_only": 1,
         "ai_skip": 4,
-        "career_direction": 49,
+        "career_direction": 48,
         "remote_needs_confirmation": 1,
         "qualified": 2,
-        "mid_level": 10,
+        "mid_level": 11,
         "backend_tier": 11
       }
     },
     "ai_budget": {
-      "date_utc": "2026-11-04",
-      "used": 4,
+      "date_utc": "2026-11-05",
+      "used": 0,
       "limit": 20,
-      "remaining": 16,
-      "checked_at_utc": "2026-11-04T23:43:57.476254+00:00"
+      "remaining": 20,
+      "checked_at_utc": "2026-11-05T07:41:14.150211+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
-      "new": 1,
-      "new_daily": 1,
+      "new": 0,
+      "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 7,
+      "reused": 8,
       "unreviewed": 0,
-      "fresh_total": 7,
-      "fresh_reviewed": 2,
+      "fresh_total": 3,
+      "fresh_reviewed": 1,
       "daily_total": 2,
       "daily_reviewed": 2,
       "feed_reviewed": 8
@@ -764,7 +759,7 @@
       "work_mode": "Hybrid",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-04T10:05:11.7263129Z",
+      "published_at": "2026-11-04T10:05:11.726312Z",
       "fit_score": 66,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -1032,56 +1027,6 @@
       "ai_review_fingerprint": "0565d27cf69acc1a33545d1b"
     },
     {
-      "id": "c41d693450133238",
-      "title": "Młodszy Specjalista / Młodsza Specjalistka ds. Produktu i Content Marketingu",
-      "company": "Grupa Bemo",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-produktu-i-content-marketingu-warszawa-szyszkowa-34,oferta,1005195783",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior, mid",
-      "salary": "",
-      "published_at": "2026-11-02T14:31:03.483Z",
-      "fit_score": 65,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie i redagowanie treści marketingowych, m.in; tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej; współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych | What they expect: doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych; lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści; umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób | What they offer: dofinansowanie zajęć sportowych; prywatna opieka medyczna; ubezpieczenie na życie",
-      "summary_tasks": [
-        "tworzenie i redagowanie treści marketingowych, m.in",
-        "tworzenie treści i prezentacji wspierających działania marketingowe oraz sprzedażowe sieci dealerskiej",
-        "współpraca przy przygotowywaniu materiałów szkoleniowych i szkoleń produktowych"
-      ],
-      "summary_expectations": [
-        "doświadczenie w tworzeniu treści marketingowych, produktowych lub reklamowych",
-        "lekkie pióro, bardzo dobra znajomość języka polskiego i umiejętność pisania językiem korzyści",
-        "umiejętność analizowania danych i specyfikacji technicznych oraz przedstawiania ich w przystępny sposób"
-      ],
-      "summary_offers": [
-        "dofinansowanie zajęć sportowych",
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: content"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 67: Ceiling for this direction.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "054988ec9f909663",
       "title": "Młodszy Administrator Systemów Biznesowych (k/m)",
       "company": "SPRAVIA Sp. z o.o.",
@@ -1341,53 +1286,6 @@
       "first_found_at": "2026-11-03T22:43:51.476175+00:00"
     },
     {
-      "id": "75260c9f4ce2a849",
-      "title": "Młodszy Specjalista ds. obróbki ofert i wprowadzania danych",
-      "company": "HESTIA PODOLAK sp.k.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-ds-obrobki-ofert-i-wprowadzania-danych-warszawa-polczynska-108,oferta,1005194753",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-02T11:28:23.03Z",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień; Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek; Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek | What they expect: Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF; Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych; Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem | What they offer: stabilne warunki zatrudnienia; kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start; wynagrodzenie zasadnicze i premię uznaniową",
-      "summary_tasks": [
-        "Obsługa korespondencji i zapytań klientów oraz wsparcie zespołu w monitorowaniu realizacji zamówień",
-        "Sprawdzanie próbek i towaru według ustalonych wytycznych: tworzenie listy produktów, porównywanie ze zdjęciami i opisami, odnotowywanie niezgodności oraz sprawdzanie poprawek",
-        "Wsparcie przy doborze asortymentu sezonowego oraz tworzenie i prowadzenie bazy danych produktów i próbek"
-      ],
-      "summary_expectations": [
-        "Praktyczna znajomość Excela: tworzenie i formatowanie tabel, podstawowe formuły i obliczenia cenowe, sortowanie, filtrowanie, wstawianie zdjęć i zapis do PDF",
-        "Sprawna obsługa poczty elektronicznej i dokumentów oraz umiejętność nauki nowych systemów komputerowych",
-        "Dobra organizacja pracy, odpowiedzialność i umiejętność współpracy z zespołem"
-      ],
-      "summary_offers": [
-        "stabilne warunki zatrudnienia",
-        "kompleksowe wdrożenie oraz wsparcie doświadczonego zespołu na start",
-        "wynagrodzenie zasadnicze i premię uznaniową"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T11:30:09.598434+00:00"
-    },
-    {
       "id": "f7185f8d0799ee41",
       "title": "Młodszy Informatyk (k/m)",
       "company": "\"WARS\" S.A.",
@@ -1556,6 +1454,52 @@
       "first_found_at": "2026-11-04T17:31:16.036529+00:00"
     },
     {
+      "id": "46b33a126a6891ed",
+      "title": "Administrator Sieci",
+      "company": "Axabee",
+      "location": "Opole, Wrocław",
+      "url": "https://justjoin.it/job-offer/axabee-administrator-sieci-opole-admin",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5b235187aac545868b401e8fb8f23eb4",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T06:00:01.3891536Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok | What they expect: Szkolenia i rozwój kompetencji",
+      "summary_tasks": [
+        "Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok"
+      ],
+      "summary_expectations": [
+        "Szkolenia i rozwój kompetencji"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Security",
+        "LAN",
+        "Wlan",
+        "VPN",
+        "Palo Alto",
+        "WAN"
+      ],
+      "fit_notes": {
+        "direction": "Network / NOC / Telecom",
+        "evidence": "work",
+        "matches": [],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Network & IT Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
       "id": "e52a4995c93bc77c",
       "title": "Wordpress Web Developer",
       "company": "COPUZ Sp. z o.o.",
@@ -1624,7 +1568,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T07:25:02.4173376Z",
+      "published_at": "2026-11-04T07:25:02.417337Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -2372,6 +2316,57 @@
       "first_found_at": "2026-11-04T11:30:09.598434+00:00"
     },
     {
+      "id": "20d42951bfc0c886",
+      "title": "Warranty Operations Specialist",
+      "company": "Husqvarna Shared Service Center",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-22T10:46:30.36Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
+      "summary_tasks": [
+        "Support customer type and warranty entitlement validation",
+        "Support product replacement administration",
+        "Support the introduction of new warranty processes, tools and automation"
+      ],
+      "summary_expectations": [
+        "We are looking for someone who",
+        "Is structured, accurate and comfortable working with details",
+        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
+      ],
+      "summary_offers": [
+        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
+        "Hybrid working model – 3 days per week from the office",
+        "remote work opportunities"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations",
+          "Python & automation: automation"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
+    },
+    {
       "id": "1cf08a4afa85f03f",
       "title": "Specjalista / Specjalistka ds. Operacji Tradingu",
       "company": "UNIMOT Energia i Gaz Sp. z o.o.",
@@ -2422,57 +2417,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-21T06:56:58.643128+00:00"
-    },
-    {
-      "id": "20d42951bfc0c886",
-      "title": "Warranty Operations Specialist",
-      "company": "Husqvarna Shared Service Center",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/warranty-operations-specialist-warszawa-burakowska-14,oferta,1005174557",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-22T10:46:30.36Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Support customer type and warranty entitlement validation; Support product replacement administration; Support the introduction of new warranty processes, tools and automation | What they expect: We are looking for someone who; Is structured, accurate and comfortable working with details; Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work | What they offer: A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products; Hybrid working model – 3 days per week from the office; remote work opportunities",
-      "summary_tasks": [
-        "Support customer type and warranty entitlement validation",
-        "Support product replacement administration",
-        "Support the introduction of new warranty processes, tools and automation"
-      ],
-      "summary_expectations": [
-        "We are looking for someone who",
-        "Is structured, accurate and comfortable working with details",
-        "Has experience in customer service, shared services, aftersales, claims, order administration or similar operational work"
-      ],
-      "summary_offers": [
-        "A unique package of social benefits, including MultiSport card, private medical care, group insurance, lunch card, discounts on Husqvarna products",
-        "Hybrid working model – 3 days per week from the office",
-        "remote work opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: operations",
-          "Python & automation: automation"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-23T06:49:48.320742+00:00"
     },
     {
       "id": "c87820f8e068db71",
@@ -2588,7 +2532,7 @@
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T13:00:18.0259019Z",
+      "published_at": "2026-11-04T13:00:18.025901Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -2642,7 +2586,7 @@
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T11:40:05.8590837Z",
+      "published_at": "2026-11-04T11:40:05.859083Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -2696,7 +2640,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T10:05:10.3465531Z",
+      "published_at": "2026-11-04T10:05:10.346553Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3460,7 +3404,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T08:40:13.0061321Z",
+      "published_at": "2026-11-04T08:40:13.006132Z",
       "fit_score": 55,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3566,7 +3510,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T10:05:08.8287718Z",
+      "published_at": "2026-11-04T10:05:08.828771Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3623,7 +3567,7 @@
       "work_mode": "Hybrid",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-04T14:05:14.3253784Z",
+      "published_at": "2026-11-04T14:05:14.325378Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3837,6 +3781,68 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
+      "id": "5f59394ea99d6706",
+      "title": "Data Analytics Engineer",
+      "company": "Procter & Gamble",
+      "location": "Warsaw",
+      "url": "https://justjoin.it/job-offer/procter-gamble-data-analytics-engineer-warsaw-data",
+      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/WARSAW-PLANT--GO/Data-Analytics-Engineer_R000150718-1",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T07:05:06.1180255Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories; Design and build enterprise‑grade Power BI reports and dashboards, aligned with internal UX/design standards and reusable components; Collaborate with Operations to define SLAs, monitoring, and validation points (data quality checks, reconciliation rules, alerting) | What they expect: Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories; Work with data engineers to translate semantic/model requirements into source data structures, data pipelines, and transformations; Several years of hands‑on experience delivering end‑to‑end Power BI solutions in a complex business environment | What they offer: Wide range of self-development possibilities (training and certifications paths); Competitive starting salary and benefits program (private health care, P&G stock, saving plans, sport cards); that combines the flexibility of remote work with the collaborative benefits of in-office engagement",
+      "summary_tasks": [
+        "Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories",
+        "Design and build enterprise‑grade Power BI reports and dashboards, aligned with internal UX/design standards and reusable components",
+        "Collaborate with Operations to define SLAs, monitoring, and validation points (data quality checks, reconciliation rules, alerting)"
+      ],
+      "summary_expectations": [
+        "Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories",
+        "Work with data engineers to translate semantic/model requirements into source data structures, data pipelines, and transformations",
+        "Several years of hands‑on experience delivering end‑to‑end Power BI solutions in a complex business environment"
+      ],
+      "summary_offers": [
+        "Wide range of self-development possibilities (training and certifications paths)",
+        "Competitive starting salary and benefits program (private health care, P&G stock, saving plans, sport cards)",
+        "that combines the flexibility of remote work with the collaborative benefits of in-office engagement"
+      ],
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Databricks",
+        "Power BI",
+        "Power Query",
+        "DAX",
+        "TMDL format"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, analytics, data quality",
+          "Python & automation: python, data pipeline",
+          "B2B / CRM operations: operations, stakeholder"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Power BI",
+          "Mentions Power Bi"
+        ],
+        "tier_reason": "Capped at 54: Requires Power BI.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
+    },
+    {
       "id": "fbc681c3cd3581c5",
       "title": "Data Analytics Engineer",
       "company": "Procter & Gamble",
@@ -3848,7 +3854,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T08:30:11.9267959Z",
+      "published_at": "2026-11-04T08:30:11.926795Z",
       "fit_score": 54,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -4300,7 +4306,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T10:05:08.9649663Z",
+      "published_at": "2026-11-04T10:05:08.964966Z",
       "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -4391,7 +4397,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T08:05:10.2847298Z",
+      "published_at": "2026-11-04T08:05:10.284729Z",
       "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -4449,7 +4455,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T07:05:07.3296386Z",
+      "published_at": "2026-11-04T07:05:07.329638Z",
       "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
