@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-05T14:19:33.310514+00:00",
-    "found": 6996,
+    "generated_at": "2026-11-05T19:24:29.006953+00:00",
+    "found": 7014,
     "accepted": 74,
     "filtered": {
-      "Too much experience required (3+ years)": 210,
-      "Too senior / management": 3269,
-      "Contract: B2B only or UoP not confirmed": 613,
-      "Location: not Warsaw and not remote": 598,
-      "Missing a required language": 34,
-      "Different profession than your CV": 929,
-      "Too weak a match with your CV": 30,
-      "Could not verify the vacancy page": 424,
-      "Other": 815
+      "Too much experience required (3+ years)": 224,
+      "Too senior / management": 3243,
+      "Contract: B2B only or UoP not confirmed": 634,
+      "Location: not Warsaw and not remote": 606,
+      "Missing a required language": 36,
+      "Different profession than your CV": 952,
+      "Too weak a match with your CV": 29,
+      "Could not verify the vacancy page": 374,
+      "Other": 842
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3293
+        "fetched": 3325
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3183
+        "fetched": 3188
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -38,11 +38,11 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 136
+        "fetched": 134
       },
       "greenhouse:psibufet": {
         "status": "ok",
-        "fetched": 28
+        "fetched": 29
       },
       "greenhouse:powerdot": {
         "status": "ok",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 686
+        "fetched": 691
       },
       "lever:adlook": {
         "status": "ok",
@@ -58,7 +58,7 @@
       },
       "lever:Civitta": {
         "status": "ok",
-        "fetched": 78
+        "fetched": 79
       }
     },
     "version": 1,
@@ -68,7 +68,7 @@
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
-      "3c7b4570180cb025",
+      "9b04d0ed698c41eb",
       "8f4c3da26e07c8b8",
       "f7185f8d0799ee41",
       "99c99c9bfb69d790",
@@ -92,7 +92,7 @@
       "ea2729f768fade3a",
       "c87820f8e068db71",
       "e85e13a9654ddd6c",
-      "46b33a126a6891ed",
+      "0cd976adf7f21e24",
       "ad9ed1fa7602a0f6",
       "054988ec9f909663",
       "087f74326a6dcf0e",
@@ -104,7 +104,7 @@
       "7b38941f5f064f03"
     ],
     "fresh_opportunity_ids": [
-      "3c7b4570180cb025",
+      "9b04d0ed698c41eb",
       "8f4c3da26e07c8b8",
       "f7185f8d0799ee41",
       "99c99c9bfb69d790"
@@ -132,34 +132,34 @@
       "focus_stretch": 9,
       "recent_opportunities": 4,
       "recent_strict": 1,
-      "fresh_feed_candidates": 14,
+      "fresh_feed_candidates": 15,
       "fresh_strict_rejection_reasons": {
         "hard_prerequisite_unverified": 1,
-        "career_direction": 10,
+        "career_direction": 11,
         "mid_level": 1,
         "backend_tier": 1
       },
       "automation": 0,
       "direction_counts": {
+        "network": 3,
         "software_adjacent": 7,
         "automation": 13,
         "bridge": 4,
         "other": 41,
-        "network": 3,
         "systems": 6
       },
       "junior_title_candidates": 24,
       "junior_excluded_by_direction": 11,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
+        "old_discovery_focus_only": 3,
         "hard_prerequisite_unverified": 2,
-        "old_discovery_focus_only": 2,
         "exploratory_only": 2,
         "ai_skip": 4,
         "career_direction": 41,
         "remote_needs_confirmation": 1,
         "qualified": 2,
-        "mid_level": 10,
+        "mid_level": 9,
         "backend_tier": 10
       }
     },
@@ -168,7 +168,7 @@
       "used": 0,
       "limit": 20,
       "remaining": 20,
-      "checked_at_utc": "2026-11-05T14:19:34.217493+00:00"
+      "checked_at_utc": "2026-11-05T19:24:29.778608+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
@@ -186,6 +186,60 @@
     }
   },
   "jobs": [
+    {
+      "id": "0cd976adf7f21e24",
+      "title": "Networking and IoT Engineer | Networking Solutions",
+      "company": "TELTONIKA POLAND sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/teltonika-poland-sp-z-o-o--networking-and-iot-engineer-networking-solutions-warszawa-support",
+      "apply_url": "https://career.teltonika.lt/_/j/41B7D013A8/apply/",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-05T14:05:03.8221649Z",
+      "fit_score": 80,
+      "match_level": "STRONG",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: We are looking for a Networking and IoT Engineer to strengthen our ambitious global technical support team in Warsaw, Poland; Our team works closely with remote offices across various regions to deliver high-quality support; Our networking devices serve clients in the most complex areas of Industry 4.0, Smart City, and Green Energy | What they expect: Good communication skills and etiquette both in speaking and writing; Experience in 2nd or 3rd line technical support would be considered an advantage; Knowledge in Computer Networking | What they offer: Private medical care (Medicover Premium) and Multisport card; Unique opportunities to grow professionally being part of a challenging and high-growth environment; Additional day off for your birtday",
+      "summary_tasks": [
+        "We are looking for a Networking and IoT Engineer to strengthen our ambitious global technical support team in Warsaw, Poland",
+        "Our team works closely with remote offices across various regions to deliver high-quality support",
+        "Our networking devices serve clients in the most complex areas of Industry 4.0, Smart City, and Green Energy"
+      ],
+      "summary_expectations": [
+        "Good communication skills and etiquette both in speaking and writing",
+        "Experience in 2nd or 3rd line technical support would be considered an advantage",
+        "Knowledge in Computer Networking"
+      ],
+      "summary_offers": [
+        "Private medical care (Medicover Premium) and Multisport card",
+        "Unique opportunities to grow professionally being part of a challenging and high-growth environment",
+        "Additional day off for your birtday"
+      ],
+      "required_skills": [
+        "Networking",
+        "Network Protocols",
+        "Linux networking",
+        "IP networks",
+        "Networks"
+      ],
+      "fit_notes": {
+        "direction": "Network / NOC / Telecom",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: network, networking",
+          "Linux / Git: linux"
+        ],
+        "concerns": [],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Network & IT Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00"
+    },
     {
       "id": "99c99c9bfb69d790",
       "title": "Młodszy Programista / Młodsza Programistka (Python / TypeScript)",
@@ -1392,51 +1446,48 @@
       "ai_review_fingerprint": "6f619e2dee51332dbd599ed3"
     },
     {
-      "id": "3c7b4570180cb025",
-      "title": "Python Engineer",
-      "company": "BackDoor Systems",
+      "id": "9b04d0ed698c41eb",
+      "title": "AI Automation Specialist (K/M/N)",
+      "company": "Emoti Group",
       "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/backdoor-systems-python-engineer-warszawa-python",
-      "apply_url": "",
+      "url": "https://justjoin.it/job-offer/emoti-group-ai-automation-specialist-warszawa-ai-b0a24057",
+      "apply_url": "https://tiny.pl/rv6pt37vn",
       "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T17:00:09.7200134Z",
+      "published_at": "2026-11-05T14:35:07.1169016Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
       "experience_required_years": 0,
-      "summary": "What you'll do: Oczekiwania bardzo dobra znajomość Pythona; Frontend: React, współpraca z warstwą backendową, dbałość o użyteczność i spójność tworzonych funkcji; Najważniejsze jest mocne zaplecze Pythonowe, samodzielność i gotowość do rozwijania się również w pozostałych obszarach | What they expect: Oczekiwania bardzo dobra znajomość Pythona; Nie wymagamy, aby kandydat/kandydatka był/była ekspertem we wszystkich wymienionych technologiach; Mile widziane doświadczenie komercyjne z Odoo, znajomość Django lub FastAPI, znajomość Reacta, doświadczenie w projektowaniu i integrowaniu API, znajomość n8n lub innych narzędzi do automatyzacji, doświadczenie z rozwiązaniami wykorzystującymi AI, umiejętność pisania testów automatycznych, doświadczenie w pracy z systemami biznesowymi, znajomość Docker, Git i relacyjnych baz danych | What they offer: realny wpływ na kierunek rozwoju produktów i systemów; dużą samodzielność w realizacji zadań; możliwość rozwoju w obszarach Odoo, Django, FastAPI, React, n8n oraz testów",
+      "summary": "What you'll do: Agree with the process owner what to automate and what good output looks like; Build the automation, with or without AI, whichever the problem needs; Hand it over with short docs, and support the team after go-live | What they expect: You use and build with Claude, Gemini and coding agents every day: skills, Gems, agents; You have strong general tech and computer knowledge",
       "summary_tasks": [
-        "Oczekiwania bardzo dobra znajomość Pythona",
-        "Frontend: React, współpraca z warstwą backendową, dbałość o użyteczność i spójność tworzonych funkcji",
-        "Najważniejsze jest mocne zaplecze Pythonowe, samodzielność i gotowość do rozwijania się również w pozostałych obszarach"
+        "Agree with the process owner what to automate and what good output looks like",
+        "Build the automation, with or without AI, whichever the problem needs",
+        "Hand it over with short docs, and support the team after go-live"
       ],
       "summary_expectations": [
-        "Oczekiwania bardzo dobra znajomość Pythona",
-        "Nie wymagamy, aby kandydat/kandydatka był/była ekspertem we wszystkich wymienionych technologiach",
-        "Mile widziane doświadczenie komercyjne z Odoo, znajomość Django lub FastAPI, znajomość Reacta, doświadczenie w projektowaniu i integrowaniu API, znajomość n8n lub innych narzędzi do automatyzacji, doświadczenie z rozwiązaniami wykorzystującymi AI, umiejętność pisania testów automatycznych, doświadczenie w pracy z systemami biznesowymi, znajomość Docker, Git i relacyjnych baz danych"
+        "You use and build with Claude, Gemini and coding agents every day: skills, Gems, agents",
+        "You have strong general tech and computer knowledge"
       ],
-      "summary_offers": [
-        "realny wpływ na kierunek rozwoju produktów i systemów",
-        "dużą samodzielność w realizacji zadań",
-        "możliwość rozwoju w obszarach Odoo, Django, FastAPI, React, n8n oraz testów"
-      ],
+      "summary_offers": [],
       "required_skills": [
+        "AI",
+        "REST API",
+        "SQL",
         "Python",
-        "Celery",
-        "Diango",
-        "React",
-        "FAST API"
+        "Claude",
+        "Gemini",
+        "AI Agents"
       ],
       "fit_notes": {
         "direction": "Python / Process / Workflow / AI Automation",
         "evidence": "work",
         "matches": [
-          "Python & automation: python, api, automatyzacja",
-          "Linux / Git: git, docker"
+          "Python & automation: python, automation, api",
+          "SQL / Excel / reporting: sql"
         ],
         "concerns": [
           "Listed as Mid/Regular level"
@@ -1444,8 +1495,10 @@
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
         "suggested_cv": "Automation & Python"
       },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T17:31:16.036529+00:00"
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-11-05T19:24:29.006953+00:00"
     },
     {
       "id": "a86932282dd7319f",
@@ -1508,50 +1561,58 @@
       "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
-      "id": "46b33a126a6891ed",
-      "title": "Administrator Sieci",
-      "company": "Axabee",
-      "location": "Opole, Wrocław",
-      "url": "https://justjoin.it/job-offer/axabee-administrator-sieci-opole-admin",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=5b235187aac545868b401e8fb8f23eb4",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
+      "id": "dc48607353d4d5b1",
+      "title": "Data Analyst - Automation & Innovation Department",
+      "company": "T-Mobile",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/data-analyst-automation-innovation-department-warszawa-marynarska-12,oferta,1005185997",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-05T06:00:01.3891536Z",
+      "published_at": "2026-10-28T11:28:05.41Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok | What they expect: Szkolenia i rozwój kompetencji",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance; Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities; Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs | What they expect: 1+ year of experience in a data analytics or data engineering role; Experience working with large and complex datasets; Advanced SQL skills and hands-on experience with data analysis | What they offer: Benefits; sharing the costs of professional training & courses; remote work opportunities",
       "summary_tasks": [
-        "Specjalizujemy się w branży turystycznej i e-commerce, współpracując z takimi markami jak Itaka czy Čedok"
+        "Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance",
+        "Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities",
+        "Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs"
       ],
       "summary_expectations": [
-        "Szkolenia i rozwój kompetencji"
+        "1+ year of experience in a data analytics or data engineering role",
+        "Experience working with large and complex datasets",
+        "Advanced SQL skills and hands-on experience with data analysis"
       ],
-      "summary_offers": [],
-      "required_skills": [
-        "Security",
-        "LAN",
-        "Wlan",
-        "VPN",
-        "Palo Alto",
-        "WAN"
+      "summary_offers": [
+        "Benefits",
+        "sharing the costs of professional training & courses",
+        "remote work opportunities"
       ],
+      "required_skills": [],
       "fit_notes": {
-        "direction": "Network / NOC / Telecom",
-        "evidence": "work",
-        "matches": [],
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, data analysis, analytics",
+          "Python & automation: automation",
+          "B2B / CRM operations: operations"
+        ],
         "concerns": [
+          "Asks for 1 year; CV has only project experience here",
           "Listed as Mid/Regular level"
         ],
         "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Network & IT Support"
+        "suggested_cv": "Data & Operations"
       },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
     },
     {
       "id": "c77453e702de8a83",
@@ -1760,60 +1821,6 @@
         "automation"
       ],
       "first_found_at": "2026-10-09T13:29:10.505687+00:00"
-    },
-    {
-      "id": "dc48607353d4d5b1",
-      "title": "Data Analyst - Automation & Innovation Department",
-      "company": "T-Mobile",
-      "location": "Warszawa, Masovian, Poland",
-      "url": "https://www.pracuj.pl/praca/data-analyst-automation-innovation-department-warszawa-marynarska-12,oferta,1005185997",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-28T11:28:05.41Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance; Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities; Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs | What they expect: 1+ year of experience in a data analytics or data engineering role; Experience working with large and complex datasets; Advanced SQL skills and hands-on experience with data analysis | What they offer: Benefits; sharing the costs of professional training & courses; remote work opportunities",
-      "summary_tasks": [
-        "Monitor, analyze, and interpret telecommunications network KPIs, with a strong focus on mobile network performance",
-        "Analyze large-scale network datasets to identify trends, anomalies, service degradations, and optimization opportunities",
-        "Collaborate with Network and Operations teams to define, validate, and improve network performance KPIs"
-      ],
-      "summary_expectations": [
-        "1+ year of experience in a data analytics or data engineering role",
-        "Experience working with large and complex datasets",
-        "Advanced SQL skills and hands-on experience with data analysis"
-      ],
-      "summary_offers": [
-        "Benefits",
-        "sharing the costs of professional training & courses",
-        "remote work opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, data analysis, analytics",
-          "Python & automation: automation",
-          "B2B / CRM operations: operations"
-        ],
-        "concerns": [
-          "Asks for 1 year; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-10-29T07:56:16.155179+00:00"
     },
     {
       "id": "22e5639c1c588154",
@@ -2632,69 +2639,6 @@
       "first_found_at": "2026-11-05T14:19:33.310514+00:00"
     },
     {
-      "id": "f3ea9c378deb227a",
-      "title": "Specjalista ds. Rozwoju Architektury IT (K/M)",
-      "company": "POLSKIE PORTY LOTNICZE SPÓŁKA AKCYJNA",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/polskie-porty-lotnicze-spolka-akcyjna-specjalista-ds-rozwoju-architektury-it-k-m--warszawa-architecture",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=dabbd45b9d3542f6a3008305be07c656",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-05T10:35:04.553512Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania?; 98/26 Kluczowe zadania, które dla Ciebie przygotowaliśmy: Projektowanie i wdrażanie nowych rozwiązań teleinformatycznych Instalacja i konfiguracja serwerów i systemów informatycznych w środowiskach R&D Administracja i monitoring infrastruktury on-prem/cloud środowisk R&D Tworzenie dokumentacji technicznej wdrażanych i rozwijanych systemów Diagnozowanie i usuwanie usterek; Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne | What they expect: Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne; preferowane w takich obszarach jak informatyka, cyberbezpieczeństwo, telekomunikacja, elektronika i pokrewne Minimum 4 letnie doświadczenie zawodowe w obszarze projektowania i wdrażania systemów IT Wiedzę w zakresie: uwierzytelniania, autoryzacji; Ukończenie testu kompetencyjnego jest integralną częścią naboru i warunkiem koniecznym do rozpatrzenia aplikacji w kolejnym etapie; W przypadku zaproszenia do kolejnego etapu rekrutacji (po spotkaniach rekrutacyjnych) wymagane będzie przedstawienie dokumentów poświadczających wykształcenie, kwalifikacje zawodowe | What they offer: Ubezpieczenie grupowe na preferencyjnych warunkach; Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina; Szukamy właśnie Ciebie, jeśli posiadasz",
-      "summary_tasks": [
-        "Z pasją i zaangażowaniem podejmujesz nowe zadania i jesteś otwarty/a na innowacyjne rozwiązania?",
-        "98/26 Kluczowe zadania, które dla Ciebie przygotowaliśmy: Projektowanie i wdrażanie nowych rozwiązań teleinformatycznych Instalacja i konfiguracja serwerów i systemów informatycznych w środowiskach R&D Administracja i monitoring infrastruktury on-prem/cloud środowisk R&D Tworzenie dokumentacji technicznej wdrażanych i rozwijanych systemów Diagnozowanie i usuwanie usterek",
-        "Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne"
-      ],
-      "summary_expectations": [
-        "Pracę w firmie zarządzającej największym portem lotniczym w Polsce Zatrudnienie w oparciu o umowę o pracę Prywatną opiekę medyczną Benefity socjalne i kulturalne Ubezpieczenie grupowe na preferencyjnych warunkach Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina Szukamy właśnie Ciebie, jeśli posiadasz: Wykształcenie wyższe techniczne",
-        "preferowane w takich obszarach jak informatyka, cyberbezpieczeństwo, telekomunikacja, elektronika i pokrewne Minimum 4 letnie doświadczenie zawodowe w obszarze projektowania i wdrażania systemów IT Wiedzę w zakresie: uwierzytelniania, autoryzacji",
-        "Ukończenie testu kompetencyjnego jest integralną częścią naboru i warunkiem koniecznym do rozpatrzenia aplikacji w kolejnym etapie",
-        "W przypadku zaproszenia do kolejnego etapu rekrutacji (po spotkaniach rekrutacyjnych) wymagane będzie przedstawienie dokumentów poświadczających wykształcenie, kwalifikacje zawodowe"
-      ],
-      "summary_offers": [
-        "Ubezpieczenie grupowe na preferencyjnych warunkach",
-        "Zniżkę na produkty i usługi dostępne w strefie handlowej Lotniska Chopina",
-        "Szukamy właśnie Ciebie, jeśli posiadasz"
-      ],
-      "required_skills": [
-        "Architecture",
-        "Linux",
-        "Windows",
-        "TCP/IP",
-        "VMware",
-        "Jenkins",
-        "Ansible",
-        "Git",
-        "Prometheus",
-        "Grafana"
-      ],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: tcp/ip",
-          "Linux / Git: linux, git"
-        ],
-        "concerns": [
-          "Listed as Mid/Regular level",
-          "Mentions Ansible"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
-    },
-    {
       "id": "7e7be59d16b1ab49",
       "title": "Junior Backend Developer",
       "company": "CTHINGS.CO sp. z o.o.",
@@ -3455,68 +3399,6 @@
       "first_found_at": "2026-10-22T06:54:54.357396+00:00"
     },
     {
-      "id": "5f59394ea99d6706",
-      "title": "Data Analytics Engineer",
-      "company": "Procter & Gamble",
-      "location": "Warsaw",
-      "url": "https://justjoin.it/job-offer/procter-gamble-data-analytics-engineer-warsaw-data",
-      "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/WARSAW-PLANT--GO/Data-Analytics-Engineer_R000150718-1",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-11-05T07:05:06.1180255Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories; Design and build enterprise‑grade Power BI reports and dashboards, aligned with internal UX/design standards and reusable components; Collaborate with Operations to define SLAs, monitoring, and validation points (data quality checks, reconciliation rules, alerting) | What they expect: Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories; Work with data engineers to translate semantic/model requirements into source data structures, data pipelines, and transformations; Several years of hands‑on experience delivering end‑to‑end Power BI solutions in a complex business environment | What they offer: Wide range of self-development possibilities (training and certifications paths); Competitive starting salary and benefits program (private health care, P&G stock, saving plans, sport cards); that combines the flexibility of remote work with the collaborative benefits of in-office engagement",
-      "summary_tasks": [
-        "Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories",
-        "Design and build enterprise‑grade Power BI reports and dashboards, aligned with internal UX/design standards and reusable components",
-        "Collaborate with Operations to define SLAs, monitoring, and validation points (data quality checks, reconciliation rules, alerting)"
-      ],
-      "summary_expectations": [
-        "Collaborate with business stakeholders to clarify requirements and translate them into report designs, KPIs, and user stories",
-        "Work with data engineers to translate semantic/model requirements into source data structures, data pipelines, and transformations",
-        "Several years of hands‑on experience delivering end‑to‑end Power BI solutions in a complex business environment"
-      ],
-      "summary_offers": [
-        "Wide range of self-development possibilities (training and certifications paths)",
-        "Competitive starting salary and benefits program (private health care, P&G stock, saving plans, sport cards)",
-        "that combines the flexibility of remote work with the collaborative benefits of in-office engagement"
-      ],
-      "required_skills": [
-        "Python",
-        "SQL",
-        "Databricks",
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "TMDL format"
-      ],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, analytics, data quality",
-          "Python & automation: python, data pipeline",
-          "B2B / CRM operations: operations, stakeholder"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level",
-          "Requires Power BI",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 54: Requires Power BI.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
-    },
-    {
       "id": "05ab6b6f2514a11e",
       "title": "Business Analyst - TPRM",
       "company": "Capco",
@@ -3564,18 +3446,18 @@
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
     },
     {
-      "id": "262ac3c7b9d945f9",
+      "id": "69b087cd13e874fe",
       "title": "Business Analyst",
-      "company": "Sollers Consulting",
-      "location": "Białystok, Gdańsk, Kraków, Lublin, Łódź, Poznań, Warszawa, Szczecin, Wrocław, Bydgoszcz, Katowice, Rzeszów",
-      "url": "https://justjoin.it/job-offer/sollers-consulting-business-analyst-bialystok-analytics",
+      "company": "Sollers Consulting Sp. z.o.o",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/sollers-consulting-sp-z-o-o-business-analyst-warszawa-analytics-a8db6a83",
       "apply_url": "https://sollers.com/en/careers/business-analyst-3/",
       "source": "justjoin.it",
       "contract": "Umowa o pracę / Employment contract",
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-04T17:35:10.5900212Z",
+      "published_at": "2026-11-05T16:20:02.2162585Z",
       "fit_score": 53,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -3598,9 +3480,9 @@
         "That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable"
       ],
       "required_skills": [
-        "Analiza Biznesowa",
-        "analiza",
-        "Zarządzanie zespołem"
+        "Team Leadership",
+        "Business Analysis",
+        "insurance business processes"
       ],
       "fit_notes": {
         "direction": "Business Analysis",
@@ -3614,7 +3496,113 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-11T06:49:06.945680+00:00"
+      "first_found_at": "2026-10-17T06:26:09.886626+00:00"
+    },
+    {
+      "id": "7becffac15798faa",
+      "title": "Data Analyst",
+      "company": "G2A",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/g2a-data-analyst-warszawa-data-73ba8644",
+      "apply_url": "https://g2a.elementapp.ai/application/v2/4b3be35f-6871-4bf2-b533-a8270b996593/40ec9874-5fe8-41ce-aa78-be286f295549?source=f36ca9fd-55cc-4f97-b574-f5c953797fc7",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-05T14:10:01.4863859Z",
+      "fit_score": 53,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Lead analytical topics end to end – from problem definition to actionable recommendations; Analyze business performance, customer behavior and the impact of commercial decisions to identify trends, opportunities, and risks; Build and improve analytical models, dashboards, and reports | What they expect: We think and act globally, and in our daily work, we are guided by analysis and data, although intuition and experience-based insights are also considered a significant asset; statistics, econometrics, mathematics, physics) Experience measuring incrementality or attribution (e.g; in marketing, promotions or advertising) Experience with forecasting, demand modelling or price sensitivity analysis Why is joining us worth it? | What they offer: valuable benefits, such as; an opportunity to take part in internal and external trainings and industry events; sales platform so that you can enjoy the benefits of our offers and services",
+      "summary_tasks": [
+        "Lead analytical topics end to end – from problem definition to actionable recommendations",
+        "Analyze business performance, customer behavior and the impact of commercial decisions to identify trends, opportunities, and risks",
+        "Build and improve analytical models, dashboards, and reports"
+      ],
+      "summary_expectations": [
+        "We think and act globally, and in our daily work, we are guided by analysis and data, although intuition and experience-based insights are also considered a significant asset",
+        "statistics, econometrics, mathematics, physics) Experience measuring incrementality or attribution (e.g",
+        "in marketing, promotions or advertising) Experience with forecasting, demand modelling or price sensitivity analysis Why is joining us worth it?"
+      ],
+      "summary_offers": [
+        "valuable benefits, such as",
+        "an opportunity to take part in internal and external trainings and industry events",
+        "sales platform so that you can enjoy the benefits of our offers and services"
+      ],
+      "required_skills": [
+        "SQL",
+        "Python",
+        "Tableau"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql",
+          "Python & automation: python"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Tableau",
+          "Mentions Tableau"
+        ],
+        "tier_reason": "Capped at 54: Requires Tableau.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T06:55:02.951492+00:00"
+    },
+    {
+      "id": "d12533d49dbdc3e1",
+      "title": "Business Analyst",
+      "company": "Sollers Consulting",
+      "location": "Warszawa, Poland",
+      "url": "https://rocketjobs.pl/oferta-pracy/sollers-consulting-business-analyst-warszawa-consulting-it-telekomunikacja-3c6db903",
+      "apply_url": "",
+      "source": "rocketjobs.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "6 340 - 9 720 PLN/mies.",
+      "published_at": "",
+      "fit_score": 53,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Oferty pracy Kalkulator wynagrodzeń Profile pracodawców Blog PL Business Analyst 6 340; from requirements analysis, through testing to creating new solutions; You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies | What they expect: At least a bachelor’s degree, preferably in finance, business, economics, IT, or similar fields; analysis, through testing to creating new solutions – is done with passion and high-quality assurance; Conduct business analysis, define functional requirements, and test developed solutions and support UATs; About the requirements | What they offer: Benefits & Perks; Our team is the heart of our company; That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable",
+      "summary_tasks": [
+        "Oferty pracy Kalkulator wynagrodzeń Profile pracodawców Blog PL Business Analyst 6 340",
+        "from requirements analysis, through testing to creating new solutions",
+        "You will: Be a part of consulting or implementation team during IT projects for financial institutions, primarily insurance companies"
+      ],
+      "summary_expectations": [
+        "At least a bachelor’s degree, preferably in finance, business, economics, IT, or similar fields",
+        "analysis, through testing to creating new solutions – is done with passion and high-quality assurance",
+        "Conduct business analysis, define functional requirements, and test developed solutions and support UATs",
+        "About the requirements"
+      ],
+      "summary_offers": [
+        "Benefits & Perks",
+        "Our team is the heart of our company",
+        "That’s why we make Sollers an excellent place to work, where employees feel welcome and comfortable"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-05T19:24:29.006953+00:00"
     },
     {
       "id": "26ed7ae8f8e219a4",
@@ -3715,54 +3703,6 @@
       "first_found_at": "2026-10-20T06:50:22.034110+00:00"
     },
     {
-      "id": "db9e02cca7e53af9",
-      "title": "Analityk Biznesowy / Analityczka Biznesowa (IT Business Partner/ka)",
-      "company": "Totalizator Sportowy",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-analityczka-biznesowa-it-business-partner-ka-warszawa-inflancka-4c,oferta,1005179737",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "2026-10-26T09:09:30.403Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Prowadzenie warsztatów i rozmów pomagających definiować cele oraz oczekiwane efekty zmian; Współtworzenie rekomendacji, business case'ów i kierunków rozwoju wspierających decyzje biznesowe; Udział w planowaniu i priorytetyzacji inicjatyw oraz dbanie o ich zgodność ze strategią Spółki | What they expect: Doświadczenie w analizie biznesowej, transformacji cyfrowej, Demand Management lub Business Relationship Management; Umiejętność budowania relacji i współpracy z managerami oraz innymi kluczowymi interesariuszami; Umiejętność prowadzenia warsztatów, analizy potrzeb biznesowych i przekładania ich na konkretne rozwiązania oraz rekomendacje | What they offer: Realny wpływ na kierunek rozwoju biznesu i technologii w organizacji; Stabilne zatrudnienie, benefity i możliwości rozwoju zawodowego; dofinansowanie szkoleń i kursów",
-      "summary_tasks": [
-        "Prowadzenie warsztatów i rozmów pomagających definiować cele oraz oczekiwane efekty zmian",
-        "Współtworzenie rekomendacji, business case'ów i kierunków rozwoju wspierających decyzje biznesowe",
-        "Udział w planowaniu i priorytetyzacji inicjatyw oraz dbanie o ich zgodność ze strategią Spółki"
-      ],
-      "summary_expectations": [
-        "Doświadczenie w analizie biznesowej, transformacji cyfrowej, Demand Management lub Business Relationship Management",
-        "Umiejętność budowania relacji i współpracy z managerami oraz innymi kluczowymi interesariuszami",
-        "Umiejętność prowadzenia warsztatów, analizy potrzeb biznesowych i przekładania ich na konkretne rozwiązania oraz rekomendacje"
-      ],
-      "summary_offers": [
-        "Realny wpływ na kierunek rozwoju biznesu i technologii w organizacji",
-        "Stabilne zatrudnienie, benefity i możliwości rozwoju zawodowego",
-        "dofinansowanie szkoleń i kursów"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [],
-        "concerns": [
-          "Not a junior role; CV has only project experience here",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
-    },
-    {
       "id": "7e400beb53b465e7",
       "title": "Mid Data Analyst (Campaigns Planning)",
       "company": "Allegro",
@@ -3858,6 +3798,54 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-21T06:56:58.643128+00:00"
+    },
+    {
+      "id": "db9e02cca7e53af9",
+      "title": "Analityk Biznesowy / Analityczka Biznesowa (IT Business Partner/ka)",
+      "company": "Totalizator Sportowy",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/analityk-biznesowy-analityczka-biznesowa-it-business-partner-ka-warszawa-inflancka-4c,oferta,1005179737",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-10-26T09:09:30.403Z",
+      "fit_score": 53,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Prowadzenie warsztatów i rozmów pomagających definiować cele oraz oczekiwane efekty zmian; Współtworzenie rekomendacji, business case'ów i kierunków rozwoju wspierających decyzje biznesowe; Udział w planowaniu i priorytetyzacji inicjatyw oraz dbanie o ich zgodność ze strategią Spółki | What they expect: Doświadczenie w analizie biznesowej, transformacji cyfrowej, Demand Management lub Business Relationship Management; Umiejętność budowania relacji i współpracy z managerami oraz innymi kluczowymi interesariuszami; Umiejętność prowadzenia warsztatów, analizy potrzeb biznesowych i przekładania ich na konkretne rozwiązania oraz rekomendacje | What they offer: Realny wpływ na kierunek rozwoju biznesu i technologii w organizacji; Stabilne zatrudnienie, benefity i możliwości rozwoju zawodowego; dofinansowanie szkoleń i kursów",
+      "summary_tasks": [
+        "Prowadzenie warsztatów i rozmów pomagających definiować cele oraz oczekiwane efekty zmian",
+        "Współtworzenie rekomendacji, business case'ów i kierunków rozwoju wspierających decyzje biznesowe",
+        "Udział w planowaniu i priorytetyzacji inicjatyw oraz dbanie o ich zgodność ze strategią Spółki"
+      ],
+      "summary_expectations": [
+        "Doświadczenie w analizie biznesowej, transformacji cyfrowej, Demand Management lub Business Relationship Management",
+        "Umiejętność budowania relacji i współpracy z managerami oraz innymi kluczowymi interesariuszami",
+        "Umiejętność prowadzenia warsztatów, analizy potrzeb biznesowych i przekładania ich na konkretne rozwiązania oraz rekomendacje"
+      ],
+      "summary_offers": [
+        "Realny wpływ na kierunek rozwoju biznesu i technologii w organizacji",
+        "Stabilne zatrudnienie, benefity i możliwości rozwoju zawodowego",
+        "dofinansowanie szkoleń i kursów"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
     },
     {
       "id": "8f4c3da26e07c8b8",
