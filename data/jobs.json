@@ -1,19 +1,18 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-05T19:24:29.006953+00:00",
-    "found": 7014,
+    "generated_at": "2026-11-05T20:23:07.210473+00:00",
+    "found": 7008,
     "accepted": 74,
     "filtered": {
-      "Too much experience required (3+ years)": 224,
-      "Too senior / management": 3243,
-      "Contract: B2B only or UoP not confirmed": 634,
-      "Location: not Warsaw and not remote": 606,
+      "Too much experience required (3+ years)": 227,
+      "Too senior / management": 3244,
+      "Contract: B2B only or UoP not confirmed": 637,
+      "Location: not Warsaw and not remote": 607,
       "Missing a required language": 36,
-      "Different profession than your CV": 952,
-      "Too weak a match with your CV": 29,
-      "Could not verify the vacancy page": 374,
-      "Other": 842
+      "Different profession than your CV": 945,
+      "Too weak a match with your CV": 30,
+      "Other": 1208
     },
     "sources": {
       "justjoin.it": {
@@ -38,7 +37,7 @@
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 134
+        "fetched": 129
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -50,7 +49,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 691
+        "fetched": 692
       },
       "lever:adlook": {
         "status": "ok",
@@ -168,7 +167,7 @@
       "used": 0,
       "limit": 20,
       "remaining": 20,
-      "checked_at_utc": "2026-11-05T19:24:29.778608+00:00"
+      "checked_at_utc": "2026-11-05T20:23:07.821307+00:00"
     },
     "ai_automatic": {
       "eligible": 2,
