@@ -173,7 +173,114 @@
       "daily_total": 1,
       "daily_reviewed": 1,
       "feed_reviewed": 6
-    }
+    },
+    "manual_review_leads": [
+      {
+        "title": "Junior WEBCON Developer K/M",
+        "company": "VINCI Construction Usługi Wsparcia",
+        "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Office",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Junior BI Developer (m/k)",
+        "company": "POLENERGIA S.A.",
+        "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Junior Salesforce Developer",
+        "company": "Enxoo",
+        "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-developer-warszawa-java-898781f0",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "2026-11-10T11:05:05.1566026Z",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Junior DevOps Engineer (m/f)",
+        "company": "BNP Paribas Bank Polska",
+        "url": "https://justjoin.it/job-offer/bnp-paribas-bank-polska-junior-devops-engineer-m-f--warszawa-devops",
+        "source": "justjoin.it",
+        "location": "Warszawa, Kraków, Katowice",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "2026-11-10T11:05:05.196585Z",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
+        "company": "Bank BPS S.A.",
+        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "2026-11-10T16:45:16.302158Z",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
+        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa,oferta,1005174888",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Junior Salesforce Consultant",
+        "company": "Enxoo",
+        "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-consultant-warszawa-analytics-5c5ba615",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "2026-11-10T11:05:05.5276154Z",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      },
+      {
+        "title": "Młodszy administrator IT",
+        "company": "Zepter IT Sp. z o.o.",
+        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-warszawa,oferta,1005212166",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
+        "board_seniority_unverified": "junior",
+        "board_published_at_unverified": "",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
+      }
+    ],
+    "manual_review_leads_count": 8
   },
   "jobs": [
     {
