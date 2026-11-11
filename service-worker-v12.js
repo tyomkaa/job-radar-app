@@ -1,5 +1,5 @@
-const CACHE='job-radar-public-v35-four-core-filters';
-const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./v17-cv-editor.js','./v18-summary-ux.js','./v19-fit-notes.js','./v21-focus-cv.js','./v22-daily.js','./v23-ai-review.js','./v24-workspace.js','./v25-cloudflare-ai.js','./v26-local-drafts.js','./v27-ukrainian-employers.js','./styles-v29-compact-filters.css','./styles-v27-ukrainian-employers.css','./styles-v24-workspace.css','./styles-v22-daily.css','./styles-v23-ai-review.css','./styles-v19-fit.css','./styles-v13-ui.css','./styles-v17-cv.css','./manifest.webmanifest','./icons/icon-192.png'];
+const CACHE='job-radar-public-v36-manual-leads';
+const SHELL=['./','./index.html','./app-v12.js','./styles-v12.css','./v13-ui.js','./v14-templates.js','./v15-cv-manager.js','./v16-ux-fixes.js','./v17-cv-editor.js','./v18-summary-ux.js','./v19-fit-notes.js','./v21-focus-cv.js','./v22-daily.js','./v23-ai-review.js','./v24-workspace.js','./v25-cloudflare-ai.js','./v26-local-drafts.js','./v27-ukrainian-employers.js','./v30-manual-review-leads.js','./styles-v30-manual-leads.css','./styles-v29-compact-filters.css','./styles-v27-ukrainian-employers.css','./styles-v24-workspace.css','./styles-v22-daily.css','./styles-v23-ai-review.css','./styles-v19-fit.css','./styles-v13-ui.css','./styles-v17-cv.css','./manifest.webmanifest','./icons/icon-192.png'];
 const DATA='./data/jobs.json';
 
 self.addEventListener('install', event => {
@@ -63,6 +63,8 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/v25-cloudflare-ai.js') ||
     url.pathname.endsWith('/v26-local-drafts.js') ||
     url.pathname.endsWith('/v27-ukrainian-employers.js') ||
+    url.pathname.endsWith('/v30-manual-review-leads.js') ||
+    url.pathname.endsWith('/styles-v30-manual-leads.css') ||
     url.pathname.endsWith('/styles-v29-compact-filters.css') ||
     url.pathname.endsWith('/styles-v27-ukrainian-employers.css') ||
     url.pathname.endsWith('/styles-v24-workspace.css') ||
