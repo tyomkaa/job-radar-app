@@ -60,6 +60,10 @@ const actions=rendered[0].children.at(-1);
 assert.equal(actions.children[0].href,good.url);
 assert.equal(actions.children[0].target,'_blank');
 assert.equal(actions.children[0].rel,'noopener noreferrer');
+const facts=rendered[0].children.find(x=>x.className==='manual-lead-facts');
+assert(facts.textContent.includes('UoP listed by board'));
+assert(!facts.textContent.includes('not listed'));
+
 ctx.activeFilter='FOCUS';
 ctx.render();
 assert.equal(host.hidden,true);
@@ -67,6 +71,23 @@ ctx.activeFilter='DAILY';
 ctx.render();
 assert.equal(host.hidden,false);
 assert.equal(host.children[1].children.length,1);
+// Unknown-contract leads can be discovered, but may NEVER claim confirmed UoP.
+ctx.meta.manual_review_leads = [{
+  ...good,
+  title:'Python Trainee',
+  board_contract_unverified:'',
+  url:'https://justjoin.it/job-offer/python-trainee-warszawa',
+}];
+ctx.render();
+const unknownCard = host.children[1].children[0];
+assert(unknownCard.children.find(x=>x.className==='manual-lead-facts').textContent
+  .includes('Contract not listed — verify UoP before applying'));
+// Board-confirmed B2B-only job must not reach this review section.
+ctx.meta.manual_review_leads = [{...good, board_contract_unverified:'B2B only'}];
+ctx.render();
+assert.equal(host.hidden,true);
+ctx.meta.manual_review_leads = [good];
+ctx.render();
 actions.children[1].listeners.click();
 assert.equal(host.hidden,true);
 assert.equal(JSON.parse(storage.get('jobRadarManualLeadsHiddenV1'))[good.url],true);
