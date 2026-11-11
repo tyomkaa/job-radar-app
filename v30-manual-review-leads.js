@@ -41,10 +41,13 @@
     if (host.hidden) return;
 
     const source = Array.isArray(meta?.manual_review_leads) ?
-      meta.manual_review_leads.slice(0, 10) : [];
+      meta.manual_review_leads.slice(0, 15) : [];
     const ignored = hiddenLeads();
     const candidates = source.filter(x =>
       x && x.review_status === 'UNVERIFIED' &&
+      // Never display a board-confirmed non-UoP-only contract as an open lead.
+      (!x.board_contract_unverified ||
+        /employment contract|umowa o prac/i.test(String(x.board_contract_unverified))) &&
       safeUrl(x.url) && !ignored[safeUrl(x.url)]);
     host.replaceChildren();
     if (!candidates.length) {
@@ -68,8 +71,13 @@
       addText(card, 'div', 'manual-lead-status', 'REVIEW ONLY · UNVERIFIED');
       addText(card, 'h3', 'manual-lead-title', item.title);
       addText(card, 'p', 'manual-lead-company', item.company);
+      const boardContract = String(item.board_contract_unverified || '');
+      const uopListed = /employment contract|umowa o prac/i.test(boardContract);
+      const contractNote = uopListed
+        ? 'UoP listed by board — verify with employer'
+        : 'Contract not listed — verify UoP before applying';
       addText(card, 'p', 'manual-lead-facts',
-        [item.location, item.work_mode, 'UoP on job board — not employer-confirmed']
+        [item.location, item.work_mode, contractNote]
           .filter(Boolean).join(' · '));
       const actions = document.createElement('div');
       actions.className = 'manual-lead-actions';
