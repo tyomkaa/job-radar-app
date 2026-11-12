@@ -73,6 +73,11 @@ function dailyNeedsManualCheck(job){
   const explicit=overrides[jobKey(job)]||overrides['id:'+job.id];
   return explicit?.verdict!=='SKIP';
 }
+// Backend APPLY is heuristic; a free AI CHECK still needs human verification.
+function dailyRequiresCheck(job){
+  const review=typeof aiReviewFor==='function'?aiReviewFor(job):job?.ai_review;
+  return review?.verdict==='CHECK'||dailyNeedsManualCheck(job);
+}
 function dailyAiAllowed(job){
   const review=typeof aiReviewFor==='function'?aiReviewFor(job):job?.ai_review;
   return review?.verdict!=='SKIP'||dailyNeedsManualCheck(job);
@@ -145,7 +150,7 @@ function dailySelectionProgress(){
     if(isFirstFoundToday(job))counts.newlyFound++;
     if(tracker[key])counts.applied++;
     else if(feedback[key])counts.dismissed++;
-    else if(dailyNeedsManualCheck(job))counts.reviewOnly++;
+    else if(dailyRequiresCheck(job))counts.reviewOnly++;
     else if(aiReviewFor(job)?.verdict==='SKIP')counts.aiSkipped++;
     else counts.ready++;
   }
@@ -210,7 +215,7 @@ function dailyDecorate(){
   description.textContent='Server selected '+progress.total+' of '+n+' accepted vacancies. '+
     progress.newlyFound+' newly found today; others are still-active carryovers. '+
     auto+' automation-first options remain in your list. '+
-    (progress.reviewOnly?'CHECK items have a disputed AI SKIP: verify the profession before applying. ':'');
+    (progress.reviewOnly?'CHECK items require verification before applying, even if the initial matcher said APPLY. ':'');
   const note=document.createElement('small');
   note.textContent='Daily Picks is your fixed shortlist, not all jobs newly published today. '+
     (parts.length?'Hidden on this device: '+parts.join(', ')+'. ':'')+
@@ -240,9 +245,26 @@ function dailyDecorate(){
     const other=/network|networking|sieci|telekom|telecom|noc/i.test(title)?'Career direction: networks / telecom':
       /administrator|system/i.test(title)?'Career direction: IT systems (verify requirements)':'Related CV direction — review your interest';
     const label=info.direction==='automation'?'Career direction: AI / workflow automation':info.direction==='bridge'?'Career direction: transition into automation':other;
-    const needsCheck=dailyNeedsManualCheck(job);
+    const disputedSkip=dailyNeedsManualCheck(job);
+    const needsCheck=dailyRequiresCheck(job);
+    const review=typeof aiReviewFor==='function'?aiReviewFor(job):job?.ai_review;
+    // Display the effective AI CHECK rather than a misleading APPLY badge,
+    // without altering stored backend tier or user tracking state.
+    if(needsCheck){
+      const level=card.querySelector('.level');
+      if(level){
+        level.textContent='CHECK · AI review';
+        level.classList.remove('tier-apply','tier-stretch');
+        level.classList.add('tier-possible');
+      }
+    }
+    const checkReason=disputedSkip
+      ? 'CHECK · AI career disagreement — not ready-to-apply'
+      : review?.verdict==='CHECK'
+        ? 'CHECK · AI recommends verifying requirements before applying'
+        : '';
     wrap.innerHTML='<div class="daily-explain">'+
-      (needsCheck?'<strong>CHECK · AI career disagreement — not ready-to-apply</strong> · ':'')+
+      (needsCheck?'<strong>'+checkReason+'</strong> · ':'')+
       esc(label)+'</div><button class="daily-dismiss" type="button">Not for me</button>';
     wrap.querySelector('button').addEventListener('click',()=>{
       const reason=window.prompt('Why not?\n1 — Not my career direction\n2 — Not interested in the duties\n3 — Requirements too advanced\n4 — Not interested in the company\n5 — Other\nEnter 1–5 (Cancel to keep):','1');
