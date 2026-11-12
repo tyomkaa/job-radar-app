@@ -15,3 +15,5 @@
 .manual-lead-open { text-decoration: none; color: #fff; background: #345eb7; border-color: #345eb7; font-weight: 650; }
 .manual-lead-hide { background: transparent; color: inherit; opacity: .85; }
 @media (max-width: 480px) { .manual-lead-card { padding: 12px; } .manual-lead-actions { width: 100%; } }
+
+.manual-lead-skills { font-size: .77rem; line-height: 1.5; opacity: .82; margin: -3px 0 10px; overflow-wrap: anywhere; }
