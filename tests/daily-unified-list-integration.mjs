@@ -39,14 +39,20 @@ class FakeEl {
       remove:(...names)=>{for(const n of names)this.className=this.className.replace(n,'')}
     };
   }
-  appendChild(el){this.children.push(el);return el}
+  appendChild(el){this.children.push(el);el.parent=this;return el}
   replaceChildren(...els){this.children=[...els]}
   querySelector(selector){
     const cls=selector.startsWith('.')?selector.slice(1):null;
     return this.children.find(x=>cls&&x.className.split(' ').includes(cls))||null;
   }
   addEventListener(name,callback){this.listeners[name]=callback}
-  insertAdjacentElement(_where,el){this.children.push(el)}
+  insertAdjacentElement(where,el){
+    if(where==='afterend'&&this.parent){
+      const i=this.parent.children.indexOf(this);
+      this.parent.children.splice(i+1,0,el);
+      el.parent=this.parent;
+    }else{this.children.push(el);el.parent=this}
+  }
   remove(){this.removed=true}
 }
 const main=new FakeEl('div');
