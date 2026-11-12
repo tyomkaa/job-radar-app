@@ -83,6 +83,143 @@ function dailyAiAllowed(job){
   return review?.verdict!=='SKIP'||dailyNeedsManualCheck(job);
 }
 
+// One Daily list, three honestly labelled levels of evidence. This replaces
+// the separate Still listed / Worth checking shelves; no more render wrappers.
+const DAILY_MANUAL_HIDDEN_KEY='jobRadarManualLeadsHiddenV1';
+const DAILY_SOURCE_DOMAINS=['justjoin.it','pracuj.pl','nofluffjobs.com',
+  'rocketjobs.pl','theprotocol.it','greenhouse.io','lever.co'];
+function dailyOriginalUrl(raw){
+  try{
+    const url=new URL(String(raw||''));
+    if(url.protocol!=='https:')return null;
+    if(!DAILY_SOURCE_DOMAINS.some(domain=>url.hostname===domain||
+       url.hostname.endsWith('.'+domain)))return null;
+    return url.href;
+  }catch{return null}
+}
+function dailyStillListedJobs(){
+  if(!Array.isArray(meta?.still_listed_ids))return [];
+  const fresh=new Set((meta?.daily_pick_ids||[]).map(String));
+  const used=new Set(), feedback=dailyFeedback(), tracker=getTracker();
+  const result=[];
+  for(const id of meta.still_listed_ids.slice(0,3)){
+    const job=jobs.find(x=>String(x.id)===String(id));
+    if(!job||used.has(String(job.id))||fresh.has(String(job.id)))continue;
+    used.add(String(job.id));
+    if(!dailyOriginalUrl(job.url)||
+       !['APPLY','POSSIBLE'].includes(String(job.recommendation_tier||''))||
+       !/umowa o prac|employment contract/i.test(String(job.contract||''))||
+       /\b(?:mid|regular|senior|lead|expert)\b/i.test(String(job.seniority||''))||
+       Number(job.experience_required_years||0)>2||
+       aiReviewFor(job)?.verdict==='SKIP'||
+       feedback[jobKey(job)]||tracker[jobKey(job)])continue;
+    result.push(job);
+  }
+  return result;
+}
+function dailyHiddenManualLeads(){
+  try{
+    const saved=JSON.parse(localStorage.getItem(DAILY_MANUAL_HIDDEN_KEY)||'{}');
+    return saved&&typeof saved==='object'&&!Array.isArray(saved)?saved:{};
+  }catch{return {}}
+}
+function dailyManualCandidates(){
+  const source=Array.isArray(meta?.manual_review_leads)?
+    meta.manual_review_leads.slice(0,15):[];
+  const hidden=dailyHiddenManualLeads(),used=new Set();
+  const existing=new Set(jobs.map(j=>dailyOriginalUrl(j.url)).filter(Boolean));
+  return source.filter(lead=>{
+    if(!lead||lead.review_status!=='UNVERIFIED')return false;
+    const url=dailyOriginalUrl(lead.url);
+    if(!url||used.has(url)||existing.has(url)||hidden[url])return false;
+    const contract=String(lead.board_contract_unverified||'');
+    if(contract&&!/umowa o prac|employment contract/i.test(contract))return false;
+    // No automatic APPLY or verified eligibility for these source-card leads.
+    used.add(url);
+    return true;
+  });
+}
+function dailyText(parent,element,className,textValue){
+  const el=document.createElement(element);
+  if(className)el.className=className;
+  el.textContent=String(textValue||'');
+  parent.appendChild(el);
+  return el;
+}
+function dailyDecorateAdditionalCards(){
+  if(activeFilter!=='DAILY')return;
+  const host=document.querySelector('#jobs');
+  if(!host)return;
+  // Previously seen strict matches are full cards with the SAME tracking,
+  // queue, CV and Prepare actions as regular Daily picks.
+  const older=new Set(dailyStillListedJobs().map(j=>String(j.id)));
+  document.querySelectorAll('#jobs .job-card').forEach(card=>{
+    if(!older.has(String(card.dataset.jobId)))return;
+    const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));
+    if(!job)return;
+    const level=card.querySelector('.level');
+    if(level){
+      level.textContent='STILL LISTED · CHECK';
+      level.classList.remove('tier-apply','tier-stretch');
+      level.classList.add('tier-possible');
+    }
+    if(card.querySelector('.daily-reseen-note'))return;
+    const first=String(job.first_found_at||'').slice(0,10);
+    const msg=first?'First seen '+first+' · ':'Previously seen · ';
+    const note=document.createElement('p');
+    note.className='daily-reseen-note';
+    note.textContent=msg+
+      'Found again in the latest job-board scan. Not a new posting; verify that hiring is still open.';
+    card.querySelector('.actions')?.insertAdjacentElement('afterend',note);
+  });
+  const candidates=dailyManualCandidates();
+  if(candidates.length)host.querySelector('.empty')?.remove();
+  // Source-only leads remain deliberately lightweight: there is no invented
+  // match score, AI verdict, verified contract or artificial tracker entry.
+  for(const item of candidates){
+    const url=dailyOriginalUrl(item.url);
+    const card=document.createElement('article');
+    card.className='manual-lead-card daily-unverified-card';
+    card.dataset.reviewUrl=url;
+    dailyText(card,'div','manual-lead-status','CHECK · NOT VERIFIED');
+    dailyText(card,'h3','manual-lead-title',item.title);
+    dailyText(card,'p','manual-lead-company',item.company);
+    const contract=String(item.board_contract_unverified||'');
+    const note=/umowa o prac|employment contract/i.test(contract)
+      ? 'UoP listed by board · confirm with employer'
+      : 'Contract unknown · verify UoP';
+    dailyText(card,'p','manual-lead-facts',
+      [item.location,item.work_mode,note].filter(Boolean).join(' · '));
+    const level=String(item.board_seniority_unverified||'').toLowerCase();
+    if(level.includes('junior')&&/\b(?:mid|regular)\b/i.test(level))
+      dailyText(card,'p','manual-lead-warning',
+        'Board also lists mid level · confirm junior eligibility.');
+    const skills=Array.isArray(item.board_skills_unverified)?
+      item.board_skills_unverified.filter(x=>typeof x==='string'&&x.trim()).slice(0,8):[];
+    if(skills.length)
+      dailyText(card,'p','manual-lead-skills',
+        'Board tags (not verified requirements): '+skills.map(s=>s.slice(0,60)).join(' · '));
+    const actions=document.createElement('div');
+    actions.className='manual-lead-actions';
+    const link=document.createElement('a');
+    link.className='manual-lead-open';
+    link.href=url;link.target='_blank';link.rel='noopener noreferrer';
+    link.textContent='Check original offer';
+    actions.appendChild(link);
+    const hide=document.createElement('button');
+    hide.type='button';hide.className='manual-lead-hide';hide.textContent='Not relevant';
+    hide.addEventListener('click',()=>{
+      const ignored=dailyHiddenManualLeads();
+      ignored[url]=true;
+      try{localStorage.setItem(DAILY_MANUAL_HIDDEN_KEY,JSON.stringify(ignored))}catch{}
+      render();
+    });
+    actions.appendChild(hide);
+    card.appendChild(actions);
+    host.appendChild(card);
+  }
+}
+
 function dailyRecommendations(){
   const feedback=dailyFeedback(); const tracker=getTracker();
   // The backend is the sole recommendation authority for new feeds.
@@ -134,6 +271,10 @@ getVisibleJobs=function(pinnedId=''){
   if(activeFilter!=='DAILY')return _dailyVisible(pinnedId);
   const selection=dailyRecommendations().map(x=>x.job);
   if(pinnedId){const j=jobs.find(j=>String(j.id)===String(pinnedId));if(j&&!selection.includes(j))selection.unshift(j)}
+  const seen=new Set(selection.map(job=>String(job.id)));
+  for(const old of dailyStillListedJobs()){
+    if(!seen.has(String(old.id))){selection.push(old);seen.add(String(old.id))}
+  }
   return selection;
 };
 function dailySelectionProgress(){
@@ -209,18 +350,22 @@ function dailyDecorate(){
   const kicker=document.createElement('div');kicker.className='daily-kicker';
   kicker.textContent='YOUR DAILY RECOMMENDATIONS';
   const heading=document.createElement('h2');
-  heading.textContent=progress.ready+' ready to review · '+progress.reviewOnly+
+  const older=dailyStillListedJobs().length, manual=dailyManualCandidates().length;
+  heading.textContent=(list.length+older+manual)+' Daily opportunities';
+  const statusLine=document.createElement('small');
+  statusLine.textContent=progress.ready+' ready to review · '+progress.reviewOnly+
     ' require manual CHECK · '+handled+' already handled';
   const description=document.createElement('p');
-  description.textContent='Server selected '+progress.total+' of '+n+' accepted vacancies. '+
-    progress.newlyFound+' newly found today; others are still-active carryovers. '+
-    auto+' automation-first options remain in your list. '+
-    (progress.reviewOnly?'CHECK items require verification before applying, even if the initial matcher said APPLY. ':'');
+  description.textContent=progress.newlyFound+' newly found today · '+
+    older+' previously seen (still listed) · '+manual+
+    ' unverified leads. AI CHECK and source-card leads require manual verification; '+
+    'no older listing is counted as a new posting.';
   const note=document.createElement('small');
-  note.textContent='Daily Picks is your fixed shortlist, not all jobs newly published today. '+
-    (parts.length?'Hidden on this device: '+parts.join(', ')+'. ':'')+
-    'Applying or dismissing never pulls replacement vacancies into today’s list.';
-  host.append(kicker,heading,description,note);
+  note.textContent='One list, in priority order: AI-reviewed picks, still-listed eligible roles, '+
+    'then source-only CHECK leads. '+
+    (parts.length?'Already handled: '+parts.join(', ')+'. ':'')+
+    'Your choices remain saved only on this device.';
+  host.append(kicker,heading,statusLine,description,note);
   const audit=meta?.daily_diagnostics;
   if(audit?.reasons){
     const details=document.createElement('details');
@@ -238,7 +383,9 @@ function dailyDecorate(){
     host.appendChild(details);
   }
   document.querySelectorAll('#jobs .job-card').forEach(card=>{
-    const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));if(!job||card.querySelector('.daily-vote'))return;
+    const job=jobs.find(j=>String(j.id)===String(card.dataset.jobId));
+    const strict=new Set(Array.isArray(meta?.daily_pick_ids)?meta.daily_pick_ids.map(String):list.map(x=>String(x.job.id)));
+    if(!job||!strict.has(String(job.id))||card.querySelector('.daily-vote'))return;
     const info=dailyClassify(job);
     const wrap=document.createElement('div');wrap.className='daily-vote';
     const title=String(job.title||'');
@@ -276,7 +423,7 @@ function dailyDecorate(){
   });
 }
 const _dailyRender=render;
-render=function(options={}){_dailyRender(options);dailyQuotaTop();dailyDecorate()};
+render=function(options={}){_dailyRender(options);dailyQuotaTop();dailyDecorate();dailyDecorateAdditionalCards()};
 const dailyTab=document.querySelector('[data-filter="DAILY"]');
 if(dailyTab){document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));dailyTab.classList.add('active');activeFilter='DAILY'}
 if(jobs.length)render();
