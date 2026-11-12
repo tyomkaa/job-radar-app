@@ -170,7 +170,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Junior Salesforce Consultant",
@@ -183,20 +184,16 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "2026-11-10T11:05:05.5276154Z",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior Salesforce Developer",
-        "company": "Enxoo",
-        "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-developer-warszawa-java-898781f0",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "2026-11-10T11:05:05.1566026Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": [
+          "Salesforce",
+          "Business Analysis",
+          "HTML",
+          "BPMN",
+          "Relacyjne Bazy Danych",
+          "CSS",
+          "JavaScript"
+        ]
       },
       {
         "title": "Junior BI Developer (m/k)",
@@ -209,7 +206,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Junior WEBCON Developer K/M",
@@ -222,7 +220,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
@@ -235,7 +234,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "2026-11-10T16:45:16.302158Z",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
@@ -248,7 +248,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Młodszy/a Specjalista/ka ds. Projektów IT / Junior IT Project Manager",
@@ -261,7 +262,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Młodszy Kierownik Projektu IT (K/M)",
@@ -274,7 +276,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Młodszy administrator IT",
@@ -287,7 +290,8 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": []
       },
       {
         "title": "Know Your Customer (KYC) Technology Business Analyst",
@@ -300,7 +304,31 @@
         "board_seniority_unverified": "junior",
         "board_published_at_unverified": "2026-11-11T18:55:09.3225367Z",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
+        "newly_observed_not_verified_new_posting": false,
+        "board_skills_unverified": [
+          "Business Analysis",
+          "Requirements elicitation",
+          "System Analysis",
+          "AML/KYC",
+          "Agile",
+          "Jira",
+          "Confluence",
+          "product development"
+        ]
+      },
+      {
+        "title": "Junior Technical Integration Specialist",
+        "company": "ERLI S.A.",
+        "url": "https://www.pracuj.pl/praca/junior-technical-integration-specialist-poznan-grunwaldzka-182,oferta,1005206386",
+        "source": "pracuj.pl",
+        "location": "Poland",
+        "work_mode": "Remote",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior, mid",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "newly_observed_not_verified_new_posting": null,
+        "review_status": "UNVERIFIED"
       }
     ],
     "manual_review_leads_count": 11,
