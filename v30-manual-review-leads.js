@@ -79,6 +79,17 @@
       addText(card, 'p', 'manual-lead-facts',
         [item.location, item.work_mode, contractNote]
           .filter(Boolean).join(' · '));
+      // Board metadata is not a verified employer requirement. Display it to
+      // help spot obvious mismatches (e.g. a Java-first Salesforce role)
+      // without presenting the card as an AI-approved APPLY recommendation.
+      const boardSkills = Array.isArray(item.board_skills_unverified)
+        ? item.board_skills_unverified.filter(x =>
+            typeof x === 'string' && x.trim()).slice(0, 8) : [];
+      if (boardSkills.length) {
+        addText(card, 'p', 'manual-lead-skills',
+          'Skill tags on board (unverified): ' +
+          boardSkills.map(x => x.slice(0, 60)).join(' · '));
+      }
       const actions = document.createElement('div');
       actions.className = 'manual-lead-actions';
       const link = document.createElement('a');
