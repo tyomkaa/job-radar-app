@@ -23,5 +23,4 @@ jobs:
           node tests/daily-feed-revision-integration.mjs
           node tests/daily-ai-conflict-check-integration.mjs
           node tests/daily-ai-check-ready-state.mjs
-          node tests/manual-review-leads-integration.mjs
-          node tests/still-listed-review-integration.mjs
+          node tests/daily-unified-list-integration.mjs
