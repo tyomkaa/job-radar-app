@@ -80,7 +80,7 @@
         [item.location, item.work_mode, contractNote]
           .filter(Boolean).join(' · '));
       const levels = String(item.board_seniority_unverified || '').toLowerCase();
-      if (levels.includes('junior') && /\\b(?:mid|regular)\\b/.test(levels)) {
+      if (levels.includes('junior') && /\b(?:mid|regular)\b/.test(levels)) {
         addText(card, 'p', 'manual-lead-warning',
           'Board also lists mid level — confirm that entry-level applicants are considered.');
       }
