@@ -14,7 +14,8 @@ assert(!html.includes('styles-v30-manual-leads.css'));
 assert(!serviceWorker.includes("'/v30-manual-review-leads.js'"));
 assert(!serviceWorker.includes("'/v31-still-listed.js'"));
 assert(serviceWorker.includes('v40-unified-daily'));
-assert.equal((html.match(/<button class="filter"/g)||[]).length,4);
+for(const name of ['DAILY','FOCUS','ALL','UNSEEN'])
+  assert(html.includes('data-filter="'+name+'"'),'main view '+name+' must remain');
 assert(!html.includes('id="manualReviewLeads"'));
 assert(!html.includes('id="stillListedReview"'));
 assert(source.includes("dailyDecorateAdditionalCards()"));
