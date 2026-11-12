@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-11T23:58:47.486319+00:00",
-    "found": 9220,
-    "accepted": 74,
+    "generated_at": "2026-11-12T01:15:10.450943+00:00",
+    "found": 9217,
+    "accepted": 82,
     "filtered": {
-      "Too much experience required (3+ years)": 240,
-      "Too senior / management": 4792,
-      "Contract: B2B only or UoP not confirmed": 912,
-      "Location: not Warsaw and not remote": 666,
-      "Missing a required language": 30,
-      "Different profession than your CV": 1060,
-      "Too weak a match with your CV": 35,
-      "Could not verify the vacancy page": 551,
-      "Other": 860
+      "Too much experience required (3+ years)": 256,
+      "Too senior / management": 4794,
+      "Contract: B2B only or UoP not confirmed": 915,
+      "Location: not Warsaw and not remote": 688,
+      "Missing a required language": 32,
+      "Different profession than your CV": 1064,
+      "Too weak a match with your CV": 36,
+      "Could not verify the vacancy page": 491,
+      "Other": 859
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3065
+        "fetched": 3063
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -63,8 +63,7 @@
     },
     "version": 1,
     "daily_pick_ids": [
-      "1275f6733486bb47",
-      "f7185f8d0799ee41"
+      "1275f6733486bb47"
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
@@ -73,7 +72,6 @@
       "11fd86f842fa25b1",
       "e9f7e10b2ad0e7b4",
       "8f4c3da26e07c8b8",
-      "f7185f8d0799ee41",
       "22e5639c1c588154",
       "c77453e702de8a83",
       "dc48607353d4d5b1",
@@ -84,21 +82,22 @@
       "e85e13a9654ddd6c",
       "0cd976adf7f21e24",
       "7b38941f5f064f03",
+      "eaefb0b2ebc3078d",
       "f87fe97c17e0414f",
+      "f7185f8d0799ee41",
       "345b73f850f5eb5a",
       "a1afcc605c4351d7",
       "087f74326a6dcf0e",
       "e48b5ba58039e515",
       "99c99c9bfb69d790",
       "bfc8976d02c84eb6",
+      "00b5a3130b063964",
+      "9223599c2eeade42",
       "7e7be59d16b1ab49",
       "157ec798a5eecd39",
       "de7ce96492d15e28"
     ],
-    "ai_disputed_focus_ids": [
-      "8fd28842829f3a77",
-      "7b38941f5f064f03"
-    ],
+    "ai_disputed_focus_ids": [],
     "fresh_opportunity_ids": [
       "1275f6733486bb47",
       "491b35925fcab244",
@@ -121,11 +120,11 @@
       "de7ce96492d15e28"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 74,
-      "shortlisted": 2,
+      "feed_candidates": 82,
+      "shortlisted": 1,
       "daily_review_only": 0,
-      "focus_total": 26,
-      "ai_disputed_focus": 2,
+      "focus_total": 29,
+      "ai_disputed_focus": 0,
       "focus_stretch": 10,
       "recent_opportunities": 4,
       "recent_strict": 1,
@@ -136,26 +135,25 @@
       },
       "automation": 1,
       "direction_counts": {
-        "network": 2,
-        "software_adjacent": 6,
+        "network": 3,
+        "software_adjacent": 8,
         "automation": 8,
         "bridge": 4,
-        "other": 47,
+        "other": 52,
         "systems": 7
       },
-      "junior_title_candidates": 25,
+      "junior_title_candidates": 26,
       "junior_excluded_by_direction": 15,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
-        "old_discovery_focus_only": 2,
-        "hard_prerequisite_unverified": 2,
-        "qualified": 2,
-        "exploratory_only": 2,
-        "ai_skip": 2,
-        "career_direction": 47,
+        "old_discovery_focus_only": 4,
+        "hard_prerequisite_unverified": 3,
+        "qualified": 1,
+        "exploratory_only": 4,
+        "career_direction": 52,
         "remote_needs_confirmation": 1,
         "backend_tier": 11,
-        "mid_level": 5
+        "mid_level": 6
       }
     },
     "manual_review_leads": [
@@ -168,10 +166,10 @@
         "work_mode": "Hybrid",
         "board_contract_unverified": "Umowa o pracę / Employment contract",
         "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
+        "newly_observed_not_verified_new_posting": false
       },
       {
         "title": "Junior Salesforce Consultant",
@@ -182,9 +180,6 @@
         "work_mode": "Hybrid",
         "board_contract_unverified": "Umowa o pracę / Employment contract",
         "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "2026-11-10T11:05:05.5276154Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
         "board_skills_unverified": [
           "Salesforce",
           "Business Analysis",
@@ -193,128 +188,10 @@
           "Relacyjne Bazy Danych",
           "CSS",
           "JavaScript"
-        ]
-      },
-      {
-        "title": "Junior BI Developer (m/k)",
-        "company": "POLENERGIA S.A.",
-        "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
+        ],
+        "board_published_at_unverified": "2026-11-10T11:05:05.5276154Z",
         "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Junior WEBCON Developer K/M",
-        "company": "VINCI Construction Usługi Wsparcia",
-        "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
-        "company": "Bank BPS S.A.",
-        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "2026-11-10T16:45:16.302158Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
-        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa,oferta,1005174888",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Młodszy/a Specjalista/ka ds. Projektów IT / Junior IT Project Manager",
-        "company": "MOREBIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-projektow-it-junior-it-project-manager-warszawa-tytusa-chalubinskiego-8,oferta,1005198100",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Młodszy Kierownik Projektu IT (K/M)",
-        "company": "Polmlek Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-kierownik-projektu-it-k-m-warszawa,oferta,1005178955",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Młodszy administrator IT",
-        "company": "Zepter IT Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-warszawa,oferta,1005212166",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": []
-      },
-      {
-        "title": "Know Your Customer (KYC) Technology Business Analyst",
-        "company": "Citigroup",
-        "url": "https://justjoin.it/job-offer/citigroup-know-your-customer-kyc-technology-business-analyst-warsaw-ux",
-        "source": "justjoin.it",
-        "location": "Warsaw",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "",
-        "board_seniority_unverified": "junior",
-        "board_published_at_unverified": "2026-11-11T18:55:09.3225367Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false,
-        "board_skills_unverified": [
-          "Business Analysis",
-          "Requirements elicitation",
-          "System Analysis",
-          "AML/KYC",
-          "Agile",
-          "Jira",
-          "Confluence",
-          "product development"
-        ]
+        "newly_observed_not_verified_new_posting": false
       },
       {
         "title": "Junior Technical Integration Specialist",
@@ -327,31 +204,170 @@
         "board_seniority_unverified": "junior, mid",
         "board_skills_unverified": [],
         "board_published_at_unverified": "",
-        "newly_observed_not_verified_new_posting": null,
-        "review_status": "UNVERIFIED"
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Junior BI Developer (m/k)",
+        "company": "POLENERGIA S.A.",
+        "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Junior WEBCON Developer K/M",
+        "company": "VINCI Construction Usługi Wsparcia",
+        "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Office",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
+        "company": "Bank BPS S.A.",
+        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Project Management",
+          "PRINCE2",
+          "PMI"
+        ],
+        "board_published_at_unverified": "2026-11-10T16:45:16.302158Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy Administrator IT / Młodsza Administratorka IT",
+        "company": "Elmark Automatyka S.A.",
+        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-mlodsza-administratorka-it-warszawa-bukowinska-22,oferta,1005158492",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Office",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior, mid",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
+        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa,oferta,1005174888",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy/a Specjalista/ka ds. Projektów IT / Junior IT Project Manager",
+        "company": "MOREBIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-projektow-it-junior-it-project-manager-warszawa-tytusa-chalubinskiego-8,oferta,1005198100",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Office",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy Kierownik Projektu IT (K/M)",
+        "company": "Polmlek Sp. z o.o.",
+        "url": "https://www.pracuj.pl/praca/mlodszy-kierownik-projektu-it-k-m-warszawa,oferta,1005178955",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Office",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy administrator IT",
+        "company": "Zepter IT Sp. z o.o.",
+        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-warszawa,oferta,1005212166",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Know Your Customer (KYC) Technology Business Analyst",
+        "company": "Citigroup",
+        "url": "https://justjoin.it/job-offer/citigroup-know-your-customer-kyc-technology-business-analyst-warsaw-ux",
+        "source": "justjoin.it",
+        "location": "Warsaw",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Business Analysis",
+          "Requirements elicitation",
+          "System Analysis",
+          "AML/KYC",
+          "Agile",
+          "Jira",
+          "Confluence",
+          "product development"
+        ],
+        "board_published_at_unverified": "2026-11-11T18:55:09.3225367Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
       }
     ],
-    "manual_review_leads_count": 11,
+    "manual_review_leads_count": 12,
     "ai_budget": {
-      "date_utc": "2026-11-11",
+      "date_utc": "2026-11-12",
       "used": 1,
       "limit": 20,
       "remaining": 19,
-      "checked_at_utc": "2026-11-11T23:58:54.363439+00:00"
+      "checked_at_utc": "2026-11-12T01:15:17.460756+00:00"
     },
     "ai_automatic": {
-      "eligible": 2,
+      "eligible": 1,
       "new": 1,
       "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 5,
+      "reused": 0,
       "unreviewed": 0,
       "fresh_total": 4,
       "fresh_reviewed": 1,
-      "daily_total": 2,
-      "daily_reviewed": 2,
-      "feed_reviewed": 6
+      "daily_total": 1,
+      "daily_reviewed": 1,
+      "feed_reviewed": 1
     }
   },
   "jobs": [
@@ -471,7 +487,7 @@
       "work_mode": "Remote",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-11T08:20:09.3895341Z",
+      "published_at": "2026-11-11T08:20:09.389534Z",
       "fit_score": 77,
       "match_level": "STRONG",
       "recommendation_tier": "APPLY",
@@ -513,21 +529,21 @@
       "first_found_at": "2026-11-11T23:58:47.486319+00:00",
       "ai_review": {
         "verdict": "CHECK",
-        "explanation": "Вакансия требует AI-инструментов (Gemini, Claude, ChatGPT) и JavaScript, которых нет в описании кандидата. Однако есть Python/автоматизация и опыт с API/SQL, соответствующие части требованиям.",
+        "explanation": "Вакансия требует навыков работы с Gemini, Claude и ChatGPT, которые не упомянуты в профиле кандидата. Хотя есть опыт Python и AI, отсутствует подтверждение соответствия требованиям junior (0 лет опыта) и конкретным инструментам.",
         "strengths": [
-          "Python-автоматизация и интеграция API в портфолио",
-          "Опыт с SQL/PostgreSQL и data processing",
-          "Работа с SaaS-интеграциями и DevOps-инструментами"
+          "Опыт автоматизации процессов на Python (Playwright, openpyxl, API интеграции)",
+          "Наличие SaaS-проектов с использованием Python и PostgreSQL",
+          "Знание AI-инструментов (включая курс Genius.Space AI Automator)"
         ],
         "gaps": [
-          "Отсутствие прямого опыта с Gemini, Claude или ChatGPT",
-          "Нет упоминания JavaScript в профессиональных проектах",
-          "Не подтверждено практическое применение AI для автоматизации процессов"
+          "Отсутствие опыта с Gemini, Claude или конкретными инструментами AI из требований",
+          "Неясно, соответствует ли кандидат уровню junior (0 лет опыта)",
+          "Нет упоминания о работе с JavaScript, указанной в требованиях"
         ],
-        "verify": "Уточнить наличие опыта с конкретными AI-инструментами и JavaScript в проектах.",
-        "suggested_cv": "General"
+        "verify": "Проверить наличие опыта с Gemini/Claude и подтверждение уровня junior.",
+        "suggested_cv": "Automation"
       },
-      "ai_review_fingerprint": "44f28d8269c14b7b7d6af187"
+      "ai_review_fingerprint": "89a088f672fe49d5f95d962e"
     },
     {
       "id": "bfc8976d02c84eb6",
@@ -627,24 +643,7 @@
       "interest_tags": [
         "automation"
       ],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия связана с маркетингом, а не с автоматизацией процессов/интеграцией систем, что не соответствует профилю кандидата.",
-        "strengths": [
-          "Опыт автоматизации с Python/Playwright/openpyxl",
-          "Навыки работы с SQL/PostgreSQL и SaaS-интеграцией",
-          "Практика в разработке workflow и системной автоматизации"
-        ],
-        "gaps": [
-          "Отсутствие подтверждённого опыта в маркетинге или CRM-автоматизации",
-          "Вакансия требует 1+ года в маркетинге, что не соответствует текущему профилю",
-          "Нет указания на связь с автоматизацией процессов в маркетинге"
-        ],
-        "verify": "Проверить, есть ли в описании вакансии явные требования к техническим навыкам автоматизации/интеграции систем.",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "33c2458d5d9e47a65e1d47e9"
+      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
     },
     {
       "id": "2dd33848c1257f3e",
@@ -740,24 +739,7 @@
         "suggested_cv": "Network & IT Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия фокусируется на операционной поддержке сетей передачи данных, а не на автоматизации, интеграции систем или Python-проектах. Требования не соответствуют профилю кандидата.",
-        "strengths": [
-          "Опыт автоматизации Python (Playwright, openpyxl, GitHub Actions)",
-          "Свободное владение SQL/PostgreSQL и SaaS-интеграцией",
-          "Проекты по автоматизации форм-к-лидам и обработке данных"
-        ],
-        "gaps": [
-          "Отсутствие прямого опыта в операционной поддержке сетей LTE450",
-          "Нет упоминания о знании стандартов телекоммуникационных сетей в резюме",
-          "Фокус на сетевом инженеринге, а не на автоматизации процессов"
-        ],
-        "verify": "Проверено соответствие требований вакансии и профиля кандидата. Роль не соответствует карьерным приоритетам в автоматизации и интеграции систем.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "546721a6bcdc745954e1dffe"
+      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
     },
     {
       "id": "e22daed6f25a53f8",
@@ -1054,24 +1036,7 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-01T17:37:28.080765+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Вакансия соответствует требованиям: удалёнка из Польши, junior, 0 лет опыта. Кандидат имеет Python, SQL, автоматизацию и интеграцию систем, что соответствует ожиданиям. Нет указаний на B2B-only или senior-требования.",
-        "strengths": [
-          "Наличие Python-автоматизации и интеграции API",
-          "Опыт работы с SQL/PostgreSQL и данными",
-          "Проекты в области автоматизации и обработки данных"
-        ],
-        "gaps": [
-          "Отсутствие прямого опыта с Copilot Studio, но это не указано как обязательное требование",
-          "Нет упоминания о MLOps, но вакансия не требует AI/ML",
-          "Нет коммерческого опыта более 3 лет, но вакансия — junior"
-        ],
-        "verify": "Уточнить, является ли компания UoP и подтверждение удалённого режима из Польши.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "c50b88c09613a15b11f8894c"
+      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
     },
     {
       "id": "6f8ec3ae51fec132",
@@ -1320,23 +1285,59 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T01:13:20.568059+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Вакансия соответствует требованиям: уровень junior, 0 лет опыта, локация Warsaw/hybrid. Кандидат имеет опыт Python-автоматизации, SQL/PostgreSQL и системной интеграции, соответствующий задачам.",
-        "strengths": [
-          "Python-автоматизация и интеграция API",
-          "Опыт работы с SQL/PostgreSQL и данными",
-          "Системная интеграция и документирование решений"
+      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
+    },
+    {
+      "id": "00b5a3130b063964",
+      "title": "System Support Engineer - AI Supercomputers (junior/mid)",
+      "company": "ALTEN Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/alten-polska-system-support-engineer---ai-supercomputers-junior-mid--warszawa-admin",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a3d86675663741b18efdb8aca284b25b",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-11T10:50:13.496358Z",
+      "fit_score": 64,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 2,
+      "summary": "What you'll do: As a leader in engineering and IT services, we support companies in their technological and sustainable transformation; OVER 57,400 EMPLOYEES IN 30+ COUNTRIES , SUPPORTING MORE THAN 6,500 CLIENTS WORLDWIDE; For more information, visit : http://www.altenpolska.pl We're Hiring System Support Engineer! | What they expect: Strong Linux administration and troubleshooting skills (minimum 2 years of experience); Knowledge of IP networking concepts: DNS, DHCP, routing, and switching (minimum 2 years of experience); Hardware/Firmware troubleshooting skills, including knowledge of bare-metal servers, BIOS, and BMC systems | What they offer: responsible, sustainable development; Benefits; Benefits platform",
+      "summary_tasks": [
+        "As a leader in engineering and IT services, we support companies in their technological and sustainable transformation",
+        "OVER 57,400 EMPLOYEES IN 30+ COUNTRIES , SUPPORTING MORE THAN 6,500 CLIENTS WORLDWIDE",
+        "For more information, visit : http://www.altenpolska.pl We're Hiring System Support Engineer!"
+      ],
+      "summary_expectations": [
+        "Strong Linux administration and troubleshooting skills (minimum 2 years of experience)",
+        "Knowledge of IP networking concepts: DNS, DHCP, routing, and switching (minimum 2 years of experience)",
+        "Hardware/Firmware troubleshooting skills, including knowledge of bare-metal servers, BIOS, and BMC systems"
+      ],
+      "summary_offers": [
+        "responsible, sustainable development",
+        "Benefits",
+        "Benefits platform"
+      ],
+      "required_skills": [
+        "Linux"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: network, networking, routing",
+          "Linux / Git: linux"
         ],
-        "gaps": [
-          "Нет упоминания о специфических инструментах из описания вакансии",
-          "Опыт freelance-разработки может превышать уровень junior"
+        "concerns": [
+          "Asks for 2 years"
         ],
-        "verify": "Проверить соответствие задач вакансии (работа с данными, SQL, документирование) и наличия требуемых навыков у кандидата.",
-        "suggested_cv": "General"
+        "tier_reason": "Capped at 64: Asks for 2 years.",
+        "suggested_cv": "Systems & Application Support"
       },
-      "ai_review_fingerprint": "ee94e12e46bb4df5162bf5d2"
+      "interest_tags": [],
+      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
       "id": "1105ef13c6b0ad22",
@@ -1588,24 +1589,7 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-04T23:07:40.258666+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия требует навыков в области IT-поддержки, документации и Microsoft-экосистемы, в то время как кандидат фокусируется на автоматизации, SaaS и сетевых инженерных задачах. Нет прямого соответствия ключевым требованиям вакансии.",
-        "strengths": [
-          "Опыт в сетевых инженерных задачах (Huawei, DNS/DHCP)",
-          "Навыки Python/автоматизации и SaaS-интеграции",
-          "Знание SQL/PostgreSQL и Linux/Docker"
-        ],
-        "gaps": [
-          "Отсутствие опыта с Active Directory, Microsoft 365/Intune",
-          "Фокус на автоматизацию/разработку, а не на IT-поддержку/документацию",
-          "Нет упоминания о подготовке аналитических отчетов"
-        ],
-        "verify": "Проверить, есть ли в портфолио примеры работы с Microsoft-системами или документацией. Уточнить, насколько опыт в SaaS-интеграции соответствует требованиям IT-поддержки.",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "6f619e2dee51332dbd599ed3"
+      "first_found_at": "2026-11-04T23:07:40.258666+00:00"
     },
     {
       "id": "a1afcc605c4351d7",
@@ -1619,7 +1603,7 @@
       "work_mode": "Office",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-11T14:05:04.7105613Z",
+      "published_at": "2026-11-11T14:05:04.710561Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -1739,7 +1723,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-11T13:35:02.3181761Z",
+      "published_at": "2026-11-11T13:35:02.318176Z",
       "fit_score": 60,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -2540,6 +2524,279 @@
       "first_found_at": "2026-11-11T07:41:52.637853+00:00"
     },
     {
+      "id": "9223599c2eeade42",
+      "title": "System Analyst | Branża Bankowa",
+      "company": "Edge One Solutions Sp. z o.o",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-system-analyst-branza-bankowa-warszawa-analytics-7b437a51",
+      "apply_url": "https://edge1s.recruitify.ai/job/2f574ae8-6b7e-4fe7-8103-b33e3e0944e9?sourceId=37",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T06:40:11.781163Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Model współpracy Świadczenie usług odbywa się w trybie hybrydowym; Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje | What they expect: 4 dni w miesiącu z biura klienta w Warszawie Realizację projektu ułatwi Ci Wykształcenie wyższe kierunkowe (informatyka, matematyka, ekonomia lub pokrewne) Znajomość notacji UML i BPMN Znajomość metodyk pozyskiwania, strukturyzowania i modelowania wymagań Zrozumienie technologii IT (API, bazy danych, architektura systemów) Doświadczenie w modelowaniu biznesowym z wykorzystaniem technik przypadków użycia; Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji; dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange; sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował? | What they offer: wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi; Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym; Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym",
+      "summary_tasks": [
+        "Model współpracy Świadczenie usług odbywa się w trybie hybrydowym",
+        "Zyskujesz indywidualne wsparcie Service Delivery Managera, który pomoże Ci zaplanować ścieżkę kariery i zadba o Twój komfort i satysfakcję z pracy w projekcie Szkolenia, certyfikaty i konferencje"
+      ],
+      "summary_expectations": [
+        "4 dni w miesiącu z biura klienta w Warszawie Realizację projektu ułatwi Ci Wykształcenie wyższe kierunkowe (informatyka, matematyka, ekonomia lub pokrewne) Znajomość notacji UML i BPMN Znajomość metodyk pozyskiwania, strukturyzowania i modelowania wymagań Zrozumienie technologii IT (API, bazy danych, architektura systemów) Doświadczenie w modelowaniu biznesowym z wykorzystaniem technik przypadków użycia",
+        "Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji",
+        "dofinansowujemy lub w pełni pokrywamy koszty rozwoju kompetencji technicznych #SmartChange",
+        "sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym Nie spełniasz wszystkich wymagań, a projekt Cię zainteresował?"
+      ],
+      "summary_offers": [
+        "wyjścia integracyjne, aktywności sportowe i inspirujące webinary #edge1talks, które rozwijają i łączą ludzi",
+        "Pakiet zdrowotny – prywatna opieka, karta sportowa, ubezpieczenie i platforma ze wsparciem psychologicznym",
+        "Elastyczne benefity – sam decydujesz, na co przeznaczasz punkty w naszym systemie benefitowym"
+      ],
+      "required_skills": [
+        "MS Office",
+        "UML",
+        "BPMN",
+        "Jira",
+        "Confluence",
+        "SQL"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql",
+          "Python & automation: api"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-27T07:57:08.931126+00:00"
+    },
+    {
+      "id": "e26992c4bd1661b1",
+      "title": "Administrator Linux",
+      "company": "Agencja Wywiadu",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/agencja-wywiadu-administrator-linux-warszawa-admin-468b090f",
+      "apply_url": "https://aw.gov.pl/pl/kariera/kariera/339,administratora-Linux.html#Administrator%20Linux",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T11:25:11.581043Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Na czym będzie polegać twoja praca: Administrowanie systemami operacyjnymi Linux, Utrzymanie i zapewnianie ciągłości działania systemów, Monitoring stanu serwerów i rozwiązywanie bieżących problemów, Zarządzanie kopiami zapasowymi danych i procedurami przywracania, Optymalizacja wydajności systemów i aplikacji, Dbanie o bezpieczeństwo systemów informatycznych i danych; Mile widziane: Znajomość systemów monitorowania, takich jak Zabbix, Prometheus, Podstawowa znajomość języków programowania (Python, Go), Umiejętność pisania skryptów Bash, Doświadczenie w pracy z GitLab | What they expect: Bardzo dobrej znajomości systemów Linux (preferowane rodziny RedHat i Debian); Doświadczenia w administracji serwerami, w tym patchowania i podnoszenia wersji oprogramowania; Znajomości narzędzi do wirtualizacji i konteneryzacji | What they offer: Budżet szkoleniowy do wykorzystania; Elastyczny godziny pracy; Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)",
+      "summary_tasks": [
+        "Na czym będzie polegać twoja praca: Administrowanie systemami operacyjnymi Linux, Utrzymanie i zapewnianie ciągłości działania systemów, Monitoring stanu serwerów i rozwiązywanie bieżących problemów, Zarządzanie kopiami zapasowymi danych i procedurami przywracania, Optymalizacja wydajności systemów i aplikacji, Dbanie o bezpieczeństwo systemów informatycznych i danych",
+        "Mile widziane: Znajomość systemów monitorowania, takich jak Zabbix, Prometheus, Podstawowa znajomość języków programowania (Python, Go), Umiejętność pisania skryptów Bash, Doświadczenie w pracy z GitLab"
+      ],
+      "summary_expectations": [
+        "Bardzo dobrej znajomości systemów Linux (preferowane rodziny RedHat i Debian)",
+        "Doświadczenia w administracji serwerami, w tym patchowania i podnoszenia wersji oprogramowania",
+        "Znajomości narzędzi do wirtualizacji i konteneryzacji"
+      ],
+      "summary_offers": [
+        "Budżet szkoleniowy do wykorzystania",
+        "Elastyczny godziny pracy",
+        "Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)"
+      ],
+      "required_skills": [
+        "Proxmox",
+        "Linux",
+        "VMware"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Linux / Git: linux",
+          "Python & automation: python, skrypt"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-13T06:57:31.430102+00:00"
+    },
+    {
+      "id": "a6cbe440bd5811e1",
+      "title": "Specjalista ds. cyberobrony w obszarze SOC - Security Operations Center",
+      "company": "Agencja Wywiadu",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/agencja-wywiadu-specjalista-ds-cyberobrony-w-obszarze-soc---security-operations-center-warszawa-security-ff7f8250",
+      "apply_url": "https://aw.gov.pl/pl/kariera/kariera/376,specjalisty-ds-cyberobrony-w-obszarze-SOC-Security-Operations-Center.html#",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T11:25:11.554364Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Zabezpieczamy, monitorujemy, reagujemy; DO TWOICH OBOWIĄZKÓW BĘDZIE NALEŻAŁO: Obsługa zdarzeń/incydentów dot; konfiguracji systemów/sieci, Współpraca i kontakt z podmiotami zewnętrznymi w zakresie obsługi systemów/integracji ze źródłami danych, Ocena bezpieczeństwa istniejących systemów | What they expect: WYMAGAMY: Wyższego wykształcenia technicznego (telekomunikacja, informatyka lub podobne), Umiejętności administrowania systemami Windows lub Linux (Red Hat, Debian), Umiejętności konfiguracji urządzeń sieciowych, Znajomości technologii, urządzeń i protokołów używanych w sieciach teleinformatycznych, Znajomości systemów wirtualizacji i konteneryzacji, Znajomości języka angielskiego w stopniu co najmniej umożliwiającym korzystanie z dokumentacji technicznej | What they offer: Możliwość dynamicznego rozwoju poprzez udział w szkoleniach oraz konferencjach zagranicznych; Elastyczne godziny pracy; Warszawa (brak możliwości pracy zdalnej)",
+      "summary_tasks": [
+        "Zabezpieczamy, monitorujemy, reagujemy",
+        "DO TWOICH OBOWIĄZKÓW BĘDZIE NALEŻAŁO: Obsługa zdarzeń/incydentów dot",
+        "konfiguracji systemów/sieci, Współpraca i kontakt z podmiotami zewnętrznymi w zakresie obsługi systemów/integracji ze źródłami danych, Ocena bezpieczeństwa istniejących systemów"
+      ],
+      "summary_expectations": [
+        "WYMAGAMY: Wyższego wykształcenia technicznego (telekomunikacja, informatyka lub podobne), Umiejętności administrowania systemami Windows lub Linux (Red Hat, Debian), Umiejętności konfiguracji urządzeń sieciowych, Znajomości technologii, urządzeń i protokołów używanych w sieciach teleinformatycznych, Znajomości systemów wirtualizacji i konteneryzacji, Znajomości języka angielskiego w stopniu co najmniej umożliwiającym korzystanie z dokumentacji technicznej"
+      ],
+      "summary_offers": [
+        "Możliwość dynamicznego rozwoju poprzez udział w szkoleniach oraz konferencjach zagranicznych",
+        "Elastyczne godziny pracy",
+        "Warszawa (brak możliwości pracy zdalnej)"
+      ],
+      "required_skills": [
+        "Windows",
+        "Linux",
+        "Debian",
+        "Red Hat"
+      ],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations",
+          "Python & automation: integracja"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-13T06:57:31.430102+00:00"
+    },
+    {
+      "id": "eaefb0b2ebc3078d",
+      "title": "Inżynier systemowo-sieciowy",
+      "company": "Agencja Wywiadu",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/agencja-wywiadu-inzynier-systemowo-sieciowy-warszawa-other",
+      "apply_url": "https://aw.gov.pl/pl/kariera/kariera/358,inzyniera-systemowo-sieciowego.html#In%C5%BCynier%20systemowo-sieciowy",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T11:20:11.248437Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto | What they expect: Wiedza techniczna uzupełniona kreatywnością i ciągłym doskonaleniem swoich umiejętności to idealny zestaw umiejętności na tym stanowisku; WYMAGAMY: Doświadczenia: minimum 3 lata doświadczenia pracy z sieciami lub serwerami, Wykształcenia: mile widziane wykształcenie techniczne, Umiejętności sieciowych: podstawowa wiedza na temat działania sieci, stosu TCP/IP; w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto | What they offer: Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach; Szkolenia wewnętrzne; Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)",
+      "summary_tasks": [
+        "w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto"
+      ],
+      "summary_expectations": [
+        "Wiedza techniczna uzupełniona kreatywnością i ciągłym doskonaleniem swoich umiejętności to idealny zestaw umiejętności na tym stanowisku",
+        "WYMAGAMY: Doświadczenia: minimum 3 lata doświadczenia pracy z sieciami lub serwerami, Wykształcenia: mile widziane wykształcenie techniczne, Umiejętności sieciowych: podstawowa wiedza na temat działania sieci, stosu TCP/IP",
+        "w sprawie wysokości świadczenia teleinformatycznego dla osób realizujących zadania z zakresu cyberbezpieczeństwa, Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach, Szkolenia wewnętrzne, Przestrzeń do eksperymentowania z nowymi rozwiązaniami, Stabilne warunki zatrudnienia, Elastyczne godziny pracy, Możliwość doskonalenia kompetencji językowych, Dofinansowanie karnetów sportowych, Opiekę medyczną, Miejsca parkingowe, Wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto"
+      ],
+      "summary_offers": [
+        "Rozwój poprzez szkolenia i certyfikacje, udział w konferencjach",
+        "Szkolenia wewnętrzne",
+        "Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)"
+      ],
+      "required_skills": [
+        "Linux",
+        "VPN",
+        "Windows",
+        "Network",
+        "MS SQL"
+      ],
+      "fit_notes": {
+        "direction": "Network / NOC / Telecom",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: network, tcp/ip",
+          "Linux / Git: linux"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Network & IT Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-13T06:57:31.430102+00:00"
+    },
+    {
+      "id": "71326bb2249dd974",
+      "title": "Serwisant IT/Serwisantka IT",
+      "company": "KAMSOFT S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/kamsoft-s-a--serwisant-serwisantka-warszawa-admin",
+      "apply_url": "https://kandydat-submit.kamsoft.pl/rekrutacja/91458102fdc3407694a1d2c0d90f7660",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T10:25:10.172858Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników; Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia | What they expect: Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows; Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych; Doświadczenie w pracy na podobnym stanowisku | What they offer: Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność; Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników; Okresowe szkolenia użytkowników",
+      "summary_tasks": [
+        "Główne zadania: Wsparcie techniczne dla użytkowników systemów informatycznych, działających w aptekach i sieciach aptek, Instalacja i konfiguracja oprogramowania i sprzętu u Klientów, Monitorowanie i diagnostyka działania systemów u Klientów, Okresowe szkolenia użytkowników",
+        "Oferujemy: Pracując u nas, zyskujesz nie tylko stabilne zatrudnienie, przyjazną atmosferę, czy możliwość współpracy ze świetnymi specjalistami, ale także możesz skorzystać z całego katalogu różnych benefitów, aktywności i możliwości rozwojowych, które wspomagają obszary: Zdrowie: prywatne ubezpieczenie medyczne, akcje prozdrowotne, prywatne ubezpieczenie na życie Rozwój: możliwość udziału w szkoleniach wewnętrznych, zewnętrznych i konferencjach, certyfikacje Rozrywka: imprezy integracyjne, kręgle, imprezy rodzinne: Mikołajki, Dni Dziecka, konkursy firmowe Sport: karty MultiSport, imprezy sportowe, dofinansowanie do sportu i rekreacji Przyszłość: Pracowniczy Program Emerytalny I inne: abonament telefoniczny i internetowy, Kafeteria Benefitów, Zakładowy Fundusz Socjalny, pełne wyposażenie stanowiska pracy, bezpłatny parking firmowy, wyjazdy zagraniczne, firmowa kuchnia"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość zagadnień związanych ze sprzętem komputerowym, infrastrukturą sieciową, systemami operacyjnymi i serwerowymi Windows",
+        "Umiejętność naprawy, serwisowania komputerów, laptopów, drukarek, drukarek fiskalnych",
+        "Doświadczenie w pracy na podobnym stanowisku"
+      ],
+      "summary_offers": [
+        "Ciągły rozwój jest jedną z głównych zasad na których opieramy naszą działalność",
+        "Jesteśmy stabilnym pracodawcą, oferujemy także wiele możliwości rozwoju oraz aktywnie wspieramy pasje naszych pracowników",
+        "Okresowe szkolenia użytkowników"
+      ],
+      "required_skills": [
+        "SQL",
+        "Windows",
+        "Windows Server",
+        "Helpdesk",
+        "IT Support"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
       "id": "7e7be59d16b1ab49",
       "title": "Junior Backend Developer",
       "company": "CTHINGS.CO sp. z o.o.",
@@ -2602,7 +2859,7 @@
       "work_mode": "Remote",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-11T07:45:04.0251985Z",
+      "published_at": "2026-11-11T07:45:04.025198Z",
       "fit_score": 58,
       "match_level": "MEDIUM",
       "recommendation_tier": "POSSIBLE",
@@ -3383,6 +3640,67 @@
       "first_found_at": "2026-10-28T07:52:46.039623+00:00"
     },
     {
+      "id": "81b32259f233d3e4",
+      "title": "Specjalista ds. Monitoringu Systemów Linux",
+      "company": "Antal Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/antal-sp-z-o-o--specjalista-ds-monitoringu-systemow-linux-warszawa-devops",
+      "apply_url": "https://antalpl.traffit.com/public/form/a/4f8cac3ed52dbdb6aa50210f84e167db445967736950343d?source=justjoin.it",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T08:05:08.223038Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 1,
+      "summary": "What you'll do: Szukamy osoby, która będzie dbać o stabilność krytycznych systemów obsługujących miliony transakcji każdego dnia; Twoje zadania Monitorowanie systemów Linux obsługujących transakcje w czasie rzeczywistym; Identyfikacja oraz obsługa incydentów zgodnie z procedurami operacyjnymi | What they expect: Szukamy osoby, która Posiada minimum rok doświadczenia w obszarze monitoringu, NOC, utrzymania systemów lub wsparcia IT; Dodatkowym atutem będzie Doświadczenie w środowiskach wysokiej dostępności i systemach o dużym obciążeniu; Znajomość podstaw skryptowania (Bash, Python) | What they offer: ✅ Prywatną opiekę medyczną Lux Med oraz ubezpieczenie; ✅ Workation, kafeterię benefitową oraz kartę lunchową; ✅ Budżet szkoleniowy i dostęp do platformy Udemy",
+      "summary_tasks": [
+        "Szukamy osoby, która będzie dbać o stabilność krytycznych systemów obsługujących miliony transakcji każdego dnia",
+        "Twoje zadania Monitorowanie systemów Linux obsługujących transakcje w czasie rzeczywistym",
+        "Identyfikacja oraz obsługa incydentów zgodnie z procedurami operacyjnymi"
+      ],
+      "summary_expectations": [
+        "Szukamy osoby, która Posiada minimum rok doświadczenia w obszarze monitoringu, NOC, utrzymania systemów lub wsparcia IT",
+        "Dodatkowym atutem będzie Doświadczenie w środowiskach wysokiej dostępności i systemach o dużym obciążeniu",
+        "Znajomość podstaw skryptowania (Bash, Python)"
+      ],
+      "summary_offers": [
+        "✅ Prywatną opiekę medyczną Lux Med oraz ubezpieczenie",
+        "✅ Workation, kafeterię benefitową oraz kartę lunchową",
+        "✅ Budżet szkoleniowy i dostęp do platformy Udemy"
+      ],
+      "required_skills": [
+        "Linux",
+        "Bash",
+        "Python",
+        "ITIL",
+        "Splunk",
+        "Grafana",
+        "Zabbix",
+        "DevOps"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: noc",
+          "Linux / Git: linux",
+          "Python & automation: python, skrypt"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Requires Splunk"
+        ],
+        "tier_reason": "Capped at 54: Requires Splunk.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-18T06:53:32.120872+00:00"
+    },
+    {
       "id": "2f73da43d7a68f9b",
       "title": "Junior Frontend Developer",
       "company": "Fundacja Szkoła w Chmurze",
@@ -3852,7 +4170,7 @@
       "work_mode": "Hybrid",
       "seniority": "mid",
       "salary": "",
-      "published_at": "2026-11-11T09:05:14.7412316Z",
+      "published_at": "2026-11-11T09:05:14.741231Z",
       "fit_score": 52,
       "match_level": "MEDIUM",
       "recommendation_tier": "STRETCH",
@@ -4198,6 +4516,60 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-01T18:13:56.433414+00:00"
+    },
+    {
+      "id": "274bf1472f3c4b1f",
+      "title": "Web Analyst | f/m/d",
+      "company": "ERGO Technology & Services",
+      "location": "Warszawa, Gdańsk",
+      "url": "https://justjoin.it/job-offer/ergo-technology-services-web-analyst-f-m-d-warszawa-analytics",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=2be981dae15144fab085ccb45d7a235c",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-11T10:45:12.701392Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: On the business side, we also support the Group in various end-to-end insurance processes, including finance, operations, and underwriting; How you will get the job done supporting implementation, configuration | What they expect: Your qualiﬁcations, experience, and mindset are our greatest beneﬁt! | What they offer: our employees flexible working hours, a confidential employee assistant program, as well as the possibility of remote working; However, staying at home with our in-office gaming room and dog-friendly office in Warsaw won’t be easy; We organize numerous workshops and training courses",
+      "summary_tasks": [
+        "On the business side, we also support the Group in various end-to-end insurance processes, including finance, operations, and underwriting",
+        "How you will get the job done supporting implementation, configuration"
+      ],
+      "summary_expectations": [
+        "Your qualiﬁcations, experience, and mindset are our greatest beneﬁt!"
+      ],
+      "summary_offers": [
+        "our employees flexible working hours, a confidential employee assistant program, as well as the possibility of remote working",
+        "However, staying at home with our in-office gaming room and dog-friendly office in Warsaw won’t be easy",
+        "We organize numerous workshops and training courses"
+      ],
+      "required_skills": [
+        "AWS",
+        "web analytics",
+        "SQL"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, analytics",
+          "B2B / CRM operations: operations"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires AWS",
+          "Mentions AWS"
+        ],
+        "tier_reason": "Capped at 54: Requires AWS.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-12T01:15:10.450943+00:00"
     }
   ]
 }
