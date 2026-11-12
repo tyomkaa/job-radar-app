@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-12T01:15:10.450943+00:00",
-    "found": 9217,
-    "accepted": 82,
+    "generated_at": "2026-11-12T02:25:22.298670+00:00",
+    "found": 9218,
+    "accepted": 87,
     "filtered": {
-      "Too much experience required (3+ years)": 256,
-      "Too senior / management": 4794,
-      "Contract: B2B only or UoP not confirmed": 915,
-      "Location: not Warsaw and not remote": 688,
-      "Missing a required language": 32,
-      "Different profession than your CV": 1064,
-      "Too weak a match with your CV": 36,
-      "Could not verify the vacancy page": 491,
-      "Other": 859
+      "Too much experience required (3+ years)": 272,
+      "Too senior / management": 4791,
+      "Contract: B2B only or UoP not confirmed": 919,
+      "Location: not Warsaw and not remote": 703,
+      "Missing a required language": 33,
+      "Different profession than your CV": 1079,
+      "Too weak a match with your CV": 41,
+      "Could not verify the vacancy page": 429,
+      "Other": 864
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3063
+        "fetched": 3064
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -50,7 +50,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 714
+        "fetched": 713
       },
       "lever:adlook": {
         "status": "ok",
@@ -64,6 +64,11 @@
     "version": 1,
     "daily_pick_ids": [
       "1275f6733486bb47"
+    ],
+    "still_listed_ids": [
+      "8fd28842829f3a77",
+      "f87fe97c17e0414f",
+      "f7185f8d0799ee41"
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
@@ -95,7 +100,8 @@
       "9223599c2eeade42",
       "7e7be59d16b1ab49",
       "157ec798a5eecd39",
-      "de7ce96492d15e28"
+      "de7ce96492d15e28",
+      "31eb236ed458dd4c"
     ],
     "ai_disputed_focus_ids": [],
     "fresh_opportunity_ids": [
@@ -117,15 +123,17 @@
       "087f74326a6dcf0e",
       "e48b5ba58039e515",
       "7e7be59d16b1ab49",
-      "de7ce96492d15e28"
+      "de7ce96492d15e28",
+      "31eb236ed458dd4c"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 82,
+      "feed_candidates": 87,
       "shortlisted": 1,
       "daily_review_only": 0,
-      "focus_total": 29,
+      "still_listed_strict_count": 3,
+      "focus_total": 30,
       "ai_disputed_focus": 0,
-      "focus_stretch": 10,
+      "focus_stretch": 11,
       "recent_opportunities": 4,
       "recent_strict": 1,
       "fresh_feed_candidates": 16,
@@ -136,26 +144,25 @@
       "automation": 1,
       "direction_counts": {
         "network": 3,
-        "software_adjacent": 8,
+        "software_adjacent": 9,
         "automation": 8,
         "bridge": 4,
-        "other": 52,
+        "other": 56,
         "systems": 7
       },
-      "junior_title_candidates": 26,
-      "junior_excluded_by_direction": 15,
+      "junior_title_candidates": 27,
+      "junior_excluded_by_direction": 16,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "old_discovery_focus_only": 4,
         "hard_prerequisite_unverified": 3,
         "qualified": 1,
         "exploratory_only": 4,
-        "career_direction": 52,
+        "career_direction": 56,
         "remote_needs_confirmation": 1,
-        "backend_tier": 11,
+        "backend_tier": 12,
         "mid_level": 6
-      },
-      "still_listed_strict_count": 3
+      }
     },
     "manual_review_leads": [
       {
@@ -351,10 +358,10 @@
     "manual_review_leads_count": 12,
     "ai_budget": {
       "date_utc": "2026-11-12",
-      "used": 1,
+      "used": 2,
       "limit": 20,
-      "remaining": 19,
-      "checked_at_utc": "2026-11-12T01:15:17.460756+00:00"
+      "remaining": 18,
+      "checked_at_utc": "2026-11-12T02:25:27.600705+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
@@ -369,12 +376,7 @@
       "daily_total": 1,
       "daily_reviewed": 1,
       "feed_reviewed": 1
-    },
-    "still_listed_ids": [
-      "8fd28842829f3a77",
-      "f87fe97c17e0414f",
-      "f7185f8d0799ee41"
-    ]
+    }
   },
   "jobs": [
     {
@@ -535,21 +537,21 @@
       "first_found_at": "2026-11-11T23:58:47.486319+00:00",
       "ai_review": {
         "verdict": "CHECK",
-        "explanation": "Вакансия требует навыков работы с Gemini, Claude и ChatGPT, которые не упомянуты в профиле кандидата. Хотя есть опыт Python и AI, отсутствует подтверждение соответствия требованиям junior (0 лет опыта) и конкретным инструментам.",
+        "explanation": "Вакансия не содержит конкретных требований к навыкам, кроме общего упоминания ИИ, что не позволяет точно оценить соответствие профилю кандидата. Кандидат имеет опыт автоматизации и работы с Python, но не указано, что он имеет опыт работы с ИИ в коммерческой среде.",
         "strengths": [
-          "Опыт автоматизации процессов на Python (Playwright, openpyxl, API интеграции)",
-          "Наличие SaaS-проектов с использованием Python и PostgreSQL",
-          "Знание AI-инструментов (включая курс Genius.Space AI Automator)"
+          "Опыт автоматизации с использованием Python и Playwright",
+          "Работа с SQL/PostgreSQL и данными",
+          "Создание автоматизированных решений для обработки данных"
         ],
         "gaps": [
-          "Отсутствие опыта с Gemini, Claude или конкретными инструментами AI из требований",
-          "Неясно, соответствует ли кандидат уровню junior (0 лет опыта)",
-          "Нет упоминания о работе с JavaScript, указанной в требованиях"
+          "Нет подтвержденного опыта работы с ИИ в коммерческой среде",
+          "Не указаны конкретные навыки ИИ, которые соответствуют требованиям вакансии",
+          "Нет опыта использования ИИ для автоматизации бизнес-процессов"
         ],
-        "verify": "Проверить наличие опыта с Gemini/Claude и подтверждение уровня junior.",
+        "verify": "Проверить, есть ли в описании вакансии конкретные требования к ИИ, которые соответствуют опыту кандидата.",
         "suggested_cv": "Automation"
       },
-      "ai_review_fingerprint": "89a088f672fe49d5f95d962e"
+      "ai_review_fingerprint": "ac39e79dc83005b2f66dab49"
     },
     {
       "id": "bfc8976d02c84eb6",
@@ -1094,6 +1096,54 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-10T07:41:40.429785+00:00"
+    },
+    {
+      "id": "52f71112efcd9f74",
+      "title": "Junior Data Quality Engineer",
+      "company": "Essilor Optical Laboratory Polska Sp. z o.o.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-data-quality-engineer-warszawa-annopol-3,oferta,1005207656",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid, Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-06T16:43:41.177Z",
+      "fit_score": 67,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Zarządzanie danymi produktowymi – kodyfikacja produktów oraz dbanie o prawidłowość danych wykorzystywanych w naszych systemach; Rozwój procesów – współtworzenie i doskonalenie mechanizmów kontroli jakości danych; Współpraca międzynarodową – z partnerami biznesowymi z różnych krajów | What they expect: Wykształcenie wyższe lub w trakcie studiów – preferowane kierunki inżynierskie, techniczne; Bardzo dobra znajomość Microsoft Excel; Podstawowa znajomość T-SQL (pracujemy w środowisku Microsoft SQL Server), w szczególności; Znajomość języka angielskiego pozwalająca na swobodną komunikację w międzynarodowym środowisku | What they offer: Moc wyzwań połączoną z różnorodnością, a tym samym możliwości wszechstronnego rozwoju; Takie dajemy możliwości rozwoju; szkolenia wewnątrzfirmowe",
+      "summary_tasks": [
+        "Zarządzanie danymi produktowymi – kodyfikacja produktów oraz dbanie o prawidłowość danych wykorzystywanych w naszych systemach",
+        "Rozwój procesów – współtworzenie i doskonalenie mechanizmów kontroli jakości danych",
+        "Współpraca międzynarodową – z partnerami biznesowymi z różnych krajów"
+      ],
+      "summary_expectations": [
+        "Wykształcenie wyższe lub w trakcie studiów – preferowane kierunki inżynierskie, techniczne",
+        "Bardzo dobra znajomość Microsoft Excel",
+        "Podstawowa znajomość T-SQL (pracujemy w środowisku Microsoft SQL Server), w szczególności",
+        "Znajomość języka angielskiego pozwalająca na swobodną komunikację w międzynarodowym środowisku"
+      ],
+      "summary_offers": [
+        "Moc wyzwań połączoną z różnorodnością, a tym samym możliwości wszechstronnego rozwoju",
+        "Takie dajemy możliwości rozwoju",
+        "szkolenia wewnątrzfirmowe"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, excel, microsoft sql server"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-12T02:25:22.298670+00:00"
     },
     {
       "id": "7e747191525e5af9",
@@ -2075,57 +2125,6 @@
       "first_found_at": "2026-10-30T07:50:33.935003+00:00"
     },
     {
-      "id": "aad4adb862772c27",
-      "title": "Web Content Specialist (k/m)",
-      "company": "Altavia Kamikaze + K2",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/altavia-kamikaze-k2-web-content-specialist-k-m--warszawa-marketing-marketing",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "mid",
-      "salary": "",
-      "published_at": "",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Optymalizacja multimediów: Podstawowa edycja i konwersja assetów graficznych oraz ścisła koordynacja produkcji materiałów ze studiem kreatywnym; Wdrażanie standardów SEO/GEO: Bieżąca optymalizacja stron pod kątem widoczności w wyszukiwarkach, geolokalizacji oraz silnikach generatywnych (GEO); Relacje i koordynacja projektowa: Codzienna współpraca partnerska z klientem, domem mediowym, zespołami IT oraz grafikami | What they expect: Praktyczne doświadczenie w pracy z systemami klasy CMS i zarządzaniu treścią na stronach internetowych; Dobra znajomość języka angielskiego (minimum B2) w mowie i piśmie – swoboda w pracy z materiałami anglojęzycznymi i komunikacji projektowej; Doświadczenie w samodzielnym prowadzeniu bieżącej komunikacji z klientem oraz partnerami zewnętrznymi (np | What they offer: w ramach MyBenefit – prywatna opieka medyczna, Multisport, ubezpieczenie Generali; Rozwój zawodowy – kursy językowe, szkolenia, wsparcie psychologiczne; 🏡 Model hybrydowy – praca zdalna + spotkania w biurze",
-      "summary_tasks": [
-        "Optymalizacja multimediów: Podstawowa edycja i konwersja assetów graficznych oraz ścisła koordynacja produkcji materiałów ze studiem kreatywnym",
-        "Wdrażanie standardów SEO/GEO: Bieżąca optymalizacja stron pod kątem widoczności w wyszukiwarkach, geolokalizacji oraz silnikach generatywnych (GEO)",
-        "Relacje i koordynacja projektowa: Codzienna współpraca partnerska z klientem, domem mediowym, zespołami IT oraz grafikami"
-      ],
-      "summary_expectations": [
-        "Praktyczne doświadczenie w pracy z systemami klasy CMS i zarządzaniu treścią na stronach internetowych",
-        "Dobra znajomość języka angielskiego (minimum B2) w mowie i piśmie – swoboda w pracy z materiałami anglojęzycznymi i komunikacji projektowej",
-        "Doświadczenie w samodzielnym prowadzeniu bieżącej komunikacji z klientem oraz partnerami zewnętrznymi (np"
-      ],
-      "summary_offers": [
-        "w ramach MyBenefit – prywatna opieka medyczna, Multisport, ubezpieczenie Generali",
-        "Rozwój zawodowy – kursy językowe, szkolenia, wsparcie psychologiczne",
-        "🏡 Model hybrydowy – praca zdalna + spotkania w biurze"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Digital Marketing / SEO / Website",
-        "evidence": "work",
-        "matches": [
-          "SEO / digital marketing: seo, content",
-          "Web platform (Supabase, PostgreSQL, WordPress): cms"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Listed as Mid/Regular level"
-        ],
-        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
-        "suggested_cv": "Marketing, Web & SEO"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-11T23:58:47.486319+00:00"
-    },
-    {
       "id": "ff80337af8e39e6e",
       "title": "B2B Systems Administrator",
       "company": "Sofidel Poland Sp. z.o.o.",
@@ -2801,6 +2800,118 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-08T06:51:19.640855+00:00"
+    },
+    {
+      "id": "a1a83a186e65e4fb",
+      "title": "Website Building Specialist (Europe)",
+      "company": "Leap Tools Inc.",
+      "location": "Wrocław, Bucharest, Prague, Vilnius, Kyiv",
+      "url": "https://justjoin.it/job-offer/leap-tools-inc--website-building-specialist-europe--wroclaw-javascript",
+      "apply_url": "https://jobs.gem.com/leap-tools/am9icG9zdDqd3Wl6Fgpk4WalNMnor1Wx?utm_source=GemLink&utm_medium=c291cmNlOuv4HcSjgJnzy0A0_Km2dZw",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-10T13:30:13.770592Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Proven experience developing websites using WordPress; Experience with WordPress themes and plugins, including custom development and troubleshooting; Strong problem-solving skills and ability to troubleshoot issues effectively | What they expect: We’re looking for someone with: Proven experience developing websites using WordPress; Experience with WordPress themes and plugins, including custom development and troubleshooting; Solid knowledge of HTML, CSS, JavaScript,",
+      "summary_tasks": [
+        "Proven experience developing websites using WordPress",
+        "Experience with WordPress themes and plugins, including custom development and troubleshooting",
+        "Strong problem-solving skills and ability to troubleshoot issues effectively"
+      ],
+      "summary_expectations": [
+        "We’re looking for someone with: Proven experience developing websites using WordPress",
+        "Experience with WordPress themes and plugins, including custom development and troubleshooting",
+        "Solid knowledge of HTML, CSS, JavaScript,"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Responsive Web Design",
+        "Figma",
+        "Adobe Creative Suite"
+      ],
+      "fit_notes": {
+        "direction": "Digital Marketing / SEO / Website",
+        "evidence": "work",
+        "matches": [
+          "Web platform (Supabase, PostgreSQL, WordPress): html, css, wordpress"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Marketing, Web & SEO"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00"
+    },
+    {
+      "id": "1ffc61b864f95f6d",
+      "title": "Product Engineer, Derivatives Operations",
+      "company": "SimCorp",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/simcorp-product-engineer-derivatives-operations-warszawa-security",
+      "apply_url": "https://simcorp.wd3.myworkdayjobs.com/SimCorp_Jobs/job/Warsaw/Product-Engineer_R-212305-1",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-10T10:05:10.664515Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Our people-centered organization focuses on skills development, relationship building, and client success; WHY THIS ROLE IS IMPORTANT TO US At SimCorp, we build products that power investment management and financial institutions worldwide; We support some of the largest financial institutions in the world to be successful by simplifying their investments, accounting and operations | What they expect: Be the last line of defense on quality: review and test deliverables against requirements, run validation, and hold the bar; An experienced Product Engineer doesn’t wait for a spec to be handed to them - they shape it; Experience writing precise technical requirements and acceptance criteria | What they offer: Flexible working hours and hybrid model - 2 days in the office, 3 days remote; Base salary with annual bonus structure; Holiday allowance upon a 2-week vacation",
+      "summary_tasks": [
+        "Our people-centered organization focuses on skills development, relationship building, and client success",
+        "WHY THIS ROLE IS IMPORTANT TO US At SimCorp, we build products that power investment management and financial institutions worldwide",
+        "We support some of the largest financial institutions in the world to be successful by simplifying their investments, accounting and operations"
+      ],
+      "summary_expectations": [
+        "Be the last line of defense on quality: review and test deliverables against requirements, run validation, and hold the bar",
+        "An experienced Product Engineer doesn’t wait for a spec to be handed to them - they shape it",
+        "Experience writing precise technical requirements and acceptance criteria"
+      ],
+      "summary_offers": [
+        "Flexible working hours and hybrid model - 2 days in the office, 3 days remote",
+        "Base salary with annual bonus structure",
+        "Holiday allowance upon a 2-week vacation"
+      ],
+      "required_skills": [
+        "Stakeholder Management",
+        "Technical Requirement gathering",
+        "Product derivatives",
+        "Business Analysis",
+        "AI",
+        "Product Management"
+      ],
+      "fit_notes": {
+        "direction": "Operations / CRM / Customer Operations",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: operations, stakeholder"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 60: Listed as Mid/Regular level.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
     },
     {
       "id": "7e7be59d16b1ab49",
@@ -3707,6 +3818,66 @@
       "first_found_at": "2026-10-18T06:53:32.120872+00:00"
     },
     {
+      "id": "fce6e79dc44efcbb",
+      "title": "Service Infrastructure Engineer",
+      "company": "Orange Polska",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/orange-polska-service-infrastructure-engineer-warszawa-support",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=1c23cb1cf9a24f6e9921ecdbd0a89a1a",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-10T11:40:01.053956Z",
+      "fit_score": 54,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Manage user accounts and access rights across the platform environments and the shared applications the business relies on (e.g; Support incident response coordination on P1 / P2 under the guidance of the Team Lead; keeping users informed and helping bring the right development and infrastructure teams together | What they expect: Basic knowledge of Linux systems, containerization (Docker), configuration management (Ansible, Puppet), and scripting (PowerShell); Bachelor's degree in IT or equivalent experience; Good written communication skills and ability to empathize with users | What they offer: Hybrid work model (2 days from the office / 3 days from home); Private medical care with PZU Zdrowie; Option to join group insurance on preferential terms",
+      "summary_tasks": [
+        "Manage user accounts and access rights across the platform environments and the shared applications the business relies on (e.g",
+        "Support incident response coordination on P1 / P2 under the guidance of the Team Lead",
+        "keeping users informed and helping bring the right development and infrastructure teams together"
+      ],
+      "summary_expectations": [
+        "Basic knowledge of Linux systems, containerization (Docker), configuration management (Ansible, Puppet), and scripting (PowerShell)",
+        "Bachelor's degree in IT or equivalent experience",
+        "Good written communication skills and ability to empathize with users"
+      ],
+      "summary_offers": [
+        "Hybrid work model (2 days from the office / 3 days from home)",
+        "Private medical care with PZU Zdrowie",
+        "Option to join group insurance on preferential terms"
+      ],
+      "required_skills": [
+        "Linux",
+        "Powershell",
+        "Active Directory",
+        "Docker",
+        "ServiceNow",
+        "Ansible"
+      ],
+      "fit_notes": {
+        "direction": "Systems / Application Administration",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: infrastructure, configuration",
+          "Linux / Git: linux, docker, powershell",
+          "Python & automation: scripting"
+        ],
+        "concerns": [
+          "Listed as Mid/Regular level",
+          "Requires ServiceNow",
+          "Mentions Ansible"
+        ],
+        "tier_reason": "Capped at 54: Requires ServiceNow.",
+        "suggested_cv": "Systems & Application Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-22T06:54:54.357396+00:00"
+    },
+    {
       "id": "2f73da43d7a68f9b",
       "title": "Junior Frontend Developer",
       "company": "Fundacja Szkoła w Chmurze",
@@ -4576,6 +4747,122 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-12T01:15:10.450943+00:00"
+    },
+    {
+      "id": "31eb236ed458dd4c",
+      "title": "Analityk Biznesowo-Systemowy / Analityczka Biznesowo-Systemowa",
+      "company": "Bank BPS S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/bank-bps-s-a--analityk-biznesowo-systemowy-analityczka-biznesowo-systemowa-warszawa-analytics",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ea2870c1b5bf4ff2a5a7db34ed71b889",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-10T08:05:09.886748Z",
+      "fit_score": 52,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Główne zadania: Wsparcie analityczne na etapach projektowania, wytwarzania i testowania systemów informatycznych Zbieranie wymagań do zmian w produktach/systemach/procesach Przygotowywanie specyfikacji funkcjonalno-systemowej we współpracy z partnerami biznesowymi i dostawcami zewnętrznymi Przekładanie wymagań na konkretny opis systemu i integracji z innymi systemami Opisywanie szczegółowych modyfikacji zmian w bazach danych, procesach i interfejsach systemowych m; dane wejściowe/wyjściowe, opis funkcji, ograniczenia Przygotowywanie analiz wykonalności rozwiązania Prowadzenie i utrzymywanie dokumentacji analitycznej Wykonywanie i przygotowywanie testów funkcjonalnych, dbanie o jakość rozwiązania | What they expect: Znajomość procesu wytwórczego oprogramowania informatycznego; Umiejętność pracy z zespołem IT i szeroko rozumianym biznesem; Doświadczenie w przygotowywaniu specyfikacji systemowej | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
+      "summary_tasks": [
+        "Główne zadania: Wsparcie analityczne na etapach projektowania, wytwarzania i testowania systemów informatycznych Zbieranie wymagań do zmian w produktach/systemach/procesach Przygotowywanie specyfikacji funkcjonalno-systemowej we współpracy z partnerami biznesowymi i dostawcami zewnętrznymi Przekładanie wymagań na konkretny opis systemu i integracji z innymi systemami Opisywanie szczegółowych modyfikacji zmian w bazach danych, procesach i interfejsach systemowych m",
+        "dane wejściowe/wyjściowe, opis funkcji, ograniczenia Przygotowywanie analiz wykonalności rozwiązania Prowadzenie i utrzymywanie dokumentacji analitycznej Wykonywanie i przygotowywanie testów funkcjonalnych, dbanie o jakość rozwiązania"
+      ],
+      "summary_expectations": [
+        "Znajomość procesu wytwórczego oprogramowania informatycznego",
+        "Umiejętność pracy z zespołem IT i szeroko rozumianym biznesem",
+        "Doświadczenie w przygotowywaniu specyfikacji systemowej"
+      ],
+      "summary_offers": [
+        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
+        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
+        "ubezpieczenie grupowe firmy Ergo Hestia"
+      ],
+      "required_skills": [
+        "Analytics",
+        "IT",
+        "Data",
+        "MS Excel",
+        "BPMN",
+        "Agile",
+        "Scrum"
+      ],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel, analytics",
+          "Python & automation: integracja"
+        ],
+        "concerns": [
+          "Asks for 2 years; CV has only project experience here",
+          "Listed as Mid/Regular level"
+        ],
+        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
+    },
+    {
+      "id": "17cf677c1cf5c645",
+      "title": "Analityk Systemowy – Hurtownie Danych (m/k/os.)",
+      "company": "Asseco Poland S.A.",
+      "location": "Warszawa, Rzeszów, Łódź, Kraków",
+      "url": "https://justjoin.it/job-offer/asseco-poland-s-a--analityk-systemowy---hurtownie-danych-m-k-os--warszawa-analytics",
+      "apply_url": "https://praca.asseco.pl/Oferta/668ff7ff-72f1-4587-9ff2-a57e06620d9f",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "mid",
+      "salary": "",
+      "published_at": "2026-11-10T13:05:14.093314Z",
+      "fit_score": 50,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Lokalizacja: Warszawa, Rzeszów, Łódź, Kraków Forma pracy: hybrydowa Rekrutacja: zdalna (rozmowa → spotkanie → decyzja) Czym będziesz się zajmować?; swoboda w rozmowie z klientem i prowadzeniu warsztatów; współpracę z doświadczonym zespołem analityków i developerów | What they expect: zbierać i doprecyzowywać wymagania biznesowe i systemowe; weryfikować, czy finalne rozwiązanie rzeczywiście odpowiada wymaganiom klienta; „Musimy dostosować system do nowych wymagań.” | What they offer: pracę hybrydową (3 dni w biurze/ 2 dni zdalnie); szkolenia i certyfikacje; premie za stand-by",
+      "summary_tasks": [
+        "Lokalizacja: Warszawa, Rzeszów, Łódź, Kraków Forma pracy: hybrydowa Rekrutacja: zdalna (rozmowa → spotkanie → decyzja) Czym będziesz się zajmować?",
+        "swoboda w rozmowie z klientem i prowadzeniu warsztatów",
+        "współpracę z doświadczonym zespołem analityków i developerów"
+      ],
+      "summary_expectations": [
+        "zbierać i doprecyzowywać wymagania biznesowe i systemowe",
+        "weryfikować, czy finalne rozwiązanie rzeczywiście odpowiada wymaganiom klienta",
+        "„Musimy dostosować system do nowych wymagań.”"
+      ],
+      "summary_offers": [
+        "pracę hybrydową (3 dni w biurze/ 2 dni zdalnie)",
+        "szkolenia i certyfikacje",
+        "premie za stand-by"
+      ],
+      "required_skills": [
+        "SQL",
+        "Oracle",
+        "PostgreSQL",
+        "ETL",
+        "ELT",
+        "Qlik Sense"
+      ],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, postgresql"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here",
+          "Listed as Mid/Regular level",
+          "Requires Qlik"
+        ],
+        "tier_reason": "Capped at 54: Requires Qlik.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00"
     }
   ]
 }
