@@ -82,6 +82,23 @@ ctx.render();
 const unknownCard = host.children[1].children[0];
 assert(unknownCard.children.find(x=>x.className==='manual-lead-facts').textContent
   .includes('Contract not listed — verify UoP before applying'));
+// A real remote Junior + Mid listing is a *manual* lead, not auto-APPLY.
+ctx.meta.manual_review_leads = [{
+  ...good,
+  title:'Junior Technical Integration Specialist',
+  board_seniority_unverified:'junior, mid',
+  board_skills_unverified:['API integration','e-commerce','<script>alert(1)</script>'],
+  url:'https://www.pracuj.pl/praca/junior-technical-integration-specialist,oferta,1234',
+}];
+ctx.render();
+const mixedCard = host.children[1].children[0];
+const warning = mixedCard.children.find(x=>x.className==='manual-lead-warning');
+const tags = mixedCard.children.find(x=>x.className==='manual-lead-skills');
+assert(warning.textContent.includes('mid level'));
+assert(tags.textContent.includes('API integration'));
+assert(tags.textContent.includes('verify if mandatory'));
+assert(tags.textContent.includes('<script>alert(1)</script>'));
+assert(!source.includes('innerHTML'));
 // Board-confirmed B2B-only job must not reach this review section.
 ctx.meta.manual_review_leads = [{...good, board_contract_unverified:'B2B only'}];
 ctx.render();

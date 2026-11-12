@@ -79,6 +79,18 @@
       addText(card, 'p', 'manual-lead-facts',
         [item.location, item.work_mode, contractNote]
           .filter(Boolean).join(' · '));
+      const levels = String(item.board_seniority_unverified || '').toLowerCase();
+      if (levels.includes('junior') && /\b(?:mid|regular)\b/.test(levels)) {
+        addText(card, 'p', 'manual-lead-warning',
+          'Board also lists mid level — confirm that entry-level applicants are considered.');
+      }
+      const skills = Array.isArray(item.board_skills_unverified)
+        ? item.board_skills_unverified.filter(v => typeof v === 'string' && v.trim()).slice(0, 8)
+        : [];
+      if (skills.length) {
+        addText(card, 'p', 'manual-lead-skills',
+          'Board skill tags (verify if mandatory): ' + skills.join(', '));
+      }
       const actions = document.createElement('div');
       actions.className = 'manual-lead-actions';
       const link = document.createElement('a');
