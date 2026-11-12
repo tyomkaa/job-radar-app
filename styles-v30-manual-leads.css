@@ -18,3 +18,7 @@
 
 .manual-lead-warning { font-size: .79rem; line-height: 1.45; margin: 0 0 8px; font-weight: 650; }
 .manual-lead-skills { font-size: .77rem; line-height: 1.5; margin: 0 0 10px; opacity: .78; }
+
+/* Older source re-observations: not fresh Daily Picks or confirmed APPLY. */
+.still-listed-section { margin: 12px 0 16px; }
+.still-listed-card { background: rgba(148,163,184,.035); }
