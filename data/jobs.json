@@ -154,7 +154,8 @@
         "remote_needs_confirmation": 1,
         "backend_tier": 11,
         "mid_level": 6
-      }
+      },
+      "still_listed_strict_count": 3
     },
     "manual_review_leads": [
       {
@@ -368,7 +369,12 @@
       "daily_total": 1,
       "daily_reviewed": 1,
       "feed_reviewed": 1
-    }
+    },
+    "still_listed_ids": [
+      "8fd28842829f3a77",
+      "f87fe97c17e0414f",
+      "f7185f8d0799ee41"
+    ]
   },
   "jobs": [
     {
