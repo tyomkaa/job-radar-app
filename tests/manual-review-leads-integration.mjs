@@ -34,6 +34,7 @@ const good = {
   review_status:'UNVERIFIED',title:'Junior WEBCON Developer',
   company:'Vinci',location:'Warszawa',work_mode:'Office',
   board_contract_unverified:'Umowa o pracę / Employment contract',
+  board_skills_unverified:['Python','REST API','<script>unsafe tag</script>'],
   url:'https://www.pracuj.pl/praca/junior-webcon-developer,oferta,1234',
 };
 const bad = {...good,title:'Script injection',url:'javascript:alert(1)'};
@@ -56,6 +57,13 @@ assert.equal(host.hidden,false);
 const rendered = host.children[1].children;
 assert.equal(rendered.length,1);
 assert.equal(rendered[0].children[1].textContent,'Junior WEBCON Developer');
+const skills = rendered[0].children.find(x=>x.className==='manual-lead-skills');
+assert(skills);
+assert(skills.textContent.includes('Python'));
+assert(skills.textContent.includes('REST API'));
+assert(skills.textContent.includes('unverified'));
+assert(skills.textContent.includes('<script>unsafe tag</script>'));
+assert(!rendered[0].children.some(x=>x.tag === 'script'));
 const actions=rendered[0].children.at(-1);
 assert.equal(actions.children[0].href,good.url);
 assert.equal(actions.children[0].target,'_blank');
