@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-13T08:35:32.998390+00:00",
-    "found": 9460,
-    "accepted": 27,
+    "generated_at": "2026-11-13T19:07:13.654794+00:00",
+    "found": 9440,
+    "accepted": 25,
     "filtered": {
-      "Too much experience required (3+ years)": 105,
-      "Too senior / management": 4217,
-      "Contract: B2B only or UoP not confirmed": 121,
-      "Location: not Warsaw and not remote": 445,
-      "Missing a required language": 6,
-      "Different profession than your CV": 795,
-      "Too weak a match with your CV": 11,
-      "Could not verify the vacancy page": 123,
-      "Other": 3610
+      "Too much experience required (3+ years)": 103,
+      "Too senior / management": 4216,
+      "Contract: B2B only or UoP not confirmed": 127,
+      "Location: not Warsaw and not remote": 440,
+      "Missing a required language": 5,
+      "Different profession than your CV": 812,
+      "Too weak a match with your CV": 8,
+      "Could not verify the vacancy page": 122,
+      "Other": 3582
     },
     "sources": {
       "justjoin.it": {
@@ -22,11 +22,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3301
+        "fetched": 3334
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3104
+        "fetched": 3130
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,11 +34,11 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 242
+        "fetched": 246
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 148
+        "fetched": 145
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -46,53 +46,54 @@
       },
       "greenhouse:powerdot": {
         "status": "ok",
-        "fetched": 22
+        "fetched": 21
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 702
+        "fetched": 698
       },
       "lever:adlook": {
         "status": "ok",
-        "fetched": 28
+        "fetched": 27
       },
       "lever:Civitta": {
         "status": "ok",
-        "fetched": 80
+        "fetched": 79
       }
     },
     "version": 1,
     "daily_pick_ids": [
-      "1275f6733486bb47"
+      "b3532668cf71e7be"
     ],
     "still_listed_ids": [
       "8fd28842829f3a77",
-      "f87fe97c17e0414f",
-      "f7185f8d0799ee41"
+      "529fdb6e90e15b76",
+      "f87fe97c17e0414f"
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
-      "1275f6733486bb47",
+      "b3532668cf71e7be",
+      "9b73b8deb25611d8",
       "8fd28842829f3a77",
       "a6e9a05b7aade9e4",
+      "529fdb6e90e15b76",
       "7b38941f5f064f03",
       "f87fe97c17e0414f",
       "f7185f8d0799ee41",
       "99c99c9bfb69d790",
       "bfc8976d02c84eb6",
       "d1918751a2dc817f",
-      "fd2537c9f4a2947c",
-      "00b5a3130b063964",
       "7e7be59d16b1ab49",
       "de7ce96492d15e28",
       "a34cb2043eee8ac3"
     ],
     "ai_disputed_focus_ids": [],
     "fresh_opportunity_ids": [
-      "1275f6733486bb47"
+      "b3532668cf71e7be",
+      "9b73b8deb25611d8"
     ],
     "fresh_daily_ids": [
-      "1275f6733486bb47"
+      "b3532668cf71e7be"
     ],
     "focus_stretch_ids": [
       "7e7be59d16b1ab49",
@@ -100,37 +101,38 @@
       "a34cb2043eee8ac3"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 27,
+      "feed_candidates": 25,
       "shortlisted": 1,
       "daily_review_only": 0,
       "still_listed_strict_count": 3,
       "focus_total": 14,
       "ai_disputed_focus": 0,
       "focus_stretch": 3,
-      "recent_opportunities": 1,
+      "recent_opportunities": 2,
       "recent_strict": 1,
-      "fresh_feed_candidates": 2,
+      "fresh_feed_candidates": 3,
       "fresh_strict_rejection_reasons": {
-        "career_direction": 1
+        "career_direction": 1,
+        "exploratory_only": 1
       },
-      "automation": 1,
+      "automation": 0,
       "direction_counts": {
-        "software_adjacent": 8,
-        "automation": 2,
-        "other": 12,
+        "network": 3,
+        "software_adjacent": 7,
         "bridge": 2,
-        "network": 1,
-        "systems": 2
+        "other": 10,
+        "systems": 2,
+        "automation": 1
       },
-      "junior_title_candidates": 22,
-      "junior_excluded_by_direction": 9,
+      "junior_title_candidates": 21,
+      "junior_excluded_by_direction": 7,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
+        "old_discovery_focus_only": 4,
         "hard_prerequisite_unverified": 2,
         "qualified": 1,
-        "exploratory_only": 4,
-        "career_direction": 12,
-        "old_discovery_focus_only": 3,
+        "exploratory_only": 3,
+        "career_direction": 10,
         "remote_needs_confirmation": 1,
         "backend_tier": 4
       }
@@ -165,20 +167,6 @@
         "newly_observed_not_verified_new_posting": false
       },
       {
-        "title": "Junior BI Developer (m/k)",
-        "company": "POLENERGIA S.A.",
-        "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
         "title": "Junior WEBCON Developer K/M",
         "company": "VINCI Construction Usługi Wsparcia",
         "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
@@ -193,6 +181,38 @@
         "newly_observed_not_verified_new_posting": false
       },
       {
+        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
+        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa-juliana-smulikowskiego-6-8,oferta,1005218521",
+        "source": "pracuj.pl",
+        "location": "Warszawa, Poland",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [],
+        "board_published_at_unverified": "",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": true
+      },
+      {
+        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
+        "company": "Bank BPS S.A.",
+        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Project Management",
+          "PRINCE2",
+          "PMI"
+        ],
+        "board_published_at_unverified": "2026-11-13T16:50:05.8473066Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
         "title": "Młodszy Administrator IT / Młodsza Administratorka IT",
         "company": "Elmark Automatyka S.A.",
         "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-mlodsza-administratorka-it-warszawa-bukowinska-22,oferta,1005158492",
@@ -201,20 +221,6 @@
         "work_mode": "Office",
         "board_contract_unverified": "Umowa o pracę / Employment contract",
         "board_seniority_unverified": "junior, mid",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
-        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa,oferta,1005174888",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
         "board_skills_unverified": [],
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
@@ -286,29 +292,6 @@
         "newly_observed_not_verified_new_posting": false
       },
       {
-        "title": "Know Your Customer (KYC) Technology Business Analyst",
-        "company": "Citigroup",
-        "url": "https://justjoin.it/job-offer/citigroup-know-your-customer-kyc-technology-business-analyst-warsaw-ux",
-        "source": "justjoin.it",
-        "location": "Warsaw",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "Business Analysis",
-          "Requirements elicitation",
-          "System Analysis",
-          "AML/KYC",
-          "Agile",
-          "Jira",
-          "Confluence",
-          "product development"
-        ],
-        "board_published_at_unverified": "2026-11-11T18:55:09.3225367Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
         "title": "Junior IT Project Specialist",
         "company": "TQLO SP. Z O.O.",
         "url": "https://justjoin.it/job-offer/tqlo-sp-z-o-o--junior-it-project-specialist-warszawa-pm-d2fc8a55",
@@ -326,23 +309,23 @@
         "newly_observed_not_verified_new_posting": false
       }
     ],
-    "manual_review_leads_count": 12,
+    "manual_review_leads_count": 11,
     "ai_budget": {
       "date_utc": "2026-11-13",
-      "used": 0,
+      "used": 1,
       "limit": 20,
-      "remaining": 20,
-      "checked_at_utc": "2026-11-13T08:35:33.701493+00:00"
+      "remaining": 19,
+      "checked_at_utc": "2026-11-13T19:07:19.702244+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
-      "new": 0,
-      "new_daily": 0,
+      "new": 1,
+      "new_daily": 1,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 1,
+      "reused": 0,
       "unreviewed": 0,
-      "fresh_total": 1,
+      "fresh_total": 2,
       "fresh_reviewed": 1,
       "daily_total": 1,
       "daily_reviewed": 1,
@@ -350,6 +333,65 @@
     }
   },
   "jobs": [
+    {
+      "id": "529fdb6e90e15b76",
+      "title": "Młodszy Administrator / Młodsza Administratorka Sieci i Systemów LAN",
+      "company": "e-point SA",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/e-point-sa-mlodszy-administrator-mlodsza-administratorka-sieci-i-systemow-lan-warszawa-admin",
+      "apply_url": "https://workate.pl/oferty-pracy/e-point/modszy-administrator-sieci-i-systemow-lan-bvwzmerx",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-13T13:00:09.4397984Z",
+      "fit_score": 82,
+      "match_level": "STRONG",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: to fundament współpracy, komunikacji i realizacji projektów; TWOJE ZADANIA Przygotowywanie i konfigurowanie laptopów dla pracowników; Zarządzanie kontami użytkowników oraz uprawnieniami dostępu | What they expect: Podstawowa znajomość systemów Windows i Linux; Umiejętność samodzielnego diagnozowania i rozwiązywania problemów technicznych; Znajomość języka angielskiego pozwalająca na korzystanie z dokumentacji technicznej | What they offer: Pracę na ½ etatu (około 20 godzin tygodniowo); Możliwość współpracy na podstawie umowy o pracę, umowy zlecenia lub B2B – w zależności od preferencji; Pracę stacjonarną w naszym biurze",
+      "summary_tasks": [
+        "to fundament współpracy, komunikacji i realizacji projektów",
+        "TWOJE ZADANIA Przygotowywanie i konfigurowanie laptopów dla pracowników",
+        "Zarządzanie kontami użytkowników oraz uprawnieniami dostępu"
+      ],
+      "summary_expectations": [
+        "Podstawowa znajomość systemów Windows i Linux",
+        "Umiejętność samodzielnego diagnozowania i rozwiązywania problemów technicznych",
+        "Znajomość języka angielskiego pozwalająca na korzystanie z dokumentacji technicznej"
+      ],
+      "summary_offers": [
+        "Pracę na ½ etatu (około 20 godzin tygodniowo)",
+        "Możliwość współpracy na podstawie umowy o pracę, umowy zlecenia lub B2B – w zależności od preferencji",
+        "Pracę stacjonarną w naszym biurze"
+      ],
+      "required_skills": [
+        "Helpdesk",
+        "Windows",
+        "Linux",
+        "LAN",
+        "WAN",
+        "TCP/IP",
+        "Hardware",
+        "Google Workspace",
+        "Jira",
+        "IT Security"
+      ],
+      "fit_notes": {
+        "direction": "Network / NOC / Telecom",
+        "evidence": "work",
+        "matches": [
+          "Networking / telecom: tcp/ip",
+          "Linux / Git: linux"
+        ],
+        "concerns": [],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Network & IT Support"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-30T07:50:33.935003+00:00"
+    },
     {
       "id": "99c99c9bfb69d790",
       "title": "Młodszy Programista / Młodsza Programistka (Python / TypeScript)",
@@ -401,74 +443,68 @@
       "first_found_at": "2026-11-03T13:17:00.930254+00:00"
     },
     {
-      "id": "1275f6733486bb47",
-      "title": "AI Implementation & Automation Specialist",
-      "company": "Sportano.com",
-      "location": "Zielona Góra, Wrocław, Warszawa",
-      "url": "https://justjoin.it/job-offer/sportano-com-ai-implementation-automation-specialist-zielona-gora-ai",
-      "apply_url": "https://sportano.traffit.com/public/form/a/ad40491bb019e173d3e40beaa19310e339564332?source=rocketjobs.pl",
-      "source": "justjoin.it",
+      "id": "b3532668cf71e7be",
+      "title": "Młodsza Specjalistka / Młodszy Specjalista ds. Sieci Szkieletowej",
+      "company": "PLAY (P4 Sp. z o.o.)",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodsza-specjalistka-mlodszy-specjalista-ds-sieci-szkieletowej-warszawa-wynalazek-1,oferta,1005218570",
+      "apply_url": "",
+      "source": "pracuj.pl",
       "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
+      "work_mode": "Hybrid, Office",
       "seniority": "junior",
       "salary": "",
-      "published_at": "2026-11-11T08:20:09.389534Z",
-      "fit_score": 77,
+      "published_at": "2026-11-13T12:52:01.453Z",
+      "fit_score": 75,
       "match_level": "STRONG",
       "recommendation_tier": "APPLY",
       "experience_required_years": 0,
-      "summary": "What you'll do: W Sportano rozwijamy wykorzystanie sztucznej inteligencji i automatyzacji w codziennych procesach biznesowych; Jeśli AI to dla Ciebie coś więcej niż zadawanie pytań ChatGPT, lubisz eksperymentować, szukać nowych rozwiązań i dostrzegasz potencjał automatyzacji; AI Implementation & Automation Specialist Miejsce pracy: 100% zdalnie lub jedno z naszych biur | What they expect: Nasze oczekiwania: Praktyczne doświadczenie w wykorzystywaniu narzędzi AI, np; Znajomość możliwości zastosowania sztucznej inteligencji do automatyzacji i usprawniania procesów biznesowych; Umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania konkretnych problemów",
+      "summary": "What you'll do: Zarządzanie, konfiguracja elementów sieci Core, weryfikacja stanu sieci i elementów sieciowych; Rozwój sieci Core, realizacja i prowadzenie projektów wdrażania nowych elementów sieciowych lub nowych serwisów / funkcjonalności; Koordynacja i przeprowadzenie prac instalacji, integracji, testów i komercyjnego wdrożenia | What they expect: Posiadasz wykształcenie wyższe w obszarze telekomunikacji, elektroniki lub informatyki; Znasz język angielski na poziomie C1/C2; Znasz środowiska i umiejętności automatyzacji i pisania skryptów w środowisku Linux/ Unix | What they offer: Podstawa premii rocznej w wysokości 20% wynagrodzenia; Praca hybrydowa (3dni office + 2dni home office); Różnorodny rozwój: szkolenia, projekty, rekrutacje wewnętrzne",
       "summary_tasks": [
-        "W Sportano rozwijamy wykorzystanie sztucznej inteligencji i automatyzacji w codziennych procesach biznesowych",
-        "Jeśli AI to dla Ciebie coś więcej niż zadawanie pytań ChatGPT, lubisz eksperymentować, szukać nowych rozwiązań i dostrzegasz potencjał automatyzacji",
-        "AI Implementation & Automation Specialist Miejsce pracy: 100% zdalnie lub jedno z naszych biur"
+        "Zarządzanie, konfiguracja elementów sieci Core, weryfikacja stanu sieci i elementów sieciowych",
+        "Rozwój sieci Core, realizacja i prowadzenie projektów wdrażania nowych elementów sieciowych lub nowych serwisów / funkcjonalności",
+        "Koordynacja i przeprowadzenie prac instalacji, integracji, testów i komercyjnego wdrożenia"
       ],
       "summary_expectations": [
-        "Nasze oczekiwania: Praktyczne doświadczenie w wykorzystywaniu narzędzi AI, np",
-        "Znajomość możliwości zastosowania sztucznej inteligencji do automatyzacji i usprawniania procesów biznesowych",
-        "Umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania konkretnych problemów"
+        "Posiadasz wykształcenie wyższe w obszarze telekomunikacji, elektroniki lub informatyki",
+        "Znasz język angielski na poziomie C1/C2",
+        "Znasz środowiska i umiejętności automatyzacji i pisania skryptów w środowisku Linux/ Unix"
       ],
-      "summary_offers": [],
-      "required_skills": [
-        "JavaScript",
-        "Python",
-        "AI",
-        "automation",
-        "Gemini",
-        "Claude",
-        "ChatGPT"
+      "summary_offers": [
+        "Podstawa premii rocznej w wysokości 20% wynagrodzenia",
+        "Praca hybrydowa (3dni office + 2dni home office)",
+        "Różnorodny rozwój: szkolenia, projekty, rekrutacje wewnętrzne"
       ],
+      "required_skills": [],
       "fit_notes": {
-        "direction": "Python / Process / Workflow / AI Automation",
+        "direction": "Network / NOC / Telecom",
         "evidence": "work",
         "matches": [
-          "Python & automation: python, automation, automatyzacja"
+          "Linux / Git: linux"
         ],
         "concerns": [],
         "tier_reason": "Strong match with your CV and entry-level requirements.",
-        "suggested_cv": "Automation & Python"
+        "suggested_cv": "Network & IT Support"
       },
-      "interest_tags": [
-        "automation"
-      ],
-      "first_found_at": "2026-11-11T23:58:47.486319+00:00",
+      "interest_tags": [],
+      "first_found_at": "2026-11-13T19:07:13.654794+00:00",
       "ai_review": {
         "verdict": "CHECK",
-        "explanation": "Вакансия не содержит конкретных требований к навыкам, кроме общего упоминания ИИ, что не позволяет точно оценить соответствие профилю кандидата. Кандидат имеет опыт автоматизации и работы с Python, но не указано, что он имеет опыт работы с ИИ в коммерческой среде.",
+        "explanation": "Вакансия связана с сетями Core и автоматизацией в Linux, что частично пересекается с опытом кандидата в автоматизации и SaaS-интеграции. Однако отсутствуют явные требования к сетевому опыту, что может быть критичным.",
         "strengths": [
-          "Опыт автоматизации с использованием Python и Playwright",
-          "Работа с SQL/PostgreSQL и данными",
-          "Создание автоматизированных решений для обработки данных"
+          "Опыт автоматизации процессов (Playwright, GitHub Actions, Python)",
+          "Навыки работы с SQL/PostgreSQL и SaaS-интеграцией",
+          "Профессиональный опыт в телекоммуникациях и системной настройке"
         ],
         "gaps": [
-          "Нет подтвержденного опыта работы с ИИ в коммерческой среде",
-          "Не указаны конкретные навыки ИИ, которые соответствуют требованиям вакансии",
-          "Нет опыта использования ИИ для автоматизации бизнес-процессов"
+          "Отсутствие прямого опыта с сетями Core и сетевыми протоколами",
+          "Не указано высшее образование в требуемых областях (телекоммуникации/ИТ)",
+          "Нет упоминания о C1/C2 английском языке в профиле"
         ],
-        "verify": "Проверить, есть ли в описании вакансии конкретные требования к ИИ, которые соответствуют опыту кандидата.",
-        "suggested_cv": "Automation"
+        "verify": "Проверить, есть ли у кандидата навыки автоматизации в Linux/Unix и соответствует ли его образование требованиям вакансии.",
+        "suggested_cv": "General"
       },
-      "ai_review_fingerprint": "ac39e79dc83005b2f66dab49"
+      "ai_review_fingerprint": "804584188736fc4a8f508a13"
     },
     {
       "id": "bfc8976d02c84eb6",
@@ -517,50 +553,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-29T21:04:25.887337+00:00"
-    },
-    {
-      "id": "77226b97faa1310c",
-      "title": "Młodszy specjalista ds. CRM w aplikacji mobilnej (k/m)",
-      "company": "MODIVO PLATFORM",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/modivo-platform-mlodszy-specjalista-ds-crm-w-aplikacji-mobilnej-k-m--warszawa-marketing-marketing",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "",
-      "fit_score": 70,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: realizowanie kampanii CRM w kanale App Push dla aplikacji eobuwie, MODIVO i CCC; tworzenie copy do komunikatów App Push dopasowanych do charakteru i grupy docelowej każdej marki; poszukiwanie i testowanie różnych stylów komunikacji - prowadzenie testów A/B/C oraz wdrażanie najlepszych praktyk do codziennych działań | What they expect: Wymagane umiejętności CRM App Push Microsoft Office Excel Lokalizacja biura O firmie MODIVO PLATFORM MODIVO PLATFORM to globalna marka z lokalną historią, którą szczególnie cenimy i pielęgnujemy w naszej kulturze organizacyjnej",
-      "summary_tasks": [
-        "realizowanie kampanii CRM w kanale App Push dla aplikacji eobuwie, MODIVO i CCC",
-        "tworzenie copy do komunikatów App Push dopasowanych do charakteru i grupy docelowej każdej marki",
-        "poszukiwanie i testowanie różnych stylów komunikacji - prowadzenie testów A/B/C oraz wdrażanie najlepszych praktyk do codziennych działań"
-      ],
-      "summary_expectations": [
-        "Wymagane umiejętności CRM App Push Microsoft Office Excel Lokalizacja biura O firmie MODIVO PLATFORM MODIVO PLATFORM to globalna marka z lokalną historią, którą szczególnie cenimy i pielęgnujemy w naszej kulturze organizacyjnej"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Operations / CRM / Customer Operations",
-        "evidence": "work",
-        "matches": [
-          "B2B / CRM operations: crm",
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 70: Ceiling for this direction.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-08T11:47:57.409223+00:00"
     },
     {
       "id": "8fd28842829f3a77",
@@ -910,66 +902,6 @@
       "first_found_at": "2026-11-12T02:25:22.298670+00:00"
     },
     {
-      "id": "fd2537c9f4a2947c",
-      "title": "Młodszy Serwisant / Młodsza Serwisantka SQL",
-      "company": "ProService Finteco Sp. z o.o.",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/proservice-finteco-sp-z-o-o--mlodszy-serwisant-mlodsza-serwisantka-sql-warszawa-support",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=c49b3461794743c28ac5133c7aef6262",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-11T09:50:03.956371Z",
-      "fit_score": 65,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: tworzenie zapytań do baz danych (SQL) – sporządzanie zestawień oraz modyfikacja danych w bazie (interwencje manualne); obsługa aplikacji ticketowej Jira w roli Serwisanta w ramach drugiej linii wsparcia; współpraca z innymi Departamentami | What they expect: znajomość zagadnień relacyjnych baz danych, w tym znajomość SQL w celu wyboru danych oraz modyfikacji danych w bazie; znajomość programowania na poziomie umożliwiającym analizę kodu; umiejętność skutecznej współpracy i komunikacji z Pracownikami innych jednostek | What they offer: Poczucie stabilności – zatrudnienie na umowę o pracę w firmie, która od lat konsekwentnie buduje swoją pozycję w branży finansowo – technologicznej; Możliwość dalszego rozwoju zawodowego w firmie o ugruntowanej pozycji na rynku; Pakiet benefitów – opieka medyczna i stomatologiczna, karta sportowa, inicjatywy integracyjne, ubezpieczenie na życie, firmowe drużyny sportowe, karty przedpłacone i wiele więcej!",
-      "summary_tasks": [
-        "tworzenie zapytań do baz danych (SQL) – sporządzanie zestawień oraz modyfikacja danych w bazie (interwencje manualne)",
-        "obsługa aplikacji ticketowej Jira w roli Serwisanta w ramach drugiej linii wsparcia",
-        "współpraca z innymi Departamentami"
-      ],
-      "summary_expectations": [
-        "znajomość zagadnień relacyjnych baz danych, w tym znajomość SQL w celu wyboru danych oraz modyfikacji danych w bazie",
-        "znajomość programowania na poziomie umożliwiającym analizę kodu",
-        "umiejętność skutecznej współpracy i komunikacji z Pracownikami innych jednostek"
-      ],
-      "summary_offers": [
-        "Poczucie stabilności – zatrudnienie na umowę o pracę w firmie, która od lat konsekwentnie buduje swoją pozycję w branży finansowo – technologicznej",
-        "Możliwość dalszego rozwoju zawodowego w firmie o ugruntowanej pozycji na rynku",
-        "Pakiet benefitów – opieka medyczna i stomatologiczna, karta sportowa, inicjatywy integracyjne, ubezpieczenie na życie, firmowe drużyny sportowe, karty przedpłacone i wiele więcej!"
-      ],
-      "required_skills": [
-        "SQL",
-        "programowanie",
-        "Obsługa Jira",
-        "Analiza kodu",
-        "Współpraca",
-        "PMFS",
-        "Procesy biznesowe",
-        "Unix",
-        "analiza",
-        "Angielski"
-      ],
-      "fit_notes": {
-        "direction": "Junior SQL Application Service (verify requirements)",
-        "evidence": "work",
-        "matches": [
-          "SQL / Excel / reporting: sql"
-        ],
-        "concerns": [
-          "Ceiling for this direction"
-        ],
-        "tier_reason": "Capped at 69: Ceiling for this direction.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
-    },
-    {
       "id": "f87fe97c17e0414f",
       "title": "Młodszy Specjalista ds. systemów (k/m)",
       "company": "Life Spot Management sp. z o.o.",
@@ -1015,152 +947,6 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-02T01:13:20.568059+00:00"
-    },
-    {
-      "id": "00b5a3130b063964",
-      "title": "System Support Engineer - AI Supercomputers (junior/mid)",
-      "company": "ALTEN Polska",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/alten-polska-system-support-engineer---ai-supercomputers-junior-mid--warszawa-admin",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=a3d86675663741b18efdb8aca284b25b",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-11T10:50:13.496358Z",
-      "fit_score": 64,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 2,
-      "summary": "What you'll do: As a leader in engineering and IT services, we support companies in their technological and sustainable transformation; OVER 57,400 EMPLOYEES IN 30+ COUNTRIES , SUPPORTING MORE THAN 6,500 CLIENTS WORLDWIDE; For more information, visit : http://www.altenpolska.pl We're Hiring System Support Engineer! | What they expect: Strong Linux administration and troubleshooting skills (minimum 2 years of experience); Knowledge of IP networking concepts: DNS, DHCP, routing, and switching (minimum 2 years of experience); Hardware/Firmware troubleshooting skills, including knowledge of bare-metal servers, BIOS, and BMC systems | What they offer: responsible, sustainable development; Benefits; Benefits platform",
-      "summary_tasks": [
-        "As a leader in engineering and IT services, we support companies in their technological and sustainable transformation",
-        "OVER 57,400 EMPLOYEES IN 30+ COUNTRIES , SUPPORTING MORE THAN 6,500 CLIENTS WORLDWIDE",
-        "For more information, visit : http://www.altenpolska.pl We're Hiring System Support Engineer!"
-      ],
-      "summary_expectations": [
-        "Strong Linux administration and troubleshooting skills (minimum 2 years of experience)",
-        "Knowledge of IP networking concepts: DNS, DHCP, routing, and switching (minimum 2 years of experience)",
-        "Hardware/Firmware troubleshooting skills, including knowledge of bare-metal servers, BIOS, and BMC systems"
-      ],
-      "summary_offers": [
-        "responsible, sustainable development",
-        "Benefits",
-        "Benefits platform"
-      ],
-      "required_skills": [
-        "Linux"
-      ],
-      "fit_notes": {
-        "direction": "Systems / Application Administration",
-        "evidence": "work",
-        "matches": [
-          "Networking / telecom: network, networking, routing",
-          "Linux / Git: linux"
-        ],
-        "concerns": [
-          "Asks for 2 years"
-        ],
-        "tier_reason": "Capped at 64: Asks for 2 years.",
-        "suggested_cv": "Systems & Application Support"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-03T06:51:48.379452+00:00"
-    },
-    {
-      "id": "8c2d0c69daa145e0",
-      "title": "Młodszy Analityk AML/KYC (K/M)",
-      "company": "ASTEK Polska",
-      "location": "Warszawa, Poland",
-      "url": "https://rocketjobs.pl/oferta-pracy/astek-polska-mlodszy-analityk-aml-kyc-k-m--warszawa-bankowosc-analiza-ryzyko-364e7ec8",
-      "apply_url": "",
-      "source": "rocketjobs.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote, Hybrid",
-      "seniority": "junior",
-      "salary": "5 500 - 7 500 PLN/mies.",
-      "published_at": "",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center; UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego | What they expect: 3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD); bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach; Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500 | What they offer: Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji; Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie); Znasz kogoś, kogo zainteresuje ta oferta?",
-      "summary_tasks": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "Co oferujemy Długoterminowa współpraca Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji Mentoring Competence Center",
-        "UoP Aplikuj Aplikując zgadzam się na przetwarzanie moich danych osobowych w celu przeprowadzenia procesu rekrutacyjnego"
-      ],
-      "summary_expectations": [
-        "3 dni w tygodniu praca z biura Wymagana dostępność do pracy w pełnym wymiarze godzin (pn-pt) Sprawdzisz się w tej roli, jeżeli: Posiadasz pierwsze doświadczenie w obszarach AML/KYC, Compliance, Customer Due Diligence lub EDD Potrafisz analizować dokumentację klientów i oceniać ryzyko AML Masz doświadczenie w prowadzeniu procesów remediacyjnych lub okresowych przeglądów klientów Samodzielnie podejmujesz decyzje w oparciu o ocenę ryzyka Masz doświadczenie w kontakcie z klientami w celu pozyskania wymaganej dokumentacji Potrafisz tworzyć przejrzyste i kompleksowe opisy ryzyka Swobodnie komunikujesz się w języku angielskim Mile widziane: Znajomość języka duńskiego na poziomie natywnym / zaawansowanym Zadania, które na Ciebie czekają: Realizacja działań Customer Due Diligence (CDD)",
-        "bycie członkiem społeczności CC od pierwszego dnia pracy jest szansą na rozwijanie swoich umiejętności, uczestniczenie w różnych konferencjach",
-        "Nr ref AO24616 Wymagane umiejętności Excel AML Znajomość języków en: B2 pl: C2 Lokalizacja biura Warszawa Centrum Gdańsk Centrum Łódź Centrum Młodszy Analityk AML/KYC (K/M) 5 500"
-      ],
-      "summary_offers": [
-        "Szkolenia techniczne, certyfikaty i podnoszenie kwalifikacji",
-        "Pakiet benefitów pracowniczych (Multisport, prywatna opieka medyczna, ubezpieczenie na życie)",
-        "Znasz kogoś, kogo zainteresuje ta oferta?"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-04T16:26:17.460212+00:00"
-    },
-    {
-      "id": "cdbdf6dbfe601e5e",
-      "title": "Młodszy analityk danych / Młodsza analityczka danych",
-      "company": "Orbico Sp. z o.o. oddział Beauty",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/mlodszy-analityk-danych-mlodsza-analityczka-danych-warszawa-salsy-2,oferta,1005177524",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-10-23T12:26:50.837Z",
-      "fit_score": 63,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży; monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich; monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży | What they expect: biegła znajomość programu Excel; umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych; umiejętność współpracy i komunikacji z różnymi zespołami | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; możliwość pracy zdalnej",
-      "summary_tasks": [
-        "analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży",
-        "monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich",
-        "monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży"
-      ],
-      "summary_expectations": [
-        "biegła znajomość programu Excel",
-        "umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych",
-        "umiejętność współpracy i komunikacji z różnymi zespołami"
-      ],
-      "summary_offers": [
-        "prywatna opieka medyczna",
-        "ubezpieczenie na życie",
-        "możliwość pracy zdalnej"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: excel"
-        ],
-        "concerns": [],
-        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
     },
     {
       "id": "079bb32abd82e854",
@@ -1213,6 +999,53 @@
       "first_found_at": "2026-11-03T22:43:51.476175+00:00"
     },
     {
+      "id": "cdbdf6dbfe601e5e",
+      "title": "Młodszy analityk danych / Młodsza analityczka danych",
+      "company": "Orbico Sp. z o.o. oddział Beauty",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-analityk-danych-mlodsza-analityczka-danych-warszawa-salsy-2,oferta,1005177524",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-23T12:26:50.837Z",
+      "fit_score": 63,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży; monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich; monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży | What they expect: biegła znajomość programu Excel; umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych; umiejętność współpracy i komunikacji z różnymi zespołami | What they offer: prywatna opieka medyczna; ubezpieczenie na życie; możliwość pracy zdalnej",
+      "summary_tasks": [
+        "analiza danych sprzedażowych oraz monitorowanie wyników według produktów, kategorii, marek i kanałów sprzedaży",
+        "monitorowanie efektywności działań marketingowych, promocji, kampanii reklamowych, newsletterów i współprac influencerskich",
+        "monitorowanie wyników produktów, analiza bestsellerów, produktów o niskiej sprzedaży, nowości oraz sezonowości sprzedaży"
+      ],
+      "summary_expectations": [
+        "biegła znajomość programu Excel",
+        "umiejętność analitycznego myślenia i wyciągania wniosków na podstawie danych",
+        "umiejętność współpracy i komunikacji z różnymi zespołami"
+      ],
+      "summary_offers": [
+        "prywatna opieka medyczna",
+        "ubezpieczenie na życie",
+        "możliwość pracy zdalnej"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: excel"
+        ],
+        "concerns": [],
+        "tier_reason": "Relevant direction, but the vacancy text matches only part of your CV skills.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-24T06:55:02.173108+00:00"
+    },
+    {
       "id": "f7185f8d0799ee41",
       "title": "Młodszy Informatyk (k/m)",
       "company": "\"WARS\" S.A.",
@@ -1256,6 +1089,56 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-04T23:07:40.258666+00:00"
+    },
+    {
+      "id": "9b73b8deb25611d8",
+      "title": "Junior BI Developer (m/k)",
+      "company": "POLENERGIA S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-05T15:00:07.897Z",
+      "fit_score": 60,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Tworzenie procesów ETL/ELT w środowisku Azure; Tworzenie modeli danych na potrzeby raportowania; Tworzenie raportów w PowerBI | What they expect: Bardzo dobra znajomość SQL i relacyjnych baz danych; Znajomość PowerBI oraz DAX; Znajomość języka angielskiego na poziomie B2+ | What they offer: Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii; Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed; Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie",
+      "summary_tasks": [
+        "Tworzenie procesów ETL/ELT w środowisku Azure",
+        "Tworzenie modeli danych na potrzeby raportowania",
+        "Tworzenie raportów w PowerBI"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość SQL i relacyjnych baz danych",
+        "Znajomość PowerBI oraz DAX",
+        "Znajomość języka angielskiego na poziomie B2+"
+      ],
+      "summary_offers": [
+        "Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii",
+        "Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed",
+        "Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Verified Junior Technical Transition (CHECK only)",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Mentions Azure"
+        ],
+        "tier_reason": "Capped at 69: Ceiling for this direction.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-13T19:07:13.654794+00:00"
     },
     {
       "id": "31bd2ba22d8283b4",
