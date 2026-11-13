@@ -130,9 +130,19 @@ function dateValue(job) {
   const t = Date.parse(job.published_at || '');
   return Number.isNaN(t) ? 0 : t;
 }
+function aiVerdict(job) {
+  const value = typeof aiReviewFor === 'function'
+    ? aiReviewFor(job) : job?.ai_review;
+  return value && ['APPLY','CHECK','SKIP'].includes(value.verdict) ? value : null;
+}
 function sortJobs(list) {
   const copy = [...list];
   if (sortMode === 'NEWEST') return copy.sort((a,b) => dateValue(b) - dateValue(a) || (b.fit_score || 0) - (a.fit_score || 0));
+  if (activeFilter === 'ALL') {
+    const rank = job => ({APPLY:3,CHECK:2,SKIP:0}[aiVerdict(job)?.verdict] || 1);
+    return copy.sort((a,b) => rank(b) - rank(a) ||
+      (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
+  }
   return copy.sort((a,b) => (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
 }
 function getVisibleJobs(pinnedId="") {
@@ -142,7 +152,14 @@ function getVisibleJobs(pinnedId="") {
   const filtered = pool.filter(j => {
     const rec = tracker[jobKey(j)];
     if (pinnedId && String(j.id) === String(pinnedId)) return true;
-    if (activeFilter === 'ALL') return true;
+    // One actionable stream: never hide pending AI jobs, but do not show
+    // completed applications, locally dismissed jobs or model SKIP as
+    // recommendations. Historical tracking stays in the optional Applied view.
+    if (activeFilter === 'ALL') {
+      const dismissed = typeof dailyFeedback === 'function'
+        && !!dailyFeedback()[jobKey(j)];
+      return !rec && !dismissed && aiVerdict(j)?.verdict !== 'SKIP';
+    }
     if (activeFilter === 'STRONG' || activeFilter === 'MEDIUM') return j.match_level === activeFilter;
     if (activeFilter === 'EMAIL') return !!j.contact_email;
     if (activeFilter === 'TODAY') return isFirstFoundToday(j);
@@ -585,6 +602,21 @@ function render({anchor=null, preserveViewport=false}={}) {
       job.location || 'Location unknown', job.work_mode || 'Mode unknown',
       job.contract || 'Contract unknown', job.source || 'Source'
     ].map(x => `<span class="chip">${esc(x)}</span>`).join('');
+    // One glance tells whether an AI verdict has actually been issued.
+    // A high heuristic score without a model review is NOT AI-approved.
+    if (!job._historyOnly) {
+      const review = aiVerdict(job);
+      const explanation = String(review?.explanation || '').trim();
+      const line = document.createElement('p');
+      line.className = 'matches-ai-note';
+      if (!review) {
+        line.textContent = 'AI: review pending · employer requirements not yet checked by the model';
+      } else {
+        line.textContent = 'AI: ' + review.verdict + ' · ' +
+          (explanation ? explanation.slice(0, 250) : 'Review the employer requirements');
+      }
+      node.querySelector('.chips').insertAdjacentElement('afterend', line);
+    }
 
     const extra = [];
     if (job.salary) extra.push(`<span><b>Salary:</b> ${esc(job.salary)}</span>`);

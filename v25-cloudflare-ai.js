@@ -11,7 +11,7 @@
     const controls = document.createElement("details");
     controls.id = "aiDirectControls";
     controls.className = "v24-review";
-    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Daily AI reviews arrive automatically after the next scheduled search. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze remaining Daily Picks</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
+    controls.innerHTML = '<summary>Extra manual AI tools (optional)</summary><p class="v24-hint">Matches are reviewed automatically by Cloudflare AI after each full daily scan. You do NOT need a token to read them. Only enter the token here when you want an extra manual review or quota check. Job details are sent only after you press Analyze; no CV PDF, email or phone is sent.</p><input id="aiDirectToken" type="password" autocomplete="off" placeholder="ACCESS_TOKEN (session only)"><div class="v24-action-row"><button type="button" id="aiDirectRun">Analyze with AI</button><button type="button" id="aiDirectForget">Forget token</button><button type="button" id="aiUsage">Check quota</button><button type="button" id="aiBatch">Analyze unreviewed Matches</button></div><p id="aiDirectStatus" role="status" class="v24-status"></p>';
     parent.querySelector("#v24ReviewResult")?.insertAdjacentElement("afterend", controls);
     // Hide the legacy copy/paste workflow behind one optional disclosure.
     // Keep all original elements/listeners intact for no-AI fallback.
@@ -75,10 +75,13 @@
   }
   async function batchAnalyze() {
     if (batchRunning || inFlight || !takeToken()) return;
-    const selected = dailyRecommendations().map(x=>x.job)
-      .filter(j=>!aiReviewFor(j));
-    if (!selected.length) return report("No new Daily Picks need AI review.");
-    if (!window.confirm("Analyze "+Math.min(selected.length,10)+" remaining unreviewed Daily Picks? Each successful or attempted request uses the free quota.")) return;
+    const selected = jobs.filter(j=>
+      !aiReviewFor(j) && !getTracker()[jobKey(j)] &&
+      /umowa o prac|employment contract/i.test(String(j.contract||'')) &&
+      Number(j.experience_required_years||0)<=2 &&
+      (typeof v21LocallyEligible!=='function' || v21LocallyEligible(j)));
+    if (!selected.length) return report("No unreviewed Matches need AI review.");
+    if (!window.confirm("Analyze "+Math.min(selected.length,10)+" remaining unreviewed Matches? Each successful or attempted request uses the free quota.")) return;
     batchRunning=true;
     const button=document.querySelector("#aiBatch");
     button.disabled=true;
@@ -106,7 +109,7 @@
           const review=parseAiReview(JSON.stringify(data));
           persistAiReview(job,review);
           done++;
-          report("AI analyzed "+done+" / "+list.length+" Daily Picks…");
+          report("AI analyzed "+done+" / "+list.length+" Matches…");
         }catch(e){report("Stopped batch: "+e.message);break;}
       }
       render();

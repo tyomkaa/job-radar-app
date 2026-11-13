@@ -1,7 +1,7 @@
-/* Only four everyday views remain immediately visible. */
+/* One everyday Matches stream. All other views are optional filters. */
 .filters{display:block;overflow:visible;padding:3px 0 12px}
-.primary-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
-.primary-filters>.filter{font-size:12px;min-height:44px;padding:10px 2px;text-align:center;white-space:nowrap}
+.primary-filters{display:grid;grid-template-columns:minmax(130px,1fr);gap:6px}
+.primary-filters>.filter{font-size:13px;min-height:44px;padding:10px 14px;text-align:center;white-space:nowrap}
 .extra-filters{margin:7px 0 0;padding:0;border:0}
 .extra-filters>summary{display:inline-flex;align-items:center;min-height:32px;border:1px solid #29313d;background:#15181f;color:#aab1c0;border-radius:10px;padding:6px 10px;font-size:11px;font-weight:750;list-style:none;cursor:pointer}
 .extra-filters>summary::-webkit-details-marker{display:none}
@@ -11,3 +11,6 @@
 .extra-filter-list{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0 4px}
 .extra-filter-list>.filter{font-size:11px;min-height:40px;padding:8px 11px}
 @media(max-width:380px){.primary-filters{gap:4px}.primary-filters>.filter{font-size:11px;padding:10px 0}}
+
+/* Clear automated AI status, without adding a separate Daily/Focus shelf. */
+.matches-ai-note{margin:2px 0 12px;padding:9px 11px;border-left:2px solid #596579;background:#171e28;border-radius:7px;font-size:12px;line-height:1.5;color:#d6dce7;overflow-wrap:anywhere}
