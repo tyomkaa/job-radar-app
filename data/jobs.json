@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-13T19:07:13.654794+00:00",
-    "found": 9440,
-    "accepted": 25,
+    "generated_at": "2026-11-13T19:42:36.511818+00:00",
+    "found": 9437,
+    "accepted": 27,
     "filtered": {
       "Too much experience required (3+ years)": 103,
-      "Too senior / management": 4216,
-      "Contract: B2B only or UoP not confirmed": 127,
-      "Location: not Warsaw and not remote": 440,
+      "Too senior / management": 4222,
+      "Contract: B2B only or UoP not confirmed": 124,
+      "Location: not Warsaw and not remote": 448,
       "Missing a required language": 5,
-      "Different profession than your CV": 812,
+      "Different profession than your CV": 809,
       "Too weak a match with your CV": 8,
-      "Could not verify the vacancy page": 122,
-      "Other": 3582
+      "Could not verify the vacancy page": 111,
+      "Other": 3580
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3130
+        "fetched": 3127
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,11 +34,11 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 246
+        "fetched": 247
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 145
+        "fetched": 146
       },
       "greenhouse:psibufet": {
         "status": "ok",
@@ -72,6 +72,7 @@
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
+      "56b293818d75896c",
       "b3532668cf71e7be",
       "9b73b8deb25611d8",
       "8fd28842829f3a77",
@@ -89,6 +90,7 @@
     ],
     "ai_disputed_focus_ids": [],
     "fresh_opportunity_ids": [
+      "56b293818d75896c",
       "b3532668cf71e7be",
       "9b73b8deb25611d8"
     ],
@@ -101,57 +103,43 @@
       "a34cb2043eee8ac3"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 25,
+      "feed_candidates": 27,
       "shortlisted": 1,
       "daily_review_only": 0,
       "still_listed_strict_count": 3,
-      "focus_total": 14,
+      "focus_total": 15,
       "ai_disputed_focus": 0,
       "focus_stretch": 3,
-      "recent_opportunities": 2,
+      "recent_opportunities": 3,
       "recent_strict": 1,
-      "fresh_feed_candidates": 3,
+      "fresh_feed_candidates": 5,
       "fresh_strict_rejection_reasons": {
-        "career_direction": 1,
-        "exploratory_only": 1
+        "exploratory_only": 2,
+        "career_direction": 2
       },
       "automation": 0,
       "direction_counts": {
         "network": 3,
         "software_adjacent": 7,
-        "bridge": 2,
-        "other": 10,
+        "bridge": 3,
+        "other": 11,
         "systems": 2,
         "automation": 1
       },
-      "junior_title_candidates": 21,
-      "junior_excluded_by_direction": 7,
+      "junior_title_candidates": 23,
+      "junior_excluded_by_direction": 8,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "old_discovery_focus_only": 4,
         "hard_prerequisite_unverified": 2,
         "qualified": 1,
-        "exploratory_only": 3,
-        "career_direction": 10,
+        "exploratory_only": 4,
+        "career_direction": 11,
         "remote_needs_confirmation": 1,
         "backend_tier": 4
       }
     },
     "manual_review_leads": [
-      {
-        "title": "Junior CRM and Marketing Automation Manager",
-        "company": "DANONE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/junior-crm-and-marketing-automation-manager-warszawa-bobrowiecka-8,oferta,1005196161",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
       {
         "title": "Junior Technical Integration Specialist",
         "company": "ERLI S.A.",
@@ -179,20 +167,6 @@
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
         "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
-        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa-juliana-smulikowskiego-6-8,oferta,1005218521",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": true
       },
       {
         "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
@@ -227,13 +201,13 @@
         "newly_observed_not_verified_new_posting": false
       },
       {
-        "title": "Młodszy/a Specjalista/ka ds. Projektów IT / Junior IT Project Manager",
-        "company": "MOREBIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-projektow-it-junior-it-project-manager-warszawa-tytusa-chalubinskiego-8,oferta,1005198100",
+        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
+        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa-juliana-smulikowskiego-6-8,oferta,1005218521",
         "source": "pracuj.pl",
         "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
         "board_seniority_unverified": "junior",
         "board_skills_unverified": [],
         "board_published_at_unverified": "",
@@ -309,23 +283,23 @@
         "newly_observed_not_verified_new_posting": false
       }
     ],
-    "manual_review_leads_count": 11,
+    "manual_review_leads_count": 9,
     "ai_budget": {
       "date_utc": "2026-11-13",
       "used": 1,
       "limit": 20,
       "remaining": 19,
-      "checked_at_utc": "2026-11-13T19:07:19.702244+00:00"
+      "checked_at_utc": "2026-11-13T19:42:37.019609+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
-      "new": 1,
-      "new_daily": 1,
+      "new": 0,
+      "new_daily": 0,
       "new_focus": 0,
       "fresh_focus_eligible": 0,
-      "reused": 0,
+      "reused": 1,
       "unreviewed": 0,
-      "fresh_total": 2,
+      "fresh_total": 3,
       "fresh_reviewed": 1,
       "daily_total": 1,
       "daily_reviewed": 1,
@@ -705,6 +679,118 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00"
+    },
+    {
+      "id": "9b73b8deb25611d8",
+      "title": "Junior BI Developer (m/k)",
+      "company": "POLENERGIA S.A.",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-05T15:00:07.897Z",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Projektowanie i budowa nowoczesnej platformy danych; Tworzenie procesów ETL/ELT w środowisku Azure; Tworzenie modeli danych na potrzeby raportowania; Integracja danych z wielu źródeł (API, bazy danych, pliki); Tworzenie raportów w PowerBI; Automatyzacja wewnętrznych procesów danowych; Wdrażanie rozwiązań usprawniających prace biznesu | What they expect: Bardzo dobra znajomość SQL i relacyjnych baz danych; Znajomość PowerBI oraz DAX; Znajomość języka angielskiego na poziomie B2+ | What they offer: Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii; Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed; Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie",
+      "summary_tasks": [
+        "Projektowanie i budowa nowoczesnej platformy danych",
+        "Tworzenie procesów ETL/ELT w środowisku Azure",
+        "Tworzenie modeli danych na potrzeby raportowania",
+        "Integracja danych z wielu źródeł (API, bazy danych, pliki)",
+        "Tworzenie raportów w PowerBI",
+        "Automatyzacja wewnętrznych procesów danowych",
+        "Wdrażanie rozwiązań usprawniających prace biznesu"
+      ],
+      "summary_expectations": [
+        "Bardzo dobra znajomość SQL i relacyjnych baz danych",
+        "Znajomość PowerBI oraz DAX",
+        "Znajomość języka angielskiego na poziomie B2+"
+      ],
+      "summary_offers": [
+        "Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii",
+        "Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed",
+        "Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Verified Junior Technical Transition (CHECK only)",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql",
+          "Python & automation: api, automatyzacja, integracja"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Mentions Azure"
+        ],
+        "tier_reason": "Capped at 69: Ceiling for this direction.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-13T19:07:13.654794+00:00"
+    },
+    {
+      "id": "56b293818d75896c",
+      "title": "Junior CRM and Marketing Automation Manager",
+      "company": "DANONE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "location": "Warszawa, Masovian, Poland",
+      "url": "https://www.pracuj.pl/praca/junior-crm-and-marketing-automation-manager-warszawa-bobrowiecka-8,oferta,1005196161",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-02T15:59:09.823Z",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Managing CRM and Marketing Automation activities across Nutricia brands; Creating, launching, and optimizing email and customer journey campaigns; Working with customer databases, segmentation, and contact management; Supporting integrations between websites and our Marketing Automation platform; Testing data flows and identifying opportunities to improve processes and customer experience; Collaborating with Marketing, Digital, IT, Legal teams, agencies, and external technology partners; Ensuring CRM activities comply with GDPR and data privacy requirements; Monitoring campaign performance and turning data into actionable recommendations | What they expect: experience with iPresso or a similar platform; basic HTML knowledge; experience in a regulated industry such as healthcare, pharma, or FMCG | What they offer: Hybrid working model: 3 days working remotely and 2 days from our Warsaw office (Bobrowiecka 8); A culture that supports development through regular feedback and internal career opportunities; Workation benefit allowing you to work remotely for up to 30 days per year from anywhere within the EU",
+      "summary_tasks": [
+        "Managing CRM and Marketing Automation activities across Nutricia brands",
+        "Creating, launching, and optimizing email and customer journey campaigns",
+        "Working with customer databases, segmentation, and contact management",
+        "Supporting integrations between websites and our Marketing Automation platform",
+        "Testing data flows and identifying opportunities to improve processes and customer experience",
+        "Collaborating with Marketing, Digital, IT, Legal teams, agencies, and external technology partners",
+        "Ensuring CRM activities comply with GDPR and data privacy requirements",
+        "Monitoring campaign performance and turning data into actionable recommendations"
+      ],
+      "summary_expectations": [
+        "experience with iPresso or a similar platform",
+        "basic HTML knowledge",
+        "experience in a regulated industry such as healthcare, pharma, or FMCG"
+      ],
+      "summary_offers": [
+        "Hybrid working model: 3 days working remotely and 2 days from our Warsaw office (Bobrowiecka 8)",
+        "A culture that supports development through regular feedback and internal career opportunities",
+        "Workation benefit allowing you to work remotely for up to 30 days per year from anywhere within the EU"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Verified Junior Technical Transition (CHECK only)",
+        "evidence": "work",
+        "matches": [
+          "B2B / CRM operations: crm",
+          "Python & automation: automation, integration"
+        ],
+        "concerns": [
+          "Ceiling for this direction"
+        ],
+        "tier_reason": "Capped at 69: Ceiling for this direction.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-11-13T19:42:36.511818+00:00"
     },
     {
       "id": "e22daed6f25a53f8",
@@ -1091,56 +1177,6 @@
       "first_found_at": "2026-11-04T23:07:40.258666+00:00"
     },
     {
-      "id": "9b73b8deb25611d8",
-      "title": "Junior BI Developer (m/k)",
-      "company": "POLENERGIA S.A.",
-      "location": "Warszawa, mazowieckie, Polska",
-      "url": "https://www.pracuj.pl/praca/junior-bi-developer-m-k-warszawa-krucza-24-26,oferta,1005204320",
-      "apply_url": "",
-      "source": "pracuj.pl",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-05T15:00:07.897Z",
-      "fit_score": 60,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Tworzenie procesów ETL/ELT w środowisku Azure; Tworzenie modeli danych na potrzeby raportowania; Tworzenie raportów w PowerBI | What they expect: Bardzo dobra znajomość SQL i relacyjnych baz danych; Znajomość PowerBI oraz DAX; Znajomość języka angielskiego na poziomie B2+ | What they offer: Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii; Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed; Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie",
-      "summary_tasks": [
-        "Tworzenie procesów ETL/ELT w środowisku Azure",
-        "Tworzenie modeli danych na potrzeby raportowania",
-        "Tworzenie raportów w PowerBI"
-      ],
-      "summary_expectations": [
-        "Bardzo dobra znajomość SQL i relacyjnych baz danych",
-        "Znajomość PowerBI oraz DAX",
-        "Znajomość języka angielskiego na poziomie B2+"
-      ],
-      "summary_offers": [
-        "Zaproponujemy Ci konkurencyjne wynagrodzenie na rynku i atrakcyjne warunki premii",
-        "Zadbamy o Twoje Zdrowie -umożliwiając Tobie/Twojej rodzinie korzystanie z prywatnego pakietu medycznego LuxMed",
-        "Wzmocnimy Twoje poczucie Bezpieczeństwa- oferując Tobie i Twojej rodzinie preferencyjne warunki ubezpieczenia na życie"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Verified Junior Technical Transition (CHECK only)",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Mentions Azure"
-        ],
-        "tier_reason": "Capped at 69: Ceiling for this direction.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-13T19:07:13.654794+00:00"
-    },
-    {
       "id": "31bd2ba22d8283b4",
       "title": "Młodszy Analityk / Młodsza Analityczka",
       "company": "SMYK sp. z o.o.",
@@ -1375,6 +1411,58 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-10T07:41:40.429785+00:00"
+    },
+    {
+      "id": "d9cf534c64ceecad",
+      "title": "Młodszy/a Specjalista/ka ds. Projektów IT / Junior IT Project Manager",
+      "company": "MOREBIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-projektow-it-junior-it-project-manager-warszawa-tytusa-chalubinskiego-8,oferta,1005198100",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-03T12:51:24.14Z",
+      "fit_score": 57,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Wspieranie organizacji i prowadzenia projektów IT; Planowanie zadań, ustalanie priorytetów i monitorowanie terminów; Koordynowanie bieżącej pracy małego zespołu projektowego; Pilnowanie realizacji ustaleń i aktywne doprowadzanie tematów do zamknięcia; Komunikacja z osobami zaangażowanymi w projekty; Zbieranie i porządkowanie wymagań oraz informacji biznesowych; Przygotowywanie konkretnych notatek, podsumowań, opisów zadań i statusów projektowych; Prowadzenie i aktualizacja dokumentacji projektowej oraz systemowej | What they expect: Dobra organizacja pracy – umiejętność planowania własnych działań, ustalania priorytetów i pilnowania terminów; Umiejętność koordynowania pracy zespołu – porządkowanie pracy kilkuosobowego zespołu (3–4 osoby), dbanie o podział zadań i monitorowanie postępów; Umiejętność precyzyjnego pisania – dobrze posługujesz się językiem polskim | What they offer: Szkolenia (wewnętrzne i zewnętrzne); Pakiet dla aktywnych – MultiSport; Prywatną opiekę medyczną - Medicover",
+      "summary_tasks": [
+        "Wspieranie organizacji i prowadzenia projektów IT",
+        "Planowanie zadań, ustalanie priorytetów i monitorowanie terminów",
+        "Koordynowanie bieżącej pracy małego zespołu projektowego",
+        "Pilnowanie realizacji ustaleń i aktywne doprowadzanie tematów do zamknięcia",
+        "Komunikacja z osobami zaangażowanymi w projekty",
+        "Zbieranie i porządkowanie wymagań oraz informacji biznesowych",
+        "Przygotowywanie konkretnych notatek, podsumowań, opisów zadań i statusów projektowych",
+        "Prowadzenie i aktualizacja dokumentacji projektowej oraz systemowej"
+      ],
+      "summary_expectations": [
+        "Dobra organizacja pracy – umiejętność planowania własnych działań, ustalania priorytetów i pilnowania terminów",
+        "Umiejętność koordynowania pracy zespołu – porządkowanie pracy kilkuosobowego zespołu (3–4 osoby), dbanie o podział zadań i monitorowanie postępów",
+        "Umiejętność precyzyjnego pisania – dobrze posługujesz się językiem polskim"
+      ],
+      "summary_offers": [
+        "Szkolenia (wewnętrzne i zewnętrzne)",
+        "Pakiet dla aktywnych – MultiSport",
+        "Prywatną opiekę medyczną - Medicover"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Verified Junior Technical Transition (CHECK only)",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Ceiling for this direction"
+        ],
+        "tier_reason": "Capped at 69: Ceiling for this direction.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-13T19:42:36.511818+00:00"
     },
     {
       "id": "94dc01641bfcf666",
