@@ -66,7 +66,6 @@
       "b3532668cf71e7be"
     ],
     "still_listed_ids": [
-      "8fd28842829f3a77",
       "529fdb6e90e15b76",
       "f87fe97c17e0414f"
     ],
@@ -81,15 +80,15 @@
       "529fdb6e90e15b76",
       "7b38941f5f064f03",
       "f87fe97c17e0414f",
-      "f7185f8d0799ee41",
       "99c99c9bfb69d790",
       "bfc8976d02c84eb6",
       "d1918751a2dc817f",
       "7e7be59d16b1ab49",
-      "de7ce96492d15e28",
       "a34cb2043eee8ac3"
     ],
-    "ai_disputed_focus_ids": [],
+    "ai_disputed_focus_ids": [
+      "8fd28842829f3a77"
+    ],
     "fresh_opportunity_ids": [
       "56b293818d75896c",
       "b3532668cf71e7be",
@@ -101,17 +100,16 @@
     ],
     "focus_stretch_ids": [
       "7e7be59d16b1ab49",
-      "de7ce96492d15e28",
       "a34cb2043eee8ac3"
     ],
     "daily_diagnostics": {
       "feed_candidates": 28,
       "shortlisted": 1,
       "daily_review_only": 0,
-      "still_listed_strict_count": 3,
-      "focus_total": 16,
-      "ai_disputed_focus": 0,
-      "focus_stretch": 3,
+      "still_listed_strict_count": 2,
+      "focus_total": 14,
+      "ai_disputed_focus": 1,
+      "focus_stretch": 2,
       "recent_opportunities": 4,
       "recent_strict": 1,
       "fresh_feed_candidates": 6,
@@ -132,166 +130,39 @@
       "junior_excluded_by_direction": 8,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
-        "old_discovery_focus_only": 4,
+        "old_discovery_focus_only": 2,
         "hard_prerequisite_unverified": 2,
         "qualified": 1,
         "exploratory_only": 5,
+        "ai_skip": 3,
         "career_direction": 11,
         "remote_needs_confirmation": 1,
-        "backend_tier": 4
+        "backend_tier": 3
       }
     },
-    "manual_review_leads": [
-      {
-        "title": "Junior Technical Integration Specialist",
-        "company": "ERLI S.A.",
-        "url": "https://www.pracuj.pl/praca/junior-technical-integration-specialist-poznan-grunwaldzka-182,oferta,1005206386",
-        "source": "pracuj.pl",
-        "location": "Poland",
-        "work_mode": "Remote",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior, mid",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
-        "company": "Bank BPS S.A.",
-        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "Project Management",
-          "PRINCE2",
-          "PMI"
-        ],
-        "board_published_at_unverified": "2026-11-13T16:50:05.8473066Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Administrator IT / Młodsza Administratorka IT",
-        "company": "Elmark Automatyka S.A.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-mlodsza-administratorka-it-warszawa-bukowinska-22,oferta,1005158492",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior, mid",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
-        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa-juliana-smulikowskiego-6-8,oferta,1005218521",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Network Security Engineer (m/k)",
-        "company": "Orange Polska",
-        "url": "https://justjoin.it/job-offer/orange-polska-network-security-engineer-m-k--warszawa-admin",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "TCP",
-          "IP",
-          "VLAN",
-          "routing",
-          "VPN",
-          "DNS",
-          "Palo Alto",
-          "Fortinet"
-        ],
-        "board_published_at_unverified": "2026-11-12T07:25:07.16057Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Kierownik Projektu IT (K/M)",
-        "company": "Polmlek Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-kierownik-projektu-it-k-m-warszawa,oferta,1005178955",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy administrator IT",
-        "company": "Zepter IT Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-warszawa,oferta,1005212166",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior IT Project Specialist",
-        "company": "TQLO SP. Z O.O.",
-        "url": "https://justjoin.it/job-offer/tqlo-sp-z-o-o--junior-it-project-specialist-warszawa-pm-d2fc8a55",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Office",
-        "board_contract_unverified": "",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "Project Management",
-          "Jira"
-        ],
-        "board_published_at_unverified": "2026-11-13T05:30:05.8982008Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      }
-    ],
-    "manual_review_leads_count": 8,
+    "manual_review_leads": [],
+    "manual_review_leads_count": 0,
     "ai_budget": {
       "date_utc": "2026-11-13",
-      "used": 1,
+      "used": 16,
       "limit": 20,
-      "remaining": 19,
-      "checked_at_utc": "2026-11-13T20:31:13.975753+00:00"
+      "remaining": 4,
+      "checked_at_utc": "2026-11-13T21:13:38.527149+00:00"
     },
     "ai_automatic": {
-      "eligible": 1,
-      "new": 0,
+      "scope": "qualified",
+      "eligible": 27,
+      "new": 15,
       "new_daily": 0,
-      "new_focus": 0,
-      "fresh_focus_eligible": 0,
+      "new_focus": 15,
+      "fresh_focus_eligible": 4,
       "reused": 1,
-      "unreviewed": 0,
+      "unreviewed": 11,
       "fresh_total": 4,
-      "fresh_reviewed": 1,
+      "fresh_reviewed": 4,
       "daily_total": 1,
       "daily_reviewed": 1,
-      "feed_reviewed": 1
+      "feed_reviewed": 16
     }
   },
   "jobs": [
@@ -402,7 +273,24 @@
         "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-03T13:17:00.930254+00:00"
+      "first_found_at": "2026-11-03T13:17:00.930254+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует junior-уровня с 0 годами опыта, но кандидат имеет коммерческие проекты. Офис в Варшаве, но есть B2B-договор. Требуется TypeScript, которого в портфолио нет.",
+        "strengths": [
+          "Портфолио с Python-автоматизацией и интеграциями",
+          "Опыт в работе с SQL/PostgreSQL и SaaS-системами",
+          "Наличие проектов с CI/CD и API-интеграциями"
+        ],
+        "gaps": [
+          "Отсутствие опыта в TypeScript, требуемом в вакансии",
+          "B2B-договор может не соответствовать предпочтению кандидата",
+          "Нет подтверждения, что коммерческие проекты считаются первым опытом"
+        ],
+        "verify": "Уточнить, считается ли коммерческий опыт в SaaS-интеграциях первым опытом и возможно ли удалённое участие.",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "2af52aaaf32b8b5ab2fb2e50"
     },
     {
       "id": "b3532668cf71e7be",
@@ -566,7 +454,24 @@
       "interest_tags": [
         "automation"
       ],
-      "first_found_at": "2026-10-31T07:49:11.754981+00:00"
+      "first_found_at": "2026-10-31T07:49:11.754981+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия требует опыта в маркетинге, а не в автоматизации систем/интеграции. Кандидат не демонстрирует профессионального опыта в маркетинговых кампаниях или CRM-автоматизации, несмотря на технические навыки.",
+        "strengths": [
+          "Опыт автоматизации с Python/Playwright/openpyxl",
+          "Работа с SQL/PostgreSQL и интеграцией API",
+          "Навыки SaaS-разработки и системной интеграции"
+        ],
+        "gaps": [
+          "Отсутствие профессионального опыта в маркетинговых кампаниях или CRM",
+          "Нет упоминания о работе с инструментами автоматизации маркетинга (например, HubSpot, Marketo)",
+          "Опыт в telecom/сетях не соответствует требованиям вакансии"
+        ],
+        "verify": "Проверить, есть ли у кандидата опыт в автоматизации маркетинговых процессов или CRM-системах.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "3ad3deece1284932f34f489a"
     },
     {
       "id": "d1918751a2dc817f",
@@ -717,7 +622,24 @@
         "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-13T20:31:13.442576+00:00"
+      "first_found_at": "2026-11-13T20:31:13.442576+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует базового знания SQL или программирования, что кандидат имеет. Однако отсутствие упоминания WEBCON в навыках кандидата и несоответствие фокуса (автоматизация процессов vs. SaaS-интеграция) требует уточнения.",
+        "strengths": [
+          "Опыт автоматизации процессов с Python и интеграции API",
+          "Знание SQL/PostgreSQL и данных",
+          "Реализация SaaS-проектов с Docker/Ubuntu"
+        ],
+        "gaps": [
+          "Отсутствие опыта с WEBCON или инструментами бизнес-автоматизации",
+          "Не указано соответствие требованиям к «бизнес-процессам»",
+          "Нет упоминания о работе с формами/отчетами в вакансии"
+        ],
+        "verify": "Уточнить, насколько требования к WEBCON и автоматизации процессов соответствуют опыту кандидата.",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "6c13842569fef35deef5c9fd"
     },
     {
       "id": "9b73b8deb25611d8",
@@ -772,7 +694,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-13T19:07:13.654794+00:00"
+      "first_found_at": "2026-11-13T19:07:13.654794+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует PowerBI/DAX и Azure ETL/ELT, что не полностью соответствует опыту кандидата, но есть навыки SQL/PostgreSQL и автоматизации данных. Отсутствие упоминания о PowerBI/DAX и Azure требует уточнения.",
+        "strengths": [
+          "Опыт с SQL/PostgreSQL и автоматизацией данных",
+          "Навыки интеграции API и обработки данных",
+          "Практика в создании workflow и ETL-процессов"
+        ],
+        "gaps": [
+          "Отсутствие опыта с PowerBI/DAX и Azure",
+          "Нет упоминания о ETL/ELT в конкретных инструментах",
+          "Не указано знание английского на B2+"
+        ],
+        "verify": "Уточнить наличие опыта с PowerBI/DAX и Azure ETL/ELT, а также уровень английского.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "e91ff4a0c00e875abdf661bf"
     },
     {
       "id": "56b293818d75896c",
@@ -829,7 +768,24 @@
       "interest_tags": [
         "automation"
       ],
-      "first_found_at": "2026-11-13T19:42:36.511818+00:00"
+      "first_found_at": "2026-11-13T19:42:36.511818+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует опыта в CRM-платформах (iPresso) и базовых знаний HTML, которых нет в профиле. Однако есть опыт автоматизации, интеграции API и работы с SaaS, что может быть релевантно для части задач. Отсутствие прямого опыта в маркетинговой автоматизации и регулируемых отраслях (FMCG/фарма) снижает совпадение.",
+        "strengths": [
+          "Опыт автоматизации и интеграции API/SQL",
+          "Работа с SaaS-платформами и многотенантными системами",
+          "Навыки данных и обработки информации"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта с CRM-платформами (iPresso) и маркетинговой автоматизацией",
+          "Нет упоминаний о работе в регулируемых отраслях (FMCG/фарма)",
+          "Отсутствие базовых знаний HTML"
+        ],
+        "verify": "Проверить, есть ли в портфолио проекты, связанные с интеграцией CRM-систем или автоматизацией маркетинговых процессов, а также упоминания о работе в FMCG/фарма.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "05bcec6a76ba7db8b64f4d73"
     },
     {
       "id": "e22daed6f25a53f8",
@@ -879,7 +835,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-10T07:41:40.429785+00:00"
+      "first_found_at": "2026-11-10T07:41:40.429785+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует Data Analyst с возможностью 0 лет опыта, но кандидат не подтвердил специализацию на ETL/трансформации данных или банковской сфере. Его опыт в Python/автоматизации и SQL соответствует части требований, но не полностью.",
+        "strengths": [
+          "Опыт работы с Python, SQL/PostgreSQL и автоматизацией данных",
+          "Проекты по интеграции API и обработке данных",
+          "Наличие SaaS-проектов с использованием баз данных и DevOps-инструментов"
+        ],
+        "gaps": [
+          "Отсутствие подтверждённого опыта в ETL-процессах или работе с финансовыми данными",
+          "Нет упоминания о банковской сфере или корпоративных клиентах",
+          "Не указано участие в аналитических проектах с отчётом или визуализацией данных"
+        ],
+        "verify": "Уточнить, требуется ли опыт в ETL/трансформации данных или работе с финансовой аналитикой, а также наличие навыков визуализации/отчётов.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "1e4d859edd5dce49033b3c7a"
     },
     {
       "id": "1b7c038143efaa91",
@@ -976,7 +949,22 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-01T17:37:28.080765+00:00"
+      "first_found_at": "2026-11-01T17:37:28.080765+00:00",
+      "ai_review": {
+        "verdict": "APPLY",
+        "explanation": "Вакансия соответствует требованиям: удалённый формат из Польши, уровень junior, отсутствие ограничений по стажу. Навыки Python, SQL, автоматизации и интеграции систем из профиля соответствуют описанию задач.",
+        "strengths": [
+          "Опыт автоматизации процессов на Python (Playwright, openpyxl, GitHub Actions)",
+          "Знание SQL/PostgreSQL и работы с данными",
+          "Профессиональный опыт в SaaS-интеграции и сетевых системах"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта работы с Copilot Studio или инструментами AI-агентов, указанными в вакансии"
+        ],
+        "verify": "Remote-формат из Польши, уровень junior, отсутствие требований к 3+ годам опыта",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "1e99becc1503739f29380483"
     },
     {
       "id": "52f71112efcd9f74",
@@ -1024,7 +1012,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-12T02:25:22.298670+00:00"
+      "first_found_at": "2026-11-12T02:25:22.298670+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия соответствует требованиям по локации (Варшава, гибрид), уровню junior и отсутствию B2B. Однако требуется T-SQL (MS SQL Server), а кандидат демонстрирует опыт с PostgreSQL, что может быть несовпадением. Также отсутствует явное упоминание работы с Microsoft Excel в портфолио, хотя есть автоматизация Excel в проектах.",
+        "strengths": [
+          "Опыт автоматизации данных и интеграции систем",
+          "Знание SQL/PostgreSQL и работы с CRM/данными",
+          "Международный опыт в Huawei и SaaS-проектах"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта с Microsoft SQL Server (T-SQL)",
+          "Нет явного упоминания работы с Microsoft Excel в профессиональных проектах",
+          "Нет подтверждения международного опыта в контексте данных"
+        ],
+        "verify": "Проверить, насколько опыт с PostgreSQL и SQL-автоматизацией соответствует требованиям T-SQL. Уточнить, есть ли навыки работы с Excel в профессиональных целях.",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "90ebf0935625a27d96570bda"
     },
     {
       "id": "f87fe97c17e0414f",
@@ -1071,7 +1076,24 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T01:13:20.568059+00:00"
+      "first_found_at": "2026-11-02T01:13:20.568059+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия не упоминает Python, автоматизацию процессов или интеграцию систем, что является ключевым для профиля кандидата. Требуется SQL, но не указаны навыки автоматизации или работы с API/интеграциями.",
+        "strengths": [
+          "Гибридный режим и локация в Польше",
+          "Нет требований к 3+ годам опыта",
+          "Возможность развития навыков SQL"
+        ],
+        "gaps": [
+          "Отсутствие требований к Python/автоматизации",
+          "Нет упоминаний о интеграции систем или AI",
+          "Требуется обучение SQL, а не применение существующих навыков"
+        ],
+        "verify": "Проверить описание вакансии на наличие скрытых требований к автоматизации или интеграции систем.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "e37739ae94520f91cf52cdcd"
     },
     {
       "id": "079bb32abd82e854",
@@ -1121,7 +1143,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-03T22:43:51.476175+00:00"
+      "first_found_at": "2026-11-03T22:43:51.476175+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует аналитических навыков и работы с Excel, но не упоминает программирование или автоматизацию. Кандидат имеет опыт в Python/SQL, но не подтверждён 3+ лет коммерческого опыта. Требования к вакансии не соответствуют ключевым компетенциям кандидата.",
+        "strengths": [
+          "Опыт автоматизации процессов (Playwright, GitHub Actions)",
+          "Работа с SQL/PostgreSQL и данными",
+          "Навыки аналитического мышления"
+        ],
+        "gaps": [
+          "Отсутствие прямого соответствия требованиям вакансии (аналитика данных vs. автоматизация систем)",
+          "Не подтверждён 3+ лет коммерческого опыта",
+          "Вакансия не требует технических навыков, указанных в профиле"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии скрытые требования к автоматизации или интеграции систем.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "0e7c3a6c7589a4c5f452887e"
     },
     {
       "id": "cdbdf6dbfe601e5e",
@@ -1213,7 +1252,24 @@
         "suggested_cv": "Systems & Application Support"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-04T23:07:40.258666+00:00"
+      "first_found_at": "2026-11-04T23:07:40.258666+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия ориентирована на традиционный IT-специалиста с фокусом на сеть/документацию, а не на автоматизацию/интеграцию систем, что соответствует карьере кандидата.",
+        "strengths": [
+          "Опыт автоматизации Python/Playwright в SaaS",
+          "Сетевое инженерное образование и опыт",
+          "Работа с PostgreSQL и Docker"
+        ],
+        "gaps": [
+          "Отсутствие опыта с Active Directory/Microsoft 365",
+          "Нет акцента на автоматизацию в описании вакансии",
+          "Фокус на документировании вместо интеграции систем"
+        ],
+        "verify": "Проверить, соответствует ли позиция требованиям к автоматизации/интеграции систем в описании вакансии.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "76fc6791bdad4a2939fc36fe"
     },
     {
       "id": "31bd2ba22d8283b4",
@@ -1406,7 +1462,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00"
+      "first_found_at": "2026-11-02T14:56:19.483329+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия требует роли Business Analyst, но кандидат имеет технический профиль в автоматизации, сетях и SaaS, без подтверждённого опыта в аналитике, User Stories или управлении проектами. Требования вакансии не соответствуют его профилю.",
+        "strengths": [
+          "Опыт автоматизации Python/Playwright и интеграции API",
+          "Сетевое инженерное образование и опыт работы с PostgreSQL/Docker",
+          "Разработка SaaS-решений с использованием Supabase и Ubuntu"
+        ],
+        "gaps": [
+          "Отсутствие опыта в бизнес-аналитике или работе с User Stories",
+          "Нет подтверждённого опыта в управлении проектами или продуктами",
+          "Роль требует 0 лет опыта, но кандидат имеет технический, а не аналитический профиль"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии требования, связанные с техническими навыками кандидата, но в данном случае задачи явно ориентированы на аналитику, а не на автоматизацию или интеграцию систем.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "acd1a89860debd4e17bf6fe5"
     },
     {
       "id": "7b96df99030820a8",
@@ -1449,7 +1522,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-10T07:41:40.429785+00:00"
+      "first_found_at": "2026-11-10T07:41:40.429785+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Роль аналитика без технических требований не соответствует профилю автоматизации/интеграции систем. Кандидат имеет опыт в SaaS/автоматизации, но не в анализе финансовой отчетности или работе с контрактами.",
+        "strengths": [
+          "Опыт Python/автоматизации в SaaS-проектах",
+          "Навыки SQL/PostgreSQL и обработки данных",
+          "Фриланс-проекты с технической глубиной"
+        ],
+        "gaps": [
+          "Отсутствие опыта в анализе контрактов/финансовых данных",
+          "Роль не связана с интеграцией систем или автоматизацией процессов",
+          "Нет указаний на аналитические методы или инструменты (Power BI/Excel-аналитика)"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии скрытые требования к аналитике данных или работе с контрактами, которые не указаны явно.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "c619721c2edd41686e363ebc"
     },
     {
       "id": "d9cf534c64ceecad",
@@ -1501,7 +1591,24 @@
         "suggested_cv": "Data & Operations"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-13T19:42:36.511818+00:00"
+      "first_found_at": "2026-11-13T19:42:36.511818+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия позиции Junior IT Project Manager требует навыков управления проектами, координации команды и планирования задач, которых у кандидата нет в описании. Его опыт ограничен технической автоматизацией, интеграцией систем и сетевой инженерией, но не менеджментом.",
+        "strengths": [
+          "Опыт автоматизации процессов (Python, Playwright, openpyxl)",
+          "Работа с SQL/PostgreSQL и SaaS-интеграциями",
+          "Навыки системной инженерии и диагностики сетей"
+        ],
+        "gaps": [
+          "Отсутствие опыта в управлении проектами или командами",
+          "Нет упоминаний о планировании задач или коммуникации с заинтересованными сторонами",
+          "Нет соответствия требованиям к роли менеджера проектов"
+        ],
+        "verify": "Позиция не соответствует профилю кандидата, так как требует навыков управления проектами, а не технической автоматизации.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "7038d5e92f358b59280ad222"
     },
     {
       "id": "94dc01641bfcf666",
@@ -1719,7 +1826,24 @@
         "suggested_cv": "Automation & Python"
       },
       "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00"
+      "first_found_at": "2026-11-02T14:56:19.483329+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует SQL и базового программирования, но не связана с автоматизацией процессов или интеграцией систем. Кандидат имеет опыт Python/SQL, но не подтверждённый стаж разработчика.",
+        "strengths": [
+          "Знание SQL/PostgreSQL в портфолио",
+          "Опыт автоматизации процессов на Python",
+          "Работа с SaaS и интеграциями"
+        ],
+        "gaps": [
+          "Нет подтверждённого коммерческого опыта разработчика",
+          "Вакансия не связана с AI/автоматизацией процессов",
+          "Требуется junior без опыта, что не соответствует текущему профилю"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии явные требования к автоматизации/интеграции систем или AI.",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "e7ab76606973d3c4642eb75a"
     }
   ]
 }
