@@ -87,12 +87,12 @@ assert(ukrainian.includes('v21LocallyEligible(job)'),'Ukrainian employer matches
 assert(ukrainian.includes('career')&&ukrainian.includes('current feed'),'Career links must be clearly separate from live feed');
 assert(!ukrainian.includes('fetch('),'Employer watchlist must not claim to scrape career sites');
 assert(!ukrainian.includes('localStorage.setItem'),'Employer filter must not mutate private local application data');
-// Four visible job views and no redundant New Matches tab.
+// One main Matches feed; old Daily/Focus are no longer main navigation.
 const primary=html.match(/<div class="primary-filters"[\s\S]*?<\/div>/)?.[0]||'';
 const secondary=html.match(/<details class="extra-filters"[\s\S]*?<\/details>/)?.[0]||'';
 assert.deepEqual([...primary.matchAll(/data-filter="([^"]+)"/g)].map(x=>x[1]),
-  ['DAILY','FOCUS','ALL','UNSEEN'], 'Exactly four main tabs expected');
-for(const filter of ['UA_EMPLOYERS','TODAY','APPLY','POSSIBLE','STRETCH','AUTOMATION',
+  ['ALL'], 'One main Matches stream expected');
+for(const filter of ['UNSEEN','UA_EMPLOYERS','TODAY','APPLY','POSSIBLE','STRETCH','AUTOMATION',
  'QUEUE','SAVED','APPLIED','REPLIED']){
   assert(secondary.includes('data-filter="'+filter+'"'), 'Missing optional filter '+filter);
 }
