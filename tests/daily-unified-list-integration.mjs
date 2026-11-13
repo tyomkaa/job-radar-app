@@ -13,9 +13,10 @@ assert(!html.includes('v31-still-listed.js'));
 assert(!html.includes('styles-v30-manual-leads.css'));
 assert(!serviceWorker.includes("'/v30-manual-review-leads.js'"));
 assert(!serviceWorker.includes("'/v31-still-listed.js'"));
-assert(serviceWorker.includes('v40-unified-daily'));
-for(const name of ['DAILY','FOCUS','ALL','UNSEEN'])
-  assert(html.includes('data-filter="'+name+'"'),'main view '+name+' must remain');
+assert(serviceWorker.includes('v41-one-matches'));
+assert(html.includes('data-filter="ALL"'),'single Matches stream must remain');
+assert(!html.includes('data-filter="DAILY"')&&!html.includes('data-filter="FOCUS"'),
+       'Legacy Daily/Focus must not return as separate tabs');
 assert(!html.includes('id="manualReviewLeads"'));
 assert(!html.includes('id="stillListedReview"'));
 assert(source.includes("dailyDecorateAdditionalCards()"));
