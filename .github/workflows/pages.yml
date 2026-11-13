@@ -34,6 +34,13 @@ jobs:
         with:
           path: .
 
+      # GitHub's artifact metadata API may lag a successfully uploaded
+      # Pages artifact. Run #240 failed with zero artifacts immediately after
+      # a successful upload; rerunning that same run created duplicate
+      # artifacts. A fresh run plus a brief indexing delay prevents the race.
+      - name: Allow Pages artifact metadata to become visible
+        run: sleep 10
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
