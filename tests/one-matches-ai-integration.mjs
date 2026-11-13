@@ -44,6 +44,7 @@ assert.equal(ctx.aiVerdict(records[2]),null);
 ctx.activeFilter='UNSEEN';
 assert.equal(ctx.getVisibleJobs().length,5,'optional Unseen retains all untracked jobs, even AI SKIP');
 ctx.activeFilter='ALL';
+ctx.sortMode='BEST';
 records[0].ai_review={verdict:'SKIP',explanation:'AI changed'};
 assert.deepEqual(Array.from(ctx.getVisibleJobs(),x=>x.id),
   ['check','pending'],'fresh AI SKIP no longer advertised as match');
