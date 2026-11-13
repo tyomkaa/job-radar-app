@@ -42,7 +42,7 @@ assert.equal(ctx.getVisibleJobs().length,3);
 ctx.activeFilter='ALL';
 assert.equal(ctx.aiVerdict(records[2]),null);
 ctx.activeFilter='UNSEEN';
-assert.equal(ctx.getVisibleJobs().length,6,'optional Unseen filter unchanged');
+assert.equal(ctx.getVisibleJobs().length,5,'optional Unseen retains all untracked jobs, even AI SKIP');
 ctx.activeFilter='ALL';
 records[0].ai_review={verdict:'SKIP',explanation:'AI changed'};
 assert.deepEqual(Array.from(ctx.getVisibleJobs(),x=>x.id),
