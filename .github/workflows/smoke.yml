@@ -25,3 +25,4 @@ jobs:
           node tests/daily-ai-check-ready-state.mjs
           node tests/daily-unified-list-integration.mjs
           node tests/one-matches-ai-integration.mjs
+          node tests/ai-first-pending-score.mjs

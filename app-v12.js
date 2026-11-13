@@ -578,9 +578,17 @@ function render({anchor=null, preserveViewport=false}={}) {
     const node = tpl.content.cloneNode(true);
     const card = node.querySelector('.job-card');
     card.dataset.jobId = String(job.id);
-    node.querySelector('.score').textContent = `${job.fit_score || 0}%`;
+    // Local embedding similarity is research priority, not an invented
+    // percentage of CV compatibility. Only the independent Cloudflare model
+    // supplies a career verdict for AI-first recovered opportunities.
+    const preliminary = job.fit_notes?.score_is_preliminary === true;
+    const aiAssessment = preliminary ? aiVerdict(job) : null;
+    node.querySelector('.score').textContent = preliminary
+      ? (aiAssessment ? 'AI ' + aiAssessment.verdict : 'AI pending')
+      : `${job.fit_score || 0}%`;
     const levelPrefix = job._historyOnly ? '' : (isFirstFoundToday(job) ? 'TODAY · ' : (!seen.has(job.id) && !rec ? 'UNSEEN · ' : ''));
-    node.querySelector('.level').textContent = levelPrefix + (job.match_level || '');
+    node.querySelector('.level').textContent = levelPrefix
+      + (preliminary ? 'CV match awaiting AI review' : (job.match_level || ''));
     const badge = node.querySelector('.application-badge');
     if (rec) { badge.textContent = statusLabel(rec.status); badge.classList.add('visible'); }
     node.querySelector('.title').textContent = job.title;
