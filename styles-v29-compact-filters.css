@@ -11,3 +11,6 @@
 .extra-filter-list{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0 4px}
 .extra-filter-list>.filter{font-size:11px;min-height:40px;padding:8px 11px}
 @media(max-width:380px){.primary-filters{gap:4px}.primary-filters>.filter{font-size:11px;padding:10px 0}}
+
+/* Clear automated AI status, without adding a separate Daily/Focus shelf. */
+.matches-ai-note{margin:2px 0 12px;padding:9px 11px;border-left:2px solid #596579;background:#171e28;border-radius:7px;font-size:12px;line-height:1.5;color:#d6dce7;overflow-wrap:anywhere}
