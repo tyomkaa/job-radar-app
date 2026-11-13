@@ -1,19 +1,19 @@
 {
   "meta": {
     "feed_version": "5",
-    "generated_at": "2026-11-13T19:42:36.511818+00:00",
-    "found": 9437,
-    "accepted": 27,
+    "generated_at": "2026-11-13T20:31:13.442576+00:00",
+    "found": 9438,
+    "accepted": 28,
     "filtered": {
-      "Too much experience required (3+ years)": 103,
-      "Too senior / management": 4222,
+      "Too much experience required (3+ years)": 102,
+      "Too senior / management": 4226,
       "Contract: B2B only or UoP not confirmed": 124,
-      "Location: not Warsaw and not remote": 448,
+      "Location: not Warsaw and not remote": 449,
       "Missing a required language": 5,
-      "Different profession than your CV": 809,
-      "Too weak a match with your CV": 8,
-      "Could not verify the vacancy page": 111,
-      "Other": 3580
+      "Different profession than your CV": 811,
+      "Too weak a match with your CV": 7,
+      "Could not verify the vacancy page": 109,
+      "Other": 3577
     },
     "sources": {
       "justjoin.it": {
@@ -26,7 +26,7 @@
       },
       "pracuj.pl": {
         "status": "ok",
-        "fetched": 3127
+        "fetched": 3128
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -34,7 +34,7 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 247
+        "fetched": 248
       },
       "greenhouse:boxinc": {
         "status": "ok",
@@ -74,6 +74,7 @@
     "focus_job_ids": [
       "56b293818d75896c",
       "b3532668cf71e7be",
+      "8760a6b1fb0758c1",
       "9b73b8deb25611d8",
       "8fd28842829f3a77",
       "a6e9a05b7aade9e4",
@@ -92,6 +93,7 @@
     "fresh_opportunity_ids": [
       "56b293818d75896c",
       "b3532668cf71e7be",
+      "8760a6b1fb0758c1",
       "9b73b8deb25611d8"
     ],
     "fresh_daily_ids": [
@@ -103,37 +105,37 @@
       "a34cb2043eee8ac3"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 27,
+      "feed_candidates": 28,
       "shortlisted": 1,
       "daily_review_only": 0,
       "still_listed_strict_count": 3,
-      "focus_total": 15,
+      "focus_total": 16,
       "ai_disputed_focus": 0,
       "focus_stretch": 3,
-      "recent_opportunities": 3,
+      "recent_opportunities": 4,
       "recent_strict": 1,
-      "fresh_feed_candidates": 5,
+      "fresh_feed_candidates": 6,
       "fresh_strict_rejection_reasons": {
-        "exploratory_only": 2,
+        "exploratory_only": 3,
         "career_direction": 2
       },
       "automation": 0,
       "direction_counts": {
         "network": 3,
-        "software_adjacent": 7,
+        "software_adjacent": 8,
         "bridge": 3,
         "other": 11,
         "systems": 2,
         "automation": 1
       },
-      "junior_title_candidates": 23,
+      "junior_title_candidates": 24,
       "junior_excluded_by_direction": 8,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "old_discovery_focus_only": 4,
         "hard_prerequisite_unverified": 2,
         "qualified": 1,
-        "exploratory_only": 4,
+        "exploratory_only": 5,
         "career_direction": 11,
         "remote_needs_confirmation": 1,
         "backend_tier": 4
@@ -149,20 +151,6 @@
         "work_mode": "Remote",
         "board_contract_unverified": "Umowa o pracę / Employment contract",
         "board_seniority_unverified": "junior, mid",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior WEBCON Developer K/M",
-        "company": "VINCI Construction Usługi Wsparcia",
-        "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
         "board_skills_unverified": [],
         "board_published_at_unverified": "",
         "review_status": "UNVERIFIED",
@@ -283,13 +271,13 @@
         "newly_observed_not_verified_new_posting": false
       }
     ],
-    "manual_review_leads_count": 9,
+    "manual_review_leads_count": 8,
     "ai_budget": {
       "date_utc": "2026-11-13",
       "used": 1,
       "limit": 20,
       "remaining": 19,
-      "checked_at_utc": "2026-11-13T19:42:37.019609+00:00"
+      "checked_at_utc": "2026-11-13T20:31:13.975753+00:00"
     },
     "ai_automatic": {
       "eligible": 1,
@@ -299,7 +287,7 @@
       "fresh_focus_eligible": 0,
       "reused": 1,
       "unreviewed": 0,
-      "fresh_total": 3,
+      "fresh_total": 4,
       "fresh_reviewed": 1,
       "daily_total": 1,
       "daily_reviewed": 1,
@@ -679,6 +667,57 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00"
+    },
+    {
+      "id": "8760a6b1fb0758c1",
+      "title": "Junior WEBCON Developer K/M",
+      "company": "VINCI Construction Usługi Wsparcia",
+      "location": "Warszawa, mazowieckie, Polska",
+      "url": "https://www.pracuj.pl/praca/junior-webcon-developer-k-m-warszawa,oferta,1005184606",
+      "apply_url": "",
+      "source": "pracuj.pl",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-10-27T15:30:37.033Z",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: udział w projektowaniu i automatyzacji procesów biznesowych; współpracowanie z użytkownikami biznesowymi przy identyfikacji potrzeb i możliwości usprawnień; tworzenie i rozwój formularzy, ścieżek akceptacji, raportów oraz dashboardów | What they expect: student lub absolwent kierunków technicznych, informatycznych lub pokrewnych; zainteresowanie technologiami i rozwojem oprogramowania; posiadanie podstawowej znajomość SQL lub dowolnego języka programowania | What they offer: bogaty pakiet socjalny (Medicover, Multisport, ubezpieczenia, dofinansowanie do nauki języków); dofinansowanie szkoleń i kursów; Oferuje pełen zakres usług budowlanych, będąc liderem w realizacji projektów kubaturowych tj",
+      "summary_tasks": [
+        "udział w projektowaniu i automatyzacji procesów biznesowych",
+        "współpracowanie z użytkownikami biznesowymi przy identyfikacji potrzeb i możliwości usprawnień",
+        "tworzenie i rozwój formularzy, ścieżek akceptacji, raportów oraz dashboardów"
+      ],
+      "summary_expectations": [
+        "student lub absolwent kierunków technicznych, informatycznych lub pokrewnych",
+        "zainteresowanie technologiami i rozwojem oprogramowania",
+        "posiadanie podstawowej znajomość SQL lub dowolnego języka programowania"
+      ],
+      "summary_offers": [
+        "bogaty pakiet socjalny (Medicover, Multisport, ubezpieczenia, dofinansowanie do nauki języków)",
+        "dofinansowanie szkoleń i kursów",
+        "Oferuje pełen zakres usług budowlanych, będąc liderem w realizacji projektów kubaturowych tj"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Low-code / Business Workflow Automation (platform to verify)",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: automatyzacja",
+          "SQL / Excel / reporting: sql"
+        ],
+        "concerns": [
+          "Ceiling for this direction",
+          "Employer offers WEBCON training; verify school and skill eligibility"
+        ],
+        "tier_reason": "Capped at 69: Employer offers WEBCON training; verify school and skill eligibility.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-13T20:31:13.442576+00:00"
     },
     {
       "id": "9b73b8deb25611d8",
