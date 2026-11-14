@@ -14,3 +14,6 @@
 
 /* Clear automated AI status, without adding a separate Daily/Focus shelf. */
 .matches-ai-note{margin:2px 0 12px;padding:9px 11px;border-left:2px solid #596579;background:#171e28;border-radius:7px;font-size:12px;line-height:1.5;color:#d6dce7;overflow-wrap:anywhere}
+
+/* Mark a preserved but unverified vacancy without adding a tab or card. */
+.source-stale-note{border-left-color:#b77935;color:#f1d4a9}
