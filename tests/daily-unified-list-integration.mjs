@@ -13,7 +13,7 @@ assert(!html.includes('v31-still-listed.js'));
 assert(!html.includes('styles-v30-manual-leads.css'));
 assert(!serviceWorker.includes("'/v30-manual-review-leads.js'"));
 assert(!serviceWorker.includes("'/v31-still-listed.js'"));
-assert(serviceWorker.includes('v42-semantic-ai-pending'));
+assert(serviceWorker.includes('v43-cv-disputed-manual-check'));
 assert(html.includes('data-filter="ALL"'),'single Matches stream must remain');
 assert(!html.includes('data-filter="DAILY"')&&!html.includes('data-filter="FOCUS"'),
        'Legacy Daily/Focus must not return as separate tabs');

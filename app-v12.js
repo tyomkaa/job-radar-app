@@ -130,6 +130,13 @@ function dateValue(job) {
   const t = Date.parse(job.published_at || '');
   return Number.isNaN(t) ? 0 : t;
 }
+function cvSupportedAiSkip(job) {
+  // Backend validates an exceptionally narrow, evidence-backed career
+  // disagreement; preserve original AI SKIP for the user to inspect.
+  const ids = meta?.ai_disputed_focus_ids;
+  return !!job && Array.isArray(ids) && ids.includes(String(job.id)) &&
+    aiVerdict(job)?.verdict === 'SKIP';
+}
 function aiVerdict(job) {
   const value = typeof aiReviewFor === 'function'
     ? aiReviewFor(job) : job?.ai_review;
@@ -139,7 +146,8 @@ function sortJobs(list) {
   const copy = [...list];
   if (sortMode === 'NEWEST') return copy.sort((a,b) => dateValue(b) - dateValue(a) || (b.fit_score || 0) - (a.fit_score || 0));
   if (activeFilter === 'ALL') {
-    const rank = job => ({APPLY:3,CHECK:2,SKIP:0}[aiVerdict(job)?.verdict] || 1);
+    const rank = job => cvSupportedAiSkip(job) ? 1.5
+      : ({APPLY:3,CHECK:2,SKIP:0}[aiVerdict(job)?.verdict] || 1);
     return copy.sort((a,b) => rank(b) - rank(a) ||
       (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
   }
@@ -158,7 +166,8 @@ function getVisibleJobs(pinnedId="") {
     if (activeFilter === 'ALL') {
       const dismissed = typeof dailyFeedback === 'function'
         && !!dailyFeedback()[jobKey(j)];
-      return !rec && !dismissed && aiVerdict(j)?.verdict !== 'SKIP';
+      return !rec && !dismissed &&
+        (aiVerdict(j)?.verdict !== 'SKIP' || cvSupportedAiSkip(j));
     }
     if (activeFilter === 'STRONG' || activeFilter === 'MEDIUM') return j.match_level === activeFilter;
     if (activeFilter === 'EMAIL') return !!j.contact_email;
@@ -620,8 +629,11 @@ function render({anchor=null, preserveViewport=false}={}) {
       if (!review) {
         line.textContent = 'AI: review pending · employer requirements not yet checked by the model';
       } else {
-        line.textContent = 'AI: ' + review.verdict + ' · ' +
-          (explanation ? explanation.slice(0, 250) : 'Review the employer requirements');
+        line.textContent = cvSupportedAiSkip(job)
+          ? 'AI: SKIP · CV evidence suggests manual CHECK. Original AI reasoning: ' +
+            (explanation ? explanation.slice(0, 250) : 'Review the employer requirements')
+          : 'AI: ' + review.verdict + ' · ' +
+            (explanation ? explanation.slice(0, 250) : 'Review the employer requirements');
       }
       node.querySelector('.chips').insertAdjacentElement('afterend', line);
     }
