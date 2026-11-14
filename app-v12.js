@@ -142,16 +142,25 @@ function aiVerdict(job) {
     ? aiReviewFor(job) : job?.ai_review;
   return value && ['APPLY','CHECK','SKIP'].includes(value.verdict) ? value : null;
 }
+function isSourceUnverified(job) {
+  return typeof job?.source_unverified_since === 'string'
+    && job.source_unverified_since.trim().length > 0;
+}
 function sortJobs(list) {
   const copy = [...list];
-  if (sortMode === 'NEWEST') return copy.sort((a,b) => dateValue(b) - dateValue(a) || (b.fit_score || 0) - (a.fit_score || 0));
+  // A previously-seen offer from a blocked source must never outrank a
+  // freshly observed employer offer, even if an older CV verdict says APPLY.
+  const currentFirst = (a,b) => Number(isSourceUnverified(a)) - Number(isSourceUnverified(b));
+  if (sortMode === 'NEWEST') return copy.sort((a,b) =>
+    currentFirst(a,b) || dateValue(b) - dateValue(a) || (b.fit_score || 0) - (a.fit_score || 0));
   if (activeFilter === 'ALL') {
     const rank = job => cvSupportedAiSkip(job) ? 1.5
       : ({APPLY:3,CHECK:2,SKIP:0}[aiVerdict(job)?.verdict] || 1);
-    return copy.sort((a,b) => rank(b) - rank(a) ||
+    return copy.sort((a,b) => currentFirst(a,b) || rank(b) - rank(a) ||
       (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
   }
-  return copy.sort((a,b) => (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
+  return copy.sort((a,b) => currentFirst(a,b) ||
+    (b.fit_score || 0) - (a.fit_score || 0) || dateValue(b) - dateValue(a));
 }
 function getVisibleJobs(pinnedId="") {
   const tracker = getTracker(), seen = seenIds(), saved = savedIds();
@@ -636,6 +645,17 @@ function render({anchor=null, preserveViewport=false}={}) {
             (explanation ? explanation.slice(0, 250) : 'Review the employer requirements');
       }
       node.querySelector('.chips').insertAdjacentElement('afterend', line);
+    }
+    if (isSourceUnverified(job)) {
+      const stamp = new Date(job.source_last_seen_at || '');
+      const lastSeen = Number.isNaN(stamp.getTime())
+        ? 'unknown' : stamp.toLocaleDateString();
+      const notice = document.createElement('p');
+      notice.className = 'matches-ai-note source-stale-note';
+      notice.textContent = '⚠ Not rechecked: ' + (job.source || 'source') +
+        ' was unavailable in the latest scan. Last seen ' + lastSeen +
+        '. Confirm the vacancy is still open before applying.';
+      node.querySelector('.chips').insertAdjacentElement('afterend', notice);
     }
 
     const extra = [];
