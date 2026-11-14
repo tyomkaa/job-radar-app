@@ -12,5 +12,5 @@ assert(relevant.includes("job.fit_notes?.score_is_preliminary === true"));
 assert(relevant.includes("aiAssessment ? 'AI ' + aiAssessment.verdict : 'AI pending'"));
 assert(relevant.includes('CV match awaiting AI review'));
 assert(relevant.includes("job.fit_score || 0"));
-assert(sw.includes('v42-semantic-ai-pending'));
+assert(sw.includes('v43-cv-disputed-manual-check'));
 console.log('AI-first score PASS: unreviewed jobs show AI pending, not invented CV percentage');
