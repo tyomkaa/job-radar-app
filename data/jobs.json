@@ -136,7 +136,8 @@
       "fresh_strict_rejection_reasons": {
         "backend_tier": 1,
         "career_direction": 5,
-        "exploratory_only": 4
+        "ai_skip": 1,
+        "exploratory_only": 3
       },
       "automation": 0,
       "direction_counts": {
@@ -153,91 +154,42 @@
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "old_discovery_focus_only": 4,
-        "exploratory_only": 6,
+        "exploratory_only": 5,
         "career_direction": 18,
         "backend_tier": 6,
+        "ai_skip": 1,
         "hard_prerequisite_unverified": 2,
         "qualified": 1,
         "remote_needs_confirmation": 1
       }
     },
-    "manual_review_leads": [
-      {
-        "title": "Integration Engineer (EDI / WMS)",
-        "company": "SNI",
-        "url": "https://justjoin.it/job-offer/sni-integration-engineer-edi-wms--warszawa-erp-4b295265",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Remote",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "EDI",
-          "API"
-        ],
-        "board_published_at_unverified": "2026-11-14T11:20:03.6651283Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
-        "company": "Bank BPS S.A.",
-        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "Project Management",
-          "PRINCE2",
-          "PMI"
-        ],
-        "board_published_at_unverified": "2026-11-13T16:50:05.847306Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior IT Project Manager",
-        "company": "ISS World Services A/S",
-        "url": "https://justjoin.it/job-offer/iss-world-services-a-s-junior-it-project-manager-warszawa-pm",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "MS Excel",
-          "IT",
-          "Project Management"
-        ],
-        "board_published_at_unverified": "2026-11-14T10:50:01.445509Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      }
-    ],
-    "manual_review_leads_count": 3,
+    "manual_review_leads": [],
+    "manual_review_leads_count": 0,
     "ai_budget": {
       "date_utc": "2026-11-15",
-      "used": 2,
+      "used": 6,
       "limit": 20,
-      "remaining": 18,
-      "checked_at_utc": "2026-11-15T07:28:55.018344+00:00"
+      "remaining": 14,
+      "checked_at_utc": "2026-11-15T11:04:50.623648+00:00"
     },
     "ai_automatic": {
       "scope": "qualified",
       "eligible": 13,
-      "new": 1,
+      "new": 2,
       "new_daily": 0,
-      "new_focus": 1,
+      "new_focus": 2,
       "fresh_focus_eligible": 0,
-      "reused": 0,
-      "unreviewed": 12,
+      "reused": 1,
+      "unreviewed": 10,
       "fresh_total": 5,
       "fresh_reviewed": 1,
       "daily_total": 1,
       "daily_reviewed": 0,
-      "feed_reviewed": 1
+      "feed_reviewed": 3,
+      "attempted": 4,
+      "failed_attempts": 2,
+      "last_error_kind": "http_502",
+      "stop_reason": "two_failed_requests"
     }
   },
   "jobs": [
@@ -910,7 +862,20 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-14T07:43:45.504155+00:00",
-      "source_last_seen_at": "2026-11-15T07:28:37.069586+00:00"
+      "source_last_seen_at": "2026-11-15T07:28:37.069586+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия требует опыта в тестировании ПО, в то время как кандидат специализируется на автоматизации, интеграции систем и Python-проектах. Отсутствие соответствия направлению карьеры.",
+        "strengths": [],
+        "gaps": [
+          "Требуется опыт тестирования ПО, который не указан в профиле кандидата",
+          "Вакансия не связана с автоматизацией процессов или интеграцией систем",
+          "Нет упоминания Python, API или данных в требованиях"
+        ],
+        "verify": "Проверка соответствия профессии и направления карьеры",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "170ee60739faf91e5928f5b8"
     },
     {
       "id": "c840ecfd199bf7b0",
@@ -1049,7 +1014,24 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-14T14:40:32.173070+00:00",
-      "source_last_seen_at": "2026-11-15T07:28:37.069586+00:00"
+      "source_last_seen_at": "2026-11-15T07:28:37.069586+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует 1-2 года опыта в IT, что соответствует опыту кандидата (1 год в Huawei и freelance с 2026). Однако задачи связаны с операционной поддержкой конечных точек, а не с автоматизацией процессов или интеграцией систем, что не полностью соответствует карьерным целям кандидата.",
+        "strengths": [
+          "Опыт в Python-автоматизации (Playwright, openpyxl, GitHub Actions)",
+          "Навыки работы с SQL/PostgreSQL и SaaS-интеграцией",
+          "Практический опыт в системном администрировании и сетях"
+        ],
+        "gaps": [
+          "Вакансия не упоминает автоматизацию процессов или интеграцию систем, что является ключевым для кандидата",
+          "Фокус на операционной поддержке конечных точек, а не на разработке решений",
+          "Отсутствие упоминания AI/ML или сложных интеграций в требованиях"
+        ],
+        "verify": "Проверить, есть ли в описании вакансии явные указания на автоматизацию процессов или интеграцию систем, а не только на поддержку ИТ-инфраструктуры.",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "91b06b58952b35aea25a9784"
     },
     {
       "id": "99c99c9bfb69d790",
