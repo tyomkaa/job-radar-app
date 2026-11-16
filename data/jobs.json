@@ -148,142 +148,30 @@
         "low_match": 2
       }
     },
-    "manual_review_leads": [
-      {
-        "title": "Junior Salesforce Developer",
-        "company": "Enxoo",
-        "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-developer-warszawa-java-898781f0",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "Salesforce",
-          "HTML",
-          "Java",
-          "CSS",
-          "Team Player"
-        ],
-        "board_published_at_unverified": "2026-11-15T11:05:01.7259758Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior Technical Integration Specialist",
-        "company": "ERLI S.A.",
-        "url": "https://www.pracuj.pl/praca/junior-technical-integration-specialist-poznan-grunwaldzka-182,oferta,1005206386",
-        "source": "pracuj.pl",
-        "location": "Poland",
-        "work_mode": "Remote",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior, mid",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Integration Engineer (EDI / WMS)",
-        "company": "SNI",
-        "url": "https://justjoin.it/job-offer/sni-integration-engineer-edi-wms--warszawa-erp-4b295265",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Remote",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "EDI",
-          "API"
-        ],
-        "board_published_at_unverified": "2026-11-14T11:20:03.6651283Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Specjalista / Młodsza Specjalistka ds. zarządzania projektami IT",
-        "company": "FAKTUROWNIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-zarzadzania-projektami-it-warszawa-juliana-smulikowskiego-6-8,oferta,1005218521",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Junior IT Project Manager",
-        "company": "ISS World Services A/S",
-        "url": "https://justjoin.it/job-offer/iss-world-services-a-s-junior-it-project-manager-warszawa-pm",
-        "source": "justjoin.it",
-        "location": "Warszawa",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [
-          "MS Excel",
-          "IT",
-          "Project Management"
-        ],
-        "board_published_at_unverified": "2026-11-14T10:50:01.445509Z",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy Kierownik Projektu IT (K/M)",
-        "company": "Polmlek Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-kierownik-projektu-it-k-m-warszawa,oferta,1005178955",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Office",
-        "board_contract_unverified": "Umowa o pracę / Employment contract",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      },
-      {
-        "title": "Młodszy administrator IT",
-        "company": "Zepter IT Sp. z o.o.",
-        "url": "https://www.pracuj.pl/praca/mlodszy-administrator-it-warszawa,oferta,1005212166",
-        "source": "pracuj.pl",
-        "location": "Warszawa, Poland",
-        "work_mode": "Hybrid",
-        "board_contract_unverified": "Umowa o pracę / Employment contract + B2B",
-        "board_seniority_unverified": "junior",
-        "board_skills_unverified": [],
-        "board_published_at_unverified": "",
-        "review_status": "UNVERIFIED",
-        "newly_observed_not_verified_new_posting": false
-      }
-    ],
-    "manual_review_leads_count": 7,
+    "manual_review_leads": [],
+    "manual_review_leads_count": 0,
     "ai_budget": {
       "date_utc": "2026-11-16",
       "used": 16,
       "limit": 20,
       "remaining": 4,
-      "checked_at_utc": "2026-11-16T07:48:38.782783+00:00"
+      "checked_at_utc": "2026-11-16T18:49:50.482186+00:00"
     },
     "ai_automatic": {
       "scope": "qualified",
       "eligible": 35,
-      "new": 16,
-      "new_daily": 1,
-      "new_focus": 15,
+      "new": 0,
+      "new_daily": 0,
+      "new_focus": 0,
       "fresh_focus_eligible": 2,
-      "reused": 8,
+      "reused": 24,
       "unreviewed": 11,
       "fresh_total": 1,
       "fresh_reviewed": 1,
       "daily_total": 1,
       "daily_reviewed": 1,
       "feed_reviewed": 24,
-      "attempted": 16,
+      "attempted": 0,
       "failed_attempts": 0,
       "last_error_kind": "",
       "stop_reason": ""
@@ -1976,7 +1864,7 @@
       "first_found_at": "2026-11-14T07:43:45.504155+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
       "ai_review": {
-        "verdict": "APPLY",
+        "verdict": "CHECK",
         "explanation": "Соответствие требуемой локации и опыта, наличие подтвержденных навыков Python, SQL и аналитического подхода",
         "strengths": [
           "Опыт работы с Python и SQL",
@@ -1987,7 +1875,7 @@
           "Отсутствие прямого опыта работы в качестве Data Scientist",
           "Недостаточное количество лет коммерческого опыта разработчика"
         ],
-        "verify": "Требуется проверка навыков работы с машинным обучением и крупномасштабными данными",
+        "verify": "Работодатель требует профессиональный опыт в Data Science или аналогичной аналитической роли. Модель сама отметила пробел: подтвердить именно этот опыт перед откликом.",
         "suggested_cv": "Automation"
       },
       "ai_review_fingerprint": "7d2d9cffd35d50eaee021e26"
