@@ -2,23 +2,22 @@
   "meta": {
     "semantic_ai_first": {
       "status": "ranked_before_legacy_filter",
-      "raw_cards_scored": 9235,
+      "raw_cards_scored": 6371,
       "employer_detail_candidates": 180
     },
     "feed_version": "5",
-    "generated_at": "2026-11-16T07:47:07.229569+00:00",
-    "found": 9235,
-    "accepted": 37,
+    "generated_at": "2026-11-17T07:29:32.510679+00:00",
+    "found": 6371,
+    "accepted": 34,
     "filtered": {
-      "Too much experience required (3+ years)": 106,
-      "Too senior / management": 4289,
-      "Contract: B2B only or UoP not confirmed": 143,
-      "Location: not Warsaw and not remote": 451,
-      "Missing a required language": 5,
-      "Different profession than your CV": 769,
-      "Too weak a match with your CV": 5,
-      "Could not verify the vacancy page": 71,
-      "Other": 3359
+      "Too much experience required (3+ years)": 92,
+      "Too senior / management": 3730,
+      "Contract: B2B only or UoP not confirmed": 91,
+      "Location: not Warsaw and not remote": 360,
+      "Missing a required language": 2,
+      "Different profession than your CV": 374,
+      "Too weak a match with your CV": 2,
+      "Other": 1707
     },
     "sources": {
       "justjoin.it": {
@@ -27,11 +26,11 @@
       },
       "nofluffjobs.com": {
         "status": "ok",
-        "fetched": 3182
+        "fetched": 3123
       },
       "pracuj.pl": {
-        "status": "ok",
-        "fetched": 2876
+        "status": "blocked",
+        "fetched": 0
       },
       "theprotocol.it": {
         "status": "blocked",
@@ -39,15 +38,15 @@
       },
       "rocketjobs.pl": {
         "status": "ok",
-        "fetched": 245
+        "fetched": 244
       },
       "greenhouse:boxinc": {
         "status": "ok",
-        "fetched": 148
+        "fetched": 143
       },
       "greenhouse:psibufet": {
         "status": "ok",
-        "fetched": 28
+        "fetched": 27
       },
       "greenhouse:powerdot": {
         "status": "ok",
@@ -55,7 +54,7 @@
       },
       "greenhouse:capco": {
         "status": "ok",
-        "fetched": 700
+        "fetched": 696
       },
       "lever:adlook": {
         "status": "ok",
@@ -63,17 +62,20 @@
       },
       "lever:Civitta": {
         "status": "ok",
-        "fetched": 79
+        "fetched": 78
       }
     },
     "source_coverage": {
-      "complete": true,
-      "unavailable_primary_sources": [],
-      "retained_unverified_count": 0,
+      "complete": false,
+      "unavailable_primary_sources": [
+        "pracuj.pl"
+      ],
+      "retained_unverified_count": 21,
       "last_complete_scan_at": "2026-11-16T07:47:07.229569+00:00"
     },
     "version": 1,
     "daily_pick_ids": [
+      "1275f6733486bb47",
       "b3532668cf71e7be"
     ],
     "still_listed_ids": [
@@ -82,11 +84,10 @@
     ],
     "daily_review_ids": [],
     "focus_job_ids": [
-      "c23dd7f35d2f68de",
+      "1275f6733486bb47",
       "b3532668cf71e7be",
       "8760a6b1fb0758c1",
       "9b73b8deb25611d8",
-      "e9f7e10b2ad0e7b4",
       "8fd28842829f3a77",
       "a6e9a05b7aade9e4",
       "0cd976adf7f21e24",
@@ -95,83 +96,138 @@
       "99c99c9bfb69d790",
       "bfc8976d02c84eb6",
       "7e7be59d16b1ab49",
-      "de7ce96492d15e28",
-      "157ec798a5eecd39"
+      "de7ce96492d15e28"
     ],
     "ai_disputed_focus_ids": [],
-    "fresh_opportunity_ids": [
-      "c23dd7f35d2f68de"
-    ],
+    "fresh_opportunity_ids": [],
     "fresh_daily_ids": [],
     "focus_stretch_ids": [
-      "c23dd7f35d2f68de",
-      "e9f7e10b2ad0e7b4",
       "7e7be59d16b1ab49",
-      "de7ce96492d15e28",
-      "157ec798a5eecd39"
+      "de7ce96492d15e28"
     ],
     "daily_diagnostics": {
-      "feed_candidates": 37,
-      "shortlisted": 1,
+      "feed_candidates": 34,
+      "shortlisted": 2,
       "daily_review_only": 0,
       "still_listed_strict_count": 2,
-      "focus_total": 15,
+      "focus_total": 13,
       "ai_disputed_focus": 0,
-      "focus_stretch": 5,
-      "recent_opportunities": 1,
+      "focus_stretch": 2,
+      "recent_opportunities": 0,
       "recent_strict": 0,
-      "fresh_feed_candidates": 8,
+      "fresh_feed_candidates": 3,
       "fresh_strict_rejection_reasons": {
-        "backend_tier": 1,
-        "career_direction": 7
+        "career_direction": 3
       },
-      "automation": 0,
+      "automation": 1,
       "direction_counts": {
         "network": 3,
-        "software_adjacent": 10,
+        "automation": 2,
+        "other": 16,
+        "software_adjacent": 8,
         "bridge": 3,
-        "other": 18,
-        "systems": 2,
-        "automation": 1
+        "systems": 2
       },
-      "junior_title_candidates": 30,
-      "junior_excluded_by_direction": 14,
+      "junior_title_candidates": 26,
+      "junior_excluded_by_direction": 11,
       "high_scoring_junior_adjacent": 0,
       "reasons": {
         "old_discovery_focus_only": 3,
+        "qualified": 2,
+        "career_direction": 16,
+        "backend_tier": 3,
+        "exploratory_only": 5,
         "hard_prerequisite_unverified": 2,
-        "qualified": 1,
-        "exploratory_only": 4,
-        "career_direction": 18,
         "remote_needs_confirmation": 1,
-        "backend_tier": 6,
         "low_match": 2
       }
     },
-    "manual_review_leads": [],
-    "manual_review_leads_count": 0,
+    "manual_review_leads": [
+      {
+        "title": "Junior Salesforce Developer",
+        "company": "Enxoo",
+        "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-developer-warszawa-java-898781f0",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Salesforce",
+          "HTML",
+          "Java",
+          "CSS",
+          "Team Player"
+        ],
+        "board_published_at_unverified": "2026-11-15T11:05:01.7259758Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Młodszy Menadżer Projektów IT / Młodsza Menadżerka Projektów IT",
+        "company": "Bank BPS S.A.",
+        "url": "https://justjoin.it/job-offer/bank-bps-s-a--mlodszy-menadzer-projektow-it-mlodsza-menadzerka-projektow-it-warszawa-pm",
+        "source": "justjoin.it",
+        "location": "Warszawa",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "Umowa o pracę / Employment contract",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Project Management",
+          "PRINCE2",
+          "PMI"
+        ],
+        "board_published_at_unverified": "2026-11-16T16:50:06.165159Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      },
+      {
+        "title": "Know Your Customer (KYC) Technology Business Analyst",
+        "company": "Citigroup",
+        "url": "https://justjoin.it/job-offer/citigroup-know-your-customer-kyc-technology-business-analyst-warsaw-ux",
+        "source": "justjoin.it",
+        "location": "Warsaw",
+        "work_mode": "Hybrid",
+        "board_contract_unverified": "",
+        "board_seniority_unverified": "junior",
+        "board_skills_unverified": [
+          "Business Analysis",
+          "Requirements elicitation",
+          "System Analysis",
+          "AML/KYC",
+          "Agile",
+          "Jira",
+          "Confluence",
+          "product development"
+        ],
+        "board_published_at_unverified": "2026-11-16T18:55:10.8016372Z",
+        "review_status": "UNVERIFIED",
+        "newly_observed_not_verified_new_posting": false
+      }
+    ],
+    "manual_review_leads_count": 3,
     "ai_budget": {
-      "date_utc": "2026-11-16",
-      "used": 16,
+      "date_utc": "2026-11-17",
+      "used": 8,
       "limit": 20,
-      "remaining": 4,
-      "checked_at_utc": "2026-11-16T18:49:50.482186+00:00"
+      "remaining": 12,
+      "checked_at_utc": "2026-11-17T07:30:18.232543+00:00"
     },
     "ai_automatic": {
       "scope": "qualified",
-      "eligible": 35,
-      "new": 0,
-      "new_daily": 0,
-      "new_focus": 0,
-      "fresh_focus_eligible": 2,
-      "reused": 24,
-      "unreviewed": 11,
-      "fresh_total": 1,
-      "fresh_reviewed": 1,
-      "daily_total": 1,
-      "daily_reviewed": 1,
+      "eligible": 12,
+      "new": 8,
+      "new_daily": 1,
+      "new_focus": 7,
+      "fresh_focus_eligible": 1,
+      "reused": 16,
+      "unreviewed": 0,
+      "fresh_total": 0,
+      "fresh_reviewed": 0,
+      "daily_total": 2,
+      "daily_reviewed": 2,
       "feed_reviewed": 24,
-      "attempted": 0,
+      "attempted": 8,
       "failed_attempts": 0,
       "last_error_kind": "",
       "stop_reason": ""
@@ -231,7 +287,794 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-01T15:08:19.152375+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует опыта в области сетей и IoT, что частично соответствует профилю кандидата, но необходимо уточнить глубину знаний в области компьютерных сетей и соответствие требуемым навыкам.",
+        "strengths": [
+          "Опыт в области сетей и телекоммуникаций",
+          "Знания в области компьютерных сетей"
+        ],
+        "gaps": [
+          "Недостаточно информации о опыте в 2-й или 3-й линии технической поддержки",
+          "Неясно, соответствуют ли навыки кандидата конкретным требованиям вакансии"
+        ],
+        "verify": "Требуется дополнительная информация о навыках и опыте кандидата в области сетей и IoT",
+        "suggested_cv": "Systems"
+      },
+      "ai_review_fingerprint": "bfddfb16d88191e3ec1d664e"
+    },
+    {
+      "id": "1275f6733486bb47",
+      "title": "AI Implementation & Automation Specialist",
+      "company": "Sportano.com",
+      "location": "Zielona Góra, Wrocław, Warszawa",
+      "url": "https://justjoin.it/job-offer/sportano-com-ai-implementation-automation-specialist-zielona-gora-ai",
+      "apply_url": "https://sportano.traffit.com/public/form/a/ad40491bb019e173d3e40beaa19310e339564332?source=rocketjobs.pl",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-16T08:20:01.218608Z",
+      "fit_score": 77,
+      "match_level": "STRONG",
+      "recommendation_tier": "APPLY",
+      "experience_required_years": 0,
+      "summary": "What you'll do: W Sportano rozwijamy wykorzystanie sztucznej inteligencji i automatyzacji w codziennych procesach biznesowych; Jeśli AI to dla Ciebie coś więcej niż zadawanie pytań ChatGPT, lubisz eksperymentować, szukać nowych rozwiązań i dostrzegasz potencjał automatyzacji; AI Implementation & Automation Specialist Miejsce pracy: 100% zdalnie lub jedno z naszych biur | What they expect: Nasze oczekiwania: Praktyczne doświadczenie w wykorzystywaniu narzędzi AI, np; Znajomość możliwości zastosowania sztucznej inteligencji do automatyzacji i usprawniania procesów biznesowych; Umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania konkretnych problemów",
+      "summary_tasks": [
+        "W Sportano rozwijamy wykorzystanie sztucznej inteligencji i automatyzacji w codziennych procesach biznesowych",
+        "Jeśli AI to dla Ciebie coś więcej niż zadawanie pytań ChatGPT, lubisz eksperymentować, szukać nowych rozwiązań i dostrzegasz potencjał automatyzacji",
+        "AI Implementation & Automation Specialist Miejsce pracy: 100% zdalnie lub jedno z naszych biur"
+      ],
+      "summary_expectations": [
+        "Nasze oczekiwania: Praktyczne doświadczenie w wykorzystywaniu narzędzi AI, np",
+        "Znajomość możliwości zastosowania sztucznej inteligencji do automatyzacji i usprawniania procesów biznesowych",
+        "Umiejętność tworzenia skutecznych promptów i wykorzystywania AI do rozwiązywania konkretnych problemów"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "JavaScript",
+        "Python",
+        "AI",
+        "automation",
+        "Gemini",
+        "Claude",
+        "ChatGPT"
+      ],
+      "fit_notes": {
+        "direction": "Python / Process / Workflow / AI Automation",
+        "evidence": "work",
+        "matches": [
+          "Python & automation: python, automation, automatyzacja"
+        ],
+        "concerns": [],
+        "tier_reason": "Strong match with your CV and entry-level requirements.",
+        "suggested_cv": "Automation & Python"
+      },
+      "interest_tags": [
+        "automation"
+      ],
+      "first_found_at": "2026-11-11T23:58:47.486319+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Отсутствует подробное описание вакансии и требуемых навыков, необходимо уточнить детали",
+        "strengths": [
+          "Опыт работы с Python",
+          "Знание автоматизации и интеграции систем"
+        ],
+        "gaps": [
+          "Недостаточно информации о требуемых навыках AI и ML",
+          "Неясно, какие именно инструменты и технологии используются в компании"
+        ],
+        "verify": "Требуется дополнительная информация о вакансии и компании",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "9ebbb863766b64f35c8e6106"
+    },
+    {
+      "id": "e22daed6f25a53f8",
+      "title": "Data Analytics Specialist",
+      "company": "Capco",
+      "location": "Poland - Warsaw",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8355215",
+      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8355215",
+      "source": "greenhouse:capco",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-11-09T08:08:39-05:00",
+      "fit_score": 69,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Analyse, transform, and validate large datasets using SQL, Python, and PySpark; Develop and validate data transformations and ETL processes; Work with data related to corporate clients, financial products, and reporting | What they expect: The Role We are looking for an experienced Data Analyst to join an international project for a leading global bank; Experience within banking industry would be highly appreciated; What We’re Looking For Experience working as a Data Analyst or in a similar data-focused role | What they offer: Hybrid working model; Opportunity to work on an international banking project; Collaborative working environment and professional development opportunities",
+      "summary_tasks": [
+        "Analyse, transform, and validate large datasets using SQL, Python, and PySpark",
+        "Develop and validate data transformations and ETL processes",
+        "Work with data related to corporate clients, financial products, and reporting"
+      ],
+      "summary_expectations": [
+        "The Role We are looking for an experienced Data Analyst to join an international project for a leading global bank",
+        "Experience within banking industry would be highly appreciated",
+        "What We’re Looking For Experience working as a Data Analyst or in a similar data-focused role"
+      ],
+      "summary_offers": [
+        "Hybrid working model",
+        "Opportunity to work on an international banking project",
+        "Collaborative working environment and professional development opportunities"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "SQL / Excel / reporting: sql, reporting, analytics",
+          "Python & automation: python"
+        ],
+        "concerns": [
+          "Not a junior role; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-10T07:41:40.429785+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "APPLY",
+        "explanation": "Вакансия соответствует профилю кандидата, который имеет опыт работы с Python, SQL и данными. Отсутствие требований к senior/lead и 3+ лет опыта также является плюсом.",
+        "strengths": [
+          "Опыт работы с Python и SQL",
+          "Знакомство с данными и аналитикой",
+          "Навыки работы с крупными наборами данных"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта работы в банковской отрасли",
+          "Нет упоминания о знании PySpark"
+        ],
+        "verify": "CHECK",
+        "suggested_cv": "Data"
+      },
+      "ai_review_fingerprint": "851bdfb8b60d3f0b0dac5ebe"
+    },
+    {
+      "id": "433da35d943bf522",
+      "title": "Kondor+ Integration, Data & Database Consultant",
+      "company": "Capco",
+      "location": "Poland - Warsaw",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/8245893",
+      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8245893",
+      "source": "greenhouse:capco",
+      "contract": "Unknown",
+      "work_mode": "Remote",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-10-22T10:42:15-04:00",
+      "fit_score": 57,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Analyse the existing Kondor+ integration landscape , covering inbound and outbound interfaces; Design and implement or coordinate required modifications to Kondor+ interfaces; Support integration between Kondor+ and surrounding systems such as | What they expect: Strong hands-on technical experience with Kondor+ / Fusion Kondor / Finastra Kondor; Previous experience working on at least one Kondor+ implementation, upgrade or migration; Demonstrable experience with Kondor+ interfaces and integration mechanisms",
+      "summary_tasks": [
+        "Analyse the existing Kondor+ integration landscape , covering inbound and outbound interfaces",
+        "Design and implement or coordinate required modifications to Kondor+ interfaces",
+        "Support integration between Kondor+ and surrounding systems such as"
+      ],
+      "summary_expectations": [
+        "Strong hands-on technical experience with Kondor+ / Fusion Kondor / Finastra Kondor",
+        "Previous experience working on at least one Kondor+ implementation, upgrade or migration",
+        "Demonstrable experience with Kondor+ interfaces and integration mechanisms"
+      ],
+      "summary_offers": [],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Data / Reporting",
+        "evidence": "projects",
+        "matches": [
+          "Python & automation: integration"
+        ],
+        "concerns": [
+          "Contract not confirmed yet",
+          "Not a junior role; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-02T06:54:52.032258+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00"
+    },
+    {
+      "id": "05ab6b6f2514a11e",
+      "title": "Business Analyst - TPRM",
+      "company": "Capco",
+      "location": "Poland - Warsaw",
+      "url": "https://job-boards.greenhouse.io/capco/jobs/7957522",
+      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/7957522",
+      "source": "greenhouse:capco",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "",
+      "salary": "",
+      "published_at": "2026-10-22T10:42:15-04:00",
+      "fit_score": 53,
+      "match_level": "MEDIUM",
+      "recommendation_tier": "STRETCH",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Analyse and document current (“as-is”) and future-state (“to-be”) processes to support governance and operating model improvements; Facilitate workshops, support governance discussions, and contribute to programme delivery across policy, standards, and metrics workstreams; Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes | What they expect: Translate business needs into clear user stories and actionable requirements for delivery teams; Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes; Experience working on Third Party Risk Management (TPRM) or supplier risk governance initiatives | What they offer: a flexible collaboration model based on a B2B contract, with the opportunity to work on innovative AI and automation initiatives for leading financial institutions; Bonus Points For; Knowledge of Agile delivery methodologies and user story development",
+      "summary_tasks": [
+        "Analyse and document current (“as-is”) and future-state (“to-be”) processes to support governance and operating model improvements",
+        "Facilitate workshops, support governance discussions, and contribute to programme delivery across policy, standards, and metrics workstreams",
+        "Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes"
+      ],
+      "summary_expectations": [
+        "Translate business needs into clear user stories and actionable requirements for delivery teams",
+        "Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes",
+        "Experience working on Third Party Risk Management (TPRM) or supplier risk governance initiatives"
+      ],
+      "summary_offers": [
+        "a flexible collaboration model based on a B2B contract, with the opportunity to work on innovative AI and automation initiatives for leading financial institutions",
+        "Bonus Points For",
+        "Knowledge of Agile delivery methodologies and user story development"
+      ],
+      "required_skills": [],
+      "fit_notes": {
+        "direction": "Business Analysis",
+        "evidence": "projects",
+        "matches": [],
+        "concerns": [
+          "Not a junior role; CV has only project experience here"
+        ],
+        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
+        "suggested_cv": "Data & Operations"
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Нет явного указания на необходимость опыта работы с Python, AI или автоматизацией процессов, но есть упоминание о необходимости анализа и документирования процессов, что может быть связано с автоматизацией.",
+        "strengths": [
+          "Опыт работы в сфере финансовых услуг",
+          "Знание английского и польского языков",
+          "Опыт работы с данными и аналитикой"
+        ],
+        "gaps": [
+          "Отсутствие явного указания на необходимость опыта работы с Python или AI",
+          "Нет информации о необходимых технических навыках"
+        ],
+        "verify": "Необходимо уточнить у работодателя, есть ли необходимость в опыте работы с Python, AI или автоматизацией процессов",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "9f81c56f7a70aff183bf25d6"
+    },
+    {
+      "id": "d16cd15bc9d3f854",
+      "title": "Associate Technical Consultant (Entry-Level)",
+      "company": "Veeva Systems",
+      "location": "Warszawa, Wrocław, Kraków",
+      "url": "https://justjoin.it/job-offer/veeva-systems-associate-technical-consultant-entry-level--warszawa-support",
+      "apply_url": "https://careers.veeva.com/job/6ff937b5-3d27-4401-8019-951d2ceaced6/associate-technical-consultant-entry-level-consulting-warsaw-poland/?lever-source=JustJoinIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Remote",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-16T11:05:07.652869Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform; Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients; Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team | What they expect: Bachelor's degree in engineering, computer science, or related field with strong technical background; Demonstrated experience in Object-Oriented Programming; Excellent technical storytelling skills; Strong critical thinking skills and proven track record of academic performance",
+      "summary_tasks": [
+        "Skip basic QA and debugging to write production code, develop custom integrations using Java SDKs and APIs, build DevOps pipelines, and deploy Veeva AI tools on the Vault Platform",
+        "Work directly with migration architects to design custom backend logic, configure enterprise SaaS platforms, and execute complex data migration scripts for global life sciences clients",
+        "Accelerate delivery workflows by developing cutting-edge, developer-facing tools used globally across the Veeva Services engineering team"
+      ],
+      "summary_expectations": [
+        "Bachelor's degree in engineering, computer science, or related field with strong technical background",
+        "Demonstrated experience in Object-Oriented Programming",
+        "Excellent technical storytelling skills",
+        "Strong critical thinking skills and proven track record of academic performance"
+      ],
+      "summary_offers": [],
+      "required_skills": [
+        "Excel",
+        "Time Management",
+        "Customer Support",
+        "Critical thinking",
+        "Programming",
+        "Salesforce",
+        "Technical consulting",
+        "Problem Solving"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-09-29T21:04:25.887337+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует опыта в Java SDK и API, что не подтверждается профилем кандидата. Однако, кандидат имеет опыт в Python и автоматизации, что может быть полезным в данной роли.",
+        "strengths": [
+          "Опыт в Python и автоматизации",
+          "Знание SQL и PostgreSQL",
+          "Опыт в сетевой инженерии и трассировке"
+        ],
+        "gaps": [
+          "Отсутствие опыта в Java SDK и API",
+          "Нет подтверждения коммерческого опыта разработчика Python"
+        ],
+        "verify": "Необходимо проверить уровень знаний кандидата в области Java и его способность работать с Veeva AI инструментами",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "cc911117b697e021dca2d37e"
+    },
+    {
+      "id": "fd2537c9f4a2947c",
+      "title": "Młodszy Serwisant / Młodsza Serwisantka SQL",
+      "company": "ProService Finteco Sp. z o.o.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/proservice-finteco-sp-z-o-o--mlodszy-serwisant-mlodsza-serwisantka-sql-warszawa-support",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=c49b3461794743c28ac5133c7aef6262",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-16T09:50:10.410834Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: tworzenie zapytań do baz danych (SQL) – sporządzanie zestawień oraz modyfikacja danych w bazie (interwencje manualne); obsługa aplikacji ticketowej Jira w roli Serwisanta w ramach drugiej linii wsparcia; współpraca z innymi Departamentami | What they expect: znajomość zagadnień relacyjnych baz danych, w tym znajomość SQL w celu wyboru danych oraz modyfikacji danych w bazie; znajomość programowania na poziomie umożliwiającym analizę kodu; umiejętność skutecznej współpracy i komunikacji z Pracownikami innych jednostek | What they offer: Poczucie stabilności – zatrudnienie na umowę o pracę w firmie, która od lat konsekwentnie buduje swoją pozycję w branży finansowo – technologicznej; Możliwość dalszego rozwoju zawodowego w firmie o ugruntowanej pozycji na rynku; Pakiet benefitów – opieka medyczna i stomatologiczna, karta sportowa, inicjatywy integracyjne, ubezpieczenie na życie, firmowe drużyny sportowe, karty przedpłacone i wiele więcej!",
+      "summary_tasks": [
+        "tworzenie zapytań do baz danych (SQL) – sporządzanie zestawień oraz modyfikacja danych w bazie (interwencje manualne)",
+        "obsługa aplikacji ticketowej Jira w roli Serwisanta w ramach drugiej linii wsparcia",
+        "współpraca z innymi Departamentami"
+      ],
+      "summary_expectations": [
+        "znajomość zagadnień relacyjnych baz danych, w tym znajomość SQL w celu wyboru danych oraz modyfikacji danych w bazie",
+        "znajomość programowania na poziomie umożliwiającym analizę kodu",
+        "umiejętność skutecznej współpracy i komunikacji z Pracownikami innych jednostek"
+      ],
+      "summary_offers": [
+        "Poczucie stabilności – zatrudnienie na umowę o pracę w firmie, która od lat konsekwentnie buduje swoją pozycję w branży finansowo – technologicznej",
+        "Możliwość dalszego rozwoju zawodowego w firmie o ugruntowanej pozycji na rynku",
+        "Pakiet benefitów – opieka medyczna i stomatologiczna, karta sportowa, inicjatywy integracyjne, ubezpieczenie na życie, firmowe drużyny sportowe, karty przedpłacone i wiele więcej!"
+      ],
+      "required_skills": [
+        "SQL",
+        "programowanie",
+        "Obsługa Jira",
+        "Analiza kodu",
+        "Współpraca",
+        "PMFS",
+        "Procesy biznesowe",
+        "Unix",
+        "analiza",
+        "Angielski"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-02T01:13:20.568059+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует знаний SQL и умения работать с базами данных, что соответствует навыкам кандидата. Однако, необходимо проверить уровень знаний кандидата в области SQL и его способность работать с базами данных.",
+        "strengths": [
+          "Знание SQL",
+          "Опыт работы с базами данных"
+        ],
+        "gaps": [
+          "Недостаточно информации о уровне знаний кандидата в области SQL"
+        ],
+        "verify": "Уровень знаний кандидата в области SQL",
+        "suggested_cv": "Data"
+      },
+      "ai_review_fingerprint": "52bb439061a5e7ef9cce38be"
+    },
+    {
+      "id": "5f319396d36d72eb",
+      "title": "Junior Fullstack Engineer (m/f/d)",
+      "company": "PAYBACK",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/payback-junior-fullstack-engineer-m-f-d--warszawa-net",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ccddf15d51df48c095bf629e4103718c",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-16T09:05:07.963266Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Develop, maintain, and enhance features across our web applications and services; Contribute to all phases of the software development lifecycle, including implementation, testing, deployment, and monitoring; Debug, troubleshoot, and optimize existing applications and services | What they expect: We provide training to develop hard and soft skills | What they offer: Among other: corporate incentive program, sport card, private medical care; Working in a hybrid model?; At PAYBACK, you can work remotely from European countries for up to 15 days a year",
+      "summary_tasks": [
+        "Develop, maintain, and enhance features across our web applications and services",
+        "Contribute to all phases of the software development lifecycle, including implementation, testing, deployment, and monitoring",
+        "Debug, troubleshoot, and optimize existing applications and services"
+      ],
+      "summary_expectations": [
+        "We provide training to develop hard and soft skills"
+      ],
+      "summary_offers": [
+        "Among other: corporate incentive program, sport card, private medical care",
+        "Working in a hybrid model?",
+        "At PAYBACK, you can work remotely from European countries for up to 15 days a year"
+      ],
+      "required_skills": [
+        ".Net",
+        "C#",
+        "Microsoft SQL Server",
+        "REST APIs",
+        "ASP.NET Core",
+        "TypeScript",
+        "JavaScript",
+        "GCP",
+        "Git"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-17T07:29:32.510679+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "APPLY",
+        "explanation": "Вакансия соответствует критериям поиска, включая местоположение, тип контракта и уровень опыта. Профиль кандидата демонстрирует соответствующие навыки в области Python, автоматизации и интеграции систем.",
+        "strengths": [
+          "Опыт работы с Python",
+          "Знания в области автоматизации и интеграции систем",
+          "Навыки в области сетей и систем"
+        ],
+        "gaps": [
+          "Отсутствие подтвержденного опыта работы в качестве коммерческого разработчика Python",
+          "Недостаток опыта в области MLOps и продвинутой интеграции систем"
+        ],
+        "verify": "Требуется проверка навыков кандидата в области разработки fullstack-приложений",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "190f288ad8a0299222a63392"
+    },
+    {
+      "id": "4f5fc8c87316c345",
+      "title": "Junior Salesforce Consultant",
+      "company": "Enxoo",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-consultant-warszawa-analytics-5c5ba615",
+      "apply_url": "https://enxoo.my.salesforce-sites.com/recruit?announcementId=a0VRp00000AU4DL&p=justjoinIT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-15T11:05:03.0795793Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: We support companies in their relations with customers, partners,; It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment; What you’ll be doing: Analyze and redesign business processes to enhance efficiency and effectiveness | What they expect: It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment; Proficient in IT project fulfillment methods and business process modeling; Enthusiastic about embracing new technologies and gaining diverse experiences | What they offer: Hybrid, or in our (pet-friendly)office – your choice; 💰 Bonuses and Flexibility: Rewards and flexible hours; 🌼 Well-being Matters: Healthcare, sports, and insurance",
+      "summary_tasks": [
+        "We support companies in their relations with customers, partners,",
+        "It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment",
+        "What you’ll be doing: Analyze and redesign business processes to enhance efficiency and effectiveness"
+      ],
+      "summary_expectations": [
+        "It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment",
+        "Proficient in IT project fulfillment methods and business process modeling",
+        "Enthusiastic about embracing new technologies and gaining diverse experiences"
+      ],
+      "summary_offers": [
+        "Hybrid, or in our (pet-friendly)office – your choice",
+        "💰 Bonuses and Flexibility: Rewards and flexible hours",
+        "🌼 Well-being Matters: Healthcare, sports, and insurance"
+      ],
+      "required_skills": [
+        "Salesforce",
+        "Business Analysis",
+        "HTML",
+        "BPMN",
+        "Relacyjne Bazy Danych",
+        "CSS",
+        "JavaScript"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-15T17:25:31.519501+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия соответствует некоторым критериям, но требует дополнительной информации для подтверждения соответствия опыта и навыков кандидата",
+        "strengths": [
+          "Опыт работы с CRM и бизнес-процессами",
+          "Знание SQL и PostgreSQL",
+          "Навыки анализа и оптимизации бизнес-процессов"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта работы с Salesforce",
+          "Недостаточная информация о навыках в области IT-проектов и бизнес-моделирования"
+        ],
+        "verify": "Требуется дополнительная информация о навыках и опыте кандидата в области Salesforce и IT-проектов",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "56cd70b93b1ed4a5ee6669fc"
+    },
+    {
+      "id": "3caf7a819049c7ca",
+      "title": "Junior .NET Engineer",
+      "company": "Next Technology Professionals",
+      "location": "Lublin, Warszawa, Kraków, Poznań, Gdańsk",
+      "url": "https://justjoin.it/job-offer/next-technology-professionals-junior-net-engineer-lublin-net",
+      "apply_url": "https://nexttechnology.traffit.com/public/an/0f4ca1402a179469638bbd227f0514bb6d332b7455413d3d",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract + B2B",
+      "work_mode": "Remote",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-15T07:40:03.4325162Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 2,
+      "summary": "What you'll do: Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora); Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania; Otwartości na współpracę w zwinnym środowisku (Scrum/Agile) oraz świetnych umiejętności komunikacyjnych | What they expect: 🚀 Zakres obowiązków: 📋 Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora); Zgłębianie specyfiki branży ubezpieczeniowej oraz nieustanne poszerzanie kompetencji programistycznych; Oczekujemy: 🎯 Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania | What they offer: Pełną swobodę w wyborze miejsca pracy (Home Office lub biuro w Lublinie); Zapewnione pełne wdrożenie w skomplikowaną domenę ubezpieczeniową z pomocą mentora; Konkurencyjny i elastyczny pakiet świadczeń dopasowany do indywidualnych potrzeb",
+      "summary_tasks": [
+        "Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora)",
+        "Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania",
+        "Otwartości na współpracę w zwinnym środowisku (Scrum/Agile) oraz świetnych umiejętności komunikacyjnych"
+      ],
+      "summary_expectations": [
+        "🚀 Zakres obowiązków: 📋 Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora)",
+        "Zgłębianie specyfiki branży ubezpieczeniowej oraz nieustanne poszerzanie kompetencji programistycznych",
+        "Oczekujemy: 🎯 Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania"
+      ],
+      "summary_offers": [
+        "Pełną swobodę w wyborze miejsca pracy (Home Office lub biuro w Lublinie)",
+        "Zapewnione pełne wdrożenie w skomplikowaną domenę ubezpieczeniową z pomocą mentora",
+        "Konkurencyjny i elastyczny pakiet świadczeń dopasowany do indywidualnych potrzeb"
+      ],
+      "required_skills": [
+        "C#",
+        ".Net",
+        "Visual Studio"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-11-15T17:25:31.519501+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "SKIP",
+        "explanation": "Вакансия требует опыта работы с .NET, что не соответствует профилю кандидата, ориентированному на Python и автоматизацию",
+        "strengths": [
+          "Опыт работы с Python",
+          "Знания в области автоматизации и интеграции систем"
+        ],
+        "gaps": [
+          "Отсутствие опыта работы с .NET",
+          "Несовпадение технологических стеков"
+        ],
+        "verify": "Требуется проверка соответствия технологических стеков и опыта работы",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "18fdc081099f651d812deebe"
+    },
+    {
+      "id": "9211ac01461041ca",
+      "title": "Funkcjonariusz wsparcia IT",
+      "company": "Agencja Wywiadu",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/agencja-wywiadu-funkcjonariusz-wsparcia-it-warszawa-support",
+      "apply_url": "https://aw.gov.pl/pl/kariera/kariera/140,funkcjonariusza-wsparcia-IT.html#Funkcjonariusz%20wsparcia%20IT",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Office",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-16T11:30:08.973815Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Do Agencji Wywiadu poszukujemy osób, które chcą rozwijać się we współpracy z najlepszymi specjalistami u jednego z najciekawszych pracodawców; Do Twoich obowiązków będzie należało: konfiguracja i inwentaryzowanie urządzeń, instalowanie dodatkowego oprogramowania, monitorowanie działania wprowadzonych rozwiązań IT, obsługiwanie bieżących zgłoszeń, branie udziału w projektach wewnętrznych | What they expect: Wymagamy: wykształcenia średniego technicznego (preferowane informatyczne, telekomunikacyjne lub inne pokrewne), praktycznej znajomości systemów operacyjnych z rodziny MS Windows (Win7, Win8, Win10); stabilne warunki zatrudnienia, elastyczny czas pracy, możliwość doskonalenia kompetencji językowych, wsparcie finansowe na naukę i rozwój, dofinansowanie karnetów sportowych, opiekę medyczną, miejsca parkingowe, wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto | What they offer: elastyczny czas pracy; wsparcie finansowe na naukę i rozwój; Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)",
+      "summary_tasks": [
+        "Do Agencji Wywiadu poszukujemy osób, które chcą rozwijać się we współpracy z najlepszymi specjalistami u jednego z najciekawszych pracodawców",
+        "Do Twoich obowiązków będzie należało: konfiguracja i inwentaryzowanie urządzeń, instalowanie dodatkowego oprogramowania, monitorowanie działania wprowadzonych rozwiązań IT, obsługiwanie bieżących zgłoszeń, branie udziału w projektach wewnętrznych"
+      ],
+      "summary_expectations": [
+        "Wymagamy: wykształcenia średniego technicznego (preferowane informatyczne, telekomunikacyjne lub inne pokrewne), praktycznej znajomości systemów operacyjnych z rodziny MS Windows (Win7, Win8, Win10)",
+        "stabilne warunki zatrudnienia, elastyczny czas pracy, możliwość doskonalenia kompetencji językowych, wsparcie finansowe na naukę i rozwój, dofinansowanie karnetów sportowych, opiekę medyczną, miejsca parkingowe, wewnętrzną siłownię i bufet, Świadczenie mieszkaniowe 1800 zł netto"
+      ],
+      "summary_offers": [
+        "elastyczny czas pracy",
+        "wsparcie finansowe na naukę i rozwój",
+        "Siedziba naszej instytucji znajduje się w Warszawie (brak możliwości pracy zdalnej)"
+      ],
+      "required_skills": [
+        "Microsoft Office",
+        "Microsoft Windows"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-13T06:57:31.430102+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует опыта работы с системами MS Windows, но в профиле кандидата есть опыт работы с Linux и сетевыми технологиями, что может быть полезным, но не полностью соответствует требованиям вакансии.",
+        "strengths": [
+          "Опыт работы с сетевыми технологиями",
+          "Знание систем Linux"
+        ],
+        "gaps": [
+          "Нет прямого опыта работы с системами MS Windows"
+        ],
+        "verify": "Требуется проверка навыков кандидата в области систем MS Windows",
+        "suggested_cv": "Systems"
+      },
+      "ai_review_fingerprint": "31f300c9f3d801c12fcce421"
+    },
+    {
+      "id": "d1918751a2dc817f",
+      "title": "Junior LowCode Developer (K/M)",
+      "company": "Alior Bank SA",
+      "location": "Kraków, Warszawa, Gdańsk",
+      "url": "https://justjoin.it/job-offer/alior-bank-sa-junior-lowcode-developer-k-m--krakow-javascript",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=f009013df00e479e92fdff568916983b",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-15T12:10:02.302359Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Stanowisko: Junior LowCode Developer (K/M) Opis stanowiska Mamy dla Ciebie pracę, która polega na: projektowaniu i implementacji omnikanałowych procesów bankowych na platformie LowCode Eximee, integracji procesów z systemami wewnętrznymi i zewnętrznymi, współpracy z Product Ownerem; preferowana platforma Eximee, zna JavaScript w stopniu umożliwiającym tworzenie komponentów na platformie LowCode, rozumie zasady BPM, posiada doświadczenie w projektowaniu wniosków dla klientów, posiada doświadczenie w pracy w środowisku zwinnym | What they expect: posiada doświadczenie na stanowisku LowCode Dewelopera – preferowana platforma Eximee; posiada doświadczenie w projektowaniu wniosków dla klientów; posiada doświadczenie w pracy w środowisku zwinnym | What they offer: Oferujemy; pakiet benefitów m.in; Alior Uniwersytet – przestrzeń do rozwoju kompetencji zawodowych oraz personalnych",
+      "summary_tasks": [
+        "Stanowisko: Junior LowCode Developer (K/M) Opis stanowiska Mamy dla Ciebie pracę, która polega na: projektowaniu i implementacji omnikanałowych procesów bankowych na platformie LowCode Eximee, integracji procesów z systemami wewnętrznymi i zewnętrznymi, współpracy z Product Ownerem",
+        "preferowana platforma Eximee, zna JavaScript w stopniu umożliwiającym tworzenie komponentów na platformie LowCode, rozumie zasady BPM, posiada doświadczenie w projektowaniu wniosków dla klientów, posiada doświadczenie w pracy w środowisku zwinnym"
+      ],
+      "summary_expectations": [
+        "posiada doświadczenie na stanowisku LowCode Dewelopera – preferowana platforma Eximee",
+        "posiada doświadczenie w projektowaniu wniosków dla klientów",
+        "posiada doświadczenie w pracy w środowisku zwinnym"
+      ],
+      "summary_offers": [
+        "Oferujemy",
+        "pakiet benefitów m.in",
+        "Alior Uniwersytet – przestrzeń do rozwoju kompetencji zawodowych oraz personalnych"
+      ],
+      "required_skills": [
+        "Low-code development",
+        "Agile",
+        "Process design",
+        "JavaScript",
+        "BPM"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T06:55:02.951492+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия требует опыта работы с платформой LowCode Eximee и знания JavaScript, что не подтверждается профилем кандидата. Однако, кандидат имеет опыт работы с автоматизацией и интеграцией систем, что может быть полезным для этой позиции.",
+        "strengths": [
+          "Опыт работы с автоматизацией и интеграцией систем",
+          "Знание Python и SQL",
+          "Опыт работы в гибкой среде"
+        ],
+        "gaps": [
+          "Отсутствие опыта работы с платформой LowCode Eximee",
+          "Отсутствие знания JavaScript"
+        ],
+        "verify": "Необходимо проверить уровень знания JavaScript и опыт работы с платформой LowCode Eximee",
+        "suggested_cv": "Automation"
+      },
+      "ai_review_fingerprint": "2e1e59bc1e64065e75e70c26"
+    },
+    {
+      "id": "a1e759601b2abc9f",
+      "title": "Specjalista / Specjalistka ds. Zarządzania Umowami IT",
+      "company": "Bank BPS S.A.",
+      "location": "Warszawa",
+      "url": "https://justjoin.it/job-offer/bank-bps-s-a--specjalista-specjalistka-ds-zarzadzania-umowami-it-warszawa-admin",
+      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=edddead8cc81486da96f78fa05e42f76",
+      "source": "justjoin.it",
+      "contract": "Umowa o pracę / Employment contract",
+      "work_mode": "Hybrid",
+      "seniority": "junior",
+      "salary": "",
+      "published_at": "2026-11-15T13:05:10.93343Z",
+      "fit_score": 0,
+      "match_level": "AI_REVIEW_PENDING",
+      "recommendation_tier": "POSSIBLE",
+      "experience_required_years": 0,
+      "summary": "What you'll do: Główne zadania: monitorujesz ważność licencji; Nasze oczekiwania: masz doświadczenie w koordynowaniu zmian lub projektów, znasz podstawowe zagadnienia z obszaru bankowości (produkty, procesy), masz podstawową wiedzę o regulacjach bankowych (KNF, NBP, UE), znasz podstawy infrastruktury IT (serwery, sieci, komputery), jesteś komunikatywny, potrafisz współpracować, a także nie masz problemu z samodzielnością mile widziane wykształcenie wyższe (szczególnie kierunki: IT, administracja, ekonomia), znasz angielski na poziomie komunikatywnym | What they expect: Nasze oczekiwania: masz doświadczenie w koordynowaniu zmian lub projektów, znasz podstawowe zagadnienia z obszaru bankowości (produkty, procesy), masz podstawową wiedzę o regulacjach bankowych (KNF, NBP, UE), znasz podstawy infrastruktury IT (serwery, sieci, komputery), jesteś komunikatywny, potrafisz współpracować, a także nie masz problemu z samodzielnością mile widziane wykształcenie wyższe (szczególnie kierunki: IT, administracja, ekonomia), znasz angielski na poziomie komunikatywnym | What they offer: praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul; opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny); ubezpieczenie grupowe firmy Ergo Hestia",
+      "summary_tasks": [
+        "Główne zadania: monitorujesz ważność licencji",
+        "Nasze oczekiwania: masz doświadczenie w koordynowaniu zmian lub projektów, znasz podstawowe zagadnienia z obszaru bankowości (produkty, procesy), masz podstawową wiedzę o regulacjach bankowych (KNF, NBP, UE), znasz podstawy infrastruktury IT (serwery, sieci, komputery), jesteś komunikatywny, potrafisz współpracować, a także nie masz problemu z samodzielnością mile widziane wykształcenie wyższe (szczególnie kierunki: IT, administracja, ekonomia), znasz angielski na poziomie komunikatywnym"
+      ],
+      "summary_expectations": [
+        "Nasze oczekiwania: masz doświadczenie w koordynowaniu zmian lub projektów, znasz podstawowe zagadnienia z obszaru bankowości (produkty, procesy), masz podstawową wiedzę o regulacjach bankowych (KNF, NBP, UE), znasz podstawy infrastruktury IT (serwery, sieci, komputery), jesteś komunikatywny, potrafisz współpracować, a także nie masz problemu z samodzielnością mile widziane wykształcenie wyższe (szczególnie kierunki: IT, administracja, ekonomia), znasz angielski na poziomie komunikatywnym"
+      ],
+      "summary_offers": [
+        "praca w systemie hybrydowym - 8 dni pracy zdalnej w miesiącu (praca stacjonarna z Centrali BPS przy ul",
+        "opiekę medyczną firmy Medicover (bezpłatna dla pracownika, pakiety płatne dla członków rodziny)",
+        "ubezpieczenie grupowe firmy Ergo Hestia"
+      ],
+      "required_skills": [
+        "MS Office"
+      ],
+      "fit_notes": {
+        "direction": "AI-first / awaiting CV assessment",
+        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
+        "confirmed": "UoP/location/experience hard gate and employer task evidence",
+        "pending": "Independent AI fit assessment (not APPLY)",
+        "score_is_preliminary": true
+      },
+      "interest_tags": [],
+      "first_found_at": "2026-10-01T15:08:19.152375+00:00",
+      "source_last_seen_at": "2026-11-17T07:29:32.510679+00:00",
+      "ai_review": {
+        "verdict": "CHECK",
+        "explanation": "Вакансия не содержит явных требований к навыкам Python, AI или автоматизации, но местоположение и тип работы соответствуют ограничениям кандидата. Необходимо проверить, соответствуют ли навыки кандидата требованиям вакансии.",
+        "strengths": [
+          "Опыт работы в сетях и системах",
+          "Знание SQL и PostgreSQL",
+          "Навыки коммуникации"
+        ],
+        "gaps": [
+          "Отсутствие прямого опыта в банковской сфере",
+          "Недостаточная информация о навыках управления проектами"
+        ],
+        "verify": "Требуется проверка соответствия навыков кандидата требованиям вакансии",
+        "suggested_cv": "General"
+      },
+      "ai_review_fingerprint": "8dd938f6dd69a0fc6e7f449c"
     },
     {
       "id": "99c99c9bfb69d790",
@@ -283,6 +1126,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-03T13:17:00.930254+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия требует знания Python и/или TypeScript/JavaScript, а также умения работать с инструментами AI, что частично соответствует профилю кандидата. Однако, необходимо проверить уровень знаний и навыков кандидата в области frontend, backend и баз данных, а также его опыт работы с интеграциями зewnętrznymi API.",
@@ -347,6 +1191,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-13T19:07:13.654794+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия требует опыта в области телекоммуникаций, но кандидат имеет опыт в сетевом инжиниринге и автоматизации, что может быть актуально. Однако, необходимо проверить глубину знаний кандидата в области сетей и автоматизации.",
@@ -409,7 +1254,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-09-29T21:04:25.887337+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "8fd28842829f3a77",
@@ -462,74 +1308,8 @@
         "automation"
       ],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
-    },
-    {
-      "id": "e22daed6f25a53f8",
-      "title": "Data Analytics Specialist",
-      "company": "Capco",
-      "location": "Poland - Warsaw",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8355215",
-      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8355215",
-      "source": "greenhouse:capco",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-11-09T08:08:39-05:00",
-      "fit_score": 69,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Analyse, transform, and validate large datasets using SQL, Python, and PySpark; Develop and validate data transformations and ETL processes; Work with data related to corporate clients, financial products, and reporting | What they expect: The Role We are looking for an experienced Data Analyst to join an international project for a leading global bank; Experience within banking industry would be highly appreciated; What We’re Looking For Experience working as a Data Analyst or in a similar data-focused role | What they offer: Hybrid working model; Opportunity to work on an international banking project; Collaborative working environment and professional development opportunities",
-      "summary_tasks": [
-        "Analyse, transform, and validate large datasets using SQL, Python, and PySpark",
-        "Develop and validate data transformations and ETL processes",
-        "Work with data related to corporate clients, financial products, and reporting"
-      ],
-      "summary_expectations": [
-        "The Role We are looking for an experienced Data Analyst to join an international project for a leading global bank",
-        "Experience within banking industry would be highly appreciated",
-        "What We’re Looking For Experience working as a Data Analyst or in a similar data-focused role"
-      ],
-      "summary_offers": [
-        "Hybrid working model",
-        "Opportunity to work on an international banking project",
-        "Collaborative working environment and professional development opportunities"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: sql, reporting, analytics",
-          "Python & automation: python"
-        ],
-        "concerns": [
-          "Not a junior role; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-10T07:41:40.429785+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Вакансия соответствует профилю кандидата, который имеет опыт работы с Python, SQL и данными. Отсутствие требований к senior/lead и 3+ лет опыта также является плюсом.",
-        "strengths": [
-          "Опыт работы с Python и SQL",
-          "Знакомство с данными и аналитикой",
-          "Навыки работы с крупными наборами данных"
-        ],
-        "gaps": [
-          "Отсутствие прямого опыта работы в банковской отрасли",
-          "Нет упоминания о знании PySpark"
-        ],
-        "verify": "CHECK",
-        "suggested_cv": "Data"
-      },
-      "ai_review_fingerprint": "851bdfb8b60d3f0b0dac5ebe"
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "8760a6b1fb0758c1",
@@ -582,6 +1362,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-13T20:31:13.442576+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "APPLY",
         "explanation": "Вакансия соответствует критериям поиска, включая местоположение в Варшаве и junior-уровень",
@@ -644,7 +1425,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-31T07:49:11.754981+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "9b73b8deb25611d8",
@@ -701,6 +1483,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-13T19:07:13.654794+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия соответствует некоторым навыкам кандидата, но требует дополнительной информации о его опыте и знаниях в области BI и Azure",
@@ -768,7 +1551,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-22T06:54:54.357396+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "a6e9a05b7aade9e4",
@@ -815,7 +1599,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-01T17:37:28.080765+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "079bb32abd82e854",
@@ -867,6 +1652,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-03T22:43:51.476175+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия не требует прямого опыта работы с Python или автоматизацией, но требует аналитических навыков и умения работать с данными. Необходимо проверить, насколько кандидат может применить свои навыки в этой области.",
@@ -930,160 +1716,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-24T06:55:02.173108+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
-    },
-    {
-      "id": "e9f7e10b2ad0e7b4",
-      "title": "Junior Python Backend Developer",
-      "company": "Fundacja Szkoła w Chmurze",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/fundacja-szkola-w-chmurze-junior-python-backend-developer-warszawa-python",
-      "apply_url": "https://form.typeform.com/to/npAi73Az?utm_source=xxxxx",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T15:15:11.779585Z",
-      "fit_score": 62,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: Szukamy Backend Developera , który/a dołączy do zespołu rozwijającego Zajęcia w Chmurze; Szukamy osoby, która swobodnie porusza się w Pythonie, rozumie działanie REST API i dobrze odnajduje się w pracy z istniejącym kodem; Technologie, z którymi pracujemy Python / FastAPI PostgreSQL / SQL Redis Docker / Podman Git Pytest Taskiq Czego oczekujemy? | What they expect: Komercyjnego doświadczenia min; Dobrej znajomości REST API oraz praktycznej umiejętności integracji z zewnętrznymi usługami; Umiejętności pracy z relacyjnymi bazami danych i pisania zapytań SQL | What they offer: niewielki zespół z płaską strukturą i bezpośrednią komunikacją; elastyczne godziny rozpoczęcia pracy; (okazjonalnie możliwa praca zdalna)",
-      "summary_tasks": [
-        "Szukamy Backend Developera , który/a dołączy do zespołu rozwijającego Zajęcia w Chmurze",
-        "Szukamy osoby, która swobodnie porusza się w Pythonie, rozumie działanie REST API i dobrze odnajduje się w pracy z istniejącym kodem",
-        "Technologie, z którymi pracujemy Python / FastAPI PostgreSQL / SQL Redis Docker / Podman Git Pytest Taskiq Czego oczekujemy?"
-      ],
-      "summary_expectations": [
-        "Komercyjnego doświadczenia min",
-        "Dobrej znajomości REST API oraz praktycznej umiejętności integracji z zewnętrznymi usługami",
-        "Umiejętności pracy z relacyjnymi bazami danych i pisania zapytań SQL"
-      ],
-      "summary_offers": [
-        "niewielki zespół z płaską strukturą i bezpośrednią komunikacją",
-        "elastyczne godziny rozpoczęcia pracy",
-        "(okazjonalnie możliwa praca zdalna)"
-      ],
-      "required_skills": [
-        "Python",
-        "fastapi",
-        "PostgreSQL",
-        "SQL",
-        "REST API",
-        "Git",
-        "asyncio"
-      ],
-      "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: python, api, integracja",
-          "Linux / Git: git, docker",
-          "Web platform (Supabase, PostgreSQL, WordPress): postgresql, rest api",
-          "SQL / Excel / reporting: sql, postgresql"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 1 year; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
-        "suggested_cv": "Automation & Python"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-11T07:41:52.637853+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Вакансия соответствует профилю кандидата, требуемый опыт и навыки совпадают с имеющимися у кандидата",
-        "strengths": [
-          "Опыт работы с Python",
-          "Знание REST API",
-          "Опыт работы с PostgreSQL и SQL"
-        ],
-        "gaps": [
-          "Нет прямого опыта работы с FastAPI",
-          "Нет прямого опыта работы с Redis"
-        ],
-        "verify": "Требуется проверка коммерческого опыта и практических умений",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "e41f42f756de88e2c3a1f05b"
-    },
-    {
-      "id": "c23dd7f35d2f68de",
-      "title": "Junior Python Developer (k/m/n)",
-      "company": "Nexio Management",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/nexio-management-junior-python-developer-k-m-n--warszawa-python",
-      "apply_url": "https://nexio.traffit.com/public/form/a/d98977f59db532917b879e9c16072b1371435a64",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T14:20:04.365693Z",
-      "fit_score": 62,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: rozwój usług backendowych, API oraz komponentów systemowych w Pythonie; tworzenie i rozwój procesów przetwarzania danych (ETL/ELT); tworzenie narzędzi automatyzujących i skryptów wspierających procesy biznesowe | What they expect: Wymagane doświadczenie: minimum 1 rok komercyjnego doświadczenia w programowaniu w Pythonie, praktyczna znajomość jednego z frameworków: FastAPI, Flask lub Django , znajomość SQL i doświadczenie w pracy z danymi, doświadczenie w integracji poprzez API , znajomość narzędzi do przetwarzania danych, np; Pandas , znajomość Git oraz procesów CI/CD, umiejętność rozumienia wymagań biznesowych i przekładania ich na rozwiązania techniczne, gotowość do współpracy z różnymi zespołami technicznymi i biznesowymi, dostępność do | What they offer: Stabilność zatrudnienia - długofalowe projekty, współpraca z wiodącymi firmami, możliwość rozwoju w różnych obszarach branży IT; Elastyczne formy współpracy - umowa B2B, umowa o pracę lub zlecenie; Benefity: Medicover (rozszerzony o stomatologię), FitProfit, lekcje języka angielskiego",
-      "summary_tasks": [
-        "rozwój usług backendowych, API oraz komponentów systemowych w Pythonie",
-        "tworzenie i rozwój procesów przetwarzania danych (ETL/ELT)",
-        "tworzenie narzędzi automatyzujących i skryptów wspierających procesy biznesowe"
-      ],
-      "summary_expectations": [
-        "Wymagane doświadczenie: minimum 1 rok komercyjnego doświadczenia w programowaniu w Pythonie, praktyczna znajomość jednego z frameworków: FastAPI, Flask lub Django , znajomość SQL i doświadczenie w pracy z danymi, doświadczenie w integracji poprzez API , znajomość narzędzi do przetwarzania danych, np",
-        "Pandas , znajomość Git oraz procesów CI/CD, umiejętność rozumienia wymagań biznesowych i przekładania ich na rozwiązania techniczne, gotowość do współpracy z różnymi zespołami technicznymi i biznesowymi, dostępność do"
-      ],
-      "summary_offers": [
-        "Stabilność zatrudnienia - długofalowe projekty, współpraca z wiodącymi firmami, możliwość rozwoju w różnych obszarach branży IT",
-        "Elastyczne formy współpracy - umowa B2B, umowa o pracę lub zlecenie",
-        "Benefity: Medicover (rozszerzony o stomatologię), FitProfit, lekcje języka angielskiego"
-      ],
-      "required_skills": [
-        "Python",
-        "fastapi",
-        "SQL",
-        "Pandas",
-        "ETL / ELT"
-      ],
-      "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: python, api, integracja",
-          "Linux / Git: git, ci/cd",
-          "SQL / Excel / reporting: sql"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 1 year; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
-        "suggested_cv": "Automation & Python"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-14T14:40:32.173070+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Кандидат соответствует базовым требованиям по Python, автоматизации и интеграции, но не подтверждён опыт 1+ года в коммерческой среде. Отсутствуют явные упоминания фреймворков (FastAPI/Flask/Django), Pandas и деталей работы с SQL/ETL.",
-        "strengths": [
-          "Проекты с Python/Playwright/openpyxl, GitHub Actions и API интеграцией",
-          "Опыт SaaS-разработки, PostgreSQL, Docker и CI/CD",
-          "Навыки автоматизации бизнес-процессов и работы с данными"
-        ],
-        "gaps": [
-          "Не указано 1+ года коммерческого опыта в Python",
-          "Отсутствуют упоминания FastAPI/Flask/Django и Pandas",
-          "Неясна глубина опыта с SQL/ETL и интеграцией через API"
-        ],
-        "verify": "Уточнить детали опыта работы, наличие фреймворков (FastAPI/Flask/Django), работы с Pandas и ETL-процессами.",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "fd042fdf18c39b3b621de2ef"
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "f7185f8d0799ee41",
@@ -1130,6 +1764,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-04T23:07:40.258666+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия требует знаний в области сетей и систем, но нет явных требований к опыту работы с Python или автоматизацией. Необходимо уточнить, есть ли возможности для применения навыков Python и автоматизации в компании.",
@@ -1193,7 +1828,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-30T07:50:33.935003+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "7e7be59d16b1ab49",
@@ -1245,7 +1881,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-10-22T06:54:54.357396+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
+      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "d9cf534c64ceecad",
@@ -1299,6 +1936,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-13T19:42:36.511818+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия не содержит явных требований к навыкам Python, AI или автоматизации, но местоположение и тип контракта соответствуют ограничениям",
@@ -1313,53 +1951,6 @@
         "suggested_cv": "General"
       },
       "ai_review_fingerprint": "9ad182d7a1487276f4c14425"
-    },
-    {
-      "id": "433da35d943bf522",
-      "title": "Kondor+ Integration, Data & Database Consultant",
-      "company": "Capco",
-      "location": "Poland - Warsaw",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/8245893",
-      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/8245893",
-      "source": "greenhouse:capco",
-      "contract": "Unknown",
-      "work_mode": "Remote",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-22T10:42:15-04:00",
-      "fit_score": 57,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Analyse the existing Kondor+ integration landscape , covering inbound and outbound interfaces; Design and implement or coordinate required modifications to Kondor+ interfaces; Support integration between Kondor+ and surrounding systems such as | What they expect: Strong hands-on technical experience with Kondor+ / Fusion Kondor / Finastra Kondor; Previous experience working on at least one Kondor+ implementation, upgrade or migration; Demonstrable experience with Kondor+ interfaces and integration mechanisms",
-      "summary_tasks": [
-        "Analyse the existing Kondor+ integration landscape , covering inbound and outbound interfaces",
-        "Design and implement or coordinate required modifications to Kondor+ interfaces",
-        "Support integration between Kondor+ and surrounding systems such as"
-      ],
-      "summary_expectations": [
-        "Strong hands-on technical experience with Kondor+ / Fusion Kondor / Finastra Kondor",
-        "Previous experience working on at least one Kondor+ implementation, upgrade or migration",
-        "Demonstrable experience with Kondor+ interfaces and integration mechanisms"
-      ],
-      "summary_offers": [],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: integration"
-        ],
-        "concerns": [
-          "Contract not confirmed yet",
-          "Not a junior role; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-02T06:54:52.032258+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
     },
     {
       "id": "de7ce96492d15e28",
@@ -1408,6 +1999,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-02T14:56:19.483329+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Вакансия требует аналитических навыков и умения работать в команде, но нет явных требований к навыкам Python, AI или автоматизации. Необходимо проверить, соответствуют ли навыки кандидата требованиям вакансии.",
@@ -1468,6 +2060,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-10T07:41:40.429785+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Нет явных требований к навыкам Python, AI или автоматизации, но есть возможность применения аналитических навыков и работы с данными",
@@ -1484,339 +2077,6 @@
         "suggested_cv": "Automation"
       },
       "ai_review_fingerprint": "0d235b071812339d871993c5"
-    },
-    {
-      "id": "f33bc6d88142fe09",
-      "title": "Junior Analyst (M/F/D)",
-      "company": "DSV",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/dsv-junior-analyst-m-f-d--warszawa-analytics",
-      "apply_url": "https://jobs.dsv.com/job-invite/125175/",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T14:05:08.042306Z",
-      "fit_score": 54,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python; Work closely with business analysts and other teams to design reports that truly meet client needs; Co-create and customize reporting tools that support decision-making | What they expect: Contribute to both internal and external projects, gaining broad exposure and experience; What we’re looking for: Strong analytical skills and a problem-solving mindset; Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation | What they offer: Employment based on an employment contract, along with a comprehensive benefits package; Training and development programs, as well as access to an e-learning platform; Sharing the costs of professional training & courses",
-      "summary_tasks": [
-        "Build and develop reporting solutions based on transportation and financial data using our internal tool based on Python",
-        "Work closely with business analysts and other teams to design reports that truly meet client needs",
-        "Co-create and customize reporting tools that support decision-making"
-      ],
-      "summary_expectations": [
-        "Contribute to both internal and external projects, gaining broad exposure and experience",
-        "What we’re looking for: Strong analytical skills and a problem-solving mindset",
-        "Knowledge of Python libraries (Pandas, NumPy, DateTime) for data transformation"
-      ],
-      "summary_offers": [
-        "Employment based on an employment contract, along with a comprehensive benefits package",
-        "Training and development programs, as well as access to an e-learning platform",
-        "Sharing the costs of professional training & courses"
-      ],
-      "required_skills": [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "MS Excel",
-        "VBA",
-        "Power Query",
-        "Power BI"
-      ],
-      "fit_notes": {
-        "direction": "Data / Reporting",
-        "evidence": "projects",
-        "matches": [
-          "SQL / Excel / reporting: reporting, excel",
-          "Python & automation: python"
-        ],
-        "concerns": [
-          "Requires Power BI",
-          "Mentions Power Bi"
-        ],
-        "tier_reason": "Capped at 54: Requires Power BI.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "APPLY",
-        "explanation": "Вакансия соответствует профилю кандидата, поскольку требует навыков Python и аналитических способностей, которые подтверждены в профиле кандидата.",
-        "strengths": [
-          "Опыт работы с Python",
-          "Аналитические навыки",
-          "Знание SQL/PostgreSQL"
-        ],
-        "gaps": [
-          "Нет прямого опыта работы с Pandas, NumPy, DateTime",
-          "Нет прямого опыта работы в транспортной или финансовой сфере"
-        ],
-        "verify": "Требуется проверка навыков работы с Python и аналитических способностей",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "63a0313b520fa463f7610673"
-    },
-    {
-      "id": "2f73da43d7a68f9b",
-      "title": "Junior Frontend Developer",
-      "company": "Fundacja Szkoła w Chmurze",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/fundacja-szkola-w-chmurze-junior-frontend-developer-warszawa-javascript",
-      "apply_url": "https://form.typeform.com/to/npAi73Az?utm_source=xxxxx",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T15:00:09.90397Z",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 1,
-      "summary": "What you'll do: rozwój aplikacji webowej w; współpraca z zespołem UI/UX oraz backendem (FastAPI); lub innych narzędzi do tworzenia formularzy | What they expect: minimum 1 rok komercyjnego doświadczenia z; umiejętność krytycznej oceny i review kodu wygenerowanego przez AI; podstawowa znajomość standardów dostępności | What they offer: udział w code review i decyzjach technologicznych po stronie Frontendu; elastyczne godziny rozpoczęcia pracy; (okazjonalnie możliwa praca zdalna)",
-      "summary_tasks": [
-        "rozwój aplikacji webowej w",
-        "współpraca z zespołem UI/UX oraz backendem (FastAPI)",
-        "lub innych narzędzi do tworzenia formularzy"
-      ],
-      "summary_expectations": [
-        "minimum 1 rok komercyjnego doświadczenia z",
-        "umiejętność krytycznej oceny i review kodu wygenerowanego przez AI",
-        "podstawowa znajomość standardów dostępności"
-      ],
-      "summary_offers": [
-        "udział w code review i decyzjach technologicznych po stronie Frontendu",
-        "elastyczne godziny rozpoczęcia pracy",
-        "(okazjonalnie możliwa praca zdalna)"
-      ],
-      "required_skills": [
-        "Next.js (App Router)",
-        "React Server Components",
-        "Server Actions",
-        "TypeScript",
-        "Tailwind CSS",
-        "React",
-        "SSR",
-        "Zod"
-      ],
-      "fit_notes": {
-        "direction": "Junior Software Development (stretch)",
-        "evidence": "projects",
-        "matches": [
-          "Web platform (Supabase, PostgreSQL, WordPress): css, react, typescript"
-        ],
-        "concerns": [
-          "Ceiling for this direction",
-          "Asks for 1 year; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 62: Asks for 1 year; CV has only project experience here.",
-        "suggested_cv": "Automation & Python"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-11T07:41:52.637853+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Нет явного указания на использование Python, AI или автоматизации в описании вакансии, но есть упоминание о работе с FastAPI и оценке кода, сгенерированного AI",
-        "strengths": [
-          "Опыт работы с Python",
-          "Знание SQL/PostgreSQL",
-          "Опыт работы в сетях и системах"
-        ],
-        "gaps": [
-          "Нет прямого опыта работы как frontend-разработчик",
-          "Нет упоминания о знании React или TypeScript"
-        ],
-        "verify": "Требуется проверка наличия навыков frontend-разработки и знания технологий, используемых в компании",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "48970de8f2e337089c36786f"
-    },
-    {
-      "id": "05ab6b6f2514a11e",
-      "title": "Business Analyst - TPRM",
-      "company": "Capco",
-      "location": "Poland - Warsaw",
-      "url": "https://job-boards.greenhouse.io/capco/jobs/7957522",
-      "apply_url": "https://job-boards.greenhouse.io/capco/jobs/7957522",
-      "source": "greenhouse:capco",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "",
-      "salary": "",
-      "published_at": "2026-10-22T10:42:15-04:00",
-      "fit_score": 53,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Analyse and document current (“as-is”) and future-state (“to-be”) processes to support governance and operating model improvements; Facilitate workshops, support governance discussions, and contribute to programme delivery across policy, standards, and metrics workstreams; Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes | What they expect: Translate business needs into clear user stories and actionable requirements for delivery teams; Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes; Experience working on Third Party Risk Management (TPRM) or supplier risk governance initiatives | What they offer: a flexible collaboration model based on a B2B contract, with the opportunity to work on innovative AI and automation initiatives for leading financial institutions; Bonus Points For; Knowledge of Agile delivery methodologies and user story development",
-      "summary_tasks": [
-        "Analyse and document current (“as-is”) and future-state (“to-be”) processes to support governance and operating model improvements",
-        "Facilitate workshops, support governance discussions, and contribute to programme delivery across policy, standards, and metrics workstreams",
-        "Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes"
-      ],
-      "summary_expectations": [
-        "Translate business needs into clear user stories and actionable requirements for delivery teams",
-        "Proven experience as a Business Analyst within financial services, consulting, or risk transformation programmes",
-        "Experience working on Third Party Risk Management (TPRM) or supplier risk governance initiatives"
-      ],
-      "summary_offers": [
-        "a flexible collaboration model based on a B2B contract, with the opportunity to work on innovative AI and automation initiatives for leading financial institutions",
-        "Bonus Points For",
-        "Knowledge of Agile delivery methodologies and user story development"
-      ],
-      "required_skills": [],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [],
-        "concerns": [
-          "Not a junior role; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 69: Not a junior role; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-09-29T21:04:25.887337+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Нет явного указания на необходимость опыта работы с Python, AI или автоматизацией процессов, но есть упоминание о необходимости анализа и документирования процессов, что может быть связано с автоматизацией.",
-        "strengths": [
-          "Опыт работы в сфере финансовых услуг",
-          "Знание английского и польского языков",
-          "Опыт работы с данными и аналитикой"
-        ],
-        "gaps": [
-          "Отсутствие явного указания на необходимость опыта работы с Python или AI",
-          "Нет информации о необходимых технических навыках"
-        ],
-        "verify": "Необходимо уточнить у работодателя, есть ли необходимость в опыте работы с Python, AI или автоматизацией процессов",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "9f81c56f7a70aff183bf25d6"
-    },
-    {
-      "id": "157ec798a5eecd39",
-      "title": "Business Analyst",
-      "company": "Transition Technologies PSC",
-      "location": "Łódź, Poznań, Wrocław, Białystok, Kielce, Zielona Góra",
-      "url": "https://justjoin.it/job-offer/transition-technologies-psc-business-analyst-lodz-analytics-0ac2ff5a",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=ab7dcd516a2b4b96847af92f88fd449c",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T07:45:14.36296Z",
-      "fit_score": 52,
-      "match_level": "MEDIUM",
-      "recommendation_tier": "STRETCH",
-      "experience_required_years": 2,
-      "summary": "What you'll do: prowadzenie warsztatów i wywiadów z klientami oraz interesariuszami; przekładanie wymagań biznesowych na rozwiązania w Jira Service Management; projektowanie workflow, formularzy oraz automatyzacji | What they expect: doświadczenie w analizie biznesowej lub systemowej (około 1–2 lata) lub potencjał do rozwoju w tym kierunku; podstawowa znajomość zagadnień; umiejętność zbierania, analizowania i strukturyzowania wymagań | What they offer: elastyczne formy zatrudnienia (; ) oraz elastyczne godziny pracy; benefity i dodatkowe aktywności",
-      "summary_tasks": [
-        "prowadzenie warsztatów i wywiadów z klientami oraz interesariuszami",
-        "przekładanie wymagań biznesowych na rozwiązania w Jira Service Management",
-        "projektowanie workflow, formularzy oraz automatyzacji"
-      ],
-      "summary_expectations": [
-        "doświadczenie w analizie biznesowej lub systemowej (około 1–2 lata) lub potencjał do rozwoju w tym kierunku",
-        "podstawowa znajomość zagadnień",
-        "umiejętność zbierania, analizowania i strukturyzowania wymagań"
-      ],
-      "summary_offers": [
-        "elastyczne formy zatrudnienia (",
-        ") oraz elastyczne godziny pracy",
-        "benefity i dodatkowe aktywności"
-      ],
-      "required_skills": [
-        "ITIL",
-        "ITSM",
-        "Jira"
-      ],
-      "fit_notes": {
-        "direction": "Business Analysis",
-        "evidence": "projects",
-        "matches": [
-          "Python & automation: workflow, automatyzacja"
-        ],
-        "concerns": [
-          "Asks for 2 years; CV has only project experience here"
-        ],
-        "tier_reason": "Capped at 52: Asks for 2 years; CV has only project experience here.",
-        "suggested_cv": "Data & Operations"
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-02T14:56:19.483329+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
-    },
-    {
-      "id": "b8b300d60c2007f6",
-      "title": "Junior Data Engineer (Databricks)",
-      "company": "N-iX",
-      "location": "Kraków, Wrocław, Warszawa",
-      "url": "https://justjoin.it/job-offer/n-ix-junior-data-engineer-databricks--krakow-data",
-      "apply_url": "https://careers.n-ix.com/jobs/4545442101-data-management-junior/?utm_source=Rocketjobs.pl&utm_medium=referral&utm_campaign=Rocketjobspl.skads",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T10:40:00.7752657Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Design, build, and maintain data pipelines using Python/PySpark; Collaborate with an international team to develop scalable data solutions; Conduct in-depth analysis and debugging of system bugs (Tier 2) | What they expect: Coding experience in Python, particularly in delivering/maintaining data pipelines and troubleshooting code-based bugs; Experience working with large codebases, working with an IDE and Git; Structured approach to data insights and diagnostic skills for data-related issues.o data insights",
-      "summary_tasks": [
-        "Design, build, and maintain data pipelines using Python/PySpark",
-        "Collaborate with an international team to develop scalable data solutions",
-        "Conduct in-depth analysis and debugging of system bugs (Tier 2)"
-      ],
-      "summary_expectations": [
-        "Coding experience in Python, particularly in delivering/maintaining data pipelines and troubleshooting code-based bugs",
-        "Experience working with large codebases, working with an IDE and Git",
-        "Structured approach to data insights and diagnostic skills for data-related issues.o data insights"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "Azure",
-        "Databricks",
-        "Python",
-        "Snowflake",
-        "SQL"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-14T14:40:32.173070+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия соответствует некоторым навыкам кандидата, но требуется дополнительная информация о требуемых навыках и опыте",
-        "strengths": [
-          "Опыт работы с Python",
-          "Знание SQL/PostgreSQL",
-          "Опыт работы с данными и анализом"
-        ],
-        "gaps": [
-          "Нет прямого опыта работы с Databricks",
-          "Нет информации о навыках работы с PySpark"
-        ],
-        "verify": "Требуется дополнительная информация о требуемых навыках и опыте",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "8f3ce38d1cf7724a99fe9c89"
     },
     {
       "id": "a23f8465eb5a16ae",
@@ -1863,6 +2123,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-14T07:43:45.504155+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Соответствие требуемой локации и опыта, наличие подтвержденных навыков Python, SQL и аналитического подхода",
@@ -1879,198 +2140,6 @@
         "suggested_cv": "Automation"
       },
       "ai_review_fingerprint": "7d2d9cffd35d50eaee021e26"
-    },
-    {
-      "id": "a6042b19f31539e7",
-      "title": "Data Entry Clerk (EU public)",
-      "company": "Britenet",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/britenet-data-entry-clerk-eu-public--warszawa-data-5b4f5f8b",
-      "apply_url": "https://britenet.eu/job-offer-external/data-entry-clerk-eu-public/justjoinit",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T11:45:05.3997779Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 2,
-      "summary": "What you'll do: We are looking for a detail-oriented and well-organised Data Entry Clerk to support a project for Frontex; Good knowledge of MS Office and office automation tools; Managing correspondence and maintaining correspondence registers | What they expect: Higher education (minimum Bachelor's degree); Very good knowledge of SharePoint and platform-specific tools; Experience in preparing and distributing system or project documentation; Good knowledge of MS Office and office automation tools",
-      "summary_tasks": [
-        "We are looking for a detail-oriented and well-organised Data Entry Clerk to support a project for Frontex",
-        "Good knowledge of MS Office and office automation tools",
-        "Managing correspondence and maintaining correspondence registers"
-      ],
-      "summary_expectations": [
-        "Higher education (minimum Bachelor's degree)",
-        "Very good knowledge of SharePoint and platform-specific tools",
-        "Experience in preparing and distributing system or project documentation",
-        "Good knowledge of MS Office and office automation tools"
-      ],
-      "summary_offers": [],
-      "required_skills": [
-        "SharePoint"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-30T07:50:33.935003+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия требует опыта работы 2 года, но профиль кандидата не подтверждает коммерческий опыт разработчика Python в течение 3+ лет. Однако, есть опыт работы с автоматизацией и обработкой данных, что может быть полезным для должности Data Entry Clerk.",
-        "strengths": [
-          "Опыт работы с автоматизацией и обработкой данных",
-          "Знание MS Office и office automation tools"
-        ],
-        "gaps": [
-          "Недостаточный коммерческий опыт разработчика Python",
-          "Отсутствие опыта работы с SharePoint и платформенно-специфичными инструментами"
-        ],
-        "verify": "Опыт работы и навыки кандидата должны быть проверены и подтверждены",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "56cab5896ad3fa2818667419"
-    },
-    {
-      "id": "4f5fc8c87316c345",
-      "title": "Junior Salesforce Consultant",
-      "company": "Enxoo",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/enxoo-junior-salesforce-consultant-warszawa-analytics-5c5ba615",
-      "apply_url": "https://enxoo.my.salesforce-sites.com/recruit?announcementId=a0VRp00000AU4DL&p=justjoinIT",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-15T11:05:03.0795793Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: We support companies in their relations with customers, partners,; It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment; What you’ll be doing: Analyze and redesign business processes to enhance efficiency and effectiveness | What they expect: It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment; Proficient in IT project fulfillment methods and business process modeling; Enthusiastic about embracing new technologies and gaining diverse experiences | What they offer: Hybrid, or in our (pet-friendly)office – your choice; 💰 Bonuses and Flexibility: Rewards and flexible hours; 🌼 Well-being Matters: Healthcare, sports, and insurance",
-      "summary_tasks": [
-        "We support companies in their relations with customers, partners,",
-        "It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment",
-        "What you’ll be doing: Analyze and redesign business processes to enhance efficiency and effectiveness"
-      ],
-      "summary_expectations": [
-        "It's a chance to gain valuable experience in the world’s leading CRM ecosystem and to develop professionally in a vibrant, supportive environment",
-        "Proficient in IT project fulfillment methods and business process modeling",
-        "Enthusiastic about embracing new technologies and gaining diverse experiences"
-      ],
-      "summary_offers": [
-        "Hybrid, or in our (pet-friendly)office – your choice",
-        "💰 Bonuses and Flexibility: Rewards and flexible hours",
-        "🌼 Well-being Matters: Healthcare, sports, and insurance"
-      ],
-      "required_skills": [
-        "Salesforce",
-        "Business Analysis",
-        "HTML",
-        "BPMN",
-        "Relacyjne Bazy Danych",
-        "CSS",
-        "JavaScript"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-15T17:25:31.519501+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "CHECK",
-        "explanation": "Вакансия соответствует некоторым критериям, но требует дополнительной информации для подтверждения соответствия опыта и навыков кандидата",
-        "strengths": [
-          "Опыт работы с CRM и бизнес-процессами",
-          "Знание SQL и PostgreSQL",
-          "Навыки анализа и оптимизации бизнес-процессов"
-        ],
-        "gaps": [
-          "Отсутствие прямого опыта работы с Salesforce",
-          "Недостаточная информация о навыках в области IT-проектов и бизнес-моделирования"
-        ],
-        "verify": "Требуется дополнительная информация о навыках и опыте кандидата в области Salesforce и IT-проектов",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "56cd70b93b1ed4a5ee6669fc"
-    },
-    {
-      "id": "3caf7a819049c7ca",
-      "title": "Junior .NET Engineer",
-      "company": "Next Technology Professionals",
-      "location": "Lublin, Warszawa, Kraków, Poznań, Gdańsk",
-      "url": "https://justjoin.it/job-offer/next-technology-professionals-junior-net-engineer-lublin-net",
-      "apply_url": "https://nexttechnology.traffit.com/public/an/0f4ca1402a179469638bbd227f0514bb6d332b7455413d3d",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Remote",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-15T07:40:03.4325162Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 2,
-      "summary": "What you'll do: Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora); Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania; Otwartości na współpracę w zwinnym środowisku (Scrum/Agile) oraz świetnych umiejętności komunikacyjnych | What they expect: 🚀 Zakres obowiązków: 📋 Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora); Zgłębianie specyfiki branży ubezpieczeniowej oraz nieustanne poszerzanie kompetencji programistycznych; Oczekujemy: 🎯 Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania | What they offer: Pełną swobodę w wyborze miejsca pracy (Home Office lub biuro w Lublinie); Zapewnione pełne wdrożenie w skomplikowaną domenę ubezpieczeniową z pomocą mentora; Konkurencyjny i elastyczny pakiet świadczeń dopasowany do indywidualnych potrzeb",
-      "summary_tasks": [
-        "Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora)",
-        "Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania",
-        "Otwartości na współpracę w zwinnym środowisku (Scrum/Agile) oraz świetnych umiejętności komunikacyjnych"
-      ],
-      "summary_expectations": [
-        "🚀 Zakres obowiązków: 📋 Aktywne programowanie i implementowanie nowych modułów (przy wsparciu doświadczonego mentora)",
-        "Zgłębianie specyfiki branży ubezpieczeniowej oraz nieustanne poszerzanie kompetencji programistycznych",
-        "Oczekujemy: 🎯 Około 1 do 2 lat doświadczenia komercyjnego w tworzeniu oprogramowania"
-      ],
-      "summary_offers": [
-        "Pełną swobodę w wyborze miejsca pracy (Home Office lub biuro w Lublinie)",
-        "Zapewnione pełne wdrożenie w skomplikowaną domenę ubezpieczeniową z pomocą mentora",
-        "Konkurencyjny i elastyczny pakiet świadczeń dopasowany do indywidualnych potrzeb"
-      ],
-      "required_skills": [
-        "C#",
-        ".Net",
-        "Visual Studio"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-15T17:25:31.519501+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия требует опыта работы с .NET, что не соответствует профилю кандидата, ориентированному на Python и автоматизацию",
-        "strengths": [
-          "Опыт работы с Python",
-          "Знания в области автоматизации и интеграции систем"
-        ],
-        "gaps": [
-          "Отсутствие опыта работы с .NET",
-          "Несовпадение технологических стеков"
-        ],
-        "verify": "Требуется проверка соответствия технологических стеков и опыта работы",
-        "suggested_cv": "Automation"
-      },
-      "ai_review_fingerprint": "18fdc081099f651d812deebe"
     },
     {
       "id": "9018bea1d26ef9e6",
@@ -2116,6 +2185,7 @@
       "interest_tags": [],
       "first_found_at": "2026-11-14T07:43:45.504155+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "CHECK",
         "explanation": "Нет четкого соответствия навыков кандидата и требований вакансии, необходимо дополнительное уточнение",
@@ -2131,56 +2201,6 @@
         "suggested_cv": "Data"
       },
       "ai_review_fingerprint": "e961aa995e0b92084e56acbb"
-    },
-    {
-      "id": "d1918751a2dc817f",
-      "title": "Junior LowCode Developer (K/M)",
-      "company": "Alior Bank SA",
-      "location": "Kraków, Warszawa, Gdańsk",
-      "url": "https://justjoin.it/job-offer/alior-bank-sa-junior-lowcode-developer-k-m--krakow-javascript",
-      "apply_url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=f009013df00e479e92fdff568916983b",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract",
-      "work_mode": "Hybrid",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-15T12:10:02.302359Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: Stanowisko: Junior LowCode Developer (K/M) Opis stanowiska Mamy dla Ciebie pracę, która polega na: projektowaniu i implementacji omnikanałowych procesów bankowych na platformie LowCode Eximee, integracji procesów z systemami wewnętrznymi i zewnętrznymi, współpracy z Product Ownerem; preferowana platforma Eximee, zna JavaScript w stopniu umożliwiającym tworzenie komponentów na platformie LowCode, rozumie zasady BPM, posiada doświadczenie w projektowaniu wniosków dla klientów, posiada doświadczenie w pracy w środowisku zwinnym | What they expect: posiada doświadczenie na stanowisku LowCode Dewelopera – preferowana platforma Eximee; posiada doświadczenie w projektowaniu wniosków dla klientów; posiada doświadczenie w pracy w środowisku zwinnym | What they offer: Oferujemy; pakiet benefitów m.in; Alior Uniwersytet – przestrzeń do rozwoju kompetencji zawodowych oraz personalnych",
-      "summary_tasks": [
-        "Stanowisko: Junior LowCode Developer (K/M) Opis stanowiska Mamy dla Ciebie pracę, która polega na: projektowaniu i implementacji omnikanałowych procesów bankowych na platformie LowCode Eximee, integracji procesów z systemami wewnętrznymi i zewnętrznymi, współpracy z Product Ownerem",
-        "preferowana platforma Eximee, zna JavaScript w stopniu umożliwiającym tworzenie komponentów na platformie LowCode, rozumie zasady BPM, posiada doświadczenie w projektowaniu wniosków dla klientów, posiada doświadczenie w pracy w środowisku zwinnym"
-      ],
-      "summary_expectations": [
-        "posiada doświadczenie na stanowisku LowCode Dewelopera – preferowana platforma Eximee",
-        "posiada doświadczenie w projektowaniu wniosków dla klientów",
-        "posiada doświadczenie w pracy w środowisku zwinnym"
-      ],
-      "summary_offers": [
-        "Oferujemy",
-        "pakiet benefitów m.in",
-        "Alior Uniwersytet – przestrzeń do rozwoju kompetencji zawodowych oraz personalnych"
-      ],
-      "required_skills": [
-        "Low-code development",
-        "Agile",
-        "Process design",
-        "JavaScript",
-        "BPM"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-10-01T06:55:02.951492+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
     },
     {
       "id": "f87fe97c17e0414f",
@@ -2225,131 +2245,8 @@
       },
       "interest_tags": [],
       "first_found_at": "2026-11-02T01:13:20.568059+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00"
-    },
-    {
-      "id": "a68e11decb391a2c",
-      "title": ".NET Developer (f/m)",
-      "company": "Netcompany",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/netcompany--net-developer-f-m--warszawa-net-a786a32a",
-      "apply_url": "https://smrtr.io/mtqgs",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T12:05:04.5306527Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 0,
-      "summary": "What you'll do: that match your interests and wishes; Participating alongside colleagues from across the company also creates a strong network and provides a solid foundation for your career at Netcompany, both professionally and socially; We actively promote an open and welcoming work culture that is built on collaboration and trust, and where there is always room for mutual sparring and support | What they expect: Produce high-quality design deliverables that describe how the solution will accommodate business and technical requirements; Work in an agile, international environment with experienced and skilled colleagues in Warsaw and Europe; Have at least 1 - 3 years of commercial .NET development experience after graduation | What they offer: Have at least 1 - 3 years of commercial .NET development experience after graduation; Familiar with various design, architectural patterns and modern system development; Access to the Benefit Platform (Medical Insurance, Life Insurance, Multisport card etc.)",
-      "summary_tasks": [
-        "that match your interests and wishes",
-        "Participating alongside colleagues from across the company also creates a strong network and provides a solid foundation for your career at Netcompany, both professionally and socially",
-        "We actively promote an open and welcoming work culture that is built on collaboration and trust, and where there is always room for mutual sparring and support"
-      ],
-      "summary_expectations": [
-        "Produce high-quality design deliverables that describe how the solution will accommodate business and technical requirements",
-        "Work in an agile, international environment with experienced and skilled colleagues in Warsaw and Europe",
-        "Have at least 1 - 3 years of commercial .NET development experience after graduation"
-      ],
-      "summary_offers": [
-        "Have at least 1 - 3 years of commercial .NET development experience after graduation",
-        "Familiar with various design, architectural patterns and modern system development",
-        "Access to the Benefit Platform (Medical Insurance, Life Insurance, Multisport card etc.)"
-      ],
-      "required_skills": [
-        "ASP.NET MVC",
-        "C#",
-        "English",
-        ".Net",
-        "JavaScript"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-16T07:47:07.229569+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия требует опыта работы с .NET, что не соответствует профилю кандидата, ориентированному на Python и автоматизацию",
-        "strengths": [],
-        "gaps": [
-          "Отсутствие опыта работы с .NET"
-        ],
-        "verify": "",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "252c1c0d9f94889ab3f3d593"
-    },
-    {
-      "id": "f36e593874da97ab",
-      "title": "Junior .NET Developer (f/m)",
-      "company": "Netcompany",
-      "location": "Warszawa",
-      "url": "https://justjoin.it/job-offer/netcompany-junior-net-developer-f-m--warszawa-net-42f45ff1",
-      "apply_url": "https://jobs.smartrecruiters.com/Netcompany1/743999990211583-junior-net-developer?trid=8387f7b9-5c1c-4fd3-965b-2d2d28e8612b",
-      "source": "justjoin.it",
-      "contract": "Umowa o pracę / Employment contract + B2B",
-      "work_mode": "Office",
-      "seniority": "junior",
-      "salary": "",
-      "published_at": "2026-11-14T12:30:09.0748846Z",
-      "fit_score": 0,
-      "match_level": "AI_REVIEW_PENDING",
-      "recommendation_tier": "POSSIBLE",
-      "experience_required_years": 1,
-      "summary": "What you'll do: We rely on one another and we develop quickly; Have you just finished your education or you have 0-1 year of software development experience after graduation?; Are you willing to develop your programming skills and face new IT challenges? | What they expect: Produce high-quality design deliverables that describe how the solution will accommodate business and technical requirements; Work in an agile, international environment with experienced and skilled colleagues in Warsaw and Europe; Have you just finished your education or you have 0-1 year of software development experience after graduation? | What they offer: Access to the Benefit Platform (Medical Insurance, Life Insurance, Multisport card, etc.); Professional IT skills development support; Internal training at the Netcompany Academy",
-      "summary_tasks": [
-        "We rely on one another and we develop quickly",
-        "Have you just finished your education or you have 0-1 year of software development experience after graduation?",
-        "Are you willing to develop your programming skills and face new IT challenges?"
-      ],
-      "summary_expectations": [
-        "Produce high-quality design deliverables that describe how the solution will accommodate business and technical requirements",
-        "Work in an agile, international environment with experienced and skilled colleagues in Warsaw and Europe",
-        "Have you just finished your education or you have 0-1 year of software development experience after graduation?"
-      ],
-      "summary_offers": [
-        "Access to the Benefit Platform (Medical Insurance, Life Insurance, Multisport card, etc.)",
-        "Professional IT skills development support",
-        "Internal training at the Netcompany Academy"
-      ],
-      "required_skills": [
-        "ASP.NET MVC",
-        "ASP.NET Core",
-        "English",
-        "ASP.NET Web API",
-        "WCF"
-      ],
-      "fit_notes": {
-        "direction": "AI-first / awaiting CV assessment",
-        "tier_reason": "The local semantic model found transferable CV evidence. Employer duties were retrieved; Cloudflare AI must still judge the professional fit. This is not verified APPLY or proof of education/platform requirements.",
-        "confirmed": "UoP/location/experience hard gate and employer task evidence",
-        "pending": "Independent AI fit assessment (not APPLY)",
-        "score_is_preliminary": true
-      },
-      "interest_tags": [],
-      "first_found_at": "2026-11-16T07:47:07.229569+00:00",
-      "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
-      "ai_review": {
-        "verdict": "SKIP",
-        "explanation": "Вакансия требует разработчика на .NET, что не соответствует профилю кандидата, ориентированному на Python и автоматизацию",
-        "strengths": [],
-        "gaps": [
-          "Навыки разработки на .NET"
-        ],
-        "verify": "Требуемые навыки разработки на .NET",
-        "suggested_cv": "General"
-      },
-      "ai_review_fingerprint": "dd426d50aa9d4ce8e22b1143"
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00"
     },
     {
       "id": "56b293818d75896c",
@@ -2402,6 +2299,7 @@
       ],
       "first_found_at": "2026-11-13T19:42:36.511818+00:00",
       "source_last_seen_at": "2026-11-16T07:47:07.229569+00:00",
+      "source_unverified_since": "2026-11-17T07:29:32.510679+00:00",
       "ai_review": {
         "verdict": "APPLY",
         "explanation": "Вакансия соответствует профилю кандидата, включая опыт работы с автоматизацией и интеграцией систем, а также навыки в области Python и SQL. Компания DANONE предлагает гибкий график работы и контракт на работу, что соответствует ограничениям кандидата.",
